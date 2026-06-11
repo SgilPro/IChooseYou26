@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "docs-site/**"
+      - "app/**"
       - ".github/workflows/deploy-docs.yml"
   workflow_dispatch:
 
@@ -26,12 +27,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build web app
+        working-directory: app
+        run: |
+          npm ci
+          npm run build
+      - name: Stage site (docs + app)
+        run: |
+          rm -rf _site
+          cp -r docs-site _site
+          mkdir -p _site/app
+          cp -r app/dist/* _site/app/
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload docs-site as Pages artifact
+      - name: Upload site as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs-site
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
