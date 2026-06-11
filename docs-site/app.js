@@ -11,7 +11,13 @@ const PAGES = [
   {
     group: "規劃", items: [
       { id: "roadmap", title: "藍圖與方向", file: "content/roadmap.md" },
+      { id: "future-roadmap", title: "未來功能藍圖", file: "content/future-roadmap.md" },
       { id: "how-it-works", title: "運作原理（白話版）", file: "content/how-it-works.md" },
+    ]
+  },
+  {
+    group: "領域", items: [
+      { id: "vgc-landscape", title: "VGC 生態現況", file: "content/vgc-landscape.md" },
     ]
   },
   {
