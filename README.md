@@ -22,12 +22,17 @@ ditto/                  # Ditto 的人格、運作節奏、技能、學習反思
   routine.md            #   自動化運作節奏
   skills.md             #   技能來源與學習方法
   reflections/          #   學習反思區（每日 / 每週 meta 反思）
-research/               # 兩條研究主線
+research/               # 研究主線
   line1-tech-feasibility/   # 產品線：技術可行性 + user flow
-  line2-domain-learning/    # 領域線：如何學會 VGC 雙打知識
+  line2-domain-learning/    # 領域線：學會 VGC 雙打知識 + 即時生態追蹤
+  line3-competitor-tools/   # 競品工具拆解 + 未來功能藍圖
+app/                    # Game Log 工具原型（React + TS + Vite）
+server/                 # 本地 yt-dlp 後端（YouTube 來源，自用）
 docs-site/              # 對外 live docs 靜態網站（非技術人可讀）
 scripts/                # cron routine 提示詞與排程說明
-main-task.md            # 第一擁有者的原始任務描述
+goal/                   # 第一擁有者的 goal 檔 + Ditto 的處理進度
+  YYMMDD_序號.slug.md   #   goal 檔命名格式（序號在前、主題在後）
+  _progress.md          #   Ditto 的 goal 處理進度追蹤（底線開頭排序置頂）
 ```
 
 ## 兩條主線
