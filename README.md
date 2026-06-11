@@ -4,6 +4,11 @@
 
 長期願景：成為類似 [pikalytics](https://www.pikalytics.com/) / [serebii](https://www.serebii.net/) 的完整對戰工具站，但更貼近實戰復盤。
 
+## 線上連結
+
+- **Live Docs（產品調研與規劃）**：https://sgilpro.github.io/IChooseYou26/
+- **Game Log 工具原型**：https://sgilpro.github.io/IChooseYou26/app/
+
 ## 兩位擁有者
 
 - **第一擁有者**：人類，決定方向與最終取捨。
