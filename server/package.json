@@ -1,0 +1,14 @@
+{
+  "name": "vgc-game-log-server",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "本地後端：包 yt-dlp 提供『貼 YouTube URL → 取得 mp4』給前端 pipeline。僅供第一擁有者本機自用。",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

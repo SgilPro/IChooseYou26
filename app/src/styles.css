@@ -49,4 +49,28 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .ev-meta .t { font-weight: 700; color: var(--accent-2); }
 .ev-meta .conf { font-size: 12px; color: var(--ink-soft); }
 
+.region-tag { font-size: 12px; background: #2a2d55; color: var(--accent-2); padding: 2px 8px; border-radius: 999px; }
+.src-label { color: var(--accent-2); font-size: 14px; }
+.src-divider { margin: 14px 0 8px; font-size: 13px; color: var(--ink-soft); border-top: 1px solid var(--border); padding-top: 12px; }
+.yt-url { width: 100%; max-width: 520px; }
+
+/* ROI crop 介面 */
+.roi-stage { position: relative; width: 100%; max-width: 720px; margin: 10px 0; border: 1px solid var(--border);
+  border-radius: 10px; overflow: hidden; user-select: none; touch-action: none; background: #0c0d1c; }
+.roi-stage img { display: block; width: 100%; height: auto; pointer-events: none; }
+.roi-stage.empty { display: flex; align-items: center; justify-content: center; min-height: 160px; color: var(--ink-soft); }
+.roi-rect { position: absolute; border: 2px solid var(--accent-2); background: rgba(86,208,200,.12); cursor: move; box-sizing: border-box; }
+.roi-rect.sel { border-color: var(--accent); background: rgba(139,108,255,.18); }
+.roi-rect.pending { border-style: dashed; background: rgba(139,108,255,.1); pointer-events: none; }
+.roi-tag { position: absolute; top: -1px; left: -1px; font-size: 11px; background: var(--accent-2); color: #04261f;
+  padding: 1px 6px; border-radius: 0 0 6px 0; white-space: nowrap; }
+
+.roi-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
+.roi-table th, .roi-table td { border: 1px solid var(--border); padding: 4px 6px; text-align: center; }
+.roi-table th { background: #14162e; color: var(--ink-soft); font-weight: 600; }
+.roi-table tr.sel { background: rgba(139,108,255,.12); }
+.roi-table input[type="text"], .roi-table input:not([type]) { width: 84px; }
+.roi-table input[type="number"] { width: 64px; }
+.roi-table input, .roi-table select { padding: 4px 6px; }
+
 .app-foot { color: var(--ink-soft); font-size: 12px; text-align: center; margin-top: 30px; }

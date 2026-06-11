@@ -1,6 +1,8 @@
-// 把 OCR 文字粗略解析成「對戰事件」。
+// 把 OCR 文字粗略解析成「對戰事件」，並標記它來自哪一塊 ROI。
 // 研究（03/04）建議：不要純信 OCR，要比對固定字典做模糊校正。
-// 這裡是原型版的規則式解析——涵蓋常見事件類型，之後可接更完整的字典與狀態機（04-log-structuring）。
+// 這裡是原型版的規則式解析——之後可接更完整的字典與狀態機（04-log-structuring）。
+
+import type { RegionKind } from "./regions";
 
 export type EventKind =
   | "ability" // 特性發動
@@ -9,19 +11,22 @@ export type EventKind =
   | "faint" // 倒下
   | "status" // 狀態變化
   | "weather_terrain" // 天氣 / 場地
+  | "hp" // HP 數值
   | "unknown";
 
 export interface BattleEvent {
   id: string;
   t: number; // 影片時間（秒）
   kind: EventKind;
+  region: string; // 來源 ROI 標籤
+  regionKind: RegionKind; // 來源 ROI 類型
   text: string; // 顯示用文字（OCR 原文或正規化後）
   raw: string; // OCR 原始文字
   confidence: number;
   thumb: string;
 }
 
-// 多語關鍵字（繁中 / 英 / 日 常見字樣），用來粗分事件類型。
+// 多語關鍵字（繁中 / 英 / 日 常見字樣），用來粗分 gamelog 區的事件類型。
 const RULES: { kind: EventKind; keywords: string[] }[] = [
   { kind: "ability", keywords: ["特性", "Ability", "とくせい", "威嚇", "Intimidate", "不服輸", "Defiant"] },
   { kind: "faint", keywords: ["倒下", "fainted", "たおれた", "瀕死"] },
@@ -31,7 +36,7 @@ const RULES: { kind: EventKind; keywords: string[] }[] = [
   { kind: "move", keywords: ["使用了", "used", "のこうげき", "攻擊"] },
 ];
 
-function classify(text: string): EventKind {
+function classifyText(text: string): EventKind {
   const lower = text.toLowerCase();
   for (const rule of RULES) {
     if (rule.keywords.some((k) => text.includes(k) || lower.includes(k.toLowerCase()))) {
@@ -41,6 +46,21 @@ function classify(text: string): EventKind {
   return "unknown";
 }
 
+/** 依 ROI 類型 + 文字內容決定事件類型 */
+function classify(regionKind: RegionKind, text: string): EventKind {
+  switch (regionKind) {
+    case "ability":
+      return "ability";
+    case "hp_opp":
+    case "hp_self":
+      return "hp";
+    case "gamelog":
+    case "other":
+    default:
+      return classifyText(text);
+  }
+}
+
 export const KIND_LABEL: Record<EventKind, string> = {
   ability: "特性發動",
   move: "使用招式",
@@ -48,24 +68,29 @@ export const KIND_LABEL: Record<EventKind, string> = {
   faint: "倒下",
   status: "狀態變化",
   weather_terrain: "天氣 / 場地",
+  hp: "HP 數值",
   unknown: "未分類",
 };
 
 let counter = 0;
-export function makeEvent(
-  t: number,
-  rawText: string,
-  confidence: number,
-  thumb: string
-): BattleEvent {
-  const text = rawText.replace(/\s+/g, " ").trim();
+export function makeEvent(args: {
+  t: number;
+  rawText: string;
+  confidence: number;
+  thumb: string;
+  region: string;
+  regionKind: RegionKind;
+}): BattleEvent {
+  const text = args.rawText.replace(/\s+/g, " ").trim();
   return {
     id: `ev_${counter++}`,
-    t,
-    kind: classify(text),
+    t: args.t,
+    kind: classify(args.regionKind, text),
+    region: args.region,
+    regionKind: args.regionKind,
     text,
-    raw: rawText,
-    confidence,
-    thumb,
+    raw: args.rawText,
+    confidence: args.confidence,
+    thumb: args.thumb,
   };
 }

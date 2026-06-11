@@ -11,13 +11,27 @@ export interface Frame {
   canvas: HTMLCanvasElement;
 }
 
+/** 要保留的時間段（秒）。整段擷取只發生在這些範圍內。 */
+export interface Segment {
+  start: number;
+  end: number;
+}
+
 export interface ExtractOptions {
   /** 每隔幾秒抽一張，預設 1 秒 */
   intervalSec?: number;
   /** 縮圖寬度（等比縮放），預設 240 */
   thumbWidth?: number;
+  /** 只擷取這些時間段內的影格；省略或空陣列代表整支影片 */
+  segments?: Segment[];
   /** 進度回呼 0~1 */
   onProgress?: (p: number) => void;
+}
+
+/** 判斷時間 t 是否落在任一保留段內 */
+function inSegments(t: number, segments?: Segment[]): boolean {
+  if (!segments || segments.length === 0) return true;
+  return segments.some((s) => t >= s.start && t <= s.end);
 }
 
 /** 載入影片檔成可 seek 的 <video> 元素 */
@@ -63,7 +77,9 @@ export async function extractFrames(
 
   const frames: Frame[] = [];
   const times: number[] = [];
-  for (let t = 0; t < duration; t += interval) times.push(t);
+  for (let t = 0; t < duration; t += interval) {
+    if (inSegments(t, opts.segments)) times.push(t);
+  }
 
   for (let i = 0; i < times.length; i++) {
     const t = times[i];
@@ -87,4 +103,14 @@ export async function extractFrames(
   }
 
   return frames;
+}
+
+/** 從已載入的影片抓單一時間點的全解析度影格（給 ROI crop 介面取一張參考圖用）。 */
+export async function captureFrame(video: HTMLVideoElement, t: number): Promise<HTMLCanvasElement> {
+  await seek(video, t);
+  const c = document.createElement("canvas");
+  c.width = video.videoWidth;
+  c.height = video.videoHeight;
+  c.getContext("2d")!.drawImage(video, 0, 0);
+  return c;
 }
