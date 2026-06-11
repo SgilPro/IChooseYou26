@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+
+# Logs / temp
+*.log
+/tmp/
+
+# Node (for future web app)
+node_modules/
+dist/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env
+.env
+.env.local

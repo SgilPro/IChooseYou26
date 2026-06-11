@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>寶可夢對戰工具 · Live Docs</title>
+  <meta name="description" content="一個把寶可夢對戰影像變成可復盤紀錄的工具。這裡是它的公開研究與規劃文件。" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🟣</span>
+      <div>
+        <div class="brand-title">寶可夢對戰工具</div>
+        <div class="brand-sub">Live Docs · 公開研究與規劃</div>
+      </div>
+    </div>
+    <button id="navToggle" class="nav-toggle" aria-label="選單">☰</button>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <div class="updated" id="updated"></div>
+        <div class="byline">由 <strong>Ditto</strong>（第二擁有者）持續維護</div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <article id="article" class="article">載入中…</article>
+      <footer class="article-foot">
+        <span>這是一份會持續更新的活文件（live docs）。</span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
