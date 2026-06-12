@@ -50,7 +50,8 @@
 - [ ] **OCR 原型**：50～100 張真實對戰截圖，比較 Tesseract.js vs Google Vision 在訊息框的準確度。（最高優先）
 - [ ] **擷取原型**：OBS 虛擬攝影機 → getUserMedia → canvas → 感知雜湊過濾，跑一場真實對戰看留下 / 漏掉多少。
 - [ ] 截圖間隔多寬最划算？
-- [ ] 雲端 routine 升級（讓自動化不依賴本機 session）。
+- [ ] **Pokémon Champions 對戰 UI**：賽場正轉到新平台，需取得 Champions 對戰畫面，確認底部訊息框 / HP 位置，必要時建 Champions 版 ROI 預設（我們的多塊可自訂 ROI 已能支援）。
+- [x] 雲端 routine 升級（已建立每日 / 每週獨立執行的雲端 routine）。
 
 ## 接下來
 

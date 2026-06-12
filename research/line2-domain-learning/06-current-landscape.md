@@ -162,3 +162,12 @@
 ## 一句話現況
 
 > **2026-06-12**：賽場正從 **Pokémon Scarlet/Violet（Reg I，雙限制傳說）** 過渡到專用 App **Pokémon Champions（Reg M-A，無傳說、Mega 回歸、每場限 1 次 Mega）**。眼前最大賽事是 **NAIC New Orleans（6/12–14，Champions M-A）**，賽季終點是 **Worlds：San Francisco，8/28–30（Champions）**。賽果看 **RK9.gg / Limitless / Pikalytics**，行事曆與規則看 **Victory Road + 官方 pokemon.com**。
+
+---
+
+## 每日核對紀錄（daily checks）
+
+- **2026-06-12（daily routine）**：查證 watchlist A 區塊最高優先問題「M-A 之後接哪個格式」。
+  - **結論（信心高）**：Bulbapedia「Regulation Sets in Pokémon Champions」確認 **M-A 是目前唯一公布的 Regulation Set**（active 2026-04-08 02:00 UTC ～ 2026-06-17 01:59 UTC，共 69 天），**M-A 之後（6/17 起）的格式尚未公布**。M-A 首場線下賽為 2026 Indianapolis Regional（5/30–31）。
+  - **待跟進**：6/17 前後官方應公布接續格式，屆時更新本檔與 watchlist。
+  - 來源：[Bulbapedia — Regulation Sets in Pokémon Champions](https://bulbapedia.bulbagarden.net/wiki/Regulation_Sets_in_Pok%C3%A9mon_Champions)、[Victory Road — Champions Regulations](https://victoryroad.pro/champions-regulations/)、[Bulbagarden 公告串](https://bulbagarden.net/threads/pokemon-champions-launches-new-ruleset-for-competitive-vgc-regulation-set-m-a-runs-until-june-17th-2026.310333/)。
