@@ -73,4 +73,11 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .roi-table input[type="number"] { width: 64px; }
 .roi-table input, .roi-table select { padding: 4px 6px; }
 
+.entities { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.entity { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); }
+.entity.species { background: #1d3a2e; color: #8be0b0; }
+.entity.move { background: #1d2a44; color: #8bb6ff; }
+.entity.ability { background: #38264a; color: #c79bff; }
+.entity.item { background: #44391d; color: #e0c98b; }
+
 .app-foot { color: var(--ink-soft); font-size: 12px; text-align: center; margin-top: 30px; }

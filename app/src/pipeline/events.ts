@@ -3,6 +3,7 @@
 // 這裡是原型版的規則式解析——之後可接更完整的字典與狀態機（04-log-structuring）。
 
 import type { RegionKind } from "./regions";
+import { detectEntities, type DetectedEntity } from "./dict";
 
 export type EventKind =
   | "ability" // 特性發動
@@ -24,6 +25,7 @@ export interface BattleEvent {
   raw: string; // OCR 原始文字
   confidence: number;
   thumb: string;
+  entities: DetectedEntity[]; // 字典校正偵測到的寶可夢/招式/特性/道具
 }
 
 // 多語關鍵字（繁中 / 英 / 日 常見字樣），用來粗分 gamelog 區的事件類型。
@@ -82,6 +84,9 @@ export function makeEvent(args: {
   regionKind: RegionKind;
 }): BattleEvent {
   const text = args.rawText.replace(/\s+/g, " ").trim();
+  // HP 區是數字，不跑字典；其餘區做實體偵測（英文名稱）。
+  const entities =
+    args.regionKind === "hp_opp" || args.regionKind === "hp_self" ? [] : detectEntities(text);
   return {
     id: `ev_${counter++}`,
     t: args.t,
@@ -92,5 +97,6 @@ export function makeEvent(args: {
     raw: args.rawText,
     confidence: args.confidence,
     thumb: args.thumb,
+    entities,
   };
 }

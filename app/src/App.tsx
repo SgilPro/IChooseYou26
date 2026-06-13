@@ -3,6 +3,7 @@ import { loadVideo, extractFrames, type Frame, type Segment } from "./pipeline/f
 import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
+import { ensureDict } from "./pipeline/dict";
 import { defaultRegions, type Region } from "./pipeline/regions";
 import { checkBackend, fetchYoutube } from "./pipeline/youtube";
 import RegionEditor from "./RegionEditor";
@@ -108,6 +109,7 @@ export default function App() {
 
       // OCR：對每張關鍵影格的每一塊「ocr=true」ROI 做辨識，產生標記來源的事件。
       setStage("ocr");
+      await ensureDict(); // 預載名稱字典（動態 import），供事件做模糊校正
       const ocrRegions = regions.filter((r) => r.ocr);
       const out: BattleEvent[] = [];
       for (let i = 0; i < kept.length; i++) {
@@ -324,6 +326,15 @@ export default function App() {
                     <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
                   </div>
                   <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
+                  {ev.entities.length > 0 && (
+                    <div className="entities">
+                      {ev.entities.map((en) => (
+                        <span key={en.type + en.name} className={"entity " + en.type} title={`${en.type} · 相似度 ${Math.round(en.score * 100)}`}>
+                          {en.name}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </li>
             ))}
