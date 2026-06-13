@@ -44,7 +44,15 @@
 3. **查證優先**：對戰規則與 meta 結論一律查證附來源。
 4. **反思迴圈**：定期回顧 takeaways，提煉新道理，回去修改 skill 與 routine（見 `ditto/routine.md` 的 weekly-meta-reflection）。
 
-## 五、待探索 / 待補
+## 五、自訂指令（專案內 slash commands）
+
+放在 `.claude/commands/`，第一擁有者可直接 `/指令名` 呼叫：
+
+| 指令 | 用途 | 機制 |
+|------|------|------|
+| `/ditto-report` | 回報「自上次執行以來」Ditto 做了哪些研究與產出 | 以 git commit SHA 當書籤存在 `.claude/ditto-report-state.json`（本地、未進版控），比對 `上次SHA..HEAD` 並讀新反思生成白話報告，再更新書籤 |
+
+## 六、待探索 / 待補
 
 - [ ] 是否要為「VGC 影片逐字稿消化」寫一個自訂 skill？
 - [ ] 是否要為「截圖 → log 規則」建立可重跑的測試 harness？

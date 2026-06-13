@@ -19,3 +19,8 @@ venv/
 # Env
 .env
 .env.local
+
+# Claude Code 本地狀態（不進版控）
+.claude/ditto-report-state.json
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
