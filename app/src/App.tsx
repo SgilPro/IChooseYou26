@@ -116,7 +116,8 @@ export default function App() {
         setProgress((i + 1) / kept.length);
         for (const r of ocrRegions) {
           const crop = cropROI(f.canvas, r);
-          const { text, confidence } = await ocrCanvas(crop, lang);
+          const numeric = r.kind === "hp_opp" || r.kind === "hp_self";
+          const { text, confidence } = await ocrCanvas(crop, lang, { numeric });
           if (text && text.replace(/\s/g, "").length >= 2 && confidence >= minConfidence) {
             out.push(
               makeEvent({ t: f.t, rawText: text, confidence, thumb: f.thumb, region: r.label, regionKind: r.kind })
