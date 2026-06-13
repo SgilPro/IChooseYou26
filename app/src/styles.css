@@ -50,6 +50,11 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .ev-meta .conf { font-size: 12px; color: var(--ink-soft); }
 
 .region-tag { font-size: 12px; background: #2a2d55; color: var(--accent-2); padding: 2px 8px; border-radius: 999px; }
+.turn-group { margin: 10px 0 18px; }
+.turn-head { margin: 0 0 8px; font-size: 15px; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 10px; }
+.turn-head .hint { font-weight: 400; }
+.turn-edit { flex-direction: row; align-items: center; gap: 4px; font-size: 12px; }
+.turn-edit input { width: 48px; }
 .src-label { color: var(--accent-2); font-size: 14px; }
 .src-divider { margin: 14px 0 8px; font-size: 13px; color: var(--ink-soft); border-top: 1px solid var(--border); padding-top: 12px; }
 .yt-url { width: 100%; max-width: 520px; }

@@ -18,6 +18,7 @@ export type EventKind =
 export interface BattleEvent {
   id: string;
   t: number; // 影片時間（秒）
+  turn: number; // 所屬回合（0 = 選出/先發階段；由 turns.ts 推斷，可人工修正）
   kind: EventKind;
   region: string; // 來源 ROI 標籤
   regionKind: RegionKind; // 來源 ROI 類型
@@ -90,6 +91,7 @@ export function makeEvent(args: {
   return {
     id: `ev_${counter++}`,
     t: args.t,
+    turn: 0,
     kind: classify(args.regionKind, text),
     region: args.region,
     regionKind: args.regionKind,

@@ -4,6 +4,7 @@ import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
 import { ensureDict } from "./pipeline/dict";
+import { assignTurns, groupByTurn } from "./pipeline/turns";
 import { defaultRegions, type Region } from "./pipeline/regions";
 import { checkBackend, fetchYoutube } from "./pipeline/youtube";
 import {
@@ -21,6 +22,7 @@ export default function App() {
   const [threshold, setThreshold] = useState(8);
   const [lang, setLang] = useState("eng");
   const [minConfidence, setMinConfidence] = useState(0);
+  const [turnGapSec, setTurnGapSec] = useState(12);
 
   const [regions, setRegions] = useState<Region[]>(defaultRegions());
   const [segments, setSegments] = useState<Segment[]>([]);
@@ -194,8 +196,8 @@ export default function App() {
           }
         }
       }
-      out.sort((a, b) => a.t - b.t);
-      setEvents(out);
+      const grouped = assignTurns(out, { gapSec: turnGapSec });
+      setEvents(grouped);
       setStage("done");
       setStatus(
         `完成：從 ${frames.length} 張影格留下 ${kept.length} 張關鍵影格，辨識出 ${out.length} 個事件。`
@@ -211,6 +213,9 @@ export default function App() {
   }
   function deleteEvent(id: string) {
     setEvents((evs) => evs.filter((e) => e.id !== id));
+  }
+  function regroupTurns() {
+    setEvents((evs) => assignTurns(evs, { gapSec: turnGapSec }));
   }
   function exportJson() {
     const blob = new Blob([JSON.stringify(events, null, 2)], { type: "application/json" });
@@ -410,43 +415,63 @@ export default function App() {
               <button onClick={exportJson}>匯出 JSON</button>
             </div>
           </div>
-          <p className="hint">機器產出的草稿。請校正分類與文字，刪掉雜訊。每個事件標有來源 ROI。</p>
-          <ul className="timeline">
-            {events.map((ev) => (
-              <li key={ev.id} className="event">
-                <img src={ev.thumb} alt="" className="thumb" />
-                <div className="ev-body">
-                  <div className="ev-meta">
-                    <span className="t">{ev.t.toFixed(1)}s</span>
-                    <span className="region-tag">{ev.region}</span>
-                    <select value={ev.kind}
-                      onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
-                      {Object.entries(KIND_LABEL).map(([k, label]) => (
-                        <option key={k} value={k}>{label}</option>
-                      ))}
-                    </select>
-                    <span className="conf">信心 {Math.round(ev.confidence)}</span>
-                    <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
-                  </div>
-                  <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
-                  {ev.entities.length > 0 && (
-                    <div className="entities">
-                      {ev.entities.map((en) => (
-                        <span key={en.type + en.name} className={"entity " + en.type} title={`${en.type} · 相似度 ${Math.round(en.score * 100)}`}>
-                          {en.name}
-                        </span>
-                      ))}
+          <p className="hint">機器產出的草稿，依推斷的回合分組。請校正分類/文字/回合，刪掉雜訊。每個事件標有來源 ROI。</p>
+          <div className="row">
+            <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
+              回合間隔門檻（秒）
+              <input type="number" min={1} value={turnGapSec} onChange={(e) => setTurnGapSec(Number(e.target.value))} />
+            </label>
+            <button onClick={regroupTurns}>重新分回合</button>
+            <span className="hint">偵測到「Turn/回合」字樣時以它為準，否則用間隔推斷；可手動改每事件的回合</span>
+          </div>
+          {groupByTurn(events).map((g) => (
+            <div key={g.turn} className="turn-group">
+              <h3 className="turn-head">
+                {g.turn === 0 ? "選出 / 先發" : `回合 ${g.turn}`}
+                <span className="hint"> · {g.events.length} 事件</span>
+              </h3>
+              <ul className="timeline">
+                {g.events.map((ev) => (
+                  <li key={ev.id} className="event">
+                    <img src={ev.thumb} alt="" className="thumb" />
+                    <div className="ev-body">
+                      <div className="ev-meta">
+                        <span className="t">{ev.t.toFixed(1)}s</span>
+                        <span className="region-tag">{ev.region}</span>
+                        <label className="turn-edit">回合
+                          <input type="number" min={0} value={ev.turn}
+                            onChange={(e) => updateEvent(ev.id, { turn: Number(e.target.value) })} />
+                        </label>
+                        <select value={ev.kind}
+                          onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
+                          {Object.entries(KIND_LABEL).map(([k, label]) => (
+                            <option key={k} value={k}>{label}</option>
+                          ))}
+                        </select>
+                        <span className="conf">信心 {Math.round(ev.confidence)}</span>
+                        <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
+                      </div>
+                      <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
+                      {ev.entities.length > 0 && (
+                        <div className="entities">
+                          {ev.entities.map((en) => (
+                            <span key={en.type + en.name} className={"entity " + en.type} title={`${en.type} · 相似度 ${Math.round(en.score * 100)}`}>
+                              {en.name}
+                            </span>
+                          ))}
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ul>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </section>
       )}
 
       <footer className="app-foot">
-        原型 v0.0.2 · 全在瀏覽器執行，影片不會上傳 · 對戰知識與規則持續由 Ditto 學習中
+        原型 v0.0.3 · 全在瀏覽器執行，影片不會上傳 · 對戰知識與規則持續由 Ditto 學習中
       </footer>
     </div>
   );
