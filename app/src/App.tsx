@@ -6,6 +6,10 @@ import { makeEvent, KIND_LABEL, type BattleEvent, type EventKind } from "./pipel
 import { ensureDict } from "./pipeline/dict";
 import { defaultRegions, type Region } from "./pipeline/regions";
 import { checkBackend, fetchYoutube } from "./pipeline/youtube";
+import {
+  listPresets, savePreset, deletePreset, exportPresets, importPresets,
+  saveLog, listLogs, loadLog, deleteLog, type SavedLogMeta,
+} from "./pipeline/storage";
 import RegionEditor from "./RegionEditor";
 
 type Stage = "idle" | "extracting" | "filtering" | "ocr" | "done";
@@ -29,9 +33,72 @@ export default function App() {
   const [ytBusy, setYtBusy] = useState(false);
   const [ytMsg, setYtMsg] = useState("");
 
+  // 持久化：ROI presets + 已存 Log
+  const [presets, setPresets] = useState<string[]>([]);
+  const [savedLogs, setSavedLogs] = useState<SavedLogMeta[]>([]);
+
   useEffect(() => {
     checkBackend().then(setBackend);
+    setPresets(listPresets().map((p) => p.name));
+    listLogs().then(setSavedLogs).catch(() => {});
   }, []);
+
+  function refreshPresets() {
+    setPresets(listPresets().map((p) => p.name));
+  }
+  function onSavePreset() {
+    const name = window.prompt("ROI preset 名稱（例如 SV 1080p / Champions 直播版）");
+    if (!name) return;
+    savePreset(name, regions);
+    refreshPresets();
+  }
+  function onApplyPreset(name: string) {
+    const p = listPresets().find((x) => x.name === name);
+    if (p) setRegions(p.regions);
+  }
+  function onDeletePreset(name: string) {
+    deletePreset(name);
+    refreshPresets();
+  }
+  function onExportPresets() {
+    const blob = new Blob([exportPresets()], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "roi-presets.json";
+    a.click();
+  }
+  function onImportPresets(file?: File) {
+    if (!file) return;
+    file.text().then((t) => {
+      try {
+        importPresets(t);
+        refreshPresets();
+      } catch (e) {
+        alert("匯入失敗：" + (e instanceof Error ? e.message : String(e)));
+      }
+    });
+  }
+
+  async function onSaveLog() {
+    if (events.length === 0) return;
+    const name = window.prompt("這場 Log 的名稱", `對戰 ${new Date().toLocaleString()}`);
+    if (!name) return;
+    await saveLog(name, { events, regions, segments });
+    setSavedLogs(await listLogs());
+  }
+  async function onOpenLog(id: string) {
+    const log = await loadLog(id);
+    if (!log) return;
+    setEvents(log.events);
+    setRegions(log.regions);
+    setSegments(log.segments);
+    setStage("done");
+    setStatus(`已載入 Log「${log.name}」（${log.events.length} 個事件）`);
+  }
+  async function onDeleteLog(id: string) {
+    await deleteLog(id);
+    setSavedLogs(await listLogs());
+  }
 
   async function fetchFromYoutube() {
     if (!ytUrl) return;
@@ -218,6 +285,22 @@ export default function App() {
         )}
       </section>
 
+      {savedLogs.length > 0 && (
+        <section className="panel">
+          <h2>💾 已存的 Log（本機）</h2>
+          <ul className="log-list">
+            {savedLogs.map((l) => (
+              <li key={l.id}>
+                <span className="log-name">{l.name}</span>
+                <span className="hint">{new Date(l.savedAt).toLocaleString()} · {l.eventCount} 事件</span>
+                <button onClick={() => onOpenLog(l.id)}>開啟</button>
+                <button className="del" onClick={() => onDeleteLog(l.id)}>刪除</button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       <section className="panel">
         <h2>2. 擷取與辨識設定</h2>
         <div className="grid">
@@ -279,6 +362,23 @@ export default function App() {
         <RegionEditor videoFile={file} regions={regions} onChange={setRegions} />
         <div className="row">
           <button onClick={() => setRegions(defaultRegions())}>重設為預設 4 塊</button>
+          <button onClick={onSavePreset}>💾 存成 preset</button>
+          {presets.length > 0 && (
+            <select defaultValue="" onChange={(e) => { if (e.target.value) onApplyPreset(e.target.value); }}>
+              <option value="">套用 preset…</option>
+              {presets.map((p) => <option key={p} value={p}>{p}</option>)}
+            </select>
+          )}
+          {presets.length > 0 && (
+            <select defaultValue="" onChange={(e) => { if (e.target.value) onDeletePreset(e.target.value); e.target.value = ""; }}>
+              <option value="">刪除 preset…</option>
+              {presets.map((p) => <option key={p} value={p}>{p}</option>)}
+            </select>
+          )}
+          <button onClick={onExportPresets}>匯出 presets</button>
+          <label className="file-btn">匯入 presets
+            <input type="file" accept="application/json" hidden onChange={(e) => onImportPresets(e.target.files?.[0])} />
+          </label>
         </div>
       </section>
 
@@ -305,7 +405,10 @@ export default function App() {
         <section className="panel">
           <div className="row between">
             <h2>5. 事件時間軸（可編輯）</h2>
-            <button onClick={exportJson}>匯出 JSON</button>
+            <div className="row">
+              <button onClick={onSaveLog}>💾 儲存此 Log</button>
+              <button onClick={exportJson}>匯出 JSON</button>
+            </div>
           </div>
           <p className="hint">機器產出的草稿。請校正分類與文字，刪掉雜訊。每個事件標有來源 ROI。</p>
           <ul className="timeline">
