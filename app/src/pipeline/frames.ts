@@ -105,6 +105,33 @@ export async function extractFrames(
   return frames;
 }
 
+/** 把上傳的截圖們轉成 Frame[]（給 OCR 打樣 / 圖片來源用）。t 用索引代替時間。 */
+export function framesFromImages(files: File[], thumbWidth = 240): Promise<Frame[]> {
+  return Promise.all(
+    files.map(
+      (file, i) =>
+        new Promise<Frame>((resolve, reject) => {
+          const img = new Image();
+          img.onload = () => {
+            const full = document.createElement("canvas");
+            full.width = img.naturalWidth;
+            full.height = img.naturalHeight;
+            full.getContext("2d")!.drawImage(img, 0, 0);
+            const scale = thumbWidth / img.naturalWidth;
+            const thumb = document.createElement("canvas");
+            thumb.width = thumbWidth;
+            thumb.height = Math.round(img.naturalHeight * scale);
+            thumb.getContext("2d")!.drawImage(full, 0, 0, thumb.width, thumb.height);
+            URL.revokeObjectURL(img.src);
+            resolve({ t: i, thumb: thumb.toDataURL("image/jpeg", 0.7), canvas: full });
+          };
+          img.onerror = () => reject(new Error("無法載入圖片：" + file.name));
+          img.src = URL.createObjectURL(file);
+        })
+    )
+  );
+}
+
 /** 從已載入的影片抓單一時間點的全解析度影格（給 ROI crop 介面取一張參考圖用）。 */
 export async function captureFrame(video: HTMLVideoElement, t: number): Promise<HTMLCanvasElement> {
   await seek(video, t);

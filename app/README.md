@@ -5,10 +5,19 @@
 ## Pipeline
 
 ```
-影片來源 → 時間段過濾 → 定時截圖(canvas) → 多塊 ROI 關鍵影格過濾(aHash+Hamming) → 各 ROI OCR(tesseract.js) → 可編輯事件時間軸 → 匯出 JSON
+來源 → 時間段過濾 → 定時截圖(canvas) → 多塊 ROI 關鍵影格過濾(aHash) → 各 ROI OCR(tesseract.js,
+前處理+設定) → 字典校正(@pkmn/dex+Fuse.js) → 回合分組 → 可編輯逐回合時間軸 → 匯出 JSON / 存本機
 ```
 
-影片來源：本地影片檔，或貼 YouTube 連結（需本機 `server/` 後端，見下）。
+來源：本地影片檔、貼 YouTube 連結（需本機 `server/` 後端）、或**上傳截圖**（OCR 打樣用）。
+
+## v0.0.3 重點
+
+- **OCR 前處理**：動態放大到足夠字高、Otsu 二值化、背景暗自動反相、補白邊；Tesseract 關閉內建英文字典（避免修壞名稱）、分區 PSM、HP 區數字白名單。
+- **字典校正**：OCR 後用 `@pkmn/dex`（純前端，動態載入）+ Fuse.js 把雜訊文字 snap 到最接近的合法寶可夢/招式/特性/道具，事件附彩色實體標籤。
+- **回合分組**：把扁平事件依「Turn/回合」標記或時間間隔歸進回合，時間軸依回合分組，可手動改每事件回合。
+- **持久化**：IndexedDB 存/開/刪 Log；localStorage 存 ROI preset 並可匯出/匯入。全部本機。
+- **截圖來源**：可上傳多張截圖直接跑 OCR，做準確度打樣（見 `research/product-ideation/02-ocr-ab-testing.md`）。
 
 對應研究：
 - 截圖：`02-frame-extraction-and-filtering`（用 video seek + canvas，非 ffmpeg.wasm）

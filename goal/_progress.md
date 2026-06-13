@@ -59,13 +59,22 @@ App 試用回饋 + 四項功能需求。
 - 繁中：bokevon.web.fc2.com、victorpoke-champions.com、fable165469.github.io/poke_champion_final.html
 - 英文：Victory Road、pokedata.ovh、pkmn.help、marriland team-builder、pikalytics、serebii pokedex-champions、labmaus.net、Pokémon Showdown teambuilder
 
-### `260614_1.automatic_ideation.md` — 🟡 構思完成，待第一擁有者拍板
+### `260614_1.automatic_ideation.md` — ✅ 構思 + 拍板四項全實作完成（待打樣素材）
 主動構思產品/流程優化方向，帶回討論並決定可實作項目。
 
 - ✅ 產出構思文件 `research/product-ideation/`：00 總結與優先級、01 GameLog 領域資料模型、03 旁支功能、`_research-ocr-and-backend.md`（OCR/後端技術查證）。
 - ✅ 用三種方法分析：親手審視現況 + VGC 知識反推 GameLog 模型 + 研究 agent 查證外部技術。
 - **Ditto 建議的下一輪**：OCR 快贏（放大/二值化/Tesseract 設定）+ 字典校正(@pkmn/dex+Fuse.js) + 持久化(本機存 Log + ROI preset) + 回合分組；前置需真實截圖打樣集。
-- ⏳ **待第一擁有者用決策提問拍板要先做哪些**，再進實作。
+- ✅ **第一擁有者已拍板（2026-06-14）**：四項**全做**；打樣素材由 **Ditto 去找公開影片自己擷取**。
+- ✅ **實作完成**（app v0.0.3，逐項 build 通過、已 push）：
+  - [x] OCR 快贏（Otsu 二值化/動態放大/補白邊 + Tesseract PSM/數字白名單/關閉內建字典）
+  - [x] 字典校正（@pkmn/dex + Fuse.js，動態載入；事件附 entities 標籤）
+  - [x] 持久化（IndexedDB 存/開/刪 Log + localStorage ROI preset 匯出入）
+  - [x] 回合分組（turns.ts：Turn 標記優先，否則間隔啟發式；時間軸依回合分組、可手動改）
+  - [x] OCR A/B 打樣**量測台**：app 新增「上傳截圖」來源，任何截圖可直接跑 OCR；
+        計畫與公開影片來源見 `research/product-ideation/02-ocr-ab-testing.md`
+  - 🙋 **待素材**：實際 A/B 數字需要真實對戰截圖（我環境無法擷 YouTube 畫面，
+        可由第一擁有者提供、或本機 yt-dlp 擷單幀），即可定 MVP go/no-go
 
 ## 更新紀錄
 

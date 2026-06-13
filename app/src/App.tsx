@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { loadVideo, extractFrames, type Frame, type Segment } from "./pipeline/frames";
+import { loadVideo, extractFrames, framesFromImages, type Frame, type Segment } from "./pipeline/frames";
 import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
@@ -17,6 +17,7 @@ type Stage = "idle" | "extracting" | "filtering" | "ocr" | "done";
 
 export default function App() {
   const [file, setFile] = useState<File | null>(null);
+  const [imageFiles, setImageFiles] = useState<File[]>([]);
   const [duration, setDuration] = useState<number | null>(null);
   const [interval, setIntervalSec] = useState(1);
   const [threshold, setThreshold] = useState(8);
@@ -138,43 +139,53 @@ export default function App() {
   }
 
   async function run() {
-    if (!file) return;
+    const imageMode = imageFiles.length > 0;
+    if (!file && !imageMode) return;
     setEvents([]);
     setKeptCount(null);
     try {
-      setStage("extracting");
-      setStatus("載入影片並抽取影格…");
-      const video = await loadVideo(file);
-      const frames = await extractFrames(video, {
-        intervalSec: interval,
-        segments,
-        onProgress: (p) => setProgress(p),
-      });
+      let kept: Frame[];
+      if (imageMode) {
+        // 圖片來源（OCR 打樣）：每張截圖都是一個影格，全部保留、不做關鍵影格過濾。
+        setStage("extracting");
+        setStatus("載入截圖…");
+        kept = await framesFromImages(imageFiles);
+        setKeptCount({ kept: kept.length, total: kept.length });
+      } else {
+        setStage("extracting");
+        setStatus("載入影片並抽取影格…");
+        const video = await loadVideo(file!);
+        const frames = await extractFrames(video, {
+          intervalSec: interval,
+          segments,
+          onProgress: (p) => setProgress(p),
+        });
 
-      // 關鍵影格過濾：以「keyframe=true」的 ROI 判斷畫面有無變化；任一塊變化即保留。
-      setStage("filtering");
-      setStatus("過濾關鍵影格…");
-      const kfRegions = regions.filter((r) => r.keyframe);
-      const prev: Record<string, bigint> = {};
-      const kept: Frame[] = [];
-      for (const f of frames) {
-        let changed = false;
-        if (kfRegions.length === 0) {
-          const h = aHash(f.canvas);
-          if (prev.__all === undefined || hamming(h, prev.__all) >= threshold) {
-            changed = true;
-            prev.__all = h;
+        // 關鍵影格過濾：以「keyframe=true」的 ROI 判斷畫面有無變化；任一塊變化即保留。
+        setStage("filtering");
+        setStatus("過濾關鍵影格…");
+        const kfRegions = regions.filter((r) => r.keyframe);
+        const prev: Record<string, bigint> = {};
+        kept = [];
+        for (const f of frames) {
+          let changed = false;
+          if (kfRegions.length === 0) {
+            const h = aHash(f.canvas);
+            if (prev.__all === undefined || hamming(h, prev.__all) >= threshold) {
+              changed = true;
+              prev.__all = h;
+            }
+          } else {
+            for (const r of kfRegions) {
+              const h = aHash(f.canvas, r);
+              if (prev[r.id] === undefined || hamming(h, prev[r.id]) >= threshold) changed = true;
+            }
+            if (changed) for (const r of kfRegions) prev[r.id] = aHash(f.canvas, r);
           }
-        } else {
-          for (const r of kfRegions) {
-            const h = aHash(f.canvas, r);
-            if (prev[r.id] === undefined || hamming(h, prev[r.id]) >= threshold) changed = true;
-          }
-          if (changed) for (const r of kfRegions) prev[r.id] = aHash(f.canvas, r);
+          if (changed) kept.push(f);
         }
-        if (changed) kept.push(f);
+        setKeptCount({ kept: kept.length, total: frames.length });
       }
-      setKeptCount({ kept: kept.length, total: frames.length });
 
       // OCR：對每張關鍵影格的每一塊「ocr=true」ROI 做辨識，產生標記來源的事件。
       setStage("ocr");
@@ -200,7 +211,9 @@ export default function App() {
       setEvents(grouped);
       setStage("done");
       setStatus(
-        `完成：從 ${frames.length} 張影格留下 ${kept.length} 張關鍵影格，辨識出 ${out.length} 個事件。`
+        imageMode
+          ? `完成：${kept.length} 張截圖，辨識出 ${out.length} 個事件。`
+          : `完成：留下 ${kept.length} 張關鍵影格，辨識出 ${out.length} 個事件。`
       );
     } catch (e) {
       setStage("idle");
@@ -253,6 +266,13 @@ export default function App() {
           <strong className="src-label">本地影片檔</strong>
           <input type="file" accept="video/*" onChange={(e) => onPickFile(e.target.files?.[0] ?? null)} />
           {duration != null && <span className="hint">長度 {duration.toFixed(1)} 秒</span>}
+        </div>
+
+        <div className="src-divider">或：上傳截圖（多張，做 OCR 打樣）</div>
+        <div className="row">
+          <input type="file" accept="image/*" multiple
+            onChange={(e) => { setImageFiles(Array.from(e.target.files ?? [])); setFile(null); setDuration(null); }} />
+          {imageFiles.length > 0 && <span className="hint">已選 {imageFiles.length} 張截圖（將跳過影格抽取與過濾，直接逐張 OCR）</span>}
         </div>
 
         <div className="src-divider">或：貼 YouTube 連結</div>
@@ -389,7 +409,7 @@ export default function App() {
 
       <section className="panel">
         <div className="row">
-          <button className="primary" onClick={run} disabled={!file || busy}>
+          <button className="primary" onClick={run} disabled={(!file && imageFiles.length === 0) || busy}>
             {busy ? "處理中…" : "開始分析"}
           </button>
         </div>
