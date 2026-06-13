@@ -33,6 +33,8 @@ Game Log 是我們的第一個功能（把對戰影像變成可復盤紀錄）�
 
 > 三個階段都**重用我們已盤點好的資料來源**（Limitless API、Smogon 使用率、`@smogon/calc`），不需要太多新基礎建設。原則沿用：Showdown 天梯使用率 ≠ 官方賽事 meta，兩者要交叉標注。
 
+> ✅ **2026-06-13 查證**：Phase 1 仰賴的傷害計算引擎 `@smogon/calc` 已確認是真實、維護中、可在瀏覽器執行的套件（支援 1–9 世代傷害公式）。代表「在每個攻擊事件旁顯示這場情境下的傷害」在技術上可行；待實測的是 Mega 形態與新平台合法性清單的資料覆蓋。
+
 ## 我們研究的參考工具
 
 **繁體中文**：[bokevon](http://bokevon.web.fc2.com/)、[Victor Poke Champions](https://victorpoke-champions.com/zh-TW)、[poke champion (fable)](https://fable165469.github.io/poke_champion_final.html)

@@ -113,3 +113,12 @@
 | 3 | 賽事/趨勢連結 | 接上整個 VGC 生態 | Limitless API + webhook |
 
 **鐵律延續**：Showdown ladder usage ≠ 官方賽事 meta；做 Usage 對照與趨勢連結時，Smogon/`@pkmn` 的 ladder 數字要與 Limitless 賽果交叉標註，不可單獨呈現為「唯一真相」。
+
+---
+
+## 技術查證紀錄（daily checks）
+
+- **2026-06-13**：查證 Phase 1 的關鍵依賴 **`@smogon/calc`**。
+  - **結論（信心高）**：是真實且維護中的 npm 套件（`@smogon/calc`，libraries.io 顯示 v0.11.0），實作 **gen 1–9** 的世代別傷害公式，**browser 與 server 皆可用**，正是官方傷害計算器 UI 的底層引擎。API：`calculate(gen, attacker, defender, move, field)` → `Result`（提供 damage rolls / range / 描述 / recoil-drain）。套件自帶各世代資料，符合我們「在時間軸事件上即時算傷害」的需求。
+  - **待跟進（誠實）**：(1) Mega 進化（Champions M-A 回歸）為 gen 6–7 機制，引擎理論上支援，但需實測 Mega 形態資料是否齊全；(2) 「哪些寶可夢/道具在 Champions 各格式合法」屬**資料範圍**問題，與傷害公式引擎分開，需另接合法性清單。
+  - 來源：[smogon/damage-calc (GitHub)](https://github.com/smogon/damage-calc)、[@smogon/calc on libraries.io](https://libraries.io/npm/@smogon%2Fcalc)、[DeepWiki 說明](https://deepwiki.com/smogon/damage-calc)。
