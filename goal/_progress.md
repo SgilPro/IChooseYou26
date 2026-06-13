@@ -59,6 +59,14 @@ App 試用回饋 + 四項功能需求。
 - 繁中：bokevon.web.fc2.com、victorpoke-champions.com、fable165469.github.io/poke_champion_final.html
 - 英文：Victory Road、pokedata.ovh、pkmn.help、marriland team-builder、pikalytics、serebii pokedex-champions、labmaus.net、Pokémon Showdown teambuilder
 
+### `260614_1.automatic_ideation.md` — 🟡 構思完成，待第一擁有者拍板
+主動構思產品/流程優化方向，帶回討論並決定可實作項目。
+
+- ✅ 產出構思文件 `research/product-ideation/`：00 總結與優先級、01 GameLog 領域資料模型、03 旁支功能、`_research-ocr-and-backend.md`（OCR/後端技術查證）。
+- ✅ 用三種方法分析：親手審視現況 + VGC 知識反推 GameLog 模型 + 研究 agent 查證外部技術。
+- **Ditto 建議的下一輪**：OCR 快贏（放大/二值化/Tesseract 設定）+ 字典校正(@pkmn/dex+Fuse.js) + 持久化(本機存 Log + ROI preset) + 回合分組；前置需真實截圖打樣集。
+- ⏳ **待第一擁有者用決策提問拍板要先做哪些**，再進實作。
+
 ## 更新紀錄
 
 - 2026-06-12：收到 `260611_2.roi_ui_suggestion.md`，建立本追蹤檔。
