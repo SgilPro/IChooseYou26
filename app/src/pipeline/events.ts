@@ -8,11 +8,12 @@ import { detectEntities, type DetectedEntity, type EntityType } from "./dict";
 export type EventKind =
   | "move" // 使用招式
   | "switch" // 換人 / 上場（含己方 Go! 與對方 sent out）
+  | "mega" // Mega 進化
   | "ability" // 特性發動
   | "item" // 道具觸發
   | "stat" // 能力變化（威嚇/不服輸/劍舞…）
   | "status" // 異常狀態（中毒/灼傷/冰凍/睡眠/麻痺/畏縮）
-  | "weather_terrain" // 天氣 / 場地 / 室
+  | "weather_terrain" // 天氣 / 場地 / 室 / 氣場（aura）
   | "faint" // 倒下
   | "effectiveness" // 效果絕佳 / 效果不好 / 擊中要害 / miss
   | "failed" // But it failed!（連保、靈騷沒道具…）
@@ -42,10 +43,11 @@ const RULES: { kind: EventKind; keywords: string[] }[] = [
   { kind: "recoil", keywords: ["recoil", "hit with recoil", "受到反傷", "はんどう"] },
   { kind: "effectiveness", keywords: ["super effective", "not very effective", "no effect", "critical hit", "missed", "avoided the", "but it missed", "效果絕佳", "效果拔群", "效果不好", "要害", "沒有命中", "落空", "miss"] },
   { kind: "stat", keywords: ["rose", "fell", "sharply", "harshly", "won't go higher", "can't go any lower", "wasn't lowered", "won't be lowered", "能力", "提升", "下降", "上升"] },
+  { kind: "mega", keywords: ["mega evolved", "mega evolution", "mega-evolved", "超級進化", "極巨化", "dynamax"] },
   { kind: "faint", keywords: ["fainted", "倒下", "たおれた", "瀕死"] },
   { kind: "switch", keywords: ["go!", "sent out", "switched in", "withdrew", "come back", "that's enough", "派出", "收回", "換上", "上場", "くりだした", "ひっこめた"] },
   { kind: "status", keywords: ["poisoned", "badly poisoned", "burned", "frozen", "fell asleep", "is asleep", "paralyzed", "flinched", "confused", "中毒", "灼傷", "冰凍", "睡眠", "麻痺", "畏縮", "混亂"] },
-  { kind: "weather_terrain", keywords: ["trick room", "rain", "sunlight", "sandstorm", "hail", "snow", "terrain", "tailwind", "perish", "晴天", "下雨", "沙暴", "冰雹", "場地", "順風", "滅歌"] },
+  { kind: "weather_terrain", keywords: ["trick room", "rain", "sunlight", "sandstorm", "hail", "snow", "terrain", "tailwind", "perish", "radiating", "aura", "晴天", "下雨", "沙暴", "冰雹", "場地", "順風", "滅歌", "氣場"] },
   { kind: "item", keywords: ["berry", "restored", "leftovers", "life orb", "focus sash", "held", "道具", "果", "持有物"] },
   { kind: "ability", keywords: ["ability", "intimidate", "defiant", "drizzle", "drought", "特性", "とくせい"] },
   { kind: "move", keywords: ["used", "使用了", "のこうげき", "攻擊"] },
@@ -84,11 +86,12 @@ function classify(regionKind: RegionKind, text: string): EventKind {
 export const KIND_LABEL: Record<EventKind, string> = {
   move: "使用招式",
   switch: "換人 / 上場",
+  mega: "Mega 進化",
   ability: "特性發動",
   item: "道具觸發",
   stat: "能力變化",
   status: "異常狀態",
-  weather_terrain: "天氣 / 場地",
+  weather_terrain: "天氣 / 場地 / 氣場",
   faint: "倒下",
   effectiveness: "效果 / 要害 / 落空",
   failed: "失敗 (But it failed)",

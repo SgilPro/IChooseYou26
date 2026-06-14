@@ -4,7 +4,7 @@ import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, cleanupEvents, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
 import { ensureDict } from "./pipeline/dict";
-import { assignTurns, groupByTurn } from "./pipeline/turns";
+// 回合分組（turns.ts）暫時停用，聚焦 GameLog OCR 精準化；之後可重啟。
 import { officialRegions, hasOfficialPreset, type Region } from "./pipeline/regions";
 import { secToClock } from "./pipeline/time";
 import { checkBackend, fetchYoutube } from "./pipeline/youtube";
@@ -25,7 +25,15 @@ export default function App() {
   const [threshold, setThreshold] = useState(8);
   const [lang, setLang] = useState("eng");
   const [minConfidence, setMinConfidence] = useState(0);
-  const [turnGapSec, setTurnGapSec] = useState(12);
+  const [preview, setPreview] = useState<string | null>(null); // 縮圖放大預覽（lightbox）
+
+  // Esc 關閉預覽
+  useEffect(() => {
+    if (!preview) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setPreview(null); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [preview]);
 
   const [regions, setRegions] = useState<Region[]>(officialRegions("eng"));
   const [customRoi, setCustomRoi] = useState(false); // 回饋 #6：預設用官方 ROI，開此才可自定義
@@ -218,9 +226,8 @@ export default function App() {
           }
         }
       }
-      const cleaned = cleanupEvents(out, { lowConf: 50 });
-      const grouped = assignTurns(cleaned, { gapSec: turnGapSec });
-      setEvents(grouped);
+      const cleaned = cleanupEvents(out, { lowConf: 50 }).sort((a, b) => a.t - b.t);
+      setEvents(cleaned);
       setStage("done");
       setStatus(
         imageMode
@@ -238,9 +245,6 @@ export default function App() {
   }
   function deleteEvent(id: string) {
     setEvents((evs) => evs.filter((e) => e.id !== id));
-  }
-  function regroupTurns() {
-    setEvents((evs) => assignTurns(evs, { gapSec: turnGapSec }));
   }
   function exportJson() {
     // 回饋 #3：匯出 JSON 不含 thumbnail（縮圖只供畫面顯示，會讓檔案爆大）。
@@ -278,9 +282,13 @@ export default function App() {
         <h2>1. 選影片來源</h2>
         <div className="row">
           <strong className="src-label">本地影片檔</strong>
-          <input type="file" accept="video/*" onChange={(e) => onPickFile(e.target.files?.[0] ?? null)} />
-          {duration != null && <span className="hint">長度 {duration.toFixed(1)} 秒</span>}
+          <input type="file" accept="video/mp4,video/webm,video/quicktime,video/*" onChange={(e) => onPickFile(e.target.files?.[0] ?? null)} />
+          {duration != null && <span className="hint">長度 {secToClock(duration)}</span>}
         </div>
+        <p className="hint">
+          支援瀏覽器能播放的格式（建議 <strong>mp4 / H.264</strong>；.mov/.webm 視瀏覽器而定）。
+          無硬性大小限制，但**整支影片會載進記憶體**，建議單檔 &lt; ~500MB，或先用下方「時間段」裁短再分析。
+        </p>
 
         <div className="src-divider">或：上傳截圖（多張，做 OCR 打樣）</div>
         <div className="row">
@@ -394,19 +402,16 @@ export default function App() {
       </section>
 
       <section className="panel">
-        <h2>4. ROI 多塊裁切</h2>
-        <div className="row">
-          <label style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
-            <input type="checkbox" checked={customRoi} onChange={(e) => setCustomRoi(e.target.checked)} />
-            <strong>自定義 ROI 裁切</strong>（特殊版面用，如直播塞聊天室導致畫面縮小偏移）
-          </label>
-          <span className="hint">
-            {customRoi
-              ? "自定義模式：可拖曳/縮放/編輯，並存成 preset。"
-              : `官方預設模式：依 OCR 語言自動帶入${hasOfficialPreset(lang) ? "" : "（此語言尚無官方預設，暫用英文）"}。`}
-          </span>
-        </div>
-        <RegionEditor videoFile={file} regions={regions} onChange={setRegions} readOnly={!customRoi} />
+        <h2>4. ROI 多塊裁切（聚焦 GameLog + 特性/道具）</h2>
+        <RegionEditor
+          videoFile={file}
+          regions={regions}
+          onChange={setRegions}
+          readOnly={!customRoi}
+          customRoi={customRoi}
+          onToggleCustom={setCustomRoi}
+          langHasOfficial={hasOfficialPreset(lang)}
+        />
         {customRoi && (
           <div className="row">
             <button onClick={() => setRegions(officialRegions(lang))}>重設為官方預設</button>
@@ -459,64 +464,51 @@ export default function App() {
               <button onClick={exportJson}>匯出 JSON</button>
             </div>
           </div>
-          <p className="hint">機器產出的草稿，依推斷的回合分組。請校正分類/文字/回合，刪掉雜訊。每個事件標有來源 ROI。</p>
-          <p className="hint">ℹ️ 左側縮圖只供顯示（壓縮過）；<strong>OCR 一律用全解析度原圖裁切</strong>，辨識精度不受縮圖影響。</p>
-          <div className="row">
-            <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
-              回合間隔門檻（秒）
-              <input type="number" min={1} value={turnGapSec} onChange={(e) => setTurnGapSec(Number(e.target.value))} />
-            </label>
-            <button onClick={regroupTurns}>重新分回合</button>
-            <span className="hint">偵測到「Turn/回合」字樣時以它為準，否則用間隔推斷；可手動改每事件的回合</span>
-          </div>
-          {groupByTurn(events).map((g) => (
-            <div key={g.turn} className="turn-group">
-              <h3 className="turn-head">
-                {g.turn === 0 ? "選出 / 先發" : `回合 ${g.turn}`}
-                <span className="hint"> · {g.events.length} 事件</span>
-              </h3>
-              <ul className="timeline">
-                {g.events.map((ev) => (
-                  <li key={ev.id} className="event">
-                    <img src={ev.thumb} alt="" className="thumb" />
-                    <div className="ev-body">
-                      <div className="ev-meta">
-                        <span className="t">{secToClock(ev.t)}</span>
-                        <span className="region-tag">{ev.region}</span>
-                        <label className="turn-edit">回合
-                          <input type="number" min={0} value={ev.turn}
-                            onChange={(e) => updateEvent(ev.id, { turn: Number(e.target.value) })} />
-                        </label>
-                        <select value={ev.kind}
-                          onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
-                          {Object.entries(KIND_LABEL).map(([k, label]) => (
-                            <option key={k} value={k}>{label}</option>
-                          ))}
-                        </select>
-                        <span className="conf">信心 {Math.round(ev.confidence)}</span>
-                        <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
-                      </div>
-                      <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
-                      {ev.entities.length > 0 && (
-                        <div className="entities">
-                          {ev.entities.map((en) => (
-                            <span key={en.type + en.name} className={"entity " + en.type} title={`${en.type} · 相似度 ${Math.round(en.score * 100)}`}>
-                              {en.name}
-                            </span>
-                          ))}
-                        </div>
-                      )}
+          <p className="hint">機器產出的草稿（依時間排序）。請校正分類/文字，刪掉雜訊。每個事件標有來源 ROI。回合分組目前停用。</p>
+          <p className="hint">ℹ️ 左側縮圖只供顯示（壓縮過）；<strong>OCR 一律用全解析度原圖裁切</strong>，辨識精度不受縮圖影響。點縮圖可放大預覽（Esc 關閉）。</p>
+          <ul className="timeline">
+            {events.map((ev) => (
+              <li key={ev.id} className="event">
+                <img src={ev.thumb} alt="" className="thumb" onClick={() => setPreview(ev.thumb)} title="點擊放大預覽" />
+                <div className="ev-body">
+                  <div className="ev-meta">
+                    <span className="t">{secToClock(ev.t)}</span>
+                    <span className="region-tag">{ev.region}</span>
+                    <select value={ev.kind}
+                      onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
+                      {Object.entries(KIND_LABEL).map(([k, label]) => (
+                        <option key={k} value={k}>{label}</option>
+                      ))}
+                    </select>
+                    <span className="conf">信心 {Math.round(ev.confidence)}</span>
+                    <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
+                  </div>
+                  <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
+                  {ev.entities.length > 0 && (
+                    <div className="entities">
+                      {ev.entities.map((en) => (
+                        <span key={en.type + en.name} className={"entity " + en.type} title={`${en.type} · 相似度 ${Math.round(en.score * 100)}`}>
+                          {en.name}
+                        </span>
+                      ))}
                     </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
+      {preview && (
+        <div className="lightbox" onClick={() => setPreview(null)}>
+          <img src={preview} alt="預覽" />
+          <div className="lightbox-hint">點任意處或按 Esc 關閉</div>
+        </div>
+      )}
+
       <footer className="app-foot">
-        原型 v0.0.4 · 全在瀏覽器執行，影片不會上傳 · 對戰知識與規則持續由 Ditto 學習中
+        原型 v0.0.5 · 全在瀏覽器執行，影片不會上傳 · 聚焦 GameLog + 特性/道具 OCR · 由 Ditto 持續學習中
       </footer>
     </div>
   );

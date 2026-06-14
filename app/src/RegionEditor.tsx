@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { loadVideo, captureFrame } from "./pipeline/frames";
 import { type Region, type RegionKind, KIND_LABEL, newRegionId } from "./pipeline/regions";
 import TimeField from "./TimeField";
+import ToggleButton from "./ToggleButton";
 
 // ROI crop 介面：上傳/抓參考圖，在圖上拖曳畫框、拖動移動、拉把手縮放。
 // readOnly 時（使用官方預設、未開自定義）只顯示、不可編輯。
@@ -11,6 +12,9 @@ interface Props {
   regions: Region[];
   onChange: (regions: Region[]) => void;
   readOnly?: boolean;
+  customRoi?: boolean;
+  onToggleCustom?: (v: boolean) => void;
+  langHasOfficial?: boolean;
 }
 
 type Handle = "nw" | "n" | "ne" | "e" | "se" | "s" | "sw" | "w";
@@ -24,7 +28,9 @@ const HANDLES: Handle[] = ["nw", "n", "ne", "e", "se", "s", "sw", "w"];
 const MIN = 0.02;
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 
-export default function RegionEditor({ videoFile, regions, onChange, readOnly = false }: Props) {
+export default function RegionEditor({
+  videoFile, regions, onChange, readOnly = false, customRoi, onToggleCustom, langHasOfficial = true,
+}: Props) {
   const [imgSrc, setImgSrc] = useState<string | null>(null);
   const [grabTime, setGrabTime] = useState(0);
   const [busy, setBusy] = useState(false);
@@ -164,7 +170,18 @@ export default function RegionEditor({ videoFile, regions, onChange, readOnly = 
         <div className="roi-stage empty">尚未載入參考圖</div>
       )}
 
-      <table className="roi-table">
+      {onToggleCustom && (
+        <div className="roi-toolbar">
+          <ToggleButton checked={!!customRoi} onChange={onToggleCustom} label="自定義 ROI 裁切" />
+          <span className="hint">
+            {customRoi
+              ? "已開啟：下方表格與圖上方框可編輯、縮放、存 preset。"
+              : `關閉中：使用官方預設 ROI（依 OCR 語言）${langHasOfficial ? "" : "，此語言尚無官方預設，暫用英文"}，表格唯讀。開啟以微調特殊版面（如直播塞聊天室）。`}
+          </span>
+        </div>
+      )}
+
+      <table className={"roi-table" + (readOnly ? " readonly" : "")}>
         <thead>
           <tr><th>標籤</th><th>類型</th><th>x</th><th>y</th><th>w</th><th>h</th><th>OCR</th><th>關鍵影格</th><th></th></tr>
         </thead>

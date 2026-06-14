@@ -34,10 +34,12 @@ type PresetRegion = Omit<Region, "id">;
 
 // 官方提供的 ROI 預設（依 OCR 語言）。英文為第一擁有者 2026-06-14 實測值。
 // 中文待補；未涵蓋的語言 fallback 到 eng。
+// 方向（260614_3）：先聚焦 GameLog + 特性/道具，HP 暫時不納入預設（待之後重啟）。
+// HP 的實測座標先保留在註解供日後重啟：
+//   對方 HP: hp_opp x=0.561 y=0.035 w=0.42 h=0.12
+//   我方 HP: hp_self x=0.016 y=0.852 w=0.42 h=0.12
 const OFFICIAL_PRESETS: Record<string, PresetRegion[]> = {
   eng: [
-    { label: "對方 HP", kind: "hp_opp", x: 0.561, y: 0.035, w: 0.42, h: 0.12, ocr: true, keyframe: false },
-    { label: "我方 HP", kind: "hp_self", x: 0.016, y: 0.852, w: 0.42, h: 0.12, ocr: true, keyframe: false },
     { label: "核心 GameLog", kind: "gamelog", x: 0.152, y: 0.723, w: 0.56, h: 0.07, ocr: true, keyframe: true },
     { label: "特性 / 道具", kind: "ability", x: 0.804, y: 0.426, w: 0.12, h: 0.1, ocr: true, keyframe: true },
   ],

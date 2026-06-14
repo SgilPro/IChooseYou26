@@ -43,7 +43,7 @@ button.del { padding: 4px 10px; font-size: 12px; }
 
 .timeline { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 10px; }
 .event { display: flex; gap: 12px; background: #14162e; border: 1px solid var(--border); border-radius: 10px; padding: 10px; }
-.thumb { width: 160px; height: auto; border-radius: 6px; flex: 0 0 160px; object-fit: cover; }
+.thumb { width: 160px; height: auto; border-radius: 6px; flex: 0 0 160px; object-fit: cover; cursor: zoom-in; }
 .ev-body { flex: 1; min-width: 0; }
 .ev-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
 .ev-meta .t { font-weight: 700; color: var(--accent-2); }
@@ -101,5 +101,26 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .entity.move { background: #1d2a44; color: #8bb6ff; }
 .entity.ability { background: #38264a; color: #c79bff; }
 .entity.item { background: #44391d; color: #e0c98b; }
+
+/* Toggle 按鈕 */
+.roi-toolbar { display: flex; align-items: center; gap: 12px; margin: 14px 0 6px; padding: 10px 12px;
+  background: #14162e; border: 1px solid var(--border); border-radius: 10px; flex-wrap: wrap; }
+.toggle { display: inline-flex; align-items: center; gap: 10px; background: none; border: none; padding: 0; cursor: pointer; }
+.toggle-track { width: 44px; height: 24px; border-radius: 999px; background: #3a3d63; position: relative; transition: background .15s; flex: 0 0 auto; }
+.toggle-thumb { position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; border-radius: 50%; background: #fff; transition: transform .15s; }
+.toggle.on .toggle-track { background: var(--accent); }
+.toggle.on .toggle-thumb { transform: translateX(20px); }
+.toggle-label { font-weight: 600; color: var(--ink); }
+
+/* 唯讀狀態更明顯（回饋 UI #1） */
+.roi-table.readonly { opacity: .55; }
+input:disabled, select:disabled, button:disabled { cursor: not-allowed; }
+.roi-table input:disabled, .roi-table select:disabled { background: #0a0b16; color: var(--ink-soft); border-style: dashed; }
+
+/* Lightbox 縮圖預覽（回饋 UI #3） */
+.lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.82); display: flex;
+  flex-direction: column; align-items: center; justify-content: center; gap: 14px; cursor: zoom-out; padding: 24px; }
+.lightbox img { max-width: 92vw; max-height: 82vh; border-radius: 8px; image-rendering: auto; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
+.lightbox-hint { color: #cfd2ee; font-size: 13px; }
 
 .app-foot { color: var(--ink-soft); font-size: 12px; text-align: center; margin-top: 30px; }
