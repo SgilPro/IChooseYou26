@@ -176,3 +176,8 @@
   - **結論（信心高，但賽果未定）**：NAIC **進行中**（查詢當下 Masters 約 Round 3 / 13），Day 1 尚未結束，完整名次與 Top-cut 隊伍**尚未出爐**。這是 **Pokémon Champions 首次用於 International**。賽果待 6/13–14 賽程推進。
   - **下次該做**：賽事結束（~6/14）後回來抓 Top-cut 隊伍與 M-A meta 觀察（哪些 Mega / 核心組合表現好），寫入 curriculum。
   - 賽果來源（已確認可用）：[RK9 NAIC 2026](https://rk9.gg/event/pokemon-naic-2026/sides)、[Victory Road 2026 NAIC](https://victoryroad.pro/2026-naic/)、[pokedata standings 0000190 (Masters)](https://www.pokedata.ovh/standingsVGC/0000190/masters/)、[Liquipedia NAIC 2026 VGC](https://liquipedia.net/pokemon/Pokemon_Championships/International/North_America/2026/VGC)。
+
+- **2026-06-14（daily routine）**：NAIC 賽果（賽事收官中）。
+  - **結論（信心高，冠軍待定）**：Liquipedia 顯示已進冠軍賽——**Grand Final（6/14）：Francesco Pio Pero（義大利）vs Eric Rios（西班牙）**，冠軍尚未產生。**準決賽**：Pero 2:0 勝 Shoma Honami（日）、Eric Rios 2:0 勝 **Wolfe Glick（WolfeyVGC，美，打進 Top 4）**。其餘 Top 8：Ko Tsukide（日）、Adrien Hurley（美）、Dawei Si（中）、Marcus Dion（加）。Swiss 階段 1096 人。
+  - **下次該做**：冠軍出爐後補記冠軍 + 冠軍隊伍（待 RK9/Victory Road 上隊表），分析 Champions M-A meta（哪些 Mega/核心強勢）。
+  - 來源：[Liquipedia NAIC 2026 VGC](https://liquipedia.net/pokemon/Pokemon_Championships/International/North_America/2026/VGC)。

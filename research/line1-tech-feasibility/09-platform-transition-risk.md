@@ -25,3 +25,15 @@
 - **資料來源連帶**：Limitless / Smogon / Pikalytics 對 Champions 新格式的 usage / 賽果覆蓋需重驗（見 `../line2-domain-learning/02-data-sources-and-apis.md`）。
 
 > **信心**：高（平台轉換屬實、已查證）；對 Champions UI 細節為**未知**，標記待打樣。我們多塊可自訂 ROI 的設計讓我們對 UI 變動有韌性——這也驗證了當初不寫死單塊 ROI 的判斷是對的。
+
+## 追記（2026-06-14）：Champions 沒有官方對戰回放 → 反而驗證我們的方向
+
+查證結論（信心：中高）：**Pokémon Champions 目前沒有官方的「對戰回放 / 結構化 battle log 匯出」功能**。社群在公開敲碗求 replay（GameFAQs 討論串「Do you think this game will ever receive a replay feature?」、X 上玩家詢問如何看 replay）。
+
+兩個推論：
+1. **驗證走 video-OCR 是對的**：既然沒有更簡單的結構化資料來源可拿，「看畫面、抽事件」就是目前唯一可行的通用路徑——我們不是捨近求遠。
+2. **這是市場機會，不只是技術限制**：玩家明確想要「回放/復盤」，而官方沒給。我們的 GameLog（把對戰變成可逐回合檢視的紀錄）正好補這塊需求——呼應競品分析「逐回合復盤是空白市場」。
+
+> 待跟進：若未來 Champions 官方推出 replay/匯出（值得長期關注，已入 watchlist 概念），我們應第一時間評估改接結構化資料、把 OCR 降為 fallback。
+
+來源：[GameFAQs — Champions replay 討論](https://gamefaqs.gamespot.com/boards/517117-pokemon-champions/81134751)、[Pokémon 官方論壇 — 能否看自己對戰的 replay](https://community.pokemon.com/en-us/discussion/11819/)。
