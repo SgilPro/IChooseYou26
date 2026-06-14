@@ -106,6 +106,25 @@ App 試用回饋 + 四項功能需求。
 | 11 | 受到反傷 recoiled | ✅ recoil |
 | 12 | 輸/投降/打敗/平手 | ✅ result |
 
+### `260614_3.small_feedback.md` — ✅ 已做完（含方向調整）
+小回饋 + 方向調整。
+
+| 項目 | 狀態 |
+|------|------|
+| GameLog: Mega 進化類別 | ✅ |
+| GameLog: 氣場 → 併入「天氣/場地/氣場」(含 'radiating a fairy aura' 文案) | ✅ |
+| UI: 自定義 ROI 改 Toggle Button、移到 ROI 表格上方 | ✅ |
+| UI: 唯讀 disabled 樣式更明顯 | ✅ |
+| UI: 影片上傳註明格式/大小 | ✅ |
+| UI: 縮圖點擊 lightbox 預覽 + Esc 關閉 | ✅ |
+| 方向: 暫停 HP 功能 | ✅ 移出官方預設(座標留註解) |
+| 方向: 暫停回合分組 | ✅ 時間軸改扁平(turns.ts 保留) |
+| 方向: 聚焦 GameLog + 特性/道具 OCR | ✅ |
+| 未來工項寫進 docs + 排日常研究 | ✅ `05-near-term-backlog.md` + future-roadmap |
+| 問題: IndexedDB 即可本機存 GameLog？ | ✅ 是（已答覆 + 記錄）|
+
+**下一步未來工項**（已記 docs，待排程推進）：GameLog **validator**（規則找漏記）、**觀看介面**（唯讀復盤頁，與上傳/編輯分離）；HP 與回合分組之後重啟。
+
 ## 更新紀錄
 
 - 2026-06-12：收到 `260611_2.roi_ui_suggestion.md`，建立本追蹤檔。
@@ -113,3 +132,4 @@ App 試用回饋 + 四項功能需求。
 - 2026-06-12：收到 `260611_3.domain_knowledge.md`。第一擁有者改了命名格式（序號前置）與進度檔名（`_progress.md`）；完成 housekeeping，啟動 VGC 生態盤點與競品工具拆解兩個研究，並準備強化 cron。
 - 2026-06-12：兩個研究完成。VGC 生態盤點（發現平台轉換到 Pokémon Champions）、競品拆解 + 三階段未來藍圖均產出並同步進 live docs。cron routine 已強化。goal #3 完成。
 - 2026-06-14：goal 260614_1（構思）四項拍板全實作（app v0.0.3）；goal 260614_2（測試回饋）A 全做、B 除待素材項全做（app v0.0.4）。
+- 2026-06-14：goal 260614_3（小回饋 + 方向調整）全做（app v0.0.5）：Mega/氣場類別、Toggle UI、lightbox、影片上傳註明；暫停 HP 與回合分組、聚焦 GameLog+特性/道具 OCR；未來工項(validator/觀看介面)寫進 docs。
