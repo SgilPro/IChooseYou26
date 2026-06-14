@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { loadVideo, extractFrames, framesFromImages, type Frame, type Segment } from "./pipeline/frames";
 import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
-import { makeEvent, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
+import { makeEvent, cleanupEvents, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
 import { ensureDict } from "./pipeline/dict";
 import { assignTurns, groupByTurn } from "./pipeline/turns";
 import { defaultRegions, type Region } from "./pipeline/regions";
@@ -207,7 +207,8 @@ export default function App() {
           }
         }
       }
-      const grouped = assignTurns(out, { gapSec: turnGapSec });
+      const cleaned = cleanupEvents(out, { lowConf: 50 });
+      const grouped = assignTurns(cleaned, { gapSec: turnGapSec });
       setEvents(grouped);
       setStage("done");
       setStatus(

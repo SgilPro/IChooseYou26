@@ -44,8 +44,13 @@ export interface DetectedEntity {
 
 const MATCH_CUTOFF = 0.3; // Fuse score 上限（越小越像）
 
-/** 從一段（含雜訊的）文字裡，找出疑似出現的寶可夢/招式/特性/道具。 */
-export function detectEntities(text: string, maxResults = 6): DetectedEntity[] {
+/** 從一段（含雜訊的）文字裡，找出疑似出現的寶可夢/招式/特性/道具。
+ *  allowedTypes 可限制只回傳某些類型（例如 gamelog 區只要 species/move）。 */
+export function detectEntities(
+  text: string,
+  allowedTypes?: EntityType[],
+  maxResults = 6
+): DetectedEntity[] {
   if (!fuse) return []; // 字典未載入（未呼叫 ensureDict）→ 不校正
   const f = fuse;
   const words = text.split(/[^A-Za-z0-9'.-]+/).filter((w) => w.length >= 3);
@@ -58,6 +63,7 @@ export function detectEntities(text: string, maxResults = 6): DetectedEntity[] {
   for (const win of windows) {
     const r = f.search(win, { limit: 1 })[0];
     if (r && r.score != null && r.score <= MATCH_CUTOFF) {
+      if (allowedTypes && !allowedTypes.includes(r.item.type)) continue;
       const key = r.item.type + ":" + r.item.name;
       const score = 1 - r.score;
       const prev = found.get(key);

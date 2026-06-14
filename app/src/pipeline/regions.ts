@@ -1,6 +1,5 @@
-// 多塊 ROI（region）模型。
-// 第一擁有者觀察到實戰中有 4 塊值得監看的區域，這裡定義其型別與預設值。
-// 座標都是相對比例 0~1（相對影片畫面寬高），所以不同解析度通用。
+// 多塊 ROI（region）模型 + 官方預設（依 OCR 語言）。
+// 座標都是相對比例 0~1（相對影片畫面寬高），不同解析度通用。
 
 export type RegionKind = "gamelog" | "ability" | "hp_opp" | "hp_self" | "other";
 
@@ -20,7 +19,7 @@ export interface Region {
 
 export const KIND_LABEL: Record<RegionKind, string> = {
   gamelog: "核心 GameLog",
-  ability: "特性發動",
+  ability: "特性 / 道具", // 回饋 B-8：特性發動 → 特性/道具
   hp_opp: "對方 HP",
   hp_self: "我方 HP",
   other: "其他",
@@ -31,16 +30,31 @@ export function newRegionId(): string {
   return `roi_${counter++}`;
 }
 
-// 預設 4 塊（依第一擁有者描述的相對位置；實際請用 ROI crop 介面校準）：
-// 1. 對方寶可夢 HP：右上
-// 2. 我方寶可夢 HP：左下
-// 3. 核心 GameLog：中間偏下偏左（最重要，預設開 keyframe+ocr）
-// 4. 特性發動：中間靠右、垂直偏正中
+type PresetRegion = Omit<Region, "id">;
+
+// 官方提供的 ROI 預設（依 OCR 語言）。英文為第一擁有者 2026-06-14 實測值。
+// 中文待補；未涵蓋的語言 fallback 到 eng。
+const OFFICIAL_PRESETS: Record<string, PresetRegion[]> = {
+  eng: [
+    { label: "對方 HP", kind: "hp_opp", x: 0.561, y: 0.035, w: 0.42, h: 0.12, ocr: true, keyframe: false },
+    { label: "我方 HP", kind: "hp_self", x: 0.016, y: 0.852, w: 0.42, h: 0.12, ocr: true, keyframe: false },
+    { label: "核心 GameLog", kind: "gamelog", x: 0.152, y: 0.723, w: 0.56, h: 0.07, ocr: true, keyframe: true },
+    { label: "特性 / 道具", kind: "ability", x: 0.804, y: 0.426, w: 0.12, h: 0.1, ocr: true, keyframe: true },
+  ],
+};
+
+/** 是否有該語言的官方預設（沒有就 fallback eng）。 */
+export function hasOfficialPreset(lang: string): boolean {
+  return lang in OFFICIAL_PRESETS;
+}
+
+/** 取得某 OCR 語言的官方 ROI 預設（帶新 id）。未知語言 fallback eng。 */
+export function officialRegions(lang: string): Region[] {
+  const key = OFFICIAL_PRESETS[lang] ? lang : "eng";
+  return OFFICIAL_PRESETS[key].map((r) => ({ ...r, id: newRegionId() }));
+}
+
+/** 預設（＝英文官方預設）。 */
 export function defaultRegions(): Region[] {
-  return [
-    { id: newRegionId(), label: "對方 HP", kind: "hp_opp", x: 0.62, y: 0.05, w: 0.33, h: 0.12, ocr: true, keyframe: false },
-    { id: newRegionId(), label: "我方 HP", kind: "hp_self", x: 0.05, y: 0.70, w: 0.33, h: 0.12, ocr: true, keyframe: false },
-    { id: newRegionId(), label: "核心 GameLog", kind: "gamelog", x: 0.06, y: 0.78, w: 0.56, h: 0.18, ocr: true, keyframe: true },
-    { id: newRegionId(), label: "特性發動", kind: "ability", x: 0.55, y: 0.32, w: 0.26, h: 0.36, ocr: true, keyframe: true },
-  ];
+  return officialRegions("eng");
 }
