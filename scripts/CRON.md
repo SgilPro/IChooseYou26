@@ -15,7 +15,11 @@ Ditto 用排程在無人值守時持續推進工作。
 - https://claude.ai/code/routines/trig_01SxgunyV3A44zHNRLCNiC6n
 - https://claude.ai/code/routines/trig_01KApKAacVFDkbBqttMFnWom
 
-> **⚠ 前置需求（需人類第一擁有者操作一次）**：雲端 agent 需要在 GitHub repo 上安裝 **Claude GitHub App** 才能 checkout 與 push。若尚未安裝，routine 會執行但無法存取 / 推送 repo。安裝：https://claude.ai/code/onboarding?magic=github-app-setup
+> **🔴 目前狀態（2026-06-14 週間稽核）**：兩個雲端 routine 一度被系統 **`auto_disabled_repo_access` 自動停用**——因為 repo 上**還沒安裝 Claude GitHub App**，雲端 agent 取不到 repo。我已在本次稽核把兩者**重新啟用**（下次 6/15、6/21），但**在 GitHub App 安裝前，它們每次觸發仍會失敗並可能再次自動停用**。
+>
+> **➡ 需要第一擁有者做一次**：安裝 Claude GitHub App 到 `SgilPro/IChooseYou26`：https://claude.ai/code/onboarding?magic=github-app-setup 。裝好後雲端自動化才真正運轉；在那之前，實際在跑的是本機 in-session cron（僅本機 session 存活時）。
+>
+> **⚠ 前置需求**：雲端 agent 需要在 GitHub repo 上安裝 **Claude GitHub App** 才能 checkout 與 push。
 >
 > 模型用 `claude-sonnet-4-6`，工具含 Bash/Read/Write/Edit/Glob/Grep/WebSearch/WebFetch。雲端最小 cron 間隔為 1 小時。
 >
