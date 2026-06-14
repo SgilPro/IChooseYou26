@@ -10,7 +10,11 @@
 
 ## 本機現況（2026-06-14）
 
-`ffmpeg` / `ffprobe` / `yt-dlp` / `whisper` **皆未安裝**；有 `node v20`、`python 3.14`、`pip`、Homebrew。下方每個工作流都附安裝指令。
+- ✅ **`yt-dlp` 已安裝**：官方單檔 binary（35MB，v2026.06.09）於 `/opt/homebrew/bin/yt-dlp`。**字幕/逐字稿工作流（C）現在可用**（抓 .vtt 不需 ffmpeg；轉 .srt 才需 ffmpeg）。
+- ❌ **`ffmpeg` / `ffprobe` 未安裝**：資料卷只剩 ~11GB（95% 滿），brew 完整版約 1.5GB（佔剩餘 ~13%），靜態單檔約 100MB 但屬第三方來源——**第一擁有者決定先不裝**。所以**抽幀工作流（A 的影格部分 / B）暫不可用**，待之後騰出空間或改用靜態 binary 再裝。
+- 其他：`whisper` 未安裝；有 `node v20`、`python 3.14`、`pip`、Homebrew。
+
+> 影響：在 ffmpeg 裝好前，我**還不能**從影片抽幀來看（OCR 打樣的影片路徑卡住）；但**截圖檔我已能用 `Read` 直接看**（最快路徑仍是第一擁有者丟截圖），且 yt-dlp 可先抓字幕幫「讀內容 / 學 VGC」。
 
 ---
 
