@@ -5,13 +5,15 @@ import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, cleanupEvents, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
 import { ensureDict } from "./pipeline/dict";
 import { assignTurns, groupByTurn } from "./pipeline/turns";
-import { defaultRegions, type Region } from "./pipeline/regions";
+import { officialRegions, hasOfficialPreset, type Region } from "./pipeline/regions";
+import { secToClock } from "./pipeline/time";
 import { checkBackend, fetchYoutube } from "./pipeline/youtube";
 import {
-  listPresets, savePreset, deletePreset, exportPresets, importPresets,
+  listPresets, savePreset, deletePreset, importPresets,
   saveLog, listLogs, loadLog, deleteLog, type SavedLogMeta,
 } from "./pipeline/storage";
 import RegionEditor from "./RegionEditor";
+import TimeField from "./TimeField";
 
 type Stage = "idle" | "extracting" | "filtering" | "ocr" | "done";
 
@@ -25,8 +27,14 @@ export default function App() {
   const [minConfidence, setMinConfidence] = useState(0);
   const [turnGapSec, setTurnGapSec] = useState(12);
 
-  const [regions, setRegions] = useState<Region[]>(defaultRegions());
+  const [regions, setRegions] = useState<Region[]>(officialRegions("eng"));
+  const [customRoi, setCustomRoi] = useState(false); // 回饋 #6：預設用官方 ROI，開此才可自定義
   const [segments, setSegments] = useState<Segment[]>([]);
+
+  // 未開自定義時，ROI 跟著 OCR 語言帶入官方預設。
+  useEffect(() => {
+    if (!customRoi) setRegions(officialRegions(lang));
+  }, [lang, customRoi]);
 
   // Feature ①：YouTube 來源（需本地後端）
   const [backend, setBackend] = useState<{ ok: boolean; ytdlp: string | null } | null>(null);
@@ -64,7 +72,10 @@ export default function App() {
     refreshPresets();
   }
   function onExportPresets() {
-    const blob = new Blob([exportPresets()], { type: "application/json" });
+    // 回饋 #1：若還沒存任何 preset，至少匯出目前的 ROI（避免匯出空陣列）。
+    const saved = listPresets();
+    const payload = saved.length > 0 ? saved : [{ name: "目前 ROI", regions }];
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "roi-presets.json";
@@ -232,7 +243,9 @@ export default function App() {
     setEvents((evs) => assignTurns(evs, { gapSec: turnGapSec }));
   }
   function exportJson() {
-    const blob = new Blob([JSON.stringify(events, null, 2)], { type: "application/json" });
+    // 回饋 #3：匯出 JSON 不含 thumbnail（縮圖只供畫面顯示，會讓檔案爆大）。
+    const slim = events.map(({ thumb, ...rest }) => { void thumb; return rest; });
+    const blob = new Blob([JSON.stringify(slim, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "game-log.json";
@@ -285,16 +298,14 @@ export default function App() {
             </div>
             <div className="row">
               <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
-                下載區段 開始(秒)
-                <input type="number" min={0} step={1} value={ytStart}
-                  onChange={(e) => setYtStart(Number(e.target.value))} />
+                下載區段 開始
+                <TimeField value={ytStart} onChange={setYtStart} />
               </label>
               <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
-                結束(秒)
-                <input type="number" min={0} step={1} value={ytEnd}
-                  onChange={(e) => setYtEnd(Number(e.target.value))} />
+                結束
+                <TimeField value={ytEnd} onChange={setYtEnd} />
               </label>
-              <span className="hint">（區段 0–0＝整支）</span>
+              <span className="hint">（m:ss；0:00–0:00＝整支）</span>
               <button onClick={fetchFromYoutube} disabled={!ytUrl || ytBusy}>
                 {ytBusy ? "下載中…" : "取得影片"}
               </button>
@@ -313,7 +324,8 @@ export default function App() {
 
       {savedLogs.length > 0 && (
         <section className="panel">
-          <h2>💾 已存的 Log（本機）</h2>
+          <h2>💾 已存的 Log（存在本機瀏覽器 IndexedDB）</h2>
+          <p className="hint">「儲存此 Log」會把事件存進你瀏覽器的 IndexedDB（資料庫 vgc-gamelog）——不上傳、換瀏覽器或清除網站資料就會不見。</p>
           <ul className="log-list">
             {savedLogs.map((l) => (
               <li key={l.id}>
@@ -361,19 +373,17 @@ export default function App() {
       <section className="panel">
         <h2>3. 時間段（去頭去尾去中間）</h2>
         <p className="hint">
-          只分析這些時間段（秒）。空白＝整支影片。直播多局可加多段，把局與局之間的畫面排除。
+          只分析這些時間段（格式 m:ss）。空白＝整支影片。直播多局可加多段，把局與局之間的畫面排除。
         </p>
         {segments.map((s, i) => (
           <div className="row" key={i}>
             <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
               開始
-              <input type="number" min={0} step={1} value={s.start}
-                onChange={(e) => updateSegment(i, { start: Number(e.target.value) })} />
+              <TimeField value={s.start} onChange={(v) => updateSegment(i, { start: v })} />
             </label>
             <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
               結束
-              <input type="number" min={0} step={1} value={s.end}
-                onChange={(e) => updateSegment(i, { end: Number(e.target.value) })} />
+              <TimeField value={s.end} onChange={(v) => updateSegment(i, { end: v })} />
             </label>
             <button className="del" onClick={() => removeSegment(i)}>刪除此段</button>
           </div>
@@ -384,28 +394,41 @@ export default function App() {
       </section>
 
       <section className="panel">
-        <h2>4. ROI 多塊裁切（含 crop 介面）</h2>
-        <RegionEditor videoFile={file} regions={regions} onChange={setRegions} />
+        <h2>4. ROI 多塊裁切</h2>
         <div className="row">
-          <button onClick={() => setRegions(defaultRegions())}>重設為預設 4 塊</button>
-          <button onClick={onSavePreset}>💾 存成 preset</button>
-          {presets.length > 0 && (
-            <select defaultValue="" onChange={(e) => { if (e.target.value) onApplyPreset(e.target.value); }}>
-              <option value="">套用 preset…</option>
-              {presets.map((p) => <option key={p} value={p}>{p}</option>)}
-            </select>
-          )}
-          {presets.length > 0 && (
-            <select defaultValue="" onChange={(e) => { if (e.target.value) onDeletePreset(e.target.value); e.target.value = ""; }}>
-              <option value="">刪除 preset…</option>
-              {presets.map((p) => <option key={p} value={p}>{p}</option>)}
-            </select>
-          )}
-          <button onClick={onExportPresets}>匯出 presets</button>
-          <label className="file-btn">匯入 presets
-            <input type="file" accept="application/json" hidden onChange={(e) => onImportPresets(e.target.files?.[0])} />
+          <label style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
+            <input type="checkbox" checked={customRoi} onChange={(e) => setCustomRoi(e.target.checked)} />
+            <strong>自定義 ROI 裁切</strong>（特殊版面用，如直播塞聊天室導致畫面縮小偏移）
           </label>
+          <span className="hint">
+            {customRoi
+              ? "自定義模式：可拖曳/縮放/編輯，並存成 preset。"
+              : `官方預設模式：依 OCR 語言自動帶入${hasOfficialPreset(lang) ? "" : "（此語言尚無官方預設，暫用英文）"}。`}
+          </span>
         </div>
+        <RegionEditor videoFile={file} regions={regions} onChange={setRegions} readOnly={!customRoi} />
+        {customRoi && (
+          <div className="row">
+            <button onClick={() => setRegions(officialRegions(lang))}>重設為官方預設</button>
+            <button onClick={onSavePreset}>💾 存成 preset</button>
+            {presets.length > 0 && (
+              <select defaultValue="" onChange={(e) => { if (e.target.value) onApplyPreset(e.target.value); }}>
+                <option value="">套用 preset…</option>
+                {presets.map((p) => <option key={p} value={p}>{p}</option>)}
+              </select>
+            )}
+            {presets.length > 0 && (
+              <select defaultValue="" onChange={(e) => { if (e.target.value) onDeletePreset(e.target.value); e.target.value = ""; }}>
+                <option value="">刪除 preset…</option>
+                {presets.map((p) => <option key={p} value={p}>{p}</option>)}
+              </select>
+            )}
+            <button onClick={onExportPresets}>匯出 presets</button>
+            <label className="file-btn">匯入 presets
+              <input type="file" accept="application/json" hidden onChange={(e) => onImportPresets(e.target.files?.[0])} />
+            </label>
+          </div>
+        )}
       </section>
 
       <section className="panel">
@@ -457,7 +480,7 @@ export default function App() {
                     <img src={ev.thumb} alt="" className="thumb" />
                     <div className="ev-body">
                       <div className="ev-meta">
-                        <span className="t">{ev.t.toFixed(1)}s</span>
+                        <span className="t">{secToClock(ev.t)}</span>
                         <span className="region-tag">{ev.region}</span>
                         <label className="turn-edit">回合
                           <input type="number" min={0} value={ev.turn}
@@ -492,7 +515,7 @@ export default function App() {
       )}
 
       <footer className="app-foot">
-        原型 v0.0.3 · 全在瀏覽器執行，影片不會上傳 · 對戰知識與規則持續由 Ditto 學習中
+        原型 v0.0.4 · 全在瀏覽器執行，影片不會上傳 · 對戰知識與規則持續由 Ditto 學習中
       </footer>
     </div>
   );

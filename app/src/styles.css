@@ -69,6 +69,16 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .roi-rect.pending { border-style: dashed; background: rgba(139,108,255,.1); pointer-events: none; }
 .roi-tag { position: absolute; top: -1px; left: -1px; font-size: 11px; background: var(--accent-2); color: #04261f;
   padding: 1px 6px; border-radius: 0 0 6px 0; white-space: nowrap; }
+.roi-handle { position: absolute; width: 11px; height: 11px; background: #fff; border: 1px solid var(--accent);
+  border-radius: 2px; box-sizing: border-box; }
+.roi-handle.h-nw { left: -6px; top: -6px; cursor: nwse-resize; }
+.roi-handle.h-n  { left: 50%; top: -6px; transform: translateX(-50%); cursor: ns-resize; }
+.roi-handle.h-ne { right: -6px; top: -6px; cursor: nesw-resize; }
+.roi-handle.h-e  { right: -6px; top: 50%; transform: translateY(-50%); cursor: ew-resize; }
+.roi-handle.h-se { right: -6px; bottom: -6px; cursor: nwse-resize; }
+.roi-handle.h-s  { left: 50%; bottom: -6px; transform: translateX(-50%); cursor: ns-resize; }
+.roi-handle.h-sw { left: -6px; bottom: -6px; cursor: nesw-resize; }
+.roi-handle.h-w  { left: -6px; top: 50%; transform: translateY(-50%); cursor: ew-resize; }
 
 .roi-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
 .roi-table th, .roi-table td { border: 1px solid var(--border); padding: 4px 6px; text-align: center; }
