@@ -76,9 +76,40 @@ App 試用回饋 + 四項功能需求。
   - 🙋 **待素材**：實際 A/B 數字需要真實對戰截圖（我環境無法擷 YouTube 畫面，
         可由第一擁有者提供、或本機 yt-dlp 擷單幀），即可定 MVP go/no-go
 
+### `260614_2.user_feedback.md` — ✅ A 區全做完；B 區除「待真實素材」項外全做完（app v0.0.4）
+測試回饋：A. Bug/UI（7 項）+ B. GameLog 結構優化（12 項）。
+
+**A. Bug / UI**
+| # | 項目 | 狀態 |
+|---|------|------|
+| 1 | 匯出 presets 空陣列 | ✅ 未存 preset 時改匯出目前 ROI |
+| 2 | 儲存 log 存到哪 | ✅ 標明本機瀏覽器 IndexedDB(vgc-gamelog)+說明 |
+| 3 | 匯出 JSON 去 thumbnail | ✅ |
+| 4 | 秒數改 m:ss | ✅ 時間段/YouTube 區段/抓幀/事件時間 |
+| 5 | thumbnail 模糊 + OCR 圖源疑慮 | ✅ 縮圖調清晰(360px/0.85)；**OCR 用全解析度原圖**(已於程式與 UI 說明，非用縮圖) |
+| 6 | OCR 語言驅動官方 ROI 預設 + 自定義 toggle | ✅ eng 用實測值；toggle 關＝唯讀官方預設、開＝可編輯存 preset |
+| 7 | ROI 可 resize | ✅ 四角/四邊縮放把手 |
+
+**B. GameLog 結構**
+| # | 項目 | 狀態 |
+|---|------|------|
+| 1 | 相差1秒雷同 log 留信心高 | ✅ cleanupEvents |
+| 2 | 無 tag 低信心雜訊移除 | ✅ cleanupEvents |
+| 3 | 己方派出 (Go!) 辨識 | ✅ switch 規則 |
+| 4 | 能力升降 category | ✅ stat |
+| 5 | gamelog 不出現特性名 | ✅ 實體只取 species/move |
+| 6 | 天氣/滅歌/異常/畏縮 | 🟡 基本關鍵字已放；精準文案待真實素材（記 `04-gamelog-categories-backlog.md` 當日常研究）|
+| 7 | 效果絕佳/不好/要害/miss | ✅ effectiveness |
+| 8 | 特性發動區→特性/道具 | ✅ |
+| 9 | But it failed! | ✅ failed |
+| 10 | 啄食/蟲咬 | ⬜ 低優先，記 backlog |
+| 11 | 受到反傷 recoiled | ✅ recoil |
+| 12 | 輸/投降/打敗/平手 | ✅ result |
+
 ## 更新紀錄
 
 - 2026-06-12：收到 `260611_2.roi_ui_suggestion.md`，建立本追蹤檔。
 - 2026-06-12：完成 ①②③④ 全部四項（app v0.0.2 + 新增 `server/` 後端），build 通過、後端 health/guard 驗證。研究 08（YouTube 可行性）已產出。
 - 2026-06-12：收到 `260611_3.domain_knowledge.md`。第一擁有者改了命名格式（序號前置）與進度檔名（`_progress.md`）；完成 housekeeping，啟動 VGC 生態盤點與競品工具拆解兩個研究，並準備強化 cron。
 - 2026-06-12：兩個研究完成。VGC 生態盤點（發現平台轉換到 Pokémon Champions）、競品拆解 + 三階段未來藍圖均產出並同步進 live docs。cron routine 已強化。goal #3 完成。
+- 2026-06-14：goal 260614_1（構思）四項拍板全實作（app v0.0.3）；goal 260614_2（測試回饋）A 全做、B 除待素材項全做（app v0.0.4）。

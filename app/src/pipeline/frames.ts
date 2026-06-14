@@ -20,7 +20,7 @@ export interface Segment {
 export interface ExtractOptions {
   /** 每隔幾秒抽一張，預設 1 秒 */
   intervalSec?: number;
-  /** 縮圖寬度（等比縮放），預設 240 */
+  /** 縮圖寬度（等比縮放），預設 360。注意：縮圖只供畫面顯示，OCR 一律用全解析度原圖。 */
   thumbWidth?: number;
   /** 只擷取這些時間段內的影格；省略或空陣列代表整支影片 */
   segments?: Segment[];
@@ -63,7 +63,7 @@ export async function extractFrames(
   opts: ExtractOptions = {}
 ): Promise<Frame[]> {
   const interval = opts.intervalSec ?? 1;
-  const thumbW = opts.thumbWidth ?? 240;
+  const thumbW = opts.thumbWidth ?? 360;
   const duration = video.duration;
   const vw = video.videoWidth;
   const vh = video.videoHeight;
@@ -98,15 +98,16 @@ export async function extractFrames(
     keep.height = vh;
     keep.getContext("2d")!.drawImage(fullCanvas, 0, 0);
 
-    frames.push({ t, thumb: thumbCanvas.toDataURL("image/jpeg", 0.7), canvas: keep });
+    frames.push({ t, thumb: thumbCanvas.toDataURL("image/jpeg", 0.85), canvas: keep });
     opts.onProgress?.((i + 1) / times.length);
   }
 
   return frames;
 }
 
-/** 把上傳的截圖們轉成 Frame[]（給 OCR 打樣 / 圖片來源用）。t 用索引代替時間。 */
-export function framesFromImages(files: File[], thumbWidth = 240): Promise<Frame[]> {
+/** 把上傳的截圖們轉成 Frame[]（給 OCR 打樣 / 圖片來源用）。t 用索引代替時間。
+ *  注意：縮圖只供顯示；canvas 保留原圖全解析度供 OCR。 */
+export function framesFromImages(files: File[], thumbWidth = 360): Promise<Frame[]> {
   return Promise.all(
     files.map(
       (file, i) =>
@@ -123,7 +124,7 @@ export function framesFromImages(files: File[], thumbWidth = 240): Promise<Frame
             thumb.height = Math.round(img.naturalHeight * scale);
             thumb.getContext("2d")!.drawImage(full, 0, 0, thumb.width, thumb.height);
             URL.revokeObjectURL(img.src);
-            resolve({ t: i, thumb: thumb.toDataURL("image/jpeg", 0.7), canvas: full });
+            resolve({ t: i, thumb: thumb.toDataURL("image/jpeg", 0.85), canvas: full });
           };
           img.onerror = () => reject(new Error("無法載入圖片：" + file.name));
           img.src = URL.createObjectURL(file);

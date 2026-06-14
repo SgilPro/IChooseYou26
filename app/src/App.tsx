@@ -460,6 +460,7 @@ export default function App() {
             </div>
           </div>
           <p className="hint">機器產出的草稿，依推斷的回合分組。請校正分類/文字/回合，刪掉雜訊。每個事件標有來源 ROI。</p>
+          <p className="hint">ℹ️ 左側縮圖只供顯示（壓縮過）；<strong>OCR 一律用全解析度原圖裁切</strong>，辨識精度不受縮圖影響。</p>
           <div className="row">
             <label style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
               回合間隔門檻（秒）
