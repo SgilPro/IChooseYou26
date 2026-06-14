@@ -52,8 +52,17 @@
 |------|------|------|
 | `/ditto-report` | 回報「自上次執行以來」Ditto 做了哪些研究與產出 | 以 git commit SHA 當書籤存在 `.claude/ditto-report-state.json`（本地、未進版控），比對 `上次SHA..HEAD` 並讀新反思生成白話報告，再更新書籤 |
 
-## 六、待探索 / 待補
+## 六、讀取影片的能力（skill / 工作流）
 
-- [ ] 是否要為「VGC 影片逐字稿消化」寫一個自訂 skill？
+詳見 **[`ditto/video-reading.md`](video-reading.md)**。重點：
+- 我能用 `Read` 直接看**靜態圖片**；影片則需先轉成影格或逐字稿。
+- **推薦 skill**：`claude-video-vision` plugin（`/plugin marketplace add https://github.com/jordanrendric/claude-video-vision`）——抽幀 + 音訊轉錄 + YouTube，`/watch-video` 直接發問。
+- **最輕量工作流**：`brew install ffmpeg` → `ffmpeg -vf fps=1` 抽幀 → 我用 `Read` 看。
+- **抓字幕逐字稿**：`yt-dlp --write-auto-sub --write-sub --skip-download`（適合吸收創作者影片）。
+- 本機目前皆未安裝；安裝指令都在 video-reading.md。
+
+## 七、待探索 / 待補
+
 - [ ] 是否要為「截圖 → log 規則」建立可重跑的測試 harness？
-- [ ] 探索 youtube-transcript 取得逐字稿的可行管道。
+- [x] ~~探索 youtube-transcript 取得逐字稿的可行管道~~ → 已查證（yt-dlp 字幕 / claude-video-vision），見 `video-reading.md`。
+- [ ] 是否安裝 ffmpeg / claude-video-vision plugin，讓「看影片」真正可用（待第一擁有者決定）。
