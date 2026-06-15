@@ -181,3 +181,9 @@
   - **結論（信心高，冠軍待定）**：Liquipedia 顯示已進冠軍賽——**Grand Final（6/14）：Francesco Pio Pero（義大利）vs Eric Rios（西班牙）**，冠軍尚未產生。**準決賽**：Pero 2:0 勝 Shoma Honami（日）、Eric Rios 2:0 勝 **Wolfe Glick（WolfeyVGC，美，打進 Top 4）**。其餘 Top 8：Ko Tsukide（日）、Adrien Hurley（美）、Dawei Si（中）、Marcus Dion（加）。Swiss 階段 1096 人。
   - **下次該做**：冠軍出爐後補記冠軍 + 冠軍隊伍（待 RK9/Victory Road 上隊表），分析 Champions M-A meta（哪些 Mega/核心強勢）。
   - 來源：[Liquipedia NAIC 2026 VGC](https://liquipedia.net/pokemon/Pokemon_Championships/International/North_America/2026/VGC)。
+
+- **2026-06-15（daily routine，回收昨日待辦）**：NAIC 冠軍出爐。
+  - **結論（信心高）**：**冠軍 Francesco Pio Pero（義大利），戰績 15-2**，個人首座大賽冠軍（Champions M-A 首場 International）。
+  - **待補**：冠軍隊伍 6 隻（Limitless 標準頁只給 Teamlist 連結未直接列出）→ 之後抓隊表，分析 M-A meta（強勢 Mega / 核心組合）。
+  - 來源：[Limitless 標準頁 — Francesco Pio Pero](https://standings.limitlessvgc.com/0035/player/0154)、[Bulbagarden NAIC 2026 結果與隊伍](https://bulbagarden.net/threads/vgc-2026-north-america-international-championships-results-and-teams.310806/)。
+  - **附帶查證（影響產品）**：Pokémon Champions **更改了效果文案**——新增「**extremely effective**」(雙弱點 4x) 與「**mostly ineffective**」(雙抗)，取代部分舊「super/not very effective」。已同步更新 app 的事件關鍵字（見 `../line1-tech-feasibility/09`）。來源：[Kotaku](https://kotaku.com/pokemon-champions-its-super-effective-extremely-not-1851786726)。

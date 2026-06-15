@@ -41,7 +41,9 @@ const RULES: { kind: EventKind; keywords: string[] }[] = [
   { kind: "result", keywords: ["you won", "you lost", "whited out", "forfeit", "it's a tie", "ended in a draw", "defeated the", "打敗", "投降", "平手", "輸了", "贏了"] },
   { kind: "failed", keywords: ["but it failed", "but nothing happened", "失敗", "うまくきまらなかった"] },
   { kind: "recoil", keywords: ["recoil", "hit with recoil", "受到反傷", "はんどう"] },
-  { kind: "effectiveness", keywords: ["super effective", "not very effective", "no effect", "critical hit", "missed", "avoided the", "but it missed", "效果絕佳", "效果拔群", "效果不好", "要害", "沒有命中", "落空", "miss"] },
+  // 注意：Pokémon Champions 新增了「extremely effective」(雙弱點 4x) 與「mostly ineffective」(雙抗)
+  // 取代部分舊措辭（查證：Kotaku 2026）。兩種措辭都要涵蓋。
+  { kind: "effectiveness", keywords: ["extremely effective", "super effective", "mostly ineffective", "not very effective", "no effect", "critical hit", "missed", "avoided the", "but it missed", "效果絕佳", "效果拔群", "效果不好", "要害", "沒有命中", "落空", "miss"] },
   { kind: "stat", keywords: ["rose", "fell", "sharply", "harshly", "won't go higher", "can't go any lower", "wasn't lowered", "won't be lowered", "能力", "提升", "下降", "上升"] },
   { kind: "mega", keywords: ["mega evolved", "mega evolution", "mega-evolved", "超級進化", "極巨化", "dynamax"] },
   { kind: "faint", keywords: ["fainted", "倒下", "たおれた", "瀕死"] },

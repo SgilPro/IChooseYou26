@@ -37,3 +37,13 @@
 > 待跟進：若未來 Champions 官方推出 replay/匯出（值得長期關注，已入 watchlist 概念），我們應第一時間評估改接結構化資料、把 OCR 降為 fallback。
 
 來源：[GameFAQs — Champions replay 討論](https://gamefaqs.gamespot.com/boards/517117-pokemon-champions/81134751)、[Pokémon 官方論壇 — 能否看自己對戰的 replay](https://community.pokemon.com/en-us/discussion/11819/)。
+
+## 追記（2026-06-15）：Champions 改了「效果」訊息文案 → 已更新 OCR 關鍵字
+
+查證（信心高）：Pokémon Champions **首次更動經典效果文案**——對「雙弱點(4x)」顯示「**extremely effective**」、對「雙抗」顯示「**mostly ineffective**」，單一弱點/抵抗才維持舊的「super/not very effective」。
+
+對我們的直接影響：事件分類靠訊息文案關鍵字，**新平台措辭變了，舊關鍵字會漏分類**。已把 `extremely effective` / `mostly ineffective` 加進 `app/src/pipeline/events.ts` 的 effectiveness 規則。
+
+**更廣的教訓**：Champions 的 in-battle 文案是一套**新的、需逐一查證的字串**——這強化了 backlog（`../product-ideation/04`）「蒐集 Champions 各情境實際文案」的必要性，不能沿用舊作假設。
+
+來源：[Kotaku — Champions 更新 super effective 文案](https://kotaku.com/pokemon-champions-its-super-effective-extremely-not-1851786726)。

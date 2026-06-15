@@ -28,3 +28,4 @@
 - [2026-06-13](2026-06-13.md) — 每日推進：NAIC 賽果追蹤（賽事進行中）、`@smogon/calc` 查證（Phase 1 去風險）。
 - [2026-06-14](2026-06-14.md) — 主動構思產品優化方向（GameLog 資料模型、旁支功能、OCR/後端研究、優先級總表）；拍板後實作 v0.0.3 四項；每日推進（NAIC 冠軍賽、Champions 無 replay）。
 - [weekly-2026-W24](weekly-2026-W24.md) — **每週 meta 反思**：本週教訓、查證稽核、自我改善（daily 加「回收昨日待辦」、重啟雲端 routine）。
+- [2026-06-15](2026-06-15.md) — 每日推進：收掉 NAIC 冠軍(Francesco Pio Pero)；發現 Champions 改效果文案(extremely/mostly effective)並更新 OCR 關鍵字。

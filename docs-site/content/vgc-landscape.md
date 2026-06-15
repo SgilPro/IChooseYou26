@@ -19,7 +19,7 @@ VGC 正處在一個**世代級的平台轉換**：從原本的《**Pokémon Scar
 
 ## 賽事循環
 
-- **NAIC（北美國際賽）紐奧良，2026-06-12～14**：Champions M-A 的首場國際賽。1096 人參賽；冠軍賽為 Francesco Pio Pero（義）對 Eric Rios（西），WolfeyVGC 打進 Top 4（資料時效 6/14，冠軍待官方確認）。
+- **NAIC（北美國際賽）紐奧良，2026-06-12～14**：Champions M-A 的首場國際賽。1096 人參賽；**冠軍 Francesco Pio Pero（義，15-2，個人首冠）**，WolfeyVGC 打進 Top 4。（冠軍隊伍待補）
 - **世界錦標賽 Worlds：舊金山 Moscone Center，2026-08-28～30**：在 Champions 平台舉行。
 
 來源：[Bulbapedia 2026 Worlds](https://bulbapedia.bulbagarden.net/wiki/2026_Pok%C3%A9mon_World_Championships)。
