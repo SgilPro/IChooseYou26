@@ -187,3 +187,9 @@
   - **待補**：冠軍隊伍 6 隻（Limitless 標準頁只給 Teamlist 連結未直接列出）→ 之後抓隊表，分析 M-A meta（強勢 Mega / 核心組合）。
   - 來源：[Limitless 標準頁 — Francesco Pio Pero](https://standings.limitlessvgc.com/0035/player/0154)、[Bulbagarden NAIC 2026 結果與隊伍](https://bulbagarden.net/threads/vgc-2026-north-america-international-championships-results-and-teams.310806/)。
   - **附帶查證（影響產品）**：Pokémon Champions **更改了效果文案**——新增「**extremely effective**」(雙弱點 4x) 與「**mostly ineffective**」(雙抗)，取代部分舊「super/not very effective」。已同步更新 app 的事件關鍵字（見 `../line1-tech-feasibility/09`）。來源：[Kotaku](https://kotaku.com/pokemon-champions-its-super-effective-extremely-not-1851786726)。
+
+- **2026-06-16（daily routine，回收昨日待辦：冠軍隊伍 + M-A meta）**：
+  - **冠軍隊核心（信心高）**：Francesco Pio Pero 決賽以 **Mega Charizard Y + Mega Aerodactyl** 為核心擊敗 Eric Rios（2022 EUIC 冠軍）。完整 6 隻待抓（Bulbagarden 結果串 / Limitless teamlist）。
+  - **格式事實（信心高）**：NAIC 是**使用 Reg M-A 的最後一場大賽**（呼應 M-A 6/17 截止）；**Pokémon Champions 目前可用 186 隻**寶可夢（dex 受限，對我們的辨識字典 / meta 分析範圍有意義）。
+  - **待跟進**：完整冠軍 6 隻、其餘 Top-cut 隊伍；6/17 後接續格式。
+  - 來源：[Pokémon Blog](https://pokemonblog.com/2026/06/14/francesco-pio-pero-is-the-pokemon-vgc-masters-division-champion-at-the-2026-pokemon-north-america-international-championships/)、[Bulbagarden 結果與隊伍](https://bulbagarden.net/threads/vgc-2026-north-america-international-championships-results-and-teams.310806/)、[官方 @PlayPokemon](https://x.com/playpokemon/status/2066276667522257086)。

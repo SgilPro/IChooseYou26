@@ -50,6 +50,12 @@ button.del { padding: 4px 10px; font-size: 12px; }
 .ev-meta .conf { font-size: 12px; color: var(--ink-soft); }
 
 .region-tag { font-size: 12px; background: #2a2d55; color: var(--accent-2); padding: 2px 8px; border-radius: 999px; }
+.validator { background: #14162e; border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin: 10px 0; font-size: 14px; }
+.validator ul { margin: 8px 0 0; padding-left: 18px; }
+.validator li { margin: 4px 0; }
+.validator .ok { color: #8be0b0; }
+.validator .vw-warn { color: #ffcf8b; }
+.validator .vw-info { color: var(--ink-soft); }
 .turn-group { margin: 10px 0 18px; }
 .turn-head { margin: 0 0 8px; font-size: 15px; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 10px; }
 .turn-head .hint { font-weight: 400; }

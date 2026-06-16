@@ -4,6 +4,7 @@ import { aHash, hamming } from "./pipeline/phash";
 import { cropROI, ocrCanvas } from "./pipeline/ocr";
 import { makeEvent, cleanupEvents, KIND_LABEL, type BattleEvent, type EventKind } from "./pipeline/events";
 import { ensureDict } from "./pipeline/dict";
+import { validateLog } from "./pipeline/validator";
 // 回合分組（turns.ts）暫時停用，聚焦 GameLog OCR 精準化；之後可重啟。
 import { officialRegions, hasOfficialPreset, type Region } from "./pipeline/regions";
 import { secToClock } from "./pipeline/time";
@@ -466,6 +467,25 @@ export default function App() {
           </div>
           <p className="hint">機器產出的草稿（依時間排序）。請校正分類/文字，刪掉雜訊。每個事件標有來源 ROI。回合分組目前停用。</p>
           <p className="hint">ℹ️ 左側縮圖只供顯示（壓縮過）；<strong>OCR 一律用全解析度原圖裁切</strong>，辨識精度不受縮圖影響。點縮圖可放大預覽（Esc 關閉）。</p>
+
+          {(() => {
+            const warnings = validateLog(events);
+            return (
+              <div className="validator">
+                <strong>🔎 GameLog 檢查</strong>
+                {warnings.length === 0 ? (
+                  <span className="ok"> · ✅ 沒有發現明顯遺漏</span>
+                ) : (
+                  <ul>
+                    {warnings.map((wn, i) => (
+                      <li key={i} className={"vw-" + wn.level}>{wn.level === "warn" ? "⚠️" : "ℹ️"} {wn.msg}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            );
+          })()}
+
           <ul className="timeline">
             {events.map((ev) => (
               <li key={ev.id} className="event">
@@ -508,7 +528,7 @@ export default function App() {
       )}
 
       <footer className="app-foot">
-        原型 v0.0.5 · 全在瀏覽器執行，影片不會上傳 · 聚焦 GameLog + 特性/道具 OCR · 由 Ditto 持續學習中
+        原型 v0.0.6 · 全在瀏覽器執行，影片不會上傳 · 聚焦 GameLog + 特性/道具 OCR · 由 Ditto 持續學習中
       </footer>
     </div>
   );
