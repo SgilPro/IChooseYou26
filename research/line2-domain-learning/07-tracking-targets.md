@@ -11,7 +11,7 @@
 - **Pokémon Champions Regulations（Victory Road）**：<https://victoryroad.pro/champions-regulations/>
 - **SV Regulations（Victory Road）**：<https://victoryroad.pro/sv-rules-regulations/>
 - **Bulbapedia — 各 Regulation 頁**（例 [Reg M-A](https://bulbapedia.bulbagarden.net/wiki/Regulation_Set_M-A)）
-- **每週要問**：(1) 當前 active Regulation 是哪個？(2) M-A 在 **2026-06-17** 結束後接哪個格式（目前空白，待公布）？(3) 平台轉換時程有無更新（Champions 2027-09-01 強制）？
+- **每週要問**：(1) 當前 active Regulation 是哪個？〔2026-06-17 起＝**Reg M-B**，接 M-A；同日 Champions 行動版上線、Season M-3〕(2) **M-B 的確切規則 / 合法 Mega 與寶可夢池**為何（待公布）？M-B 約至 2026-09-02。(3) 之後 regs 是否引入 **Terastallization** 等機制？(4) 平台轉換時程（Champions 2027-09-01 強制）有無更新？
 
 ## B. 賽果來源（每週刷新賽後資料）
 - **RK9.gg（官方賽務、即時 standings/pairings）**：<https://rk9.gg/tournaments>

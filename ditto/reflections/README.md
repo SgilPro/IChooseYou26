@@ -30,3 +30,4 @@
 - [weekly-2026-W24](weekly-2026-W24.md) — **每週 meta 反思**：本週教訓、查證稽核、自我改善（daily 加「回收昨日待辦」、重啟雲端 routine）。
 - [2026-06-15](2026-06-15.md) — 每日推進：收掉 NAIC 冠軍(Francesco Pio Pero)；發現 Champions 改效果文案(extremely/mostly effective)並更新 OCR 關鍵字。
 - [2026-06-16](2026-06-16.md) — 每日推進：冠軍隊核心(Mega 噴火龍Y+化石翼龍)、Champions 186 隻；實作 GameLog validator v0。
+- [2026-06-17](2026-06-17.md) — 每日推進：M-A→M-B 接續(+行動版上線)確認；移除誤植 Dynamax；緩做字典過濾避免白工。

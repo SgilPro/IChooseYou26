@@ -18,6 +18,15 @@
 - [ ] **畏縮（flinch）**："X flinched and couldn't move!"。
 - [ ] **啄食 / 蟲咬（Pluck / Bug Bite）**：吃掉對方樹果的特殊語句（冷門，低優先）。
 
+## 待查證的 Champions 確切訊息文案（截圖 / datamine）
+
+Champions 改了部分文案（已證實效果類：`extremely effective` / `mostly ineffective`），所以**不能沿用 SV 字串假設**。以下文案線上查不到精確版本，需用對戰截圖 / datamine 確認後才補進 `events.ts`：
+
+- [ ] **Mega 進化**發動文案（目前用 `mega evolved`/`mega evolution` 等推測字樣；已移除誤植的 Dynamax/極巨化）。
+- [ ] **己方派出（Go!）/ 對方派出（sent out）** 在 Champions 的實際措辭。
+- [ ] **倒下（fainted）**、**異常狀態**、**天氣/場地/氣場**、**滅歌**、**畏縮** 的 Champions 文案。
+- [ ] **勝負結算**（you won / defeated 等）在 Champions 的措辭。
+
 ## 蒐集方式（Ditto 日常研究）
 
 - 用官方賽事 VOD / 創作者影片的對戰畫面，或第一擁有者提供的截圖，記錄各情境的**實際英文訊息框文案**。

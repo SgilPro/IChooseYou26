@@ -193,3 +193,9 @@
   - **格式事實（信心高）**：NAIC 是**使用 Reg M-A 的最後一場大賽**（呼應 M-A 6/17 截止）；**Pokémon Champions 目前可用 186 隻**寶可夢（dex 受限，對我們的辨識字典 / meta 分析範圍有意義）。
   - **待跟進**：完整冠軍 6 隻、其餘 Top-cut 隊伍；6/17 後接續格式。
   - 來源：[Pokémon Blog](https://pokemonblog.com/2026/06/14/francesco-pio-pero-is-the-pokemon-vgc-masters-division-champion-at-the-2026-pokemon-north-america-international-championships/)、[Bulbagarden 結果與隊伍](https://bulbagarden.net/threads/vgc-2026-north-america-international-championships-results-and-teams.310806/)、[官方 @PlayPokemon](https://x.com/playpokemon/status/2066276667522257086)。
+
+- **2026-06-17（daily routine，回收 watchlist #1：M-A 之後的格式）**：✅ 解答。
+  - **結論（信心高）**：**Reg M-A 於今日（6/17）結束，接續為 Regulation Set M-B**，同步開跑 **Season M-3**、且 **Champions 行動版（Android/iOS）今日上線**。M-B 預估持續到約 **2026-09-02**（接 Worlds）。
+  - **未定（誠實）**：M-B 的**確切規則 / 合法 Mega 與寶可夢池**尚未完整公布；未來 regs 可能引入 **Terastallization** 等機制。
+  - **對產品的連帶**：因 M-B 可能變動可用寶可夢 / Mega 池，原訂「把字典過濾到 186 隻」**先暫緩**，等 M-B 池確定再做（避免做了又改）。
+  - 來源：[Bulbapedia — Regulation Sets in Pokémon Champions](https://bulbapedia.bulbagarden.net/wiki/Regulation_Sets_in_Pok%C3%A9mon_Champions)、[Victory Road — Champions Regulations](https://victoryroad.pro/champions-regulations/)、[Pokémon Champions Timer](https://pokemonchampionstimer.com/pokemon-champions-vgc-2026/)。

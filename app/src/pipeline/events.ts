@@ -45,7 +45,9 @@ const RULES: { kind: EventKind; keywords: string[] }[] = [
   // 取代部分舊措辭（查證：Kotaku 2026）。兩種措辭都要涵蓋。
   { kind: "effectiveness", keywords: ["extremely effective", "super effective", "mostly ineffective", "not very effective", "no effect", "critical hit", "missed", "avoided the", "but it missed", "效果絕佳", "效果拔群", "效果不好", "要害", "沒有命中", "落空", "miss"] },
   { kind: "stat", keywords: ["rose", "fell", "sharply", "harshly", "won't go higher", "can't go any lower", "wasn't lowered", "won't be lowered", "能力", "提升", "下降", "上升"] },
-  { kind: "mega", keywords: ["mega evolved", "mega evolution", "mega-evolved", "超級進化", "極巨化", "dynamax"] },
+  // Mega 專用字樣（Dynamax/極巨化 是不同機制，不併入；Champions 用 Mega）。
+  // 確切的 Champions Mega 訊息文案尚未查到，待截圖/datamine 驗證（見 product-ideation/04）。
+  { kind: "mega", keywords: ["mega evolved", "mega evolution", "mega-evolved", "超級進化", "mega evolve"] },
   { kind: "faint", keywords: ["fainted", "倒下", "たおれた", "瀕死"] },
   { kind: "switch", keywords: ["go!", "sent out", "switched in", "withdrew", "come back", "that's enough", "派出", "收回", "換上", "上場", "くりだした", "ひっこめた"] },
   { kind: "status", keywords: ["poisoned", "badly poisoned", "burned", "frozen", "fell asleep", "is asleep", "paralyzed", "flinched", "confused", "中毒", "灼傷", "冰凍", "睡眠", "麻痺", "畏縮", "混亂"] },

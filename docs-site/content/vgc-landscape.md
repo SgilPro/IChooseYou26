@@ -12,7 +12,8 @@ VGC 正處在一個**世代級的平台轉換**：從原本的《**Pokémon Scar
 
 ## 目前的遊戲與規則（Regulation）
 
-- **Pokémon Champions — Reg M-A（主線，2026-04-08～06-17）**：**Mega 進化回歸**（每場限用 1 次，共 59 種 Mega），**禁用所有傳說 / Restricted 寶可夢**。M-A 之後接哪個格式，官方尚未公布。
+- **Pokémon Champions — Reg M-A（2026-04-08～06-17）**：**Mega 進化回歸**（每場限用 1 次，共 59 種 Mega），**禁用所有傳說 / Restricted**。
+- **Pokémon Champions — Reg M-B（2026-06-17 起，約至 09-02）**：接續 M-A，同日 **Champions 行動版（Android/iOS）上線**、Season M-3 開跑。確切規則 / 合法寶可夢與 Mega 池尚待公布。
 - **Scarlet/Violet — Reg I（並行，SV 最後一個格式）**：每隊最多 2 隻 Restricted。
 
 來源：[Victory Road 規則頁](https://victoryroad.pro/champions-regulations/)、[Pokemon.com 轉換公告](https://www.pokemon.com/us/pokemon-news/play-pokemon-competitions-transition-to-pokemon-champions-on-april-and-may-2026)。
