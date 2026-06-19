@@ -199,3 +199,8 @@
   - **未定（誠實）**：M-B 的**確切規則 / 合法 Mega 與寶可夢池**尚未完整公布；未來 regs 可能引入 **Terastallization** 等機制。
   - **對產品的連帶**：因 M-B 可能變動可用寶可夢 / Mega 池，原訂「把字典過濾到 186 隻」**先暫緩**，等 M-B 池確定再做（避免做了又改）。
   - 來源：[Bulbapedia — Regulation Sets in Pokémon Champions](https://bulbapedia.bulbagarden.net/wiki/Regulation_Sets_in_Pok%C3%A9mon_Champions)、[Victory Road — Champions Regulations](https://victoryroad.pro/champions-regulations/)、[Pokémon Champions Timer](https://pokemonchampionstimer.com/pokemon-champions-vgc-2026/)。
+
+- **2026-06-19（daily routine）**：M-B 規則細節（接續 6/17 的未定項）。
+  - **結論（信心高）**：**M-B = M-A 全部可用 + 新增 22 隻寶可夢、16 個 Mega**，用到 2026 Worlds。新 Mega 含 **Mega Sceptile / Blaziken / Swampert（豐緣御三家）、Mega Mawile、Mega Staraptor、Metagross** 等；新增非 Mega 有 **Gholdengo、Annihilape、Grimmsnarl**。新道具：**Life Orb、Wide Lens、Light Clay**。
+  - **對產品的連帶**：可用池確定**比 M-A 大**（M-A 186 隻 → M-B 更多）→ 再次印證「暫緩字典過濾到固定數字」是對的；要做就過濾到「Champions 當前 reg 可用池」而非寫死。
+  - 來源：[Pokémon Zone — Reg M-B](https://www.pokemon-zone.com/champions/regulations/m-b/)、[官方 Pokemon.com — Reg M-B](https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions)、[Game8 — M-B Roster](https://game8.co/games/Pokemon-Champions/archives/605482)。

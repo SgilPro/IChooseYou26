@@ -15,6 +15,7 @@ import {
 } from "./pipeline/storage";
 import RegionEditor from "./RegionEditor";
 import TimeField from "./TimeField";
+import ToggleButton from "./ToggleButton";
 
 type Stage = "idle" | "extracting" | "filtering" | "ocr" | "done";
 
@@ -27,6 +28,7 @@ export default function App() {
   const [lang, setLang] = useState("eng");
   const [minConfidence, setMinConfidence] = useState(0);
   const [preview, setPreview] = useState<string | null>(null); // 縮圖放大預覽（lightbox）
+  const [viewMode, setViewMode] = useState(false); // 觀看介面 v0：唯讀檢視（與編輯分離）
 
   // Esc 關閉預覽
   useEffect(() => {
@@ -459,13 +461,18 @@ export default function App() {
       {events.length > 0 && (
         <section className="panel">
           <div className="row between">
-            <h2>5. 事件時間軸（可編輯）</h2>
+            <h2>5. 事件時間軸{viewMode ? "（觀看 / 唯讀）" : "（可編輯）"}</h2>
             <div className="row">
+              <ToggleButton checked={viewMode} onChange={setViewMode} label="觀看模式" />
               <button onClick={onSaveLog}>💾 儲存此 Log</button>
               <button onClick={exportJson}>匯出 JSON</button>
             </div>
           </div>
-          <p className="hint">機器產出的草稿（依時間排序）。請校正分類/文字，刪掉雜訊。每個事件標有來源 ROI。回合分組目前停用。</p>
+          <p className="hint">
+            {viewMode
+              ? "觀看模式：唯讀復盤，不會誤觸編輯。要修正請關閉觀看模式。"
+              : "機器產出的草稿（依時間排序）。請校正分類/文字，刪掉雜訊。每個事件標有來源 ROI。回合分組目前停用。"}
+          </p>
           <p className="hint">ℹ️ 左側縮圖只供顯示（壓縮過）；<strong>OCR 一律用全解析度原圖裁切</strong>，辨識精度不受縮圖影響。點縮圖可放大預覽（Esc 關閉）。</p>
 
           {(() => {
@@ -494,16 +501,24 @@ export default function App() {
                   <div className="ev-meta">
                     <span className="t">{secToClock(ev.t)}</span>
                     <span className="region-tag">{ev.region}</span>
-                    <select value={ev.kind}
-                      onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
-                      {Object.entries(KIND_LABEL).map(([k, label]) => (
-                        <option key={k} value={k}>{label}</option>
-                      ))}
-                    </select>
+                    {viewMode ? (
+                      <span className="kind-label">{KIND_LABEL[ev.kind]}</span>
+                    ) : (
+                      <select value={ev.kind}
+                        onChange={(e) => updateEvent(ev.id, { kind: e.target.value as EventKind })}>
+                        {Object.entries(KIND_LABEL).map(([k, label]) => (
+                          <option key={k} value={k}>{label}</option>
+                        ))}
+                      </select>
+                    )}
                     <span className="conf">信心 {Math.round(ev.confidence)}</span>
-                    <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>
+                    {!viewMode && <button className="del" onClick={() => deleteEvent(ev.id)}>刪除</button>}
                   </div>
-                  <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
+                  {viewMode ? (
+                    <div className="ev-text">{ev.text}</div>
+                  ) : (
+                    <textarea value={ev.text} onChange={(e) => updateEvent(ev.id, { text: e.target.value })} />
+                  )}
                   {ev.entities.length > 0 && (
                     <div className="entities">
                       {ev.entities.map((en) => (
@@ -528,7 +543,7 @@ export default function App() {
       )}
 
       <footer className="app-foot">
-        原型 v0.0.6 · 全在瀏覽器執行，影片不會上傳 · 聚焦 GameLog + 特性/道具 OCR · 由 Ditto 持續學習中
+        原型 v0.0.7 · 全在瀏覽器執行，影片不會上傳 · 聚焦 GameLog + 特性/道具 OCR · 由 Ditto 持續學習中
       </footer>
     </div>
   );

@@ -31,3 +31,4 @@
 - [2026-06-15](2026-06-15.md) — 每日推進：收掉 NAIC 冠軍(Francesco Pio Pero)；發現 Champions 改效果文案(extremely/mostly effective)並更新 OCR 關鍵字。
 - [2026-06-16](2026-06-16.md) — 每日推進：冠軍隊核心(Mega 噴火龍Y+化石翼龍)、Champions 186 隻；實作 GameLog validator v0。
 - [2026-06-17](2026-06-17.md) — 每日推進：M-A→M-B 接續(+行動版上線)確認；移除誤植 Dynamax；緩做字典過濾避免白工。
+- [2026-06-19](2026-06-19.md) — 每日推進：M-B 細節(+22隻/+16 Mega)；實作觀看模式 v0（唯讀復盤）。
