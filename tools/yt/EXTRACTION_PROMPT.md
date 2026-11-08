@@ -1,4 +1,4 @@
-# 隊伍抽取 prompt（extractor v1.2）
+# 隊伍抽取 prompt（extractor v1.3）
 
 > 給抽取 agent 的工作說明。審查 agent 用同一份素材獨立再做一次，再比對。
 
@@ -51,6 +51,15 @@
 - **Mega 驗算**：「狀態」頁顯示的是**未 Mega 的原形**數值 → 驗算用原形種族值；字幕講的速度線若是 Mega 後的數值（例：「Mega 後 188」），用 Mega/Mega-Z 種族值換算並在 `stats_note` 註明。
 - **`sources.frames_used`** = 你實際用來填欄位的影格張數（不是目錄總數），並在回報裡列出隊伍表影格檔名。
 - 寫完**一定跑** `node tools/yt/validate-teams.mjs data/channels/fiskepokemon`，修到自己檔案 0 ERR；WARN 逐條判斷（能力值重算不吻合 = 多半是讀錯點數或性格）。
+
+## 朱紫（Scarlet/Violet）影片的差異（v1.3）
+
+- **遊戲**：`game: "sv"`；`regulation_set_id` 依發布日對 `data/ref/regulation_sets.json` 中 `game=="sv"` 的區間（含 `sv-reg-g-2025`），`regulation_source: "date-inferred"`；字幕若明說「規則 X」則用字幕。
+- **努力值是 0~252 制**：`evs.scale: "ev-252"`，數字只填畫面或字幕明示的（例如字幕「HP 252 特攻 252」或畫面的配置表）。驗算用 Lv.50 公式直接代 EV：stat = floor((2×種族 + 31 + floor(EV/4)) × 50/100) + 5（HP +60）。
+- **太晶屬性**：`tera_type` 從畫面（隊伍表/投影片的太晶圖示）或字幕讀，`value_en` 用英文屬性名（Fire/Water/…/Stellar）。
+- **沒有 Mega**：`mega: false`、`form` 只填地區型態/型態差異（例如 `Hisui`、`Therian`）。
+- **畫面來源不同**：朱紫遊戲內的「狀態」頁沒有能力點條，Fiske 多半用投影片或 Showdown 風格的配置表呈現六隻；找不到配置表就以字幕為主、未提到的欄位留 `null`，不要臆測。
+- 其他規則（查表、tags 邊界、Mega 驗算以外）同上。
 
 ## 輸出
 
