@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_qFiHy4ObPiw",
+    "name": "母幽尾玄魚雨天 Mega 具甲武者隊",
+    "name_source": "title",
+    "video_id": "qFiHy4ObPiw",
+    "video_url": "https://www.youtube.com/watch?v=qFiHy4ObPiw",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "title",
+    "tags": ["rain", "mega", "tailwind", "spread-moves", "psychic-terrain", "meme-gimmick"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 902, "name_zh": "幽尾玄魚", "name_en": "Basculegion-F", "form": "F", "confidence": 0.99 },
+        "nickname": "只是個色違",
+        "gender": "F",
+        "ability": { "value": "悠游自如", "value_en": "Swift Swim", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "生命寶珠", "value_en": "Life Orb", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 4, "atk": 0, "def": 8, "spa": 32, "spd": 0, "spe": 22, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 199, "atk": 100, "def": 93, "spa": 167, "spd": 95, "spe": 120, "source": "frame" },
+        "stats_note": "雨天下速度 240，刻意比圍巾愛管侍（161×1.5=241）慢一點點，可先重力再雨天濁流。性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點經種族值驗算吻合，總和 66。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "濁流", "value_en": "Muddy Water", "confidence": 0.99, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.99, "source": "frame" },
+          { "value": "冰凍光束", "value_en": "Ice Beam", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心，母的幽尾玄魚（特攻 100）走特攻路線：濁流/暗影球/冰凍光束可首發秒殺賽富豪、暴飛龍，冰凍光束重傷金剛猩；濁流為群體技不怕看我嘛，玩法接近以前的刺龍王。特攻種族值低所以生命寶珠優於其他道具，四招固定無調整空間。弱點：高特防水系/妖精系、不弱冰的龍系、先制草系/惡系。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 279, "name_zh": "大嘴鷗", "name_en": "Pelipper", "form": null, "confidence": 0.99 },
+        "nickname": "信仰的雙濁流",
+        "gender": "F",
+        "ability": { "value": "降雨", "value_en": "Drizzle", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 137, "atk": 63, "def": 120, "spa": 161, "spd": 90, "spe": 117, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂（字幕亦提「內斂暴風」）。能力點驗算吻合，總和 66。",
+        "moves": [
+          { "value": "暴風", "value_en": "Hurricane", "confidence": 0.99, "source": "frame" },
+          { "value": "濁流", "value_en": "Muddy Water", "confidence": 0.99, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.99, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "開雨手，主要首發搭檔。雙本系＋幫助必帶；順風讓幽尾玄魚在對面改天氣時維持高速，因此沒格子帶守住/廣域防守。氣勢披帶是為了讓內斂暴風保證擊殺 32 HP / 6 特防的金剛猩；也可改堆耐久帶潮濕岩石，但會較難打草系。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 876, "name_zh": "愛管侍", "name_en": "Indeedee", "form": "M", "confidence": 0.99 },
+        "nickname": "牛角麵包",
+        "gender": "M",
+        "ability": { "value": "精神製造者", "value_en": "Psychic Surge", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "講究圍巾", "value_en": "Choice Scarf", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "膽小", "value_en": "Timid", "confidence": 0.95, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 137, "atk": 76, "def": 75, "spa": 157, "spd": 115, "spe": 161, "source": "frame" },
+        "stats_note": "膽小＋圍巾（字幕明說），雨天下比非 32 速度的巨沼怪快。狀態頁 速度▲/攻擊▽ 與字幕一致。能力點驗算吻合，總和 66。",
+        "moves": [
+          { "value": "廣域戰力", "value_en": "Expanding Force", "confidence": 0.99, "source": "frame" },
+          { "value": "能量球", "value_en": "Energy Ball", "confidence": 0.99, "source": "frame" },
+          { "value": "重力", "value_en": "Gravity", "confidence": 0.99, "source": "frame" },
+          { "value": "您先請", "value_en": "After You", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "防止幽尾玄魚被奇蹟種子滑梯滑死；重力讓全場命中 +66%，配合濁流/垃圾射擊/岩崩。廣域戰力與重力最常用，能量球打巨沼怪等水系，您先請較少用可換。面對空間隊可首發嚇阻對手點空間（但隊上沒帶封印）。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 903, "name_zh": "大狃拉", "name_en": "Sneasler", "form": null, "confidence": 0.98 },
+        "nickname": "快幫我重力",
+        "gender": "M",
+        "ability": { "value": "輕裝", "value_en": "Unburden", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "白色香草", "value_en": "White Herb", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 1, "atk": 32, "def": 1, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 156, "atk": 200, "def": 81, "spa": 54, "spd": 100, "spe": 172, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點驗算吻合（格鬥/毒 大狃拉 Sneasler 種族值），總和 66。",
+        "moves": [
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.99, "source": "frame" },
+          { "value": "垃圾射擊", "value_en": "Gunk Shot", "confidence": 0.99, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.99, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "補上愛管侍加入後更難打的惡系/妖精系。毒系技選垃圾射擊而非剋命爪，因為滿 HP 金剛猩與堆物防的花葉蒂能接剋命爪；有重力所以垃圾射擊不會 miss。岩崩（重力下滿命中）專打噴火龍，是母幽尾玄魚主要弱點之一。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 768, "name_zh": "具甲武者", "name_en": "Golisopod-Mega", "form": "Mega", "confidence": 0.99 },
+        "nickname": "新任蟲王",
+        "gender": "M",
+        "ability": { "value": "危險迴避", "value_en": "Emergency Exit", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "具甲武者進化石", "value_en": "Golisopite", "confidence": 0.9, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 32, "def": 0, "spa": 0, "spd": 2, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 182, "atk": 194, "def": 160, "spa": 72, "spd": 112, "spe": 60, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點驗算吻合，總和 66。",
+        "moves": [
+          { "value": "鐵頭", "value_en": "Iron Head", "confidence": 0.99, "source": "frame" },
+          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.99, "source": "frame" },
+          { "value": "突襲", "value_en": "Sucker Punch", "confidence": 0.99, "source": "frame" },
+          { "value": "廣域防守", "value_en": "Wide Guard", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍唯一 Mega（其餘成員用不到 Mega）。幽尾玄魚好打的咆哮虎/暴飛龍/風速狗/賽富豪正是具甲武者的盲點或弱點；雨天下非本系火系難以秒殺滿血的他。蟲系技不帶吸血（非強化隊、減傷手段少）而帶急速折返換人；突襲＋幫助力度比防守道具仆斬將軍高約 40%，可秒殺幽尾玄魚、賽富豪等弱惡目標。選出率低於幽尾玄魚，但會誘使對手選出火系/龍系。隊伍表的特性為原形的危險迴避。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 1018, "name_zh": "鋁鋼橋龍", "name_en": "Archaludon", "form": null, "confidence": 0.99 },
+        "nickname": "還我撲擊",
+        "gender": "M",
+        "ability": { "value": "持久力", "value_en": "Stamina", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "蓮蒲果", "value_en": "Chople Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 0, "spa": 7, "spd": 18, "spe": 9, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 197, "atk": 112, "def": 150, "spa": 167, "spd": 103, "spe": 114, "source": "frame" },
+        "stats_note": "字幕：加了比較多速度，經常比對面的鋁鋼橋龍快一點（114）。性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點驗算吻合，總和 66。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "電光束", "value_en": "Electro Shot", "confidence": 0.95, "source": "frame" },
+          { "value": "龍之波動", "value_en": "Dragon Pulse", "confidence": 0.99, "source": "frame" },
+          { "value": "大聲咆哮", "value_en": "Snarl", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "選出多為處理幽尾玄魚的盲點與弱點；打妖精/冰系時優先選大狃拉與具甲武者，加農光炮少用故改帶大聲咆哮。隊伍步調快、守住少，剩飯不如抗鬥果（蓮蒲果），面對大狃拉、仆斬將軍、姆克鷹、雷丘常用到。本隊較少靠他輸出。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 474],
+      "frames_used": 59,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以母幽尾玄魚（特攻型）為核心的雨天隊：濁流/暗影球/冰凍光束在雨天高速下首發爆發，對 M-C 環境常見的暴飛龍、賽富豪、金剛猩、愛管侍有利。大嘴鷗開雨＋幫助/順風，愛管侍開精神場地＋重力補命中並防滑梯，大狃拉處理惡/妖精與噴火龍（岩崩），Mega 具甲武者覆蓋幽尾玄魚難打的對象並誘使對手選火/龍，鋁鋼橋龍補盲點。主要首發幽尾玄魚＋大嘴鷗，後排看情況；也可首發具甲武者或愛管侍。弱點：空間下的火系（沒帶封印）、多手段開晴的噴火龍隊；穩定性偏低（濁流/垃圾射擊可能 miss）。評分：上手難度 2.5、操作彈性 3.5、穩定性 2、全面程度 2.5。",
+    "extracted_at": "2026-11-08T09:08:56Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.1"
+  }
+]

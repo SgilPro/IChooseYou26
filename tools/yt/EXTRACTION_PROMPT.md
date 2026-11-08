@@ -35,7 +35,7 @@
 ## 試跑學到的技巧（v1.1，來自 Xul9ZHTieLU）
 
 - **先掃影格找隊伍表**：先快速看全部影格縮圖，鎖定「能力」頁（六隻的暱稱/特性/道具/四招）與「狀態」頁（六隻數值 + 能力點），通常在隊伍介紹段後半、連續 10~15 張。投影片（立繪、選出、弱點、評分）用來補 tags/notes。
-- **小字看不清就裁切放大**：用 `sips -c <h> <w> --cropOffset <y> <x> -z <newH> <newW> f_056.jpg --out /tmp/x.jpg` 把左半/右半各放大到 ~1400px 再 Read（存到 scratchpad，不要放進 repo）。
+- **小字看不清就裁切放大**：用 `sips -c <h> <w> --cropOffset <y> <x> -z <newH> <newW> f_056.jpg --out /tmp/x.jpg` 把左半/右半各放大到 ~1400px 再 Read（存到 scratchpad 的 `<videoId>/` 專屬子目錄，平行抽取時才不會互相覆蓋；不要放進 repo）。
 - **slot 順序 = 遊戲隊伍表的編號順序**。
 - **性格**：Champions 隊伍表不直接寫性格，但「狀態」頁能力名旁有 ▲/▽ 箭頭（例：攻擊▲ 特攻▽ = 固執）。依箭頭填 nature，`source: "frame"`、confidence 0.8，並在 `stats_note` 註明「依 ▲▽ 判讀」。無箭頭（中性性格）就 `null`。
 - **能力點驗算**：Lv.50 數值 = floor((2×種族值 + 31 + floor(EV/4)) × 50/100 + 5)（HP +60 不 +5），EV = 4 + 8×(點數−1)；若能驗算吻合可把 evs.confidence 提到 0.95+。總和應為 66。

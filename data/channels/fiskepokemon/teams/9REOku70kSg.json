@@ -1,0 +1,225 @@
+[
+  {
+    "id": "team_9REOku70kSg",
+    "name": "胖甜妮 Mega 水晶燈火靈隊",
+    "name_source": "title",
+    "video_id": "9REOku70kSg",
+    "video_url": "https://www.youtube.com/watch?v=9REOku70kSg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "subtitle",
+    "tags": ["trick-room", "follow-me", "psychic-terrain", "sun", "mega"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 685,
+          "name_zh": "胖甜妮",
+          "name_en": "Slurpuff",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "他叫什麼來著",
+        "gender": "F",
+        "ability": { "value": "輕裝", "value_en": "Unburden", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "精神種子", "value_en": "Psychic Seed", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "膽小", "value_en": "Timid", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 8, "atk": 0, "def": 26, "spa": 0, "spd": 0, "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 165, "atk": 90, "def": 132, "spa": 105, "spd": 95, "spe": 136, "source": "frame" },
+        "stats_note": "物耐可保證接下大狃拉的極攻剋命爪，94% 接下龍頭地鼠的極攻鐵頭。速度 136 比鱗甲龍（137）慢 1，輕裝觸發後是全隊最快。性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          { "value": "假哭", "value_en": "Fake Tears", "confidence": 0.98, "source": "frame" },
+          { "value": "吐絲", "value_en": "String Shot", "confidence": 0.98, "source": "frame" },
+          { "value": "您先請", "value_en": "After You", "confidence": 0.98, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍核心輔助，無攻擊技能。靠精神種子（搭配愛管侍的精神場地）觸發輕裝速度加倍。空間模式：您先請讓愛管侍超高速開空間，第二回合幫助增傷；高速模式：吐絲控速、假哭 + 幫助幫特攻手增傷，雙向控速。使用率倒數但技能組合獨特，無人能取代。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 849,
+          "name_zh": "顫弦蠑螈",
+          "name_en": "Toxtricity-Low-Key",
+          "form": "Low-Key",
+          "confidence": 0.95
+        },
+        "nickname": "一輩子的樂團",
+        "gender": "M",
+        "ability": { "value": "龐克搖滾", "value_en": "Punk Rock", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "生命寶珠", "value_en": "Life Orb", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 178, "atk": 106, "def": 90, "spa": 182, "spd": 90, "spe": 101, "source": "frame" },
+        "stats_note": "速度只加到 101：吐絲後剛好快過 130 種族值的極速，但也要能在空間下輸出，不加太快。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。型態依立繪藍色紋路與內斂性格判為低調型態。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "破音", "value_en": "Overdrive", "confidence": 0.98, "source": "frame" },
+          { "value": "污泥炸彈", "value_en": "Sludge Bomb", "confidence": 0.98, "source": "frame" },
+          { "value": "爆音波", "value_en": "Boomburst", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "中速特攻手，補燈火靈/煤炭龜不好打的火、水、岩石、龍、惡。爆音波 140 威力 + 龐克搖滾 +30%，比雙本系還強，但會打到隊友，所以隊友需為幽靈系（燈火靈）或隔音（鱗甲龍）。爆音波分散力度與污泥炸彈相近且都高於分散破音。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 609,
+          "name_zh": "水晶燈火靈",
+          "name_en": "Chandelure-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": "七彩霓虹燈",
+        "gender": "M",
+        "ability": { "value": "引火", "value_en": "Flash Fire", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "水晶燈火靈進化石", "value_en": "Chandelurite", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 163, "atk": 67, "def": 110, "spa": 216, "spd": 110, "spe": 106, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形。速度在吐絲後相當於 232，剛好比圍巾烈咬陸鯊滿速快 1；耐久可保證接下極攻地震。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍的 Mega 與主要特攻輸出手，會開空間的中速特攻手：高速模式搭配胖甜妮吐絲，空間模式慢過一些人。屬性上適合搭配煤炭龜，幽靈系免疫爆音波。Mega 後特性為穿透（Infiltrator，投影片），可無視牆與替身，但 Fiske 表示拍片全程沒觸發過。戲法空間一定要帶，守住較不關鍵可換。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "舞台煙霧機",
+        "gender": "F",
+        "ability": { "value": "日照", "value_en": "Drought", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "木炭", "value_en": "Charcoal", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 0, "def": 0, "spa": 32, "spd": 2, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 177, "atk": 105, "def": 160, "spa": 150, "spd": 92, "spe": 36, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；速度 36 為降速滿配空間手。",
+        "moves": [
+          { "value": "噴火", "value_en": "Eruption", "confidence": 0.98, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "大地之力", "value_en": "Earth Power", "confidence": 0.98, "source": "frame" },
+          { "value": "大晴天", "value_en": "Sunny Day", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "空間下的低速輸出手，您先請 / 空間都適合搭配。大地之力非常重要，用來打咆哮虎與風速狗。搶天氣很難贏大嘴鷗，所以帶手動大晴天，幫助在空間下打贏雨天隊。備用模式：胖甜妮 + 愛管侍首發，看我嘛彈走愛管侍後上煤炭龜噴火。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 784,
+          "name_zh": "杖尾鱗甲龍",
+          "name_en": "Kommo-o",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "聽團仔",
+        "gender": "F",
+        "ability": { "value": "隔音", "value_en": "Soundproof", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "福祿果", "value_en": "Payapa Berry", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0, "atk": 0, "def": 0, "spa": 32, "spd": 2, "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 150, "atk": 117, "def": 145, "spa": 167, "spd": 127, "spe": 137, "source": "frame" },
+        "stats_note": "速度 137 在魂舞烈音爆一次後比滿速烈咬陸鯊 Z 快 2；遇過的對手都是內斂或剛好超過內斂的膽小，仍比我們慢 1，所以不用膽小（膽小在空間下也太快）。多的 2 點加特防：魂舞烈音爆後搭配抗超果（福祿果）可保證接下沙奈朵的極攻廣域戰力，加 HP 則有機率死。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "鱗片噪音", "value_en": "Clanging Scales", "confidence": 0.98, "source": "frame" },
+          { "value": "波導彈", "value_en": "Aura Sphere", "confidence": 0.98, "source": "frame" },
+          { "value": "魂舞烈音爆", "value_en": "Clangorous Soul", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "中速特攻手，隔音免疫爆音波並補燈火靈的屬性盲點。魂舞烈音爆提供自己的強化模式：對面點守住拖空間回合時強化，之後空間內外都能先動。可與愛管侍首發（看我嘛 + 魂舞烈音爆）走鱗片噪音模式，前提是對面沒有暴風雪、魔法閃耀等群體技能。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": "只是個麵包",
+        "gender": "F",
+        "ability": { "value": "精神製造者", "value_en": "Psychic Surge", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "逃脫按鍵", "value_en": "Eject Button", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "悠閒", "value_en": "Relaxed", "confidence": 0.9, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 0, "def": 32, "spa": 0, "spd": 2, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 177, "atk": 75, "def": 128, "spa": 115, "spd": 127, "spe": 94, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）；HP/物防滿配的看我嘛坦。",
+        "moves": [
+          { "value": "精神衝擊", "value_en": "Psyshock", "confidence": 0.98, "source": "frame" },
+          { "value": "看我嘛", "value_en": "Follow Me", "confidence": 0.98, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "精神場地觸發胖甜妮的精神種子，並防止對面擊掌。空間模式首發：吃胖甜妮的您先請超高速開空間，再靠逃脫按鍵彈下去換輸出手清場。超能技能一定要帶精神衝擊：隊上特攻手太多，對面常對愛管侍/胖甜妮點冥想或蝶舞而不攻擊，精神衝擊可在空間下威脅這類強化手。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 531],
+      "frames_used": 66,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": "regulation 來自字幕 0:23「在規則 M-C」，與 published_at 2026-10-17 落在 M-C 區間一致。胖甜妮 = Slurpuff（#685，種族值 82/80/86/85/75/72 與投影片吻合），非霜奶仙 Alcremie。顫弦蠑螈型態（Low-Key）由立繪藍色紋路 + 內斂性格推斷，未在字幕/畫面明示。Mega 水晶燈火靈的 Mega 後特性「穿透」來自投影片，隊伍表顯示原形特性引火。",
+    "notes": "以胖甜妮（您先請 / 假哭 / 吐絲 / 幫助）為核心的雙模式隊：空間模式由胖甜妮 + 愛管侍首發，您先請讓愛管侍超高速開戲法空間、逃脫按鍵彈下去換輸出手；高速模式由愛管侍 + 顫弦蠑螈或燈火靈首發，胖甜妮後排用吐絲控速、假哭 + 幫助幫特攻手增傷，兩種模式共用首發讓對手無法判斷。輸出手為會開空間的中速特攻手 Mega 水晶燈火靈，搭配煤炭龜（大地之力、手動晴天）、顫弦蠑螈（爆音波 + 龐克搖滾）與杖尾鱗甲龍（隔音、魂舞烈音爆強化），隊友皆為幽靈系或隔音以配合爆音波。弱點是超能抗性少、不好打廣域戰力隊，以及 M-B 式噴火龍 + 生命寶珠烈咬陸鯊 + 廣防化石翼龍 + 奇麒麟的高群體爆發隊；中速策略需大量計算，不適合新手。拍片約 12 連勝；Fiske 評分：上手難度 3.5、操作彈性 4、穩定性 3.5、全面程度 2.5。",
+    "extracted_at": "2026-11-08T09:08:33Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.1"
+  }
+]
