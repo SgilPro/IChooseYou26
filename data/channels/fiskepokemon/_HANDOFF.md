@@ -13,7 +13,7 @@
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
 | 隊伍抽取 teams/<id>.json | ✅ 公開對戰影片全部完成：Champions 22（影格+字幕 LLM）、朱紫 104（pokepaste 匯入 + 字幕補充）+ 9（影格 LLM，無 paste）；⬜ 會員限定 132 隊只有殼 | `teams/*.json` |
 | 對抗式複核 | 🟡 1/22 做了獨立再抽取（99% 一致）；其餘靠機械驗證。建議再抽 3~4 支複核 | `teams/_review/` |
-| 合併 teams.json / csv | ✅ 267 隊（135 有六隻 / 132 殼）；每次異動後重跑 | `teams.json`、`teams.csv` |
+| 合併 teams.json / csv | ✅ 268 隊（136 有六隻 / 132 殼）；每次異動後重跑 | `teams.json`、`teams.csv` |
 | 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
 
 ## 接手步驟（照順序敲）

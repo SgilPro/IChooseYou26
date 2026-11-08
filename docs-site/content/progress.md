@@ -7,7 +7,7 @@
 ## 2026-11-08 新進展（白話）
 
 - **影片主表**：用開源工具 yt-dlp 把 Fiske Pokémon 頻道 679 支影片的標題、日期、章節、字幕語言、是否會員限定整理成一張表。發現約 96 支是會員限定，之後用會員帳號補。
-- **隊伍資料庫**：對 Pokémon Champions 時代的公開對戰影片，從「隊伍介紹」段的字幕與畫面抽出六隻寶可夢的暱稱、特性、道具、四招、努力值配點與實際數值。**Champions 22 支 + 朱紫 113 支，共 135 隊 810 隻；絕大多數有從字幕整理的思路與標籤，近百隊標出原作者**，每一筆都用「名稱對照表 + 數值公式重算」機械驗證，另有一支由第二個獨立 agent 重做一次比對（200 項硬資料一致 198）。
+- **隊伍資料庫**：對 Pokémon Champions 時代的公開對戰影片，從「隊伍介紹」段的字幕與畫面抽出六隻寶可夢的暱稱、特性、道具、四招、努力值配點與實際數值。**Champions 22 支 + 朱紫 113 支，共 136 隊 816 隻；絕大多數有從字幕整理的思路與標籤，近百隊標出原作者**，每一筆都用「名稱對照表 + 數值公式重算」機械驗證，另有一支由第二個獨立 agent 重做一次比對（200 項硬資料一致 198）。
 - **規則組參照表**：Pokémon Champions M-A / M-B / M-C 與朱紫 Reg A~J 的期間、限制、機制整理成結構化資料（附來源）。M-C 出現了「Z-Mega」新型態。
 - **網站行動計畫**：建議先用零成本的靜態資料（放在現有 GitHub Pages 站上），需要登入與線上編輯時再接 Supabase 免費方案；參考了 victorpoke、Pikalytics、pokepast.es 的做法。
 - **RAG 前期規劃**：先用「結構化篩選 + 關鍵字 + 長上下文」的無向量做法測評估題，過關就不急著上向量資料庫。
@@ -23,7 +23,7 @@
 | Live docs 網站 | 🟢 已上線 | 已部署到 GitHub Pages，自動隨更新重新部署。 |
 | Game Log 工具原型 | 🟢 已更新到 v0.0.2 | 半自動 pipeline，新增：YouTube 來源（需本機後端）、時間段去頭去尾去中間、ROI 多塊裁切 + 拖曳 crop 介面、最低信心過濾。點右上「試用工具」開啟。 |
 | 自動化 routine（cron） | 🟡 待確認 | 雲端 routine 需安裝 Claude GitHub App 才能運作；6 月後未再確認。 |
-| 頻道資料線（Fiske Pokémon） | 🟡 進行中 | 679 支主表（401 支完整、275 支會員限定）；公開對戰影片 135 隊全部入庫並驗證，132 支會員限定待補。接手步驟見 repo `data/channels/fiskepokemon/_HANDOFF.md`。 |
+| 頻道資料線（Fiske Pokémon） | 🟡 進行中 | 679 支主表（401 支完整、275 支會員限定）；公開對戰影片 136 隊全部入庫並驗證，132 支會員限定待補。接手步驟見 repo `data/channels/fiskepokemon/_HANDOFF.md`。 |
 | 網站有後端版本 Action Plan | 🟢 規劃完成 | `research/line5-platform-backend/`：Phase 1 靜態 JSON → Phase 2 Supabase → Phase 3 投稿。 |
 | RAG 問答層 Pre-Plan | 🟢 規劃完成 | `research/line6-rag/`：無向量基線先行，評估集定 go/no-go。 |
 
