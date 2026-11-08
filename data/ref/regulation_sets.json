@@ -7,7 +7,9 @@
     "name": "Regulation Set M-A（Champions 首發規則）",
     "restriction_type": "無神獸",
     "restriction_note": "無限制級傳說、無準傳說、無幻獸、無悖謬寶可夢；可用池為基礎帕底亞圖鑑扣除傳說/準傳說/悖謬。Game8/Bulbagarden 均載明「Restricted Pokémon: None」。",
-    "mechanics": ["mega"],
+    "mechanics": [
+      "mega"
+    ],
     "starts_on": "2026-04-08",
     "ends_on": "2026-06-17",
     "showdown_format": "gen9championsvgc2026regma",
@@ -29,7 +31,9 @@
     "name": "Regulation Set M-B",
     "restriction_type": "無神獸",
     "restriction_note": "延續 M-A：無限制級傳說、無幻獸、無悖謬寶可夢。",
-    "mechanics": ["mega"],
+    "mechanics": [
+      "mega"
+    ],
     "starts_on": "2026-06-17",
     "ends_on": "2026-09-09",
     "showdown_format": "gen9championsvgc2026regmb",
@@ -50,7 +54,9 @@
     "name": "Regulation Set M-C（Z 超級進化登場）",
     "restriction_type": "無神獸",
     "restriction_note": "Game8 載明 Restricted Pokémon: None；無傳說/幻獸。官方僅預告 Mega 席多藍恩（傳說）將「敬請期待」，未納入 M-C。",
-    "mechanics": ["mega"],
+    "mechanics": [
+      "mega"
+    ],
     "starts_on": "2026-09-09",
     "ends_on": "2026-12-02",
     "showdown_format": "gen9championsvgc2026regmc",
@@ -73,7 +79,9 @@
     "name": "Regulation Set A（Series 1）",
     "restriction_type": "無神獸",
     "restriction_note": "所有傳說（含災厄四神）與故勒頓/密勒頓不可用；悖謬寶可夢不可用；多數彩粉蝶花紋禁用。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2022-12-02",
     "ends_on": "2023-01-31",
     "showdown_format": "gen9vgc2023series1",
@@ -92,7 +100,9 @@
     "name": "Regulation Set B（Series 2，悖謬開放）",
     "restriction_type": "無神獸",
     "restriction_note": "傳說與災厄四神不可用；故勒頓/密勒頓禁用；悖謬寶可夢開放（波蕩水、鐵斑葉除外）。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2023-02-01",
     "ends_on": "2023-03-31",
     "showdown_format": "gen9vgc2023series2",
@@ -111,7 +121,9 @@
     "name": "Regulation Set C（災厄四神開放）",
     "restriction_type": "無神獸",
     "restriction_note": "無限制級傳說；災厄四神（古簡蝸、古劍豹、古鼎鹿、古玉魚）開放；故勒頓/密勒頓、波蕩水、鐵斑葉禁用；HOME 轉入寶可夢禁用。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2023-04-01",
     "ends_on": "2023-06-30",
     "showdown_format": "gen9vgc2023regulationc",
@@ -130,7 +142,9 @@
     "name": "Regulation Set D（HOME 開放）",
     "restriction_type": "無神獸",
     "restriction_note": "HOME 轉入的限制級傳說與幻獸禁用（超夢、帝牙盧卡、帕路奇亞、騎拉帝納、蒼響、藏瑪然特、蕾冠王等）；故勒頓/密勒頓、波蕩水、鐵斑葉禁用；災厄四神可用。厄詭椪僅於遊戲內排位第 10 季可用，TPCi 賽事不可。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2023-07-01",
     "ends_on": "2023-09-30",
     "showdown_format": "gen9vgc2023regulationd",
@@ -149,7 +163,9 @@
     "name": "Regulation Set E（北上開放）",
     "restriction_type": "無神獸",
     "restriction_note": "限制級傳說與幻獸禁用（故勒頓、密勒頓、蕾冠王全型態、蒼響、藏瑪然特、無極汰那、薩戮德；基拉祈、霏歐納、瑪納霏、達克萊伊、謝米亦禁）；波蕩水、鐵斑葉禁用；準傳說（含厄詭椪、寶物三惡）開放。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2023-10-01",
     "ends_on": "2024-01-03",
     "showdown_format": "gen9vgc2023regulatione",
@@ -168,7 +184,9 @@
     "name": "Regulation Set F（藍莓開放，無限制級）",
     "restriction_type": "無神獸",
     "restriction_note": "所有限制級傳說與幻獸禁用（洛奇亞、鳳王、代歐奇希斯、萊希拉姆、捷克羅姆、酋雷姆、凱路迪歐、索爾迦雷歐、露奈雅拉、奈克洛茲瑪、蒼響、藏瑪然特、蕾冠王、瑪機雅娜、薩戮德等）；故勒頓、密勒頓、太樂巴戈斯禁用；準傳說、悖謬（含藍莓新悖謬）開放。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2024-01-04",
     "ends_on": "2024-04-30",
     "showdown_format": "gen9vgc2024regf",
@@ -189,7 +207,9 @@
     "name": "Regulation Set G（單神）",
     "restriction_type": "單神",
     "restriction_note": "每隊限 1 隻限制級傳說：超夢、洛奇亞、鳳王、蓋歐卡、固拉多、烈空坐、帝牙盧卡/帕路奇亞（含起源）、騎拉帝納、萊希拉姆、捷克羅姆、酋雷姆、科斯莫古系列、奈克洛茲瑪、蒼響、藏瑪然特、無極汰那、蕾冠王、故勒頓、密勒頓、太樂巴戈斯。幻獸為唯一不可用類別（桃歹郎亦排除）。準傳說、悖謬全開放。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2024-05-01",
     "ends_on": "2024-08-31",
     "showdown_format": "gen9vgc2024regg",
@@ -209,7 +229,9 @@
     "name": "Regulation Set H（無傳說、無悖謬）",
     "restriction_type": "無神獸",
     "restriction_note": "所有傳說（含準傳說、災厄四神、寶物三惡、厄詭椪、太樂巴戈斯、故勒頓/密勒頓）、幻獸與悖謬寶可夢全部不可用。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2024-09-01",
     "ends_on": "2025-01-05",
     "showdown_format": "gen9vgc2024regh",
@@ -222,6 +244,27 @@
     "verified": true
   },
   {
+    "id": "sv-reg-g-2025",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "G",
+    "name": "Regulation Set G（2025 再登場）",
+    "restriction_type": "單神",
+    "restriction_note": "每隊限 1 隻限制級傳說：超夢、洛奇亞、鳳王、蓋歐卡、固拉多、烈空坐、帝牙盧卡/帕路奇亞（含起源）、騎拉帝納、萊希拉姆、捷克羅姆、酋雷姆、科斯莫古系列、奈克洛茲瑪、蒼響、藏瑪然特、無極汰那、蕾冠王、故勒頓、密勒頓、太樂巴戈斯。幻獸為唯一不可用類別（桃歹郎亦排除）。準傳說、悖謬全開放。",
+    "mechanics": [
+      "tera"
+    ],
+    "starts_on": "2025-01-06",
+    "ends_on": "2025-04-30",
+    "showdown_format": "gen9vgc2025regg",
+    "pokemon_pool_note": "與 2024 Reg G 相同規則的第二次登場（Ranked Season 26~29 期間，2025 Global Challenge I~III 皆用此規則）。",
+    "sources": [
+      "https://sv-news.pokemon.co.jp/en/page/295.html",
+      "https://liquipedia.net/pokemon/Formats/VGC/SV/Regulation_G"
+    ],
+    "verified": true
+  },
+  {
     "id": "sv-reg-i",
     "game": "sv",
     "game_name_zh": "寶可夢 朱/紫",
@@ -229,7 +272,9 @@
     "name": "Regulation Set I（雙神）",
     "restriction_type": "雙神",
     "restriction_note": "每隊限 2 隻限制級傳說（名單同 G：超夢、洛奇亞、鳳王、蓋歐卡、固拉多、烈空坐、帝牙盧卡、帕路奇亞、騎拉帝納、萊希拉姆、捷克羅姆、酋雷姆、科斯莫古系列、奈克洛茲瑪、蒼響、藏瑪然特、無極汰那、蕾冠王、故勒頓、密勒頓、太樂巴戈斯）。幻獸為唯一不可用類別（桃歹郎排除）。準傳說、悖謬全開放。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2025-05-01",
     "ends_on": "2025-08-31",
     "showdown_format": "gen9vgc2025regi",
@@ -250,7 +295,9 @@
     "name": "Regulation Set J（雙神＋幻獸，僅排位）",
     "restriction_type": "雙神",
     "restriction_note": "每隊限 2 隻「限制級或幻之寶可夢」；幻獸開放並計入 2 隻上限（夢幻、基拉祈、代歐奇希斯、霏歐納、瑪納霏、達克萊伊、謝米、阿爾宙斯、凱路迪歐、美洛耶塔、蒂安希、胡帕、波爾凱尼恩、瑪機雅娜、薩戮德、桃歹郎等）。所有寶可夢皆可用。僅用於遊戲內排位，未用於任何 TPCi 官方賽事。",
-    "mechanics": ["tera"],
+    "mechanics": [
+      "tera"
+    ],
     "starts_on": "2025-09-01",
     "ends_on": "2026-01-04",
     "showdown_format": "gen9vgc2025regj",
