@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team__a9qgZnsDG8",
+    "name": "Mega 巨沼怪 & 蚊香蛙皇 雨天滅歌隊",
+    "name_source": "title",
+    "video_id": "_a9qgZnsDG8",
+    "video_url": "https://www.youtube.com/watch?v=_a9qgZnsDG8",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": ["rain", "perish-trap", "mega", "balance"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 1000, "name_zh": "賽富豪", "name_en": "Gholdengo", "form": null, "confidence": 0.99 },
+        "nickname": "樸實無華",
+        "gender": "N",
+        "ability": { "value": "黃金之軀", "value_en": "Good as Gold", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "生命寶珠", "value_en": "Life Orb", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 15, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 19, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 177, "atk": 72, "def": 115, "spa": 203, "spd": 111, "spe": 123, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。字幕：速度調到沒雨天時比巨沼怪（Mega 後 122）快 1，可先暗影球打死來悲粗茶再讓巨沼怪打隔壁。數值以種族值 87/60/95/133/91/84 重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "淘金潮", "value_en": "Make It Rain", "confidence": 0.98, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.99, "source": "frame" },
+          { "value": "十萬伏特", "value_en": "Thunderbolt", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "第三輸出手，負責秒殺巨沼怪打不動的熱門草系：生命寶珠暗影球可保證秒殺不帶抗幽果的來悲粗茶、也能處理風妖精；十萬伏特打水系。字幕提到牠帶的是詭計（Nasty Plot）型的樣子，但隊伍表四招為守住/淘金潮/暗影球/十萬伏特，以畫面為準。亦是隊上少數能打 Mega 姆克鷹的人。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 727, "name_zh": "熾焰咆哮虎", "name_en": "Incineroar", "form": null, "confidence": 0.99 },
+        "nickname": "咆哮伊布",
+        "gender": "M",
+        "ability": { "value": "威嚇", "value_en": "Intimidate", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "頑皮", "value_en": "Impish", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 22, "spa": 0, "spd": 12, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 135, "def": 145, "spa": 90, "spd": 122, "spe": 80, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/特攻▽ 判讀（頑皮）。HP 滿、防禦 22、特防 12，數值以種族值 95/115/90/80/90/60 重算全部吻合。字幕說其他成員的分配都是「比較普通的分配」。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "閃焰衝鋒", "value_en": "Flare Blitz", "confidence": 0.99, "source": "frame" },
+          { "value": "拋下狠話", "value_en": "Parting Shot", "confidence": 0.99, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "第一個放入的隊友，完全符合雨天滅歌隊的每項條件（干擾輸出：威嚇/擊掌奇襲/拋下狠話；折返技）。攻擊技不帶惡系而帶閃焰衝鋒，用來處理風妖精等草系；守住方便輪轉與拖滅歌回合。很少首發（首發擊掌在本隊功能不明顯），但在隊伍預覽中可威脅對手、幫賽富豪騙出目標。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 302, "name_zh": "勾魂眼", "name_en": "Sableye", "form": null, "confidence": 0.99 },
+        "nickname": "正義的背影",
+        "gender": "F",
+        "ability": { "value": "惡作劇之心", "value_en": "Prankster", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "廣角鏡", "value_en": "Wide Lens", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "自大", "value_en": "Sassy", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 9, "spa": 0, "spd": 25, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 157, "atk": 95, "def": 104, "spa": 85, "spd": 121, "spe": 63, "source": "frame" },
+        "stats_note": "性格依狀態頁 特防▲/速度▽ 判讀（自大）。HP 滿、防禦 9、特防 25，數值以種族值 50/75/75/65/65/50 重算全部吻合。",
+        "moves": [
+          { "value": "求雨", "value_en": "Rain Dance", "confidence": 0.99, "source": "frame" },
+          { "value": "鬼火", "value_en": "Will-O-Wisp", "confidence": 0.99, "source": "frame" },
+          { "value": "再來一次", "value_en": "Encore", "confidence": 0.99, "source": "frame" },
+          { "value": "定身法", "value_en": "Disable", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "最後放入、針對環境（順風噴火龍、Mega 姆克鷹）的輔助手兼第二天氣手：手動求雨處理噴火龍隊；鬼火/再來一次/定身法讓對面點不出草系技能、確保巨沼怪安全出手，並限制姆克鷹強化。幽靈系免疫近戰。道具是全隊最能隨意調整的：帶廣角鏡讓鬼火命中變 94%；抗妖果（對不開牆配置非必要）也是選項。選出率與蚊香蛙皇並列最高。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 212, "name_zh": "巨鉗螳螂", "name_en": "Scizor", "form": null, "confidence": 0.99 },
+        "nickname": "幫金剛猩代班",
+        "gender": "F",
+        "ability": { "value": "技術高手", "value_en": "Technician", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "達人帶", "value_en": "Expert Belt", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 32, "def": 0, "spa": 0, "spd": 2, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 177, "atk": 200, "def": 120, "spa": 67, "spd": 102, "spe": 85, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。HP 滿、攻擊滿、特防 2，數值以種族值 70/130/100/55/80/65 重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "子彈拳", "value_en": "Bullet Punch", "confidence": 0.99, "source": "frame" },
+          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.99, "source": "frame" },
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "第二輸出手：先制子彈拳、本系急速折返，弱點只有火系，同時符合多項條件且剋制草系（但打來悲粗茶不好打，故另補賽富豪）。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 186, "name_zh": "蚊香蛙皇", "name_en": "Politoed", "form": null, "confidence": 0.99 },
+        "nickname": "Kero",
+        "gender": "F",
+        "ability": { "value": "降雨", "value_en": "Drizzle", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "羅子果", "value_en": "Rindo Berry", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 25, "spa": 0, "spd": 9, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 197, "atk": 85, "def": 132, "spa": 110, "spd": 129, "spe": 90, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀（大膽）。HP 滿、防禦 25、特防 9，數值以種族值 90/75/75/90/100/70 重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.99, "source": "frame" },
+          { "value": "滅亡之歌", "value_en": "Perish Song", "confidence": 0.99, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心之一（雨天手兼滅歌手）。帶抗草果（羅子果）因為與巨沼怪重複弱草、對面必優先選帶草系技能的人，可頂著草系唱滅歌或幫巨沼怪聯防一次。幫助用來拉高巨沼怪十萬馬力的斬殺線（對幽尾玄魚加幫助保證擊殺、鋁鋼橋龍也可能差一個幫助）。要唱滅歌就一定得選，選出率最高。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 260, "name_zh": "巨沼怪", "name_en": "Swampert-Mega", "form": "Mega", "confidence": 0.99 },
+        "nickname": "宇宙第三",
+        "gender": "F",
+        "ability": { "value": "激流", "value_en": "Torrent", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "巨沼怪進化石", "value_en": "Swampertite", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 177, "atk": 178, "def": 110, "spa": 94, "spd": 110, "spe": 112, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形（種族值 100/110/90/85/90/60），重算全部吻合；性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。字幕：為了比 Mega 化石翼龍快所以速度加滿；Mega 後速度種族值 70 → 實數 122（悠遊自如雨下 244），沒雨時比賽富豪（123）慢 1。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "波動衝", "value_en": "Wave Crash", "confidence": 0.99, "source": "frame" },
+          { "value": "十萬馬力", "value_en": "High Horsepower", "confidence": 0.99, "source": "frame" },
+          { "value": "快速折返", "value_en": "Flip Turn", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心、目前規則下雨天隊最強的 Mega；Mega 後特性為悠遊自如（Swift Swim，字幕/投影片），在雨下擔任高速爆發輸出手，取代朱紫時期雨天滅歌的刺龍王角色。常見補盲招冰凍拳沒格子帶，因為快速折返對雨天滅歌是關鍵的折返技。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 432],
+      "frames_used": 6,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 巨沼怪（悠遊自如）+ 蚊香蛙皇（降雨/滅亡之歌）為 Core 的雨天滅歌隊；Fiske 強調「雨天滅歌 ≠ 帶雨天的滅歌隊」：不帶踩影，而是靠高速爆發先打死對面最容易死的兩隻，再唱滅歌拖三回合，本質是標準的平衡隊，重視聯防、輪轉與折返。隊友挑選五條件：能秒殺巨沼怪盲點（草系）、聯防、至少兩個干擾手（威嚇/擊掌/拋下狠話/鬼火/再來一次/定身法）、高速高爆發或先制、多個折返技。熾焰咆哮虎全符合條件第一個放，巨鉗螳螂先制子彈拳 + 急速折返且剋草，生命寶珠賽富豪負責秒殺風妖精/來悲粗茶，勾魂眼（手動求雨 + 鬼火/再來一次/定身法）針對順風噴火龍與 Mega 姆克鷹。選出非常不固定，除了咆哮虎很少首發外任何組合都可能，且至少選一個天氣手（勾魂眼或蚊香蛙皇），要唱滅歌就必選蚊香蛙皇。弱點：難以快速擊殺兩隻的隊伍（開牆後的洗衣機、鋁鋼橋龍）與同時帶多個草系技能的隊伍（巨沼怪選不出來）。評分：上手難度 4/5、操作彈性 4.5/5、穩定性 4/5、全面程度 3.5/5；不推薦新手。",
+    "extracted_at": "2026-11-09T00:10:00+08:00",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

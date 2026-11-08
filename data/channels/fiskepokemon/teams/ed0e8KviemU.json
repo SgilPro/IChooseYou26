@@ -1,0 +1,398 @@
+[
+  {
+    "id": "team_ed0e8KviemU",
+    "name": "Mega 大竺葵 & 火爆獸 沙暴隊",
+    "name_source": "title",
+    "video_id": "ed0e8KviemU",
+    "video_url": "https://www.youtube.com/watch?v=ed0e8KviemU",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "sand",
+      "mega",
+      "tailwind",
+      "hyper-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 94,
+          "name_zh": "耿鬼",
+          "name_en": "Gengar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "我要唱歌了",
+        "gender": "F",
+        "ability": {
+          "value": "詛咒之軀",
+          "value_en": "Cursed Body",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 0,
+          "def": 1,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 136,
+          "atk": 76,
+          "def": 81,
+          "spa": 182,
+          "spd": 95,
+          "spe": 178,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▽/速度▲ 判讀為膽小，字幕亦說「膽小污泥炸彈」；六項數值重算全部吻合。字幕：膽小污泥炸彈對奇麒麟傷害 40–47%，確保他被打死或被挑釁。",
+        "moves": [
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "污泥炸彈", "value_en": "Sludge Bomb", "confidence": 0.98, "source": "frame" },
+          { "value": "冰凍之風", "value_en": "Icy Wind", "confidence": 0.98, "source": "frame" },
+          { "value": "挑釁", "value_en": "Taunt", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "反空間首發（與火爆獸搭配）：速度快、挑釁奇麒麟或用污泥炸彈直接打死。高速模式下也是有用的首發，冰凍之風吹對面圍巾烈咬陸鯊/化石翼龍，讓後排大竺葵用魔法閃耀清場。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "麻他",
+        "gender": "F",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "白色香草",
+          "value_en": "White Herb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 1,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 182,
+          "def": 80,
+          "spa": 54,
+          "spd": 101,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▽/速度▲ 判讀為爽朗；六項數值重算全部吻合。",
+        "moves": [
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.98, "source": "frame" },
+          { "value": "剋命爪", "value_en": "Dire Claw", "confidence": 0.98, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "高速格鬥系，負責處理咆哮虎並好打噴火龍；帶岩崩是選他而非白色香草肯泰羅/披帶泥偶巨人/幽尾玄魚的原因。字幕說大狃拉是大竺葵的主要天敵（四倍弱毒），自己也帶一隻；冰凍之風吹過化石翼龍後可由他或班基拉斯收掉。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 248,
+          "name_zh": "班基拉斯",
+          "name_en": "Tyranitar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "遇事不決",
+        "gender": "F",
+        "ability": {
+          "value": "揚沙",
+          "value_en": "Sand Stream",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 9,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 184,
+          "atk": 186,
+          "def": 130,
+          "spa": 103,
+          "spd": 120,
+          "spe": 116,
+          "source": "frame"
+        },
+        "stats_note": "速度 25 點（116，圍巾後 174）：字幕說加到至少快過爽朗烈咬陸鯊。性格依狀態頁 特攻▽/速度▲ 判讀為爽朗；六項數值重算全部吻合。",
+        "moves": [
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.98, "source": "frame" },
+          { "value": "岩石封鎖", "value_en": "Rock Tomb", "confidence": 0.98, "source": "frame" },
+          { "value": "拍落", "value_en": "Knock Off", "confidence": 0.98, "source": "frame" },
+          { "value": "十萬馬力", "value_en": "High Horsepower", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "沙暴手兼岩石系輸出，是最先與烈箭鷹一起決定的隊友（大竺葵的進攻盲點是抗妖精的火系，需要岩石系）。岩石封鎖作為順風隊互打的第二控速手段但不常用，可換冰凍拳；惡系招選拍落而非咬碎，因這隊常打非 Mega 的對手（耿鬼隊的班基拉斯才帶咬碎）。勝利條件常是同時保住大竺葵與班基拉斯。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 663,
+          "name_zh": "烈箭鷹",
+          "name_en": "Talonflame",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "別砸我特性",
+        "gender": "M",
+        "ability": {
+          "value": "疾風之翼",
+          "value_en": "Gale Wings",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "銳利鳥嘴",
+          "value_en": "Sharp Beak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 133,
+          "def": 91,
+          "spa": 84,
+          "spd": 89,
+          "spe": 195,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▽/速度▲ 判讀為爽朗；六項數值重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "勇鳥猛攻", "value_en": "Brave Bird", "confidence": 0.98, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.98, "source": "frame" },
+          { "value": "大晴天", "value_en": "Sunny Day", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "順風手，大部分情況下首發「烈箭鷹加一個人」。字幕比較三個順風手（化石翼龍/大嘴鷗/烈箭鷹）後選他組「順風沙暴 HO」；可手動開晴天搭配火爆獸。弱點是首發容易被岩崩畏縮。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 154,
+          "name_zh": "大竺葵",
+          "name_en": "Meganium-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "葵哥本葵",
+        "gender": "M",
+        "ability": {
+          "value": "茂盛",
+          "value_en": "Overgrow",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "大竺葵進化石",
+          "value_en": "Meganiumite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 22,
+          "atk": 0,
+          "def": 1,
+          "spa": 27,
+          "spd": 0,
+          "spe": 16,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 91,
+          "def": 121,
+          "spa": 143,
+          "spd": 120,
+          "spe": 116,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（Mega 後種族值 80/92/115/143/115/80，速度不變）。HP 22 點：字幕說加到保證接下一次龍頭地鼠的極攻鐵頭、再吃一次沙暴扣血剛好不死。速度 16 點（116，順風下 232）：至少順風下快過圍巾固執烈咬陸鯊。性格依狀態頁 攻擊▽/特攻▲ 判讀為內斂；六項數值重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "日光束", "value_en": "Solar Beam", "confidence": 0.98, "source": "frame" },
+          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.98, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍核心 Mega 輸出。Mega 後特性「超級日光」（Mega Sol，投影片 f_005）：無論天氣都視為晴天使用招式（無視雨天減傷與沙暴/雪天的防禦加成），因此日光束不用蓄力、氣象球變成火系且吃晴天增傷、相當於三個本系；魔法閃耀打全場。字幕說現在只有一種最好配置，沒什麼調整空間。對面有順風烈咬陸鯊時優先選出。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 157,
+          "name_zh": "火爆獸",
+          "name_en": "Typhlosion-Hisui",
+          "form": "Hisui",
+          "confidence": 0.97
+        },
+        "nickname": "讓我看看",
+        "gender": "F",
+        "ability": {
+          "value": "察覺",
+          "value_en": "Frisk",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 150,
+          "atk": 93,
+          "def": 98,
+          "spa": 188,
+          "spd": 105,
+          "spe": 147,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▽/特攻▲ 判讀為內斂，字幕亦說「木炭內斂噴火」；六項數值重算（以洗翠型態種族值）全部吻合。字幕：木炭內斂噴火對常見配置（32 HP 14 特防）奇麒麟傷害 61–72%。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "噴火", "value_en": "Eruption", "confidence": 0.98, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "反空間關鍵（洗翠型態，幽靈/火）：幽靈系免疫擊掌奇襲、免疫/抵抗大狃拉本系；特性察覺可在首發就確認奇麒麟道具（文柚果→被耿鬼挑釁；心靈香草→被打死），讓對面開不出空間。噴火輸出極高，也可搭配烈箭鷹的大晴天。只有反空間模式會首發耿鬼＋火爆獸。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 462],
+      "frames_used": 13,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 大竺葵（專屬特性超級日光：任何天氣都視為晴天，日光束/火系氣象球/魔法閃耀相當於三本系）為核心的「順風沙暴 HO」。因大竺葵完全打不贏晴天隊、天敵是大狃拉，先定下班基拉斯（沙暴＋岩石系打抗妖精的火系）與烈箭鷹（順風手），再放帶岩崩的大狃拉處理咆哮虎。火爆獸（察覺＋噴火）與耿鬼（膽小污泥炸彈＋挑釁）負責反空間：首發就確認奇麒麟道具，讓他被挑釁或打死而開不出空間。選出大多是烈箭鷹加一人，對面有順風烈咬陸鯊優先大竺葵或耿鬼，反空間才首發耿鬼＋火爆獸。弱點：整體耐久低、聯防弱、先制少、首發烈箭鷹怕岩崩畏縮，面對會玩的噴火龍隊需冒險猜首發與換人時機。",
+    "extracted_at": "2026-11-08T16:04:00Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
