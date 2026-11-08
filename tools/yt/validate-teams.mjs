@@ -17,6 +17,15 @@ const require = createRequire(resolve("app/package.json"));
 const { Dex } = require("@pkmn/dex");
 const dex = Dex.forGen(9);
 
+const NAMES = existsSync("data/ref/names_zh-Hant.json") ? JSON.parse(readFileSync("data/ref/names_zh-Hant.json", "utf8")) : null;
+const TABLE_KEY = { species: "species", moves: "moves", items: "items", abilities: "abilities", natures: "natures" };
+// 繁中 value 查表 → 預期英文；查不到回 undefined（不報錯，只在有對照且不一致時報）
+function expectedEn(table, zh) {
+  if (!NAMES || !zh) return undefined;
+  const t = NAMES[TABLE_KEY[table]];
+  const alias = table === "species" ? (NAMES.species_aliases_zh?.[zh] ?? zh) : zh;
+  return t?.zh2en?.[alias] ?? NAMES.extra?.[`${TABLE_KEY[table]}_zh2en`]?.[zh];
+}
 const regs = new Set(JSON.parse(readFileSync("data/ref/regulation_sets.json", "utf8")).map((r) => r.id));
 const tags = new Set(JSON.parse(readFileSync("data/ref/tags.json", "utf8")).map((t) => t.slug));
 
@@ -34,6 +43,9 @@ const REVIEW = new Set(["auto", "reviewed", "conflict", "needs-member-access", "
 function checkSpecies(where, sp) {
   if (!sp?.name_zh) return err(`${where}: species.name_zh 缺`);
   if (!sp.name_en) return warn(`${where}: species.name_en 缺（${sp.name_zh}）`);
+  const expSp = expectedEn("species", sp.name_zh);
+  const baseEn = String(sp.name_en).replace(/-Mega(-[XYZ])?$/, "").replace(/-(F|M)$/, "");
+  if (expSp && expSp.toLowerCase() !== baseEn.toLowerCase() && !baseEn.toLowerCase().startsWith(expSp.toLowerCase())) err(`${where}: species「${sp.name_zh}」查表應為「${expSp}」，但 name_en 是「${sp.name_en}」`);
   const s = dex.species.get(sp.name_en);
   if (!s?.exists) {
     if (/-Mega-Z$/.test(sp.name_en)) return warn(`${where}: ${sp.name_en} 是 Z-Mega，@pkmn/dex 尚無此型態（可接受）`);
@@ -46,6 +58,10 @@ function checkField(where, f, table, label) {
   if (typeof f !== "object" || !("value" in f)) return err(`${where}: ${label} 不是 {value,...} 物件`);
   if (f.source && !SOURCES.has(f.source)) err(`${where}: ${label}.source「${f.source}」不合法`);
   if (f.confidence != null && (f.confidence < 0 || f.confidence > 1)) err(`${where}: ${label}.confidence 超界`);
+  if (f.value && f.value_en) {
+    const exp = expectedEn(table, f.value);
+    if (exp && exp.toLowerCase() !== String(f.value_en).toLowerCase()) err(`${where}: ${label}「${f.value}」查表應為「${exp}」，但填了「${f.value_en}」`);
+  }
   if (f.value_en) {
     const x = dex[table].get(f.value_en);
     if (!x?.exists) {
@@ -104,6 +120,26 @@ for (const file of readdirSync(teamsDir).filter((f) => f.endsWith(".json")).sort
         }
       }
       if (m.mega === true && !/Mega/.test(m.species?.form ?? "")) warn(`${mw}: mega=true 但 species.form 沒標 Mega`);
+      // 能力值重算（Lv.50、IV 31、Champions 能力點 EV = 4 + 8×(點數−1)）。狀態頁顯示的是未 Mega 的原形 → 用原形種族值。
+      if (m.evs?.scale === "champions-points-32" && m.stats && m.species?.name_en) {
+        const baseName = String(m.species.name_en).replace(/-Mega(-[XYZ])?$/, "");
+        const sp = dex.species.get(baseName);
+        const natEn = m.nature?.value_en ? dex.natures.get(m.nature.value_en) : null;
+        if (sp?.exists) {
+          const toEv = (pt) => (pt == null || pt <= 0 ? 0 : 4 + 8 * (pt - 1));
+          for (const k of ["hp", "atk", "def", "spa", "spd", "spe"]) {
+            const shown = m.stats[k]; if (shown == null || m.evs[k] == null) continue;
+            const base = sp.baseStats[k];
+            let calc = Math.floor((2 * base + 31 + Math.floor(toEv(m.evs[k]) / 4)) * 50 / 100);
+            if (k === "hp") calc += 60; else {
+              calc += 5;
+              if (natEn?.plus === k) calc = Math.floor(calc * 1.1);
+              if (natEn?.minus === k) calc = Math.floor(calc * 0.9);
+            }
+            if (calc !== shown) warn(`${mw}: ${k} 重算 ${calc} ≠ 畫面 ${shown}（種族 ${base}、點數 ${m.evs[k]}、性格 ${m.nature?.value_en ?? "?"}）`);
+          }
+        }
+      }
     }
     const megas = t.members.filter((m) => m.mega === true).length;
     if (t.game === "champions" && megas > 1) warn(`${w}: 有 ${megas} 隻標 mega=true（Champions 每場限一次，但隊上可帶多顆石頭，確認是否刻意）`);

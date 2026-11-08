@@ -66,8 +66,7 @@ function extractFrames(id, start, end) {
   execFileSync("yt-dlp", [
     "-q", "--no-warnings",
     "-f", "bv*[height<=720][ext=mp4]/b[height<=720]", // 720p 才看得清隊伍表小字
-    "--download-sections", `*${Math.floor(start)}-${Math.ceil(end)}`,
-    "--force-keyframes-at-cuts",
+    "--download-sections", `*${Math.floor(start)}-${Math.ceil(end)}`, // 不加 --force-keyframes-at-cuts：會整段重新編碼，實測 720p 8 分鐘要 5~10 分鐘
     "--extractor-args", "youtube:lang=zh-TW",
     "-o", seg,
     `https://www.youtube.com/watch?v=${id}`,

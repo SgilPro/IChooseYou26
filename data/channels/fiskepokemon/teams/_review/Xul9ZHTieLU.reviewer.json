@@ -1,0 +1,523 @@
+[
+  {
+    "id": "team_Xul9ZHTieLU",
+    "name": "阿勃梭魯 Z 物攻強化隊",
+    "name_source": "title",
+    "video_id": "Xul9ZHTieLU",
+    "video_url": "https://www.youtube.com/watch?v=Xul9ZHTieLU",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "setup",
+      "follow-me",
+      "balance",
+      "intimidate",
+      "mega",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        463
+      ],
+      "frames_used": 13,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "reviewer independent pass; team-sheet frames: f_052–f_056 (能力頁), f_057–f_064 (狀態頁). 初版 reviewer 記錄有 3 處錯誤（看穿→Feint、文柚果→Shuca Berry、誤判 5:35 速度說法），交叉驗證後於本檔修正；歷程見 Xul9ZHTieLU.review.md。",
+    "notes": "核心是「隊友幫阿勃梭魯 Z 強化」：大狃拉的指導、風速狗的長嚎讓阿勃梭魯/天蠍王直接輸出；風速狗提供威嚇、神速先制、抗妖精。天蠍王靠怪力鉗免疫威嚇、青草種子+金剛猩場地開場物防+1、順風控速；西獅海壬補火/龍/惡屬性與冰凍之風群體技；金剛猩開場地、青草滑梯先制。平衡隊，選出無固定模式，只有天蠍王常搭金剛猩。弱點是爆發火力低、怕重空間 HO 與風妖精先制再來一次。",
+    "extracted_at": "2026-11-08T09:02:33Z",
+    "extracted_by": "fable-5.1/review-v1",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 359,
+          "name_zh": "阿勃梭魯",
+          "name_en": "Absol-Mega-Z",
+          "form": "Mega-Z",
+          "confidence": 0.98
+        },
+        "nickname": "四災第五名",
+        "gender": "M",
+        "ability": {
+          "value": "正義之心",
+          "value_en": "Justified",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "阿勃梭魯進化石 Z",
+          "value_en": "Absolite Z",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 17,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 17,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 200,
+          "def": 80,
+          "spa": 85,
+          "spd": 80,
+          "spe": 112,
+          "source": "frame"
+        },
+        "stats_note": "依 攻擊▲ 特攻▽ 判讀固執；六項數值以 Lv.50 公式驗算全部吻合。畫面數值為未 Mega 原形；Mega-Z 種族速度 151（f_006 投影片 / @pkmn/dex），17 點 → 188，剛好比隊內大狃拉 189 慢 1（字幕 5:35）；5:41 稱加 HP 後可接鋁鋼橋龍電光束。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影爪",
+            "value_en": "Shadow Claw",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗襲要害",
+            "value_en": "Night Slash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主力物攻手，由隊友（指導/長嚎）強化後輸出。Mega 後特性為「鋒銳」（切斬招式威力提升，f_007）。暗襲要害打愛管侍/奇麒麟、暗影爪打抗惡者、突襲處理更快的對手。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 472,
+          "name_zh": "天蠍王",
+          "name_en": "Gliscor",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "守住吃口毒",
+        "gender": "M",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "青草種子",
+          "value_en": "Grassy Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 26,
+          "atk": 25,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 15,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 176,
+          "atk": 154,
+          "def": 145,
+          "spa": 58,
+          "spd": 95,
+          "spe": 130,
+          "source": "frame"
+        },
+        "stats_note": "依 攻擊▲ 特攻▽ 判讀固執；公式驗算吻合。字幕 5:46：速度加到比風速狗慢 1（130 vs 131），兩者都比膽小大嘴鷗快一點。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "雜技",
+            "value_en": "Acrobatics",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "免疫威嚇（怪力鉗）的物攻手兼順風控速；搭配金剛猩場地吃青草種子物防+1 並觸發雜技。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "咆哮伊布2",
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 10,
+          "def": 0,
+          "spa": 0,
+          "spd": 8,
+          "spe": 16,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 154,
+          "def": 100,
+          "spa": 108,
+          "spd": 108,
+          "spe": 131,
+          "source": "frame"
+        },
+        "stats_note": "依 攻擊▲ 特攻▽ 判讀固執；公式驗算吻合。字幕 5:51：加一點特防聯防巨聲/熱風/廣域戰力，帶文柚果。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "長嚎",
+            "value_en": "Howl",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "威嚇減傷 + 長嚎幫隊友增攻 + 神速先制 + 抗妖精；原版（非洗翠）因不需岩石招式。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "睡他",
+        "gender": "F",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 182,
+          "def": 81,
+          "spa": 54,
+          "spd": 100,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "依 速度▲ 特攻▽ 判讀爽朗；公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "剋命爪",
+            "value_en": "Dire Claw",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "高速指導手，幫阿勃梭魯/天蠍王強化；同時剋制惡與妖精（阿勃梭魯的盲點與弱點）。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "卡璞瑞拉",
+        "gender": "M",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "奇跡種子",
+          "value_en": "Miracle Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 21,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 13,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 196,
+          "atk": 194,
+          "def": 110,
+          "spa": 72,
+          "spd": 90,
+          "spe": 118,
+          "source": "frame"
+        },
+        "stats_note": "依 攻擊▲ 特攻▽ 判讀固執；公式驗算吻合。字幕 6:00：速度剛好超過內斂大嘴鷗（118 > 117），木槌保證擊殺 32 HP 大嘴鷗。",
+        "moves": [
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "開青草場地給天蠍王（種子）、聯防水/草/地面、青草滑梯高威力先制、擊掌奇襲。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 730,
+          "name_zh": "西獅海壬",
+          "name_en": "Primarina",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "鯛魚燒",
+        "gender": "M",
+        "ability": {
+          "value": "濕潤之聲",
+          "value_en": "Liquid Voice",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 13,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 21,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 168,
+          "atk": 84,
+          "def": 94,
+          "spa": 195,
+          "spd": 136,
+          "spe": 101,
+          "source": "frame"
+        },
+        "stats_note": "依 特攻▲ 攻擊▽ 判讀內斂；公式驗算吻合。字幕 6:08：威嚇後可接固執剋命爪剩 10–24%，生命寶珠扣一次還有剩；順風下速度超過 130 種族值極速（101×2=202 > 200）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "唯一特攻手，補打火/龍/惡（尤其咆哮虎）；濕潤之聲巨聲群體輸出，冰凍之風軟控速。"
+      }
+    ]
+  }
+]

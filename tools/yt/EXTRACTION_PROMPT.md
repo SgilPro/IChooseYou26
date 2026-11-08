@@ -1,4 +1,4 @@
-# 隊伍抽取 prompt（extractor v1）
+# 隊伍抽取 prompt（extractor v1.2）
 
 > 給抽取 agent 的工作說明。審查 agent 用同一份素材獨立再做一次，再比對。
 
@@ -42,7 +42,15 @@
 - **Mega 的特性**：隊伍表顯示的是原形特性（例：阿勃梭魯「正義之心」），Mega 後特性（例：「鋒銳」）寫進 `role_note`，ability 欄填畫面上的原形特性。
 - **守住 vs 看穿**：圖示顏色一般系灰色 = 守住、格鬥系橘色 = 看穿；放大確認。
 - **name_zh 用官方全名**（字幕常簡稱：金剛猩 → 轟擂金剛猩、鋁鋼龍 → 鋁鋼橋龍）。
-- Z-Mega 道具 `value_en` 填 `<Species>ite Z`（例：`Absolite Z`），confidence ≤ 0.85。
+- Z-Mega 道具 `value_en` 填 `<Species>ite Z`（例：`Absolite Z`，見 names_zh-Hant.json 的 extra），confidence ≤ 0.85。
+
+## v1.2 新規則（來自試跑的對抗式複核：兩方一致 ≠ 正確，三個錯都出在「憑記憶填英文名」）
+
+- **value_en / name_en 一律查表**：`data/ref/names_zh-Hant.json` 有 species / moves / items / abilities / natures 的 `zh2en`（PokeAPI 繁中官方譯名），以及 `species_aliases_zh`（簡稱 → 全名）與 `extra`（Champions 新道具）。用 `node -e 'const n=require("./data/ref/names_zh-Hant.json"); console.log(n.moves.zh2en["看穿"])'` 之類查。查不到才用自己的知識並把 confidence 降到 ≤ 0.6。
+- **tags 邊界**：只標 (a) 標題/隊名出現的概念、(b) 字幕以「這是 XX 隊」「我們的 core 是 XX」明確定義的概念。單隻的工具招式（例：隊上一隻會冰凍之風）**不**標 `icy-wind`。`tags_source` 照實填。
+- **Mega 驗算**：「狀態」頁顯示的是**未 Mega 的原形**數值 → 驗算用原形種族值；字幕講的速度線若是 Mega 後的數值（例：「Mega 後 188」），用 Mega/Mega-Z 種族值換算並在 `stats_note` 註明。
+- **`sources.frames_used`** = 你實際用來填欄位的影格張數（不是目錄總數），並在回報裡列出隊伍表影格檔名。
+- 寫完**一定跑** `node tools/yt/validate-teams.mjs data/channels/fiskepokemon`，修到自己檔案 0 ERR；WARN 逐條判斷（能力值重算不吻合 = 多半是讀錯點數或性格）。
 
 ## 輸出
 
