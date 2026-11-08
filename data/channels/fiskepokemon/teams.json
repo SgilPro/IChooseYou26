@@ -28893,6 +28893,428 @@
     "video_published_at": "2024-12-17"
   },
   {
+    "id": "team_DQ9m1uGQ4gE",
+    "name": "君主蛇 & 骨紋巨聲鱷 全御三家誓約隊",
+    "name_source": "title",
+    "video_id": "DQ9m1uGQ4gE",
+    "video_url": "https://www.youtube.com/watch?v=DQ9m1uGQ4gE",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-h",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "hyper-offense",
+      "setup",
+      "tera"
+    ],
+    "tags_source": "subtitle",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "火之誓約",
+            "value_en": "Fire Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "火屬性御三家的支援手：擊掌奇襲、威嚇、拋下狠話；火之誓約可與西獅海壬／金剛猩組合體招式。字幕提到可與君主蛇首發，擊掌後讓君主蛇飛葉風暴強化。太晶幽靈依隊伍表圖示判讀（字幕未提）。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鼓擊",
+            "value_en": "Drum Beating",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "草之誓約",
+            "value_en": "Grass Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "草屬性御三家的擊掌支援兼物攻手，突擊背心配置；草之誓約可與西獅海壬組水草誓約（濕地）。字幕提到可與君主蛇首發擊掌掩護強化。太晶幽靈依隊伍表圖示判讀（字幕未提）。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 730,
+          "name_zh": "西獅海壬",
+          "name_en": "Primarina",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "濕潤之聲",
+          "value_en": "Liquid Voice",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.75,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水之誓約",
+            "value_en": "Water Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍原始出發點：水草誓約（濕地）的核心特攻手，生命寶珠濕潤之聲巨聲；沒帶黑霧。字幕說是隊上唯一能打暴飛龍的手段，但速度慢偏被動。遊戲畫面名稱顯示「西獅海王」，依官方譯名填「西獅海壬」。太晶毒依隊伍表紫色圖示判讀（字幕未提，信心較低）。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 911,
+          "name_zh": "骨紋巨聲鱷",
+          "name_en": "Skeledirge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "純樸",
+          "value_en": "Unaware",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：努力值多投 HP 與物防（未給數字）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰高歌",
+            "value_en": "Torch Song",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "偷懶",
+            "value_en": "Slack Off",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊上對大狃拉的解答：高物耐 + 威嚇配合鬼火、偷懶回復；特性純樸使太晶後能對抗劍舞仆斬將軍與吃吼霸。字幕稱面對這些常見弱點時相當重要。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 497,
+          "name_zh": "君主蛇",
+          "name_en": "Serperior",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "唱反調",
+          "value_en": "Contrary",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": 252,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": "字幕：252 特攻 252 速度；其餘未提。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "飛葉風暴",
+            "value_en": "Leaf Storm",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "草之誓約",
+            "value_en": "Grass Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍主軸：唱反調 + 飛葉風暴邊打邊升特攻，可獨立作為強化手；太晶星晶的太晶爆發為無屬性 1.2 倍攻擊，補足抗草對手。披帶防火／毒秒殺。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 257,
+          "name_zh": "火焰雞",
+          "name_en": "Blaziken",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "加速",
+          "value_en": "Speed Boost",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "火之誓約",
+            "value_en": "Fire Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第六位原為帝王拿波，作者因全隊缺格鬥／地面技而換成火焰雞：近身戰有機率秒殺 252 HP 鋁鋼橋龍，是隊上對雨天隊的主要手段；但雨天下面對大嘴鷗、幽尾玄魚、金剛猩無解。太晶幽靈依隊伍表圖示判讀（字幕未提）。",
+        "stats": null,
+        "gender": "M"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        235
+      ],
+      "frames_used": 4,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表畫面（f_002、f_022 無遮擋）六隻的特性／道具／四招／太晶圖示皆清楚；性格與多數努力值畫面未顯示，留 null。tags 中 hyper-offense 來自標題「高速爆發」，setup／tera 來自字幕（強化手、太晶星晶）；字幕本身反而說策略偏慢。規則依發布日 2024-12-10 推為 Reg H。",
+    "notes": "2016 世界冠軍 Wolfe Glick 的全御三家隊（君主蛇版）。出發點與 Fiske 自己的御三家隊相同，都是以西獅海壬的水草誓約（濕地）為主，但本隊以唱反調君主蛇取代假面喵：飛葉風暴邊打邊升特攻，可獨立作為強化手，也能與咆哮虎／金剛猩首發用擊掌掩護強化；太晶星晶太晶爆發補足對抗草對手的打擊面。因君主蛇、西獅海壬、咆哮虎、金剛猩全都弱大狃拉，由鬼火＋偷懶、純樸的巨聲鱷負責壓制大狃拉與劍舞仆斬將軍、吃吼霸；第六位從帝王拿波改成火焰雞，靠近身戰處理鋁鋼橋龍雨天隊。弱點：策略偏慢、缺乏高爆發清場手段，攻防屬性重疊，對暴飛龍只靠西獅海壬、對鋁鋼橋龍只靠火焰雞，雨天下與首發同時弱大狃拉時非常被動。",
+    "extracted_at": "2026-11-08T17:04:10Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "video_title": "全隊只帶御三家 2.0！高速爆發 + 無死角打擊，君主蛇 & 骨紋巨聲鱷的誓約隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",
+    "video_published_at": "2024-12-10"
+  },
+  {
     "id": "team_ir5REHeeK9w",
     "name": "帶你見識卡比獸的真正力量！超高威力 + 超快速度，世界冠軍打造的最聰明策略！卡比",
     "name_source": "title",
