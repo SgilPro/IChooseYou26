@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 6192381",
-    "author_source": "pokepaste",
+    "tags": [
+      "balance",
+      "setup",
+      "restricted"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：本系神速＋劍舞強化，綜合耐久全遊戲第一；防塵鏡免疫孢子粉；建議太晶改幽靈反制滅歌隊"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心克制蓋歐卡／固拉多（木槌秒滿血蓋歐卡），青草場地蓋掉擋神速的精神場地"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "fire/water/grass core 的草位，心靈香草憤怒粉輔助"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "水位：威嚇＋先制水流噴射與阿爾宙斯雙先制，模仿香草反制棄世猴／仆斬將軍，近身戰補鋼岩"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "火位：太晶幽靈詭計完封月月熊、抗雪矛克制白馬王，對重空間隊有利"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "毛皮大衣物理耐久相當於固拉多，頭盔蹭物攻手；擊掌奇襲、拋下狠話掩護劍舞與輪轉"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 為夥伴大賽臨時組的隊伍，以阿爾宙斯的本系神速為核心搭配平衡隊（類似規則 B 的賽富豪平衡隊與 fire/water/grass core）。阿爾宙斯 120 物攻的神速不夠秒人、打不到幽靈又怕威嚇，所以走劍舞強化路線：三防 120 加純一般只弱格鬥，綜合耐久全遊戲第一，適合搭配威嚇、拋下狠話與擊掌奇襲掩護強化。阿羅拉貓老大毛皮大衣物理耐久相當於固拉多，帶頭盔蹭物攻手並用擊掌／拋下狠話輔助；突擊背心金剛猩克制預期熱門的蓋歐卡與固拉多（木槌一發秒滿血蓋歐卡），青草場地也防對面精神場地擋神速。核心刻意不用太 meta 的風速狗與海豚俠：太晶幽靈詭計火洛托姆完封月月熊、抗雪矛克制白馬王，對月月熊＋白馬王重空間是 positive match-up；水肯泰羅威嚇＋先制水流噴射與阿爾宙斯雙先制，模仿香草反制棄世猴與仆斬將軍，近身戰補鋼岩。阿爾宙斯帶防塵鏡是因隊友不好處理盾菇。賽後認為太晶改幽靈更穩（免疫格鬥、反制對面阿爾宙斯滅歌隊）；最終第四名。",
     "extracted_at": "2026-11-08T16:37:48.242Z",
     "extracted_by": "import-pokepaste-v1"
   }

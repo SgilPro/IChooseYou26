@@ -10,10 +10,11 @@
     "regulation_set_id": "sv-reg-e",
     "regulation_source": "date-inferred",
     "tags": [
+      "setup",
       "sand",
-      "meme-gimmick"
+      "tournament-team"
     ],
-    "tags_source": "title",
+    "tags_source": "subtitle",
     "author": "EternalSnowman",
     "author_source": "pokepaste",
     "members": [
@@ -92,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：防彈太晶鋼鐵壁撲擊，完封振翼髮、古玉魚等特攻手與多數物攻手；摸不到幽靈系，需隊友先逼出對面太晶"
       },
       {
         "slot": 2,
@@ -169,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "沙暴兄弟首發之一，背心高速打賽富豪；少見太晶超能太晶爆發補地面技缺口，打毒系／太晶毒與鐵臂膀"
       },
       {
         "slot": 3,
@@ -246,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "太晶草＋奇蹟種子極攻，青草滑梯滑死振翼髮與鐵包袱；長嚎 +1 木槌可滿血槌死耐久鐵臂膀；挑釁處理盾菇、空間手與強化手"
       },
       {
         "slot": 4,
@@ -323,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "膽小高特攻眼鏡配置，專門先手打死對面的振翼髮，也聯攻賽富豪"
       },
       {
         "slot": 5,
@@ -400,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "規則 A–C 式的輔助風速狗：極速 236 HP，拍人後鬼火廢掉土地雲／鐵臂膀，或長嚎強化金剛猩；與班基拉斯首發克制龍捲雲順風隊"
       },
       {
         "slot": 6,
@@ -477,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速爆破手，與振翼髮聯攻處理對面振翼髮；對面特攻手多時替代鱗甲龍選出"
       }
     ],
     "is_members_only": false,
@@ -493,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 EternalSnowman 以這隊在大型比賽爆冷奪冠。全隊圍繞杖尾鱗甲龍組成：防彈太晶鋼的鱗甲龍抗性與雙防極佳，鐵壁兩次後幾乎沒有物攻手打得動，撲擊本系輸出也遠高於黏美龍，且完封振翼髮、古玉魚等環境特攻手，但鐵壁撲擊摸不到幽靈系（振翼髮、賽富豪、太晶幽靈的古劍豹與鐵包袱），所以其他隊友都是負責聯攻逼出或打死幽靈系，再讓後排鱗甲龍上場強化。選出時先看對面有幾個幽靈系與特攻手：特攻手太多就不上鱗甲龍，改走班基拉斯＋風速狗的沙暴兄弟模式（兩人都抗飛行、沙暴下特防 1.5 倍，首發就能崩死龍捲雲克制順風隊），或用鐵包袱＋振翼髮高速爆破。難度較高，需要隨時 pivot 鱗甲龍騙出幽靈系再集火；鱗甲龍四倍弱妖精，看到對面可能太晶妖精的人要先守住 scout。",
     "extracted_at": "2026-11-08T16:37:38.800Z",
     "extracted_by": "import-pokepaste-v1"
   }

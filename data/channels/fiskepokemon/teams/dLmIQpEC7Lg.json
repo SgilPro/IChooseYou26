@@ -10,9 +10,10 @@
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
     "tags": [
-      "tailwind"
+      "tailwind",
+      "tournament-team"
     ],
-    "tags_source": "title",
+    "tags_source": "subtitle",
     "author": "Guest 2001522",
     "author_source": "pokepaste",
     "members": [
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：順風下巨龍威能噴龍、太晶鋼噴鋼；HP 200 不脆皮，龍顎＋龍之牙非滿血仍穩定輸出"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡暗影球逼對面賽富豪太晶；戲法配謎擬Ｑ挑釁封死重空間"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手，常放後排等 position 好再上場；枯葉風暴命中率低、輸出較弱，耐久是全隊最差"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾無形拳克制鋼系與太晶後的賽富豪，對面守不了只能太晶或換人"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "平衡模式首發：擊掌奇襲配隊友輸出，木槌或急速折返再拍一次"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輸出兼反空間：挑釁＋賽富豪戲法確保 cresselia＋月月熊開不出空間"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "在日本大型比賽奪冠的雷吉鐸拉戈隊，圍繞 drago 組成：順風噴龍（巨龍威能）壓制力極強，迫使對手選出妖精或太晶妖精，其他隊友就負責處理這些人——免疫龍的妖精改用太晶鋼眼鏡噴鋼，抗龍又抗鋼的鋼系交給圍巾武道熊師，免疫格鬥的賽富豪則用眼鏡暗影球逼太晶、太晶後近身戰秒掉，無形拳讓對面守不了，聯攻幾乎沒有盲點。drago HP 種族值 200，物理耐久是振翼髮兩倍多，龍顎＋龍之牙讓非滿血時龍之波動仍穩定，所以滿血混順風隊、不滿血混平衡隊，任何兩人都是一種首發模式：簡單順風模式首發龍捲雲＋輸出手；平衡模式首發金剛猩拍人配暗影球／噴龍再木槌或急速折返；或首發圍巾無形拳武道熊師逼換人。謎擬Ｑ的挑釁與賽富豪的戲法確保對面 cresselia＋月月熊重空間開不出來。不上龍捲雲時像規則 B 的平衡隊，操作難度比一般順風隊高，需判斷對面 speed tier 與輪轉時機，不太適合新手。",
     "extracted_at": "2026-11-08T16:37:45.111Z",
     "extracted_by": "import-pokepaste-v1"
   }

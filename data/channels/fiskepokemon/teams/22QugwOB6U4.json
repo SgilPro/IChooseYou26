@@ -10,9 +10,10 @@
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
     "tags": [
-      "tournament-team"
+      "tournament-team",
+      "balance"
     ],
-    "tags_source": "title",
+    "tags_source": "subtitle",
     "author": "Fiske Pokémon",
     "author_source": "channel",
     "members": [
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "固執防塵鏡配置，耐久與輸出更高，不怕孢子粉，是全隊針對盾菇的手段之一"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "固執配置，挑釁處理盾菇；水流連打逼對面太晶水"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "太晶草眼鏡能量球秒海兔獸與未合體吃吼霸，免疫孢子粉、抵抗水流連打"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "固執氣勢披帶，速度不快但輸出耐久更高，容易打出意料外 KO；本身克制盾菇"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "再生力＋花粉團提高容錯率，對面盾菇搞不了我方盾菇，安全上場睡人"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "伏特替換低速退場帶後排安全上場、破披帶，不怕威嚇，打武道熊師約瘋狂伏特 1/3 傷害"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "世界賽冠軍隊，是排位上常見到不行的芭樂隊，本質是前幾個規則流行的平衡隊換成更高火力的規則 D 版本。相較於脆皮又容錯率低的龍捲雲順風隊，帶土地雲、鐵臂膀與再生力盾菇的平衡隊耐久高、補救手段多，任何兩人都能首發，即使打得不夠 optimize 也能贏。特別之處：土地雲、武道熊師、古劍豹都是固執性格，輸出與耐久更高，容易打出對面意料外的 KO；全隊針對盾菇（防塵鏡土地雲、挑釁武道熊師、太晶草振翼髮、古劍豹、鐵臂膀擊掌）；振翼髮太晶草眼鏡能量球秒掉海兔獸與未合體吃吼霸等隊友打不動的人，又免疫孢子粉並抵抗水流連打；鐵臂膀伏特替換低速退場帶脆皮後排安全上場、破披帶，打武道熊師傷害也不低且不怕威嚇。缺點是平衡隊操作難度高，需要多回合預判規劃；世界賽是公開配置的 Bo3，排位看不到對面道具太晶，且這隊太有名、配置人人皆知。",
     "extracted_at": "2026-11-08T16:37:44.071Z",
     "extracted_by": "import-pokepaste-v1"
   }

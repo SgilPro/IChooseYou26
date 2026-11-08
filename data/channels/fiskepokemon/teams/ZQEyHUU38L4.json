@@ -9,8 +9,11 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "screens",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
     "author": "Yvar",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "光之黏土雙牆＋電磁波控速，鋼妖抗性好且抗妖精；無惡系會被惡作劇之心挑釁"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "全隊核心倚賴，吃剩的東西健美續航；必須保持 HP，一死就幾乎沒機會"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與 Fenix 怒鸚哥鐵荊棘隊相同配置：圍巾威嚇、拋下狠話、順風，搏命換掉難處理對象"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主角：天恩＋廣角鏡岩崩 99% 命中、60% 畏縮，大蛇瞪眼麻痺惡系／地面系；強力鑽無視守住收尾"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "災禍之鼎壓低對面特攻，突擊背心耐久"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "引水消掉太晶火棄世猴與古鼎鹿的水弱點，近極限物防接物攻；防塵鏡挑釁反制盾菇，高速旋轉除毒釘"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Yvar 的 Malmo Regionals Day 2 隊伍。輸出極低但干擾能力極強：鑰圈兒光牆、反射壁、怒鸚哥威嚇、拋下狠話與古鼎鹿的災禍之鼎壓低對面輸出，電磁波與大蛇瞪眼控速，搏命換掉難處理的對象，挑釁反制輔助手與強化手。主角土龍節節有天恩特性，廣角鏡岩崩命中 99%、每人 60% 畏縮機率，配鑰圈兒電磁波與大蛇瞪眼（可瞪鑰圈兒上不了的惡系與地面系）後，對面每回合至少一人動不了的機率達 91%；強力鑽 100 威力滿命中且無視守住，適合收尾。規則 C 中速的人多半堆耐久，土龍節節極速 117 配電磁波反而比暴鯉龍、賽富豪、麻痺後的多龍巴魯托更快，只需注意圍巾、驅勁能量與順風隊。鑰圈兒鋼妖抗性極佳且抗妖精，但沒有惡系會被其他惡作劇之心挑釁。選出沒有固定打法，依對面決定棄世猴以外的三人；全隊非常依賴棄世猴，他一死就幾乎沒機會。",
     "extracted_at": "2026-11-08T16:37:49.286Z",
     "extracted_by": "import-pokepaste-v1"
   }

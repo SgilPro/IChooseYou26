@@ -9,8 +9,11 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "perish-trap",
+      "setup"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske Pokémon",
     "author_source": "channel",
     "members": [
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌模式核心：合體吃掉米立龍後拿到全能力 +2；速度 168 超過 100 族極速，上菜打死龍捲雲"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：同台共演複製隊友全部能力變化，速度 224 快過無特性的振翼髮／鐵包袱／古劍豹；+2 後耐久仍不算高"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "兩種模式都選出：高速唱滅亡之歌唱死自家米立龍，噬沙堡爺模式中吸引對面火力"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "噬沙堡爺模式搭檔：飛水手裡劍打三下讓噬沙堡爺物防 +6，挑釁處理盾菇；輸出極低，打完後能做的事有限"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "噬沙堡爺模式核心：遇水凝固＋弱點保險＋瞬間失憶，雙防堆到極高，幽靈系免疫聖劍，鐵臂膀摸不到；極慢，首發被集火就沒救"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限物防抗妖果，第一回合先打一發流星群／衝浪再被滅歌唱死，為纏紅鶴空出位置；不只是發號施令工具人"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "核心是纏紅鶴的同台共演複製隊友全部能力變化，搭配兩個能快速強化的隊友，只有兩種選出模式且都帶振翼髮與纏紅鶴。滅歌吃吼霸模式：振翼髮高速唱滅亡之歌把自家米立龍唱死（極限物防抗妖果米立龍通常能先點出一次流星群或衝浪），米立龍在吃吼霸嘴裡死掉後，纏紅鶴上場直接拿到全能力 +2，兩個 +2 的人推平對面；吃吼霸速度 168、纏紅鶴 224，順風隊首發龍捲雲時上菜打死再守住拖過順風。噬沙堡爺模式：首發噬沙堡爺＋振翼髮或甲賀忍蛙，被飛水手裡劍打三下物防就 +6，瞬間失憶同時讓纏紅鶴特防 +2，除了聖劍、武道熊師與擊中要害外幾乎沒有物攻手打得動，鐵臂膀完全摸不到噬沙堡爺；甲賀忍蛙挑釁處理盾菇，但沒帶守住怕擊掌奇襲，且噬沙堡爺第一回合被集火就等於投降。主要弱點：水系太多共同弱點多、coverage 差；怕黑霧與聖劍（需優先處理古劍豹與盾菇）；幾乎打不動不帶米立龍的吃吼霸。有趣但強度不高、操作難度高，combo 不會每次成功。",
     "extracted_at": "2026-11-08T16:37:41.945Z",
     "extracted_by": "import-pokepaste-v1"
   }

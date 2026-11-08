@@ -9,8 +9,10 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "hyper-offense"
+    ],
+    "tags_source": "subtitle",
     "author": "PsychoR&R",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸反威嚇，擊掌後開順風；順風主要給自己（速度 107）與後排巨石丁"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與古劍豹首發：太晶水噴射拳在災禍之劍下秒高速特攻手，不變身也很強"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "進攻模式核心：災禍之劍＋生命寶珠＋能量點冰旋威力 270；突襲先制收頭"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "少見圍巾配置配巨石丁打高速爆發；戲法把圍巾丟給輔助手或強化手"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：能量點相當於幫隊友多帶一顆生命寶珠，廣域防守"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "平衡模式成員；速度太慢，順風兩倍也不夠快"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 PsychoR&R 的巨石強攻隊：核心概念是巨石丁的能量點加古劍豹的災禍之劍，讓隊友打出超過對方預期的傷害——很多人努力值只調到剛好吃下流行配置一擊，巨石丁相當於幫隊友多帶一顆生命寶珠，古劍豹冰旋威力可達 270。兩種模式：平衡模式選海豚俠、賽富豪、鐵臂膀、勇士雄鷹；進攻模式選古劍豹＋巨石丁配隊友輸出。三種主要首發：海豚俠＋古劍豹（第一回合突襲＋太晶水噴射拳秒掉振翼髮、古玉魚等高速特攻手，寶寶噴射拳在災禍之劍下比變身後還高）、賽富豪＋巨石丁（少見的圍巾賽富豪配能量點打高速爆發，或戲法圍巾給輔助／強化手）、勇士雄鷹＋物攻手（不服輸反威嚇，拍人後開順風，順風主要給自己與後排巨石丁，打鐵包袱或黑暗鴉等快節奏隊伍）。聯攻好、爆發高，但聯防差且沒有威嚇、大聲咆哮、異常狀態等輔助手段，穩定性不高，不能用一般平衡隊的方式玩，需要先了解對面隊伍的玩法。",
     "extracted_at": "2026-11-08T16:37:50.334Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 8395128",
-    "author_source": "pokepaste",
+    "tags": [
+      "meme-gimmick",
+      "icy-wind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "此規則下最高速，擊掌奇襲與本系近身戰；精神力不怕威嚇"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "誓約核心：極限特攻眼鏡草之誓約，合體威力 337 幾乎一倍秒掉所有寶寶；怕擊掌，建議改太晶幽靈"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "水之誓約開濕地控速；變幻自如下冰凍之風／冰凍光束輔助控速，電光一閃收頭並讓對方突襲失敗"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "最強威嚇手：抗性好耐久高，先制水流噴射；致命針刺收頭物攻 +3"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "進化奇石耐久不錯，本系勇鳥猛攻與先制突襲；速度刻意慢過千針魚與騰蹴小將以打 120 威力惡意追擊"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "火之誓約配投羽梟開火海；本身是強物攻手，閃焰衝鋒與飛膝踢"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 為不能開順風的夥伴大賽組的全寶寶誓約隊，以濕地與火海為主。誓約是歷代御三家專屬合體技：兩人同時打出不同屬性的誓約就變成 150 威力、必帶本系加成的合體技，並開出場地效果；濕地把對面速度降到 1/4 當作控速手段，火海每回合燒對面兩人 HP。發動時第一人打出後第二人無視速度立即接上，威力取後出手者的特攻，所以理想搭配是高速草系配低速火／水特攻手，或高速火水配低速草特攻手。投羽梟極限特攻＋眼鏡，合體誓約威力 337，幾乎能一倍秒掉所有寶寶，蹭到青草場地連抗草的人都能滿血秒。呱頭蛙與騰蹴小將有變幻自如，不打誓約時也能做別的事。缺點是當天擊掌奇襲太多，投羽梟被拍到就開不出濕地，改太晶幽靈會穩很多；成功打出濕地 combo 通常就能拿到巨大優勢。",
     "extracted_at": "2026-11-08T16:37:47.191Z",
     "extracted_by": "import-pokepaste-v1"
   }
