@@ -1,7 +1,7 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-09 00:30（主表 336/679 完整；22/22 公開 Champions 對戰隊伍入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+> 最後更新：2026-11-09 01:30（主表 336/679；Champions 22 隊 + 朱紫 102 隊由 pokepaste 匯入 + 131 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
 ## 現況（2026-11-08 17:30）
 
@@ -11,9 +11,9 @@
 | 逐支 metadata / 字幕抓取 | 🟡 兩輪後：336 成功、275 會員限定、69 仍失敗（多為「無法播放」速率限制 + 少數私人影片）。已排 1 小時後第三輪（更慢）；若仍缺，隔天再跑 `--sleep-interval 12 --max-sleep-interval 25` |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
-| 隊伍抽取 teams/<id>.json | ✅ **22/22 公開 Champions 對戰影片完成**（132 隻，validate 0 ERR；6 WARN 為刻意雙 Mega） | `teams/*.json` |
+| 隊伍抽取 teams/<id>.json | ✅ Champions 公開 22/22（影格+字幕 LLM 抽取）；✅ 朱紫公開 102/113 由 pokepaste 匯入（`import-pokepaste.mjs`）；🟡 朱紫無 paste 的 11 支待走影格流程；⬜ 會員限定 131 隊只有殼（`make-member-shells.mjs`） | `teams/*.json` |
 | 對抗式複核 | 🟡 1/22 做了獨立再抽取（99% 一致）；其餘靠機械驗證。建議再抽 3~4 支複核 | `teams/_review/` |
-| 合併 teams.json / csv | ✅ 22 隊 / 132 列；每新增隊伍後重跑 | `teams.json`、`teams.csv` |
+| 合併 teams.json / csv | ✅ 256 隊（125 有六隻 / 131 殼）、750 隻；每次異動後重跑 | `teams.json`、`teams.csv` |
 | 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
 
 ## 接手步驟（照順序敲）
@@ -49,6 +49,12 @@ node tools/yt/merge-teams.mjs $CH
 # 7. commit + push（raw/ frames/ 已 gitignore）
 git add $CH tools/yt && git commit -m "feat(data): ..." && git push
 ```
+
+## 朱紫時代（已走 pokepaste 捷徑）
+
+- Fiske 朱紫影片的描述欄幾乎都附 pokepast.es 連結（102/113）。`node tools/yt/import-pokepaste.mjs $CH` 會抓 `/json`、解析 Showdown 文字、對照繁中名、依發布日對應 Reg A~J（含 2025 再登場的 Reg G）。不需影格、不需 LLM。
+- 之後再用字幕補 `notes` / `tags` / `role_note`（文字 LLM pass，一支約 5~8k tokens；見 2026-11-09 pilot）。
+- 沒有 paste 的 11 支走 Champions 同一套影格流程（prompt 需改 `evs.scale: "ev-252"`、太晶屬性從畫面讀）。
 
 ## 會員影片（之後）
 
