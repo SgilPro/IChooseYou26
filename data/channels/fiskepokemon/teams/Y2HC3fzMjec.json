@@ -10,11 +10,12 @@
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
     "tags": [
-      "sun"
+      "sun",
+      "tailwind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ぜろ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "太晶妖精主輸出，耐久高、配置難猜，固定首發"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "取代白馬王的神獸搭檔，開晴天並補火、鋼盲點"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶順風手，固定首發，怕擊掌"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風結束後的高速收殘手，配晴天並剋雨天隊水系"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾噴火清場手，晴天加太晶火，對手不易提防特攻"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "踢倒＋客房服務，空間內外壓制月月熊，不怕白馬王"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 ぜろ 以此隊在今年日本全國賽線上預賽獲第 26 名。核心是太晶妖精露奈雅拉（耐久高、配置多樣難猜）搭配固拉多的晴天順風隊：絕大多數場次首發露奈雅拉加披帶風妖精開順風、魔法閃耀輸出，固拉多取代原本的白馬王以補火系、鋼系盲點。因兩隻主力爆發不高、順風易被守住拖完，後排放能在順風結束後仍發揮的高速收殘手：圍巾噴火炎帝（晴天加太晶火，對手通常只防聖火與神速，速度超過圍巾武道熊師）與猛雷鼓（配晴天並剋雨天隊）。帶踢倒與客房服務的仆斬將軍用來在空間內外壓制月月熊，作者自認非最佳選擇。弱點：選出與操作彈性極小、極度依賴順風，披帶風妖精怕擊掌，藏瑪然特、披帶古劍豹、密勒頓、冥想太樂巴戈斯／黑馬王、白馬王、露奈雅拉、長毛巨魔都不好打，屬於賭博性強但新手友善的隊伍。",
     "extracted_at": "2026-11-08T16:36:19.495Z",
     "extracted_by": "import-pokepaste-v1"
   }

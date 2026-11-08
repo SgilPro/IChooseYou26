@@ -11,11 +11,13 @@
     "regulation_source": "date-inferred",
     "tags": [
       "bulky-offense",
-      "perish-trap"
+      "perish-trap",
+      "fake-out",
+      "restricted"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "fogdocker",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -92,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "寄生種子續航型白馬王，第二勝利條件，嚇阻對面選金剛猩"
       },
       {
         "slot": 2,
@@ -169,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主滅歌手，地面石板特攻型，大聲咆哮剋幽靈、免疫密勒頓伏特替換"
       },
       {
         "slot": 3,
@@ -246,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "踩影困住對手，滅歌隊必備"
       },
       {
         "slot": 4,
@@ -323,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌隊必備：擊掌、拍落打黑馬王，必帶守住"
       },
       {
         "slot": 5,
@@ -400,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "逃脫按鍵換場，針對密勒頓伏特替換"
       },
       {
         "slot": 6,
@@ -477,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二滅歌手，高速不怕擊掌，剋黑馬王與惡系武道熊師"
       }
     ],
     "is_members_only": false,
@@ -493,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 fogdocker 曾以此隊打到排位暫時第 16 名，靈感來自 Wolfe Glick 近期多次以滅歌隊參賽奪冠。核心是高耐久的阿爾宙斯唱滅歌，選特攻型地面石板版本：免疫密勒頓的伏特替換，搭配逃脫按鍵盾菇讓對方換不下去，大聲咆哮剋幽靈並壓低對面特攻，制裁光礫有本系加石板加成。哥德小姐（踩影）與咆哮虎是滅歌隊必備成員；振翼髮是第二滅歌手，速度快、不怕擊掌且剋黑馬王與惡系武道熊師；寄生種子白馬王提供第二勝利條件，並嚇阻對手選出金剛猩。弱點：蓋歐卡、固拉多的高威力群體技難擋，故勒頓單體輸出過高且太晶火後白馬王難打；整體容錯大，Fiske 拍片過程僅輸一場。",
     "extracted_at": "2026-11-08T16:35:57.423Z",
     "extracted_by": "import-pokepaste-v1"
   }

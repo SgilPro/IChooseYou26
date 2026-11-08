@@ -12,11 +12,12 @@
     "tags": [
       "setup",
       "restricted",
-      "meme-gimmick"
+      "meme-gimmick",
+      "follow-me"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Michael Zhang",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -93,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主輸出，吃辣椒精華 +2 物攻後先手秒殺，可帶守住"
       },
       {
         "slot": 2,
@@ -170,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心輔助，辣椒精華幫故勒頓增攻，憤怒粉掩護，火系葉綠素"
       },
       {
         "slot": 3,
@@ -247,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與布里卡隆搭配處理雨天隊的第二隻神獸"
       },
       {
         "slot": 4,
@@ -324,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "專門針對白馬王的輔助（廣防、電氣種子、防彈、太晶鋼），幫兩隻勒頓打輔助"
       },
       {
         "slot": 5,
@@ -401,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二掩護手，超低速您先請可對空間隊當低速控速"
       },
       {
         "slot": 6,
@@ -478,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第三掩護手，主要用來剋雙彈瓦斯"
       }
     ],
     "is_members_only": false,
@@ -494,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Michael Zhang 於上個月北美國際賽使用的勒頓勒頓隊。核心 core 是狠辣椒（唯一的火系葉綠素）以專屬技辣椒精華讓故勒頓物攻 +2，先手秒殺大量對手，故勒頓因此可帶守住、彈性更大。此組合怕雨天隊，作者不放猛雷鼓而選密勒頓加布里卡隆：布里卡隆草系帶廣防、電氣種子物防 +1，專門針對白馬王，防彈又能完封土地雲的污泥炸彈，太晶鋼後振翼髮的暗影球也打不到。剩下兩格放第二、第三個掩護手：皮皮超低速您先請可在面對空間隊時當低速控速，愛管侍主要用於對付雙彈瓦斯（全隊極依賴特性）。弱點：屬性聯防很弱，故勒頓與密勒頓同弱冰、龍、妖精，布里卡隆也弱冰與妖精，不太晶時全隊無冰系抗性，操作與選出彈性不大、穩定性不高。",
     "extracted_at": "2026-11-08T16:36:20.531Z",
     "extracted_by": "import-pokepaste-v1"
   }

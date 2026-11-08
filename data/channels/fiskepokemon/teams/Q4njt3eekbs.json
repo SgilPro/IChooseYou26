@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "trick-room",
+      "hyper-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "つな",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "0 速力量鏡，空間下全場最先噴水，必帶守住防擊掌"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶冰凍之風＋空間，第三首發的高速模式，應付雙彈瓦斯、故勒頓"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾，第二首發，太晶幽靈躲擊掌，雨天下秒黑馬王、振翼髮"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二模式換上秒殺藏瑪然特，屬性上適合搭配白馬王"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "避難背包重空間首發輔助：擊掌、看我嘛、廣防、蘑菇孢子"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "白馬王：開空間兼清場主力，帶封印防反空間、封對面雪矛，不帶守住"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 つな 以此隊打進今年日本全國賽八強。因日本賽制八強前不公開配置、八強後公開且三戰兩勝，作者選擇策略單純的 HO 隊：固定泛用首發為避難背包圖圖犬（擊掌、看我嘛、廣防、蘑菇孢子，心情不定保證退場）加白馬王開重空間，再換上 0 速力量鏡蓋歐卡——速度比月月熊、鐵臂膀更慢，空間下全場第一個噴水；白馬王帶封印阻止對面反開空間或封雪矛。第二首發是圍巾武道熊師加白馬王：武道熊師太晶幽靈躲擊掌，換上蓋歐卡開雨天先手秒黑馬王、振翼髮，土地雲補殺藏瑪然特；第三首發是披帶冰凍之風加空間的振翼髮，專門應付雙彈瓦斯、露奈雅拉、故勒頓等讓首發開不出空間的對手，可走高速模式。弱點：空間開不出或選擇不開而對面有順風時，高速模式偏弱，控速是最關鍵因素；配置因賽事知名度高而可能被對手預判。",
     "extracted_at": "2026-11-08T16:36:18.451Z",
     "extracted_by": "import-pokepaste-v1"
   }

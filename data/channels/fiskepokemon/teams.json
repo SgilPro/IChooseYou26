@@ -11458,10 +11458,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-j",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "psychic-terrain",
+      "follow-me",
+      "coaching"
+    ],
+    "tags_source": "subtitle",
+    "author": "ねるひ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -11538,7 +11542,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主輸出，靠精神場地＋幫助增傷的精神突進秒殺高耐久神獸"
       },
       {
         "slot": 2,
@@ -11615,7 +11619,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心高特防，針對常帶群體技的特攻手，並開雨天助武道熊師"
       },
       {
         "slot": 3,
@@ -11692,7 +11696,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第六人補盲（金剛猩、密勒頓、猛雷鼓），很少選出"
       },
       {
         "slot": 4,
@@ -11769,7 +11773,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾第二輸出手，水系剋惡系，雨天下先手秒黑馬王"
       },
       {
         "slot": 5,
@@ -11846,7 +11850,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "聯防與反空間，靠頭盔輸出"
       },
       {
         "slot": 6,
@@ -11923,7 +11927,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "最核心輔助手：精神場地防先制、看我嘛防雙點、幫助增傷"
       }
     ],
     "is_members_only": false,
@@ -11939,7 +11943,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 ねるひ 以此隊在日本一場 24 人、以第三世代為主題的小型線下賽奪冠。核心思路是讓雙攻 180 但耐久極低的代歐奇希斯，靠精神場地加幫助後的精神突進以一倍傷害秒殺高耐久主流神獸；精神場地防先制、愛管侍的看我嘛防單體雙點，帶幫助的愛管侍是最核心的輔助手。水系武道熊師補打惡系（咆哮虎、古劍豹、古玉魚），背心蓋歐卡以高特防針對常帶群體技的特攻手並開雨天助武道熊師，這四隻是多數場次的選出主軸；盾菇負責聯防與反空間，土地雲補盲、很少選出。弱點：怕空間隊（尤其空間下的草系白馬王加盾菇）、金剛猩難處理（精神突進後特攻 -2）、隊上兩隻弱草兩隻弱蟲，代歐奇希斯的發揮條件嚴格。",
     "extracted_at": "2026-11-08T16:35:56.359Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "地表最高雙攻！頂級單體火力，只要我不死，死的就是對手了！代歐奇希斯 & 蓋歐卡 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -11957,11 +11961,13 @@
     "regulation_source": "date-inferred",
     "tags": [
       "bulky-offense",
-      "perish-trap"
+      "perish-trap",
+      "fake-out",
+      "restricted"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "fogdocker",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -12038,7 +12044,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "寄生種子續航型白馬王，第二勝利條件，嚇阻對面選金剛猩"
       },
       {
         "slot": 2,
@@ -12115,7 +12121,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主滅歌手，地面石板特攻型，大聲咆哮剋幽靈、免疫密勒頓伏特替換"
       },
       {
         "slot": 3,
@@ -12192,7 +12198,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "踩影困住對手，滅歌隊必備"
       },
       {
         "slot": 4,
@@ -12269,7 +12275,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌隊必備：擊掌、拍落打黑馬王，必帶守住"
       },
       {
         "slot": 5,
@@ -12346,7 +12352,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "逃脫按鍵換場，針對密勒頓伏特替換"
       },
       {
         "slot": 6,
@@ -12423,7 +12429,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二滅歌手，高速不怕擊掌，剋黑馬王與惡系武道熊師"
       }
     ],
     "is_members_only": false,
@@ -12439,7 +12445,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 fogdocker 曾以此隊打到排位暫時第 16 名，靈感來自 Wolfe Glick 近期多次以滅歌隊參賽奪冠。核心是高耐久的阿爾宙斯唱滅歌，選特攻型地面石板版本：免疫密勒頓的伏特替換，搭配逃脫按鍵盾菇讓對方換不下去，大聲咆哮剋幽靈並壓低對面特攻，制裁光礫有本系加石板加成。哥德小姐（踩影）與咆哮虎是滅歌隊必備成員；振翼髮是第二滅歌手，速度快、不怕擊掌且剋黑馬王與惡系武道熊師；寄生種子白馬王提供第二勝利條件，並嚇阻對手選出金剛猩。弱點：蓋歐卡、固拉多的高威力群體技難擋，故勒頓單體輸出過高且太晶火後白馬王難打；整體容錯大，Fiske 拍片過程僅輸一場。",
     "extracted_at": "2026-11-08T16:35:57.423Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "創世神的毀滅之力！樸實無華的數值壓制，超高耐久 + 必定秒殺技的致命組合！阿爾宙斯 滅歌隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -12456,11 +12462,12 @@
     "regulation_set_id": "sv-reg-j",
     "regulation_source": "date-inferred",
     "tags": [
-      "hyper-offense"
+      "hyper-offense",
+      "tailwind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Otsubo Ryota",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -12537,7 +12544,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶高速天恩手，開順風、種子閃光降特防"
       },
       {
         "slot": 2,
@@ -12614,7 +12621,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風下的群體特攻主輸出（流星光束、太晶妖精魔法閃耀），格子不夠帶空間"
       },
       {
         "slot": 3,
@@ -12691,7 +12698,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "改天氣針對晴天隊，太晶草防孢子，廣防"
       },
       {
         "slot": 4,
@@ -12768,7 +12775,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心配置配合順風地震首發，加深空間隊假象"
       },
       {
         "slot": 5,
@@ -12845,7 +12852,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾，雨天下秒殺黑馬王、打藏瑪然特過半"
       },
       {
         "slot": 6,
@@ -12922,7 +12929,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "蹭對面天氣（晴雨皆可用），防塵鏡防憤怒粉後迅雷高速隊友"
       }
     ],
     "is_members_only": false,
@@ -12938,7 +12945,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者為 2017 年世界冠軍 Otsubo Ryota。核心是披帶謝米的高速天恩（空氣斬 60% 畏縮、種子閃光 80% 特防 -2）搭配較慢的群體特攻手露奈雅拉：首發謝米加露奈雅拉讓對手誤以為要開空間而先點攻擊或挑釁，謝米趁機開順風，第二回合種子閃光降特防後由露奈雅拉輸出，實際上是「乍看像空間隊的順風隊」；背心月月熊配合順風地震首發並加深迷惑性。大嘴鷗改天氣、猛雷鼓蹭天氣針對故勒頓加振翼髮的晴天隊，並以太晶草、防塵鏡防蘑菇孢子；圍巾武道熊師在雨天下保證秒黑馬王、對藏瑪然特過半。弱點：劍舞阿爾宙斯加古劍豹（全隊多人弱冰或惡）、爆發火力偏低、高耐久開牆隊難打死人，且謝米雙本系技能可能 miss，操作難度較高。",
     "extracted_at": "2026-11-08T16:35:58.471Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "動得了算你運氣好！最強天恩謝米，讓人誤以爲超慢的高速 Combo！謝米 & 露奈雅拉 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -12956,11 +12963,14 @@
     "regulation_source": "date-inferred",
     "tags": [
       "restricted",
-      "meme-gimmick"
+      "meme-gimmick",
+      "sun",
+      "rain",
+      "icy-wind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "どくたー",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -13037,7 +13047,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輔助型（電磁波、鬼火、開晴天），不依賴晴天自身仍能輸出"
       },
       {
         "slot": 2,
@@ -13114,7 +13124,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心高耐久收尾清場手"
       },
       {
         "slot": 3,
@@ -13191,7 +13201,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "降全場物攻，先手花粉團幫蓋歐卡回血"
       },
       {
         "slot": 4,
@@ -13268,7 +13278,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶，晴天加速的控速弱化手（冰凍之風），首發核心"
       },
       {
         "slot": 5,
@@ -13345,7 +13355,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "用得到晴天、雨天下仍有用，補處理蓋歐卡不好噴的對象"
       },
       {
         "slot": 6,
@@ -13422,7 +13432,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天下迎頭一擊秒殺密勒頓、黑馬王、白馬王，阻止長毛巨魔開牆，處理草系"
       }
     ],
     "is_members_only": false,
@@ -13438,7 +13448,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 どくたー 的晴雨隊。起點是背心蓋歐卡加古簡蝸（降全場物攻、先手花粉團回血）的高耐久收尾組合，隊友條件為：不太依賴太晶、能逼對面抗水者太晶或秒殺金剛猩與猛雷鼓、穩定打出少量傷害、具長時間控速或弱化（冰凍之風、電網、電磁波比順風更適合）。主要模式是首發振翼髮加輔助固拉多（披帶振翼髮靠晴天加速；固拉多電磁波、鬼火且不依賴晴天），後排古簡蝸加蓋歐卡。爬地翅取代原本的咆哮虎：晴天下迎頭一擊（先制 +2）能秒滿血密勒頓、黑馬王、白馬王並阻止長毛巨魔開牆，形成第二種「爬地翅加蓋歐卡首發」模式。弱點：聯防偏弱、多靠交換；固拉多與蓋歐卡不帶守住而怕擊掌；除蓋歐卡外火力不高，需大量猜測，操作難度較高。",
     "extracted_at": "2026-11-08T16:36:17.380Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "比神速更快！最冷門悖謬爬地翅，搭配最痛先制 + 豐緣海陸雙神，竟然出乎意料的強！爬地翅 & 固拉多 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -13454,10 +13464,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "trick-room",
+      "hyper-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "つな",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -13534,7 +13547,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "0 速力量鏡，空間下全場最先噴水，必帶守住防擊掌"
       },
       {
         "slot": 2,
@@ -13611,7 +13624,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶冰凍之風＋空間，第三首發的高速模式，應付雙彈瓦斯、故勒頓"
       },
       {
         "slot": 3,
@@ -13688,7 +13701,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾，第二首發，太晶幽靈躲擊掌，雨天下秒黑馬王、振翼髮"
       },
       {
         "slot": 4,
@@ -13765,7 +13778,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二模式換上秒殺藏瑪然特，屬性上適合搭配白馬王"
       },
       {
         "slot": 5,
@@ -13842,7 +13855,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "避難背包重空間首發輔助：擊掌、看我嘛、廣防、蘑菇孢子"
       },
       {
         "slot": 6,
@@ -13919,7 +13932,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "白馬王：開空間兼清場主力，帶封印防反空間、封對面雪矛，不帶守住"
       }
     ],
     "is_members_only": false,
@@ -13935,7 +13948,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 つな 以此隊打進今年日本全國賽八強。因日本賽制八強前不公開配置、八強後公開且三戰兩勝，作者選擇策略單純的 HO 隊：固定泛用首發為避難背包圖圖犬（擊掌、看我嘛、廣防、蘑菇孢子，心情不定保證退場）加白馬王開重空間，再換上 0 速力量鏡蓋歐卡——速度比月月熊、鐵臂膀更慢，空間下全場第一個噴水；白馬王帶封印阻止對面反開空間或封雪矛。第二首發是圍巾武道熊師加白馬王：武道熊師太晶幽靈躲擊掌，換上蓋歐卡開雨天先手秒黑馬王、振翼髮，土地雲補殺藏瑪然特；第三首發是披帶冰凍之風加空間的振翼髮，專門應付雙彈瓦斯、露奈雅拉、故勒頓等讓首發開不出空間的對手，可走高速模式。弱點：空間開不出或選擇不開而對面有順風時，高速模式偏弱，控速是最關鍵因素；配置因賽事知名度高而可能被對手預判。",
     "extracted_at": "2026-11-08T16:36:18.451Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "超慢蓋歐卡！故意帶上有副作用的超少見道具，卻成為全場最快！蓋歐卡 & 圖圖犬 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -13952,11 +13965,12 @@
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
     "tags": [
-      "sun"
+      "sun",
+      "tailwind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ぜろ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -14033,7 +14047,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "太晶妖精主輸出，耐久高、配置難猜，固定首發"
       },
       {
         "slot": 2,
@@ -14110,7 +14124,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "取代白馬王的神獸搭檔，開晴天並補火、鋼盲點"
       },
       {
         "slot": 3,
@@ -14187,7 +14201,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶順風手，固定首發，怕擊掌"
       },
       {
         "slot": 4,
@@ -14264,7 +14278,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風結束後的高速收殘手，配晴天並剋雨天隊水系"
       },
       {
         "slot": 5,
@@ -14341,7 +14355,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾噴火清場手，晴天加太晶火，對手不易提防特攻"
       },
       {
         "slot": 6,
@@ -14418,7 +14432,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "踢倒＋客房服務，空間內外壓制月月熊，不怕白馬王"
       }
     ],
     "is_members_only": false,
@@ -14434,7 +14448,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 ぜろ 以此隊在今年日本全國賽線上預賽獲第 26 名。核心是太晶妖精露奈雅拉（耐久高、配置多樣難猜）搭配固拉多的晴天順風隊：絕大多數場次首發露奈雅拉加披帶風妖精開順風、魔法閃耀輸出，固拉多取代原本的白馬王以補火系、鋼系盲點。因兩隻主力爆發不高、順風易被守住拖完，後排放能在順風結束後仍發揮的高速收殘手：圍巾噴火炎帝（晴天加太晶火，對手通常只防聖火與神速，速度超過圍巾武道熊師）與猛雷鼓（配晴天並剋雨天隊）。帶踢倒與客房服務的仆斬將軍用來在空間內外壓制月月熊，作者自認非最佳選擇。弱點：選出與操作彈性極小、極度依賴順風，披帶風妖精怕擊掌，藏瑪然特、披帶古劍豹、密勒頓、冥想太樂巴戈斯／黑馬王、白馬王、露奈雅拉、長毛巨魔都不好打，屬於賭博性強但新手友善的隊伍。",
     "extracted_at": "2026-11-08T16:36:19.495Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "最速噴火！塵封多年的特攻大招，讓炎帝在晴天隊無情清場！炎帝 & 固拉多 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -14453,11 +14467,12 @@
     "tags": [
       "setup",
       "restricted",
-      "meme-gimmick"
+      "meme-gimmick",
+      "follow-me"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Michael Zhang",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -14534,7 +14549,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主輸出，吃辣椒精華 +2 物攻後先手秒殺，可帶守住"
       },
       {
         "slot": 2,
@@ -14611,7 +14626,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心輔助，辣椒精華幫故勒頓增攻，憤怒粉掩護，火系葉綠素"
       },
       {
         "slot": 3,
@@ -14688,7 +14703,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與布里卡隆搭配處理雨天隊的第二隻神獸"
       },
       {
         "slot": 4,
@@ -14765,7 +14780,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "專門針對白馬王的輔助（廣防、電氣種子、防彈、太晶鋼），幫兩隻勒頓打輔助"
       },
       {
         "slot": 5,
@@ -14842,7 +14857,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二掩護手，超低速您先請可對空間隊當低速控速"
       },
       {
         "slot": 6,
@@ -14919,7 +14934,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第三掩護手，主要用來剋雙彈瓦斯"
       }
     ],
     "is_members_only": false,
@@ -14935,7 +14950,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Michael Zhang 於上個月北美國際賽使用的勒頓勒頓隊。核心 core 是狠辣椒（唯一的火系葉綠素）以專屬技辣椒精華讓故勒頓物攻 +2，先手秒殺大量對手，故勒頓因此可帶守住、彈性更大。此組合怕雨天隊，作者不放猛雷鼓而選密勒頓加布里卡隆：布里卡隆草系帶廣防、電氣種子物防 +1，專門針對白馬王，防彈又能完封土地雲的污泥炸彈，太晶鋼後振翼髮的暗影球也打不到。剩下兩格放第二、第三個掩護手：皮皮超低速您先請可在面對空間隊時當低速控速，愛管侍主要用於對付雙彈瓦斯（全隊極依賴特性）。弱點：屬性聯防很弱，故勒頓與密勒頓同弱冰、龍、妖精，布里卡隆也弱冰與妖精，不太晶時全隊無冰系抗性，操作與選出彈性不大、穩定性不高。",
     "extracted_at": "2026-11-08T16:36:20.531Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "專屬強化技！狠辣椒搭配超冷門御三家，竟成為朱紫雙神的最佳輔助！狠辣椒 & 布里卡隆 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
@@ -14955,8 +14970,8 @@
       "meme-gimmick"
     ],
     "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "author": "トチノ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -15033,7 +15048,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "首發主力，壓制非神獸，封印封對面藏瑪然特的攻擊技與守住"
       },
       {
         "slot": 2,
@@ -15110,7 +15125,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "技術高手＋老千骰子，三旋擊／岩石爆擊打抗電與披帶手，免疫星碎、拍落打黑馬王"
       },
       {
         "slot": 3,
@@ -15187,7 +15202,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "密探斗篷防擊掌，災禍之劍助隊友打過半，大災難固定扣半血"
       },
       {
         "slot": 4,
@@ -15264,7 +15279,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶，帶蠻幹固定傷害"
       },
       {
         "slot": 5,
@@ -15341,7 +15356,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠帶守住的清場手"
       },
       {
         "slot": 6,
@@ -15418,7 +15433,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭帶神速阻止長毛巨魔開牆，選出率低"
       }
     ],
     "is_members_only": false,
@@ -15434,7 +15449,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 トチノ 以此隊在上個月賽季結算打到第 63 名。起點是找適合搭配密勒頓的神獸，選定對非神獸有壓倒性優勢的藏瑪然特：首發藏瑪然特加他人先解決密勒頓的盲點，最後上密勒頓清場。組隊目標為熱門寶可夢搭配地雷配置取得資訊優勢、放蠻幹與大災難等固定傷害技減少猜太晶的需求、保持火力下兼顧聯防，並以守住／密探斗篷／太晶幽靈應對擊掌。技術高手老千骰子奇諾栗鼠以三旋擊、岩石爆擊打密勒頓不好處理的抗電與披帶手（可秒殺晴天披帶振翼髮），純一般系免疫星碎並有拍落威脅黑馬王。藏瑪然特帶封印專封對面藏瑪然特與守住，生命寶珠密勒頓可帶守住，風妖精改帶披帶與蠻幹、古劍豹改帶密探斗篷，快龍頭帶神速用來阻止長毛巨魔開牆但選出率低。弱點：奇諾栗鼠、古劍豹易被秒，寶珠密勒頓耐久低，整體偏進攻，一拿不到出手優勢就難發揮。",
     "extracted_at": "2026-11-08T16:36:21.564Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "世界前百！不只長得可愛，還用超冷門配置逆襲主流！奇諾栗鼠 & 藏瑪然特 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",

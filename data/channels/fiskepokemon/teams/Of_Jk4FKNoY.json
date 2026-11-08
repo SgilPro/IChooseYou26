@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-j",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "psychic-terrain",
+      "follow-me",
+      "coaching"
+    ],
+    "tags_source": "subtitle",
+    "author": "ねるひ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主輸出，靠精神場地＋幫助增傷的精神突進秒殺高耐久神獸"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心高特防，針對常帶群體技的特攻手，並開雨天助武道熊師"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第六人補盲（金剛猩、密勒頓、猛雷鼓），很少選出"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾第二輸出手，水系剋惡系，雨天下先手秒黑馬王"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "聯防與反空間，靠頭盔輸出"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "最核心輔助手：精神場地防先制、看我嘛防雙點、幫助增傷"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 ねるひ 以此隊在日本一場 24 人、以第三世代為主題的小型線下賽奪冠。核心思路是讓雙攻 180 但耐久極低的代歐奇希斯，靠精神場地加幫助後的精神突進以一倍傷害秒殺高耐久主流神獸；精神場地防先制、愛管侍的看我嘛防單體雙點，帶幫助的愛管侍是最核心的輔助手。水系武道熊師補打惡系（咆哮虎、古劍豹、古玉魚），背心蓋歐卡以高特防針對常帶群體技的特攻手並開雨天助武道熊師，這四隻是多數場次的選出主軸；盾菇負責聯防與反空間，土地雲補盲、很少選出。弱點：怕空間隊（尤其空間下的草系白馬王加盾菇）、金剛猩難處理（精神突進後特攻 -2）、隊上兩隻弱草兩隻弱蟲，代歐奇希斯的發揮條件嚴格。",
     "extracted_at": "2026-11-08T16:35:56.359Z",
     "extracted_by": "import-pokepaste-v1"
   }
