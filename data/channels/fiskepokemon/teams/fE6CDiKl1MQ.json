@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_fE6CDiKl1MQ",
+    "name": "NVM's December Ladder (Season 1) Rank 20 Team (No EVs)",
+    "name_source": "pokepaste",
+    "video_id": "fE6CDiKl1MQ",
+    "video_url": "https://www.youtube.com/watch?v=fE6CDiKl1MQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-a",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Guest 12986698",
+    "author_source": "pokepaste",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "飛行",
+          "value_en": "Flying",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 4,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水炮",
+            "value_en": "Hydro Pump",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 419,
+          "name_zh": "浮潛鼬",
+          "name_en": "Floatzel",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "悠游自如",
+          "value_en": "Swift Swim",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 244,
+          "spa": 0,
+          "spd": 4,
+          "spe": 4,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "攀瀑",
+            "value_en": "Waterfall",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "夢話",
+            "value_en": "Sleep Talk",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 437,
+          "name_zh": "青銅鐘",
+          "name_en": "Bronzong",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "耐熱",
+          "value_en": "Heatproof",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 252,
+          "spa": 0,
+          "spd": 4,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 0",
+        "moves": [
+          {
+            "value": "重踏",
+            "value_en": "Bulldoze",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "催眠術",
+            "value_en": "Hypnosis",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "重力",
+            "value_en": "Gravity",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 939,
+          "name_zh": "電肚蛙",
+          "name_en": "Bellibolt",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "電力轉換",
+          "value_en": "Electromorphosis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "弱點保險",
+          "value_en": "Weakness Policy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 4,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "拋物面充電",
+            "value_en": "Parabolic Charge",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "打雷",
+            "value_en": "Thunder",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 591,
+          "name_zh": "敗露球菇",
+          "name_en": "Amoonguss",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "逃脫按鍵",
+          "value_en": "Eject Button",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 188,
+          "spa": 0,
+          "spd": 68,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "清除之煙",
+            "value_en": "Clear Smog",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 998,
+          "name_zh": "戟脊龍",
+          "name_en": "Baxcalibur",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "熱交換",
+          "value_en": "Thermal Exchange",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "冰",
+          "value_en": "Ice",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 228,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 28,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "冰錐",
+            "value_en": "Icicle Spear",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "巨劍突擊",
+            "value_en": "Glaive Rush",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/ff2e53766489cc2b"
+    },
+    "paste_text": "Pelipper (F) @ Focus Sash  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Flying  \r\nEVs: 252 SpA / 4 SpD / 252 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Hydro Pump  \r\n- Hurricane  \r\n- Helping Hand  \r\n\r\nFloatzel (F) @ Choice Band  \r\nAbility: Swift Swim  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 4 HP / 252 Atk / 244 Def / 4 SpD / 4 Spe  \r\nAdamant Nature  \r\n- Wave Crash  \r\n- Aqua Jet  \r\n- Waterfall  \r\n- Sleep Talk  \r\n\r\nBronzong @ Covert Cloak  \r\nAbility: Heatproof  \r\nLevel: 50  \r\nTera Type: Ground  \r\nEVs: 252 HP / 252 Def / 4 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Spe  \r\n- Bulldoze  \r\n- Hypnosis  \r\n- Gravity  \r\n- Trick Room  \r\n\r\nBellibolt (F) @ Weakness Policy  \r\nAbility: Electromorphosis  \r\nLevel: 50  \r\nTera Type: Electric  \r\nEVs: 252 HP / 252 SpA / 4 SpD  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Protect  \r\n- Parabolic Charge  \r\n- Thunder  \r\n- Muddy Water  \r\n\r\nAmoonguss (F) @ Eject Button  \r\nAbility: Regenerator  \r\nLevel: 50  \r\nTera Type: Dark  \r\nEVs: 252 HP / 188 Def / 68 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Protect  \r\n- Spore  \r\n- Rage Powder  \r\n- Clear Smog  \r\n\r\nBaxcalibur (M) @ Life Orb  \r\nAbility: Thermal Exchange  \r\nLevel: 50  \r\nTera Type: Ice  \r\nEVs: 228 HP / 252 Atk / 28 SpD  \r\nAdamant Nature  \r\n- Protect  \r\n- Icicle Spear  \r\n- Glaive Rush  \r\n- Ice Shard  \r\n\r\n",
+    "paste_notes": "Format: gen9vgc2023series1",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:57:53.353Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]
