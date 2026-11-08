@@ -134,13 +134,13 @@ App 試用回饋 + 四項功能需求。
 | 1 | Schema（video / team / team_member / regulation_set / tag） | ✅ | `data/schema/` |
 | 1 | 參照表：regulation_sets（M-A/M-B/M-C、SV A~J）、tags | ✅ | `data/ref/`，皆附來源 |
 | 1 | 頻道清單掃描（679 支） | ✅ | `tools/yt/scan-channel.mjs` |
-| 1 | 逐支抓 metadata / 字幕 / 留言 | ⏳ | `tools/yt/fetch-videos.sh`，背景跑 1.5~2 小時 |
-| 1 | 主表 videos.json / csv | ⬜ | |
-| 1 | Champions 對戰影片隊伍抽取 teams.json / csv（抽取者 + 審查者） | ⬜ | 範圍：Champions 時代（第一擁有者拍板） |
-| 1 | 方法研究文件 `research/line4-channel-analysis/` | ⬜ | |
-| 2 | Action Plan `research/line5-platform-backend/` | ⬜ | 含 Notion 遷移（待第一擁有者授權 Notion 連接器） |
-| 3 | RAG Pre-Plan `research/line6-rag/` | ⬜ | |
-| — | live docs / 反思 / README | ⬜ | |
+| 1 | 逐支抓 metadata / 字幕 | ⏳ | `tools/yt/fetch-videos.sh`，背景跑中（~200/679），可中斷重跑 |
+| 1 | 主表 videos.json / csv | 🟡 | `build-videos.mjs` 已可產出，抓完重跑 |
+| 1 | Champions 對戰影片隊伍抽取（抽取者 + 驗證器 + 抽樣審查者） | 🟡 | 23 支公開中 8+ 支完成、validate 0 ERR；1 支獨立複核 99% 一致；接手見 `data/channels/fiskepokemon/_HANDOFF.md` |
+| 1 | 方法研究文件 `research/line4-channel-analysis/` | ✅ | 01-video-data-methods（紅隊審查過） |
+| 2 | Action Plan `research/line5-platform-backend/` | ✅ | 五篇，紅隊審查過；Notion 遷移章節待授權後補 |
+| 3 | RAG Pre-Plan `research/line6-rag/` | ✅ | 三篇，紅隊審查過 |
+| — | live docs / 反思 / README | ✅ | 反思 2026-11-08、progress 頁更新 |
 
 **已拍板的決策（2026-11-08）**：Notion 用連接器授權讀取；深度分析只做 Champions 時代對戰影片；可裝 ffmpeg；照慣例 commit + push。
 
@@ -153,3 +153,4 @@ App 試用回饋 + 四項功能需求。
 - 2026-06-14：goal 260614_1（構思）四項拍板全實作（app v0.0.3）；goal 260614_2（測試回饋）A 全做、B 除待素材項全做（app v0.0.4）。
 - 2026-06-14：goal 260614_3（小回饋 + 方向調整）全做（app v0.0.5）：Mega/氣場類別、Toggle UI、lightbox、影片上傳註明；暫停 HP 與回合分組、聚焦 GameLog+特性/道具 OCR；未來工項(validator/觀看介面)寫進 docs。
 - 2026-11-08：收到 `261108_1.all_in_one.md`（三條線）。工具鏈、schema、參照表、頻道清單掃描完成；逐支抓取背景執行中。
+- 2026-11-08（晚）：三條線文件完成並過紅隊審查；8+ 支隊伍抽取；session 用量近上限 → 寫 `_HANDOFF.md` 供接手。

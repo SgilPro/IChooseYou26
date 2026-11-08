@@ -1,0 +1,523 @@
+[
+  {
+    "id": "team__wx5qpQuZ-c",
+    "name": "阿勃梭魯 & Mega 暴雪王隊",
+    "name_source": "title",
+    "video_id": "_wx5qpQuZ-c",
+    "video_url": "https://www.youtube.com/watch?v=_wx5qpQuZ-c",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "fake-out",
+      "follow-me",
+      "mega",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 9,
+          "name_zh": "水箭龜",
+          "name_en": "Blastoise-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "龜歐卡",
+        "gender": "M",
+        "ability": {
+          "value": "雨盤",
+          "value_en": "Rain Dish",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水箭龜進化石",
+          "value_en": "Blastoisinite",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 186,
+          "atk": 103,
+          "def": 122,
+          "spa": 150,
+          "spd": 125,
+          "spe": 88,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；字幕明說「性格減速」：不減速是 98（與幽尾玄魚同速），減速後 88，順風下 176。減速理由：順風隊成員常把速度加到 95～101（如仙布），水箭龜加快在空間下難先手、加不夠快又難判斷先後，減速較方便判斷要不要點噴水。六項數值以原形種族值 Lv.50 公式驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "噴水",
+            "value_en": "Water Spout",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "本隊的 Mega（阿勃梭魯不 Mega 所以把 Mega 給水箭龜）。搭配奇麒麟擊掌開空間後噴水；搭配彩粉蝶則有高速模式（擊掌＋順風、求雨噴水）或先求雨噴水、花粉團補血再噴水（類似朱紫古簡蝸隊）。也拿來誘導對手首發（讓對手以為阿勃梭魯會 Mega）。空間下沒有雨天力度不算高。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 666,
+          "name_zh": "彩粉蝶",
+          "name_en": "Vivillon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "這是蝴蝶嗎",
+        "gender": "M",
+        "ability": {
+          "value": "友情防守",
+          "value_en": "Friend Guard",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 64,
+          "def": 70,
+          "spa": 142,
+          "spd": 70,
+          "spe": 155,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/攻擊▽ 判讀（膽小），字幕亦明說「我還是選擇了膽小」：內斂的幫助花粉團通常可秒殺奇麒麟，但需要快過大部分噴火龍先手開順風或求雨，所以選膽小。六項數值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "花粉團",
+            "value_en": "Pollen Puff",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "求雨",
+            "value_en": "Rain Dance",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "純輔助配置（不帶催眠粉，因為本隊是空間隊）。搭配奇麒麟用憤怒粉擋挑釁與高威力單體技確保開出空間；友情防守讓奇麒麟不會被兩個高威力群體技秒殺。理想情況是第一回合被打死後立刻補上阿勃梭魯圍攻。搭配水箭龜為高速模式（順風／求雨）。花粉團主要幫隊友補血，特定情況可打輸出。和水箭龜一起放在隊上但常不選，用來誘導對手首發（對手以為是 M-A 流行的圍巾催眠粉彩粉蝶＋破殼水箭龜）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "圍攻的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 15,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 226,
+          "atk": 110,
+          "def": 121,
+          "spa": 130,
+          "spd": 105,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）。六項數值驗算皆吻合（防禦 20 點 → 121、特防 15 點 → 105），點數總和 66。",
+        "moves": [
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "圍攻",
+            "value_en": "Beat Up",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "本隊主要 Core 的另一半：比阿勃梭魯慢、負責開空間＋圍攻（四人存活時圍攻打四下 → 正義之心物攻 +4）。開空間比黑鐵球謎擬 Q 可靠。幫助主要用來增加幽尾玄魚與水箭龜的爆發（也有「幫助波動衝秒仆斬將軍」的首發選項），但不是必帶，有時更需要守住。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "還沒回家",
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "神秘水滴",
+          "value_en": "Mystic Water",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 10,
+          "atk": 32,
+          "def": 15,
+          "spa": 0,
+          "spd": 6,
+          "spe": 3,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 205,
+          "atk": 180,
+          "def": 100,
+          "spa": 90,
+          "spd": 101,
+          "spe": 101,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。字幕：速度只加到 101，因為牠較少在順風下輸出，首發時至少快過仙布、仆斬將軍、班基拉斯、咆哮虎等低速。六項數值以雄性幽尾玄魚種族值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間下的清場手（掃墓），速度也不太慢可配合順風。空間圍攻模式首發可與奇麒麟同出，死人也沒關係（隔壁補阿勃梭魯圍攻）；但力度要隊友先死兩個才夠。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 359,
+          "name_zh": "阿勃梭魯",
+          "name_en": "Absol",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "古勃梭魯",
+        "gender": "M",
+        "ability": {
+          "value": "正義之心",
+          "value_en": "Justified",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 32,
+          "def": 5,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 169,
+          "atk": 200,
+          "def": 85,
+          "spa": 95,
+          "spd": 80,
+          "spe": 85,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。不 Mega、帶生命寶珠。字幕：速度尷尬、開順風不可能，一定是空間圍攻，需比牠慢的人開空間；即便空間下也怕速度剛好比牠慢一點的人（如沒加速度的仙布）。六項數值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍主角，刻意不 Mega（Mega 後耐久沒變、不能帶增傷道具、特性變成不適合脆皮輸出手的魔法鏡）。正義之心＋奇麒麟圍攻物攻 +4 後岩崩清場、近身戰打抗岩石者，空間外突襲收尾。技能格不夠（有時想要拍落），帶先制突襲較有彈性。極脆：一倍 120 威力本系（如 +1 電光束、生命寶珠象牙豬十萬馬力）即可能秒殺。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 460,
+          "name_zh": "暴雪王",
+          "name_en": "Abomasnow-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "歐巴馬雪",
+        "gender": "M",
+        "ability": {
+          "value": "降雪",
+          "value_en": "Snow Warning",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "暴雪王進化石",
+          "value_en": "Abomasite",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 2,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 114,
+          "def": 95,
+          "spa": 158,
+          "spd": 105,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；字幕亦說「性格是減速度 而不是減物攻」。字幕「暴雪王的特攻 132」指 Mega 暴雪王的特攻種族值；物攻完全沒加（2 點）但 Mega 後物攻種族值 132 比阿勃梭魯高，岩崩崩噴火龍仍有一半多。狀態頁為原形數值，以原形種族值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "暴風雪",
+            "value_en": "Blizzard",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "打草結",
+            "value_en": "Grass Knot",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二個 Mega 候選（與水箭龜二選一，必要時也可同選、不 Mega 用法一樣只是種族值低一點）。負責打水／草／龍，補足與幽尾玄魚／水箭龜重疊的水系進攻。主要弱點火系，但隊上其他三個輸出手都剋火。通常不首發，但對有來悲粗茶的隊伍可首發：免疫憤怒粉、剋來悲粗茶，超低速 Mega 可確保第一回合天氣是雪天。岩崩主要拿來崩噴火龍。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        473
+      ],
+      "frames_used": 8,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "tags 來源混合：mega、meme-gimmick（「冷門」）來自標題，trick-room（字幕「我們就是一個空間隊」）、tailwind（「隊伍的高速模式」）、fake-out／follow-me（「需要能確保開出空間的輔助手：擊掌、看我嘛、憤怒粉或廣防」）來自字幕，tags_source 取 subtitle。兩隻標 mega=true（水箭龜持水箭龜進化石、暴雪王持暴雪王進化石）為刻意：字幕說阿勃梭魯不 Mega，Mega 給水箭龜或暴雪王依選出決定。阿勃梭魯 mega=false 依字幕「要玩的話一定是玩不 Mega 的」。彩粉蝶花紋未判讀，name_en 填 Vivillon。隊伍表影格：能力頁 f_032–f_037、狀態頁 f_038–f_043。",
+    "notes": "以正義之心（不 Mega）阿勃梭魯＋奇麒麟為核心的空間圍攻隊：奇麒麟比阿勃梭魯慢，開空間後圍攻讓阿勃梭魯物攻 +4，再用生命寶珠岩崩清場／近身戰／突襲收尾。水箭龜（擊掌＋噴水，本隊主要 Mega）與彩粉蝶（憤怒粉＋友情防守、純輔助帶花粉團／順風／求雨）負責確保開出空間，兩者同時也像 M-A 流行的「圍巾催眠粉彩粉蝶＋破殼水箭龜」誘導對手首發、掩護阿勃梭魯是否 Mega 的判斷；彩粉蝶＋水箭龜另構成順風／求雨噴水的高速模式，合計四組首發模式（一高速三空間）。幽尾玄魚（掃墓）與 Mega 暴雪王（打水草龍、剋來悲粗茶）為空間下清場手。選出先看對手如何處理圍巾催眠粉、阿勃梭魯能否在空間下成功圍攻：可以則首發奇麒麟＋彩粉蝶／幽尾玄魚／阿勃梭魯；難圍攻則走高速模式或奇麒麟＋水箭龜。弱點：阿勃梭魯極脆、空間下也怕剛好比牠慢一點的人，面對抗岩石＋守住的組合常需猜拳；空間模式爆發火力不如重空間隊（水箭龜無雨、暴雪王不能帶增傷道具、幽尾玄魚需隊友先死兩個、阿勃梭魯綁定奇麒麟）。Fiske 評：多組預設首發所以操作彈性不算低，但各組都不太泛用，需推測對手想法優先針對，算不太容易用的隊伍。",
+    "extracted_at": "2026-11-08T09:26:25.581Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

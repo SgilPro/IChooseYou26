@@ -1,0 +1,522 @@
+[
+  {
+    "id": "team_rZtdoPktkLg",
+    "name": "一家鼠 & Mega 大嘴娃 鼠數兒隊",
+    "name_source": "title",
+    "video_id": "rZtdoPktkLg",
+    "video_url": "https://www.youtube.com/watch?v=rZtdoPktkLg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "subtitle",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "follow-me",
+      "coaching",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 925,
+          "name_zh": "一家鼠",
+          "name_en": "Maushold-Four",
+          "form": "Family of Four",
+          "confidence": 0.9
+        },
+        "nickname": "我就不揍了",
+        "gender": "N",
+        "ability": {
+          "value": "技術高手",
+          "value_en": "Technician",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "廣角鏡",
+          "value_en": "Wide Lens",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 151,
+          "atk": 127,
+          "def": 90,
+          "spa": 76,
+          "spd": 95,
+          "spe": 179,
+          "source": "frame"
+        },
+        "stats_note": "極限攻擊/速度（能力點 2/32/0/0/0/32）。性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鼠數兒",
+            "value_en": "Population Bomb",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心輸出。鼠數兒（技術高手加成後相當於基礎威力 300 的本系技）配廣角鏡，命中 10 下機率從 34.9% 提到 90.4%。看我嘛可掩護隊友開空間，或先秒掉威脅空間手的人；第四格佯攻在棄世猴模式減少猜拳、空間下收殘血，使用頻率低可替換。弱點：幽靈/岩石/鋼、威嚇、粗糙皮膚、本身很脆。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 979,
+          "name_zh": "棄世猴",
+          "name_en": "Annihilape",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "快來揍我",
+        "gender": "F",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 9,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 194,
+          "atk": 183,
+          "def": 100,
+          "spa": 63,
+          "spd": 110,
+          "spe": 135,
+          "source": "frame"
+        },
+        "stats_note": "速度 135，加圍巾後 202（字幕 4:35）；Fiske 稱尚未遇過需要快到 212 才能出手的情況，想加速也可以。全隊只有牠稍微加了一點 HP（9 點）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "憤怒之拳",
+            "value_en": "Rage Fist",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Fiske 認為是一家鼠最完美的隊友：幽靈剋幽靈、格鬥剋岩石/鋼、不服輸反威嚇、指導幫一家鼠增傷並加物防、冰凍拳處理烈咬陸鯊。圍巾指導模式搭配多龍圍攻後超高速憤怒之拳（威力 250 可秒抗幽果來悲粗茶）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "我也先不揍",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 167,
+          "atk": 78,
+          "def": 107,
+          "spa": 141,
+          "spd": 95,
+          "spe": 136,
+          "source": "frame"
+        },
+        "stats_note": "HP/特攻極限、速度不加（136）。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "控速輔助。Fiske 稱牠是目前遊戲裡唯一同時會順風與戲法空間的寶可夢，可依場面決定開空間或順風，是第三種基本首發。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 473,
+          "name_zh": "象牙豬",
+          "name_en": "Mamoswine",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "好想要雪矛",
+        "gender": "F",
+        "ability": {
+          "value": "遲鈍",
+          "value_en": "Oblivious",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 217,
+          "atk": 200,
+          "def": 100,
+          "spa": 81,
+          "spd": 80,
+          "spe": 102,
+          "source": "frame"
+        },
+        "stats_note": "HP/攻擊極限、速度 2 點（102）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "有先制的中速火力手：生命寶珠冰礫可確殺常見的生命寶珠烈咬陸鯊；地面系幫妖精系補盲。在控速回合內清場，控速結束後也有收尾手段。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "哈哈是我啦",
+        "gender": "M",
+        "ability": {
+          "value": "穿透",
+          "value_en": "Infiltrator",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 165,
+          "atk": 126,
+          "def": 95,
+          "spa": 152,
+          "spd": 95,
+          "spe": 213,
+          "source": "frame"
+        },
+        "stats_note": "畫面為極速 213（特攻/速度 32 點）。字幕 2:15 稱多龍極速 213 與滿速圍巾棄世猴同速、「少加一點速度就能用 200 多的速度圍攻」，但隊伍表實際是滿速；本隊棄世猴圍巾後 202 所以仍比牠慢。性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "圍攻",
+            "value_en": "Beat Up",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "唯一速度能壓過圍巾棄世猴的圍攻手：首發多龍+棄世猴超高速圍攻再接憤怒之拳。刺耳果（抗惡果）防止圍攻時被突襲秒殺，通常能出手一次以上。暗影球用來處理首發的來悲粗茶。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 303,
+          "name_zh": "大嘴娃",
+          "name_en": "Mawile-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "大嘴大嘴大嘴",
+        "gender": "F",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "大嘴娃進化石",
+          "value_en": "Mawilite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 150,
+          "def": 105,
+          "spa": 75,
+          "spd": 77,
+          "spe": 63,
+          "source": "frame"
+        },
+        "stats_note": "狀態頁為未 Mega 原形數值（攻擊 150 / 速度 63）。HP/攻擊極限、速度減益不加，配合空間。性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）；六項數值以原形種族值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊上唯一 Mega。Mega 後特性大力士（Huge Power），Fiske 稱其突襲是全遊戲最強（相當於物攻種族值 157 的本系突襲），岩崩比班基拉斯還強、可崩死極限物防噴火龍。拍落是穩定出手技（嬉鬧/岩崩會 miss、突襲可能失敗），因此沒格子帶守住。隊伍表顯示原形特性怪力鉗。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        385
+      ],
+      "frames_used": 15,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以廣角鏡鼠數兒一家鼠為核心，隊友針對牠的四個弱點（幽靈/岩石/鋼盲點、威嚇、粗糙皮膚、太脆）組成：棄世猴圍巾指導反威嚇並補盲，多龍巴魯托是唯一能壓過圍巾棄世猴速度的圍攻手，風妖精同時會順風與戲法空間負責控速。大嘴娃（Mega，大力士突襲/岩崩）與生命寶珠象牙豬為有先制的中速高火力手，兼顧控速內清場與控速後收尾，且讓隊伍不像一眼就是空間隊，誘導對手首發順風手。三種基本首發：多龍圍攻棄世猴、棄世猴指導一家鼠、風妖精控速；對手視角潛在首發很多，排位有選出誤導效果。弱點：鼠數兒與圍攻都怕首發憤怒粉（狠辣椒、來悲粗茶），強化隊的妖火紅狐/水箭龜/花葉蒂也不好打大嘴娃。Fiske 評分：上手難度 1.5、操作彈性 2.5、穩定性 3.5、全面程度 3.5（/5）。",
+    "extracted_at": "2026-11-08T09:25:28Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
