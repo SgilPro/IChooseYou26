@@ -2,7 +2,7 @@
 
 > 軌道 B 的「活文件」：給團隊保持對賽場現況的同步。本文聚焦**現在這個賽季在打什麼、用哪個平台、誰在贏、去哪看**。
 >
-> **資料時效：2026-06-12**（我的知識有 cutoff，本文所有「現況」皆以 WebSearch/WebFetch 查證並附 URL；信心標記見各段）。
+> **資料時效：2026-06-12（Regulation 段 2026-11-08 補到 M-C）**（我的知識有 cutoff，本文所有「現況」皆以 WebSearch/WebFetch 查證並附 URL；信心標記見各段）。
 
 ---
 
@@ -204,3 +204,9 @@
   - **結論（信心高）**：**M-B = M-A 全部可用 + 新增 22 隻寶可夢、16 個 Mega**，用到 2026 Worlds。新 Mega 含 **Mega Sceptile / Blaziken / Swampert（豐緣御三家）、Mega Mawile、Mega Staraptor、Metagross** 等；新增非 Mega 有 **Gholdengo、Annihilape、Grimmsnarl**。新道具：**Life Orb、Wide Lens、Light Clay**。
   - **對產品的連帶**：可用池確定**比 M-A 大**（M-A 186 隻 → M-B 更多）→ 再次印證「暫緩字典過濾到固定數字」是對的；要做就過濾到「Champions 當前 reg 可用池」而非寫死。
   - 來源：[Pokémon Zone — Reg M-B](https://www.pokemon-zone.com/champions/regulations/m-b/)、[官方 Pokemon.com — Reg M-B](https://www.pokemon.com/us/pokemon-news/regulation-set-m-b-kicks-off-a-new-ranked-battles-season-and-battle-pass-in-pokemon-champions)、[Game8 — M-B Roster](https://game8.co/games/Pokemon-Champions/archives/605482)。
+
+- **2026-11-08（五個月後重啟，資料線任務附帶查證）**：M-B 之後的空白補上。
+  - **結論（信心高）**：**M-B 原定 9/2 結束，8/5 更新後延到 2026-09-09；同日接 Regulation Set M-C，用到 2026-12-02**（排位賽季 M-6 / M-7 / M-8）。M-C = M-A/M-B 全保留 + **新增 6 個 Mega：Mega 阿勃梭魯 Z、Mega 暴飛龍、Mega 烈咬陸鯊 Z、Mega 路卡利歐 Z、Mega 具甲武者、Mega 戟脊龍**（出現了「Z-Mega」新型態）+ 12 個新道具（凸凸頭盔、氣球、紅牌、逐客令、各種種子）。仍**無限制級傳說、無幻獸**。
+  - **未定（誠實）**：M-C 新增寶可夢數各來源不一（官方稱 24、Serebii 26 物種、Game8 22+6 Mega、Victory Road +29），待對照官方名單。**截至 11/8 尚無 M-D 公告**，官方僅預告 Mega 席多藍恩「敬請期待」。
+  - **對產品的連帶**：(1) 結構化參照表已建在 `data/ref/regulation_sets.json`（Champions M-A~M-C + SV Reg A~J，附來源），之後所有隊伍資料用 `regulation_set_id` 關聯，不再散寫。(2) Champions 遊戲內努力值以「能力點 0~32」顯示（Fiske 影片隊伍表畫面實證），與 252 制換算待查證。(3) Z-Mega 在 Showdown / @pkmn/dex 可能尚無 id，字典校正要容許。
+  - 來源：見 `data/ref/regulation_sets.json` 各條 `sources`（pokemon.com M-C 公告、Victory Road、Serebii、Game8、Smogon stats 2026-10、Pikalytics gen9championsvgc2026regmc）。
