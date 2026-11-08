@@ -1,0 +1,519 @@
+[
+  {
+    "id": "team_JcGKhnklsyY",
+    "name": "Mega 寶石海星 & 杖尾鱗甲龍 大力士隊",
+    "name_source": "title",
+    "video_id": "JcGKhnklsyY",
+    "video_url": "https://www.youtube.com/watch?v=JcGKhnklsyY",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "subtitle",
+    "tags": [
+      "mega",
+      "setup"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "抹茶我懂了",
+        "gender": "N",
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 7,
+          "spa": 0,
+          "spd": 25,
+          "spe": 2,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 72,
+          "def": 133,
+          "spa": 141,
+          "spd": 137,
+          "spe": 92,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▽/特防▲ 箭頭判讀（溫和）。字幕：因隔壁是鐵壁鱗甲龍，物防不用多投資，大量投資特防；物耐只加到保證接下一次極攻的仆斬。能力點依 Lv.50 公式驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "生命水滴",
+            "value_en": "Life Dew",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "輔助/保命位。憤怒粉確保鱗甲龍強化與生存；生命水滴幫守住中的鱗甲龍回血（搭配吃剩的東西）。不帶常見的刷刷茶炮/空間，改帶暗影球避免與撲擊的鱗甲龍衝突。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 121,
+          "name_zh": "寶石海星",
+          "name_en": "Starmie-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "奔走的大長腿",
+        "gender": "N",
+        "ability": {
+          "value": "自然回復",
+          "value_en": "Natural Cure",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "寶石海星進化石",
+          "value_en": "Starminite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 23,
+          "atk": 11,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 158,
+          "atk": 106,
+          "def": 105,
+          "spa": 108,
+          "spd": 105,
+          "spe": 183,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依 速度▲/特攻▽ 箭頭判讀為爽朗，字幕亦明說「寶石海星爽朗、大狃拉固執」（兩者速度種族值相同）。字幕：物攻只加到能用水流裂破秒殺 32 HP/12 物防的咆哮虎，其餘加 HP。能力點驗算（原形種族值）全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流裂破",
+            "value_en": "Liquidation",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "精神利刃",
+            "value_en": "Psycho Cut",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "特性互換",
+            "value_en": "Skill Swap",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍 Combo 核心。Mega 後特性為大力士（Huge Power，字幕），用特性互換把大力士交給鱗甲龍/仆刀將軍/大狃拉，自己下場重置特性再上來即可有兩個大力士。水/超能打妖火紅狐、化石翼龍、烈箭鷹、咆哮虎、大狃拉、妙蛙花、耿鬼。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "睡他",
+        "gender": "M",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 200,
+          "def": 81,
+          "spa": 54,
+          "spd": 100,
+          "spe": 172,
+          "source": "frame"
+        },
+        "stats_note": "性格依 攻擊▲/特攻▽ 箭頭判讀為固執，字幕亦明說「大狃拉固執」。能力點驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "剋命爪",
+            "value_en": "Dire Claw",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二個處理花葉蒂的手段，也是面對順風隊的穩定首發（順風手多弱毒/岩石，岩崩很泛用）。某些情況可接收大力士輸出。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆刀將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "快幫我劍舞",
+        "gender": "M",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "蓮蒲果",
+          "value_en": "Chople Berry",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 31,
+          "def": 1,
+          "spa": 0,
+          "spd": 1,
+          "spe": 1,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 207,
+          "atk": 204,
+          "def": 141,
+          "spa": 72,
+          "spd": 106,
+          "spe": 71,
+          "source": "frame"
+        },
+        "stats_note": "性格依 攻擊▲/特攻▽ 箭頭判讀。能力點驗算全部吻合（攻擊 31 點 = 244 EV → 204），總和 66。字幕稱呼為「仆斬將軍」，官方譯名為仆刀將軍。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "不服輸反威嚇，讓對面不敢用威嚇抵消大力士。與鱗甲龍屬性互補（惡剋幽靈、鋼剋妖精），也可接收大力士（相當於隊友幫他跳一次劍舞）增強仆斬與突襲。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 784,
+          "name_zh": "杖尾鱗甲龍",
+          "name_en": "Kommo-o",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "我還在等Z",
+        "gender": "F",
+        "ability": {
+          "value": "隔音",
+          "value_en": "Soundproof",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 2,
+          "def": 32,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 182,
+          "atk": 132,
+          "def": 194,
+          "spa": 108,
+          "spd": 125,
+          "spe": 105,
+          "source": "frame"
+        },
+        "stats_note": "性格依 防禦▲/特攻▽ 箭頭判讀（淘氣）。字幕：大力士撲擊完全不用投資物攻，只加 HP 與物防。能力點驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "撲擊",
+            "value_en": "Body Press",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "地獄突刺",
+            "value_en": "Throat Chop",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鐵壁",
+            "value_en": "Iron Defense",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主輸出兼大力士接收者。鐵壁+撲擊（撲擊用防禦算傷，大力士亦適用），不需要特性、免疫威嚇；耐久極高、吃剩飯回血，換下再上不失輸出。隔音免疫滅亡之歌。四倍弱妖精，需隊友處理妖精/幽靈。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 302,
+          "name_zh": "勾魂眼",
+          "name_en": "Sableye",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "正義的背影",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "洛玫果",
+          "value_en": "Roseli Berry",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慎重",
+          "value_en": "Careful",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 9,
+          "spa": 0,
+          "spd": 25,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 95,
+          "def": 104,
+          "spa": 76,
+          "spd": 121,
+          "spe": 70,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▽/特防▲ 箭頭判讀（慎重；攻擊 95 為中性值、特攻 76 = 85×0.9）。字幕：與來悲粗茶同樣大量投資特防。能力點驗算全部吻合，總和 66。不帶守住。",
+        "moves": [
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "定身法",
+            "value_en": "Disable",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "電磁波",
+            "value_en": "Thunder Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "擊掌輔助與干擾手，首選針對花葉蒂（無弱點）。再來一次/定身法干擾對面強化手；電磁波控速對鱗甲龍比順風/空間更好用，免疫惡作劇之心的惡系正好都會被鱗甲龍撲死。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        418
+      ],
+      "frames_used": 7,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "大力士隊：Mega 寶石海星（Mega 後特性大力士）用特性互換把大力士交給免疫威嚇、不需特性的鐵壁撲擊鱗甲龍（或不服輸的仆刀將軍、大狃拉），寶石海星下場重置特性再上來就有兩個大力士。寶石海星+鱗甲龍+仆刀將軍為屬性互補的 core；來悲粗茶（憤怒粉/生命水滴）與勾魂眼（擊掌/再來一次/定身法/電磁波）確保強化成功、生存與干擾對面強化手，勾魂眼與披帶大狃拉負責針對花葉蒂，大狃拉岩崩也是對順風隊的穩定首發。選出優先看對面有多少人能威脅鱗甲龍。弱點：有破滅之光的花葉蒂隊，以及特定組合的空間隊（例：Mega 水箭龜+甜冷美后+煤炭龜）。拍片勝率 86%。",
+    "extracted_at": "2026-11-08T15:59:30Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

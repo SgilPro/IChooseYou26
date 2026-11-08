@@ -1,0 +1,400 @@
+[
+  {
+    "id": "team_8IAdoWpwk80",
+    "name": "Mega 泥偶巨人 × 噴火龍 晴天隊",
+    "name_source": "title",
+    "video_id": "8IAdoWpwk80",
+    "video_url": "https://www.youtube.com/watch?v=8IAdoWpwk80",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "sun",
+      "mega",
+      "trick-room",
+      "hyper-offense",
+      "follow-me",
+      "fake-out"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.98
+        },
+        "nickname": "不會噴火",
+        "gender": "M",
+        "ability": {
+          "value": "太陽之力",
+          "value_en": "Solar Power",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Ｙ",
+          "value_en": "Charizardite Y",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 93,
+          "def": 98,
+          "spa": 161,
+          "spd": 105,
+          "spe": 167,
+          "source": "frame"
+        },
+        "stats_note": "字幕：能力點全部加特攻跟速度，耐久靠隊友輔助。性格依狀態頁 攻擊▽/速度▲ 判讀為膽小。能力點依原形種族值重算全部吻合（總和 66）。字幕提到 Mega 噴火龍特攻種族值 159，但不 Mega 時靠太陽之力換算後等於 189，所以搭配煤炭龜時反而不 Mega 更強。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "日光束", "value_en": "Solar Beam", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍主軸輸出，用來打大部分隊伍。守住、熱風、氣象球必帶，第四格日光束針對水系（其他隊友缺乏剋制水系的手段）。高速模式與一家鼠或咆哮虎搭配；與煤炭龜同時選出是爆發最高的模式（此時噴火龍可不 Mega，讓隊伍有第二個 Mega）。環境雨天、沙暴隊多且常見岩崩，是其最大威脅。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "正版龜龜",
+        "gender": "F",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 105,
+          "def": 160,
+          "spa": 150,
+          "spd": 92,
+          "spe": 36,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點重算全部吻合（總和 66）。",
+        "moves": [
+          { "value": "噴火", "value_en": "Eruption", "confidence": 0.98, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "大地之力", "value_en": "Earth Power", "confidence": 0.98, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "空間隊常見配置的天氣手；Champions 沒有太晶幽靈與密探斗篷，空間好開。帶幫助可在空間外直接開天氣，讓噴火龍靠太陽之力＋幫助增傷。噴火龍＋煤炭龜是爆發最高的選出，用來秒耐久太高的對手，但對面不能有天氣。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "咆哮伊布",
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 25,
+          "def": 1,
+          "spa": 0,
+          "spd": 8,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 202,
+          "atk": 176,
+          "def": 111,
+          "spa": 100,
+          "spd": 118,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "字幕：加了比較多物攻，性格減速加物攻（勇敢），因為經常要靠他打輸出。性格依狀態頁 攻擊▲/速度▽ 判讀。能力點重算全部吻合（32+25+1+8=66）。速度 72 刻意比智揮猩（73）慢 1，空間下咆哮虎先攻擊、智揮猩再號令。",
+        "moves": [
+          { "value": "閃焰衝鋒", "value_en": "Flare Blitz", "confidence": 0.98, "source": "frame" },
+          { "value": "地獄突刺", "value_en": "Throat Chop", "confidence": 0.98, "source": "frame" },
+          { "value": "拋下狠話", "value_en": "Parting Shot", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "高速與空間兩種模式都能用的輔助兼輸出：擊掌、拋下狠話支援，但隊伍經常需要靠他打輸出，空間下這個配置可以秒殺不少人。遇滅歌隊可首發泥偶巨人＋咆哮虎。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 925,
+          "name_zh": "一家鼠",
+          "name_en": "Maushold",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": "家庭之力",
+        "gender": "N",
+        "ability": {
+          "value": "友情防守",
+          "value_en": "Friend Guard",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 181,
+          "atk": 95,
+          "def": 92,
+          "spa": 76,
+          "spd": 95,
+          "spe": 179,
+          "source": "frame"
+        },
+        "stats_note": "字幕：能力點極速、滿 HP。性格依狀態頁 特攻▽/速度▲ 判讀為爽朗。能力點依 Maushold 種族值重算全部吻合（總和 66）。畫面無法區分三隻/四隻家族型態（種族值相同）。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "憤怒門牙", "value_en": "Super Fang", "confidence": 0.98, "source": "frame" },
+          { "value": "佯攻", "value_en": "Feint", "confidence": 0.98, "source": "frame" },
+          { "value": "看我嘛", "value_en": "Follow Me", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "同時在高速與空間兩種模式下都能發揮的輔助手：開空間需要看我嘛；噴火龍與煤炭龜怕廣域防守，所以佯攻很重要；友情防守可避免噴火龍被群體技能秒殺。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 623,
+          "name_zh": "泥偶巨人",
+          "name_en": "Golurk-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "泥好偶巨人啦",
+        "gender": "N",
+        "ability": {
+          "value": "無防守",
+          "value_en": "No Guard",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "泥偶巨人進化石",
+          "value_en": "Golurkite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 196,
+          "atk": 193,
+          "def": 100,
+          "spa": 75,
+          "spd": 102,
+          "spe": 67,
+          "source": "frame"
+        },
+        "stats_note": "字幕：能力點全部加物攻、性格減速。性格依狀態頁 攻擊▲/速度▽ 判讀為勇敢。狀態頁為未 Mega 原形數值，依原形種族值重算全部吻合（總和 66）。投影片顯示 Mega 泥偶巨人種族值 89/159/105/70/105/55（總和 583）。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "突飛猛撲", "value_en": "Headlong Rush", "confidence": 0.98, "source": "frame" },
+          { "value": "靈騷", "value_en": "Poltergeist", "confidence": 0.98, "source": "frame" },
+          { "value": "雷電拳", "value_en": "Thunder Punch", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "影片主角、噴火龍的最佳搭檔：抗岩石、速度極慢適合空間，Mega 後物攻與耐久大幅提升，特性從無防守變成無形拳（Unseen Fist，可穿透守住但減傷 75%）。雙本系（地面/幽靈）＋雷電拳能壓制雨天、沙暴隊所有常見成員，用來補噴火龍的弱點。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 765,
+          "name_zh": "智揮猩",
+          "name_en": "Oranguru",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "真的是精神力",
+        "gender": "M",
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "自大",
+          "value_en": "Sassy",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 12,
+          "spa": 0,
+          "spd": 20,
+          "spe": 2,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 80,
+          "def": 112,
+          "spa": 110,
+          "spd": 165,
+          "spe": 73,
+          "source": "frame"
+        },
+        "stats_note": "字幕：性格減速，但速度能力點多加 2 點讓能力值多 1（73 vs 咆哮虎 72），因為兩者速度種族值相同，空間下需要咆哮虎先攻擊、智揮猩再號令；兩隻都必須減速性格，否則容易比沒加速度的人還快。性格依狀態頁 特防▲/速度▽ 判讀為自大。能力點重算全部吻合（32+12+20+2=66）。",
+        "moves": [
+          { "value": "精神強念", "value_en": "Psychic", "confidence": 0.98, "source": "frame" },
+          { "value": "號令", "value_en": "Instruct", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" },
+          { "value": "再來一次", "value_en": "Encore", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊上唯一的空間手：特性精神力不怕擊掌；再來一次可在空間下限制對手行動；號令搭配煤炭龜、泥偶巨人或咆哮虎清場。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 343],
+      "frames_used": 16,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "噴火龍與泥偶巨人皆持 Mega 石，字幕明說此隊「可以有第二個 Mega，而且兩隻同時選出」，故兩隻都標 mega=true（Champions 每場仍只能 Mega 一次）。狀態頁 f_040–f_043 為隊伍 ID 63V6S768AC 的公開範本畫面，六隻皆顯示 ♂，與能力頁性別不一致（煤炭龜 ♀、一家鼠/泥偶巨人無性別），性別以能力頁為準。隊伍 ID：63V6S768AC。",
+    "notes": "Champions 首日針對環境組的噴火龍晴天隊第二版：原本的 Mega 噴火龍 Y 高速晴天隊被雨天、沙暴與到處都有的岩崩針對，所以找來 Mega 泥偶巨人當搭檔——抗岩石、極慢適合空間、Mega 後拿到無形拳，雙本系＋雷電拳可壓制雨天/沙暴隊所有常見成員。核心策略是噴火龍打大部分隊伍、泥偶巨人補噴火龍的弱點。控速有高速（噴火龍＋一家鼠/咆哮虎）與空間（智揮猩＋咆哮虎/一家鼠）兩種模式，噴火龍＋煤炭龜是爆發最高的選出；遇滅歌隊首發泥偶巨人＋咆哮虎，遇沒折返且不快的天氣隊可首發噴火龍＋智揮猩。拍攝期間遇到太多雨天沙暴，實際多靠泥偶巨人。",
+    "extracted_at": "2026-11-08T15:58:35Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
