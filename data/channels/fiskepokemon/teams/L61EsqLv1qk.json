@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "trick-room",
+      "psychic-terrain",
+      "coaching"
+    ],
+    "tags_source": "subtitle",
+    "author": "そきう",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下主要輸出手"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下廣域戰力輸出，更慢、特攻更高，流星光束打咆哮虎，備用空間手"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "逃脫按鍵首發，看我嘛後換上霜奶仙並留下精神場地"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "黑色鐵球減速、甜幕防睡，空間下先手裝飾"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "廣域防守，焦點鏡高要害葉刃打藏瑪然特與蓋歐卡"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "地面系補盲，劈瓦破牆剋長毛巨魔與密勒頓"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 そきう 的霜奶仙重空間隊，日本全國賽線上預賽第 166 名。核心是霜奶仙的專屬技能裝飾（隊友雙攻 +2，等於免費弱點保險）：帶黑色鐵球讓速度減半並以甜幕防睡，由隊友先開空間後在空間下先手裝飾。理想選出是首發逃脫按鍵愛管侍，第一回合看我嘛挨一下後立刻換上霜奶仙，第二回合（空間第一回合）裝飾；輸出手是白馬王與拂曉之翼奈克洛茲瑪，後者比露奈雅拉更慢、特攻更高，靠精神場地打廣域戰力並帶流星光束處理咆哮虎。艾路雷朵補廣域防守並用焦點鏡葉刃（要害率 50%）打藏瑪然特與蓋歐卡，月月熊以地面系補冰與超能的盲點、劈瓦破長毛巨魔的牆。操作直觀，對面一看就知道要開空間所以容易預判其首發；弱點是重空間隊第一回合常需猜拳，空間沒開出來就很難打，開不開得出來往往決定勝負。",
     "extracted_at": "2026-11-08T16:36:25.727Z",
     "extracted_by": "import-pokepaste-v1"
   }

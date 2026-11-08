@@ -10,11 +10,12 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "spread-moves"
+      "spread-moves",
+      "restricted"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "こもりん",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶惡系輸出，主要輸出手之一，打黑馬王"
       },
       {
         "slot": 2,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "地震觸發無極汰那弱點保險，惡系打黑馬王"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險核心，+2 污泥波與極巨炮，太晶星晶秒密勒頓"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "抗妖精，對密勒頓、黑馬王、太樂巴戈斯時選出，非每場必選"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "惡系拍落與鬼火，太晶水補抗水"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 こもりん 的巨金怪加弱點保險無極汰那隊，三月賽季結算第 99 名。核心 Combo 是轟鳴月地震觸發無極汰那弱點保險後打 +2 污泥波，無極汰那本身耐久與抗性都高，也常讓對面幫忙觸發。巨金怪在朱紫因鋼超能防守屬性偏弱而沒落，但能抵抗妖精，搭配無極汰那面對密勒頓加鐵臂膀通常佔優；兩者同弱黑馬王雙本系，所以放了武道熊師、轟鳴月、咆哮虎三個惡系，對強化黑馬王隊也能靠污泥波打穿。隊伍整體抗水，面對蓋歐卡也好打；無極汰那選太晶星晶可在未觸發弱保下秒殺太晶妖精密勒頓。弱點是很難打愛管侍旁邊的火系白馬王，且無極汰那與轟鳴月太晶前後都弱冰，極攻雪矛有五成機率秒殺無極汰那，重空間白馬王非常難打。Fiske 強調這不是巨金怪隊而是弱保無極汰那隊，巨金怪只在對密勒頓、黑馬王、太樂巴戈斯時較常選出，其餘輸出靠無極汰那與武道熊師。",
     "extracted_at": "2026-11-08T16:39:14.013Z",
     "extracted_by": "import-pokepaste-v1"
   }

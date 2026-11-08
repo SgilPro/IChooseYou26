@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "trick-room",
+      "electric-terrain",
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Ken",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "速度互換讓隊友空間下先手，復生祈禱復活隊友，心靈感應免疫隊友地震與放電"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下主要物攻輸出，地震"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間密勒頓，放電加魔法閃耀的罕見配置，開電氣場地"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "電氣場地空間隊最佳隊友，突擊背心輸出"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸防威嚇、順風雙向控速、免疫地震"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "火系掩護手補冰與妖精弱點，輔助型"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Ken 的速度互換蟲甲聖隊，澳洲布里斯本地區賽 32 強。蟲甲聖屬性差但擁有兩個近乎專屬的技能：復生祈禱復活隊友至半血，速度互換交換自己與目標的速度數值（不含道具與能力等級），因此可以搭配高速隊友首發開空間，第二回合把速度換給隊友讓其在空間下先手；心靈感應免疫隊友的地震與放電，很適合搭配空間密勒頓，蟲系也剋制共同盲點草系。有電氣場地的空間隊最佳隊友是鐵臂膀，這四人是主要組成；閃電鳥以不服輸防止對面首發威嚇、開順風幫密勒頓雙向控速成為順風空間隊、還免疫月月熊地震，火神蛾則是火系掩護手補冰與妖精弱點，對面冰妖技能多時幾乎必選。密勒頓帶放電加魔法閃耀極罕見，對面常不提防放電，也完全不怕避雷針隊。弱點是 Synergy 來自特性與技能而非屬性，攻防屬性搭配都不理想，面對兩種蕾冠王、盾菇、土地雲常只能一倍硬打；蟲甲聖耐久不高，太晶水仍會被眼鏡蓋歐卡噴死。",
     "extracted_at": "2026-11-08T16:39:17.138Z",
     "extracted_by": "import-pokepaste-v1"
   }

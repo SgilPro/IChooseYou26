@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "trick-room",
+      "follow-me",
+      "setup"
+    ],
+    "tags_source": "subtitle",
+    "author": "Otsubo Ryota",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "技術高手雙翼先手秒殺披帶封印公愛管侍，近戰打金剛猩、大狃拉"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心，腹鼓後釋陀果先手 +6 岩崩秒殺"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "誘導對面首發抗火者，您先請噴火高速模式"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下第二輸出手，搭配您先請噴火"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛掩護腹鼓、精神場地防先制、開空間"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "備用空間手，尾甲防先制，廣域戰力輸出"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "2017 世界冠軍 Otsubo Ryota 的卡比獸腹鼓隊。核心是貪吃鬼卡比獸在半血提早吃釋陀果，腹鼓後下回合先手 +6 岩崩秒殺對面。理想流程為第一回合母愛管侍看我嘛掩護卡比獸腹鼓，第二回合愛管侍開空間、卡比獸釋陀果岩崩雙殺，第三回合在空間下繼續輸出，愛管侍倒下後再上其他低速隊友。奇麒麟靠高耐久、尾甲與廣域戰力補足愛管侍早死或被金剛猩改場地的情況，煤炭龜是空間下第二輸出手，也可與裙兒小姐組成您先請噴火的高速模式，但裙兒主要功能是誘導對面首發抗火者。飛天螳螂的技術高手雙翼專門先手秒殺披帶封印的公愛管侍。弱點是卡比獸只有一般與岩石打點、coverage 差，岩崩威力低且會 miss，怕高威力群體技能與堅毅波導彈鋁鋼橋龍，穩定性與操作彈性都不高。",
     "extracted_at": "2026-11-08T16:36:49.813Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,8 +9,10 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡高速特攻主力，破壞光線搶秒殺"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "電網控速、假哭降特防，配合高速仙布"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特殊耐久高，冥想後對特攻手強勢"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾手動晴天首發改對面天氣，力量寶石秒殺"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "比大嘴鷗快的手動晴天手，晴天日光刃"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇、擊掌、近身戰補格鬥打點與聯防的關鍵第六人"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 自組的全伊布主題隊，趁規則 H 禁神獸的最後時期讓月布以外的伊布上場。伊布家族全是單屬性、耐久脆、缺火惡格鬥地面攻擊屬性且幾乎無法聯防，面對主流隊伍普遍劣勢，因此第六位捨棄月亮伊布與火伊布，改帶有威嚇、擊掌、閃焰衝鋒、拍落與近身戰的咆哮虎補足格鬥系打點與聯防。雷伊布以電網控速、假哭降特防配合高速仙布；水伊布靠高特殊耐久冥想後對特攻手強勢。對雨天隊（大嘴鷗、幽尾玄魚）則靠太陽伊布與葉伊布的手動晴天首發改天氣。弱點是強度遠不及 meta，只能靠圍巾力量寶石、眼鏡破壞光線、晴天閃焰衝鋒、太晶格鬥近戰等少見配置搶秒殺，對面守住或換人就容易坑不到，容錯空間小。",
     "extracted_at": "2026-11-08T16:36:47.720Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Zelda",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主軸，與艾姆利多互相聯防"
       },
       {
         "slot": 3,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "免疫地面、抗格鬥，應付帶土地雲的白馬王隊，選出率不高"
       },
       {
         "slot": 5,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Zelda 的艾姆利多藏瑪然特隊，澳洲布里斯本地區賽第 17 名打進 Top Cut，是艾姆利多在對戰史上唯一一次 Top Cut。艾姆利多種族值分配差、被 Fiske 視為歷代最弱二級神，但傳說阿爾宙斯後獲得邊打邊加特攻的專屬技神秘之力，且漂浮加太晶能抵抗白馬王、土地雲等特定對象。除艾姆利多外五人都是常見的藏瑪然特體系，其位置通常是水武道熊師或圍巾古玉魚，導致地面抗性弱；艾姆利多免疫地面、抗格鬥、耐久較高，理論上可與藏瑪然特互相聯防，用來應付帶土地雲的白馬王隊，但輸出不佳、選出率不高。多數情況就是一支正常的藏瑪然特隊。弱點是沒帶金剛猩因此更難打密勒頓隊及其常見的武道熊師與鐵臂膀，原作者比賽輸的三輪有兩輪是密勒頓隊，Fiske 拍片勝率約 65%。",
     "extracted_at": "2026-11-08T16:39:15.046Z",
     "extracted_by": "import-pokepaste-v1"
   }

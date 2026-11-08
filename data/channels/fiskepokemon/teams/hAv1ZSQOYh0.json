@@ -9,8 +9,11 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "setup",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心，舞者特性連續行動，電系覺醒之舞，太晶地面補盲"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "蝶舞與火舞觸發花舞鳥舞者"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "魂舞烈音爆全能力 +1，隔音加太晶鋼完封西獅海壬，抗沙暴隊"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "同台共演複製強化、廣防快防、仿效覺醒之舞連打"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛掩護強化、自我暗示複製能力、純樸剋吃吼霸"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "蝶舞強化、憤怒粉掩護、催眠粉"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 自組的新規則版花舞鳥跳舞大隊（強化隊）。花舞鳥的舞者特性可在全場有人用跳舞技能後立刻跟著再用一次，能在一回合內同時守住加攻擊或強化。選用電系花舞鳥，因電系克制常帶黑霧的黑暗鴉、西獅海壬與吃吼霸，覺醒之舞屬性隨太晶改變，太晶地面則補打電系、鋁鋼橋龍、雙彈瓦斯與背心眾。隊友都要會跳舞：彩粉蝶蝶舞加憤怒粉、催眠粉；火神蛾蝶舞與火舞；隔音太晶鋼的鱗甲龍魂舞烈音爆全能力 +1，抗岩石與惡、完全不怕西獅海壬，對沙暴隊關鍵。纏紅鶴選出率僅次於花舞鳥：同台共演複製隊友強化、廣防快防擋先制與群體技，仿效覺醒之舞可與花舞鳥一回合連打三次。皮可西看我嘛掩護強化、自我暗示複製能力變化，純樸特性對吃吼霸極為優勢。主要弱點是黑霧與吃吼霸、雙彈瓦斯會清掉強化或特性。",
     "extracted_at": "2026-11-08T16:36:57.150Z",
     "extracted_by": "import-pokepaste-v1"
   }

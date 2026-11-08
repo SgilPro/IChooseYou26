@@ -9,10 +9,16 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "electric-terrain",
+      "sun",
+      "tailwind",
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
+    "author": "Brian Fournier",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +95,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心配置保留伏特替換，開電氣場地並搶場地"
       },
       {
         "slot": 2,
@@ -166,7 +172,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心輸出，電氣場地下電力上升一擊秒殺"
       },
       {
         "slot": 3,
@@ -243,7 +249,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風控速，確保猛雷鼓先出手"
       },
       {
         "slot": 4,
@@ -320,7 +326,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速冰凍之風控速、急速折返搶場地，剋地面與草系"
       },
       {
         "slot": 5,
@@ -397,7 +403,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輔助型（剩飯、幫助、開晴天），選出率不高，對電系或高耐久隊才選"
       },
       {
         "slot": 6,
@@ -474,7 +480,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開空間控速，必要時反開對面空間"
       }
     ],
     "is_members_only": false,
@@ -490,7 +496,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Brian Fournier 的電力上升猛雷鼓隊，北美國際賽 64 強。核心是朱紫中只剩猛雷鼓會的電力上升：使用者站在電氣場地乘 1.3 倍、對象也在場地上再乘 2 倍，搭配古代活性、生命寶珠、太晶電與幫助時約為眼鏡密勒頓閃電猛衝的 2.39 倍，能秒殺堆滿特防的太晶草白馬王；因此同時放了密勒頓與固拉多專門輔助。條件一是確保猛雷鼓先出手，靠風妖精順風、奇麒麟空間與鐵包袱的高速冰凍之風控速；條件二是搶到場地與天氣，所以密勒頓用背心保留伏特替換、鐵包袱帶急速折返，固拉多則偏輔助（剩飯、幫助）且選出率不高。整體策略高度集中在進攻 Synergy，只要開出場地且猛雷鼓先手就能換掉對面至少一人。弱點是防守重複：四人弱冰、全隊不抗妖精、地面抗性極差（固拉多太晶火後三人弱地面）；面對露奈雅拉加月月熊或白馬王加密勒頓必須優先秒殺對面空間手，否則只能靠奇麒麟反開空間，遇到古鼎鹿也很難打。",
     "extracted_at": "2026-11-08T16:36:22.626Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
     "tags": [
-      "hyper-offense"
+      "hyper-offense",
+      "rain",
+      "icy-wind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Otsubo Ryota",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍起點，電網控速、假哭降特防的全環境最快輔助"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "下載加特攻的高速主輸出，冰凍光束克賽富豪天敵"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "膽量免疫威嚇，克咆哮虎、賽富豪、月月熊，開順風"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡淘金潮主輸出"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "雙刀，雙翼秒火神蛾，流星群配假哭"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾太晶地面，補水系打點並開雨天減弱點"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "2017 世界冠軍 Otsubo Ryota 以雷伊布為主的雨天隊，組隊邏輯是從雷伊布 DLC 新學的電網出發。雷伊布極速 200 是現環境幾乎最快，電網加假哭適合搭配中速特攻手，一次電網後快過大部分人。主輸出是眼鏡賽富豪與 252 特攻 252 速度的多邊獸：下載常加特攻，冰凍光束補電系盲點、克制仆斬將軍等高物防的賽富豪天敵，對面常誤以為多邊獸要開空間。狙射樹梟膽量免疫威嚇、格鬥技對幽靈一倍，克制咆哮虎、賽富豪、月月熊並開順風；雙刀暴飛龍秒殺火神蛾，流星群配假哭。太晶地面圍巾大嘴鷗補水系打點並以雨天減少兩位弱火成員的弱點。弱點是淘金潮盲點為水火電鋼需隊友補，整體節奏快、集中進攻 synergy，順利時四回合內打完。",
     "extracted_at": "2026-11-08T16:36:55.059Z",
     "extracted_by": "import-pokepaste-v1"
   }

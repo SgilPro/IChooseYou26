@@ -9,8 +9,11 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "meme-gimmick",
+      "balance"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "青草種子加鐵壁的高物防格鬥手，擋多龍、仆斬將軍"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠水之誓約主爆發，精神強念打大狃拉"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾高速先手草之誓約，變幻自如補屬性"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡噴火主爆發，幽靈系防擊掌，火草誓約模式"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心威嚇，拍落秒賽富豪與多龍"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭帶開青草場地，十萬馬力打火系，急速折返"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 自組的全御三家誓約隊，以御三家專屬的誓約合體技為核心。最強組合是水草誓約開濕地，讓對面全場速度降到四分之一，威力取決於後手的御三家，因此以圍巾假面喵（速度 288 快過極速雨天幽尾玄魚）帶生命寶珠西獅海壬先手打出；假面喵變幻自如加講究道具可補各種攻擊屬性。誓約怕擊掌，故搭配幽靈系眼鏡火爆獸與太晶幽靈假面喵防首發擊掌，並多一個火草誓約開火海的模式。布里卡隆靠青草種子與鐵壁擋仆斬將軍、多龍、大狃拉等高速物攻手，背心咆哮虎拍落秒殺賽富豪與多龍，加上頭帶金剛猩（十萬馬力打火系、急速折返）構成平衡模式。西獅海壬第四格改精神強念針對四倍弱超能的大狃拉。拍片勝率近八成，主要缺點是合體誓約為單體技能，打到守住就浪費一回合，需看情況決定是否鎖誓約。",
     "extracted_at": "2026-11-08T16:36:56.105Z",
     "extracted_by": "import-pokepaste-v1"
   }

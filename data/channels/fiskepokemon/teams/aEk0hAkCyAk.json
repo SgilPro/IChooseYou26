@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "trick-room",
+      "sun",
+      "hyper-offense",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Parker Simmons",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天下第一高速廣域戰力，高速模式核心，也可開空間"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間手兼廣防，太晶火廣防配月月熊對付賽富豪"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡幻覺手，太晶星晶巨聲秒滿血烈咬陸鯊，逼對面猜首發"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間輸出手，廣防掩護下對賽富豪無敵"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天的空間主輸出 core"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛、開空間、精神場地的 core 輔助"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Parker Simmons 在美國路易維爾地區賽打進四強的空間晴天隊。原本以煤炭龜加愛管侍的強 core 為主，椰蛋樹靠葉綠素晴天滿速 214 快過最快的多龍，成為第一高速的廣域戰力，提供重空間隊必要的高速模式，也補處理煤炭龜難打的西獅海壬，並作為免疫蘑菇孢子的聯防選項。艾路雷朵帶空間與廣防，太晶火廣防搭配月月熊是對付賽富豪的重要策略。索羅亞克眼鏡太晶星晶加幫助的巨聲可秒殺滿血烈咬陸鯊，且三位出場不發動特性的成員讓對面被迫猜首發真偽，常能免費開出空間。弱點是標準 HO 隊，首發與空間下每回合猜拳成分高、穩定性不足，盾菇需愛管侍太晶草才免疫孢子；椰蛋樹速度 107 不慢，空間模式下煤炭龜上場觸發葉綠素反而會讓他變成最後行動。",
     "extracted_at": "2026-11-08T16:36:54.007Z",
     "extracted_by": "import-pokepaste-v1"
   }

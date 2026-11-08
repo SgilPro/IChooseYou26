@@ -10,11 +10,14 @@
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
     "tags": [
-      "coaching"
+      "coaching",
+      "restricted",
+      "trick-room",
+      "setup"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "じーまーこう",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "惡作劇之心先制指導、佯攻與 +4 快防擋擊掌"
       },
       {
         "slot": 2,
@@ -168,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二指導手，搏命開空間、逼咆哮虎太晶"
       },
       {
         "slot": 3,
@@ -245,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主要被指導的物攻手，空間下雪矛輸出"
       },
       {
         "slot": 4,
@@ -322,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶首發爆發，提供空間外的第二模式"
       },
       {
         "slot": 5,
@@ -399,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "補冰系盲點、用得到晴天，對雨天隊必選"
       },
       {
         "slot": 6,
@@ -476,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛掩護白馬王，防群體技與空間下的先制"
       }
     ],
     "is_members_only": false,
@@ -492,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 じーまーこう 的利歐路加棄世猴雙指導隊，主要策略是物攻強化。利歐路靠惡作劇之心打出先制 +1 的指導，不像武、鐵、猴、鳥四大指導手必須在空間外才點得到；同時會佯攻與快防（先制 +4 必定擋下擊掌），非常適合搭配白馬王在空間下輸出。另一個被指導對象是講究頭帶故勒頓，第一回合近身戰威力比眼鏡密勒頓閃電猛衝高約 37%，提供不依賴空間的第二種首發模式。棄世猴是第二指導手，能搏命開空間、逼對面咆哮虎太晶，兩個高速物攻手同放也能逼對面不敢首發龍捲雲或風妖精順風組合；皮皮用看我嘛掩護白馬王不被群體技或先制秒殺，猛雷鼓補冰系盲點並用得到晴天，對雨天隊時才會選。弱點是利歐路功能單一、對手一眼就知道有指導且容易猜到操作；策略直接導致勝負在一兩回合內決定，一旦主力被秒殺，剩下的輔助手火力不足。",
     "extracted_at": "2026-11-08T16:36:23.659Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
     "tags": [
-      "restricted"
+      "restricted",
+      "tailwind",
+      "trick-room"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "James Baek",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠特攻主力，交錯火焰 Combo 一端"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "交錯閃電 Combo 另一端，自帶順風控速"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心聯防手，彌補對熱門神獸組合的劣勢"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "鋼系抗龍與妖精，彌補雙龍重複弱點，常被迫選出"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開空間、看我嘛，打黑馬王加藏瑪然特與密勒頓加白馬王"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究圍巾壓制咆哮虎，可指導捷克羅姆，突破冥想隊"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 James Baek（2019、2022 世界四強）的捷克羅姆加焰白酋雷姆交錯隊。核心是合眾雙龍專屬技交錯火焰與交錯閃電：同回合內後出手的那招威力翻倍，焰白酋雷姆加捷克羅姆是三種合法組合中屬性最好的，可打類似密勒頓加白馬王的冰電聯攻。三大缺點是速度尷尬需控速（捷克羅姆自帶順風，但不穩定所以需擊掌或看我嘛並最好有空間）、難打黑馬王加藏瑪然特或密勒頓加白馬王、兩者重複弱點多不適合互相聯防，因此需要鋼系抗龍妖精。愛管侍能開空間、看我嘛且能打上述兩組熱門組合，鐵頭殼是其常見鋼系隊友，背心咆哮虎補聯防，圍巾水武道熊師負責壓制咆哮虎並可指導捷克羅姆。缺點是酋雷姆與捷克羅姆都難以單獨當主力，常被迫選鐵頭殼、愛管侍或咆哮虎而只能帶其中一龍，Combo 時機極少，只能當作選項而非主要策略；兩種蕾冠王與冥想太樂巴戈斯都不好打。",
     "extracted_at": "2026-11-08T16:36:27.796Z",
     "extracted_by": "import-pokepaste-v1"
   }

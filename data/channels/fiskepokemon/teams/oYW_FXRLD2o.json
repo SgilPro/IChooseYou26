@@ -10,11 +10,14 @@
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
     "tags": [
-      "stall"
+      "stall",
+      "restricted",
+      "trick-room",
+      "grassy-terrain"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ほまれ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高耐久再生力受隊代表，吹飛強制對面踩毒菱"
       },
       {
         "slot": 2,
@@ -168,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "寄生種子消耗，空間下 +1/+2 雪矛清場收尾"
       },
       {
         "slot": 3,
@@ -245,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "撒毒菱、威嚇、抗幽靈剋黑馬王，空間下可當輸出手"
       },
       {
         "slot": 4,
@@ -322,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶地震與白馬王聯攻，補毒菱與雪矛盲點，降對面特攻"
       },
       {
         "slot": 5,
@@ -399,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "青草場地回血拖時間"
       },
       {
         "slot": 6,
@@ -476,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "補水系抗性應付蓋歐卡隊，選出率低"
       }
     ],
     "is_members_only": false,
@@ -492,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 ほまれ 的毒菱萬針魚受隊，日本全國賽線上預賽第 55 名。原型是無極汰那撒毒加白馬王寄生種子的受隊，但作者發現無極汰那太被動、與白馬王同弱黑馬王雙本系，於是改以「會撒毒、抗幽靈、最好有威嚇」三條件選出萬針魚，再加鳳王（吹飛強制踩毒、再生力高耐久）。實戰勝利條件常非毒死對面，而是先把血量耗進雪矛斬殺線再靠 +1/+2 雪矛清場，所以放頭帶古鼎鹿與白馬王聯攻並補毒菱與雪矛的盲點，金剛猩提供青草場地回血（雙方同吃草時受隊佔便宜），水厄鬼椪則補水系抗性應付蓋歐卡隊但選出率低。Fiske 拍片勝率約 95%，認為聯防充足、聯攻不弱、操作門檻低且新手友善。缺點是節奏極慢常打滿 20 分鐘，且六人皆物攻手、無人免疫威嚇，遇到咆哮虎需優先處理。",
     "extracted_at": "2026-11-08T16:36:26.762Z",
     "extracted_by": "import-pokepaste-v1"
   }

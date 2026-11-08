@@ -11,11 +11,13 @@
     "regulation_source": "date-inferred",
     "tags": [
       "rain",
-      "balance"
+      "balance",
+      "tournament-team",
+      "hyper-offense"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Sempra",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -92,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾誤導披帶，先手開順風或暴風，開雨天"
       },
       {
         "slot": 2,
@@ -169,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡太晶電電光束核心主輸出"
       },
       {
         "slot": 3,
@@ -246,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "快手還擊防擊掌與先制，輔助鋁鋼橋龍輸出"
       },
       {
         "slot": 4,
@@ -323,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "黑色眼鏡，與背心常見配置形成模糊空間"
       },
       {
         "slot": 5,
@@ -400,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心，與常見配置形成模糊空間"
       },
       {
         "slot": 6,
@@ -477,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭帶高速物攻"
       }
     ],
     "is_members_only": false,
@@ -493,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Sempra 在官方線上賽「大挑戰賽」拿下世界第三的地雷雨天隊，成員幾乎是規則 F 的鋁鋼橋龍雨天隊把武道熊師換成浪舞鴨。針對不公開配置的排位規則設計，核心策略有二：使用熱門寶可夢但保留道具、技能、太晶的模糊空間（金剛猩、仆斬將軍、鋁鋼橋龍都可能是背心），以及在熱門組合裡放強誤導——對面預設大嘴鷗是披帶，實際是圍巾先手順風或暴風；鋁鋼橋龍則是眼鏡加太晶電，第一回合電光束威力約為一般配置 2.5 倍，越打特攻越高，類似速度較慢的密勒頓。浪舞鴨帶快手還擊阻止對面擊掌或先制補刀鋁鋼橋龍，但實戰不常用到。弱點是對手知道配置後強度下降，鋁鋼橋龍特防脆、速度不快，怕被集火、手動晴天（風妖精加察覺火爆獸的順風隊）與首發擊掌；節奏快的進攻型隊伍，容錯率低。",
     "extracted_at": "2026-11-08T16:36:58.199Z",
     "extracted_by": "import-pokepaste-v1"
   }

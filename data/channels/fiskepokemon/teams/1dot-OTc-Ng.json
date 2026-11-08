@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "全場最快蘑菇孢子輔助手，酸液炸彈降特防"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "消全場特性的核心，眼鏡主輸出"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開順風、配合地震，碾壓金剛猩"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "克水鋼惡系，擊掌拖對面控速"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠太晶地面地震，雙彈瓦斯旁免疫威嚇"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾噴火的關鍵輸出手，選出率極高"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "2016 世界冠軍 Wolfe Glick 在巴爾的摩地區賽打進十六強的陸地水母隊，史上成績最好的陸地水母隊。核心是雙彈瓦斯的化學變化氣體消掉全場特性，解除陸地水母菌絲之力必定後手的負面效果，讓他成為全宇宙最快的蘑菇孢子手；陸地水母負責輔助並以酸液炸彈降特防，眼鏡雙彈瓦斯負責輸出，兩人屬性互補（草系弱污泥炸彈，火毒鋼弱大地之力且漂浮失效）。隊友都是不依賴特性的人：圍巾火爆獸是選出率極高的關鍵輸出手，雙彈瓦斯在場可消掉對面惡作劇之心與開天氣特性，逼對面硬吃噴火；生命寶珠太晶地面烈咬陸鯊在雙彈瓦斯旁等同免疫威嚇，地震輸出為原本 1.73 倍。巴布土撥克制水鋼惡系並以擊掌拖控速；鋼鎧鴉開順風、配合地震且碾壓金剛猩。Fiske 拍片勝率八成多，新手友善，進攻能力強常在前兩回合就讓對手投降。",
     "extracted_at": "2026-11-08T16:36:59.934Z",
     "extracted_by": "import-pokepaste-v1"
   }

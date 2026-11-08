@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-i",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "stall",
+      "grassy-terrain",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Jamie Chen",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌、威嚇拖時間，鬼火與拋下狠話削弱輸出"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "必備隊友，青草場地每回合回血"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "怨恨扣 PP、免疫一般格鬥龍的聯防手，補高速輸出"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二壓迫感手，黑色污泥回血，拖 PP 核心之一"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "降對面特攻，怨恨與吹飛反制強化"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "壓迫感核心，堆耐久帶剩飯，生命水滴回血"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Jamie Chen 的雙壓迫感拖 PP 受隊，荷蘭烏特勒支特別賽第 101 名。核心是超夢與無極汰那同場時，對面點目標包含兩者的群體技（如星碎）PP 一次扣 3，再配合古鼎鹿與振翼髮的怨恨額外扣 4，理想狀況下對手點兩三次專屬技就沒 PP。超夢堆滿耐久帶剩飯並用生命水滴回血，無極汰那帶黑色污泥，加上金剛猩的青草場地與守住，什麼都不做也能每回合回約四分之一血；咆哮虎提供擊掌、威嚇、鬼火與拋下狠話拖時間，古鼎鹿靠吹飛與怨恨反制對面強化，振翼髮負責屬性聯防與隊伍稀缺的高速輸出。缺點是策略極度被動、沒有任何空間下的進攻模式，火力很低經常打很久；遇到幫助太晶幽靈眼鏡星碎或幫助太晶冰頭帶雪矛這類高火力 HO 隊時，抵抗的人也會被兩下打死，非常難聯防。Fiske 認為並非強隊，只是放了超夢的雙壓迫感很特別。",
     "extracted_at": "2026-11-08T16:36:24.691Z",
     "extracted_by": "import-pokepaste-v1"
   }
