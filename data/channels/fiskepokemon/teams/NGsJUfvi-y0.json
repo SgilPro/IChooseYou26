@@ -1,0 +1,157 @@
+[
+  {
+    "id": "team_NGsJUfvi-y0",
+    "name": "Mega 噴火駝 & 冰岩怪 空間隊",
+    "name_source": "title",
+    "video_id": "NGsJUfvi-y0",
+    "video_url": "https://www.youtube.com/watch?v=NGsJUfvi-y0",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": ["trick-room", "mega"],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 475, "name_zh": "艾路雷朵", "name_en": "Gallade", "form": null, "confidence": 0.99 },
+        "nickname": "不是白板",
+        "gender": "M",
+        "ability": { "value": "鋒銳", "value_en": "Sharpness", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 0, "atk": 32, "def": 2, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 143, "atk": 194, "def": 87, "spa": 76, "spd": 135, "spe": 132, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。極攻極速 + 防禦 2 點，數值重算全部吻合。",
+        "moves": [
+          { "value": "聖劍", "value_en": "Sacred Sword", "confidence": 0.98, "source": "frame" },
+          { "value": "精神利刃", "value_en": "Psycho Cut", "confidence": 0.98, "source": "frame" },
+          { "value": "葉刃", "value_en": "Leaf Blade", "confidence": 0.98, "source": "frame" },
+          { "value": "佯攻", "value_en": "Feint", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "高速格鬥/草系輸出手，負責首發處理對面中低速、威脅空間手的目標，或在空間結束後先手清場。鋒銳聖劍可保證擊殺帶抗鬥果的仆斬將軍；鋒銳葉刃加幫助可秒殺弱草的對手。佯攻用來在空間下打掉對面的守住/廣域防守或收披帶殘血，Fiske 表示可換成守住、戲法空間、影子偷襲、暗襲要害。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 713, "name_zh": "冰岩怪", "name_en": "Avalugg-Hisui", "form": "Hisui", "confidence": 0.97 },
+        "nickname": "冰哥",
+        "gender": "M",
+        "ability": { "value": "結實", "value_en": "Sturdy", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "吃剩的東西", "value_en": "Leftovers", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "勇敢", "value_en": "Brave", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 32, "def": 32, "spa": 0, "spd": 0, "spe": 0, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 172, "atk": 196, "def": 236, "spa": 54, "spd": 56, "spe": 52, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。字幕：物防加滿是為了撲擊的傷害（撲班基拉斯、仆斬將軍保證擊殺）。數值以洗翠冰岩怪種族值（95/127/184/34/36/38）重算全部吻合，一般冰岩怪種族值則不吻合，可確認為洗翠型態（冰+岩石，與字幕一致）。",
+        "moves": [
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.98, "source": "frame" },
+          { "value": "冰山風", "value_en": "Mountain Gale", "confidence": 0.98, "source": "frame" },
+          { "value": "撲擊", "value_en": "Body Press", "confidence": 0.98, "source": "frame" },
+          { "value": "廣域防守", "value_en": "Wide Guard", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "空間下的低速物攻手兼廣防手。冰+岩石+格鬥三種進攻屬性可同時剋制主流 Core 的多隻；站在噴火駝旁邊時岩崩幫噴火補盲、冰山風幫大地之力補盲。冰山風在 Champions 威力提升到 120 且附帶 30% 畏縮，空間下幾乎先手。廣域防守防對面首發雙岩崩。結實 + 超高物防讓兩個四倍弱點不易暴斃。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 683, "name_zh": "芳香精", "name_en": "Aromatisse", "form": null, "confidence": 0.99 },
+        "nickname": "花舞鳥同事",
+        "gender": "M",
+        "ability": { "value": "芳香幕", "value_en": "Aroma Veil", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "霹霹果", "value_en": "Babiri Berry", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 0, "spa": 31, "spd": 3, "spe": 0, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 208, "atk": 92, "def": 92, "spa": 165, "spd": 112, "spe": 44, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。字幕：特防剛好可以接極攻噴火龍的氣象球。數值重算全部吻合。",
+        "moves": [
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.98, "source": "frame" },
+          { "value": "假哭", "value_en": "Fake Tears", "confidence": 0.98, "source": "frame" },
+          { "value": "大晴天", "value_en": "Sunny Day", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第二空間手，速度與噴火駝相近、弱點與奇麒麟不重複。純妖精系幫噴火駝打龍；手動（非先制）大晴天用來跟雨天隊搶天氣、保護噴火駝不被水系氣象球威脅；假哭配合噴火駝噴火。特性芳香幕讓自己與隊友免疫挑釁、再來一次、定身法等心靈攻擊，是雨天勾魂眼的天敵。帶抗鋼果（霹霹果）防仆斬將軍、盔甲鳥、鋁鋼橋龍的鋼系技能；另一選項是妖精之羽（可保證擊殺烈咬陸鯊）。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 115, "name_zh": "袋獸", "name_en": "Kangaskhan", "form": null, "confidence": 0.99 },
+        "nickname": "兒子快來助拳",
+        "gender": "F",
+        "ability": { "value": "膽量", "value_en": "Scrappy", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "絲綢圍巾", "value_en": "Silk Scarf", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "勇敢", "value_en": "Brave", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 32, "def": 2, "spa": 0, "spd": 0, "spe": 0, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 212, "atk": 161, "def": 102, "spa": 60, "spd": 100, "spe": 99, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。數值重算全部吻合。",
+        "moves": [
+          { "value": "珍藏", "value_en": "Last Resort", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "不需 Mega 的擊掌輔助手，用來確保空間開得出來（理想人選是鐵臂膀，但 Champions 目前沒有）。只帶兩招：膽量讓擊掌奇襲能打幽靈系，擊掌後珍藏（絲綢圍巾加成）可保證擊殺投資大量物耐的噴火龍，加幫助後也能保證擊殺烈咬陸鯊等不抗一般系的目標。缺點是不好打鋼系。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 323, "name_zh": "噴火駝", "name_en": "Camerupt-Mega", "form": "Mega", "confidence": 0.99 },
+        "nickname": "比噴火龍正宗",
+        "gender": "M",
+        "ability": { "value": "堅硬岩石", "value_en": "Solid Rock", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "噴火駝進化石", "value_en": "Cameruptite", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 29, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 5, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 174, "atk": 108, "def": 90, "spa": 172, "spd": 95, "spe": 65, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形（種族 70/100/70/105/75/40），重算全部吻合。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。字幕：速度加到比芳香精快（原形 65 vs 44），讓空間下芳香精先假哭/輔助、噴火駝再輸出；Mega 後速度種族值降為 20。",
+        "moves": [
+          { "value": "噴火", "value_en": "Eruption", "confidence": 0.98, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "大地之力", "value_en": "Earth Power", "confidence": 0.98, "source": "frame" },
+          { "value": "原始之力", "value_en": "Ancient Power", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍核心、選出率 100%。Mega 後特性為強行（Sheer Force，字幕/投影片）：失去附加效果換 30% 增傷，本系技能多數可觸發，強行熱風只比滿血噴火低一點；多帶地面本系（大地之力）剋火/岩，強行原始之力保證秒殺噴火龍。同時帶噴火與熱風是因為不想賭熱風命中。四倍弱水，必須保住晴天或尾甲才能輸出。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 981, "name_zh": "奇麒麟", "name_en": "Farigiraf", "form": null, "confidence": 0.99 },
+        "nickname": "可靠的脖子",
+        "gender": "M",
+        "ability": { "value": "尾甲", "value_en": "Armor Tail", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "刺耳果", "value_en": "Colbur Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "悠閒", "value_en": "Relaxed", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 22, "spa": 0, "spd": 12, "spe": 0, "confidence": 0.95, "source": "frame" },
+        "stats": { "hp": 227, "atk": 110, "def": 123, "spa": 130, "spd": 102, "spe": 72, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）。HP 滿、防禦 22、特防 12，數值重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "精神強念", "value_en": "Psychic", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" },
+          { "value": "幫助", "value_en": "Helping Hand", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "必備空間手：尾甲擋住幽尾玄魚水流噴射等先制技，是任何噴火駝隊的必要配置。道具必須是抗惡果（刺耳果）才不用面對班基拉斯首發猜拳；抗惡果 + 隊友廣防讓他不怕岩崩畏縮也難被惡系打死。帶守住是因為通常奇麒麟不帶守住，可多一個逼對面猜的機會：第一回合守住躲挑釁/爆發，隊友先打殘對面，第二回合再安全開空間。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 518],
+      "frames_used": 5,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 噴火駝（強行）為核心的重空間隊，雙空間手為奇麒麟（尾甲必備，擋水流噴射）與芳香精（純妖精、手動大晴天、假哭、芳香幕防挑釁），再加袋獸擊掌奇襲保證開場、洗翠冰岩怪作為低速冰/岩/格鬥補盲輸出兼廣防手，艾路雷朵則是空間外的高速格鬥/草清場手。常見首發：冰岩怪+奇麒麟、袋獸+芳香精或奇麒麟、艾路雷朵+奇麒麟；面對空間隊則首發艾路雷朵+袋獸或噴火駝。噴火駝選出率 100%。弱點：噴火駝四倍弱水，必須保住晴天或尾甲；重空間隊常需猜拳（首發組合、第一回合點法），且隊上無掩護手，第二輪空間較難開，需提前規劃第六/七回合的清場或二次開空間。",
+    "extracted_at": "2026-11-08T15:59:36Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
