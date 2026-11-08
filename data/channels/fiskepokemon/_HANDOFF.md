@@ -1,14 +1,14 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-08 18:00（10 隊入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+> 最後更新：2026-11-08 23:30（主表 336/679 完整；10 隊入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
 ## 現況（2026-11-08 17:30）
 
 | 項目 | 狀態 | 位置 |
 |---|---|---|
 | 頻道清單（679 支） | ✅ | `raw/channel-index.json`、`raw/ids.txt` |
-| 逐支 metadata / 字幕抓取 | 🟡 第一輪跑完：214 成功、~280 會員限定、**~187 支被 YouTube 速率限制擋下（「無法播放」）**，需用更慢速率重跑（已排 20 分鐘後自動重試一次；若仍缺，隔幾小時再 `--sleep-interval 10 --max-sleep-interval 20`） | `raw/*.info.json`、`raw/*.zh-TW.json3`、`raw/errors.log` |
+| 逐支 metadata / 字幕抓取 | 🟡 兩輪後：336 成功、275 會員限定、69 仍失敗（多為「無法播放」速率限制 + 少數私人影片）。已排 1 小時後第三輪（更慢）；若仍缺，隔天再跑 `--sleep-interval 12 --max-sleep-interval 25` |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
 | 隊伍抽取 teams/<id>.json | 🟡 **10 完成**（validate 0 ERR），其餘約 13 支公開 Champions 對戰影片待做 | `teams/*.json` |
