@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-b",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Wolfey",
-    "author_source": "pokepaste",
+    "tags": [
+      "perish-trap",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "處理振翼髮的關鍵：太晶水噴射拳不變身即可重創，近身戰＋嬉鬧可保證擊殺仆斬將軍；252 物攻主輸出之一。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二個滅歌手，驅勁能量加速讓第一回合先手集火振翼髮；加了 60 點物攻，嬉鬧可秒轟鳴月、補傷害。使用率極低但表現亮眼。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "252 特攻主輸出，全隊打擊面最好但耐久極低。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "蘑菇孢子、憤怒粉佈局，為滅歌爭取時間。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇之外負責秒賽富豪：252 物攻爽朗性格，閃焰衝鋒連 244 HP 加物防的賽富豪都能滿血秒殺。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌隊核心：踩影把對方留在場上唱死；系列二克制他的假面喵、賽富豪、三首惡龍、仆斬將軍使用率下降，anti-meta 能力更強。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "2016 世界冠軍 Wolfe Glick（Wolfey）用這支純滅歌隊拿下史上最大規模的 Orlando 地區賽冠軍，靈感可能來自 MrBurns 的線上賽冠軍隊，但把鐵臂膀換成吼叫尾、變成兩個滅歌手。基本策略：唱完滅亡之歌後靠哥德小姐踩影把對方留在場上，我方換下拖滿三回合；踩不住幽靈系、折返技、退場道具與對方踩影時，就由高火力的海豚俠、振翼髮、風速狗（皆 252 輸出）直接打死，不唱歌也能贏。亮點是太晶水海豚俠不用變身就能噴射拳重創對方常見首發振翼髮，配合驅勁能量吼叫尾第一回合集火先手秒掉；252 物攻爽朗風速狗專門秒賽富豪。選出極為彈性，幾乎任兩人都可首發，操作空間大但上手難度高。弱點：幽靈與折返技多的隊伍、加耐久或太晶草的振翼髮、火力極高的 HO 隊，以及打擊面窄（風速狗與海豚俠單屬性物攻），防禦太晶的猛惡菇幾乎能打穿全隊。",
     "extracted_at": "2026-11-08T16:37:57.699Z",
     "extracted_by": "import-pokepaste-v1"
   }

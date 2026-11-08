@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "tournament-team",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "ゴリケン教官",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限速度葉綠素物攻手：晴天下翻倍速度，太晶一般捨身衝撞保證秒不加耐久的古玉魚，葉刃先手秒海豚俠；特防剛好扛一發眼鏡振翼髮魔法閃耀。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速特攻手，電磁波輔助控速；太晶冰後電＋冰打擊面佳，依對面隊伍選用。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限物防坦，專打吃吼霸、海豚俠、快龍；儲水免疫水、冰凍光束打快龍，太晶冰可完封鐵包袱；哈欠與仙布組雙哈欠逼退強化手。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限零速（空間下仍可先出手），巨聲主輸出與哈欠；與魚伊布同出可先手秒一家鼠或振翼髮。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍重要角色：講究圍巾，手動開晴天給葉布加速、放大仙布與雷布輸出；太晶火過熱秒一家鼠、配合電光一閃先手秒振翼髮。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "家族最高綜合耐久，黑色眼鏡欺詐打物攻手（太晶惡欺詐可打 252 HP 海豚俠約 90%），對特攻手用大聲咆哮。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者ゴリケン教官用這支全伊布「真愛隊」通過日本全國賽海選，證明冷門主題隊也能在 meta 隊伍環伺下拿到資格。隊伍沒有單一控速軸心，而是靠伊布家族各自的 combo：魚伊布（古玉魚）手動晴天讓葉綠素葉布翻倍速度先手秒人，或搭配仙布／雷布放大輸出；水布與仙布雙哈欠逼退強化手與空間隊；雷布電磁波輔助控速。月布靠家族最高耐久加黑色眼鏡欺詐打物攻手，水布極限物防專打吃吼霸、海豚俠、快龍。常見首發如魚伊布＋仙布對棄世猴／一家鼠（太晶火過熱秒一家鼠），或圍巾過熱＋電光一閃先手秒振翼髮。弱點（Fiske 未單獨列出）：伊布家族整體種族值偏低，依賴 combo 成立。",
     "extracted_at": "2026-11-08T16:37:52.429Z",
     "extracted_by": "import-pokepaste-v1"
   }

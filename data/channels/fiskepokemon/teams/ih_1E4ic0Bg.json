@@ -10,9 +10,10 @@
     "regulation_set_id": "sv-reg-b",
     "regulation_source": "date-inferred",
     "tags": [
-      "sun"
+      "sun",
+      "tailwind"
     ],
-    "tags_source": "title",
+    "tags_source": "subtitle",
     "author": "1st Time Battler",
     "author_source": "pokepaste",
     "members": [
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主角一：風力發電被風技打到後電技威力兩倍；內斂順風速度 354，電球對低速對手可打到 150 威力。脆皮、特攻 105 偏低。"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主角二：乘風免疫風技並每次 +1 物攻，靠隊友順風與妖精之風堆攻；講究頭帶＋晴天＋太晶爆發，+2 後秒殺幾乎所有不抗火的人。"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限火力古代種，晴天提升物攻；被妖精之風觸發弱點保險後用高速地震清場，也是怖納噬草倒下後的後備輸出。"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天的工具人：避難背包搭配後手過熱直接退場保護後排；太晶飛行可配合地震。晴天過熱亦可秒特防不高的人。"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "關鍵輔助：葉綠素晴天下極快，順風、催眠粉、憤怒粉、花粉團齊全；低威力妖精之風專門用來觸發乘風、風力發電與弱點保險。"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限火力古代種，晴天提升特攻，進攻性太晶後魔法閃耀威力遠超一般眼鏡振翼髮；後排清場手。"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "隊伍主軸是「風類技能」：帶了順風、暴風、熱風與罕見的妖精之風，用來同時觸發怖納噬草的乘風（免疫風技並每次 +1 物攻）、大電海燕的風力發電（充電後電技威力兩倍）與雄偉牙的弱點保險。典型節奏是第一回合開順風，第二回合毽子棉妖精之風打自己人，+2 講究頭帶怖納噬草在晴天下的太晶爆發幾乎秒殺所有不抗火的人；就算怖納噬草倒下，後排極限火力的雄偉牙與振翼髮也能在晴天順風下用地震、魔法閃耀清場。煤炭龜是開晴天的工具人（避難背包＋後手過熱退場）。最穩的首發是煤炭龜＋毽子棉（順風／催眠粉＋過熱後換出後排）或毽子棉＋大電海燕（順風＋電球，對速度低於 88 的人電球打到 150 威力）。Fiske 未在此段單獨列弱點。",
     "extracted_at": "2026-11-08T16:37:55.600Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "alderbw",
-    "author_source": "pokepaste",
+    "tags": [
+      "balance",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "panda",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高火力物攻核心，與古劍豹組成核心；靠盾菇、風速狗與多龍巴魯托急速折返輪轉，一回合變身後上場輸出。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主軸：災禍之劍全場降 25% 物防，讓多龍巴魯托與海豚俠傷害拉高。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "本集主角：講究頭帶龍箭靠古劍豹加成打出傷害；鋼系太晶爆發秒古劍豹與振翼髮，急速折返打古簡蝸、猛惡菇並幫海豚俠換上。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輔助海豚俠輪轉的常見配置。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇輔助，幫海豚俠輪轉的常見配置。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "萬用特攻手，平衡隊伍物攻手過多的問題。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 panda 用這支多龍巴魯托＋海豚俠的平衡隊拿下規則 C 第一場主要比賽的冠軍（pokepaste 名稱為 Fort Wayne）。隊伍圍繞古劍豹的災禍之劍，搭配海豚俠與多龍巴魯托兩個高火力物攻手，再以盾菇與風速狗輔助海豚俠輪轉，最後放一隻萬用振翼髮平衡物攻過多的問題；古劍豹＋海豚俠是 Fiske 介紹過的常見核心。多龍巴魯托在規則 C 變強的原因：古劍豹全場降 25% 物防讓講究頭帶龍箭打出可觀傷害，加上鐵包袱使用率下降、振翼髮與古劍豹速度皆 135，速度優勢得以發揮；鋼系太晶爆發可秒沒氣勢披帶的古劍豹與振翼髮。Fiske 表示這類平衡隊玩法大家都熟，未多談選出與弱點。",
     "extracted_at": "2026-11-08T16:37:53.479Z",
     "extracted_by": "import-pokepaste-v1"
   }

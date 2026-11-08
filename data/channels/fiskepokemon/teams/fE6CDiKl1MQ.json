@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 12986698",
-    "author_source": "pokepaste",
+    "tags": [
+      "rain",
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
+    "author": "NVM",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速雨天模式首發：開雨天，重力下水砲變 165 威力滿命中。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "雨天高速物攻手：太晶水講究頭帶波動衝威力極高，連洗衣機都扛不住；速度僅加 4 點（136）剛好超極速斗笠菇，不算快。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍核心：重力、催眠術、戲法空間，重踏觸發電肚蛙弱點保險；特性耐熱、太晶地面配合電肚蛙拋物面充電。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間模式主輸出：弱點保險＋電力轉換四倍打雷連抗電都能秒，重力下打雷與濁流滿命中、不怕廣防；拋物面充電邊打邊回血續航佳。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "逃脫按鍵：第一回合憤怒粉掩護青銅鐘開空間，退場蹭再生力並彈出電肚蛙；也是雨天隊的常見成員。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠配置專門處理烈咬陸鯊（先制冰礫穩定秒 252 HP 烈咬陸鯊，亦可秒快龍、暴飛龍）；114 速度與空間內外都不太合，也是唯一打得動海兔獸的人。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "日本玩家 NVM 以此隊在第一賽季最後一天打到排位第 20 名，Fiske 稱之為系列一最完整的重力雨天隊。兩種模式：大嘴鷗＋浮潛鼬的高速雨天模式，與青銅鐘＋電肚蛙的空間模式。核心是青銅鐘的重力：命中率提升 66% 讓催眠術變 100%（且不被草系／防塵鏡免疫，等於強化版蘑菇孢子），電肚蛙的打雷、濁流與大嘴鷗的雨天水砲也變滿命中；青銅鐘重踏觸發電肚蛙弱點保險加電力轉換打出四倍打雷。基本首發：對面不順風且抗水少時，大嘴鷗＋浮潛鼬先靠高速波動衝、攀瀑解決一兩人再換青銅鐘＋電肚蛙；對面不開空間且威脅不到青銅鐘時，青銅鐘＋盾菇守住或憤怒粉開空間再彈出電肚蛙與戟脊龍。弱點：輸出幾乎都是電與水，引水海兔獸只有戟脊龍打得動；生命寶珠戟脊龍遇太晶鋼／太晶地面烈咬陸鯊不穩；太晶草／龍帶地震與解睡果的吃吼霸難打。",
     "extracted_at": "2026-11-08T16:57:53.353Z",
     "extracted_by": "import-pokepaste-v1"
   }

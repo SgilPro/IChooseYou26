@@ -9,8 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-b",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "balance",
+      "intimidate",
+      "icy-wind"
+    ],
+    "tags_source": "subtitle",
     "author": "FENIX",
     "author_source": "pokepaste",
     "members": [
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第一主角：講究圍巾後速度 237，唯一同時有威嚇＋拋下狠話的高速輔助，先手降對面雙攻；急速折返破氣勢披帶或打自己弱點保險，順風控速，搏命換掉 HP 不高的人。"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二主角：講究頭帶 134 物攻爆發輸出，在隊友冰凍之風控速後足以超速；飛行系太晶爆發一發秒棄世猴。比班基拉斯快、不開沙暴砸自己，且少見難預判。"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "最關鍵的冰凍之風控速手；環境草系輸出少所以抗性極佳、場上存活久；太晶火可完封鐵包袱但缺克制技。"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險模式核心：被怒鸚哥急速折返觸發後廣域戰力輸出；+2 可直接秒仆斬將軍。速度 104，碎裂鎧甲一次超速鐵包袱。"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險模式的搭檔（看我嘛掩護／精神場地）；與紅蓮鎧騎是全隊僅有不弱冷凍乾燥的兩人。"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "草系補充打擊面，可與鐵包袱互相克制但太晶後仍弱冰；減速性格、速度實際值 67，空間下不算特別慢。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "FENIX 的隊伍有兩種模式：怒鸚哥＋鐵荊棘＋海兔獸的平衡模式（本集主講），以及怒鸚哥＋紅蓮鎧騎＋愛管侍的弱點保險模式（首發威嚇、急速折返打自己弱點保險後廣域戰力無腦輸出，常能 4-0）。平衡模式核心是怒鸚哥的高速威嚇＋拋下狠話快速削弱物攻手，加上海兔獸冰凍之風控速後，講究頭帶鐵荊棘就能超速全場，飛行太晶爆發可一發秒棄世猴，且因鐵荊棘極少見對手難以預判。隊伍非常克制物攻隊，尤其雄偉牙／烈箭鷹／班基拉斯順風隊與鐵臂膀、風速狗、海豚俠、盾菇平衡隊。弱點：不好打特攻手，四人弱冷凍乾燥所以最怕鐵包袱；後排仆斬將軍蹭到冰凍之風 +2 後除了紅蓮鎧騎幾乎打不動。",
     "extracted_at": "2026-11-08T16:37:54.563Z",
     "extracted_by": "import-pokepaste-v1"
   }

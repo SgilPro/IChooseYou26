@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "1st Time Battler",
-    "author_source": "pokepaste",
+    "tags": [
+      "setup",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Weedle Twineedle",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：舞者跟著隊友劍舞、龍舞、流水旋舞等強化；太晶水，雜技配文柚果（吃掉後威力 110），可開替身自己吃果。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心搭檔：劍舞、羽毛舞、流水旋舞三個跳舞技都能觸發花舞鳥，流水旋舞輸出兼加速後兩人一起水流連打。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "同台共演白嫖隊友的能力上升，開順風或廣域防守當輔助。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "逃脫按鍵：憤怒粉吸引火力後彈回蹭再生力，同時彈出花舞鳥。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輔助：拍人幫隊友強化、手動開雨天加強流水旋舞，或影子偷襲打自己人觸發弱點保險。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "幫花舞鳥跳龍舞的強化手；可與勾魂眼影子偷襲觸發弱點保險輸出。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "跳舞大隊上集的物攻版，隊伍來自 YouTuber Weedle Twineedle。核心是物攻花舞鳥與狂歡浪舞鴨：浪舞鴨的劍舞、羽毛舞、流水旋舞三個跳舞技都會觸發舞者，花舞鳥跟著強化後兩人一起踢太晶水的水流連打；多龍巴魯托可幫花舞鳥跳龍舞，勾魂眼拍人幫隊友強化、手動開雨天加強流水旋舞或用影子偷襲打自己人觸發弱點保險。花舞鳥唯一本系物攻技是雜技，故帶文柚果吃掉後威力 110；纏紅鶴同台共演白嫖強化並開順風、廣防，逃脫按鍵盾菇憤怒粉吸火後彈出花舞鳥。首發組合很多（花舞鳥＋浪舞鴨／多龍直接強化、盾菇彈出花舞鳥、勾魂眼開雨天等）。弱點：高度依賴強化，非常怕黑霧（黑暗鴉、耿鬼、水伊布）與純樸（吃吼霸、巨聲鱷）；全隊耐久偏低、疊速前難打假面喵與順風隊；攻擊技少，前兩回合滾不起雪球就可能投降。",
     "extracted_at": "2026-11-08T16:57:54.386Z",
     "extracted_by": "import-pokepaste-v1"
   }

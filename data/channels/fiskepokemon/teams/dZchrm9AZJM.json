@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "1st Time Battler",
-    "author_source": "pokepaste",
+    "tags": [
+      "setup",
+      "meme-gimmick",
+      "sun"
+    ],
+    "tags_source": "subtitle",
+    "author": "Weedle Twineedle",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：舞者特性跟著隊友的蝶舞、花瓣舞等起舞；覺醒之舞屬性隨第一屬性（幽靈）或太晶（火）變化，與纏紅鶴打仿效覺醒之舞 combo；速度 244 剛好快過纏紅鶴。"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "同台共演蹭強化後用仿效複製覺醒之舞（太晶格鬥）；特攻只有 75，沒強化時輸出很低，故帶快速防守與廣域防守兼作輔助。"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特攻版核心搭檔：蝶舞與火舞觸發花舞鳥跟舞，火舞連打兩下有機會 +1 特攻；帶憤怒粉可掩護煤炭龜破殼。"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "複眼讓催眠粉命中 97.5%、暴風 91%，速度 89 不慢；需要睡人或打暴風時選用，憤怒粉可掩護煤炭龜。"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天雙人組之一：葉綠素翻倍速度打您先請噴火，蝶舞／花瓣舞讓花舞鳥跟舞，花粉團先手秒假面喵或補血；花瓣舞雙打難控制。"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天觸發裙兒小姐葉綠素；特別帶破殼，在憤怒粉掩護下 +2 後噴火幾乎能秒抗火的人。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "跳舞大隊下集的特攻版，核心是花舞鳥與火神蛾：火神蛾蝶舞與火舞（50% 提升特攻）會讓舞者花舞鳥跟著跳，花舞鳥因此選太晶火配合火神蛾輸出。纏紅鶴用同台共演蹭隊友強化，並以仿效複製覺醒之舞，速度調成花舞鳥（244）剛好快過纏紅鶴（252），打出幽靈→飛行→幽靈連續覺醒之舞，太晶後屬性隨之切換；彩粉蝶靠複眼把催眠粉命中拉到 97.5%、暴風 91%。煤炭龜＋裙兒小姐是晴天雙人組的次要模式：晴天葉綠素裙兒小姐高速您先請噴火，破殼煤炭龜在火神蛾／彩粉蝶憤怒粉掩護下強化後幾乎秒殺一切。弱點很明顯：非常怕順風、黑霧與純樸（吃吼霸幾乎打不動）、整隊弱岩石（順風岩崩烈咬陸鯊兩人就能打穿）、全特攻手難打仙布等高特防。Fiske 認為物攻版比特攻版穩定。",
     "extracted_at": "2026-11-08T16:37:59.771Z",
     "extracted_by": "import-pokepaste-v1"
   }

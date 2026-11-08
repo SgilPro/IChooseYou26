@@ -60,7 +60,9 @@ function checkField(where, f, table, label) {
   if (f.confidence != null && (f.confidence < 0 || f.confidence > 1)) err(`${where}: ${label}.confidence 超界`);
   if (f.value && f.value_en) {
     const exp = expectedEn(table, f.value);
-    if (exp && exp.toLowerCase() !== String(f.value_en).toLowerCase()) err(`${where}: ${label}「${f.value}」查表應為「${exp}」，但填了「${f.value_en}」`);
+    // 比對用 Showdown 式 id（去掉非英數，忽略彎/直引號差異，如 Dragon’s Maw vs Dragon's Maw）
+    const toId = (x) => String(x).toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (exp && toId(exp) !== toId(f.value_en)) err(`${where}: ${label}「${f.value}」查表應為「${exp}」，但填了「${f.value_en}」`);
   }
   if (f.value_en) {
     const x = dex[table].get(f.value_en);

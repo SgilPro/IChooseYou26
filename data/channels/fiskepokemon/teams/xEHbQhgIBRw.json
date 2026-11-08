@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "trick-room",
+      "setup",
+      "screens",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "성재",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "關鍵輔助：空間下先手清除之煙清掉吃吼霸的全能力 +2 讓隊友趁機強化；空間結束後上場用憤怒粉掩護強化後的賽富豪或鐵臂膀。不是零速。"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "長毛巨魔模式下的輸出手，強化後推隊；加了一點速度。"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心二的輔助手：光牆、反射壁、拋下狠話把節奏拖慢，開空間後拋出後排古鼎鹿或鐵臂膀；專門反制古玉魚、振翼髮、鐵包袱等高速特攻。"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下主輸出之一，劍舞搭配號令可一回合 +4；加了較多物防以對抗風速狗等威嚇手，也加了一點速度。"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心一：空間下用號令讓古鼎鹿或鐵臂膀連打兩次技能，或連跳兩次劍舞（+4）；號令重複的是對象上一次用的技能，空間外也可用；速度調到剛好比鐵臂膀快 1。帶再來一次懲罰守住拖空間的人。"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下主輸出之一，全隊最慢；配合號令地震可打出雙倍地震。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者성재以這支智揮猩重空間強化隊拿下韓國全國賽第 13 名並取得世界賽資格，Dominique Johnson 後來也用同隊在 Hartford 地區賽打進前八。Fiske 強調這不是傳統重空間隊，而是「重空間的強化隊」：三個純輔助手（智揮猩、長毛巨魔、盾菇）搭配三個輸出手，靠光牆、反射壁、拋下狠話與全隊高耐久把節奏拖慢，開空間常只是逼對面守住或換人，當作強化的手段。兩種主要 combo：智揮猩＋古鼎鹿或鐵臂膀，空間下用號令讓隊友連打兩次（或抓守住回合連跳兩次劍舞等於 +4），再來一次可懲罰拖空間的守住；長毛巨魔＋賽富豪或鐵臂膀，用光牆、拋下狠話加空間反制古玉魚、振翼髮、鐵包袱等高速特攻手。盾菇的清除之煙是反吃吼霸（純樸）的關鍵。弱點：耐久型隊伍最怕一擊必殺與擊中要害，開好雙牆仍可能被秒。",
     "extracted_at": "2026-11-08T16:37:51.385Z",
     "extracted_by": "import-pokepaste-v1"
   }

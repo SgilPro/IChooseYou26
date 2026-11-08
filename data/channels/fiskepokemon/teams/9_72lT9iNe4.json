@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 2904826",
-    "author_source": "pokepaste",
+    "tags": [
+      "follow-me",
+      "setup",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "さしす",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主角：在憤怒粉／看我嘛掩護下聚氣後，流星群與太晶火熱風每發必定擊中要害（無視特攻下降、防禦上升與雙牆）；內斂極限特攻，可能比對方三首惡龍慢。"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常見輔助手（惡作劇之心順風等），額外帶詭計在空檔強化。"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常見物攻手，額外帶劍舞在空檔強化。"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常見特攻手，額外帶詭計在空檔強化。"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛掩護三首惡龍聚氣；為了扛傷害分了不少努力值到 HP。"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "憤怒粉與蘑菇孢子掩護三首惡龍聚氣與隊友強化。"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "日本選手さしす用這支隊伍在 VGC 線上賽以 5 勝 0 敗奪冠。乍看是滿地都是的 meta 隊，核心卻是靠盾菇的憤怒粉、蘑菇孢子與一家鼠的看我嘛掩護三首惡龍開一次聚氣，之後每發流星群與太晶火漂浮的本系熱風都 100% 擊中要害，無視自己特攻下降、對方防禦上升與雙牆，Fiske 戲稱為「刺龍王帕底亞的樣子」。因為有兩個吸引火力的輔助手，黑暗鴉、烈咬陸鯊與賽富豪全帶劍舞或詭計，沒事做時就強化。弱點：熱風與流星群命中只有 90%，沒帶噴射火焰，看臉成分高；內斂極限特攻三首惡龍可能比對方的慢，一家鼠為扛傷害分了不少 HP。",
     "extracted_at": "2026-11-08T16:38:01.870Z",
     "extracted_by": "import-pokepaste-v1"
   }

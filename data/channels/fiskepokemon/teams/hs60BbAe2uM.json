@@ -1,0 +1,474 @@
+[
+  {
+    "id": "team_hs60BbAe2uM",
+    "name": "故勒頓 假高速真空間隊",
+    "name_source": "title",
+    "video_id": "hs60BbAe2uM",
+    "video_url": "https://www.youtube.com/watch?v=hs60BbAe2uM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "restricted",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "onsoni",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1007,
+          "name_zh": "故勒頓",
+          "name_en": "Koraidon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "緋紅脈動",
+          "value_en": "Orichalcum Pulse",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "老千骰子",
+          "value_en": "Loaded Dice",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。",
+        "moves": [
+          {
+            "value": "全開猛撞",
+            "value_en": "Collision Course",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鱗射",
+            "value_en": "Scale Shot",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心（單神）。一般故勒頓綁清淨墜飾怕威嚇，這隊是重空間隊、基本不首發，所以改帶老千骰子＋鱗射，空間結束後靠鱗射加速維持先手，排位也能騙人。被白馬王壓制，靠鐸拉戈與風速狗處理。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "氣勢披帶空間手；0 速配置，對手以為是高速晴天 HO 而首發順風等控速時反被騙。與故勒頓、古玉魚、猛雷鼓屬性/特性 synergy 好，是一開始就定好的四隻之一。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "0 速特攻手，空間下輸出；密探斗篷。一開始就定好的四隻之一。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1021,
+          "name_zh": "猛雷鼓",
+          "name_en": "Raging Bolt",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。",
+        "moves": [
+          {
+            "value": "迅雷",
+            "value_en": "Thunderclap",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "生命寶珠特攻手；字幕提到白馬王若太晶水會弱猛雷鼓。一開始就定好的四隻之一。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": "Hisui",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。 畫面屬性圖示火＋岩石、字幕明說「洗翠風速狗」，故為洗翠的樣子。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "雙刃頭錘",
+            "value_en": "Head Smash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "白馬王 counter：白馬王弱岩石、太晶火後仍弱岩崩；太晶水是因為白馬王不好打純水系，能更穩定在空間下對打（字幕＋畫面太晶水一致）。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 895,
+          "name_zh": "雷吉鐸拉戈",
+          "name_en": "Regidrago",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "龍顎",
+          "value_en": "Dragon’s Maw",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.8,
+          "source": "subtitle"
+        },
+        "stats": null,
+        "stats_note": "字幕：全隊都是 0 速、性格減速度（具體性格未顯示）。畫面隊伍表無能力值/努力值頁，其餘努力值不明。 黑色鐵球再讓速度減半。",
+        "moves": [
+          {
+            "value": "巨龍威能",
+            "value_en": "Dragon Energy",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "黑色鐵球鐸拉戈，白馬王 counter：空間下噴龍系技能打白馬王（與先前固拉多重力催眠隊同概念）；這隊自己會開空間所以更適合。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        170
+      ],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "作者 onsoni（畫面顯示 おんそに，租借隊伍 ID NWNL08），6 月賽季結算第 24 名。看似故勒頓＋振翼髮＋古玉魚＋猛雷鼓的高速晴天 HO，實際上六隻全部 0 速、減速性格的空間隊：對手常首發順風手等控速輔助，反而難阻止振翼髮開空間，空間下蹭對面順風反打。故勒頓被白馬王壓制，故加入黑色鐵球雷吉鐸拉戈（空間下噴龍）與太晶水洗翠風速狗（岩崩／純水系）針對白馬王。故勒頓不首發、不怕威嚇，改帶老千骰子鱗射在空間結束後靠加速維持先手。",
+    "extracted_at": "2026-11-08T17:03:32.449Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
+  }
+]

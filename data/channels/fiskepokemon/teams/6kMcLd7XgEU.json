@@ -1,0 +1,416 @@
+[
+  {
+    "id": "team_6kMcLd7XgEU",
+    "name": "晴天妙蛙花 & 空間多邊獸Ⅱ 高低速隊",
+    "name_source": "title",
+    "video_id": "6kMcLd7XgEU",
+    "video_url": "https://www.youtube.com/watch?v=6kMcLd7XgEU",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "sun",
+      "trick-room",
+      "restricted",
+      "tournament-team",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Robbie",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1007,
+          "name_zh": "故勒頓",
+          "name_en": "Koraidon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "緋紅脈動",
+          "value_en": "Orichalcum Pulse",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "全開猛撞",
+            "value_en": "Collision Course",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蓄能焰襲",
+            "value_en": "Flame Charge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊上唯一的限制級傳說，提供晴天與高速火力；蓄能焰襲邊打邊加速，是不依賴順風的高速核心。但對黑馬王／白馬王／密勒頓體系先天不利，字幕說這些對局常不選出，選出率不高。隊伍表名稱欄被頻道浮水印遮住，依立繪與招式判讀為故勒頓。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 3,
+          "name_zh": "妙蛙花",
+          "name_en": "Venusaur",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "葉綠素",
+          "value_en": "Chlorophyll",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：晴天速度翻倍後快過悖謬以外幾乎所有人；數值未顯示。",
+        "moves": [
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "打草結",
+            "value_en": "Grass Knot",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "催眠粉",
+            "value_en": "Sleep Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "晴天葉綠素高速催眠粉手；草＋毒剛好幫故勒頓補盲（草打水系、毒打妖精系），空間下也能先手克制太晶妖精的黑馬王／密勒頓。缺點是催眠粉命中率。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊",
+          "name_en": "Ursaluna",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "毅力",
+          "value_en": "Guts",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火焰寶珠",
+          "value_en": "Flame Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：速度頂多與白馬王同速，空間下可先手。",
+        "moves": [
+          {
+            "value": "硬撐",
+            "value_en": "Facade",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "突飛猛撲",
+            "value_en": "Headlong Rush",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "替身",
+            "value_en": "Substitute",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "原版（一般／地面）月月熊，空間低速打手：一般系免疫星碎、地面系讓密勒頓難鎖技。最怕咆哮虎與轟擂金剛猩，由故勒頓／古玉魚／妙蛙花補上。太晶幽靈依隊伍表圖示判讀（部分影格被立繪遮擋）。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 233,
+          "name_zh": "多邊獸Ⅱ",
+          "name_en": "Porygon2",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "下載",
+          "value_en": "Download",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "進化奇石",
+          "value_en": "Eviolite",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間手兼耐久核心：一般系免疫星碎、太晶地面免疫電招讓密勒頓難鎖技，自我再生耐久極高可把空間拖完或開回來。字幕與畫面都確認太晶地面。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "晴天特攻火力與惡系（抵抗星碎）；壓制轟擂金剛猩。字幕強調熱風／過熱容易 miss，是隊伍命中率問題的來源之一。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1021,
+          "name_zh": "猛雷鼓",
+          "name_en": "Raging Bolt",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "迅雷",
+            "value_en": "Thunderclap",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "突擊背心古代活性特攻手，晴天下獲得加成；字幕介紹段未特別提及其定位，配置全依隊伍表。",
+        "stats": null,
+        "gender": "N"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        230
+      ],
+      "frames_used": 7,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為 SV 遊戲內隊伍一覽（f_005～f_029 連續出現，含隊伍 ID 48JFFG），六隻的特性／道具／四招／太晶圖示用 f_005、f_010、f_012、f_015、f_017、f_027、f_029 互補讀出（立繪疊圖輪流遮擋）。slot 1 名稱欄被頻道浮水印遮住，依立繪／招式判讀。無努力值／性格／數值畫面，evs/nature/stats 皆 null。規則依發布日 2024-08-16 推為 Reg G（字幕亦稱「單神戰」）。",
+    "notes": "2023 世界賽少年組亞軍 Robbie 的規則 G 單神隊，曾在 Victory Road 大型線上賽拿到八強，是朱紫迄今成績最好的妙蛙花隊。兩個 core：晴天故勒頓＋葉綠素妙蛙花的高速組合（催眠粉、蓄能焰襲加速，不依賴順風），以及多邊獸Ⅱ＋原版月月熊的空間低速組合（一般系免疫星碎、太晶地面／地面系讓密勒頓難鎖技），用來補故勒頓先天不利的黑馬王、白馬王、密勒頓體系；對這些對局常乾脆不選故勒頓，選出彈性很大。故勒頓＋月月熊互補：月月熊最怕的咆哮虎與轟擂金剛猩都被故勒頓／古玉魚／妙蛙花壓制。最大弱點是命中率：古玉魚的熱風與妙蛙花的催眠粉都容易 miss，字幕稱輸掉的場次一半以上是因 miss。",
+    "extracted_at": "2026-11-08T17:03:48.555Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
+  }
+]
