@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-f",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "SableyeVGC",
-    "author_source": "pokepaste",
+    "tags": [
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Ryan",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "combo 發動者：快手還擊打自家快龍觸發弱點保險；避雷針、幫助、電網控速"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險＋太晶一般，被快手還擊後第一回合打出雙倍威力、先制 +2 的神速"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "處理純樸吃吼霸等 +2 快龍打不動的對象"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心專打岩／鋼／幽靈首發（振翼髮、賽富豪、古劍豹、席多藍恩），大聲咆哮應付空間隊"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "處理純樸吃吼霸等 +2 快龍打不動的對象"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "挑釁阻止奇麒麟開空間，也負責打吃吼霸"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Ryan 在一場 150 人線上賽用這隊拿到四強，核心是一個單純又特別的 combo：DLC 新技快手還擊（先制 +3、必畏縮，但只對點先制攻擊且比自己慢的目標成功）平常幾乎沒人帶，但反過來用它打自家精神力的快龍不會畏縮，讓帶弱點保險、太晶一般的快龍在第一回合打出雙倍威力且先制 +2 的神速。快手還擊使用者選雷丘，因為物攻低不會把隊友打死，又有避雷針（猛雷鼓、鋁鋼橋龍常見）、幫助與電網。基本首發是雷丘＋快龍，其餘隊友負責第一回合點不出神速的情況：對面首發岩／鋼／幽靈（含太晶幽靈）就靠背心炎帝打振翼髮、賽富豪、古劍豹、席多藍恩；對面有奇麒麟／愛管侍就靠炎帝大聲咆哮與振翼髮挑釁；對面有純樸吃吼霸就靠厄鬼椪、古劍豹與振翼髮。combo 依賴太晶所以隊友不能太依賴太晶；屬於地雷 combo，成功就爽，不要期待打贏任何隊伍。",
     "extracted_at": "2026-11-08T16:37:25.170Z",
     "extracted_by": "import-pokepaste-v1"
   }

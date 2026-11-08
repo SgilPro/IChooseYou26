@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-f",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 9598375",
-    "author_source": "pokepaste",
+    "tags": [
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
+    "author": "Otsubo Ryota",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：精神力不怕威嚇與擊掌，先制子彈拳克振翼髮、近戰克咆哮虎，鋼系免疫隊友污泥波"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "強力香草流星光束一發秒咆哮虎與龍捲雲，污泥波與路卡利歐聯攻克厄鬼椪"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間手，與月月熊組成免疫地面的空間核心"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下輸出手，免疫地面聯防"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "混空間隊，補武道熊師水、惡等重要抗性；鐵毒蛾幫他打天敵"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "結實掩護隊友開空間或空間下輸出，岩系補鐵毒蛾熱風打不動的水、火、岩、龍"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Otsubo Ryota 圍繞路卡利歐組隊。環境使用率前三是振翼髮、水厄鬼椪與咆哮虎及其延伸的平衡隊；路卡利歐精神力不怕威嚇與擊掌，先制子彈拳克振翼髮、近戰克咆哮虎，又不弱厄鬼椪。搭檔鐵毒蛾靠 DLC 新技流星光束＋強力香草瞬間發射秒咆哮虎與龍捲雲，而且唯一的毒系技污泥波會打到隊友，恰好鋼系路卡利歐免疫，毒系又克厄鬼椪，兩人聯攻同時克制前三名 core。兩人同弱地面，所以搭配免疫地面的克雷色利亞＋月月熊空間組合（規則 D 初期流行，現在平衡隊拖空間能力變強，但路卡利歐＋鐵毒蛾正好克制這些平衡隊，兩個 core 的 synergy 在此）。岩厄鬼椪結實掩護開空間或空間下輸出，並補鐵毒蛾熱風打不動的水、火、岩、龍中的三種；西獅海壬適合混空間隊並補武道熊師的水、惡抗性。乍看抽象但玩幾場就會覺得合理。",
     "extracted_at": "2026-11-08T16:37:23.064Z",
     "extracted_by": "import-pokepaste-v1"
   }

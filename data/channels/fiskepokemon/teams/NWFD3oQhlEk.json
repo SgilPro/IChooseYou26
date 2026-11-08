@@ -9,8 +9,10 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske Pokémon",
     "author_source": "channel",
     "members": [
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "引火免疫火並強化火技，噴煙／廣域戰力／熱風的空間特攻核心，生命寶珠太晶草"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "焦香之軀吃隊友噴煙免疫並物防 +2，速度不算慢，背心耐久手"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間下廣域戰力／看我嘛／幫助的輔助兼輸出，與紅蓮鎧騎是規則 A 強核"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二個噴煙手，空間下噴火輸出"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "達人帶補盲工具人，專打水火龍岩石等隊友盲點，太晶火，選出率很高"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶搏命＋蠻幹，首發給對面猜拳壓力、挑釁阻止封印，專剋咆哮虎、三首惡龍與班基拉斯"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 自組、也是他 YouTube 第一支影片的紅蓮鎧騎＋麻花犬空間噴煙隊，這集補完當年沒拍到的實戰部分。核心是麻花犬的焦香之軀被火系技能打到會免疫並物防 +2，搭配會噴煙（80 威力、30% 燒傷）且引火的紅蓮鎧騎，等於隊上兩人免疫火，再帶第二個噴煙手煤炭龜；空間下的噴火與愛管侍的廣域戰力是遊戲最強的群體輸出之一。海兔獸速度慢可混空間，達人帶專打火系打不動的水、火、龍、岩石，能 counter 雨天、沙暴、吃吼霸、賽富豪、咆哮虎、鋁鋼橋龍等，選出率很高。第六位原本是古劍豹，後改為棄世猴，專剋對面常選的咆哮虎、三首惡龍與班基拉斯；首發紅蓮鎧騎＋棄世猴時操作組合極多（搏命、太晶、換人、挑釁），給對面很大猜拳壓力並提高開空間成功率，Fiske 最後改用披帶搏命＋蠻幹而非圍巾。弱點與多數重空間隊相同：怕第一回合被岩崩或惡之波動畏縮而開不出空間，或被對面連守把空間拖完。",
     "extracted_at": "2026-11-08T16:37:04.195Z",
     "extracted_by": "import-pokepaste-v1"
   }

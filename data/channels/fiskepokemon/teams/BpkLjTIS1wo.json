@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Weezing665",
-    "author_source": "pokepaste",
+    "tags": [
+      "restricted"
+    ],
+    "tags_source": "subtitle",
+    "author": "ラングドシャ",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶核心，重力下斷崖之劍必中且能打飛行系／漂浮；開晴天供隊友利用"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心，專打蓋歐卡與密勒頓"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天下高速長嚎幫固拉多加物攻或鬼面控速；火系補固拉多草、蟲盲點"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "黑色鐵球空間下先手噴龍打白馬王重空間隊的地雷配置，不反空間時基本不選"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "重力手；迅子利刃先手秒披帶古劍豹與岩厄鬼椪，太晶惡抗突襲，開完重力也可冥想"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "加速高速催眠術手，兼開順風、蟲之抵抗補固拉多特防"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者ラングドシャ組的重力催眠隊，上賽季拿到結算第 26 名。核心思路是找非神獸的重力手與高速催眠手，再搭配能靠重力受益的神獸：固拉多在重力下斷崖之劍 100% 命中且能戳到飛行系與漂浮，講究頭帶打最大爆發。鐵頭殼負責開重力（迅子利刃先手秒披帶古劍豹與岩厄鬼椪，被擊掌後第二回合仍比加速一次的遠古巨蜓快），遠古巨蜓加速高速催眠術並能開順風、蟲之抵抗補固拉多特防；破空焰在晴天下高速長嚎或鬼面輔助固拉多，火系補草、蟲盲點。這四人是 core，背心金剛猩專打蓋歐卡與密勒頓（電氣場地防睡是策略最大弱點），黑鐵球雷吉鐸拉戈則是反重空間（白馬王）的地雷選項，不反空間時基本不選。整體依賴第一回合布置好條件再上固拉多，弱點是密勒頓電場、固拉多弱冰與掩護開空間的空間隊。",
     "extracted_at": "2026-11-08T16:37:17.824Z",
     "extracted_by": "import-pokepaste-v1"
   }

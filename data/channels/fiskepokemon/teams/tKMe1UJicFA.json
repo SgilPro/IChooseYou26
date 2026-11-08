@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-f",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 7742928",
-    "author_source": "pokepaste",
+    "tags": [
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Jon Hu",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "避難背包首發：被威嚇就自動退場避免隊友被壓，否則擊掌／孢子後靠心情不定觸發道具下場"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主角：乘風免疫風技並 +1 物攻，披帶補耐久；拍落、葉刃、先制突襲、擊掌；怕咆哮虎與威嚇"
       },
       {
         "slot": 3,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸順風手反制咆哮虎，生命寶珠一倍傷害秒很多人，只打不動賽富豪"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "三狗之一，常與閃電鳥搭配首發（字幕未細講）"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Jon Hu 的狡猾天狗三狗隊，在官方線上賽 Global Challenge 第二屆拿到結算第 40 名。核心是狡猾天狗的新特性乘風：免疫所有風類技能且被風技打到（含隊友開的順風）就物攻 +1，用披帶補耐久、特性補物攻，可完封只帶一招的龍捲雲／雷電雲、眼鏡熱風古玉魚、能量加速冰凍之風振翼髮，以及最近流行的眼鏡急凍鳥暴風雪雪天隊（拍片期間遇到五六次全勝）。天狗怕咆哮虎與威嚇，所以用不服輸的伽勒爾閃電鳥開順風（對面上咆哮虎就物攻 +1，生命寶珠一倍傷害秒很多人），避難背包圖圖犬首發被威嚇就自動退場、否則靠心情不定觸發道具下場換人。本隊就是順風隊，最常首發閃電鳥加三狗之一（圖圖犬、天狗或風速狗），只有面對空間隊等不需要順風時才首發其他人。",
     "extracted_at": "2026-11-08T16:37:24.117Z",
     "extracted_by": "import-pokepaste-v1"
   }

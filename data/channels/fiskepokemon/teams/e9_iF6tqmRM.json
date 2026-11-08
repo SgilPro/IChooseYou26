@@ -10,11 +10,15 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "restricted"
+      "restricted",
+      "electric-terrain",
+      "tailwind",
+      "trick-room",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "@TBFUnreality",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Aaron Traylor",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +95,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡核心，電場閃電猛衝全遊戲最高單體爆發之一；伏特替換輪轉保場地，少鎖流星群"
       },
       {
         "slot": 2,
@@ -168,7 +172,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "尾甲擋擊掌與先制保護眼鏡密勒頓，提供空間模式"
       },
       {
         "slot": 3,
@@ -245,7 +249,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "好打黑馬王，配合奇麒麟的空間模式"
       },
       {
         "slot": 4,
@@ -322,7 +326,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手；抗龍抗電又克猛雷鼓，逼他太晶妖精失去電抗"
       },
       {
         "slot": 5,
@@ -399,7 +403,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "專打會搶場地的金剛猩與愛管侍，也好打雙馬王；與密勒頓不斷輪轉"
       },
       {
         "slot": 6,
@@ -458,7 +462,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "變成對面神獸形成兩神打一神；不首發，靠輪轉在正確位置返出來變身"
       }
     ],
     "is_members_only": false,
@@ -474,7 +478,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Aaron Traylor 在規則 G 第一場地區賽（印城）用這隊拿到八強，同場冠軍 Rajan Bal 的隊伍非常相似。核心是眼鏡密勒頓：電氣場地下特攻 ×1.33 且閃電猛衝 ×1.3，太晶電眼鏡閃電猛衝威力與太晶火眼鏡古玉魚相當。眼鏡密勒頓怕擊掌與先制所以配奇麒麟，怕被搶場地所以靠伏特替換輪轉，咆哮虎專打會搶場地的金剛猩與愛管侍，奇麒麟與咆哮虎又都好打密勒頓不好打的黑馬王／白馬王。順風手選風妖精，因為他抗龍抗電又克制四倍抗電的猛雷鼓；月月熊好打黑馬王並配合奇麒麟的空間模式。百變怪可變成對面神獸形成「兩神打一神」，但只能變對應位置的人，不適合首發，需靠密勒頓與咆哮虎不斷輪轉返出來在正確位置變身，操作難度高。Fiske 認為當時環境大家都在針對雙馬王而低估密勒頓，是本隊成績好的重要原因。",
     "extracted_at": "2026-11-08T16:37:19.929Z",
     "extracted_by": "import-pokepaste-v1"
   }

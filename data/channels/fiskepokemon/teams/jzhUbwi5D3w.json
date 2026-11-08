@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "setup"
+      "setup",
+      "restricted",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ミガワリ & ルート",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "冥想核心強化手，太晶妖精迴避四倍弱點並打本系月亮之力，吃剩的東西續航"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌奇襲先手干擾帶清淨墜飾的物攻神獸"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "重要的第二輸出，逼出咆哮虎太晶或快速解決他"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "反射壁保護露奈雅拉，劇毒對付太樂巴戈斯等開牆冥想的受向強化手，太晶毒後必中"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "能量加速後高速大聲咆哮與順風，求雨反制晴天故勒頓"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾高速鬼火與大聲咆哮干擾對面輸出"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者ミガワリ與ルート共同組隊，在 5 月賽季結算拿到第 3 與第 10 名，並在今年日本全國賽打進八強，是目前規則下最強的露奈雅拉隊之一。核心是冥想露奈雅拉：種族值與專屬特性幻影防守都強，配合威嚇、大聲咆哮、鬼火、開牆等干擾後強化就很難被打死；太晶妖精完美迴避四倍弱幽靈與惡的缺點，變成耐久極高、特性更好的冥想振翼髮。其他隊友負責增加他的耐久與續航。兩大缺點：一是怕 HO 隊，對面首發兩個高火力克制手（蒼響＋古玉魚、故勒頓＋振翼髮）就很難強化，且白馬王與故勒頓必帶清淨墜飾，威嚇無效，需靠金剛猩擊掌、圍巾古玉魚鬼火、能量鐵脖頸與古玉魚的大聲咆哮、月布反射壁等高速干擾，鐵脖頸的求雨也反制晴天故勒頓；二是輸出不能只靠露奈雅拉，水武道熊師是重要的第二輸出，能逼出咆哮虎太晶或快速打死他（露奈雅拉四倍弱拍落又怕剩飯被拍掉）。月布另帶劇毒對付太樂巴戈斯等開牆冥想的受向強化手，太晶毒後劇毒必中。",
     "extracted_at": "2026-11-08T16:37:12.583Z",
     "extracted_by": "import-pokepaste-v1"
   }

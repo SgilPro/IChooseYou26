@@ -10,11 +10,12 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "restricted"
+      "restricted",
+      "grassy-terrain"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ぽけむら",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶高速輔助配置（守住、再來一次、定身法），專打眼鏡太樂巴戈斯、密勒頓與冥想手；通常後排收殘"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "客家版藏瑪然特：青草種子＋金剛猩首發物防 +1，高速撲擊，快手還擊幫黑馬王擋先制，挑釁"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開青草場地讓勾帕路翁吃種子，常與他一起首發"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠，專打晴天與雨天；晴天太晶電迅雷可秒非太晶地面的古玉魚"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手（字幕僅略提）"
       },
       {
         "slot": 6,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者ぽけむら用勾帕路翁在今年日本全國預賽拿下第 9 名。概念是「客家版雙神戰隊伍」：勾帕路翁屬性與藏瑪然特相同（鋼＋格鬥）、物防只低一點，帶青草種子搭配金剛猩首發讓物防 +1，模擬黑馬王＋藏瑪然特幽靈＋格鬥幾乎沒盲點的聯攻；他不會廣防但有快手還擊（幫順風披帶黑馬王擋先制收殘）與挑釁。黑馬王採雙神戰式的高速輔助配置（守住、再來一次、定身法），專打太樂巴戈斯、密勒頓等講究道具或冥想的神獸。選出上黑馬王通常放後排，由隊友先壓血再上場收殘；猛雷鼓負責打晴天與雨天。因日本全國賽八強前不公開配置且一局定勝負，這種特殊配置更容易騙到人；若對面知道配置效果會打折。",
     "extracted_at": "2026-11-08T16:37:14.679Z",
     "extracted_by": "import-pokepaste-v1"
   }

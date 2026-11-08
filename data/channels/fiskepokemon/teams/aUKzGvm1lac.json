@@ -11,11 +11,13 @@
     "regulation_source": "date-inferred",
     "tags": [
       "hyper-offense",
-      "intimidate"
+      "intimidate",
+      "coaching",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Ryan Loseto",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -92,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸反威嚇的背心物攻手，四倍弱近戰是對大狃拉時的隱憂"
       },
       {
         "slot": 2,
@@ -169,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速物攻手兼擊掌，速度快但幾乎沒加耐久"
       },
       {
         "slot": 3,
@@ -246,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "幹勁免疫催眠，看我嘛掩護先制技與蘑菇孢子、挑釁反空間，對空間隊的關鍵角色"
       },
       {
         "slot": 4,
@@ -323,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "加速高速指導物攻隊友，被威嚇時仍能發揮；閃焰衝鋒會破披帶所以少用"
       },
       {
         "slot": 5,
@@ -400,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "恆淨之軀免疫威嚇的頭帶物攻主力，被指導後鎖太晶爆發或潛靈奇襲收尾"
       },
       {
         "slot": 6,
@@ -477,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶黑霧的特攻手，是打吃吼霸的關鍵；物防不高"
       }
     ],
     "is_members_only": false,
@@ -493,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Ryan Loseto 在新規則首場巴爾的摩地區賽用這支火焰雞隊打進第二天，是朱紫史上成績最好的火焰雞隊。核心是加速火焰雞在被威嚇時仍能高速「指導」物攻隊友，並搭配不服輸仆刀將軍、恆淨之軀多龍巴魯托等反威嚇或免疫威嚇的物攻手，概念上類似規則 F 的破空焰隊（水火草為基礎、偏進攻的平衡隊）。火焰雞與多龍都怕先制技，因此幹勁電擊獸負責看我嘛掩護、挑釁並提高對空間隊的勝率；帶黑霧的西獅海壬則是打吃吼霸的關鍵。火焰雞耐久極低，多數情況只點近身戰或指導而非會破披帶的閃焰衝鋒。弱點是不好打大狃拉與持久力鋁鋼橋龍：金剛猩與西獅海壬耐久偏低、仆刀將軍四倍弱近戰，需要多次守住／太晶猜拳，或先逼出對方太晶再靠火焰雞、被指導過的多龍收尾。",
     "extracted_at": "2026-11-08T16:37:01.051Z",
     "extracted_by": "import-pokepaste-v1"
   }

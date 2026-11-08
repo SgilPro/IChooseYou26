@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "tailwind",
+      "psychic-terrain",
+      "hyper-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "バルドル",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：強力香草流星光束一回合發射且特攻 +1，秒滿血咆哮虎／白馬王，一般系克黑馬王"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "精神場地擋先制保護太樂巴戈斯，凸凸頭盔破武道熊師／古劍豹的披帶"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手；HP 個體值 0（HP 120）的披帶蠻幹，壓低背心大聲咆哮手血量再補刀"
       },
       {
         "slot": 4,
@@ -320,7 +325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠近戰專打剛好能接一般近戰的振翼髮，也克古玉魚與對面太樂巴戈斯"
       },
       {
         "slot": 5,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "能量加速高速速攻手，快過圍巾武道熊師／蓋歐卡／密勒頓／蒼響；太晶地面大地之力秒蒼響，電網作第二控速"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾高速速攻手，千變萬花秒武道熊師與蓋歐卡、嬉鬧秒故勒頓；不依賴太晶，把太晶留給太樂巴戈斯"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者バルドル用這隊在上賽季拿到結算第 19 名。核心是強力香草的太樂巴戈斯：流星光束一回合瞬間發射並特攻 +1，可秒滿血咆哮虎或白馬王，一般系又先天克制黑馬王，Fiske 認為這是介於順風眼鏡與冥想之間、有操作彈性的配置。針對強力香草的三個弱點各有解法：怕高速／先制打掉太晶甲殼再接克制技，所以帶愛管侍開精神場地並用頭盔破披帶；怕背心大聲咆哮手，所以帶 HP 個體值 0 的披帶蠻幹風妖精把對面壓到 120 以下再補刀；怕能量加速振翼髮的冰凍之風，所以帶生命寶珠武道熊師打剛好能接一般近戰的振翼髮。剩下兩格是不依賴先制與太晶的高速速攻手：能量加速沙鐵皮（太晶地面大地之力秒蒼響、電網作第二控速）與圍巾假面喵（千變萬花秒武道熊師／蓋歐卡）。整體是高速順風隊，弱點是格鬥系（藏瑪然特、武道熊師）與密勒頓、蒼響、蓋歐卡等一倍輸出過高的人。",
     "extracted_at": "2026-11-08T16:37:16.776Z",
     "extracted_by": "import-pokepaste-v1"
   }

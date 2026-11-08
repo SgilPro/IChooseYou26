@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted"
+    ],
+    "tags_source": "subtitle",
+    "author": "マイケル",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "起源形態全幽靈技核心，飄浮免疫地面，太晶幽靈影子偷襲／靈騷輸出"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾近身戰補打一般系與惡系（如太樂巴戈斯），也克咆哮虎"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風加瞪眼同時降對面兩人物防，提高全隊斬殺線"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭帶太晶蟲急速折返補盲，蟲＋幽靈聯攻，搭配飄浮隊友地震"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸阻止對面首發威嚇，尖石攻擊專打咆哮虎，克奇麒麟與愛管侍"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "唯一特攻手，精神衝擊以對面物防計算可配合瞪眼"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者マイケル（騎拉帝納粉絲，2022 世界賽曾用騎拉帝納＋帝牙盧卡打進 Day 2）組的起源騎拉帝納隊，特色是騎拉帝納全帶幽靈系技能。騎拉帝納是目前最弱、最冷門的神獸之一，但種族值高、耐久好，大白金寶玉加 1.2 倍龍／幽靈技並變起源形態提高物攻，太晶幽靈影子偷襲可秒殺滿血振翼髮與黑馬王；起源形態的飄浮讓他免疫三個屬性，故勒頓、藏瑪然特、固拉多幾乎都打不動他，金剛猩也掏不出技能，還能搭配隊友地震。三個缺點：只帶幽靈技打不到一般系、不好打惡系，靠武道熊師近戰、頭帶太晶蟲土地雲的急速折返（蟲＋幽靈聯攻極佳）與仆刀將軍補盲；不能帶清淨墜飾怕威嚇，靠不服輸仆刀將軍阻止對面首發威嚇並帶尖石攻擊打咆哮虎；物攻種族值偏低，因此龍捲雲帶瞪眼同時降對面兩人物防，全隊物攻手加帶精神衝擊的奇麒麟都能配合。面對黑馬王、白馬王、密勒頓、太樂巴戈斯與蒼響不太好打，想玩強隊可參考其他影片。",
     "extracted_at": "2026-11-08T16:37:11.540Z",
     "extracted_by": "import-pokepaste-v1"
   }

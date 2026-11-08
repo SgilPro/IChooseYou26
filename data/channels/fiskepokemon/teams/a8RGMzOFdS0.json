@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "trick-room"
+      "trick-room",
+      "restricted",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Alex and Adi",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Alex Underhill & Aditya Subramanian",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "主力輸出，自己開空間自己打，雪矛是僅次於星碎的最強攻擊技"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與白馬王打冰＋地面聯攻，群體巨聲＋單體血月，兩人同場進攻無盲點"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌、看我嘛、蘑菇孢子掩護，裝飾讓白馬王雙攻 +2"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "第二空間手，尾甲阻擊掌、心靈香草免疫挑釁"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾指導／搏命，逼對面首發猜拳，掩護開空間或直接換掉對面神獸"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "進化奇石看我嘛補四大缺點：幹勁防睡、佯攻阻廣防、高速挑釁、太晶幽靈看我嘛對藏瑪然特很有用"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Alex Underhill 與 Aditya Subramanian 共同組隊，各自在北美國際賽拿到 16 強與 64 強；core 最初構想來自 Artan Abdi 在規則 G 首場印城地區賽的 16 強隊伍。核心是圖圖犬＋白馬王＋奇麒麟＋月月熊的重空間組合：白馬王自開空間自打，圖圖犬以擊掌／看我嘛／孢子掩護並用裝飾讓白馬王雙攻 +2，奇麒麟作第二空間手（尾甲防擊掌、心靈香草免挑釁），月月熊提供冰＋地聯攻與巨聲／血月。改良版新增進化奇石電擊獸，一次補掉圖圖犬＋白馬王的四個缺點：怕首發挑釁、空間下怕盾菇孢子、怕廣防拖空間、圖圖犬太脆難開第二輪空間。選出模式是首發空間手＋輔助手，開出空間後無腦輸出；棄世猴圍巾指導／搏命逼對面首發猜拳。Fiske 認為這是目前最強最無腦的 core，非常新手友善，猜拳猜錯沒開出空間就直接下一把。",
     "extracted_at": "2026-11-08T16:37:15.732Z",
     "extracted_by": "import-pokepaste-v1"
   }

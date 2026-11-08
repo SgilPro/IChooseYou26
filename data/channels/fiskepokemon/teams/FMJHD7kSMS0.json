@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "こげぱん",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡主輸出，太晶幽靈星碎雙殺；花粉團打惡系與超能系、幫星碎補盲；沒帶順風所以怕高速高爆發"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "營造變小隊假象的輔助手（字幕未細講配置）"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心純輸出：抗幽靈、免超能、特防高，隨便欺負對面黑馬王；拍落、毒擊、吸取拳補打惡系與一般系"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "合體吃吼霸，讓對手以為是變小隊的一環"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "引水米立龍，武道熊師摸不到他；與吃吼霸構成變小隊假象"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶蠻力補格鬥打擊（字幕僅略提）"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者こげぱん曾在上賽季開頭第二天打到排位暫時第一。核心思路是「假裝成變小隊」：隊伍放了圖圖犬、臭臭泥、合體的吃吼霸與米立龍，意圖看起來超級明顯，讓對手以為是變小受隊而選出必中技或高爆發的人，實際上卻是背心純輸出的臭臭泥、眼鏡黑馬王與引水米立龍，概念其實接近一般的眼鏡黑馬王隊。選出上靠眼鏡太晶幽靈星碎直接雙殺，並帶大量格鬥技（吸取拳、撲擊、蠻力）與花粉團補打惡系、一般系與超能系。弱點：沒順風的眼鏡黑馬王怕對面黑馬王（但背心臭臭泥超克他）、怕圍巾水武道熊師與順風隊等高速高爆發、怕惡系與一般系；一旦對手知道配置就不太強，屬於地雷隊。",
     "extracted_at": "2026-11-08T16:37:13.632Z",
     "extracted_by": "import-pokepaste-v1"
   }

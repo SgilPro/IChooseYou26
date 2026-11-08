@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 8295509",
-    "author_source": "pokepaste",
+    "tags": [
+      "restricted",
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡主輸出；特性不會被化學變化氣體消掉；太晶格鬥太晶爆發秒咆哮虎與月月熊"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "搭配龍捲雲手動晴天，並適合輔助黑馬王"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：化學變化氣體消掉全場特性反制神獸隊，常首發點鬼火或挑釁；走妖精系進攻"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠：捏碎、十萬馬力打猛雷鼓／咆哮虎、拍落打黑馬王／露奈雅拉；廣域防守供慢啟動時使用"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡黑馬王的順風手，帶手動大晴天"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "女王的威嚴擋先制，三旋擊克猛雷鼓（需廣角鏡），飛膝踢配星碎聯攻，幫助黑馬王輸出"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 自己組的雙彈瓦斯隊，在 Showdown 一晚打到 1700 多分（約前 100 名）。核心是雙彈瓦斯的化學變化氣體消掉場上所有特性，針對依賴特性的神獸隊（故勒頓晴天、蓋歐卡雨天、密勒頓電場、藏瑪然特／蒼響的盾劍、露奈雅拉幻影防守）；搭配特性不會被消的黑馬王與老隊友雷吉奇卡斯（消掉慢啟動後種族值等同一級神）。黑馬王走眼鏡偏進攻配置，因此需要順風手，選龍捲雲而非風妖精以免屬性與妖精化的雙彈瓦斯重複；龍捲雲帶手動晴天配火厄鬼椪，甜冷美后擋先制、三旋擊克猛雷鼓、飛膝踢配星碎聯攻，黑馬王太晶格鬥太晶爆發秒咆哮虎與月月熊。選出常是雙彈瓦斯首發加一人，但彈性很大，看對面依賴特性的程度與是否需要首發鬼火／挑釁；有一定操作門檻。",
     "extracted_at": "2026-11-08T16:37:18.875Z",
     "extracted_by": "import-pokepaste-v1"
   }

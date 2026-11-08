@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "setup"
+      "setup",
+      "restricted",
+      "electric-terrain"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "ルート",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風、光牆與再來一次，讓黑馬王難以冥想或詭計"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡電系核心輸出，開電氣場地"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶水系物攻手"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "電氣場地加速的補盲小弟，太晶一般專針對黑馬王與武道熊師，超級角擊克草系"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心威嚇輔助，本來就較好打黑馬王"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "252 HP／252 特防電氣種子，配合密勒頓出場物防 ×1.95，劍舞後對白馬王隊極有優勢"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者ルート在上賽季用這支超級角擊鐵斑葉隊打到排位結算第二名。鐵斑葉是最冷門的悖謬之一，草＋超能屬性弱點多，但種族值分配好，專屬技能精神劍在電氣場地下是 120 威力本系、精神場地 104、葉刃在青草場地 117，是唯一能蹭到三種場地的人；屬性上恰好與密勒頓、鐵臂膀聯防地面、妖精與超能，並以草系與超級角擊補足密勒頓打不動的地面與草系。對密勒頓最難打的黑馬王、白馬王體系：鐵斑葉太晶一般專門針對黑馬王與其隊友水武道熊師，電氣場地加速後可先手葉刃或精神劍秒殺武道熊師，保護背心咆哮虎；風妖精光牆與再來一次讓黑馬王難以冥想或詭計；252 HP／252 特防的電氣種子鐵臂膀配合密勒頓出場物防 ×1.95，白馬王幾乎打不動，劍舞一兩次後對白馬王隊常見隊友非常有優勢。這隊也非常克制蓋歐卡體系，Fiske 在高分段勝率超過 70%，拍完後排名大師球前 30。唯一棘手的是同時有咆哮虎、金剛猩與冥想太樂巴戈斯的隊伍，因為鐵臂膀不是背心、武道熊師不是太晶星晶，能打的人都怕威嚇。整體強度高且操作難度不高。",
     "extracted_at": "2026-11-08T16:37:08.388Z",
     "extracted_by": "import-pokepaste-v1"
   }

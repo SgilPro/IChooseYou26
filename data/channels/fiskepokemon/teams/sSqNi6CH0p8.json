@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "シリル",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "幻覺變成選出的第四位，脆皮且輸出普通，不選出時也能靠咆哮虎製造幻覺效果"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "猛火特性，首發不發動威嚇讓對面誤認為索羅亞克的假身；本身屬性與技能池夠強"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "普通模式的主力，常放第四位讓索羅亞克模仿"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常駐後排的特攻手"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常見首發之一，也是索羅亞克模仿對象"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "常見首發之一"
       }
     ],
     "is_members_only": false,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者シリル組的「雙重幻覺」隊，用這隊打到排位暫時前 30 名。索羅亞克出場會變成隊伍第四位的外形，但一般幻覺隊不能搭配出場發動特性的寶可夢；這隊反過來利用這種心理，放一隻猛火（非威嚇）的熾焰咆哮虎，對面看到首發咆哮虎沒發動威嚇，就會誤以為那是索羅亞克變的，即使根本沒選出索羅亞克也能達成幻覺效果，等於咆哮虎同時有兩個特性。索羅亞克本身脆皮、輸出不高、屬性克制面少，只是堪用，所以能在不選他的情況下發動幻覺才是最好的用法。選出有三種模式：普通吃吼霸模式（賽富豪或快龍＋吃吼霸首發、米立龍後排）、幻覺模式（快龍或賽富豪＋索羅亞克首發）、以及最常用的雙重幻覺模式（咆哮虎＋索羅亞克或咆哮虎＋賽富豪／快龍首發，後排吃吼霸＋米立龍等）。此策略專騙會玩的對手，大師球級以前對面可能根本沒注意到沒發動威嚇，建議在高排名使用。",
     "extracted_at": "2026-11-08T16:37:03.145Z",
     "extracted_by": "import-pokepaste-v1"
   }

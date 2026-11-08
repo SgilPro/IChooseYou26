@@ -9,10 +9,16 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "rain",
+      "hyper-offense",
+      "tailwind",
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
+    "author": "Kimura Hirofumi",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +95,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手，帶求雨"
       },
       {
         "slot": 2,
@@ -166,7 +172,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "尾甲擋先制保護眼鏡蓋歐卡，幫助噴水；也可開空間應付更快的順風隊"
       },
       {
         "slot": 3,
@@ -243,7 +249,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "雨天打雷與蓋歐卡聯攻補水系盲點，電網額外控速，妖精太晶爆發補龍系"
       },
       {
         "slot": 4,
@@ -474,7 +480,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：眼鏡太晶水雨天噴水，全遊戲最強水系輸出，滿血幫助噴水幾乎誰都噴死"
       }
     ],
     "is_members_only": false,
@@ -490,7 +496,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者是兩屆日本全國冠軍 Kimura Hirofumi，典型的蓋歐卡 HO 隊：眼鏡＋太晶水＋雨天的噴水是全遊戲最強水系輸出，加幫助連兩倍抗水也能噴死。眼鏡不能守住且速度不快，所以非常需要順風加防先制手段，這隊選奇麒麟與月月熊；遇到更高速的順風隊也能改開空間噴水，控速更有彈性。雷吉艾勒奇在雨天下打雷與蓋歐卡聯攻，電系補水系盲點、電網是龍捲雲之外的額外控速，太晶爆發妖精偶爾補龍系。選出先看對面阻止噴水的手段（順風、天氣、先制）：對面有順風就得開順風或空間，首發龍捲雲時隔壁要能打對面針對龍捲雲的人；對面全隊很慢的空間隊就直接首發蓋歐卡＋奇麒麟幫助噴水。Fiske 試打七八場全勝，簡單無腦、適合新手。",
     "extracted_at": "2026-11-08T16:37:20.971Z",
     "extracted_by": "import-pokepaste-v1"
   }

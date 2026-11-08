@@ -10,11 +10,12 @@
     "regulation_set_id": "sv-reg-g",
     "regulation_source": "date-inferred",
     "tags": [
-      "meme-gimmick"
+      "meme-gimmick",
+      "restricted"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Otsubo Ryota",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "避雷針保護太晶水藏瑪然特，高速怪異電波降特攻、挑釁牽制盾菇；幾乎每場選出"
       },
       {
         "slot": 2,
@@ -168,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "252 速膽小、防塵鏡，先手新月祈禱幫藏瑪然特解鬼火等異常狀態"
       },
       {
         "slot": 3,
@@ -245,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "鐵壁太晶水的核心耐久手，撲擊打不到幽靈需隊友補盲"
       },
       {
         "slot": 4,
@@ -322,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "反盾菇與反幽靈神獸的物攻手"
       },
       {
         "slot": 5,
@@ -399,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高速大聲咆哮反制黑馬王與露奈雅拉"
       },
       {
         "slot": 6,
@@ -476,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "模仿香草蹭對面黑馬王的冥想／詭計再蝶舞，第二回合高速高特攻輸出"
       }
     ],
     "is_members_only": false,
@@ -492,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者是 2017 世界冠軍 Otsubo Ryota，組隊概念單純：圍繞雷電斑馬＋鐵壁藏瑪然特的組合。雷電斑馬種族值總和不到 500、超級冷門，但避雷針是頂級防守特性，速度比雷丘快、與風妖精同速，可快過厄鬼椪與龍捲雲等 110 左右的人。藏瑪然特物防極高、適合太晶弱點少的水系，但怕眼鏡密勒頓與猛雷鼓等特攻電系；隔壁站避雷針的雷電斑馬後弱點變得極少，雷電斑馬還能高速怪異電波降特攻、挑釁牽制盾菇。隊上帶了許多反盾菇與反幽靈（黑馬王、露奈雅拉）的角色：古劍豹、高速大聲咆哮的波盪水、模仿香草火神蛾（蹭對面黑馬王的冥想或詭計再蝶舞，第二回合高速 +2／+3 特攻輸出），以及防塵鏡、252 速膽小的克雷色利亞用新月祈禱先手幫藏瑪然特解鬼火等異常狀態。雷電斑馬幾乎每場都選出、與每個隊友搭配都有用，所以即使對面知道配置也能表現很好，Fiske 認為是組得好、有趣又很強的隊伍。",
     "extracted_at": "2026-11-08T16:37:09.442Z",
     "extracted_by": "import-pokepaste-v1"
   }
