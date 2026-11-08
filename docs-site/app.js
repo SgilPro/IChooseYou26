@@ -21,6 +21,12 @@ const PAGES = [
     ]
   },
   {
+    group: "資料", items: [
+      { id: "channel-data", title: "頻道資料線（Fiske）", file: "content/channel-data.md" },
+      { id: "teams-page", title: "📊 隊伍資料庫（即時）", href: "teams.html" },
+    ]
+  },
+  {
     group: "進度", items: [
       { id: "progress", title: "目前進度", file: "content/progress.md" },
       { id: "about-ditto", title: "關於 Ditto", file: "content/about-ditto.md" },
@@ -47,7 +53,7 @@ function buildNav() {
       a.className = "nav-link";
       a.textContent = it.title;
       a.dataset.id = it.id;
-      a.href = "#" + it.id;
+      a.href = it.href ? it.href : "#" + it.id;
       g.appendChild(a);
     }
     navEl.appendChild(g);
@@ -92,4 +98,4 @@ window.addEventListener("hashchange", route);
 buildNav();
 route();
 document.getElementById("updated").textContent =
-  "最後更新：2026-06-11";
+  "最後更新：2026-11-08";

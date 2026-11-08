@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>頻道資料線 · 隊伍資料庫（預覽）</title>
+  <meta name="description" content="把 YouTube 對戰頻道的影片自動整理成影片主表與隊伍資料庫——目前進度與已抽取的隊伍。" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 22px 80px; }
+    .crumbs { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
+    .crumbs a { color: var(--accent-2); text-decoration: none; }
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    .lede { color: var(--ink-soft); margin: 0 0 22px; max-width: 760px; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
+    .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+    .tile .n { font-size: 28px; font-weight: 700; line-height: 1.1; }
+    .tile .l { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
+    .bars { display: grid; gap: 10px; margin-bottom: 28px; }
+    .bar { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
+    .bar .t { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 8px; }
+    .bar .t span:last-child { color: var(--ink-soft); }
+    .track { height: 10px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; display: flex; }
+    .seg { height: 100%; }
+    .seg.ok { background: var(--accent-2); }
+    .seg.member { background: var(--accent); }
+    .seg.pending { background: #3a3f72; }
+    .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
+    .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+    h2 { font-size: 20px; margin: 30px 0 12px; }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .chip { font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
+    .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .teams { display: grid; gap: 14px; }
+    .team { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
+    .team-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+    .team-head h3 { margin: 0; font-size: 17px; }
+    .team-head a { color: var(--accent-2); text-decoration: none; font-size: 13px; }
+    .meta { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
+    .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); }
+    .tag.reg { color: var(--accent-2); border-color: rgba(86,208,200,.4); }
+    .tag.rev { color: #ffd37a; border-color: rgba(255,211,122,.35); }
+    .mons { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+    .mon { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 10px; font-size: 12px; }
+    .mon .top { display: flex; align-items: center; gap: 8px; }
+    .mon img { width: 48px; height: 48px; image-rendering: pixelated; background: rgba(255,255,255,.04); border-radius: 8px; }
+    .mon .nm { font-weight: 700; font-size: 13px; }
+    .mon .en { color: var(--ink-soft); font-size: 11px; }
+    .mon .mega { color: var(--accent); font-weight: 700; font-size: 11px; }
+    .mon dl { margin: 8px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; }
+    .mon dt { color: var(--ink-soft); }
+    .mon dd { margin: 0; }
+    .mon .moves { margin-top: 6px; color: var(--ink); }
+    .notes { font-size: 13px; color: var(--ink-soft); margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
+    .foot { margin-top: 40px; font-size: 12px; color: var(--ink-soft); }
+    .err { background: #3a1f2a; border: 1px solid #7a3a4a; padding: 12px 16px; border-radius: 10px; }
+    details.raw { margin-top: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; }
+    details.raw summary { cursor: pointer; padding: 12px 16px; font-weight: 600; font-size: 15px; list-style: none; display: flex; justify-content: space-between; }
+    details.raw summary::after { content: "展開 ▸"; font-weight: 400; font-size: 12px; color: var(--ink-soft); }
+    details.raw[open] summary::after { content: "收合 ▾"; }
+    details.raw summary small { color: var(--ink-soft); font-weight: 400; margin-left: 8px; }
+    .tbl-wrap { overflow-x: auto; padding: 0 16px 16px; }
+    table.raw { border-collapse: collapse; font-size: 12px; white-space: nowrap; min-width: 100%; }
+    table.raw th, table.raw td { border: 1px solid var(--border); padding: 5px 8px; text-align: left; vertical-align: top; }
+    table.raw th { background: var(--bg-soft); position: sticky; top: 0; color: var(--ink-soft); font-weight: 600; }
+    table.raw tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+    table.raw td.num { text-align: right; font-variant-numeric: tabular-nums; }
+    .dl { font-size: 12px; color: var(--ink-soft); margin-left: 8px; }
+    .dl a { color: var(--accent-2); }
+    @media (max-width: 640px) { .tile .n { font-size: 22px; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🟣</span>
+      <div>
+        <div class="brand-title">寶可夢對戰工具</div>
+        <div class="brand-sub">頻道資料線 · 隊伍資料庫（預覽）</div>
+      </div>
+    </div>
+    <div class="head-actions">
+      <a class="try-btn" href="./#channel-data" title="回 Live Docs">📖 回文件</a>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="crumbs"><a href="./">Live Docs</a> › 頻道資料線 › Fiske Pokémon</div>
+    <h1>Fiske Pokémon 頻道 → 影片主表 + 隊伍資料庫</h1>
+    <p class="lede">把一個 YouTube 雙打對戰頻道的影片自動整理成兩張表：<strong>每支影片的基本資料</strong>，以及<strong>對戰影片介紹的隊伍六隻與配置</strong>。下面是目前進度與已抽出的隊伍，資料直接從 repo 的 JSON 讀取，每次 push 自動更新。</p>
+
+    <div id="status"></div>
+    <div class="tiles" id="tiles"></div>
+    <div class="bars" id="bars"></div>
+
+    <h2>已抽取的隊伍</h2>
+    <div class="filters" id="filters"></div>
+    <div class="teams" id="teams">載入中…</div>
+
+    <h2>原始資料表</h2>
+    <p style="font-size:13px;color:var(--ink-soft);margin-top:-6px">對應 Notion 的三張表：隊伍（team）→ 寶可夢實體（team member，class vs. instance 的 instance）→ 寶可夢圖鑑類別（species，class）。直接從 JSON 攤平，欄位名稱即 schema 欄位。<span class="dl">下載：<a href="data/channels/fiskepokemon/teams.json">teams.json</a> · <a href="data/channels/fiskepokemon/teams.csv">teams.csv</a> · <a href="data/channels/fiskepokemon/videos.json">videos.json</a> · <a href="data/channels/fiskepokemon/videos.csv">videos.csv</a></span></p>
+    <details class="raw" id="raw-teams"><summary>teams（隊伍）<small id="raw-teams-n"></small></summary><div class="tbl-wrap"></div></details>
+    <details class="raw" id="raw-members"><summary>team_members（寶可夢實體 · instance）<small id="raw-members-n"></small></summary><div class="tbl-wrap"></div></details>
+    <details class="raw" id="raw-species"><summary>species（寶可夢圖鑑類別 · class）<small id="raw-species-n"></small></summary><div class="tbl-wrap"></div></details>
+    <details class="raw" id="raw-videos"><summary>videos（影片主表，Champions 對戰影片）<small id="raw-videos-n"></small></summary><div class="tbl-wrap"></div></details>
+
+    <p class="foot">資料來源：<code>data/channels/fiskepokemon/videos.json</code>、<code>teams.json</code>（由 yt-dlp 抓 metadata 與字幕、ffmpeg 抽隊伍介紹段影格、Claude 讀畫面與字幕填表、再以 PokeAPI 名稱對照與 Lv.50 能力值公式機械驗證）。寶可夢圖示來自 PokeAPI sprites。努力值以 Pokémon Champions 的「能力點」顯示（總和 66、單項 32）。</p>
+  </div>
+
+  <script>
+  (async function () {
+    const $ = (id) => document.getElementById(id);
+    async function getJSON(paths) {
+      for (const p of paths) {
+        try { const r = await fetch(p, { cache: "no-cache" }); if (r.ok) return await r.json(); } catch (e) {}
+      }
+      throw new Error("無法載入 " + paths[0]);
+    }
+    // 部署時 data/ 會被複製到站台根目錄；本機預覽則往上一層找 repo 的 data/。
+    const base = ["data/", "../data/"];
+    const P = (rel) => base.map((b) => b + rel);
+    let videos, teams, regs, tags;
+    try {
+      [videos, teams, regs, tags] = await Promise.all([
+        getJSON(P("channels/fiskepokemon/videos.json")),
+        getJSON(P("channels/fiskepokemon/teams.json")),
+        getJSON(P("ref/regulation_sets.json")),
+        getJSON(P("ref/tags.json")),
+      ]);
+    } catch (e) {
+      $("status").innerHTML = `<div class="err">${e.message}。資料尚未部署或路徑不對。</div>`;
+      $("teams").textContent = "";
+      return;
+    }
+    const regById = Object.fromEntries(regs.map((r) => [r.id, r]));
+    const tagBySlug = Object.fromEntries(tags.map((t) => [t.slug, t]));
+
+    // ---- 統計 ----
+    const total = videos.length;
+    const members = videos.filter((v) => v.is_members_only).length;
+    const fetched = videos.filter((v) => !v.is_members_only && v.fetch_error == null && v.published_at).length;
+    const pending = total - members - fetched;
+    const battle = videos.filter((v) => v.category === "battle").length;
+    const champPublic = videos.filter((v) => v.game === "champions" && v.category === "battle" && !v.is_members_only && v.fetch_error == null);
+    const champMember = videos.filter((v) => v.game === "champions" && v.category === "battle" && v.is_members_only).length;
+    const teamVideoIds = new Set(teams.map((t) => t.video_id));
+    const extracted = champPublic.filter((v) => teamVideoIds.has(v.id)).length;
+    const latest = videos.map((v) => v.fetched_at).filter(Boolean).sort().pop();
+
+    $("tiles").innerHTML = [
+      [total, "頻道影片總數"],
+      [fetched, "已抓到完整資料"],
+      [members, "會員限定（待登入補）"],
+      [battle, "對戰類影片"],
+      [teams.length, "已抽取隊伍"],
+      [teams.reduce((n, t) => n + (t.members?.length || 0), 0), "已記錄寶可夢配置"],
+    ].map(([n, l]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+
+    const pct = (a, b) => (b ? (a / b * 100).toFixed(1) : 0);
+    $("bars").innerHTML = `
+      <div class="bar">
+        <div class="t"><span>影片主表抓取進度</span><span>${fetched + members} / ${total}（${pct(fetched + members, total)}%）</span></div>
+        <div class="track">
+          <div class="seg ok" style="width:${pct(fetched, total)}%"></div>
+          <div class="seg member" style="width:${pct(members, total)}%"></div>
+          <div class="seg pending" style="width:${pct(pending, total)}%"></div>
+        </div>
+        <div class="legend"><span><i style="background:var(--accent-2)"></i>完整 ${fetched}</span><span><i style="background:var(--accent)"></i>會員限定 ${members}</span><span><i style="background:#3a3f72"></i>待重試 ${pending}</span></div>
+      </div>
+      <div class="bar">
+        <div class="t"><span>Champions 公開對戰影片 → 隊伍抽取</span><span>${extracted} / ${champPublic.length}（${pct(extracted, champPublic.length)}%）；另有 ${champMember} 支會員限定待補</span></div>
+        <div class="track"><div class="seg ok" style="width:${pct(extracted, champPublic.length)}%"></div></div>
+      </div>`;
+    $("status").innerHTML = `<p style="font-size:13px;color:var(--ink-soft)">資料時間：${latest ? latest.slice(0, 16).replace("T", " ") + " UTC" : "—"} · 抽取規則版本：${[...new Set(teams.map((t) => t.extracted_by))].join("、")}</p>`;
+
+    // ---- 隊伍 ----
+    const sprite = (m) => {
+      const dex = m.species?.dex_no;
+      return dex ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${dex}.png` : "";
+    };
+    const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const fv = (f) => esc(f?.value ?? "—");
+    const evs = (m) => {
+      const e = m.evs; if (!e) return "—";
+      const keys = [["hp", "HP"], ["atk", "攻"], ["def", "防"], ["spa", "特攻"], ["spd", "特防"], ["spe", "速"]];
+      return keys.filter(([k]) => e[k]).map(([k, l]) => `${l}${e[k]}`).join(" / ") || "—";
+    };
+    const sortedTeams = [...teams].sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || ""));
+    const allTags = [...new Set(sortedTeams.flatMap((t) => t.tags || []))];
+    let active = null;
+
+    function renderTeams() {
+      const list = active ? sortedTeams.filter((t) => (t.tags || []).includes(active)) : sortedTeams;
+      $("teams").innerHTML = list.map((t) => {
+        const reg = regById[t.regulation_set_id];
+        return `<article class="team">
+          <div class="team-head">
+            <h3>${esc(t.name)}</h3>
+            <a href="${esc(t.video_url)}" target="_blank" rel="noopener">▶ 影片 · ${esc(t.video_published_at || "")}</a>
+          </div>
+          <div class="meta">
+            ${reg ? `<span class="tag reg">${esc(reg.game_name_zh)} · ${esc(reg.code)}</span>` : ""}
+            ${(t.tags || []).map((s) => `<span class="tag">${esc(tagBySlug[s]?.label_zh || s)}</span>`).join("")}
+            <span class="tag rev">${t.review_status === "reviewed" ? "已獨立複核" : "機械驗證通過"} · 信心 ${Math.round((t.confidence || 0) * 100)}%</span>
+          </div>
+          <div class="mons">
+            ${(t.members || []).map((m) => `<div class="mon">
+              <div class="top">
+                ${sprite(m) ? `<img loading="lazy" src="${sprite(m)}" alt="" />` : ""}
+                <div><div class="nm">${esc(m.species?.name_zh)}</div><div class="en">${esc(m.species?.name_en || "")}</div>${m.mega ? `<div class="mega">Mega${m.species?.form && m.species.form !== "Mega" ? " " + esc(m.species.form.replace("Mega-", "")) : ""}</div>` : ""}</div>
+              </div>
+              <dl><dt>特性</dt><dd>${fv(m.ability)}</dd><dt>道具</dt><dd>${fv(m.item)}</dd><dt>性格</dt><dd>${fv(m.nature)}</dd><dt>能力點</dt><dd>${evs(m)}</dd></dl>
+              <div class="moves">${(m.moves || []).map((mv) => esc(mv?.value)).filter(Boolean).join(" · ")}</div>
+            </div>`).join("")}
+          </div>
+          ${t.notes ? `<div class="notes">${esc(t.notes)}</div>` : ""}
+        </article>`;
+      }).join("") || "<p>沒有符合的隊伍。</p>";
+    }
+    $("filters").innerHTML = `<span class="chip on" data-tag="">全部 ${sortedTeams.length}</span>` +
+      allTags.map((s) => `<span class="chip" data-tag="${esc(s)}">${esc(tagBySlug[s]?.label_zh || s)}</span>`).join("");
+    $("filters").addEventListener("click", (e) => {
+      const chip = e.target.closest(".chip"); if (!chip) return;
+      active = chip.dataset.tag || null;
+      document.querySelectorAll(".chip").forEach((c) => c.classList.toggle("on", c === chip));
+      renderTeams();
+    });
+    renderTeams();
+
+    // ---- 原始表（raw，可摺疊）----
+    function table(id, cols, rows) {
+      const el = document.querySelector(`#${id} .tbl-wrap`);
+      document.getElementById(`${id}-n`).textContent = `${rows.length} 列`;
+      el.innerHTML = `<table class="raw"><thead><tr>${cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${
+        rows.map((r) => `<tr>${cols.map((c) => { const v = r[c]; const num = typeof v === "number"; return `<td class="${num ? "num" : ""}">${esc(Array.isArray(v) ? v.join("|") : (v ?? ""))}</td>`; }).join("")}</tr>`).join("")
+      }</tbody></table>`;
+    }
+    // teams
+    table("raw-teams", ["id", "name", "video_id", "video_published_at", "game", "regulation_set_id", "tags", "author", "is_members_only", "review_status", "confidence", "extracted_by"], sortedTeams);
+    // team members（instance）
+    const memberRows = sortedTeams.flatMap((t) => (t.members || []).map((m) => ({
+      team_id: t.id, slot: m.slot, species_zh: m.species?.name_zh, species_en: m.species?.name_en, dex_no: m.species?.dex_no, form: m.species?.form,
+      nickname: m.nickname, gender: m.gender, mega: m.mega, ability: m.ability?.value, ability_en: m.ability?.value_en, item: m.item?.value, item_en: m.item?.value_en, nature: m.nature?.value,
+      ev_scale: m.evs?.scale, ev_hp: m.evs?.hp, ev_atk: m.evs?.atk, ev_def: m.evs?.def, ev_spa: m.evs?.spa, ev_spd: m.evs?.spd, ev_spe: m.evs?.spe,
+      stat_hp: m.stats?.hp, stat_atk: m.stats?.atk, stat_def: m.stats?.def, stat_spa: m.stats?.spa, stat_spd: m.stats?.spd, stat_spe: m.stats?.spe,
+      move1: m.moves?.[0]?.value, move2: m.moves?.[1]?.value, move3: m.moves?.[2]?.value, move4: m.moves?.[3]?.value, stats_note: m.stats_note, role_note: m.role_note,
+    })));
+    table("raw-members", Object.keys(memberRows[0] || { team_id: 1 }), memberRows);
+    // species（class）：由實體彙整
+    const spMap = new Map();
+    for (const r of memberRows) {
+      const key = r.dex_no ?? r.species_en;
+      const rec = spMap.get(key) || { dex_no: r.dex_no, name_zh: r.species_zh, name_en_base: (r.species_en || "").replace(/-Mega(-[XYZ])?$/, ""), forms_seen: new Set(), appearances: 0, as_mega: 0, teams: new Set(), items_seen: new Set(), abilities_seen: new Set() };
+      rec.appearances++; if (r.mega) rec.as_mega++; rec.teams.add(r.team_id); if (r.form) rec.forms_seen.add(r.form); if (r.item) rec.items_seen.add(r.item); if (r.ability) rec.abilities_seen.add(r.ability);
+      spMap.set(key, rec);
+    }
+    const speciesRows = [...spMap.values()].sort((a, b) => b.appearances - a.appearances || (a.dex_no || 0) - (b.dex_no || 0)).map((r) => ({
+      dex_no: r.dex_no, name_zh: r.name_zh, name_en: r.name_en_base, forms_seen: [...r.forms_seen], appearances: r.appearances, as_mega: r.as_mega, teams: r.teams.size, abilities_seen: [...r.abilities_seen], items_seen: [...r.items_seen],
+      sprite: r.dex_no ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${r.dex_no}.png` : "",
+    }));
+    table("raw-species", ["dex_no", "name_zh", "name_en", "forms_seen", "appearances", "as_mega", "teams", "abilities_seen", "items_seen"], speciesRows);
+    // videos（只列 Champions 對戰影片，避免 679 列）
+    const vrows = videos.filter((v) => v.game === "champions" && v.category === "battle").map((v) => ({
+      id: v.id, title: v.title, published_at: v.published_at, duration_s: v.duration_s, regulation_code: v.regulation_code, is_members_only: v.is_members_only,
+      team_extracted: teamVideoIds.has(v.id), team_intro: v.team_intro_range ? `${v.team_intro_range.start_s}-${v.team_intro_range.end_s}` : "", subtitles: v.subtitles, fetch_error: v.fetch_error,
+    }));
+    table("raw-videos", Object.keys(vrows[0] || { id: 1 }), vrows);
+  })();
+  </script>
+</body>
+</html>
