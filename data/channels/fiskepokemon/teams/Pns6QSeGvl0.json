@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_Pns6QSeGvl0",
+    "name": "藏瑪然特 撲擊 Anti-meta 隊（Keanu Inosanto / Michael Kelsch）",
+    "name_source": "title",
+    "video_id": "Pns6QSeGvl0",
+    "video_url": "https://www.youtube.com/watch?v=Pns6QSeGvl0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "subtitle",
+    "tags": ["restricted", "tournament-team"],
+    "tags_source": "subtitle",
+    "author": "Keanu Inosanto",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 812, "name_zh": "轟擂金剛猩", "name_en": "Rillaboom", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "F",
+        "ability": { "value": "青草製造者", "value_en": "Grassy Surge", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "講究頭帶", "value_en": "Choice Band", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "草", "value_en": "Grass", "confidence": 0.9, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "青草滑梯", "value_en": "Grassy Glide", "confidence": 0.95, "source": "frame" },
+          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.95, "source": "frame" },
+          { "value": "木槌", "value_en": "Wood Hammer", "confidence": 0.95, "source": "frame" },
+          { "value": "十萬馬力", "value_en": "High Horsepower", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "講究頭帶物攻手；相對好打密勒頓、蓋歐卡與黑馬王，頭帶主要拿來處理特攻神獸。抗地面成員之一。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 381, "name_zh": "拉帝歐斯", "name_en": "Latios", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "M",
+        "ability": { "value": "飄浮", "value_en": "Levitate", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "心之水滴", "value_en": "Soul Dew", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "鋼", "value_en": "Steel", "confidence": 0.97, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "潔淨光芒", "value_en": "Luster Purge", "confidence": 0.95, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "冰凍之風", "value_en": "Icy Wind", "confidence": 0.97, "source": "frame" },
+          { "value": "流星群", "value_en": "Draco Meteor", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "屬性上剛好抵抗藏瑪然特全部弱點（龍抗火、超能抗格鬥、飄浮免疫地面）；太晶鋼後白馬王幾乎沒招打他。冰凍之風輔助，心之水滴流星群威力高，但較脆。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 1002, "name_zh": "古劍豹", "name_en": "Chien-Pao", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "N",
+        "ability": { "value": "災禍之劍", "value_en": "Sword of Ruin", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "幽靈", "value_en": "Ghost", "confidence": 0.9, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "冰柱墜擊", "value_en": "Icicle Crash", "confidence": 0.95, "source": "frame" },
+          { "value": "突襲", "value_en": "Sucker Punch", "confidence": 0.95, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "聖劍", "value_en": "Sacred Sword", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "相對好打黑馬王與密勒頓，但不好打白馬王。災禍之劍降對手防禦，也加成火焰鳥的欺詐。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 146, "name_zh": "火焰鳥", "name_en": "Moltres-Galar", "form": "Galar", "confidence": 0.97 },
+        "nickname": null,
+        "gender": "N",
+        "ability": { "value": "怒火沖天", "value_en": "Berserk", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "黑色眼鏡", "value_en": "Black Glasses", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "惡", "value_en": "Dark", "confidence": 0.97, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "怒火中燒", "value_en": "Fiery Wrath", "confidence": 0.95, "source": "frame" },
+          { "value": "欺詐", "value_en": "Foul Play", "confidence": 0.97, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.95, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "伽勒爾火焰鳥，屬性克制黑馬王；本系欺詐用對面物攻計算，加黑色眼鏡後太晶惡欺詐或災禍之劍下的欺詐可秒殺滿血白馬王。順風速控。免疫地面成員之一。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 889, "name_zh": "藏瑪然特", "name_en": "Zamazenta", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "N",
+        "ability": { "value": "不屈之盾", "value_en": "Dauntless Shield", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "腐朽的盾", "value_en": "Rusted Shield", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "草", "value_en": "Grass", "confidence": 0.9, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "撲擊", "value_en": "Body Press", "confidence": 0.97, "source": "frame" },
+          { "value": "重磅衝撞", "value_en": "Heavy Slam", "confidence": 0.95, "source": "frame" },
+          { "value": "廣域防守", "value_en": "Wide Guard", "confidence": 0.95, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "隊伍核心的限制級神獸（腐朽的盾＝劍王形態）；弱點火、格鬥、地面與高爆發特攻手，其餘五隻都為補他的弱點而選。克制太樂巴戈斯隊與白馬王隊；相對好打白馬王。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 279, "name_zh": "大嘴鷗", "name_en": "Pelipper", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "M",
+        "ability": { "value": "降雨", "value_en": "Drizzle", "confidence": 0.95, "source": "frame" },
+        "item": { "value": "凸凸頭盔", "value_en": "Rocky Helmet", "confidence": 0.97, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "妖精", "value_en": "Fairy", "confidence": 0.9, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "廣域防守", "value_en": "Wide Guard", "confidence": 0.95, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.95, "source": "frame" },
+          { "value": "暴風", "value_en": "Hurricane", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "降雨 counter 故勒頓、固拉多等晴天體系；相對好打白馬王。免疫地面成員之一。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 179],
+      "frames_used": 4,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": "隊伍作者 Keanu Inosanto（規則 G 第一場地區賽 8 強），Michael Kelsch 之後用同一隊拿下斯德哥爾摩地區賽冠軍。字幕 2:58「最後這是隊伍的努力值」但影格只到 2:48，努力值畫面未抓到，evs 全 null。",
+    "notes": "規則 G 的 anti-meta 隊：藏瑪然特（撲擊/重磅衝撞/廣域防守/守住，腐朽的盾）為核心，其餘五隻專門補他的火、格鬥、地面與高爆發特攻弱點。大嘴鷗降雨 counter 故勒頓/固拉多晴天體系；轟擂金剛猩講究頭帶與古劍豹處理密勒頓、蓋歐卡、黑馬王等特攻神獸；伽勒爾火焰鳥黑色眼鏡欺詐（太晶惡）可秒殺白馬王並提供順風；拉帝歐斯（心之水滴、太晶鋼）屬性剛好抵抗藏瑪然特全部弱點，冰凍之風輔助、流星群輸出。隊上三隻免疫地面、一隻抗地面。Fiske 認為隊伍強且特別，但組隊邏輯不直觀，不適合新手。",
+    "extracted_at": "2026-11-08T20:02:43.000Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3"
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "id": "team_obqoq82GcBs",
+    "name": "衝浪之尾雷丘 電氣場地隊",
+    "name_source": "title",
+    "video_id": "obqoq82GcBs",
+    "video_url": "https://www.youtube.com/watch?v=obqoq82GcBs",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "electric-terrain",
+      "restricted",
+      "meme-gimmick"
+    ],
+    "tags_source": "title",
+    "author": "シリル",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1008,
+          "name_zh": "密勒頓",
+          "name_en": "Miraidon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "強子引擎",
+          "value_en": "Hadron Engine",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "閃電猛衝",
+            "value_en": "Electro Drift",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋物面充電",
+            "value_en": "Parabolic Charge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心「大哥」：強子引擎開電氣場地供三隻小弟加速／加威力。背心型，四倍抗電，隊友放電打到牠傷害很低且電系不會麻痺。太晶電依隊伍表圖示判讀（黃色電系星形）。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 939,
+          "name_zh": "電肚蛙",
+          "name_en": "Bellibolt",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "電力轉換",
+          "value_en": "Electromorphosis",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "放電",
+            "value_en": "Discharge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋物面充電",
+            "value_en": "Parabolic Charge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主輸出之一：電力轉換被打後下一招電系威力翻倍，踩電氣場地打拋物面充電／放電威力極高（字幕：約等於太晶電＋眼鏡＋幫助的密勒頓放電），對面不抗電通常直接打死。耐久不差；可搭配古簡蝸大聲咆哮。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 26,
+          "name_zh": "雷丘",
+          "name_en": "Raichu-Alola",
+          "form": "Alola",
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "衝浪之尾",
+          "value_en": "Surge Surfer",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：HP 與雙防的個體值故意不滿（超低耐久），目的是先手被打出氣勢披帶後，再蠻幹把對手打到只剩一點 HP。",
+        "moves": [
+          {
+            "value": "蠻幹",
+            "value_en": "Endeavor",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蹭蹭臉頰",
+            "value_en": "Nuzzle",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "標題主角：阿羅拉雷丘在電氣場地上衝浪之尾速度翻倍，先手蹭蹭臉頰麻痺或假哭輔助密勒頓；氣勢披帶＋低個體值配合蠻幹。太晶幽靈依隊伍表圖示判讀。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1001,
+          "name_zh": "古簡蝸",
+          "name_en": "Wo-Chien",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "災禍之簡",
+          "value_en": "Tablets of Ruin",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "欺詐",
+            "value_en": "Foul Play",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "寄生種子",
+            "value_en": "Leech Seed",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：隊上輸出手多為特攻，所以災禍之簡降攻擊不會坑隊友；搭配背心密勒頓削弱對面物攻，或與電肚蛙一起點大聲咆哮＋拋物面充電。特防高又抗電，被隊友拋物面充電打到傷害不高。太晶水依隊伍表圖示判讀。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 637,
+          "name_zh": "火神蛾",
+          "name_en": "Volcarona",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "火焰之軀",
+          "value_en": "Flame Body",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "火之舞",
+            "value_en": "Fiery Dance",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蟲之抵抗",
+            "value_en": "Struggle Bug",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "終極吸取",
+            "value_en": "Giga Drain",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：原作者此位置本是鐵毒蛾，但全隊太弱地面（怕斷崖之劍）故改火神蛾；抗性較好，憤怒粉掩護隊友、蟲之抵抗降對面特攻，面對振翼髮＋固拉多等組合較有用。太晶草依隊伍表圖示判讀（抗地面）。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1006,
+          "name_zh": "鐵武者",
+          "name_en": "Iron Valiant",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "靈魂衝擊",
+            "value_en": "Spirit Break",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：主要幫隊友廣域防守（對蓋歐卡、蕾冠王、固拉多等範圍技多的隊伍），冰凍之風控速；電氣場地上夸克充能速度也快。清淨墜飾近身戰可打熾焰咆哮虎（其他隊友不好打牠）。太晶鋼依隊伍表圖示判讀（灰色鋼系圖示，較小、信心稍低）。",
+        "stats": null,
+        "gender": "N"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        103,
+        218
+      ],
+      "frames_used": 5,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為 SV 遊戲內隊伍一覽（f_014 全六隻清楚；f_002/f_012 補左欄、f_003 蠻幹說明、f_007 災禍之簡說明）。作者欄取自影片描述「隊伍創建者：シリル」（租用碼 DKRYL9，畫面右上亦顯示），字幕只稱「作者」未具名。努力值分配章節（3:38 起）不在切片內，evs/stats/nature 未抽到。tags 中 meme-gimmick 來自字幕「比較抽象的冷門隊伍」。",
+    "notes": "規則 G 單神電氣場地隊：背心密勒頓（強子引擎）當「大哥」開電氣場地，帶三個吃場地的小弟——衝浪之尾阿羅拉雷丘（披帶＋低個體值蠻幹、蹭蹭臉頰／假哭先手輔助）、眼鏡電肚蛙（電力轉換＋場地拋物面充電／放電，威力極高）、夸克充能鐵武者（廣域防守＋冰凍之風）。古簡蝸的災禍之簡因隊上多為特攻手而不坑隊友，並與密勒頓一起削弱對面物攻。火神蛾取代原本的鐵毒蛾以補全隊弱地面（怕斷崖之劍）的問題，提供憤怒粉與蟲之抵抗。字幕評為抽象冷門、上手難度高，但原作者以此隊打到賽季中排位前三十幾名。",
+    "extracted_at": "2026-11-08T20:02:34.676Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
+  }
+]
