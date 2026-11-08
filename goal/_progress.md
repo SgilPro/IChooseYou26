@@ -125,6 +125,25 @@ App 試用回饋 + 四項功能需求。
 
 **下一步未來工項**（已記 docs，待排程推進）：GameLog **validator**（規則找漏記）、**觀看介面**（唯讀復盤頁，與上傳/編輯分離）；HP 與回合分組之後重啟。
 
+### `261108_1.all_in_one.md` — 🟡 進行中（2026-11-08 啟動）
+三條線：(1) 資料線：掃 Fiske Pokémon 頻道建主表 + Champions 對戰影片逐支抽隊伍；(2) 網站線：有後端版本的 Action Plan（只規劃）；(3) RAG 線：Pre-Plan & Research（只規劃）。
+
+| 線 | 項目 | 狀態 | 備註 |
+|---|---|---|---|
+| 1 | 工具鏈（yt-dlp 2026.10.26 + deno + ffmpeg） | ✅ | 第一擁有者核准安裝 |
+| 1 | Schema（video / team / team_member / regulation_set / tag） | ✅ | `data/schema/` |
+| 1 | 參照表：regulation_sets（M-A/M-B/M-C、SV A~J）、tags | ✅ | `data/ref/`，皆附來源 |
+| 1 | 頻道清單掃描（679 支） | ✅ | `tools/yt/scan-channel.mjs` |
+| 1 | 逐支抓 metadata / 字幕 / 留言 | ⏳ | `tools/yt/fetch-videos.sh`，背景跑 1.5~2 小時 |
+| 1 | 主表 videos.json / csv | ⬜ | |
+| 1 | Champions 對戰影片隊伍抽取 teams.json / csv（抽取者 + 審查者） | ⬜ | 範圍：Champions 時代（第一擁有者拍板） |
+| 1 | 方法研究文件 `research/line4-channel-analysis/` | ⬜ | |
+| 2 | Action Plan `research/line5-platform-backend/` | ⬜ | 含 Notion 遷移（待第一擁有者授權 Notion 連接器） |
+| 3 | RAG Pre-Plan `research/line6-rag/` | ⬜ | |
+| — | live docs / 反思 / README | ⬜ | |
+
+**已拍板的決策（2026-11-08）**：Notion 用連接器授權讀取；深度分析只做 Champions 時代對戰影片；可裝 ffmpeg；照慣例 commit + push。
+
 ## 更新紀錄
 
 - 2026-06-12：收到 `260611_2.roi_ui_suggestion.md`，建立本追蹤檔。
@@ -133,3 +152,4 @@ App 試用回饋 + 四項功能需求。
 - 2026-06-12：兩個研究完成。VGC 生態盤點（發現平台轉換到 Pokémon Champions）、競品拆解 + 三階段未來藍圖均產出並同步進 live docs。cron routine 已強化。goal #3 完成。
 - 2026-06-14：goal 260614_1（構思）四項拍板全實作（app v0.0.3）；goal 260614_2（測試回饋）A 全做、B 除待素材項全做（app v0.0.4）。
 - 2026-06-14：goal 260614_3（小回饋 + 方向調整）全做（app v0.0.5）：Mega/氣場類別、Toggle UI、lightbox、影片上傳註明；暫停 HP 與回合分組、聚焦 GameLog+特性/道具 OCR；未來工項(validator/觀看介面)寫進 docs。
+- 2026-11-08：收到 `261108_1.all_in_one.md`（三條線）。工具鏈、schema、參照表、頻道清單掃描完成；逐支抓取背景執行中。

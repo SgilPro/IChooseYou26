@@ -1,0 +1,264 @@
+[
+  {
+    "id": "champions-m-a",
+    "game": "champions",
+    "game_name_zh": "寶可夢 Champions",
+    "code": "M-A",
+    "name": "Regulation Set M-A（Champions 首發規則）",
+    "restriction_type": "無神獸",
+    "restriction_note": "無限制級傳說、無準傳說、無幻獸、無悖謬寶可夢；可用池為基礎帕底亞圖鑑扣除傳說/準傳說/悖謬。Game8/Bulbagarden 均載明「Restricted Pokémon: None」。",
+    "mechanics": ["mega"],
+    "starts_on": "2026-04-08",
+    "ends_on": "2026-06-17",
+    "showdown_format": "gen9championsvgc2026regma",
+    "pokemon_pool_note": "186 個物種（含型態約 229 個條目）；僅開放部分超級進化。Champions 僅有超級進化機制，無太晶化/極巨化/Z 招式。排位賽季 M-1（4/8–5/13）、M-2（5/13–6/17）；TPCi 賽事自 2026 年 5 月起採用。結束時間 2026-06-17 01:59 UTC。",
+    "sources": [
+      "https://victoryroad.pro/champions-regulations/",
+      "https://serebii.net/pokemonchampions/rankedbattle/regulationm-a.shtml",
+      "https://metavgc.com/guides/pokemon-champions-format-legal-pokemon-items-moves",
+      "https://bulbagarden.net/threads/pokemon-champions-launches-new-ruleset-for-competitive-vgc-regulation-set-m-a-runs-until-june-17th-2026.310333/",
+      "https://www.smogon.com/stats/2026-05/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "champions-m-b",
+    "game": "champions",
+    "game_name_zh": "寶可夢 Champions",
+    "code": "M-B",
+    "name": "Regulation Set M-B",
+    "restriction_type": "無神獸",
+    "restriction_note": "延續 M-A：無限制級傳說、無幻獸、無悖謬寶可夢。",
+    "mechanics": ["mega"],
+    "starts_on": "2026-06-17",
+    "ends_on": "2026-09-09",
+    "showdown_format": "gen9championsvgc2026regmb",
+    "pokemon_pool_note": "較 M-A 新增 22 個物種 + 16 個超級進化（Serebii 列 38 個新條目：22 基礎型態 + 16 Mega，含 Mega 雷丘 X/Y），新增 15 個道具；MetaVGC 統計合法寶可夢 224 隻（含型態）、Mega 16、道具 148。原定 9/2 結束，8/5 更新後延至 9/9（與 M-C 開始同日）。排位賽季 M-3（6/17–7/8）、M-4（7/8–8/5）、M-5（8/5–9/9）。2027 印尼 Premier Ball League（9/19–20）仍用 M-B。",
+    "sources": [
+      "https://victoryroad.pro/champions-regulations/",
+      "https://serebii.net/pokemonchampions/rankedbattle/regulationm-b.shtml",
+      "https://metavgc.com/regulations",
+      "https://www.smogon.com/stats/2026-07/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "champions-m-c",
+    "game": "champions",
+    "game_name_zh": "寶可夢 Champions",
+    "code": "M-C",
+    "name": "Regulation Set M-C（Z 超級進化登場）",
+    "restriction_type": "無神獸",
+    "restriction_note": "Game8 載明 Restricted Pokémon: None；無傳說/幻獸。官方僅預告 Mega 席多藍恩（傳說）將「敬請期待」，未納入 M-C。",
+    "mechanics": ["mega"],
+    "starts_on": "2026-09-09",
+    "ends_on": "2026-12-02",
+    "showdown_format": "gen9championsvgc2026regmc",
+    "pokemon_pool_note": "M-A/M-B 全部保留。新增 6 個超級進化：Mega 阿勃梭魯 Z、Mega 暴飛龍、Mega 烈咬陸鯊 Z、Mega 路卡利歐 Z、Mega 具甲武者、Mega 戟脊龍；新增 12 個道具（例：凸凸頭盔、氣球、紅牌、逐客令、各種種子）。新增寶可夢數各來源不一：官方 pokemon.com 稱 24 隻「newly available」（是否含 Mega 不明）、Serebii 列 32 個條目/26 個物種、Game8 稱 22+6 Mega、Victory Road 稱 +29。官方起始 2026-09-08 19:00 PDT = 09-09 02:00 UTC；結束 12-01 17:59 PST = 12-02 01:59 UTC。排位賽季 M-6（9/9–10/7）、M-7（10/7–11/4）、M-8（11/4–12/2）。2027 LAIC 等多數賽事採用。截至 2026-11-08 尚未見 M-D 官方公告。",
+    "sources": [
+      "https://www.pokemon.com/us/news/get-ready-for-regulation-set-m-c-in-pokemon-champions",
+      "https://victoryroad.pro/champions-regulations/",
+      "https://serebii.net/pokemonchampions/rankedbattle/regulationm-c.shtml",
+      "https://game8.co/games/Pokemon-Champions/archives/618064",
+      "https://www.smogon.com/stats/2026-10/",
+      "https://www.pikalytics.com/pokedex/gen9championsvgc2026regmc"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-a",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "A",
+    "name": "Regulation Set A（Series 1）",
+    "restriction_type": "無神獸",
+    "restriction_note": "所有傳說（含災厄四神）與故勒頓/密勒頓不可用；悖謬寶可夢不可用；多數彩粉蝶花紋禁用。",
+    "mechanics": ["tera"],
+    "starts_on": "2022-12-02",
+    "ends_on": "2023-01-31",
+    "showdown_format": "gen9vgc2023series1",
+    "pokemon_pool_note": "帕底亞圖鑑 #001–375、#388–392。遊戲內排位 2022-12-02 起；TPCi 賽事 2023-01-02 至 01-31。太晶化無限制。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2023-01/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-b",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "B",
+    "name": "Regulation Set B（Series 2，悖謬開放）",
+    "restriction_type": "無神獸",
+    "restriction_note": "傳說與災厄四神不可用；故勒頓/密勒頓禁用；悖謬寶可夢開放（波蕩水、鐵斑葉除外）。",
+    "mechanics": ["tera"],
+    "starts_on": "2023-02-01",
+    "ends_on": "2023-03-31",
+    "showdown_format": "gen9vgc2023series2",
+    "pokemon_pool_note": "帕底亞圖鑑 #001–392、#397–398；彩粉蝶除精靈球花紋外全開放。太晶化無限制。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2023-03/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-c",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "C",
+    "name": "Regulation Set C（災厄四神開放）",
+    "restriction_type": "無神獸",
+    "restriction_note": "無限制級傳說；災厄四神（古簡蝸、古劍豹、古鼎鹿、古玉魚）開放；故勒頓/密勒頓、波蕩水、鐵斑葉禁用；HOME 轉入寶可夢禁用。",
+    "mechanics": ["tera"],
+    "starts_on": "2023-04-01",
+    "ends_on": "2023-06-30",
+    "showdown_format": "gen9vgc2023regulationc",
+    "pokemon_pool_note": "帕底亞圖鑑 #001–398（扣除上列禁用）。太晶化無限制。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2023-05/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-d",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "D",
+    "name": "Regulation Set D（HOME 開放）",
+    "restriction_type": "無神獸",
+    "restriction_note": "HOME 轉入的限制級傳說與幻獸禁用（超夢、帝牙盧卡、帕路奇亞、騎拉帝納、蒼響、藏瑪然特、蕾冠王等）；故勒頓/密勒頓、波蕩水、鐵斑葉禁用；災厄四神可用。厄詭椪僅於遊戲內排位第 10 季可用，TPCi 賽事不可。",
+    "mechanics": ["tera"],
+    "starts_on": "2023-07-01",
+    "ends_on": "2023-09-30",
+    "showdown_format": "gen9vgc2023regulationd",
+    "pokemon_pool_note": "帕底亞圖鑑 #001–398 + 指定 HOME 限定物種清單。TPCi 賽事對碧之假面 DLC 發售後新增道具/招式/特性暫時限制。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2023-08/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-e",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "E",
+    "name": "Regulation Set E（北上開放）",
+    "restriction_type": "無神獸",
+    "restriction_note": "限制級傳說與幻獸禁用（故勒頓、密勒頓、蕾冠王全型態、蒼響、藏瑪然特、無極汰那、薩戮德；基拉祈、霏歐納、瑪納霏、達克萊伊、謝米亦禁）；波蕩水、鐵斑葉禁用；準傳說（含厄詭椪、寶物三惡）開放。",
+    "mechanics": ["tera"],
+    "starts_on": "2023-10-01",
+    "ends_on": "2024-01-03",
+    "showdown_format": "gen9vgc2023regulatione",
+    "pokemon_pool_note": "帕底亞圖鑑 #001–398（扣除故勒頓/密勒頓）+ 北上圖鑑 #001–200 + 其他活動/HOME 可取得寶可夢。藍之圓盤發售後 TPCi 賽事有暫時性限制。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2023-11/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-f",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "F",
+    "name": "Regulation Set F（藍莓開放，無限制級）",
+    "restriction_type": "無神獸",
+    "restriction_note": "所有限制級傳說與幻獸禁用（洛奇亞、鳳王、代歐奇希斯、萊希拉姆、捷克羅姆、酋雷姆、凱路迪歐、索爾迦雷歐、露奈雅拉、奈克洛茲瑪、蒼響、藏瑪然特、蕾冠王、瑪機雅娜、薩戮德等）；故勒頓、密勒頓、太樂巴戈斯禁用；準傳說、悖謬（含藍莓新悖謬）開放。",
+    "mechanics": ["tera"],
+    "starts_on": "2024-01-04",
+    "ends_on": "2024-04-30",
+    "showdown_format": "gen9vgc2024regf",
+    "pokemon_pool_note": "帕底亞 #001–398（扣除故勒頓/密勒頓）+ 北上 #001–200 + 藍莓 #001–239、#241–242（排除太樂巴戈斯）。TPCi 賽事另於 2025-12-01 至 2026-03-31 重啟 F（Showdown 2026 重啟 id：gen9vgc2026regf）。TPCi 特別條款：龍聲鼓舞因 bug 禁用至 3.0.1 版。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.gonintendo.com/contents/54570-regulation-set-f-returns-as-the-pokemon-vgc-format-starting-december-1-2025",
+      "https://www.smogon.com/stats/2024-02/",
+      "https://www.smogon.com/stats/2026-02/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-g",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "G",
+    "name": "Regulation Set G（單神）",
+    "restriction_type": "單神",
+    "restriction_note": "每隊限 1 隻限制級傳說：超夢、洛奇亞、鳳王、蓋歐卡、固拉多、烈空坐、帝牙盧卡/帕路奇亞（含起源）、騎拉帝納、萊希拉姆、捷克羅姆、酋雷姆、科斯莫古系列、奈克洛茲瑪、蒼響、藏瑪然特、無極汰那、蕾冠王、故勒頓、密勒頓、太樂巴戈斯。幻獸為唯一不可用類別（桃歹郎亦排除）。準傳說、悖謬全開放。",
+    "mechanics": ["tera"],
+    "starts_on": "2024-05-01",
+    "ends_on": "2024-08-31",
+    "showdown_format": "gen9vgc2024regg",
+    "pokemon_pool_note": "帕底亞 #001–400 + 北上 #001–200 + 藍莓 #001–242（排除桃歹郎）。2025-01-06 至 2025-04-30 重啟於排位與賽事（Showdown 重啟 id：gen9vgc2025regg）。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2024-06/",
+      "https://www.smogon.com/stats/2025-02/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-h",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "H",
+    "name": "Regulation Set H（無傳說、無悖謬）",
+    "restriction_type": "無神獸",
+    "restriction_note": "所有傳說（含準傳說、災厄四神、寶物三惡、厄詭椪、太樂巴戈斯、故勒頓/密勒頓）、幻獸與悖謬寶可夢全部不可用。",
+    "mechanics": ["tera"],
+    "starts_on": "2024-09-01",
+    "ends_on": "2025-01-05",
+    "showdown_format": "gen9vgc2024regh",
+    "pokemon_pool_note": "帕底亞/北上/藍莓圖鑑扣除傳說、幻獸、悖謬。TPCi 賽事於 2025-09-01 至 2025-11-30 重啟 H（非遊戲內排位；Showdown 重啟 id：gen9vgc2025regh）。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2024-10/",
+      "https://www.smogon.com/stats/2025-10/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-i",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "I",
+    "name": "Regulation Set I（雙神）",
+    "restriction_type": "雙神",
+    "restriction_note": "每隊限 2 隻限制級傳說（名單同 G：超夢、洛奇亞、鳳王、蓋歐卡、固拉多、烈空坐、帝牙盧卡、帕路奇亞、騎拉帝納、萊希拉姆、捷克羅姆、酋雷姆、科斯莫古系列、奈克洛茲瑪、蒼響、藏瑪然特、無極汰那、蕾冠王、故勒頓、密勒頓、太樂巴戈斯）。幻獸為唯一不可用類別（桃歹郎排除）。準傳說、悖謬全開放。",
+    "mechanics": ["tera"],
+    "starts_on": "2025-05-01",
+    "ends_on": "2025-08-31",
+    "showdown_format": "gen9vgc2025regi",
+    "pokemon_pool_note": "帕底亞 #001–400 + 北上 #001–200 + 藍莓 #001–242（排除桃歹郎）。遊戲內排位自 2026-01-05 起重啟 I 並為朱紫最終規則（第 41 季「Final Season」自 2026-04-01 起無限期延續、無月排名獎勵）；TPCi 賽事 2026-04-01 至 05-31 重啟 I 作為過渡至 Champions 的格式（Showdown 2026 重啟 id：gen9vgc2026regi）。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://bulbagarden.net/threads/regulation-set-i-returns-to-pokemon-scarlet-and-violet-ranked-battles-from-5-january-2026.309137/",
+      "https://www.smogon.com/stats/2025-06/",
+      "https://www.smogon.com/stats/2026-02/"
+    ],
+    "verified": true
+  },
+  {
+    "id": "sv-reg-j",
+    "game": "sv",
+    "game_name_zh": "寶可夢 朱/紫",
+    "code": "J",
+    "name": "Regulation Set J（雙神＋幻獸，僅排位）",
+    "restriction_type": "雙神",
+    "restriction_note": "每隊限 2 隻「限制級或幻之寶可夢」；幻獸開放並計入 2 隻上限（夢幻、基拉祈、代歐奇希斯、霏歐納、瑪納霏、達克萊伊、謝米、阿爾宙斯、凱路迪歐、美洛耶塔、蒂安希、胡帕、波爾凱尼恩、瑪機雅娜、薩戮德、桃歹郎等）。所有寶可夢皆可用。僅用於遊戲內排位，未用於任何 TPCi 官方賽事。",
+    "mechanics": ["tera"],
+    "starts_on": "2025-09-01",
+    "ends_on": "2026-01-04",
+    "showdown_format": "gen9vgc2025regj",
+    "pokemon_pool_note": "帕底亞 #001–400 + 北上 #001–200 + 藍莓 #001–243（全開放）。同期 TPCi 賽事使用 H（9–11 月）與 F（12 月起）。",
+    "sources": [
+      "https://victoryroad.pro/sv-rules-regulations/",
+      "https://www.smogon.com/stats/2025-10/"
+    ],
+    "verified": true
+  }
+]

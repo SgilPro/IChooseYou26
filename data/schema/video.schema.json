@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sgilpro.github.io/IChooseYou26/schema/video.schema.json",
+  "title": "Video",
+  "description": "一支 YouTube 影片的主表記錄（資料線第一層：metadata）。來源：yt-dlp。",
+  "type": "object",
+  "required": ["id", "url", "channel_id", "channel_name", "title", "duration_s", "is_members_only", "category", "fetched_at"],
+  "properties": {
+    "id": { "type": "string", "description": "YouTube video id" },
+    "url": { "type": "string", "format": "uri" },
+    "channel_id": { "type": "string" },
+    "channel_name": { "type": "string" },
+    "channel_handle": { "type": "string", "description": "例如 @fiskepokemon" },
+    "title": { "type": "string", "description": "原文標題（lang=zh-TW）" },
+    "published_at": { "type": ["string", "null"], "description": "YYYY-MM-DD；會員影片未登入抓不到則為 null" },
+    "duration_s": { "type": ["number", "null"] },
+    "view_count": { "type": ["integer", "null"] },
+    "like_count": { "type": ["integer", "null"] },
+    "availability": { "type": ["string", "null"], "enum": ["public", "unlisted", "subscriber_only", "premium_only", "needs_auth", "private", null] },
+    "is_members_only": { "type": "boolean", "description": "會員限定；未登入抓取失敗且錯誤含 members-only，或在會員播放清單中" },
+    "tab": { "type": "array", "items": { "type": "string", "enum": ["videos", "streams", "shorts"] } },
+    "playlists": { "type": "array", "items": { "type": "string" }, "description": "所屬頻道播放清單標題" },
+    "category": {
+      "type": "string",
+      "enum": ["battle", "tutorial", "official-commentary", "stream-highlight", "stream", "short", "other-game", "chat", "unknown"],
+      "description": "依播放清單 + 標題規則分類。battle = 隊伍介紹 + 實戰的對戰影片"
+    },
+    "game": { "type": ["string", "null"], "enum": ["champions", "sv", "other", null], "description": "由標題/播放清單推斷" },
+    "regulation_code": { "type": ["string", "null"], "description": "由標題括號解析，例如 M-C、I；對應 regulation_sets.json 的 code" },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "start_s"],
+        "properties": {
+          "title": { "type": "string" },
+          "start_s": { "type": "number" },
+          "end_s": { "type": ["number", "null"] }
+        }
+      }
+    },
+    "team_intro_range": {
+      "type": ["object", "null"],
+      "description": "「隊伍介紹」章節的時間範圍（秒），供深度分析切字幕/抽幀",
+      "properties": { "start_s": { "type": "number" }, "end_s": { "type": "number" } }
+    },
+    "subtitles": { "type": "array", "items": { "type": "string" }, "description": "手動字幕語言代碼" },
+    "has_auto_captions": { "type": "boolean" },
+    "description": { "type": ["string", "null"] },
+    "pinned_comment": { "type": ["string", "null"] },
+    "pokepaste_urls": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "author": { "type": ["string", "null"], "description": "隊伍/內容作者。頻道自製預設為頻道名；描述或字幕提到他人隊伍才改" },
+    "author_source": { "type": ["string", "null"], "enum": ["channel", "description", "subtitle", "pinned_comment", "manual", null] },
+    "fetched_at": { "type": "string", "format": "date-time" },
+    "fetch_error": { "type": ["string", "null"], "description": "yt-dlp 錯誤摘要（會員限定/私人/已移除）" }
+  }
+}

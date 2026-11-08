@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sgilpro.github.io/IChooseYou26/schema/regulation_set.schema.json",
+  "title": "RegulationSet",
+  "description": "一個對戰規則組（Notion relation 的目標）。屬於哪個遊戲、限制類型、允許機制、期間。",
+  "type": "object",
+  "required": ["id", "game", "code", "restriction_type", "mechanics"],
+  "properties": {
+    "id": { "type": "string", "description": "例如 champions-m-c、sv-reg-i" },
+    "game": { "type": "string", "enum": ["champions", "sv", "swsh", "other"] },
+    "game_name_zh": { "type": "string" },
+    "code": { "type": "string", "description": "M-C、I、G…" },
+    "name": { "type": "string" },
+    "restriction_type": {
+      "type": "string",
+      "enum": ["無神獸", "單神", "雙神", "幻獸", "其他"],
+      "description": "無神獸 = 不可用傳說/幻獸；單神 = 可帶 1 隻限制級傳說；雙神 = 可帶 2 隻；幻獸 = 開放幻之寶可夢"
+    },
+    "restriction_note": { "type": ["string", "null"], "description": "細節：哪些傳說算限制級、準傳說是否開放、悖謬等" },
+    "mechanics": { "type": "array", "items": { "type": "string", "enum": ["mega", "tera", "dynamax", "z-move", "none"] } },
+    "starts_on": { "type": ["string", "null"], "description": "YYYY-MM-DD" },
+    "ends_on": { "type": ["string", "null"] },
+    "showdown_format": { "type": ["string", "null"], "description": "例如 gen9vgc2026regi、gen9championsvgc2026regmc（Pikalytics slug 同款）" },
+    "pokemon_pool_note": { "type": ["string", "null"] },
+    "sources": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "verified": { "type": "boolean", "description": "是否已附來源查證；false = 待補" }
+  }
+}

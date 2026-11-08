@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sgilpro.github.io/IChooseYou26/schema/team_member.schema.json",
+  "title": "TeamMember",
+  "description": "隊伍中的一隻寶可夢實體（instance）。species 指向圖鑑（class），其餘為此隊的配置。每個欄位可附 confidence 與 source。",
+  "type": "object",
+  "required": ["slot", "species"],
+  "properties": {
+    "slot": { "type": "integer", "minimum": 1, "maximum": 6 },
+    "species": {
+      "type": "object",
+      "required": ["name_zh"],
+      "properties": {
+        "dex_no": { "type": ["integer", "null"], "description": "全國圖鑑編號（FK → 圖鑑）" },
+        "name_zh": { "type": "string", "description": "繁中名（神奇寶貝百科譯名）" },
+        "name_en": { "type": ["string", "null"], "description": "@pkmn/dex 英文名，含 form，例如 Basculegion-F、Golisopod" },
+        "form": { "type": ["string", "null"], "description": "型態：Mega / Mega-X / Mega-Y / 地區型態 / 性別差異等" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "nickname": { "type": ["string", "null"] },
+    "ability": { "$ref": "#/$defs/field" },
+    "item": { "$ref": "#/$defs/field" },
+    "nature": { "$ref": "#/$defs/field" },
+    "tera_type": { "$ref": "#/$defs/field", "description": "SV 太晶屬性；Champions 現行無太晶則 null" },
+    "mega": { "type": ["boolean", "null"], "description": "此隊是否以牠 Mega 進化（Champions 每場限一次）" },
+    "evs": {
+      "type": ["object", "null"],
+      "description": "努力值；只填字幕/畫面明示的數字，不臆測",
+      "properties": {
+        "hp": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "atk": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "def": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "spa": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "spd": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "spe": { "type": ["integer", "null"], "minimum": 0, "maximum": 252 },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "source": { "$ref": "#/$defs/source" }
+      }
+    },
+    "stats_note": { "type": ["string", "null"], "description": "字幕只講到結果（例如「速度剛好超過 XX」）時記在這裡" },
+    "moves": {
+      "type": "array",
+      "maxItems": 4,
+      "items": { "$ref": "#/$defs/field" }
+    },
+    "role_note": { "type": ["string", "null"], "description": "這隻在隊上的定位（字幕摘要）" }
+  },
+  "$defs": {
+    "source": { "type": "string", "enum": ["title", "subtitle", "frame", "description", "pinned_comment", "inferred", "manual"] },
+    "field": {
+      "type": ["object", "null"],
+      "required": ["value"],
+      "properties": {
+        "value": { "type": ["string", "null"], "description": "繁中原文（字幕聽寫）" },
+        "value_en": { "type": ["string", "null"], "description": "@pkmn/dex 對齊後的英文名；對不到則 null" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "source": { "$ref": "#/$defs/source" }
+      }
+    }
+  }
+}

@@ -24,3 +24,7 @@ venv/
 .claude/ditto-report-state.json
 .claude/scheduled_tasks.lock
 .claude/scheduled_tasks.json
+
+# 資料線原始抓取物（yt-dlp info.json / 字幕 / 影格，數百 MB，不進版控）
+data/channels/*/raw/
+data/channels/*/frames/

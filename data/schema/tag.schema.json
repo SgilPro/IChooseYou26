@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sgilpro.github.io/IChooseYou26/schema/tag.schema.json",
+  "title": "Tag",
+  "description": "隊伍戰術概念標籤的詞彙表（受控詞彙，避免同義詞散開）。",
+  "type": "object",
+  "required": ["slug", "label_zh", "category"],
+  "properties": {
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "label_zh": { "type": "string" },
+    "label_en": { "type": ["string", "null"] },
+    "category": {
+      "type": "string",
+      "enum": ["weather", "terrain", "speed-control", "setup", "archetype", "core", "mechanic", "other"],
+      "description": "weather 天氣 / terrain 場地 / speed-control 控速 / setup 強化 / archetype 隊伍類型 / core 核心組合 / mechanic 機制"
+    },
+    "aliases_zh": { "type": "array", "items": { "type": "string" }, "description": "標題常見寫法，供規則比對" },
+    "description": { "type": ["string", "null"] }
+  }
+}
