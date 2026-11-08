@@ -7,7 +7,7 @@
 # 之後補會員影片：加 --cookies cookies.txt（照 yt-dlp wiki 用無痕視窗匯出，不要 --cookies-from-browser）
 #
 # 速率：未登入約 300 支/小時上限。實測含留言 + 4 種字幕時每支要 ~80 秒（請求太多），
-# 所以預設不抓留言、只抓 zh-TW 手動字幕 + zh-Hant 自動字幕備援，每支約 8~12 秒，679 支約 2 小時。
+# 所以預設不抓留言、字幕只要 zh-TW / zh-Hant（手動優先；沒有手動字幕時 --write-auto-subs 會補 zh-TW 自動字幕），每支約 8~12 秒，679 支約 2 小時。
 # 要抓留言（置頂留言找 pokepaste）請設 WITH_COMMENTS=1，建議只對 battle 類影片的 id 清單跑。
 set -u
 IDS="${1:?ids.txt}"
@@ -18,11 +18,16 @@ mkdir -p "$RAW"
 # 已抓過的（有 info.json）跳過，可中斷重跑
 TODO="$RAW/.todo.txt"
 : > "$TODO"
-while read -r id; do
+while read -r id || [ -n "$id" ]; do   # || 讓最後一行沒換行的 id 也不會被吃掉
+  id="${id%$'\r'}"
   [ -z "$id" ] && continue
   [ -f "$RAW/$id.info.json" ] || echo "$id" >> "$TODO"
 done < "$IDS"
 echo "[fetch] todo: $(wc -l < "$TODO" | tr -d ' ') / $(wc -l < "$IDS" | tr -d ' ')" >&2
+if [ ! -s "$TODO" ]; then
+  echo "[fetch] nothing to do." >&2
+  exit 0
+fi
 
 COMMENT_ARGS=()
 XARGS="youtube:lang=zh-TW"

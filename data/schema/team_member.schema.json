@@ -83,7 +83,7 @@
         "object",
         "null"
       ],
-      "description": "努力值。Champions 遊戲內以「能力點」0~32 顯示（總和上限待查證，疑似每點=8 EV）；SV 以 0~252 顯示。只填字幕/畫面明示的數字，不臆測。",
+      "description": "努力值。Champions 遊戲內以「能力點（Stat point）」顯示：每隻總和上限 66、單項上限 32；從 HOME 轉入時 EV 換算為「第一點 4 EV、之後每點 8 EV」（32 點 = 252 EV，17 點 = 132 EV）。來源：https://bulbapedia.bulbagarden.net/wiki/Stat_point 、https://champdex.com/guides/stat-points 。SV 以 0~252 顯示。只填字幕/畫面明示的數字，不臆測。",
       "properties": {
         "scale": {
           "type": "string",

@@ -15,7 +15,7 @@
 
 | 階段 | 做什麼 | 要不要後端 | 預估 | 月費 |
 |---|---|---|---|---|
-| **Phase 1 靜態資料站** | 把第一線的 JSON + Notion 匯出的 JSON，在 build 時打包進現有 Vite app；做隊伍列表、隊伍頁、寶可夢頁（我們自己資料的使用率與常見隊友）、規則頁 | 不要 | 3–5 天 | US$0 |
+| **Phase 1 靜態資料站** | 把第一線的 JSON + Notion 匯出的 JSON，在 build 時打包進現有 Vite app；做隊伍列表、隊伍頁、寶可夢頁（我們自己資料的使用率與常見隊友）、規則頁。資料池：第一線只抽 Champions 時代對戰影片（約 60 支），SV 時代靠 Notion | 不要 | 3–5 天 | US$0 |
 | **Phase 2 接 Supabase** | 開 Supabase Free，把同一份資料灌進 Postgres；Google 登入；第一擁有者可在網頁上直接校對、修改隊伍 | 要（免費） | 5–7 天 | US$0 |
 | **Phase 3 社群功能** | 任何人登入後可分享隊伍、分享碼、匯入/匯出 Showdown 格式、熱門排序、檢舉 | 要 | 7–10 天 | US$0 起，超量才付 |
 
@@ -31,7 +31,19 @@
 4. 寶可夢圖片用哪個來源？（官方圖鑑圖有版權疑慮；PokeAPI sprites 較安全）
 5. Phase 3「開放任何人投稿」要不要做、何時做？
 
-## 我沒辦法查證、請注意的事
+## 查證狀態與請注意的事（2026-11-08 紅隊複查後）
 
-- victorpoke 的隊伍頁是 JavaScript 動態渲染，我這次沒有瀏覽器工具，**沒有親眼看到畫面**；我拆的是它的程式碼包（API 端點、介面文字、排序選項），拆解結果在 `01-reference-sites.md`。
-- pokepast.es 的 JSON 端點（`/{id}/json`）來自先前研究，我這次沒有找到可測的 paste 編號，**未實測**。
+- victorpoke 的隊伍頁是 JavaScript 動態渲染，我沒有瀏覽器工具，**沒有親眼看到畫面**；我拆的是它的程式碼包（API 端點、介面文字、排序選項、更新紀錄），拆解結果在 `01-reference-sites.md`，複查時重新下載程式碼包核對過。
+- pokepast.es 的 JSON 端點（`/{id}/json`）**已實測可用**（`https://pokepast.es/1/json` 回 `{author, notes, paste, title}`），原始碼也確認。
+- **仍待查證**：Champions 的 0–32 點制能力點與 Showdown / pokepaste 的 0–252 努力值制怎麼對應（影響匯入匯出與寶可夢頁的「努力值分布」）；Pikalytics 是否真的沒有公開 API；Notion 四個資料庫的真實欄位（連接器已拍板、尚未實際讀取，`03` 全是推測）。
+- 五份文件的費用數字已逐一對照官方頁面，Firebase 補上「Hosting 每日傳輸 360 MB」這個容易踩到的上限。
+
+## 名詞小抄（給非工程背景的讀者）
+
+- **後端 / 資料庫**：網站背後存資料、管登入的那台機器；靜態站沒有它，所有資料都是事先打包好的檔案。
+- **Supabase / Firebase**：兩家「租用後端」服務，免費方案夠小專案用。Supabase 底層是 Postgres（傳統表格式資料庫），Firebase Firestore 是文件式資料庫。
+- **RLS（Row Level Security）**：資料庫層的規則，決定「誰可以看／改哪一列」，例如「公開隊伍人人可看、只有本人能改」。
+- **upsert / 冪等**：同一份資料重跑多少次結果都一樣（有就更新、沒有就新增），不會重複插入。
+- **JSON Schema / ajv**：資料格式的說明書，以及照說明書檢查資料的工具。
+- **SPA（單頁應用）/ hash 路由**：整個網站只有一個 HTML、靠 JavaScript 換頁；在 GitHub Pages 這種純靜態主機，網址要用 `#/teams/xxx` 這種寫法深連結才不會 404。
+- **32 點制 vs. 252 努力值**：Pokémon Champions 的能力點是 0–32 點，SV / Showdown 是 0–252 努力值，兩者不能直接互換。

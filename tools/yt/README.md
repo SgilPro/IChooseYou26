@@ -44,4 +44,4 @@ node tools/yt/merge-teams.mjs $CH
 
 - 標題/章節若不鎖 `youtube:lang=zh-TW` 會被 YouTube 自動翻成英文；`build-videos.mjs` 優先用 description 裡的時間戳重建原文章節。
 - 分類（category / game / regulation）是規則式，會有誤判；`unknown` 的需要人工或 LLM 補。
-- Champions 的努力值以「能力點 0~32」顯示，與 252 制換算待查證，`evs.scale` 記錄刻度。
+- Champions 的努力值以「能力點」顯示：總和 66、單項 32，換算 EV = 4 + 8×(點數−1)（Bulbapedia Stat point）。`evs.scale` 記錄刻度，不自動換算。

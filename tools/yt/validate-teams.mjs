@@ -95,7 +95,9 @@ for (const file of readdirSync(teamsDir).filter((f) => f.endsWith(".json")).sort
         if (m.evs.scale === "champions-points-32") {
           if (vals.some((v) => v < 0 || v > 32)) err(`${mw}: 能力點超出 0~32`);
           const sum = vals.reduce((a, b) => a + b, 0);
-          if (vals.length === 6 && (sum < 50 || sum > 66)) warn(`${mw}: 能力點總和 ${sum} 不像滿配（常見 63~66），請複查`);
+          // Champions 規則：總和上限 66、單項上限 32（Bulbapedia Stat point）
+          if (sum > 66) err(`${mw}: 能力點總和 ${sum} > 66`);
+          else if (vals.length === 6 && sum < 66) warn(`${mw}: 能力點總和 ${sum} < 66（未滿配或讀錯）`);
         } else if (m.evs.scale === "ev-252") {
           const sum = vals.reduce((a, b) => a + b, 0);
           if (sum > 510) err(`${mw}: EV 總和 ${sum} > 510`);

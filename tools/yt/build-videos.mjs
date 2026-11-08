@@ -4,7 +4,7 @@
 //
 // 用法：node tools/yt/build-videos.mjs data/channels/fiskepokemon
 
-import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
@@ -43,8 +43,14 @@ function classify(rec, info) {
   const title = rec.title || info?.title || "";
   const pls = rec.playlists || [];
   if (rec.tabs?.includes("shorts")) return "short";
-  for (const [pl, cat] of PL_CATEGORY) if (pls.includes(pl)) return cat;
-  if (rec.tabs?.includes("streams")) return "stream";
+  const isStream = rec.tabs?.includes("streams");
+  for (const [pl, cat] of PL_CATEGORY) {
+    if (!pls.includes(pl)) continue;
+    // 直播存檔（3~4 小時的週末盃/會員直播）不是「隊伍介紹 + 實戰」的對戰影片，歸 stream；閒聊/其他遊戲照清單
+    if (isStream && cat === "battle") return "stream";
+    return cat;
+  }
+  if (isStream) return "stream";
   if (/官方比賽|世界賽|Regional|Worlds|解說/.test(title)) return "official-commentary";
   if (/實戰|隊伍|對戰|Mega|雙打|Champions/.test(title)) return "battle";
   if (/新手|教學|入門|解析|怎麼|如何/.test(title)) return "tutorial";
@@ -53,14 +59,15 @@ function classify(rec, info) {
 
 function detectGame(title, pls) {
   if (/Champions|寶可夢冠軍|#寶可夢冠軍/i.test(title) || pls.includes("寶可夢 Champions")) return "champions";
-  if (/朱紫|朱\/紫|Scarlet|Violet|SV|太晶/i.test(title)) return "sv";
+  if (/朱紫|朱\/紫|Scarlet|Violet|\bSV\b|太晶/i.test(title)) return "sv";
   if (/Pokopia|Z-A|PTCG|火紅葉綠|迷宮|Fire Emblem|火焰紋章/i.test(title)) return "other";
   return null;
 }
 
 function detectRegulation(title) {
   // 【寶可夢 Champions｜M-C】 / 【M-B】 / Regulation M-C / Reg I / 規則 G
-  let m = /M-([A-Z])\b/.exec(title);
+  // 前後不能是英數字，避免 "TEAM-A"、"M-Cup" 之類誤判
+  let m = /(?<![A-Za-z0-9])M-([A-Z])(?![A-Za-z0-9])/.exec(title);
   if (m) return `M-${m[1]}`;
   m = /(?:Regulation|Reg\.?|規則|法規)\s*([A-J])\b/i.exec(title);
   if (m) return m[1].toUpperCase();
@@ -84,12 +91,16 @@ function chaptersFromDescription(desc, duration) {
     const s = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
     out.push({ title: m[2], start_s: s, end_s: null });
   }
+  // YouTube 章節至少要 3 個且遞增；描述裡孤零零一行「12:34 xxx」不是章節，交回 info.chapters 判斷
+  if (out.length < 2 || out.some((c, i) => i > 0 && c.start_s <= out[i - 1].start_s)) return [];
   for (let i = 0; i < out.length; i++) out[i].end_s = i + 1 < out.length ? out[i + 1].start_s : duration ?? null;
   return out;
 }
 
 function teamIntroRange(chapters) {
-  const i = chapters.findIndex((c) => /隊伍介紹|隊伍|Team Introduction|Team Intro|team/i.test(c.title));
+  // 先找明確的「隊伍介紹」；找不到才接受第一章含「隊伍/team」（避免「隊伍弱點」「Team preview」之類章節誤中）
+  let i = chapters.findIndex((c) => /隊伍介紹|Team Intro/i.test(c.title));
+  if (i < 0 && chapters.length && /隊伍|team/i.test(chapters[0].title)) i = 0;
   if (i < 0) return null;
   const c = chapters[i];
   return { start_s: c.start_s, end_s: c.end_s ?? c.start_s + 480 };
@@ -123,8 +134,9 @@ for (const rec of index.videos) {
   videos.push({
     id: rec.id,
     url: `https://www.youtube.com/watch?v=${rec.id}`,
-    channel_id: index.channel?.channel_id ?? null,
-    channel_name: index.channel?.channel ?? null,
+    // 播放清單可能收錄別人的影片，有 info.json 時以影片本身的頻道為準
+    channel_id: info?.channel_id ?? rec.channel_id ?? index.channel?.channel_id ?? null,
+    channel_name: info?.channel ?? index.channel?.channel ?? null,
     channel_handle: index.channel?.handle ?? null,
     title,
     published_at: uploadDate,

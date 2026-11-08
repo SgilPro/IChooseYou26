@@ -5,7 +5,7 @@
 //
 // 用法：node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon <videoId> [<videoId>...]
 //       node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon --all-champions-battle
-// 環境變數：FPS（預設 1/10）、MAX_INTRO_S（章節缺失時的預設長度，預設 480）、NO_FRAMES=1 只切字幕
+// 環境變數：FPS（預設 1/8，可寫 1/5 或 0.2）、MAX_INTRO_S（章節缺失時的預設長度，預設 480）、NO_FRAMES=1 只切字幕
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
@@ -27,7 +27,11 @@ if (args[0] === "--all-champions-battle") {
     .map((v) => v.id);
 }
 
-const FPS = process.env.FPS || "1/6"; // 1/6 才抓得到遊戲內隊伍表翻頁（實測 1/10 會漏）
+const FPS = process.env.FPS || "1/8"; // 隊伍表畫面通常停留 60~90 秒，1/8 可抓到 7~10 張；要更密可設 FPS=1/5
+if (!/^\d+(?:\.\d+)?(?:\/\d+)?$/.test(FPS)) { // ffmpeg fps 濾鏡只吃數字或分數，先擋掉以免整批影格失敗
+  console.error(`FPS 格式錯誤：${FPS}（例：1/8、0.2）`);
+  process.exit(1);
+}
 const MAX_INTRO_S = Number(process.env.MAX_INTRO_S || 480);
 const introDir = join(chDir, "intro");
 mkdirSync(introDir, { recursive: true });
@@ -61,14 +65,14 @@ function extractFrames(id, start, end) {
   const seg = join(outDir, "seg.mp4");
   execFileSync("yt-dlp", [
     "-q", "--no-warnings",
-    "-f", "bv*[height<=480][ext=mp4]/b[height<=480]",
+    "-f", "bv*[height<=720][ext=mp4]/b[height<=720]", // 720p 才看得清隊伍表小字
     "--download-sections", `*${Math.floor(start)}-${Math.ceil(end)}`,
     "--force-keyframes-at-cuts",
     "--extractor-args", "youtube:lang=zh-TW",
     "-o", seg,
     `https://www.youtube.com/watch?v=${id}`,
   ], { stdio: ["ignore", "ignore", "inherit"] });
-  execFileSync("ffmpeg", ["-loglevel", "error", "-i", seg, "-vf", `fps=${FPS},scale=854:-2`, "-q:v", "3", join(outDir, "f_%03d.jpg")], { stdio: "inherit" });
+  execFileSync("ffmpeg", ["-loglevel", "error", "-i", seg, "-vf", `fps=${FPS},scale=1280:-2`, "-q:v", "3", join(outDir, "f_%03d.jpg")], { stdio: "inherit" });
   rmSync(seg, { force: true });
   return readdirSync(outDir).filter((f) => f.startsWith("f_")).length;
 }

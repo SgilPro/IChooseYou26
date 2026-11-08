@@ -4,7 +4,9 @@
 
 ## 一句話結論
 
-**用 yt-dlp（鎖 `lang=zh-TW`、每支睡 5–10 秒、不下載影片本體）抓公開影片；會員影片先標記、之後用一次性匯出的 cookies 補抓。** 官方 YouTube Data API、transcript 套件、MCP wrapper、Apify、瀏覽器自動化都看過，各自缺關鍵欄位或付不起成本，只當備援。
+**用 yt-dlp（鎖 `lang=zh-TW`、每支睡 3–6 秒 + 每個請求 0.75 秒、不下載影片本體）抓公開影片；會員影片先標記、之後用一次性匯出的 cookies 補抓。** 官方 YouTube Data API、transcript 套件、MCP wrapper、Apify、瀏覽器自動化都看過，各自缺關鍵欄位或付不起成本，只當備援。
+
+對照 1107 任務備註點名的四條路：**Data API** → 只做交叉驗證（缺章節、看不出會員限定）；**MCP server** → 不用（都是 yt-dlp / Data API 薄包裝，批次不如 CLI）；**chrome-mcp（claude-in-chrome）／playwright-mcp** → 最後備援，只在會員影片 cookies 也抓不到時附掛已登入瀏覽器逐支讀，絕不自動化 Google 登入。
 
 ## 我們的情境與限制
 
@@ -22,16 +24,16 @@
 | YouTube Data API v3 | 免費 10,000 單位/天 | 頻道→上傳清單→影片基本資料（各 1 單位/次） | **沒有章節欄位**（章節只是描述裡的時間戳）；`privacyStatus` 只有 public/unlisted/private，**看不出會員限定**；`captions.download` 200 單位且要有影片編輯權限；`search.list` 不會列出會員影片 | 只能當交叉驗證 |
 | youtube-transcript-api 1.2.5 | 免費 | 只有字幕 | 雲端 IP 常被擋、需住宅代理；cookie 登入目前壞掉 | 不需要（yt-dlp 已含字幕） |
 | MCP servers（kevinwatt/yt-dlp-mcp、kirbah/mcp-youtube、jkawamoto/mcp-youtube-transcript、eat-pray-ai/yutu） | 免費 | 同上各底層工具 | 都是 yt-dlp／Data API 的薄包裝，批次 679 支不如直接跑 CLI | 不用 |
-| Apify YouTube actors | 約 US$0.5–6.5 / 千筆 | 清單、metadata、部分字幕 | 不能用會員身分登入；資料欄位不可控 | 不用 |
+| Apify YouTube actors | 約 US$0.5–6.5 / 千筆（待查證：各 actor 定價不一，未留來源） | 清單、metadata、部分字幕 | 不能用會員身分登入；資料欄位不可控 | 不用 |
 | 瀏覽器自動化（Playwright MCP / claude-in-chrome） | 免費 | 人眼看得到的一切，含會員影片 | 慢、脆弱；**絕不自動化 Google 登入**，只能附掛在已登入的瀏覽器 profile 上 | 最後備援 |
 
 ## 選型理由
 
 1. **只有 yt-dlp 一次給齊所有欄位。** 章節是我們最需要的（`team_intro_range` 靠它切字幕／抽幀），Data API 根本沒有 chapters 欄位，只能自己從描述 regex 時間戳。
-2. **會員限定判斷。** Data API 的 `privacyStatus` 不區分會員限定（Google 自己 issue #2648 到現在還開著）；yt-dlp 未登入抓會員影片會直接報錯，錯誤訊息就是訊號。
+2. **會員限定判斷。** Data API 的 `privacyStatus` 只有 public/unlisted/private，沒有會員限定欄位；且 `search.list` 根本不回會員影片（google-api-python-client issue #2648「Support needed for identifying members-only videos」至今未關）；yt-dlp 未登入抓會員影片會直接報錯，錯誤訊息就是訊號。
 3. **原文標題要鎖語言。** 實測預設 yt-dlp 會回 YouTube 自動翻譯的英文標題（例：「Chronicles of Fire Emblem Engage…」），加 `--extractor-args "youtube:lang=zh-TW"` 才拿到「萬縷千絲編年史…」。這是 2026 新版才需要的事，舊版文件不會提。
 4. **置頂留言。** yt-dlp 自 PR #9775（2024-05 合併）起每則留言帶 `is_pinned`；實測 L6mjmqYNkOk 的置頂留言正確抓到。作者常把 pokepaste 連結放在置頂留言，這欄很值錢。
-5. **成本。** 679 支 × 每支睡 5–10 秒 ≈ 1.5–2 小時，一次做完；Data API 配額夠但欄位不夠；Apify 要錢又沒會員。
+5. **成本。** 679 支 × 每支約 8–12 秒（含字幕請求）≈ 2 小時，一次做完；wiki 建議的 5–10 秒是「每支下載」間隔，我們拆成 `--sleep-interval 3 --max-sleep-interval 6` + `--sleep-requests 0.75`，總等待時間相當；Data API 配額夠但欄位不夠；Apify 要錢又沒會員。
 
 ## 我們的 pipeline（對應 `tools/yt/`）
 
@@ -41,7 +43,7 @@ scan-channel.mjs ──► ids.txt + channel-index.json ──► fetch-videos.s
 ```
 
 - **`tools/yt/scan-channel.mjs`**：對 /videos /streams /shorts 和每個播放清單跑 `yt-dlp --flat-playlist -J`，合併成 679 支的索引，記每支屬於哪些 tab、哪些播放清單。flat 模式**沒有** `upload_date`、`availability`、章節，所以只做清單。
-- **`tools/yt/fetch-videos.sh`**：讀 ids.txt，跳過已有 info.json 的（可中斷重跑），`--skip-download --write-info-json --write-comments --write-subs --write-auto-subs`，留言 `comment_sort=top;max_comments=30,10,5,5`，字幕優先 zh-TW/zh-Hant，`--sleep-interval 5 --max-sleep-interval 10 --sleep-requests 1.5`，錯誤進 `errors.log` 不中斷。
+- **`tools/yt/fetch-videos.sh`**：讀 ids.txt，跳過已有 info.json 的（可中斷重跑），`--skip-download --write-info-json --write-subs --write-auto-subs`，字幕只要 zh-TW/zh-Hant（手動優先、缺時補 zh-TW 自動字幕），`--sleep-interval 3 --max-sleep-interval 6 --sleep-requests 0.75`，錯誤進 `errors.log` 不中斷。**留言預設不抓**（實測含留言 + 多語字幕每支要 ~80 秒）：要置頂留言找 pokepaste 時設 `WITH_COMMENTS=1`（`comment_sort=top;max_comments=20,0,0,0`），建議只對 battle 類 id 清單跑。
 - **已知陷阱**：章節標題有時仍是英文（YouTube 自動翻譯章節），所以 **保留原始 `description`**，必要時自己從描述重切章節。
 
 ## 會員影片的後續做法
@@ -60,7 +62,7 @@ scan-channel.mjs ──► ids.txt + channel-index.json ──► fetch-videos.s
 
 | 風險 | 對策 |
 |---|---|
-| YouTube 改版，yt-dlp 壞掉 | 固定 `yt-dlp -U` 再跑；EJS 腳本與 Deno 都要跟著更新；release 頁幾乎每月有 YouTube 修正 |
+| YouTube 改版，yt-dlp 壞掉 | 固定 `yt-dlp -U` 再跑；EJS 腳本與 Deno 都要跟著更新；release 頻繁（2026 年 8/19、10/21、10/26 三版都含 YouTube 修正） |
 | 限速（"This content isn't available, try again later"） | 維持 5–10 秒睡眠；一小時不超過 300 支；可中斷重跑 |
 | PO token / "Sign in to confirm you're not a bot" | 我們只抓 metadata 不抓串流，目前沒遇到；若出現再裝 bgutil-ytdlp-pot-provider 2.0.2（要 Node ≥22 或 Deno） |
 | 帳號被標記 | 會員補抓用無痕 cookies、更長睡眠、只跑失敗 id；考慮用第一擁有者同意的獨立會員帳號 |
@@ -80,16 +82,18 @@ scan-channel.mjs ──► ids.txt + channel-index.json ──► fetch-videos.s
 - yt-dlp EJS（JS runtime 需求：Deno ≥2.3.0 建議、Node ≥22）：https://github.com/yt-dlp/yt-dlp/wiki/EJS
 - yt-dlp PO Token Guide：https://github.com/yt-dlp/yt-dlp/wiki/PO-Token-Guide
 - yt-dlp Extractors wiki（cookies 無痕配方、OAuth 失效、300/2000 支/小時、5–10 秒睡眠、帳號停權警告）：https://github.com/yt-dlp/yt-dlp/wiki/Extractors
-- yt-dlp PR #9775（留言新格式、`is_pinned`）：https://github.com/yt-dlp/yt-dlp/pull/9775
+- yt-dlp PR #9775「Extract comments with or without new format」（2024-05-17 合併；`is_pinned` 由 `pinnedText` 判斷，false 也保留）：https://github.com/yt-dlp/yt-dlp/pull/9775
 - bgutil-ytdlp-pot-provider 2.0.2：https://pypi.org/project/bgutil-ytdlp-pot-provider/
 - YouTube Data API 配額（10,000/天；list 1 單位）：https://developers.google.com/youtube/v3/determine_quota_cost
 - captions.download（200 單位、需編輯權限）：https://developers.google.com/youtube/v3/docs/captions/download
 - videos resource（privacyStatus 只有三值、無章節欄位）：https://developers.google.com/youtube/v3/docs/videos
-- Data API 不回會員影片的 issue：https://github.com/googleapis/google-api-python-client/issues/2648
+- Data API `search.list` 不回會員影片的 issue（open）：https://github.com/googleapis/google-api-python-client/issues/2648
 - youtube-transcript-api 1.2.5（雲端 IP 被擋、cookie 失效）：https://github.com/jdepoix/youtube-transcript-api
 - Playwright MCP user profile（persistent / isolated / 附掛既有瀏覽器）：https://playwright.dev/mcp/configuration/user-profile
-- pokepastes-scraper 0.2.2：https://pypi.org/project/pokepastes-scraper/
+- pokepastes-scraper 0.2.2（最後發布 2023-05-09，兩年多沒更新，用前先確認 pokepast.es 版型沒變）：https://pypi.org/project/pokepastes-scraper/
 - pokepast.es 語法：https://pokepast.es/syntax.html
 - @pkmn/sets：https://www.npmjs.com/package/@pkmn/sets
-- RivalScope：https://github.com/hu-herrera/RivalScope
+- RivalScope（待查證：2026-11-08 複核時 GitHub 回 504，README 引述未能再確認）：https://github.com/hu-herrera/RivalScope
 - 本機實測資料：`data/channels/fiskepokemon/raw/channel-index.json`、`errors.log`、三支 `*.info.json`（2026-11-08）
+
+> 2026-11-08 複核（red team）：EJS runtime 版本、Extractors wiki 的 300/2000 支/小時、5–10 秒、無痕 cookies 配方、OAuth 失效、停權警告、captions.download 200 單位 + 編輯權限、videos.privacyStatus 三值且無章節欄位、配額 10,000/天、yt-dlp 2026.10.26、youtube-transcript-api 1.2.5（2026-11-05）與 cookie 失效、bgutil 2.0.2（Node ≥22 / Deno ≥2.0）皆已對照原文確認。「yt-dlp 預設回英文自動翻譯標題」為本機觀察，未見官方文件說明。

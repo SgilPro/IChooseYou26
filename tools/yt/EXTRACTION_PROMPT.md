@@ -9,7 +9,7 @@
 ## 素材
 
 - 字幕切片：`data/channels/<ch>/intro/<videoId>.zh-TW.txt`（含時間戳，是 Fiske 自己上傳的人工字幕，可信度高）
-- 影格：`data/channels/<ch>/frames/<videoId>/f_NNN.jpg`（每 6 秒一張，854px 寬）。**一定要看影格**：Fiske 會切到遊戲內的隊伍表畫面，那裡有
+- 影格：`data/channels/<ch>/frames/<videoId>/f_NNN.jpg`（每 8 秒一張，1280px 寬）。**一定要看影格**：Fiske 會切到遊戲內的隊伍表畫面，那裡有
   - 「能力」頁：每隻的暱稱、性別、特性、道具、四個招式（一頁顯示 2~3 隻，會翻頁）
   - 「狀態」頁：六隻的實際能力值（HP/攻擊/防禦/特攻/特防/速度）與右側的**能力點**（0~32 刻度，這是 Champions 的努力值顯示方式）
   - 投影片：六隻的立繪、選出組合、隊伍弱點
@@ -31,6 +31,18 @@
 12. **confidence（整隊）**：六隻 species 全部正確的主觀機率。
 13. `review_status: "auto"`，`extracted_by: "<model>/extract-v1"`，`extracted_at` 用現在時間（ISO）。
 14. 一支影片若介紹多支隊伍，輸出多個物件（id 加 `_1`、`_2`）。
+
+## 試跑學到的技巧（v1.1，來自 Xul9ZHTieLU）
+
+- **先掃影格找隊伍表**：先快速看全部影格縮圖，鎖定「能力」頁（六隻的暱稱/特性/道具/四招）與「狀態」頁（六隻數值 + 能力點），通常在隊伍介紹段後半、連續 10~15 張。投影片（立繪、選出、弱點、評分）用來補 tags/notes。
+- **小字看不清就裁切放大**：用 `sips -c <h> <w> --cropOffset <y> <x> -z <newH> <newW> f_056.jpg --out /tmp/x.jpg` 把左半/右半各放大到 ~1400px 再 Read（存到 scratchpad，不要放進 repo）。
+- **slot 順序 = 遊戲隊伍表的編號順序**。
+- **性格**：Champions 隊伍表不直接寫性格，但「狀態」頁能力名旁有 ▲/▽ 箭頭（例：攻擊▲ 特攻▽ = 固執）。依箭頭填 nature，`source: "frame"`、confidence 0.8，並在 `stats_note` 註明「依 ▲▽ 判讀」。無箭頭（中性性格）就 `null`。
+- **能力點驗算**：Lv.50 數值 = floor((2×種族值 + 31 + floor(EV/4)) × 50/100 + 5)（HP +60 不 +5），EV = 4 + 8×(點數−1)；若能驗算吻合可把 evs.confidence 提到 0.95+。總和應為 66。
+- **Mega 的特性**：隊伍表顯示的是原形特性（例：阿勃梭魯「正義之心」），Mega 後特性（例：「鋒銳」）寫進 `role_note`，ability 欄填畫面上的原形特性。
+- **守住 vs 看穿**：圖示顏色一般系灰色 = 守住、格鬥系橘色 = 看穿；放大確認。
+- **name_zh 用官方全名**（字幕常簡稱：金剛猩 → 轟擂金剛猩、鋁鋼龍 → 鋁鋼橋龍）。
+- Z-Mega 道具 `value_en` 填 `<Species>ite Z`（例：`Absolite Z`），confidence ≤ 0.85。
 
 ## 輸出
 

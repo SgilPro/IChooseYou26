@@ -39,8 +39,9 @@ create table pokemon_species (
 );
 
 create table channel (
-  handle text primary key,                   -- @fiskepokemon
-  youtube_channel_id text, name text
+  id text primary key,                       -- YouTube channel id（UC…），video.schema 的必填欄位；handle 可被改名，不當主鍵
+  handle text unique,                        -- @fiskepokemon（team.schema 只存 handle，靠這欄對回）
+  name text
 );
 
 create table author (
@@ -51,7 +52,7 @@ create table author (
 
 create table video (
   id text primary key,                       -- YouTube id
-  url text not null, channel_handle text references channel(handle),
+  url text not null, channel_id text not null references channel(id),
   title text not null, published_at date, duration_s numeric,
   view_count int, like_count int, availability text,
   is_members_only boolean not null default false,
@@ -98,9 +99,13 @@ create table team_member (
   ability text, ability_en text, ability_conf numeric, ability_src field_source,
   item text, item_en text, item_conf numeric, item_src field_source,
   nature text, nature_en text, nature_conf numeric, nature_src field_source,
-  tera_type text, mega boolean,
+  tera_type text, tera_type_en text, tera_type_conf numeric, tera_type_src field_source,  -- JSON 是 field 物件，不是純文字
+  mega boolean, gender text check (gender in ('M','F','N')),
+  evs_scale text check (evs_scale in ('champions-points-32','ev-252')),  -- 必填！Champions 0–32 點 vs. SV 0–252，混在一起統計會錯
   ev_hp smallint, ev_atk smallint, ev_def smallint, ev_spa smallint, ev_spd smallint, ev_spe smallint,
-  evs_conf numeric, evs_src field_source, stats_note text, role_note text,
+  evs_conf numeric, evs_src field_source,
+  stat_hp smallint, stat_atk smallint, stat_def smallint, stat_spa smallint, stat_spd smallint, stat_spe smallint, stats_src field_source,  -- 實際能力值（影片畫面常直接給）
+  stats_note text, role_note text,
   raw jsonb,                                 -- 原 JSON 物件整份保留，不丟資訊
   unique (team_id, slot)
 );
@@ -135,6 +140,9 @@ create table note_link (
 );
 
 -- 衍生統計（Pikalytics 式）：每規則組每物種的出現率
+-- ⚠ 去重：Fiske 的會員影片多是公開影片的延伸，同一支隊伍會以兩個 team.id 出現（互相列在 related_video_ids）。
+--   統計前要先挑一支代表（例如 review_status 較高、或 video.published_at 較早的那支），否則使用率與常見隊友會重複計算。
+--   下面的 view 先不做去重，Phase 1 的 build-data 腳本要處理；DB 版可加 team.canonical_team_id 欄位後在 where 過濾。
 create view v_species_usage as
 select t.regulation_set_id, m.species_id,
        count(distinct t.id) as teams_with,
@@ -175,16 +183,26 @@ create policy member_read on team_member for select
 alter table regulation_set enable row level security;
 create policy ref_read on regulation_set for select using (true);
 ```
-第一線 / Notion 匯入的隊伍 `owner_user_id` 設為第一擁有者帳號，他就能在網頁上改；Ditto 的 seed 腳本用 service_role key 繞過 RLS。參考：<https://supabase.com/docs/guides/database/postgres/row-level-security>
+第一線 / Notion 匯入的隊伍 `owner_user_id` 設為第一擁有者帳號，他就能在網頁上改；Ditto 的 seed 腳本用 service_role key 繞過 RLS（官方文件：service_role「bypasses RLS, so keep it server-side」，且只在請求不帶使用者 token 時才繞過）。參考：<https://supabase.com/docs/guides/database/postgres/row-level-security>
+
+Action Plan 2.3 提到 `profiles.role: owner/editor/viewer`，上面的 policy 只認 `owner_user_id`，editor 會改不了任何東西。補一條：
+```sql
+create table profiles (id uuid primary key references auth.users(id), role text not null default 'viewer' check (role in ('owner','editor','viewer')));
+create policy team_update_editor on team for update
+  using (exists (select 1 from profiles p where p.id = auth.uid() and p.role in ('owner','editor')));
+```
+（`team_member` / `team_member_move` 也要同樣補；只開 update 不開 delete。）
 
 ## 四、與 `data/schema/*.json` 對照
 | JSON | 表 | 備註 |
 |---|---|---|
 | `regulation_set.schema.json` | `regulation_set` | 1:1，`mechanics` → `text[]` |
 | `tag.schema.json` | `tag` | 1:1 |
-| `video.schema.json` | `video` | `chapters`/`team_intro_range` 存 jsonb；`author` 文字 → `author` 表 upsert 後接 id |
+| `video.schema.json` | `video` | `chapters`/`team_intro_range` 存 jsonb；`author` 文字 → `author` 表 upsert 後接 id；`channel_id`/`channel_name`/`channel_handle` 三欄收進 `channel` 表（主鍵用 `channel_id`） |
 | `team.schema.json` | `team` + `team_tag` | `tags[]` 拆進 `team_tag`（`tags_source` 落到每列 `source`）；`members[]` 拆進 `team_member` |
-| `team_member.schema.json` | `team_member` + `team_member_move` | `species.name_en` 經 `@pkmn/dex` 轉 id → `species_id`；每個 `field{value,value_en,confidence,source}` 攤平成 4 欄；`moves[]` 拆表；整個物件另存 `raw` |
+| `team_member.schema.json` | `team_member` + `team_member_move` | `species.name_en` 經 `@pkmn/dex` 轉 id → `species_id`；每個 `field{value,value_en,confidence,source}`（含 `tera_type`）攤平成 4 欄；`evs.scale` → `evs_scale`（必填，見 DDL 註解）；`stats{}` → `stat_*`；`gender`；`moves[]` 拆表；整個物件另存 `raw` |
+
+已知小差異：`game_id` enum 含 `swsh`，但 `team.schema.json` / `video.schema.json` 的 `game` enum 只有 `champions/sv/other`；DB 比 JSON 寬沒關係，反向（JSON 加值、DB 沒加）才會壞，CI 用同一份 enum 來源生成即可。
 
 ## 五、Notion 概念對照
 | Notion | Postgres |

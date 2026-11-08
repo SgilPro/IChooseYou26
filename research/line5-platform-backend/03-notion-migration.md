@@ -1,9 +1,9 @@
 # Notion 隊伍資料庫搬家步驟（草案）
 
-> 2026-11-08 · Ditto。前提：Notion 連接器可讀第一擁有者的 workspace（`app.notion.com/p/jake-the-dog/...`）。我**尚未讀到實際內容**，以下欄位名稱是依 goal 檔描述推的，讀到後在第六節補正。
+> 2026-11-08 · Ditto。前提：Notion 連接器可讀第一擁有者的 workspace（已拍板授權，尚未實際讀取）。goal 檔給了兩個連結：第 1 項的隊伍 DB（`app.notion.com/p/jake-the-dog/24a796b1ebe180f686d2d145ed70a25a`）與第 2 項的「Pokémon SV」頁（`.../Pok-mon-SV-4e051a70cc7f4664afa76eb2ea88e162`）；兩者關係（同一個 DB 的不同 view？還是頁面包著多個 DB？）**待讀取後確認**。我**尚未讀到實際內容**，以下欄位名稱是依 goal 檔描述推的，讀到後在第六節補正。
 
 ## 一、目標
-把 Notion 的三個 DB（隊伍、寶可夢實體、圖鑑）一次性匯出成與第一線**同一份 schema** 的 JSON（`data/notion/teams.json`，`source_kind: "notion"`），再由同一條 build / seed 流程上線。這樣 Notion 搬家不是特例，只是另一個資料來源。
+把 Notion 的四個 DB（隊伍、寶可夢實體、圖鑑、規則組——goal 檔說規則組也是 relation 目標）一次性匯出成與第一線**同一份 schema** 的 JSON（`data/notion/teams.json`，`source_kind: "notion"`），再由同一條 build / seed 流程上線。這樣 Notion 搬家不是特例，只是另一個資料來源。
 
 ## 二、欄位對照（待確認）
 | Notion 隊伍 DB | 型別（推測） | → team |
@@ -19,15 +19,15 @@
 | Notion 寶可夢實體 DB | → team_member |
 |---|---|
 | 圖鑑 relation | `species.dex_no` + `name_zh`，再用 `@pkmn/dex` 補 `name_en`；型態若在名稱裡（Mega X）→ `form` |
-| 努力值（6 個 number 或 1 個文字 "252/0/4/…"） | `evs.{hp,atk,def,spa,spd,spe}`，`source: manual`，`confidence: 1` |
+| 努力值（6 個 number 或 1 個文字 "252/0/4/…"） | `evs.{hp,atk,def,spa,spd,spe}`，`source: manual`，`confidence: 1`；**`evs.scale` 依規則組決定**：SV 隊伍填 `ev-252`，Champions 隊伍填 `champions-points-32`（第一擁有者的 Notion 以 SV 為主，但要逐隊看） |
 | 性格 / 特性 / 道具 | select 或 text → `nature`/`ability`/`item` `{value, source: manual, confidence: 1}` |
 | 技能 set | multi-select 或 4 個 text → `moves[]`（≤4） |
 
 所有 Notion 來的欄位 `confidence` 設 1.0、`source` 設 `manual`，因為是人手記的；`review_status: manual`。
 
 ## 三、Relation 的處理
-- Notion API 的 relation 屬性回傳**頁面 id 陣列**，一個屬性最多 25 個 id，超過要用 property item 端點分頁（<https://developers.notion.com/reference/retrieve-a-page-property>）。成員 ≤6 不會超，但「圖鑑 ← 實體」反向 relation 可能超，我們不走反向。
-- 兩段式：先把三個 DB 全部拉下來存成 `raw/notion/{teams,instances,dex}.json`（原樣），再離線 join。這樣 Notion 限速（每秒 3 請求，<https://developers.notion.com/reference/request-limits>）只付一次，之後重跑對照不必再打 API。
+- Notion API 的 relation 屬性回傳**頁面 id 陣列**，取得頁面時一個屬性最多回 25 個 id、`has_more: true` 表示還有（<https://developers.notion.com/reference/page-property-values>，2026-11-08 核對），超過要用 property item 端點分頁（<https://developers.notion.com/reference/retrieve-a-page-property>）。成員 ≤6 不會超，但「圖鑑 ← 實體」反向 relation 可能超，我們不走反向。
+- 兩段式：先把三個 DB 全部拉下來存成 `raw/notion/{teams,instances,dex}.json`（原樣），再離線 join。這樣 Notion 限速（平均每秒約 3 請求，超過回 429 + `Retry-After`，<https://developers.notion.com/reference/request-limits>，2026-11-08 核對）只付一次，之後重跑對照不必再打 API。
 - 規則組與 tag **不從 Notion 建**，以 repo 的參照表為準；Notion 的值只是用來比對。
 
 ## 四、驗證
@@ -46,4 +46,6 @@
 - [ ] 努力值是 6 欄還是一串文字
 - [ ] 規則組 DB 的實際欄位（是否有遊戲、限制類型、機制，與 `regulation_set.schema.json` 差多少）
 - [ ] 隊伍總數、成員 relation 是否有順序意義（先發？）
-- [ ] 是否有第一線沒有的欄位（例如戰績、對手、心得）→ 決定進 `notes` 或加欄位
+- [ ] 是否有第一線沒有的欄位（例如戰績、對手、心得、單打/雙打）→ 決定進 `notes` 或加欄位（對應 D8）
+- [ ] 兩個 goal 連結指向的是同一個 DB 還是不同結構
+- [ ] 隊伍是 SV 還是 Champions 時代為主（決定 `evs.scale` 與規則組對照的工作量）

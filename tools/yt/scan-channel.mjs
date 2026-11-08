@@ -35,6 +35,7 @@ function upsert(entry, { tab, playlist }) {
     id: entry.id,
     title: entry.title ?? null,
     duration_s: entry.duration ?? null,
+    channel_id: entry.channel_id ?? null,
     tabs: [],
     playlists: [],
   };
