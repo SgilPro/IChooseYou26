@@ -1,0 +1,521 @@
+[
+  {
+    "id": "team_uqnxJS80bjs",
+    "name": "Mega 火炎獅 & 酷豹晴天隊",
+    "name_source": "title",
+    "video_id": "uqnxJS80bjs",
+    "video_url": "https://www.youtube.com/watch?v=uqnxJS80bjs",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "sun",
+      "mega",
+      "trick-room",
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 510,
+          "name_zh": "酷豹",
+          "name_en": "Liepard",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "正版貓騙",
+        "gender": "M",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 14,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 171,
+          "atk": 108,
+          "def": 99,
+          "spa": 108,
+          "spd": 84,
+          "spe": 113,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）；六項數值以 Lv.50 公式驗算皆吻合。速度 113 不壓到最低，靠黑色鐵球速度減半後剛好比減速性格的勾魂眼更慢，惡作劇之心大晴天可壓過對面的惡作劇之心雨天。",
+        "moves": [
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Fiske 認為火炎獅隊一定要放的輔助手：黑色鐵球＋惡作劇之心手動晴天（搶贏勾魂眼/雨天巨沼怪），惡系不怕對面惡作劇之心的再來一次/定身法；假哭讓火炎獅打出最大爆發；急速折返在過熱後低速把火炎獅換回來繼續輸出；擊掌奇襲可搭配空間模式多一種控速。面對雨天隊通常首發酷豹＋火炎獅。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "可靠的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 16,
+          "spa": 10,
+          "spd": 8,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 227,
+          "atk": 110,
+          "def": 106,
+          "spa": 154,
+          "spd": 98,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。字幕未說明配點理由。",
+        "moves": [
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍唯一的空間手（酷豹的超低速擊掌可能被阻止，所以需要能自己開空間的人）。十萬伏特主要打噴火龍、大嘴鷗、幽尾玄魚等常見抗火的人。尾甲可防影子偷襲，面對蒼炎刃鬼隊有時需專門選出保護幽尾玄魚。搭配擊掌時首發酷豹＋奇麒麟；或首發火炎獅/幽尾玄魚其中一個＋奇麒麟，看對面首發決定開不開空間，不開就幫助波動衝/幫助過熱。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "烏龜網路",
+        "gender": "F",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 105,
+          "def": 160,
+          "spa": 150,
+          "spd": 92,
+          "spe": 36,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。極 HP 極特攻、速度壓到 36 配合空間。",
+        "moves": [
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "原始之力",
+            "value_en": "Ancient Power",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "特性開晴天的第二個晴天手（不選九尾是因為屬性與火炎獅重疊）；能在高速模式當輔助、空間模式當輸出，操作空間比九尾大。原始之力拿來打噴火龍與化石翼龍：對面面對本隊常走高速模式，帶大地之力容易打不動，岩石技更有用。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "不會做壞事",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 78,
+          "def": 105,
+          "spa": 129,
+          "spd": 95,
+          "spe": 184,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值以 Lv.50 公式驗算皆吻合。極速極特攻，字幕未說明配點理由。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "順風輔助。面對水系抗性較少的隊伍（例如主流噴火龍隊），除了開空間之外也可首發風妖精＋幽尾玄魚或風妖精＋火炎獅走高速模式。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "離家出走",
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 14,
+          "atk": 32,
+          "def": 10,
+          "spa": 0,
+          "spd": 0,
+          "spe": 10,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 209,
+          "atk": 180,
+          "def": 95,
+          "spa": 90,
+          "spd": 95,
+          "spe": 108,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值以 Lv.50 公式驗算皆吻合。速度只加到 108：順風下超過圍巾幽尾玄魚，但比 Mega 化石翼龍略慢；也可加到 112，但物攻不能動（影響傷害計算），只能少加 HP；少加物防的話被突襲就不能保證存活。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "中速、屬性補火系盲點的輸出手：道具＋特性＋性格共 1.9 倍增傷，晴天下保證擊殺能接岩崩的噴火龍，無晴天也剛好秒殺生命寶珠烈咬陸鯊，被威嚇一次後仍可擊殺咆哮虎，加幫助可擊殺仆斬將軍；常在空間下輸出，被仆斬將軍突襲一定不死。隊伍輸出很依賴他，面對蒼炎刃鬼隊不能太早死。畫面型態為雄性（Basculegion 一般型）。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 668,
+          "name_zh": "火炎獅",
+          "name_en": "Pyroar-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": "十七區東巴",
+        "gender": "M",
+        "ability": {
+          "value": "緊張感",
+          "value_en": "Unnerve",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火炎獅進化石",
+          "value_en": "Pyroarite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 163,
+          "atk": 79,
+          "def": 92,
+          "spa": 177,
+          "spd": 86,
+          "spe": 158,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（種族 86/68/72/109/66/106），六項以 Lv.50 公式驗算皆吻合。性格內斂：狀態頁 特攻▲/攻擊▽ 且字幕明說「必須帶內斂才夠」。字幕的速度 178 是 Mega 後數值（Mega 速度種族 126，極速內斂 = 178，相當於巨金怪極速）；很多火炎獅為了超過大狃拉帶膽小，但本隊基於傷害計算選內斂。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "日光束",
+            "value_en": "Solar Beam",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心與唯一 Mega。Mega 後專屬特性「火焰鬃毛」（投影片顯示 Fire Mane：火屬性招式威力 1.5 倍），晴天熱風力度與噴火駝並列全遊戲最高之一；內斂＋幫助的晴天過熱可秒殺 30 HP 噴火龍及幾乎任何配置的烈咬陸鯊、幽尾玄魚。日光束打雨天巨沼怪與美納斯（原本會大地之力，獲得 Mega 後被拔掉）；特性只加火系，晴天減半熱風仍比一倍巨聲強，故不帶一般系技。缺點：本身較脆、主要輸出技會 miss、非常依賴晴天與隊友配合。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        580
+      ],
+      "frames_used": 18,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為一頁六隻的版面（能力頁 f_038–f_044、狀態頁 f_045–f_047），所有欄位皆直接讀自畫面。火焰鬃毛（Fire Mane）不在 names_zh-Hant.json，英文名取自投影片 f_007 的畫面文字。Pyroar-Mega / Pyroarite 為 Z-A 新 Mega，Showdown id 依慣例填寫。tags 中 trick-room / tailwind 依字幕「控速輔助：順風＋空間」「對於順風空間隊來說」判定為隊伍概念；酷豹的擊掌奇襲視為單隻工具招式，未標 fake-out。",
+    "notes": "以 Mega 火炎獅為核心的晴天隊（規則 M-B）。Mega 火炎獅專屬特性火焰鬃毛讓火系威力 1.5 倍，內斂＋幫助的晴天過熱能秒殺 30 HP 噴火龍與幾乎所有烈咬陸鯊、幽尾玄魚，速度 178 即便內斂也比多數主流快。隊伍三個必備條件：晴天輔助（黑色鐵球惡作劇之心酷豹手動晴天搶贏勾魂眼/雨天巨沼怪，加上日照煤炭龜）、控速輔助（風妖精順風＋奇麒麟空間，酷豹擊掌/假哭與煤炭龜幫助兩種模式皆可支援）、補火系盲點的中速輸出手（生命寶珠適應力幽尾玄魚，1.9 倍增傷可秒噴火龍/烈咬陸鯊/咆哮虎/仆斬將軍）。選出先判斷控速模式：面對雨天隊首發酷豹＋火炎獅手動晴天；面對高速隊判斷能否開空間（酷豹＋奇麒麟，或火炎獅/幽尾玄魚＋奇麒麟）；對水抗少的噴火龍隊可走風妖精＋幽尾玄魚/火炎獅的高速模式。弱點：結構接近神戰隊、輸出極依賴火炎獅與幽尾玄魚（面對蒼炎刃鬼要保護幽尾玄魚，有時需選奇麒麟防影子偷襲）；火炎獅需要晴天與大量隊友配合，遇手動雨天冰九尾＋水系很麻煩；火炎獅較脆且主要輸出技會 miss。評分：上手難度 2.5/5、操作彈性 3.5/5、穩定性 2.5/5、全面程度 4/5。",
+    "extracted_at": "2026-11-08T09:27:34.511Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

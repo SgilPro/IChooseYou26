@@ -1,7 +1,7 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-08 17:30（第一擁有者提醒 session 用量近上限，提前寫這份）。
+> 最後更新：2026-11-08 18:00（11 隊入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
 ## 現況（2026-11-08 17:30）
 
@@ -11,9 +11,9 @@
 | 逐支 metadata / 字幕抓取 | ⏳ 背景跑中，約 200/679；可中斷重跑（會跳過已有 info.json 的） | `raw/*.info.json`、`raw/*.zh-TW.json3`、`raw/errors.log` |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
-| 隊伍抽取 teams/<id>.json | 🟡 **8 完成 + 3 進行中**，其餘約 12 支待做 | `teams/*.json` |
+| 隊伍抽取 teams/<id>.json | 🟡 **11 完成**（validate 0 ERR），其餘約 12 支公開 Champions 對戰影片待做 | `teams/*.json` |
 | 對抗式複核 | 🟡 1 支做了獨立再抽取（99% 一致）；其餘靠 `validate-teams.mjs` 機械驗證（0 ERR） | `teams/_review/` |
-| 合併 teams.json / csv | ⬜ 未跑 | `tools/yt/merge-teams.mjs` |
+| 合併 teams.json / csv | ✅ 已跑一次（11 隊 / 66 隻），每新增隊伍後重跑 | `teams.json`、`teams.csv` |
 | 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
 
 ## 接手步驟（照順序敲）

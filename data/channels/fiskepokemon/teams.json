@@ -1,0 +1,5218 @@
+[
+  {
+    "id": "team_Xul9ZHTieLU",
+    "name": "阿勃梭魯 Z 物攻強化隊",
+    "name_source": "title",
+    "video_id": "Xul9ZHTieLU",
+    "video_url": "https://www.youtube.com/watch?v=Xul9ZHTieLU",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "setup",
+      "balance",
+      "mega",
+      "intimidate",
+      "tailwind",
+      "coaching"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 359,
+          "name_zh": "阿勃梭魯",
+          "name_en": "Absol-Mega-Z",
+          "form": "Mega-Z",
+          "confidence": 0.9
+        },
+        "nickname": "四災第五名",
+        "gender": "M",
+        "ability": {
+          "value": "正義之心",
+          "value_en": "Justified",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "阿勃梭魯進化石 Z",
+          "value_en": "Absolite Z",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 17,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 17,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 200,
+          "def": 80,
+          "spa": 85,
+          "spd": 80,
+          "spe": 112,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。速度加到剛好比大狃拉慢 1（Mega 後 188 vs 189）；HP 加一點讓他能接下部分高威力技能（例：鋁鋼橋龍的電光束），對方若堆耐久則 +1 可保證存活。性格由狀態頁的攻擊▲/特攻▽箭頭判讀。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影爪",
+            "value_en": "Shadow Claw",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗襲要害",
+            "value_en": "Night Slash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心輸出。靠隊友的指導/長嚎直接強化後立刻輸出，不自己劍舞/聚氣。Mega 後特性為鋒銳（Sharpness，投影片），雙本系增傷且附帶擊中要害等級。暗襲要害打環境中的愛管侍、奇麒麟；暗影爪打抗惡的沙奈朵、大狃拉、花葉蒂；突襲處理幽尾玄魚、龍頭地鼠等更高速目標。第四格不帶近身戰，因全隊已有四人有剋惡技能。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 472,
+          "name_zh": "天蠍王",
+          "name_en": "Gliscor",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "守住吃口毒",
+        "gender": "M",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "青草種子",
+          "value_en": "Grassy Seed",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 26,
+          "atk": 25,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 15,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 176,
+          "atk": 154,
+          "def": 145,
+          "spa": 58,
+          "spd": 95,
+          "spe": 130,
+          "source": "frame"
+        },
+        "stats_note": "速度加到比風速狗慢 1（130 vs 131），兩者都比膽小大嘴鷗快一點點。性格由狀態頁箭頭判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "雜技",
+            "value_en": "Acrobatics",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "免疫威嚇（怪力鉗），剋制惡系常見的地面弱點，雙本系高威力技能並負責順風控速。搭配金剛猩的青草場地觸發青草種子出場物防 +1，再吃種子後雜技威力翻倍；接受指導/長嚎後對物攻手非常強。比較依賴場地，通常與金剛猩一起選出。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "咆哮伊布2",
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 10,
+          "def": 0,
+          "spa": 0,
+          "spd": 8,
+          "spe": 16,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 154,
+          "def": 100,
+          "spa": 108,
+          "spd": 108,
+          "spe": 131,
+          "source": "frame"
+        },
+        "stats_note": "加了一點特防以聯防特攻技能（妖精巨聲、晴天熱風、廣域戰力等），搭配文柚果。性格由狀態頁箭頭判讀。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "長嚎",
+            "value_en": "Howl",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選原版而非洗翠版：速度較快可先手大聲咆哮減傷、先手長嚎幫自己與隊友增傷，有神速高威力先制，又抗妖精，比咆哮虎更適合搭配阿勃梭魯。四招已滿，隊伍也不需要岩石進攻。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "睡他",
+        "gender": "F",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 182,
+          "def": 81,
+          "spa": 54,
+          "spd": 100,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "極速；阿勃梭魯的速度就是以比牠慢 1 為基準。性格由狀態頁的速度▲/特攻▽箭頭判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "剋命爪",
+            "value_en": "Dire Claw",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心的指導手：速度夠快能先幫阿勃梭魯強化；格鬥/毒同時剋制惡系（阿勃梭魯的盲點）與妖精系（阿勃梭魯的弱點）。本身也偏脆。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "卡璞瑞拉",
+        "gender": "M",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "奇跡種子",
+          "value_en": "Miracle Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 21,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 13,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 196,
+          "atk": 194,
+          "def": 110,
+          "spa": 72,
+          "spd": 90,
+          "spe": 118,
+          "source": "frame"
+        },
+        "stats_note": "速度加到剛好超過內斂大嘴鷗；木槌可保證擊殺 32 HP 的大嘴鷗（晴雨隊常見配置）。性格由狀態頁箭頭判讀。",
+        "moves": [
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "幫天蠍王開青草場地（觸發青草種子），幫多位隊友聯防水/草/地面，並補一個高威力先制青草滑梯。字幕簡稱「金剛猩」。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 730,
+          "name_zh": "西獅海壬",
+          "name_en": "Primarina",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "鯛魚燒",
+        "gender": "M",
+        "ability": {
+          "value": "濕潤之聲",
+          "value_en": "Liquid Voice",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 13,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 21,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 168,
+          "atk": 84,
+          "def": 94,
+          "spa": 195,
+          "spd": 136,
+          "spe": 101,
+          "source": "frame"
+        },
+        "stats_note": "耐久可在威嚇後接下固執剋命爪並剩 10–24%，通常讓生命寶珠扣一次後還有一點血；速度在順風下可超過 130 種族值極速（雷丘、化石翼龍等）。性格由狀態頁的特攻▲/攻擊▽箭頭判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "補隊伍需要的屬性：剋火/龍/惡（尤其咆哮虎）。冰凍之風軟性控速、巨聲（濕潤之聲變水系）群體技能，彌補隊友太以單體為主的問題。隊上唯一特攻手。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        463
+      ],
+      "frames_used": 77,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "reviewed",
+    "review_notes": "2026-11-08 對抗式複核（獨立再抽取 + 逐欄比對）：200 項硬資料一致 198，2 項不一致皆抽取者正確；36/36 能力值重算吻合。tags 依 v1.2 邊界修正（移除單隻工具招 icy-wind/grassy-terrain，補 coaching）。見 teams/_review/Xul9ZHTieLU.review.md",
+    "notes": "以 Mega 阿勃梭魯 Z 為核心的物攻強化平衡隊：不讓阿勃梭魯自己劍舞/聚氣，而是由大狃拉指導、風速狗長嚎直接幫牠（以及天蠍王等其他物攻手）強化後立刻輸出，六人中五人為物攻手。隊友依七項條件挑選：威嚇減傷（風速狗）、高威力先制（神速、青草滑梯、突襲）、高耐久吸收傷害（天蠍王、金剛猩、西獅海壬）、屬性聯防、軟性控速（順風、冰凍之風）、以物攻手為主、反/免疫威嚇（怪力鉗天蠍王、指導與長嚎）。天蠍王搭配金剛猩的青草場地吃青草種子出場物防 +1。Fiske 自評組隊邏輯近似振翼髮隊，只是種族值較低。選出無固定模式，每一組都可首發，只有天蠍王較依賴場地通常與金剛猩同選。弱點：整體爆發火力低，需靠屬性剋制與強化打死某些目標；怕重空間等 HO 與風妖精隊（先制再來一次干擾強化），常需猜拳。評分：上手難度 4/5、操作彈性 3.5/5、穩定性 3/5、全面程度 4/5。",
+    "extracted_at": "2026-11-08T08:55:33Z",
+    "extracted_by": "claude-fable-5.1/extract-v1",
+    "video_title": "阿勃梭魯 Z 的火力不夠？物攻強化大隊，與天蠍王一起打出爆炸輸出！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰 #nintendoswitch2",
+    "video_published_at": "2026-10-24"
+  },
+  {
+    "id": "team_9REOku70kSg",
+    "name": "胖甜妮 Mega 水晶燈火靈隊",
+    "name_source": "title",
+    "video_id": "9REOku70kSg",
+    "video_url": "https://www.youtube.com/watch?v=9REOku70kSg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "subtitle",
+    "tags": [
+      "trick-room",
+      "follow-me",
+      "psychic-terrain",
+      "sun",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 685,
+          "name_zh": "胖甜妮",
+          "name_en": "Slurpuff",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "他叫什麼來著",
+        "gender": "F",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 8,
+          "atk": 0,
+          "def": 26,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 165,
+          "atk": 90,
+          "def": 132,
+          "spa": 105,
+          "spd": 95,
+          "spe": 136,
+          "source": "frame"
+        },
+        "stats_note": "物耐可保證接下大狃拉的極攻剋命爪，94% 接下龍頭地鼠的極攻鐵頭。速度 136 比鱗甲龍（137）慢 1，輕裝觸發後是全隊最快。性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "吐絲",
+            "value_en": "String Shot",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "您先請",
+            "value_en": "After You",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心輔助，無攻擊技能。靠精神種子（搭配愛管侍的精神場地）觸發輕裝速度加倍。空間模式：您先請讓愛管侍超高速開空間，第二回合幫助增傷；高速模式：吐絲控速、假哭 + 幫助幫特攻手增傷，雙向控速。使用率倒數但技能組合獨特，無人能取代。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 849,
+          "name_zh": "顫弦蠑螈",
+          "name_en": "Toxtricity-Low-Key",
+          "form": "Low-Key",
+          "confidence": 0.95
+        },
+        "nickname": "一輩子的樂團",
+        "gender": "M",
+        "ability": {
+          "value": "龐克搖滾",
+          "value_en": "Punk Rock",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 106,
+          "def": 90,
+          "spa": 182,
+          "spd": 90,
+          "spe": 101,
+          "source": "frame"
+        },
+        "stats_note": "速度只加到 101：吐絲後剛好快過 130 種族值的極速，但也要能在空間下輸出，不加太快。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。型態依立繪藍色紋路與內斂性格判為低調型態。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "破音",
+            "value_en": "Overdrive",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "爆音波",
+            "value_en": "Boomburst",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "中速特攻手，補燈火靈/煤炭龜不好打的火、水、岩石、龍、惡。爆音波 140 威力 + 龐克搖滾 +30%，比雙本系還強，但會打到隊友，所以隊友需為幽靈系（燈火靈）或隔音（鱗甲龍）。爆音波分散力度與污泥炸彈相近且都高於分散破音。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 609,
+          "name_zh": "水晶燈火靈",
+          "name_en": "Chandelure-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": "七彩霓虹燈",
+        "gender": "M",
+        "ability": {
+          "value": "引火",
+          "value_en": "Flash Fire",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水晶燈火靈進化石",
+          "value_en": "Chandelurite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 163,
+          "atk": 67,
+          "def": 110,
+          "spa": 216,
+          "spd": 110,
+          "spe": 106,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。速度在吐絲後相當於 232，剛好比圍巾烈咬陸鯊滿速快 1；耐久可保證接下極攻地震。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍的 Mega 與主要特攻輸出手，會開空間的中速特攻手：高速模式搭配胖甜妮吐絲，空間模式慢過一些人。屬性上適合搭配煤炭龜，幽靈系免疫爆音波。Mega 後特性為穿透（Infiltrator，投影片），可無視牆與替身，但 Fiske 表示拍片全程沒觸發過。戲法空間一定要帶，守住較不關鍵可換。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "舞台煙霧機",
+        "gender": "F",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 105,
+          "def": 160,
+          "spa": 150,
+          "spd": 92,
+          "spe": 36,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；速度 36 為降速滿配空間手。",
+        "moves": [
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間下的低速輸出手，您先請 / 空間都適合搭配。大地之力非常重要，用來打咆哮虎與風速狗。搶天氣很難贏大嘴鷗，所以帶手動大晴天，幫助在空間下打贏雨天隊。備用模式：胖甜妮 + 愛管侍首發，看我嘛彈走愛管侍後上煤炭龜噴火。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 784,
+          "name_zh": "杖尾鱗甲龍",
+          "name_en": "Kommo-o",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "聽團仔",
+        "gender": "F",
+        "ability": {
+          "value": "隔音",
+          "value_en": "Soundproof",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "福祿果",
+          "value_en": "Payapa Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 150,
+          "atk": 117,
+          "def": 145,
+          "spa": 167,
+          "spd": 127,
+          "spe": 137,
+          "source": "frame"
+        },
+        "stats_note": "速度 137 在魂舞烈音爆一次後比滿速烈咬陸鯊 Z 快 2；遇過的對手都是內斂或剛好超過內斂的膽小，仍比我們慢 1，所以不用膽小（膽小在空間下也太快）。多的 2 點加特防：魂舞烈音爆後搭配抗超果（福祿果）可保證接下沙奈朵的極攻廣域戰力，加 HP 則有機率死。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鱗片噪音",
+            "value_en": "Clanging Scales",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "魂舞烈音爆",
+            "value_en": "Clangorous Soul",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "中速特攻手，隔音免疫爆音波並補燈火靈的屬性盲點。魂舞烈音爆提供自己的強化模式：對面點守住拖空間回合時強化，之後空間內外都能先動。可與愛管侍首發（看我嘛 + 魂舞烈音爆）走鱗片噪音模式，前提是對面沒有暴風雪、魔法閃耀等群體技能。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": "只是個麵包",
+        "gender": "F",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "逃脫按鍵",
+          "value_en": "Eject Button",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 32,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 75,
+          "def": 128,
+          "spa": 115,
+          "spd": 127,
+          "spe": 94,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）；HP/物防滿配的看我嘛坦。",
+        "moves": [
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "精神場地觸發胖甜妮的精神種子，並防止對面擊掌。空間模式首發：吃胖甜妮的您先請超高速開空間，再靠逃脫按鍵彈下去換輸出手清場。超能技能一定要帶精神衝擊：隊上特攻手太多，對面常對愛管侍/胖甜妮點冥想或蝶舞而不攻擊，精神衝擊可在空間下威脅這類強化手。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        531
+      ],
+      "frames_used": 66,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": "regulation 來自字幕 0:23「在規則 M-C」，與 published_at 2026-10-17 落在 M-C 區間一致。胖甜妮 = Slurpuff（#685，種族值 82/80/86/85/75/72 與投影片吻合），非霜奶仙 Alcremie。顫弦蠑螈型態（Low-Key）由立繪藍色紋路 + 內斂性格推斷，未在字幕/畫面明示。Mega 水晶燈火靈的 Mega 後特性「穿透」來自投影片，隊伍表顯示原形特性引火。",
+    "notes": "以胖甜妮（您先請 / 假哭 / 吐絲 / 幫助）為核心的雙模式隊：空間模式由胖甜妮 + 愛管侍首發，您先請讓愛管侍超高速開戲法空間、逃脫按鍵彈下去換輸出手；高速模式由愛管侍 + 顫弦蠑螈或燈火靈首發，胖甜妮後排用吐絲控速、假哭 + 幫助幫特攻手增傷，兩種模式共用首發讓對手無法判斷。輸出手為會開空間的中速特攻手 Mega 水晶燈火靈，搭配煤炭龜（大地之力、手動晴天）、顫弦蠑螈（爆音波 + 龐克搖滾）與杖尾鱗甲龍（隔音、魂舞烈音爆強化），隊友皆為幽靈系或隔音以配合爆音波。弱點是超能抗性少、不好打廣域戰力隊，以及 M-B 式噴火龍 + 生命寶珠烈咬陸鯊 + 廣防化石翼龍 + 奇麒麟的高群體爆發隊；中速策略需大量計算，不適合新手。拍片約 12 連勝；Fiske 評分：上手難度 3.5、操作彈性 4、穩定性 3.5、全面程度 2.5。",
+    "extracted_at": "2026-11-08T09:08:33Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.1",
+    "video_title": "胖甜妮竟然比你想的更有用！搭配 Mega 水晶燈火靈，徹底打亂對手的判斷！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰 #nintendoswitch2",
+    "video_published_at": "2026-10-17"
+  },
+  {
+    "id": "team_qFiHy4ObPiw",
+    "name": "母幽尾玄魚雨天 Mega 具甲武者隊",
+    "name_source": "title",
+    "video_id": "qFiHy4ObPiw",
+    "video_url": "https://www.youtube.com/watch?v=qFiHy4ObPiw",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "title",
+    "tags": [
+      "rain",
+      "mega",
+      "tailwind",
+      "spread-moves",
+      "psychic-terrain",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": "只是個色違",
+        "gender": "F",
+        "ability": {
+          "value": "悠游自如",
+          "value_en": "Swift Swim",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 4,
+          "atk": 0,
+          "def": 8,
+          "spa": 32,
+          "spd": 0,
+          "spe": 22,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 199,
+          "atk": 100,
+          "def": 93,
+          "spa": 167,
+          "spd": 95,
+          "spe": 120,
+          "source": "frame"
+        },
+        "stats_note": "雨天下速度 240，刻意比圍巾愛管侍（161×1.5=241）慢一點點，可先重力再雨天濁流。性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點經種族值驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心，母的幽尾玄魚（特攻 100）走特攻路線：濁流/暗影球/冰凍光束可首發秒殺賽富豪、暴飛龍，冰凍光束重傷金剛猩；濁流為群體技不怕看我嘛，玩法接近以前的刺龍王。特攻種族值低所以生命寶珠優於其他道具，四招固定無調整空間。弱點：高特防水系/妖精系、不弱冰的龍系、先制草系/惡系。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "信仰的雙濁流",
+        "gender": "F",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 63,
+          "def": 120,
+          "spa": 161,
+          "spd": 90,
+          "spe": 117,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂（字幕亦提「內斂暴風」）。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "開雨手，主要首發搭檔。雙本系＋幫助必帶；順風讓幽尾玄魚在對面改天氣時維持高速，因此沒格子帶守住/廣域防守。氣勢披帶是為了讓內斂暴風保證擊殺 32 HP / 6 特防的金剛猩；也可改堆耐久帶潮濕岩石，但會較難打草系。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee",
+          "form": "M",
+          "confidence": 0.99
+        },
+        "nickname": "牛角麵包",
+        "gender": "M",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 76,
+          "def": 75,
+          "spa": 157,
+          "spd": 115,
+          "spe": 161,
+          "source": "frame"
+        },
+        "stats_note": "膽小＋圍巾（字幕明說），雨天下比非 32 速度的巨沼怪快。狀態頁 速度▲/攻擊▽ 與字幕一致。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "能量球",
+            "value_en": "Energy Ball",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "重力",
+            "value_en": "Gravity",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "您先請",
+            "value_en": "After You",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "防止幽尾玄魚被奇蹟種子滑梯滑死；重力讓全場命中 +66%，配合濁流/垃圾射擊/岩崩。廣域戰力與重力最常用，能量球打巨沼怪等水系，您先請較少用可換。面對空間隊可首發嚇阻對手點空間（但隊上沒帶封印）。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "快幫我重力",
+        "gender": "M",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "白色香草",
+          "value_en": "White Herb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 200,
+          "def": 81,
+          "spa": 54,
+          "spd": 100,
+          "spe": 172,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點驗算吻合（格鬥/毒 大狃拉 Sneasler 種族值），總和 66。",
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "垃圾射擊",
+            "value_en": "Gunk Shot",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "補上愛管侍加入後更難打的惡系/妖精系。毒系技選垃圾射擊而非剋命爪，因為滿 HP 金剛猩與堆物防的花葉蒂能接剋命爪；有重力所以垃圾射擊不會 miss。岩崩（重力下滿命中）專打噴火龍，是母幽尾玄魚主要弱點之一。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 768,
+          "name_zh": "具甲武者",
+          "name_en": "Golisopod-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "新任蟲王",
+        "gender": "M",
+        "ability": {
+          "value": "危險迴避",
+          "value_en": "Emergency Exit",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "具甲武者進化石",
+          "value_en": "Golisopite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 182,
+          "atk": 194,
+          "def": 160,
+          "spa": 72,
+          "spd": 112,
+          "spe": 60,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍唯一 Mega（其餘成員用不到 Mega）。幽尾玄魚好打的咆哮虎/暴飛龍/風速狗/賽富豪正是具甲武者的盲點或弱點；雨天下非本系火系難以秒殺滿血的他。蟲系技不帶吸血（非強化隊、減傷手段少）而帶急速折返換人；突襲＋幫助力度比防守道具仆斬將軍高約 40%，可秒殺幽尾玄魚、賽富豪等弱惡目標。選出率低於幽尾玄魚，但會誘使對手選出火系/龍系。隊伍表的特性為原形的危險迴避。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "還我撲擊",
+        "gender": "M",
+        "ability": {
+          "value": "持久力",
+          "value_en": "Stamina",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "蓮蒲果",
+          "value_en": "Chople Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 7,
+          "spd": 18,
+          "spe": 9,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 112,
+          "def": 150,
+          "spa": 167,
+          "spd": 103,
+          "spe": 114,
+          "source": "frame"
+        },
+        "stats_note": "字幕：加了比較多速度，經常比對面的鋁鋼橋龍快一點（114）。性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出多為處理幽尾玄魚的盲點與弱點；打妖精/冰系時優先選大狃拉與具甲武者，加農光炮少用故改帶大聲咆哮。隊伍步調快、守住少，剩飯不如抗鬥果（蓮蒲果），面對大狃拉、仆斬將軍、姆克鷹、雷丘常用到。本隊較少靠他輸出。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        474
+      ],
+      "frames_used": 59,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以母幽尾玄魚（特攻型）為核心的雨天隊：濁流/暗影球/冰凍光束在雨天高速下首發爆發，對 M-C 環境常見的暴飛龍、賽富豪、金剛猩、愛管侍有利。大嘴鷗開雨＋幫助/順風，愛管侍開精神場地＋重力補命中並防滑梯，大狃拉處理惡/妖精與噴火龍（岩崩），Mega 具甲武者覆蓋幽尾玄魚難打的對象並誘使對手選火/龍，鋁鋼橋龍補盲點。主要首發幽尾玄魚＋大嘴鷗，後排看情況；也可首發具甲武者或愛管侍。弱點：空間下的火系（沒帶封印）、多手段開晴的噴火龍隊；穩定性偏低（濁流/垃圾射擊可能 miss）。評分：上手難度 2.5、操作彈性 3.5、穩定性 2、全面程度 2.5。",
+    "extracted_at": "2026-11-08T09:08:56Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.1",
+    "video_title": "誰說幽尾玄魚只能用公的？搭配雨天 + Mega 具甲武者，成為新環境隱藏剋星！【寶可夢 Champions｜M-C】#寶可夢冠軍 #寶可夢對戰 #雙打對戰 #nintendoswitch2",
+    "video_published_at": "2026-10-03"
+  },
+  {
+    "id": "team__a7RrtzsMYM",
+    "name": "Mega 路卡利歐 Z 鐵蹄光線復活隊",
+    "name_source": "title",
+    "video_id": "_a7RrtzsMYM",
+    "video_url": "https://www.youtube.com/watch?v=_a7RrtzsMYM",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "title",
+    "tags": [
+      "mega",
+      "balance"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 448,
+          "name_zh": "路卡利歐",
+          "name_en": "Lucario-Mega-Z",
+          "form": "Mega-Z",
+          "confidence": 0.99
+        },
+        "nickname": "卡咩哈咩哈",
+        "gender": "M",
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "路卡利歐進化石 Z",
+          "value_en": "Lucarionite Z",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 15,
+          "spd": 0,
+          "spe": 19,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 117,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 141,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（Lucario 種族值驗算吻合，總和 66）。性格依狀態頁 速度▲/攻擊▽ 判讀為膽小。字幕：耐久剛好接下大狃拉固執近身戰；速度 209 是 Mega Z 後的數值（Mega-Z 種族速度 151、19 點、膽小 → 209 吻合），比 194 的多龍快。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "鐵蹄光線",
+            "value_en": "Steel Beam",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心、唯一 Mega（路卡利歐 Z）。不走強化而帶威力 140 的鐵蹄光線換爆發（固定扣一半 HP，兩發必死），由巴布土撥復生祈禱補救；加農光炮也是必帶、使用頻率可能更高，鐵蹄光線看情況才用。高速稀有的鋼＋格鬥特攻手，剋咆哮虎/鋁鋼橋龍/仆斬將軍，但打不動噴火龍、大嘴鷗、暴鯉龍、賽富豪、巨甲武者等，極度依賴聯攻。隊伍表顯示原形特性精神力。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "虛假的神龍",
+        "gender": "M",
+        "ability": {
+          "value": "穿透",
+          "value_en": "Infiltrator",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 165,
+          "atk": 126,
+          "def": 95,
+          "spa": 167,
+          "spd": 95,
+          "spe": 194,
+          "source": "frame"
+        },
+        "stats_note": "字幕明說必須是內斂（內斂流星群打 2 HP 大狃拉 101–119%），狀態頁 特攻▲/攻擊▽ 一致。速度 194，可能比某些種族值 130 的極速慢一點。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主要特攻龍系輸出，與路卡利歐互補盲點（鋼補龍、格鬥補幽靈）。寶珠＋幫助十萬伏特保證擊殺噴火龍；穿透無視替身/光牆，幫助流星群可擊殺開牆的鋁鋼橋龍；高速壓制晴天/雨天成員。斬殺線：流星群打 2 HP 大狃拉 101–119%、25 HP 雷丘 Y 保證擊殺、32 HP 75%；暗影球打 32 HP 賽富豪 90–109%、低於 12 HP 保證擊殺。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 923,
+          "name_zh": "巴布土撥",
+          "name_en": "Pawmot",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "真實的神龍",
+        "gender": "M",
+        "ability": {
+          "value": "蓄電",
+          "value_en": "Volt Absorb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 147,
+          "atk": 167,
+          "def": 90,
+          "spa": 81,
+          "spd": 80,
+          "spe": 172,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀為爽朗。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "電光雙擊",
+            "value_en": "Double Shock",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "復生祈禱",
+            "value_en": "Revival Blessing",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "用復生祈禱復活打完鐵蹄光線的路卡利歐；電＋格鬥雙本系沒有被路卡利歐打不動的對象抵抗。因需帶復生祈禱與擊掌奇襲所以沒帶守住。特性蓄電/鐵拳皆可：選蓄電是為了聯防電系（近身戰不吃鐵拳加成），鐵拳的電光雙擊會高 20%。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "封印的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 17,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 224,
+          "atk": 99,
+          "def": 121,
+          "spa": 130,
+          "spd": 107,
+          "spe": 80,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀為大膽。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "封印",
+            "value_en": "Imprison",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "處理空間隊的關鍵：在場且點過封印對面就不能點空間，為三首惡龍/風速狗爭取時間。幫助拉高多龍與路卡利歐的斬殺線；廣域戰力蹭對面精神場地（精神種子大狃拉旁的愛管侍）解決大狃拉。廣域戰力/空間/封印必帶，幫助或守住擇一。功能是封印與尾甲，封印會首發、尾甲不一定；選出率不高但關鍵。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 635,
+          "name_zh": "三首惡龍",
+          "name_en": "Hydreigon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "前勇者",
+        "gender": "M",
+        "ability": {
+          "value": "飄浮",
+          "value_en": "Levitate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "蓮蒲果",
+          "value_en": "Chople Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 169,
+          "atk": 112,
+          "def": 110,
+          "spa": 194,
+          "spd": 110,
+          "spe": 150,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "取代金剛猩的位置：進攻屬性與多龍略重疊，但能開順風反制順風隊（路卡利歐很怕暴飛龍順風），防守屬性可聯防全隊弱點（尤其隊伍缺地面抗性）。守住/順風/流星群必帶，惡系技選大聲咆哮（常對付廣域戰力隊）而非惡之波動。需要開順風或大聲咆哮時首發。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": "Hisui",
+          "confidence": 0.97
+        },
+        "nickname": "傳說寶可夢",
+        "gender": "F",
+        "ability": {
+          "value": "堅硬腦袋",
+          "value_en": "Rock Head",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 6,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 28,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 176,
+          "atk": 183,
+          "def": 100,
+          "spa": 103,
+          "spd": 100,
+          "spe": 138,
+          "source": "frame"
+        },
+        "stats_note": "洗翠的樣子（火/岩，隊伍表圖示為火＋岩石，HP 176/攻擊 183 僅與洗翠風速狗種族值吻合）。字幕：圍巾後速度 207（138×1.5）比路卡利歐慢一點；沒加滿是因爽朗幽尾玄魚 214 比滿速圍巾風速狗還快 1，圍巾幽尾玄魚交給隊友，固執幫助更大。狀態頁 攻擊▲/特攻▽ 與字幕固執一致。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "雙刃頭錘",
+            "value_en": "Head Smash",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "四倍抗火，處理路卡利歐怕的各種火系（尤其空間隊）與不弱格鬥的鋼系（賽富豪、巨甲武者），有單體（雙刃頭錘）與群體（岩崩）岩石技。最常用閃焰衝鋒與岩崩；特性選堅硬腦袋而非威嚇，因為有時必須對仆斬將軍或美納斯上場，而隊上兩隻龍都打不了仆斬將軍。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        516
+      ],
+      "frames_used": 12,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "抽取者曾回報 frames/_a7RrtzsMYM 混入其他影片畫面；主 agent 2026-11-08 親自檢視 f_005/f_020/f_040 確認皆為本片（路卡利歐 Z 隊）畫面，混檔不成立，應為平行抽取時共用 scratchpad 裁切圖被覆蓋所致。抽取者另以重抓片段讀取「能力」頁，資料來源仍為本片。待抽樣複核。",
+    "notes": "以 Mega 路卡利歐 Z 為核心的平衡偏進攻隊（Fiske 自稱「平衡隊裡比較偏向進攻的類型」）。路卡利歐捨棄強化改帶鐵蹄光線換最高火力，由巴布土撥復生祈禱復活再打一發；多龍巴魯托（穿透＋寶珠）為主要特攻龍系輸出並補盲點，奇麒麟以封印鎖空間、幫助拉斬殺線、廣域戰力解決大狃拉，三首惡龍開順風/大聲咆哮並聯防全隊弱點，洗翠風速狗（圍巾堅硬腦袋）處理火系與不弱格鬥的鋼系。選出不固定：四個輸出手都可與路卡利歐聯攻，三首惡龍需順風/大聲咆哮時首發，奇麒麟要封印時首發。弱點：龍系多、妖精重複弱點多，怕 2–3 隻高速妖精（風妖精＋花葉蒂）；整體高速但耐久低，常互秒，控速與出手順序極重要。評分：上手難度 3.5、操作彈性 4.5、穩定性 3.5、全面程度 2.5；拍片期間高分段 12 連勝、平均勝率約 90%。",
+    "extracted_at": "2026-11-08T09:19:21Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "一發鐵蹄光線就倒下？那就復活再一發！Mega 路卡利歐 Z 的全新玩法，直接轟出最高火力【寶可夢 Champions｜M-C】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-09-26"
+  },
+  {
+    "id": "team_B2V2ZU90ujQ",
+    "name": "鋼炮臂蝦大地波動全場地空間隊",
+    "name_source": "title",
+    "video_id": "B2V2ZU90ujQ",
+    "video_url": "https://www.youtube.com/watch?v=B2V2ZU90ujQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "title",
+    "tags": [
+      "trick-room",
+      "electric-terrain",
+      "grassy-terrain",
+      "psychic-terrain"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 693,
+          "name_zh": "鋼炮臂蝦",
+          "name_en": "Clawitzer",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "卡璞蝦蝦",
+        "gender": "M",
+        "ability": {
+          "value": "超級發射器",
+          "value_en": "Mega Launcher",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 93,
+          "def": 110,
+          "spa": 189,
+          "spd": 109,
+          "spe": 71,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀為冷靜（空間型）。能力點經 Clawitzer 種族值驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "水之波動",
+            "value_en": "Water Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大地波動",
+            "value_en": "Terrain Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心（空間下的主力輸出）。大地波動在電氣/精神/青草場地變成對應屬性且威力翻倍再吃場地 30% 增傷，又屬波動類可吃超級發射器加成；配合三個場地手等於最多八種本系屬性。波導彈打鋼系（如鋁鋼橋龍），冰凍光束打暴飛龍與草系（來悲粗茶、金剛猩）。無法秒殺 32HP/2特防 的金剛猩，交給噴火駝補盲。不選龍之波動（力度更低）。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 871,
+          "name_zh": "啪嚓海膽",
+          "name_en": "Pincurchin",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "卡璞品品",
+        "gender": "M",
+        "ability": {
+          "value": "電氣製造者",
+          "value_en": "Electric Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "磁鐵",
+          "value_en": "Magnet",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 2,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 123,
+          "def": 115,
+          "spa": 157,
+          "spd": 105,
+          "spe": 31,
+          "source": "frame"
+        },
+        "stats_note": "字幕：全遊戲速度最慢。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Pincurchin 種族值驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "電力上升",
+            "value_en": "Rising Voltage",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "水炮",
+            "value_en": "Hydro Pump",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "電氣場地手。對飛行系/飄浮或非電氣場地時改用十萬伏特，所以帶兩個電系技；水炮打地面系，突襲在空間外收殘。四招都有機會用到，所以不帶守住（也很少需要）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "卡璞拉拉",
+        "gender": "M",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 25,
+          "def": 0,
+          "spa": 0,
+          "spd": 9,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 207,
+          "atk": 187,
+          "def": 110,
+          "spa": 80,
+          "spd": 99,
+          "spe": 94,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀為勇敢。能力點經 Rillaboom 種族值驗算全部吻合（攻擊 25 點、特防 9 點），總和 66。",
+        "moves": [
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "蠻力",
+            "value_en": "Superpower",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "青草場地手、擊掌輔助，也是隊上唯一物攻手。最常用的輸出其實是急速折返（打弱蟲的愛管侍/金剛猩/奇麒麟），因此帶達人帶。蠻力打鋼系但用到機會少，可換拍落或十萬馬力。若不堅持全場地主題，可換成其他高速寶可夢。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": "卡璞弟弟",
+        "gender": "F",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 18,
+          "spa": 15,
+          "spd": 1,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 75,
+          "def": 103,
+          "spa": 143,
+          "spd": 126,
+          "spe": 94,
+          "source": "frame"
+        },
+        "stats_note": "字幕：稍微加了一點特攻、性格也修正特攻（環境火力低、沒必要全堆物防）。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Indeedee-F 種族值驗算全部吻合（特攻 15 點 → 143），總和 66。",
+        "moves": [
+          {
+            "value": "大地波動",
+            "value_en": "Terrain Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "精神場地手兼最泛用的首發輔助（看我嘛＋戲法空間）。不帶常見的精神強念而帶大地波動，必要時可作為草系或電系輸出手；巨聲打抵抗大地波動的對象。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 858,
+          "name_zh": "布莉姆溫",
+          "name_en": "Hatterene",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "我等了半年",
+        "gender": "F",
+        "ability": {
+          "value": "魔法鏡",
+          "value_en": "Magic Bounce",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 164,
+          "atk": 110,
+          "def": 117,
+          "spa": 206,
+          "spd": 123,
+          "spe": 44,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Hatterene 種族值驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "魔法火焰",
+            "value_en": "Mystical Fire",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主要首發與開空間手（速度慢、能用廣域戰力，與鋼炮臂蝦屬性不重疊故選她而非呆殼獸）。對手常優先選鋼系，魔法火焰很常用到，因此無格子帶守住。道具曾試過抗鋼果（對手擊掌＋金剛猩拍落時較好），但披帶在被擊中要害等情況最穩，最終選披帶。怕鋼系。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 323,
+          "name_zh": "噴火駝",
+          "name_en": "Camerupt-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "原始固拉多",
+        "gender": "M",
+        "ability": {
+          "value": "堅硬岩石",
+          "value_en": "Solid Rock",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火駝進化石",
+          "value_en": "Cameruptite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 120,
+          "def": 92,
+          "spa": 172,
+          "spd": 95,
+          "spe": 54,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Camerupt（原形）種族值驗算全部吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍唯一 Mega（主力鋼炮臂蝦用不到 Mega）。火＋地面補盲：秒殺其他人打不動的鋼系與金剛猩。隊伍表特性為原形的堅硬岩石，Mega 後為強行（Sheer Force）。M-A 版本帶原始之力打噴火龍，現在噴火龍變少且可靠海膽/鋼炮臂蝦處理，改帶更常用的守住（面對水系時常需要）。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        407
+      ],
+      "frames_used": 14,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以「大地波動」為核心的空間隊：鋼炮臂蝦（超級發射器＋生命寶珠）在電氣/精神/青草場地下用大地波動切換屬性，等於同時擁有多達八種本系攻擊；三個場地手啪嚓海膽、轟擂金剛猩、愛管侍各自開場地（薄霧場地沒人用故不帶）。布莉姆溫為主要首發與開空間手，Mega 噴火駝（唯一 Mega）補鋼系與金剛猩的盲點。選出極單純：大多首發布莉姆溫＋愛管侍（或金剛猩擊掌），開空間後廣域戰力/噴火/魔法閃耀收場；對面重空間隊則視情況首發。能力點整體單純，只有愛管侍稍加特攻。弱點：整隊偏特攻，怕冥想花葉蒂、蝶舞火神蛾等強化特防；綁定三個場地手導致沒有高速寶可夢、空間外輸出弱；控速彈性低、物攻手只有一隻。評分：上手難度 1、操作彈性 1.5、穩定性 4、全面程度 3.5。",
+    "extracted_at": "2026-11-08T09:14:05Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "我把所有場地都塞進一隊！看似奇怪，鋼炮臂蝦卻能火力全開的「大地波動」戰術！【寶可夢 Champions｜M-C】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-09-19"
+  },
+  {
+    "id": "team_ysCCcHIh4EQ",
+    "name": "Mega 雷丘 X 電氣場地電龍隊",
+    "name_source": "title",
+    "video_id": "ysCCcHIh4EQ",
+    "video_url": "https://www.youtube.com/watch?v=ysCCcHIh4EQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "electric-terrain",
+      "trick-room",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 740,
+          "name_zh": "好勝毛蟹",
+          "name_en": "Crabominable",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "來世做不服輸",
+        "gender": "M",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 204,
+          "atk": 202,
+          "def": 99,
+          "spa": 82,
+          "spd": 87,
+          "spe": 56,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。六項數值以 Lv.50 公式（原形種族值 97/132/77/62/67/43）驗算皆吻合，點數總和 66。字幕：達人帶岩崩力度與生命寶珠烈咬陸鯊相同，噴火龍通常直接被秒；拍落可秒未加耐久的幽尾玄魚；達人帶近身戰可保證擊殺帶抗鬥果的仆斬將軍。",
+        "moves": [
+          {
+            "value": "冰錘",
+            "value_en": "Ice Hammer",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "低速物攻輸出手。特性怪力鉗免疫威嚇，Fiske 認為比 Mega 後更強，所以不 Mega。負責秒殺對面優先選出的來悲粗茶，並用拍落/岩崩處理妖火紅狐與噴火龍。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 26,
+          "name_zh": "雷丘",
+          "name_en": "Raichu-Mega-X",
+          "form": "Mega-X",
+          "confidence": 0.97
+        },
+        "nickname": "雷丘Y",
+        "gender": "F",
+        "ability": {
+          "value": "避雷針",
+          "value_en": "Lightning Rod",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "雷丘進化石 X",
+          "value_en": "Raichunite X",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 167,
+          "atk": 156,
+          "def": 77,
+          "spa": 99,
+          "spd": 100,
+          "spe": 130,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（種族值 60/90/55/90/80/110）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。六項數值以 Lv.50 公式驗算皆吻合，點數總和 66。速度未加點（130），走低速空間路線；暱稱「雷丘Y」但道具是雷丘進化石 X。",
+        "moves": [
+          {
+            "value": "伏特攻擊",
+            "value_en": "Volt Tackle",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "劈瓦",
+            "value_en": "Brick Break",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍的 Mega 與核心。Mega 雷丘 X 為物攻手，Mega 後特性電氣製造者（Electric Surge，投影片）出場布下電氣場地，幫隊友增傷並防催眠粉；伏特攻擊力度比 Y 的電磁炮高約 14%、雙防更高。定位像袋獸：先擊掌幫空間手開空間，第二回合輸出或伏特替換退場讓電龍安全上場並留下場地。缺點：怕威嚇、補盲弱、隊友少。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "可靠的杯子",
+        "gender": "N",
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 80,
+          "def": 128,
+          "spa": 190,
+          "spd": 100,
+          "spe": 81,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 71/60/106/121/80/70）驗算皆吻合，點數總和 66。字幕：披帶 + 加滿特攻，遇到少見的剋制技能也不太可能暴斃。",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間手之二，負責處理巨沼怪等地面系。不怕擊掌（披帶），對面有大狃拉等擊掌手時優先與雷丘首發；也可與芳香精首發，用憤怒粉掩護開空間。大多數對手會優先選出針對牠。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 691,
+          "name_zh": "毒藻龍",
+          "name_en": "Dragalge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "海馬Boy",
+        "gender": "F",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 5,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 169,
+          "atk": 95,
+          "def": 115,
+          "spa": 163,
+          "spd": 143,
+          "spe": 57,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 65/75/90/97/123/44）驗算皆吻合，點數總和 66。字幕：適應力 + 生命寶珠污泥炸彈可保證擊殺 28 HP 以下的仙布或花葉蒂；流星群可秒 32 HP 的鋁鋼橋龍。",
+        "moves": [
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "真氣彈",
+            "value_en": "Focus Blast",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "低速特攻輸出手。流星群常溢出，實戰較常用不會 miss 的龍之波動；毒、龍都打不動鋼系，第四格帶真氣彈補鋼（可換守住，但殘局會有盲點、不好打仆斬將軍）。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 181,
+          "name_zh": "電龍",
+          "name_en": "Ampharos",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "尬電",
+        "gender": "M",
+        "ability": {
+          "value": "正電",
+          "value_en": "Plus",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "磁鐵",
+          "value_en": "Magnet",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 95,
+          "def": 107,
+          "spa": 183,
+          "spd": 110,
+          "spe": 67,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 90/75/85/115/90/55）驗算皆吻合，點數總和 66。字幕：電力上升在一倍傷害下剛好能秒殺加滿 HP 的仆斬將軍；十萬伏特保證擊殺噴火龍並溢出 20-30%。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電力上升",
+            "value_en": "Rising Voltage",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "電氣場地上的主輸出：電力上升對站在場地上的對手威力 70→140，自己也在場地上再加 30%（相當於 182），搭配磁鐵增傷。十萬伏特用來打電飛行系與飄浮（不在場地上的對手，電力上升不翻倍）。扣除 Mega 後是目前特攻最高的電系。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 683,
+          "name_zh": "芳香精",
+          "name_en": "Aromatisse",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "屠龍勇士",
+        "gender": "M",
+        "ability": {
+          "value": "芳香幕",
+          "value_en": "Aroma Veil",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖精之羽",
+          "value_en": "Fairy Feather",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 30,
+          "atk": 0,
+          "def": 0,
+          "spa": 31,
+          "spd": 5,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 206,
+          "atk": 92,
+          "def": 92,
+          "spa": 165,
+          "spd": 114,
+          "spe": 44,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 101/72/72/99/89/29）驗算皆吻合，點數總和 66。字幕：加特防後可保證接下極攻噴火龍的氣象球或滿攻分散熱風擊中要害；妖精之羽月亮之力對烈咬陸鯊傷害 110-130%，Mega 後也 100-120%。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間手之一，專門應對噴火龍 + 烈咬陸鯊首發：雷丘擊掌烈咬陸鯊後保證開出空間，再用月亮之力秒殺烈咬陸鯊。特性芳香幕讓自己與雷丘免疫挑釁、再來一次等心靈狀態。需要防再來一次或妖精進攻有用時優先選出；怕擊掌。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        619
+      ],
+      "frames_used": 6,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 雷丘 X 的電氣場地為核心的低速戲法空間隊：雷丘先擊掌輔助空間手（芳香精／來悲粗茶）開空間，再由電龍在場地上打電力上升（威力 70→140，再加場地 30%）輸出，雷丘伏特替換退場並留下場地。空間手負責剋制地面系（妖精／草／幽靈），毒藻龍與好勝毛蟹補龍、毒、格鬥、惡、岩石的進攻屬性，好勝毛蟹的怪力鉗不怕威嚇。選出通常是雷丘 + 一名空間手首發，後排電龍 + 一名輸出手；對面太抗電時後排不放電龍。弱點：避雷針與抗電隊伍、對面手動開精神／薄霧場地、對面有多個擊掌輔助拖空間。Fiske 評分：上手難度 1.5、操作彈性 1.5、穩定性 3.5、全面程度 2（滿分 5）。",
+    "extracted_at": "2026-11-08T09:20:12Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "這個場地根本沒人能搶！Mega 雷丘 X 讓電龍打出全遊戲最高電系輸出！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-08-15"
+  },
+  {
+    "id": "team_Ty0bv72rVTk",
+    "name": "紅蓮鎧騎反晴天隊",
+    "name_source": "title",
+    "video_id": "Ty0bv72rVTk",
+    "video_url": "https://www.youtube.com/watch?v=Ty0bv72rVTk",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "fake-out",
+      "follow-me",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 861,
+          "name_zh": "長毛巨魔",
+          "name_en": "Grimmsnarl",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "陽光巨魔",
+        "gender": "M",
+        "ability": {
+          "value": "順手牽羊",
+          "value_en": "Pickpocket",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 198,
+          "atk": 189,
+          "def": 85,
+          "spa": 103,
+          "spd": 95,
+          "spe": 86,
+          "source": "frame"
+        },
+        "stats_note": "速度 86 比紅蓮鎧騎（85）快 1，通常比咆哮虎先動可擊掌；順風下比烈咬陸鯊快可嬉鬧秒殺。空間下變超低速輸出。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "臂錘",
+            "value_en": "Hammer Arm",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第一個隊友，Fiske 認為是紅蓮鎧騎最完美的搭檔：擊掌輔助開空間，本系突襲秒幽尾玄魚/賽富豪、本系嬉鬧秒烈咬陸鯊/三首惡龍/快龍，臂錘（威力固定 100、降速）在空間下成低速輸出。四格全攻擊技，無牆無變化技。特性理論上察覺最好，但察覺出場發動會讓對面提防突襲，故改帶幾乎無作用的順手牽羊。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 398,
+          "name_zh": "姆克鷹",
+          "name_en": "Staraptor-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "版本陷阱",
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "姆克鷹進化石",
+          "value_en": "Staraptite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 10,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 191,
+          "atk": 150,
+          "def": 90,
+          "spa": 63,
+          "spd": 80,
+          "spe": 159,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）；六項數值以 Lv.50 公式驗算皆吻合。速度未滿點（25 點）、HP 31 點，字幕未說明速度線。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "勇鳥猛攻",
+            "value_en": "Brave Bird",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "開順風的輔助手（不需先制，因紅蓮鎧騎不依賴順風，只是多一種控速選項）。帶 Mega 石但不是主要模式，選出率不高；開空間時通常不選。取代帶廣防的化石翼龍，可降低對面首發仆斬將軍/咆哮虎的動機，並讓隊伍乍看像普通姆克鷹隊而誤導對面首發。對面若有太多巨沼怪/鋁鋼橋龍/班基拉斯/龍頭地鼠/咆哮虎/仆斬將軍等紅蓮鎧騎不好打的人，就交給姆克鷹處理（高速模式：姆克鷹+長毛巨魔）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 752,
+          "name_zh": "滴蛛霸",
+          "name_en": "Araquanid",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "霸蛛滴蛛霸",
+        "gender": "M",
+        "ability": {
+          "value": "水泡",
+          "value_en": "Water Bubble",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "神秘水滴",
+          "value_en": "Mystic Water",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 175,
+          "atk": 134,
+          "def": 114,
+          "spa": 70,
+          "spd": 152,
+          "spe": 55,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）；六項數值以 Lv.50 公式驗算皆吻合。極攻極 HP、速度壓到 55 配合空間。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流裂破",
+            "value_en": "Liquidation",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "浸水",
+            "value_en": "Soak",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍需要的廣防手，且是唯一不弱水/火/龍/惡/鋼、與紅蓮鎧騎無重複弱點的選項（水+蟲防守屬性強）。水泡讓水系威力翻倍，可秒殺咆哮虎。格子不缺故不帶蟲系技，改帶浸水：空間下先手改對面屬性幫電龍或來悲粗茶增傷（少用的 Combo，可換）。面對化石翼龍+烈咬陸鯊的隊伍會考慮首發。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "想你了管侍",
+        "gender": "M",
+        "ability": {
+          "value": "引火",
+          "value_en": "Flash Fire",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 5,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 189,
+          "atk": 80,
+          "def": 125,
+          "spa": 194,
+          "spd": 100,
+          "spe": 85,
+          "source": "frame"
+        },
+        "stats_note": "速度 85，比長毛巨魔（86）慢 1。字幕提到空間仙布可能與他同速或更慢。性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心與主要空間手，本片主題是「不帶廣域戰力的紅蓮鎧騎」（畫面四招為守住/熱風/精神強念/戲法空間）。火/超能防守屬性反主流：噴火龍隊的噴火龍、仙布、奇麒麟、妙蛙花、風妖精幾乎都打不動他，只怕烈咬陸鯊/化石翼龍/仆斬將軍/幽尾玄魚（地震、岩崩可被廣防）。也適合反空間（重空間隊常見的奇麒麟/煤炭龜/仙布打不了他）。最常見選出：紅蓮鎧騎 + 長毛巨魔或來悲粗茶。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": "你說誰是輔助",
+        "gender": "N",
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 72,
+          "def": 128,
+          "spa": 190,
+          "spd": 100,
+          "spe": 90,
+          "source": "frame"
+        },
+        "stats_note": "為了搭配高速模式，性格不減速；速度 90 順風下 180，面對空間隊常比對面全隊快一點（但附近有仙布，仙布速度不一定）。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "吸取力量",
+            "value_en": "Strength Sap",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "打輸出的來悲粗茶（氣勢披帶、極限特攻），補草系與幽靈系進攻，聯防水、地面（紅蓮鎧騎的弱點），憤怒粉輔助隊友開空間或輸出。常靠暗影球輸出。吸取力量是隊上唯一能幫姆克鷹強化（物攻 +1）並回滿自身血量的手段。特定情況（打滅歌隊）會以姆克鷹 + 來悲粗茶首發騙擊掌。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 181,
+          "name_zh": "電龍",
+          "name_en": "Ampharos-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "不是密勒頓",
+        "gender": "M",
+        "ability": {
+          "value": "靜電",
+          "value_en": "Static",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "電龍進化石",
+          "value_en": "Ampharosite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 95,
+          "def": 107,
+          "spa": 183,
+          "spd": 110,
+          "spe": 67,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。極 HP 極特攻、速度減速配合空間。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "真氣彈",
+            "value_en": "Focus Blast",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "最後一個彈性位置，隊伍的主要 Mega。同時剋制噴火龍、烈咬陸鯊、幽尾玄魚、美納斯這些紅蓮鎧騎不好打的對象。真氣彈可秒仆斬將軍與班基拉斯但命中低，非主要輸出手段（第四格可換棉花防守，但 Fiske 不推薦，因格鬥系進攻對本隊重要）。Mega 後特性為破格（字幕/投影片），Fiske 原認為不好，但拍片中兩次發揮作用（蓄電雷伊布、避雷針雷電獸隊）。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        629
+      ],
+      "frames_used": 13,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "兩隻標 mega=true 為刻意：隊伍表顯示姆克鷹持姆克鷹進化石、電龍持電龍進化石，字幕明說「姆克鷹雖然是帶 Mega 石但不是主要的模式」「我放的是 Mega 電龍」，依選出決定誰 Mega。姆克鷹進化石 value_en 依查表填 Staraptite（Champions 新道具）。來悲粗茶型態依隊伍表小圖判為一般型態（非名作型態），未能 100% 確認。",
+    "notes": "以紅蓮鎧騎為核心的反主流空間隊：紅蓮鎧騎的火/超能防守屬性幾乎完封主流噴火龍（晴天）隊，隊友依「會廣防、會擊掌、會看我嘛/憤怒粉、空間下能輸出、進攻屬性涵蓋冰龍妖精×2、格鬥地面×2、草電惡幽靈×2、以中低速為主」的條件挑選。長毛巨魔（擊掌＋四攻）與來悲粗茶（憤怒粉＋極特攻）是最常搭配紅蓮鎧騎的選出；滴蛛霸提供廣防；姆克鷹開順風作高速模式（姆克鷹＋長毛巨魔），電龍為主要 Mega。選出約五種：空間模式以紅蓮鎧騎＋長毛巨魔/來悲粗茶為主，面對化石翼龍＋烈咬陸鯊時考慮首發滴蛛霸；開不出空間則走高速模式。屬性聯攻類似朱紫故勒頓隊的低速版本，幾無盲點，隊上沒有純輔助、都加了大量物攻或特攻。弱點：紅蓮鎧騎不是完美空間手（弱點不少、耐久不如奇麒麟），難打免疫突襲的幽靈系首發（奇麒麟＋幽靈），開不出空間時較被動易因運氣輸，且多個招式命中約 90%；面對非主流隊伍時紅蓮鎧騎不會是主角。評分：上手難度 2/5、操作彈性 3/5、穩定性 2/5、全面程度 3/5。",
+    "extracted_at": "2026-11-08T09:19:12.719Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "紅蓮鎧騎竟然完封 Mega 噴火龍！弱點很多，晴天隊卻完全打不動他！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-08-08"
+  },
+  {
+    "id": "team__wx5qpQuZ-c",
+    "name": "阿勃梭魯 & Mega 暴雪王隊",
+    "name_source": "title",
+    "video_id": "_wx5qpQuZ-c",
+    "video_url": "https://www.youtube.com/watch?v=_wx5qpQuZ-c",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "fake-out",
+      "follow-me",
+      "mega",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 9,
+          "name_zh": "水箭龜",
+          "name_en": "Blastoise-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "龜歐卡",
+        "gender": "M",
+        "ability": {
+          "value": "雨盤",
+          "value_en": "Rain Dish",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水箭龜進化石",
+          "value_en": "Blastoisinite",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 186,
+          "atk": 103,
+          "def": 122,
+          "spa": 150,
+          "spd": 125,
+          "spe": 88,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；字幕明說「性格減速」：不減速是 98（與幽尾玄魚同速），減速後 88，順風下 176。減速理由：順風隊成員常把速度加到 95～101（如仙布），水箭龜加快在空間下難先手、加不夠快又難判斷先後，減速較方便判斷要不要點噴水。六項數值以原形種族值 Lv.50 公式驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "噴水",
+            "value_en": "Water Spout",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "本隊的 Mega（阿勃梭魯不 Mega 所以把 Mega 給水箭龜）。搭配奇麒麟擊掌開空間後噴水；搭配彩粉蝶則有高速模式（擊掌＋順風、求雨噴水）或先求雨噴水、花粉團補血再噴水（類似朱紫古簡蝸隊）。也拿來誘導對手首發（讓對手以為阿勃梭魯會 Mega）。空間下沒有雨天力度不算高。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 666,
+          "name_zh": "彩粉蝶",
+          "name_en": "Vivillon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "這是蝴蝶嗎",
+        "gender": "M",
+        "ability": {
+          "value": "友情防守",
+          "value_en": "Friend Guard",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 64,
+          "def": 70,
+          "spa": 142,
+          "spd": 70,
+          "spe": 155,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/攻擊▽ 判讀（膽小），字幕亦明說「我還是選擇了膽小」：內斂的幫助花粉團通常可秒殺奇麒麟，但需要快過大部分噴火龍先手開順風或求雨，所以選膽小。六項數值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "花粉團",
+            "value_en": "Pollen Puff",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "求雨",
+            "value_en": "Rain Dance",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "純輔助配置（不帶催眠粉，因為本隊是空間隊）。搭配奇麒麟用憤怒粉擋挑釁與高威力單體技確保開出空間；友情防守讓奇麒麟不會被兩個高威力群體技秒殺。理想情況是第一回合被打死後立刻補上阿勃梭魯圍攻。搭配水箭龜為高速模式（順風／求雨）。花粉團主要幫隊友補血，特定情況可打輸出。和水箭龜一起放在隊上但常不選，用來誘導對手首發（對手以為是 M-A 流行的圍巾催眠粉彩粉蝶＋破殼水箭龜）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "圍攻的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 15,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 226,
+          "atk": 110,
+          "def": 121,
+          "spa": 130,
+          "spd": 105,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）。六項數值驗算皆吻合（防禦 20 點 → 121、特防 15 點 → 105），點數總和 66。",
+        "moves": [
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "圍攻",
+            "value_en": "Beat Up",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "本隊主要 Core 的另一半：比阿勃梭魯慢、負責開空間＋圍攻（四人存活時圍攻打四下 → 正義之心物攻 +4）。開空間比黑鐵球謎擬 Q 可靠。幫助主要用來增加幽尾玄魚與水箭龜的爆發（也有「幫助波動衝秒仆斬將軍」的首發選項），但不是必帶，有時更需要守住。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "還沒回家",
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "神秘水滴",
+          "value_en": "Mystic Water",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 10,
+          "atk": 32,
+          "def": 15,
+          "spa": 0,
+          "spd": 6,
+          "spe": 3,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 205,
+          "atk": 180,
+          "def": 100,
+          "spa": 90,
+          "spd": 101,
+          "spe": 101,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。字幕：速度只加到 101，因為牠較少在順風下輸出，首發時至少快過仙布、仆斬將軍、班基拉斯、咆哮虎等低速。六項數值以雄性幽尾玄魚種族值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間下的清場手（掃墓），速度也不太慢可配合順風。空間圍攻模式首發可與奇麒麟同出，死人也沒關係（隔壁補阿勃梭魯圍攻）；但力度要隊友先死兩個才夠。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 359,
+          "name_zh": "阿勃梭魯",
+          "name_en": "Absol",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "古勃梭魯",
+        "gender": "M",
+        "ability": {
+          "value": "正義之心",
+          "value_en": "Justified",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 32,
+          "def": 5,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 169,
+          "atk": 200,
+          "def": 85,
+          "spa": 95,
+          "spd": 80,
+          "spe": 85,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。不 Mega、帶生命寶珠。字幕：速度尷尬、開順風不可能，一定是空間圍攻，需比牠慢的人開空間；即便空間下也怕速度剛好比牠慢一點的人（如沒加速度的仙布）。六項數值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍主角，刻意不 Mega（Mega 後耐久沒變、不能帶增傷道具、特性變成不適合脆皮輸出手的魔法鏡）。正義之心＋奇麒麟圍攻物攻 +4 後岩崩清場、近身戰打抗岩石者，空間外突襲收尾。技能格不夠（有時想要拍落），帶先制突襲較有彈性。極脆：一倍 120 威力本系（如 +1 電光束、生命寶珠象牙豬十萬馬力）即可能秒殺。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 460,
+          "name_zh": "暴雪王",
+          "name_en": "Abomasnow-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "歐巴馬雪",
+        "gender": "M",
+        "ability": {
+          "value": "降雪",
+          "value_en": "Snow Warning",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "暴雪王進化石",
+          "value_en": "Abomasite",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 2,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 114,
+          "def": 95,
+          "spa": 158,
+          "spd": 105,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；字幕亦說「性格是減速度 而不是減物攻」。字幕「暴雪王的特攻 132」指 Mega 暴雪王的特攻種族值；物攻完全沒加（2 點）但 Mega 後物攻種族值 132 比阿勃梭魯高，岩崩崩噴火龍仍有一半多。狀態頁為原形數值，以原形種族值驗算皆吻合，點數總和 66。",
+        "moves": [
+          {
+            "value": "暴風雪",
+            "value_en": "Blizzard",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "打草結",
+            "value_en": "Grass Knot",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二個 Mega 候選（與水箭龜二選一，必要時也可同選、不 Mega 用法一樣只是種族值低一點）。負責打水／草／龍，補足與幽尾玄魚／水箭龜重疊的水系進攻。主要弱點火系，但隊上其他三個輸出手都剋火。通常不首發，但對有來悲粗茶的隊伍可首發：免疫憤怒粉、剋來悲粗茶，超低速 Mega 可確保第一回合天氣是雪天。岩崩主要拿來崩噴火龍。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        473
+      ],
+      "frames_used": 8,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "tags 來源混合：mega、meme-gimmick（「冷門」）來自標題，trick-room（字幕「我們就是一個空間隊」）、tailwind（「隊伍的高速模式」）、fake-out／follow-me（「需要能確保開出空間的輔助手：擊掌、看我嘛、憤怒粉或廣防」）來自字幕，tags_source 取 subtitle。兩隻標 mega=true（水箭龜持水箭龜進化石、暴雪王持暴雪王進化石）為刻意：字幕說阿勃梭魯不 Mega，Mega 給水箭龜或暴雪王依選出決定。阿勃梭魯 mega=false 依字幕「要玩的話一定是玩不 Mega 的」。彩粉蝶花紋未判讀，name_en 填 Vivillon。隊伍表影格：能力頁 f_032–f_037、狀態頁 f_038–f_043。",
+    "notes": "以正義之心（不 Mega）阿勃梭魯＋奇麒麟為核心的空間圍攻隊：奇麒麟比阿勃梭魯慢，開空間後圍攻讓阿勃梭魯物攻 +4，再用生命寶珠岩崩清場／近身戰／突襲收尾。水箭龜（擊掌＋噴水，本隊主要 Mega）與彩粉蝶（憤怒粉＋友情防守、純輔助帶花粉團／順風／求雨）負責確保開出空間，兩者同時也像 M-A 流行的「圍巾催眠粉彩粉蝶＋破殼水箭龜」誘導對手首發、掩護阿勃梭魯是否 Mega 的判斷；彩粉蝶＋水箭龜另構成順風／求雨噴水的高速模式，合計四組首發模式（一高速三空間）。幽尾玄魚（掃墓）與 Mega 暴雪王（打水草龍、剋來悲粗茶）為空間下清場手。選出先看對手如何處理圍巾催眠粉、阿勃梭魯能否在空間下成功圍攻：可以則首發奇麒麟＋彩粉蝶／幽尾玄魚／阿勃梭魯；難圍攻則走高速模式或奇麒麟＋水箭龜。弱點：阿勃梭魯極脆、空間下也怕剛好比牠慢一點的人，面對抗岩石＋守住的組合常需猜拳；空間模式爆發火力不如重空間隊（水箭龜無雨、暴雪王不能帶增傷道具、幽尾玄魚需隊友先死兩個、阿勃梭魯綁定奇麒麟）。Fiske 評：多組預設首發所以操作彈性不算低，但各組都不太泛用，需推測對手想法優先針對，算不太容易用的隊伍。",
+    "extracted_at": "2026-11-08T09:26:25.581Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "阿勃梭魯的最強玩法！讓對手誤以為要 Mega，再用超冷門的增傷特性秒殺對手！阿勃梭魯 & Mega 暴雪王 隊【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-08-01"
+  },
+  {
+    "id": "team_rZtdoPktkLg",
+    "name": "一家鼠 & Mega 大嘴娃 鼠數兒隊",
+    "name_source": "title",
+    "video_id": "rZtdoPktkLg",
+    "video_url": "https://www.youtube.com/watch?v=rZtdoPktkLg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "subtitle",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "follow-me",
+      "coaching",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 925,
+          "name_zh": "一家鼠",
+          "name_en": "Maushold-Four",
+          "form": "Family of Four",
+          "confidence": 0.9
+        },
+        "nickname": "我就不揍了",
+        "gender": "N",
+        "ability": {
+          "value": "技術高手",
+          "value_en": "Technician",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "廣角鏡",
+          "value_en": "Wide Lens",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 151,
+          "atk": 127,
+          "def": 90,
+          "spa": 76,
+          "spd": 95,
+          "spe": 179,
+          "source": "frame"
+        },
+        "stats_note": "極限攻擊/速度（能力點 2/32/0/0/0/32）。性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鼠數兒",
+            "value_en": "Population Bomb",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心輸出。鼠數兒（技術高手加成後相當於基礎威力 300 的本系技）配廣角鏡，命中 10 下機率從 34.9% 提到 90.4%。看我嘛可掩護隊友開空間，或先秒掉威脅空間手的人；第四格佯攻在棄世猴模式減少猜拳、空間下收殘血，使用頻率低可替換。弱點：幽靈/岩石/鋼、威嚇、粗糙皮膚、本身很脆。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 979,
+          "name_zh": "棄世猴",
+          "name_en": "Annihilape",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "快來揍我",
+        "gender": "F",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 9,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 194,
+          "atk": 183,
+          "def": 100,
+          "spa": 63,
+          "spd": 110,
+          "spe": 135,
+          "source": "frame"
+        },
+        "stats_note": "速度 135，加圍巾後 202（字幕 4:35）；Fiske 稱尚未遇過需要快到 212 才能出手的情況，想加速也可以。全隊只有牠稍微加了一點 HP（9 點）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "憤怒之拳",
+            "value_en": "Rage Fist",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Fiske 認為是一家鼠最完美的隊友：幽靈剋幽靈、格鬥剋岩石/鋼、不服輸反威嚇、指導幫一家鼠增傷並加物防、冰凍拳處理烈咬陸鯊。圍巾指導模式搭配多龍圍攻後超高速憤怒之拳（威力 250 可秒抗幽果來悲粗茶）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "我也先不揍",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 167,
+          "atk": 78,
+          "def": 107,
+          "spa": 141,
+          "spd": 95,
+          "spe": 136,
+          "source": "frame"
+        },
+        "stats_note": "HP/特攻極限、速度不加（136）。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "控速輔助。Fiske 稱牠是目前遊戲裡唯一同時會順風與戲法空間的寶可夢，可依場面決定開空間或順風，是第三種基本首發。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 473,
+          "name_zh": "象牙豬",
+          "name_en": "Mamoswine",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "好想要雪矛",
+        "gender": "F",
+        "ability": {
+          "value": "遲鈍",
+          "value_en": "Oblivious",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 217,
+          "atk": 200,
+          "def": 100,
+          "spa": 81,
+          "spd": 80,
+          "spe": 102,
+          "source": "frame"
+        },
+        "stats_note": "HP/攻擊極限、速度 2 點（102）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "有先制的中速火力手：生命寶珠冰礫可確殺常見的生命寶珠烈咬陸鯊；地面系幫妖精系補盲。在控速回合內清場，控速結束後也有收尾手段。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "哈哈是我啦",
+        "gender": "M",
+        "ability": {
+          "value": "穿透",
+          "value_en": "Infiltrator",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 165,
+          "atk": 126,
+          "def": 95,
+          "spa": 152,
+          "spd": 95,
+          "spe": 213,
+          "source": "frame"
+        },
+        "stats_note": "畫面為極速 213（特攻/速度 32 點）。字幕 2:15 稱多龍極速 213 與滿速圍巾棄世猴同速、「少加一點速度就能用 200 多的速度圍攻」，但隊伍表實際是滿速；本隊棄世猴圍巾後 202 所以仍比牠慢。性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "圍攻",
+            "value_en": "Beat Up",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "唯一速度能壓過圍巾棄世猴的圍攻手：首發多龍+棄世猴超高速圍攻再接憤怒之拳。刺耳果（抗惡果）防止圍攻時被突襲秒殺，通常能出手一次以上。暗影球用來處理首發的來悲粗茶。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 303,
+          "name_zh": "大嘴娃",
+          "name_en": "Mawile-Mega",
+          "form": "Mega",
+          "confidence": 0.99
+        },
+        "nickname": "大嘴大嘴大嘴",
+        "gender": "F",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "大嘴娃進化石",
+          "value_en": "Mawilite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 150,
+          "def": 105,
+          "spa": 75,
+          "spd": 77,
+          "spe": 63,
+          "source": "frame"
+        },
+        "stats_note": "狀態頁為未 Mega 原形數值（攻擊 150 / 速度 63）。HP/攻擊極限、速度減益不加，配合空間。性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）；六項數值以原形種族值驗算皆吻合。",
+        "moves": [
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊上唯一 Mega。Mega 後特性大力士（Huge Power），Fiske 稱其突襲是全遊戲最強（相當於物攻種族值 157 的本系突襲），岩崩比班基拉斯還強、可崩死極限物防噴火龍。拍落是穩定出手技（嬉鬧/岩崩會 miss、突襲可能失敗），因此沒格子帶守住。隊伍表顯示原形特性怪力鉗。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        385
+      ],
+      "frames_used": 15,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以廣角鏡鼠數兒一家鼠為核心，隊友針對牠的四個弱點（幽靈/岩石/鋼盲點、威嚇、粗糙皮膚、太脆）組成：棄世猴圍巾指導反威嚇並補盲，多龍巴魯托是唯一能壓過圍巾棄世猴速度的圍攻手，風妖精同時會順風與戲法空間負責控速。大嘴娃（Mega，大力士突襲/岩崩）與生命寶珠象牙豬為有先制的中速高火力手，兼顧控速內清場與控速後收尾，且讓隊伍不像一眼就是空間隊，誘導對手首發順風手。三種基本首發：多龍圍攻棄世猴、棄世猴指導一家鼠、風妖精控速；對手視角潛在首發很多，排位有選出誤導效果。弱點：鼠數兒與圍攻都怕首發憤怒粉（狠辣椒、來悲粗茶），強化隊的妖火紅狐/水箭龜/花葉蒂也不好打大嘴娃。Fiske 評分：上手難度 1.5、操作彈性 2.5、穩定性 3.5、全面程度 3.5（/5）。",
+    "extracted_at": "2026-11-08T09:25:28Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "全寶可夢威力最高的專屬技！故意偽裝成高速，再把對手全場秒殺的鼠數兒隊！一家鼠 & Mega 大嘴娃 隊【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-07-25"
+  },
+  {
+    "id": "team_uqnxJS80bjs",
+    "name": "Mega 火炎獅 & 酷豹晴天隊",
+    "name_source": "title",
+    "video_id": "uqnxJS80bjs",
+    "video_url": "https://www.youtube.com/watch?v=uqnxJS80bjs",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "sun",
+      "mega",
+      "trick-room",
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 510,
+          "name_zh": "酷豹",
+          "name_en": "Liepard",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "正版貓騙",
+        "gender": "M",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 14,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 171,
+          "atk": 108,
+          "def": 99,
+          "spa": 108,
+          "spd": 84,
+          "spe": 113,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀（悠閒）；六項數值以 Lv.50 公式驗算皆吻合。速度 113 不壓到最低，靠黑色鐵球速度減半後剛好比減速性格的勾魂眼更慢，惡作劇之心大晴天可壓過對面的惡作劇之心雨天。",
+        "moves": [
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Fiske 認為火炎獅隊一定要放的輔助手：黑色鐵球＋惡作劇之心手動晴天（搶贏勾魂眼/雨天巨沼怪），惡系不怕對面惡作劇之心的再來一次/定身法；假哭讓火炎獅打出最大爆發；急速折返在過熱後低速把火炎獅換回來繼續輸出；擊掌奇襲可搭配空間模式多一種控速。面對雨天隊通常首發酷豹＋火炎獅。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "可靠的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 16,
+          "spa": 10,
+          "spd": 8,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 227,
+          "atk": 110,
+          "def": 106,
+          "spa": 154,
+          "spd": 98,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。字幕未說明配點理由。",
+        "moves": [
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍唯一的空間手（酷豹的超低速擊掌可能被阻止，所以需要能自己開空間的人）。十萬伏特主要打噴火龍、大嘴鷗、幽尾玄魚等常見抗火的人。尾甲可防影子偷襲，面對蒼炎刃鬼隊有時需專門選出保護幽尾玄魚。搭配擊掌時首發酷豹＋奇麒麟；或首發火炎獅/幽尾玄魚其中一個＋奇麒麟，看對面首發決定開不開空間，不開就幫助波動衝/幫助過熱。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "烏龜網路",
+        "gender": "F",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 105,
+          "def": 160,
+          "spa": 150,
+          "spd": 92,
+          "spe": 36,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。極 HP 極特攻、速度壓到 36 配合空間。",
+        "moves": [
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "原始之力",
+            "value_en": "Ancient Power",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "特性開晴天的第二個晴天手（不選九尾是因為屬性與火炎獅重疊）；能在高速模式當輔助、空間模式當輸出，操作空間比九尾大。原始之力拿來打噴火龍與化石翼龍：對面面對本隊常走高速模式，帶大地之力容易打不動，岩石技更有用。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "不會做壞事",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 78,
+          "def": 105,
+          "spa": 129,
+          "spd": 95,
+          "spe": 184,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/攻擊▽ 判讀（膽小）；六項數值以 Lv.50 公式驗算皆吻合。極速極特攻，字幕未說明配點理由。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "順風輔助。面對水系抗性較少的隊伍（例如主流噴火龍隊），除了開空間之外也可首發風妖精＋幽尾玄魚或風妖精＋火炎獅走高速模式。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "離家出走",
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 14,
+          "atk": 32,
+          "def": 10,
+          "spa": 0,
+          "spd": 0,
+          "spe": 10,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 209,
+          "atk": 180,
+          "def": 95,
+          "spa": 90,
+          "spd": 95,
+          "spe": 108,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值以 Lv.50 公式驗算皆吻合。速度只加到 108：順風下超過圍巾幽尾玄魚，但比 Mega 化石翼龍略慢；也可加到 112，但物攻不能動（影響傷害計算），只能少加 HP；少加物防的話被突襲就不能保證存活。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "中速、屬性補火系盲點的輸出手：道具＋特性＋性格共 1.9 倍增傷，晴天下保證擊殺能接岩崩的噴火龍，無晴天也剛好秒殺生命寶珠烈咬陸鯊，被威嚇一次後仍可擊殺咆哮虎，加幫助可擊殺仆斬將軍；常在空間下輸出，被仆斬將軍突襲一定不死。隊伍輸出很依賴他，面對蒼炎刃鬼隊不能太早死。畫面型態為雄性（Basculegion 一般型）。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 668,
+          "name_zh": "火炎獅",
+          "name_en": "Pyroar-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": "十七區東巴",
+        "gender": "M",
+        "ability": {
+          "value": "緊張感",
+          "value_en": "Unnerve",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火炎獅進化石",
+          "value_en": "Pyroarite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 163,
+          "atk": 79,
+          "def": 92,
+          "spa": 177,
+          "spd": 86,
+          "spe": 158,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（種族 86/68/72/109/66/106），六項以 Lv.50 公式驗算皆吻合。性格內斂：狀態頁 特攻▲/攻擊▽ 且字幕明說「必須帶內斂才夠」。字幕的速度 178 是 Mega 後數值（Mega 速度種族 126，極速內斂 = 178，相當於巨金怪極速）；很多火炎獅為了超過大狃拉帶膽小，但本隊基於傷害計算選內斂。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "日光束",
+            "value_en": "Solar Beam",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心與唯一 Mega。Mega 後專屬特性「火焰鬃毛」（投影片顯示 Fire Mane：火屬性招式威力 1.5 倍），晴天熱風力度與噴火駝並列全遊戲最高之一；內斂＋幫助的晴天過熱可秒殺 30 HP 噴火龍及幾乎任何配置的烈咬陸鯊、幽尾玄魚。日光束打雨天巨沼怪與美納斯（原本會大地之力，獲得 Mega 後被拔掉）；特性只加火系，晴天減半熱風仍比一倍巨聲強，故不帶一般系技。缺點：本身較脆、主要輸出技會 miss、非常依賴晴天與隊友配合。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        580
+      ],
+      "frames_used": 18,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為一頁六隻的版面（能力頁 f_038–f_044、狀態頁 f_045–f_047），所有欄位皆直接讀自畫面。火焰鬃毛（Fire Mane）不在 names_zh-Hant.json，英文名取自投影片 f_007 的畫面文字。Pyroar-Mega / Pyroarite 為 Z-A 新 Mega，Showdown id 依慣例填寫。tags 中 trick-room / tailwind 依字幕「控速輔助：順風＋空間」「對於順風空間隊來說」判定為隊伍概念；酷豹的擊掌奇襲視為單隻工具招式，未標 fake-out。",
+    "notes": "以 Mega 火炎獅為核心的晴天隊（規則 M-B）。Mega 火炎獅專屬特性火焰鬃毛讓火系威力 1.5 倍，內斂＋幫助的晴天過熱能秒殺 30 HP 噴火龍與幾乎所有烈咬陸鯊、幽尾玄魚，速度 178 即便內斂也比多數主流快。隊伍三個必備條件：晴天輔助（黑色鐵球惡作劇之心酷豹手動晴天搶贏勾魂眼/雨天巨沼怪，加上日照煤炭龜）、控速輔助（風妖精順風＋奇麒麟空間，酷豹擊掌/假哭與煤炭龜幫助兩種模式皆可支援）、補火系盲點的中速輸出手（生命寶珠適應力幽尾玄魚，1.9 倍增傷可秒噴火龍/烈咬陸鯊/咆哮虎/仆斬將軍）。選出先判斷控速模式：面對雨天隊首發酷豹＋火炎獅手動晴天；面對高速隊判斷能否開空間（酷豹＋奇麒麟，或火炎獅/幽尾玄魚＋奇麒麟）；對水抗少的噴火龍隊可走風妖精＋幽尾玄魚/火炎獅的高速模式。弱點：結構接近神戰隊、輸出極依賴火炎獅與幽尾玄魚（面對蒼炎刃鬼要保護幽尾玄魚，有時需選奇麒麟防影子偷襲）；火炎獅需要晴天與大量隊友配合，遇手動雨天冰九尾＋水系很麻煩；火炎獅較脆且主要輸出技會 miss。評分：上手難度 2.5/5、操作彈性 3.5/5、穩定性 2.5/5、全面程度 4/5。",
+    "extracted_at": "2026-11-08T09:27:34.511Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "video_title": "強到無視屬性相剋！全遊戲最高火力，逆屬性秒殺弱點的反主流新星！Mega 火炎獅 & 酷豹 晴天隊【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-07-18"
+  }
+]
