@@ -1,0 +1,500 @@
+[
+  {
+    "id": "team_KYRZxkZ4sbk",
+    "name": "狂歡浪舞鴨 & 眼鏡鋁鋼橋龍的雨天隊",
+    "name_source": "title",
+    "video_id": "KYRZxkZ4sbk",
+    "video_url": "https://www.youtube.com/watch?v=KYRZxkZ4sbk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-h",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "rain",
+      "balance"
+    ],
+    "tags_source": "title",
+    "author": "Fiske Pokémon",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "dahyun",
+        "gender": "F",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "tzuyu",
+        "gender": "F",
+        "ability": {
+          "value": "結實",
+          "value_en": "Sturdy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 914,
+          "name_zh": "狂歡浪舞鴨",
+          "name_en": "Quaquaval",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "momo",
+        "gender": "F",
+        "ability": {
+          "value": "自信過度",
+          "value_en": "Moxie",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "流水旋舞",
+            "value_en": "Aqua Step",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "快手還擊",
+            "value_en": "Upper Hand",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆刀將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "mina",
+        "gender": "F",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "黑色眼鏡",
+          "value_en": "Black Glasses",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 4,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "jihyo",
+        "gender": "F",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 196,
+          "def": 4,
+          "spa": 0,
+          "spd": 44,
+          "spe": 12,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "jeongyeon",
+        "gender": "F",
+        "ability": {
+          "value": "恆淨之軀",
+          "value_en": "Clear Body",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 4,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "龍箭",
+            "value_en": "Dragon Darts",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "逆鱗",
+            "value_en": "Outrage",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "潛靈奇襲",
+            "value_en": "Phantom Force",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/2c90b880e94b267e"
+    },
+    "paste_text": "dahyun (Pelipper) (F) @ Choice Scarf  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\n- Hurricane  \r\n- Weather Ball  \r\n- Tailwind  \r\n- U-turn  \r\n\r\ntzuyu (Archaludon) (F) @ Choice Specs  \r\nAbility: Sturdy  \r\nLevel: 50  \r\nShiny: Yes  \r\nTera Type: Electric  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Electro Shot  \r\n- Flash Cannon  \r\n- Draco Meteor  \r\n- Dragon Pulse  \r\n\r\nmomo (Quaquaval) (F) @ Focus Sash  \r\nAbility: Moxie  \r\nLevel: 50  \r\nShiny: Yes  \r\nTera Type: Water  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nAdamant Nature  \r\n- Aqua Step  \r\n- Upper Hand  \r\n- Close Combat  \r\n- Protect  \r\n\r\nmina (Kingambit) (F) @ Black Glasses  \r\nAbility: Defiant  \r\nLevel: 50  \r\nTera Type: Dark  \r\nEVs: 252 HP / 252 Atk / 4 SpD  \r\nAdamant Nature  \r\n- Kowtow Cleave  \r\n- Sucker Punch  \r\n- Iron Head  \r\n- Protect  \r\n\r\njihyo (Rillaboom) (F) @ Assault Vest  \r\nAbility: Grassy Surge  \r\nLevel: 50  \r\nShiny: Yes  \r\nTera Type: Fire  \r\nEVs: 252 HP / 196 Atk / 4 Def / 44 SpD / 12 Spe  \r\nAdamant Nature  \r\n- Fake Out  \r\n- Wood Hammer  \r\n- Grassy Glide  \r\n- U-turn  \r\n\r\njeongyeon (Dragapult) (F) @ Choice Band  \r\nAbility: Clear Body  \r\nLevel: 50  \r\nShiny: Yes  \r\nTera Type: Dragon  \r\nEVs: 252 Atk / 4 Def / 252 Spe  \r\nAdamant Nature  \r\n- Dragon Darts  \r\n- Outrage  \r\n- Phantom Force  \r\n- U-turn  ",
+    "paste_notes": null,
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:36:58.199Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

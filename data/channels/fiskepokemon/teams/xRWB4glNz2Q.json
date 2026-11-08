@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_xRWB4glNz2Q",
+    "name": "Lucario Team",
+    "name_source": "pokepaste",
+    "video_id": "xRWB4glNz2Q",
+    "video_url": "https://www.youtube.com/watch?v=xRWB4glNz2Q",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Guest 9598375",
+    "author_source": "pokepaste",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 448,
+          "name_zh": "路卡利歐",
+          "name_en": "Lucario",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 4,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "彗星拳",
+            "value_en": "Meteor Mash",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "子彈拳",
+            "value_en": "Bullet Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 994,
+          "name_zh": "鐵毒蛾",
+          "name_en": "Iron Moth",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "強力香草",
+          "value_en": "Power Herb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 0,
+          "def": 4,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "污泥波",
+            "value_en": "Sludge Wave",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "流星光束",
+            "value_en": "Meteor Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 488,
+          "name_zh": "克雷色利亞",
+          "name_en": "Cresselia",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "飄浮",
+          "value_en": "Levitate",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 220,
+          "spa": 0,
+          "spd": 36,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "新月祈禱",
+            "value_en": "Lunar Blessing",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "交換場地",
+            "value_en": "Ally Switch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊",
+          "name_en": "Ursaluna",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "毅力",
+          "value_en": "Guts",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "火焰寶珠",
+          "value_en": "Flame Orb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 204,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 52,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "硬撐",
+            "value_en": "Facade",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 730,
+          "name_zh": "西獅海壬",
+          "name_en": "Primarina",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "濕潤之聲",
+          "value_en": "Liquid Voice",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 52,
+          "spa": 204,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 5",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪",
+          "name_en": "Ogerpon-Cornerstone",
+          "form": "Cornerstone",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "結實",
+          "value_en": "Sturdy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "礎石面具",
+          "value_en": "Cornerstone Mask",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "岩石",
+          "value_en": "Rock",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "強力鞭打",
+            "value_en": "Power Whip",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/47d0248b57a05191"
+    },
+    "paste_text": "Lucario @ Choice Band  \r\nAbility: Inner Focus  \r\nLevel: 50  \r\nTera Type: Normal  \r\nEVs: 252 Atk / 4 SpD / 252 Spe  \r\nAdamant Nature  \r\n- Close Combat  \r\n- Meteor Mash  \r\n- Bullet Punch  \r\n- Extreme Speed  \r\n\r\nIron Moth @ Power Herb  \r\nAbility: Quark Drive  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 4 Def / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Heat Wave  \r\n- Sludge Wave  \r\n- Meteor Beam  \r\n\r\nCresselia @ Safety Goggles  \r\nAbility: Levitate  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 252 HP / 220 Def / 36 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Atk  \r\n- Ice Beam  \r\n- Trick Room  \r\n- Lunar Blessing  \r\n- Ally Switch  \r\n\r\nUrsaluna @ Flame Orb  \r\nAbility: Guts  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 204 HP / 252 Atk / 52 SpD  \r\nAdamant Nature  \r\n- Protect  \r\n- Facade  \r\n- Earthquake  \r\n- Swords Dance  \r\n\r\nPrimarina @ Throat Spray  \r\nAbility: Liquid Voice  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 52 Def / 204 SpA  \r\nQuiet Nature  \r\nIVs: 5 Spe  \r\n- Protect  \r\n- Hyper Voice  \r\n- Moonblast  \r\n- Aqua Jet  \r\n\r\nOgerpon-Cornerstone (F) @ Cornerstone Mask  \r\nAbility: Sturdy  \r\nLevel: 50  \r\nTera Type: Rock  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nJolly Nature  \r\n- Spiky Shield  \r\n- Ivy Cudgel  \r\n- Power Whip  \r\n- Follow Me  \r\n\r\n",
+    "paste_notes": "Format: gen9vgc2024regf",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:37:23.064Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

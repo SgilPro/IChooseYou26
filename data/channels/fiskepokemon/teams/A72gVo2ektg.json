@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_A72gVo2ektg",
+    "name": "超夢 & 無極汰那 隊",
+    "name_source": "title",
+    "video_id": "A72gVo2ektg",
+    "video_url": "https://www.youtube.com/watch?v=A72gVo2ektg",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-i",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske Pokémon",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 228,
+          "atk": 0,
+          "def": 188,
+          "spa": 0,
+          "spd": 92,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 124,
+          "def": 4,
+          "spa": 0,
+          "spd": 124,
+          "spe": 4,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鼓擊",
+            "value_en": "Drum Beating",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 0,
+          "def": 4,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "怨恨",
+            "value_en": "Spite",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 890,
+          "name_zh": "無極汰那",
+          "name_en": "Eternatus",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "壓迫感",
+          "value_en": "Pressure",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "黑色污泥",
+          "value_en": "Black Sludge",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 196,
+          "atk": 0,
+          "def": 28,
+          "spa": 4,
+          "spd": 116,
+          "spe": 164,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "宇宙力量",
+            "value_en": "Cosmic Power",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1003,
+          "name_zh": "古鼎鹿",
+          "name_en": "Ting-Lu",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之鼎",
+          "value_en": "Vessel of Ruin",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "蟲",
+          "value_en": "Bug",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 76,
+          "spa": 0,
+          "spd": 180,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "以牙還牙",
+            "value_en": "Payback",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "吹飛",
+            "value_en": "Whirlwind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "怨恨",
+            "value_en": "Spite",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 150,
+          "name_zh": "超夢",
+          "name_en": "Mewtwo",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "壓迫感",
+          "value_en": "Pressure",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 212,
+          "atk": 0,
+          "def": 60,
+          "spa": 4,
+          "spd": 196,
+          "spe": 36,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "精神擊破",
+            "value_en": "Psystrike",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "生命水滴",
+            "value_en": "Life Dew",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/63a157a23989ef7f"
+    },
+    "paste_text": "Incineroar @ Rocky Helmet  \r\nAbility: Intimidate  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 228 HP / 188 Def / 92 SpD  \r\nImpish Nature  \r\n- Fake Out  \r\n- Knock Off  \r\n- Will-O-Wisp  \r\n- Parting Shot  \r\n\r\nRillaboom @ Assault Vest  \r\nAbility: Grassy Surge  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 124 Atk / 4 Def / 124 SpD / 4 Spe  \r\nAdamant Nature  \r\n- Grassy Glide  \r\n- Drum Beating  \r\n- Knock Off  \r\n- Fake Out  \r\n\r\nFlutter Mane @ Focus Sash  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Stellar  \r\nEVs: 4 Def / 252 SpA / 252 Spe  \r\nTimid Nature  \r\n- Moonblast  \r\n- Shadow Ball  \r\n- Spite  \r\n- Protect  \r\n\r\nEternatus @ Black Sludge  \r\nAbility: Pressure  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 196 HP / 28 Def / 4 SpA / 116 SpD / 164 Spe  \r\nTimid Nature  \r\n- Sludge Bomb  \r\n- Recover  \r\n- Cosmic Power  \r\n- Protect  \r\n\r\nTing-Lu @ Safety Goggles  \r\nAbility: Vessel of Ruin  \r\nLevel: 50  \r\nTera Type: Bug  \r\nEVs: 252 HP / 76 Def / 180 SpD  \r\nImpish Nature  \r\n- Payback  \r\n- Whirlwind  \r\n- Spite  \r\n- Protect  \r\n\r\nMewtwo @ Leftovers  \r\nAbility: Pressure  \r\nLevel: 50  \r\nTera Type: Dragon  \r\nEVs: 212 HP / 60 Def / 4 SpA / 196 SpD / 36 Spe  \r\nTimid Nature  \r\n- Psystrike  \r\n- Aura Sphere  \r\n- Life Dew  \r\n- Protect  \r\n",
+    "paste_notes": null,
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:36:24.691Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

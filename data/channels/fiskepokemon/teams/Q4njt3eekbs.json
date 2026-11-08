@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_Q4njt3eekbs",
+    "name": "蓋歐卡 & 圖圖犬 隊",
+    "name_source": "title",
+    "video_id": "Q4njt3eekbs",
+    "video_url": "https://www.youtube.com/watch?v=Q4njt3eekbs",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-i",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske Pokémon",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 382,
+          "name_zh": "蓋歐卡",
+          "name_en": "Kyogre",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "力量鏡",
+          "value_en": "Power Lens",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 4,
+          "spa": 252,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "噴水",
+            "value_en": "Water Spout",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "根源波動",
+            "value_en": "Origin Pulse",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "打雷",
+            "value_en": "Thunder",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": "Rapid-Strike",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 236,
+          "def": 0,
+          "spa": 0,
+          "spd": 20,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 645,
+          "name_zh": "土地雲",
+          "name_en": "Landorus",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "沙之力",
+          "value_en": "Sand Force",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 12,
+          "atk": 0,
+          "def": 4,
+          "spa": 212,
+          "spd": 36,
+          "spe": 244,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "熱沙風暴",
+            "value_en": "Sandsear Storm",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 235,
+          "name_zh": "圖圖犬",
+          "name_en": "Smeargle",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心情不定",
+          "value_en": "Moody",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "避難背包",
+          "value_en": "Eject Pack",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 28,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 236,
+          "spe": 244,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王",
+          "name_en": "Calyrex-Ice",
+          "form": "Ice",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "As One (Glastrier)",
+          "value_en": "As One (Glastrier)",
+          "confidence": 0.7,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 4,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 0",
+        "moves": [
+          {
+            "value": "雪矛",
+            "value_en": "Glacial Lance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "種子炸彈",
+            "value_en": "Seed Bomb",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "封印",
+            "value_en": "Imprison",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/4728aff22e71da5a"
+    },
+    "paste_text": "Kyogre @ Power Lens  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 252 HP / 4 Def / 252 SpA  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Protect  \r\n- Water Spout  \r\n- Origin Pulse  \r\n- Thunder  \r\n\r\nFlutter Mane @ Focus Sash  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Dark  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Moonblast  \r\n- Shadow Ball  \r\n- Icy Wind  \r\n- Trick Room  \r\n\r\nUrshifu-Rapid-Strike @ Choice Scarf  \r\nAbility: Unseen Fist  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 236 Atk / 20 SpD / 252 Spe  \r\nAdamant Nature  \r\n- Surging Strikes  \r\n- Close Combat  \r\n- Aqua Jet  \r\n- U-turn  \r\n\r\nLandorus @ Life Orb  \r\nAbility: Sand Force  \r\nLevel: 50  \r\nTera Type: Steel  \r\nEVs: 12 HP / 4 Def / 212 SpA / 36 SpD / 244 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Earth Power  \r\n- Sandsear Storm  \r\n- Sludge Bomb  \r\n\r\nSmeargle @ Eject Pack  \r\nAbility: Moody  \r\nLevel: 50  \r\nTera Type: Ground  \r\nEVs: 28 HP / 236 SpD / 244 Spe  \r\nJolly Nature  \r\n- Spore  \r\n- Follow Me  \r\n- Fake Out  \r\n- Wide Guard  \r\n\r\nCalyrex-Ice @ Clear Amulet  \r\nAbility: As One (Glastrier)  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 252 Atk / 4 SpD  \r\nBrave Nature  \r\nIVs: 0 Spe  \r\n- Glacial Lance  \r\n- Seed Bomb  \r\n- Trick Room  \r\n- Imprison  \r\n",
+    "paste_notes": null,
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:36:18.451Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

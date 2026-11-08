@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_Zjnw_2lGG8Q",
+    "name": "曾經的最強御三家魔幻假面喵，與強力香草的太樂巴戈斯",
+    "name_source": "title",
+    "video_id": "Zjnw_2lGG8Q",
+    "video_url": "https://www.youtube.com/watch?v=Zjnw_2lGG8Q",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske Pokémon",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1024,
+          "name_zh": "太樂巴戈斯",
+          "name_en": "Terapagos-Stellar",
+          "form": "Stellar",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "歸零化境",
+          "value_en": "Teraform Zero",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "強力香草",
+          "value_en": "Power Herb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 60,
+          "atk": 0,
+          "def": 4,
+          "spa": 252,
+          "spd": 4,
+          "spe": 188,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 15",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "晶光星群",
+            "value_en": "Tera Starstorm",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "流星光束",
+            "value_en": "Meteor Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 236,
+          "atk": 0,
+          "def": 252,
+          "spa": 0,
+          "spd": 20,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 29",
+        "moves": [
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 4,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: hp 0, atk 0",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "蠻幹",
+            "value_en": "Endeavor",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "棉孢子",
+            "value_en": "Cotton Spore",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": "Rapid-Strike",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 4,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 989,
+          "name_zh": "沙鐵皮",
+          "name_en": "Sandy Shocks",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 52,
+          "atk": 0,
+          "def": 0,
+          "spa": 204,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "電網",
+            "value_en": "Electroweb",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 908,
+          "name_zh": "魔幻假面喵",
+          "name_en": "Meowscarada",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "變幻自如",
+          "value_en": "Protean",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "千變萬花",
+            "value_en": "Flower Trick",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/e32bc87d44aa849d"
+    },
+    "paste_text": "Terapagos-Stellar @ Power Herb  \r\nAbility: Teraform Zero  \r\nLevel: 50  \r\nTera Type: Stellar  \r\nEVs: 60 HP / 4 Def / 252 SpA / 4 SpD / 188 Spe  \r\nModest Nature  \r\nIVs: 15 Atk  \r\n- Protect  \r\n- Tera Starstorm  \r\n- Meteor Beam  \r\n- Dark Pulse  \r\n\r\nIndeedee-F @ Rocky Helmet  \r\nAbility: Psychic Surge  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 236 HP / 252 Def / 20 SpD  \r\nBold Nature  \r\nIVs: 0 Atk / 29 Spe  \r\n- Psyshock  \r\n- Follow Me  \r\n- Helping Hand  \r\n- Trick Room  \r\n\r\nWhimsicott @ Focus Sash  \r\nAbility: Prankster  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 SpA / 4 SpD / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 HP / 0 Atk  \r\n- Dazzling Gleam  \r\n- Endeavor  \r\n- Tailwind  \r\n- Cotton Spore  \r\n\r\nUrshifu-Rapid-Strike @ Life Orb  \r\nAbility: Unseen Fist  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 252 Atk / 4 SpD / 252 Spe  \r\nJolly Nature  \r\n- Detect  \r\n- Surging Strikes  \r\n- Close Combat  \r\n- Aqua Jet  \r\n\r\nSandy Shocks @ Booster Energy  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Ground  \r\nEVs: 52 HP / 204 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Thunderbolt  \r\n- Electroweb  \r\n- Earth Power  \r\n\r\nMeowscarada @ Choice Scarf  \r\nAbility: Protean  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nAdamant Nature  \r\n- Flower Trick  \r\n- Knock Off  \r\n- Play Rough  \r\n- U-turn  \r\n",
+    "paste_notes": null,
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:37:16.776Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

@@ -1,0 +1,497 @@
+[
+  {
+    "id": "team_L61EsqLv1qk",
+    "name": "霜奶仙 & 拂曉之翼 隊",
+    "name_source": "title",
+    "video_id": "L61EsqLv1qk",
+    "video_url": "https://www.youtube.com/watch?v=L61EsqLv1qk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-i",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske Pokémon",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王",
+          "name_en": "Calyrex-Ice",
+          "form": "Ice",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "As One (Glastrier)",
+          "value_en": "As One (Glastrier)",
+          "confidence": 0.7,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "光粉",
+          "value_en": "Bright Powder",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 196,
+          "def": 0,
+          "spa": 0,
+          "spd": 60,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 0",
+        "moves": [
+          {
+            "value": "雪矛",
+            "value_en": "Glacial Lance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 800,
+          "name_zh": "奈克洛茲瑪",
+          "name_en": "Necrozma-Dawn-Wings",
+          "form": "Dawn-Wings",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "稜鏡裝甲",
+          "value_en": "Prism Armor",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "強力香草",
+          "value_en": "Power Herb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 76,
+          "spa": 180,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "暗影之光",
+            "value_en": "Moongeist Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "流星光束",
+            "value_en": "Meteor Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "逃脫按鍵",
+          "value_en": "Eject Button",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 196,
+          "spa": 0,
+          "spd": 60,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 869,
+          "name_zh": "霜奶仙",
+          "name_en": "Alcremie",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "甜幕",
+          "value_en": "Sweet Veil",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 196,
+          "spa": 0,
+          "spd": 60,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0, spe 0",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "裝飾",
+            "value_en": "Decorate",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "光牆",
+            "value_en": "Light Screen",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 475,
+          "name_zh": "艾路雷朵",
+          "name_en": "Gallade",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "鋒銳",
+          "value_en": "Sharpness",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "焦點鏡",
+          "value_en": "Scope Lens",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 196,
+          "def": 20,
+          "spa": 0,
+          "spd": 36,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 0",
+        "moves": [
+          {
+            "value": "精神利刃",
+            "value_en": "Psycho Cut",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "葉刃",
+            "value_en": "Leaf Blade",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊",
+          "name_en": "Ursaluna",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "毅力",
+          "value_en": "Guts",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "火焰寶珠",
+          "value_en": "Flame Orb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 140,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 116,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: spe 0",
+        "moves": [
+          {
+            "value": "硬撐",
+            "value_en": "Facade",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "突飛猛撲",
+            "value_en": "Headlong Rush",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "劈瓦",
+            "value_en": "Brick Break",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": "https://pokepast.es/9dcf813a7fe39c34"
+    },
+    "paste_text": "Calyrex-Ice @ Bright Powder  \r\nAbility: As One (Glastrier)  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 252 HP / 196 Atk / 60 SpD  \r\nBrave Nature  \r\nIVs: 0 Spe  \r\n- Glacial Lance  \r\n- High Horsepower  \r\n- Trick Room  \r\n- Protect  \r\n\r\nNecrozma-Dawn-Wings @ Power Herb  \r\nAbility: Prism Armor  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 252 HP / 76 Def / 180 SpA  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Moongeist Beam  \r\n- Expanding Force  \r\n- Meteor Beam  \r\n- Trick Room  \r\n\r\nIndeedee-F @ Eject Button  \r\nAbility: Psychic Surge  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 252 HP / 196 Def / 60 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Dazzling Gleam  \r\n- Follow Me  \r\n- Helping Hand  \r\n- Trick Room  \r\n\r\nAlcremie @ Iron Ball  \r\nAbility: Sweet Veil  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 196 Def / 60 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Dazzling Gleam  \r\n- Decorate  \r\n- Encore  \r\n- Light Screen  \r\n\r\nGallade @ Scope Lens  \r\nAbility: Sharpness  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 196 Atk / 20 Def / 36 SpD  \r\nBrave Nature  \r\nIVs: 0 Spe  \r\n- Psycho Cut  \r\n- Sacred Sword  \r\n- Leaf Blade  \r\n- Wide Guard  \r\n\r\nUrsaluna @ Flame Orb  \r\nAbility: Guts  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 140 HP / 252 Atk / 116 SpD  \r\nBrave Nature  \r\nIVs: 0 Spe  \r\n- Facade  \r\n- Headlong Rush  \r\n- Brick Break  \r\n- Protect  \r\n",
+    "paste_notes": null,
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": null,
+    "extracted_at": "2026-11-08T16:36:25.727Z",
+    "extracted_by": "import-pokepaste-v1"
+  }
+]

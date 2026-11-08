@@ -36,7 +36,7 @@ let errs = 0, warns = 0;
 const err = (m) => { errs++; console.log(`ERR  ${m}`); };
 const warn = (m) => { warns++; console.log(`WARN ${m}`); };
 
-const SOURCES = new Set(["title", "subtitle", "frame", "description", "pinned_comment", "inferred", "manual"]);
+const SOURCES = new Set(["title", "subtitle", "frame", "description", "pinned_comment", "pokepaste", "inferred", "manual"]);
 const REVIEW = new Set(["auto", "reviewed", "conflict", "needs-member-access", "manual"]);
 
 // Z-Mega 是 Champions 新型態，Showdown 可能尚未收錄 → 只警告
@@ -120,13 +120,13 @@ for (const file of readdirSync(teamsDir).filter((f) => f.endsWith(".json")).sort
         }
       }
       if (m.mega === true && !/Mega/.test(m.species?.form ?? "")) warn(`${mw}: mega=true 但 species.form 沒標 Mega`);
-      // 能力值重算（Lv.50、IV 31、Champions 能力點 EV = 4 + 8×(點數−1)）。狀態頁顯示的是未 Mega 的原形 → 用原形種族值。
-      if (m.evs?.scale === "champions-points-32" && m.stats && m.species?.name_en) {
+      // 能力值重算（Lv.50、IV 31）。Champions 能力點 EV = 4 + 8×(點數−1)；SV 直接用 EV。畫面顯示的是未 Mega 的原形 → 用原形種族值。
+      if ((m.evs?.scale === "champions-points-32" || m.evs?.scale === "ev-252") && m.stats && m.species?.name_en) {
         const baseName = String(m.species.name_en).replace(/-Mega(-[XYZ])?$/, "");
         const sp = dex.species.get(baseName);
         const natEn = m.nature?.value_en ? dex.natures.get(m.nature.value_en) : null;
         if (sp?.exists) {
-          const toEv = (pt) => (pt == null || pt <= 0 ? 0 : 4 + 8 * (pt - 1));
+          const toEv = m.evs.scale === "ev-252" ? (ev) => (ev ?? 0) : (pt) => (pt == null || pt <= 0 ? 0 : 4 + 8 * (pt - 1));
           for (const k of ["hp", "atk", "def", "spa", "spd", "spe"]) {
             const shown = m.stats[k]; if (shown == null || m.evs[k] == null) continue;
             const base = sp.baseStats[k];

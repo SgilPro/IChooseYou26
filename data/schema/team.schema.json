@@ -4,48 +4,209 @@
   "title": "Team",
   "description": "一支影片介紹的對戰隊伍（資料線第二層：深度分析）。對應 Notion 的隊伍 DB 概念：name / regulation set(relation) / tags / video url / author / team members(relation)。",
   "type": "object",
-  "required": ["id", "name", "video_id", "video_url", "game", "regulation_set_id", "author", "members", "is_members_only", "review_status", "extracted_at"],
+  "required": [
+    "id",
+    "name",
+    "video_id",
+    "video_url",
+    "game",
+    "regulation_set_id",
+    "author",
+    "members",
+    "is_members_only",
+    "review_status",
+    "extracted_at"
+  ],
   "properties": {
-    "id": { "type": "string", "description": "team_<videoId>[_n]；一支影片多隊時加序號" },
-    "name": { "type": "string", "description": "隊伍名。優先用影片標題中的隊伍概念（如「雨天 Mega 具甲武者」），否則用標題" },
-    "name_source": { "type": "string", "enum": ["title", "subtitle", "frame", "manual"] },
-    "video_id": { "type": "string" },
-    "video_url": { "type": "string", "format": "uri" },
-    "channel_handle": { "type": "string" },
-    "game": { "type": "string", "enum": ["champions", "sv", "other"] },
-    "regulation_set_id": { "type": ["string", "null"], "description": "FK → regulation_sets.json[].id，例如 champions-m-c" },
-    "regulation_source": { "type": ["string", "null"], "enum": ["title", "subtitle", "date-inferred", "manual", null] },
+    "id": {
+      "type": "string",
+      "description": "team_<videoId>[_n]；一支影片多隊時加序號"
+    },
+    "name": {
+      "type": "string",
+      "description": "隊伍名。優先用影片標題中的隊伍概念（如「雨天 Mega 具甲武者」），否則用標題"
+    },
+    "name_source": {
+      "type": "string",
+      "enum": [
+        "title",
+        "subtitle",
+        "frame",
+        "manual",
+        "pokepaste"
+      ]
+    },
+    "video_id": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "channel_handle": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string",
+      "enum": [
+        "champions",
+        "sv",
+        "other"
+      ]
+    },
+    "regulation_set_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "FK → regulation_sets.json[].id，例如 champions-m-c"
+    },
+    "regulation_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "title",
+        "subtitle",
+        "date-inferred",
+        "manual",
+        null
+      ]
+    },
     "tags": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "FK → tags.json[].slug。第一層只放從標題/隊名既有資訊推得的 tag"
     },
-    "tags_source": { "type": "string", "enum": ["title", "subtitle", "analysis", "manual"], "description": "title = 僅依標題/隊名；analysis = 未來戰術層分析" },
-    "author": { "type": "string", "description": "隊伍作者（預設頻道主 Fiske；字幕/描述提到借用他人隊伍則改）" },
-    "author_source": { "type": "string", "enum": ["channel", "description", "subtitle", "pinned_comment", "manual"] },
+    "tags_source": {
+      "type": "string",
+      "enum": [
+        "title",
+        "subtitle",
+        "analysis",
+        "manual"
+      ],
+      "description": "title = 僅依標題/隊名；analysis = 未來戰術層分析"
+    },
+    "author": {
+      "type": "string",
+      "description": "隊伍作者（預設頻道主 Fiske；字幕/描述提到借用他人隊伍則改）"
+    },
+    "author_source": {
+      "type": "string",
+      "enum": [
+        "channel",
+        "description",
+        "subtitle",
+        "pinned_comment",
+        "manual",
+        "pokepaste"
+      ]
+    },
     "members": {
       "type": "array",
       "minItems": 0,
       "maxItems": 6,
-      "items": { "$ref": "team_member.schema.json" }
+      "items": {
+        "$ref": "team_member.schema.json"
+      }
     },
-    "is_members_only": { "type": "boolean", "description": "影片為會員限定；true 時 members 可能為空殼待補" },
-    "related_video_ids": { "type": "array", "items": { "type": "string" }, "description": "同一隊伍的延伸影片（例如會員版）" },
+    "is_members_only": {
+      "type": "boolean",
+      "description": "影片為會員限定；true 時 members 可能為空殼待補"
+    },
+    "related_video_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "同一隊伍的延伸影片（例如會員版）"
+    },
     "sources": {
       "type": "object",
       "description": "本隊資料用到的素材",
       "properties": {
-        "subtitle_lang": { "type": ["string", "null"] },
-        "subtitle_range_s": { "type": ["array", "null"], "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
-        "frames_used": { "type": "integer" },
-        "pokepaste_url": { "type": ["string", "null"] }
+        "subtitle_lang": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subtitle_range_s": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "frames_used": {
+          "type": "integer"
+        },
+        "pokepaste_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
-    "confidence": { "type": "number", "minimum": 0, "maximum": 1, "description": "整隊抽取信心（六隻種族正確的主觀機率）" },
-    "review_status": { "type": "string", "enum": ["auto", "reviewed", "conflict", "needs-member-access", "manual"] },
-    "review_notes": { "type": ["string", "null"] },
-    "notes": { "type": ["string", "null"], "description": "隊伍思路摘要（來自字幕）" },
-    "extracted_at": { "type": "string", "format": "date-time" },
-    "extracted_by": { "type": "string", "description": "模型/流程版本，例如 fable-5.1/extract-v1" }
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "整隊抽取信心（六隻種族正確的主觀機率）"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "auto",
+        "reviewed",
+        "conflict",
+        "needs-member-access",
+        "manual"
+      ]
+    },
+    "review_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "隊伍思路摘要（來自字幕）"
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extracted_by": {
+      "type": "string",
+      "description": "模型/流程版本，例如 fable-5.1/extract-v1"
+    },
+    "paste_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Showdown 匯出原文（來自 pokepast.es），作為無損交換格式"
+    },
+    "paste_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "pokepaste 的 notes 欄"
+    }
   }
 }
