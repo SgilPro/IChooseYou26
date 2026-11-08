@@ -8,7 +8,7 @@
 | 項目 | 狀態 | 位置 |
 |---|---|---|
 | 頻道清單（679 支） | ✅ | `raw/channel-index.json`、`raw/ids.txt` |
-| 逐支 metadata / 字幕抓取 | ⏳ 背景跑中，約 200/679；可中斷重跑（會跳過已有 info.json 的） | `raw/*.info.json`、`raw/*.zh-TW.json3`、`raw/errors.log` |
+| 逐支 metadata / 字幕抓取 | 🟡 第一輪跑完：214 成功、~280 會員限定、**~187 支被 YouTube 速率限制擋下（「無法播放」）**，需用更慢速率重跑（已排 20 分鐘後自動重試一次；若仍缺，隔幾小時再 `--sleep-interval 10 --max-sleep-interval 20`） | `raw/*.info.json`、`raw/*.zh-TW.json3`、`raw/errors.log` |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
 | 隊伍抽取 teams/<id>.json | 🟡 **10 完成**（validate 0 ERR），其餘約 13 支公開 Champions 對戰影片待做 | `teams/*.json` |
