@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_5O6yXXJQCYg",
+    "name": "Mega 龍頭地鼠 & 快龍順風隊",
+    "name_source": "title",
+    "video_id": "5O6yXXJQCYg",
+    "video_url": "https://www.youtube.com/watch?v=5O6yXXJQCYg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "subtitle",
+    "tags": ["tailwind", "mega"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 981, "name_zh": "奇麒麟", "name_en": "Farigiraf", "form": null, "confidence": 0.99 },
+        "nickname": "吼叫脖子",
+        "gender": "F",
+        "ability": { "value": "尾甲", "value_en": "Armor Tail", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "刺耳果", "value_en": "Colbur Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 0, "atk": 0, "def": 6, "spa": 32, "spd": 0, "spe": 28, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 195, "atk": 99, "def": 96, "spa": 178, "spd": 90, "spe": 108, "source": "frame" },
+        "stats_note": "性格依狀態頁 ▲▽ 判讀（特攻▲ 攻擊▽ = 內斂），能力值重算全部吻合。字幕：加了非常大量的特攻、性格修正特攻；速度加很多（少見配置），順風下一定比對面的化石翼龍與圍巾幽尾玄魚更快。",
+        "moves": [
+          { "value": "巨聲", "value_en": "Hyper Voice", "confidence": 0.99, "source": "frame" },
+          { "value": "精神強念", "value_en": "Psychic", "confidence": 0.99, "source": "frame" },
+          { "value": "十萬伏特", "value_en": "Thunderbolt", "confidence": 0.99, "source": "frame" },
+          { "value": "吼叫", "value_en": "Roar", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "純輸出的極攻特攻手；尾甲擋先制（保護脆弱的艾路雷朵）、免疫掃墓、十萬伏特電幽尾玄魚約 70%、精神強念打 Mega 妙蛙花一半多。第四招帶吼叫，用來把對面空間手/強化手吼下場，反制空間隊與強化隊。刺耳果讓牠保證出手一次以上。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 475, "name_zh": "艾路雷朵", "name_en": "Gallade", "form": null, "confidence": 0.99 },
+        "nickname": "假面騎士",
+        "gender": "M",
+        "ability": { "value": "鋒銳", "value_en": "Sharpness", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "講究圍巾", "value_en": "Choice Scarf", "confidence": 0.99, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 0, "atk": 32, "def": 2, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 143, "atk": 177, "def": 87, "spa": 76, "spd": 135, "spe": 145, "source": "frame" },
+        "stats_note": "性格依狀態頁 ▲▽ 判讀（速度▲ 特攻▽ = 爽朗，攻擊 177 為無修正值），能力值重算全部吻合。字幕：圍巾後速度一定比圍巾幽尾玄魚快 2 點。",
+        "moves": [
+          { "value": "聖劍", "value_en": "Sacred Sword", "confidence": 0.99, "source": "frame" },
+          { "value": "葉刃", "value_en": "Leaf Blade", "confidence": 0.99, "source": "frame" },
+          { "value": "暗襲要害", "value_en": "Night Slash", "confidence": 0.99, "source": "frame" },
+          { "value": "三旋擊", "value_en": "Triple Axel", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "圍巾高速輸出：葉刃保證擊殺幽尾玄魚、聖劍秒殺咆哮虎與仆斬將軍、三旋擊秒殺烈咬陸鯊/快龍/披帶化石翼龍與風妖精。用於首發威脅對面順風手與主輸出，或殘局收尾；缺點非常脆、怕先制雙點，字幕形容「多了一個葉刃的古劍豹」。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 350, "name_zh": "美納斯", "name_en": "Milotic", "form": null, "confidence": 0.99 },
+        "nickname": "燒他",
+        "gender": "M",
+        "ability": { "value": "好勝", "value_en": "Competitive", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "羅子果", "value_en": "Rindo Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 1, "spa": 32, "spd": 0, "spe": 1, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 72, "def": 100, "spa": 167, "spd": 145, "spe": 102, "source": "frame" },
+        "stats_note": "性格依狀態頁 ▲▽ 判讀（特攻▲ 攻擊▽ = 內斂），能力值重算全部吻合。字幕：加滿 HP 與特攻（極攻），為了冰凍光束保證秒殺烈咬陸鯊、打來悲粗茶過半，「只要少一點點就可能打不死」。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "熱水", "value_en": "Scald", "confidence": 0.99, "source": "frame" },
+          { "value": "冰凍光束", "value_en": "Ice Beam", "confidence": 0.99, "source": "frame" },
+          { "value": "冰凍之風", "value_en": "Icy Wind", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "好勝反威嚇手（對付咆哮虎/來悲粗茶）；帶抗草果（羅子果）而非剩飯+盤蜷，可接日光束加烈咬陸鯊任一招後用冰凍光束秒殺烈咬陸鯊。冰凍之風提供順風互打時的雙重控速。與風妖精、龍頭地鼠組成隊伍主核心；缺點完全打不了水系。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 547, "name_zh": "風妖精", "name_en": "Whimsicott", "form": null, "confidence": 0.99 },
+        "nickname": "陽光女孩",
+        "gender": "F",
+        "ability": { "value": "惡作劇之心", "value_en": "Prankster", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "膽小", "value_en": "Timid", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 0, "def": 0, "spa": 32, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 137, "atk": 78, "def": 105, "spa": 129, "spd": 95, "spe": 184, "source": "frame" },
+        "stats_note": "性格依狀態頁 ▲▽ 判讀（速度▲ 攻擊▽ = 膽小），能力值重算全部吻合。字幕：希望有一點輸出能力所以加滿特攻。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.99, "source": "frame" },
+          { "value": "能量球", "value_en": "Energy Ball", "confidence": 0.99, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍必帶的順風手（妖精+草符合隊伍需要的進攻屬性，且不與龍頭地鼠共用弱點）；加滿特攻帶月亮之力與能量球以保有輸出。遇高速隊需視情況保護牠以免順風被拖完。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 530, "name_zh": "龍頭地鼠", "name_en": "Excadrill-Mega", "form": "Mega", "confidence": 0.97 },
+        "nickname": "武道鼠師",
+        "gender": "F",
+        "ability": { "value": "破格", "value_en": "Mold Breaker", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "龍頭地鼠進化石", "value_en": "Excadrite", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 187, "atk": 205, "def": 80, "spa": 63, "spd": 85, "spe": 140, "source": "frame" },
+        "stats_note": "狀態頁顯示未 Mega 原形數值；性格依 ▲▽ 判讀（攻擊▲ 特攻▽ = 固執），以原形種族值重算全部吻合。字幕未給 Mega 後具體速度線，只說「本身速度算比較快、最好搭配順風」。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "十萬馬力", "value_en": "High Horsepower", "confidence": 0.99, "source": "frame" },
+          { "value": "鐵頭", "value_en": "Iron Head", "confidence": 0.99, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心 Mega。隊伍表顯示原形特性「破格」；Mega 後特性為「貫穿鑽」（Piercing Drill，f_006 畫面與字幕：接觸技可無視守住但減傷 75%，能收掉點守住拖控速的披帶殘血）。物攻高：岩崩保證擊殺加物耐的噴火龍、鐵頭保證擊殺加物耐的花葉蒂與 Mega 化石翼龍，壓制妖精系。一定帶十萬馬力（接觸技）而非地震。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 149, "name_zh": "快龍", "name_en": "Dragonite", "form": null, "confidence": 0.99 },
+        "nickname": "不怎麼快",
+        "gender": "M",
+        "ability": { "value": "多重鱗片", "value_en": "Multiscale", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "龍之牙", "value_en": "Dragon Fang", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 21, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 13, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 187, "atk": 204, "def": 115, "spa": 108, "spd": 120, "spe": 113, "source": "frame" },
+        "stats_note": "性格依狀態頁 ▲▽ 判讀（攻擊▲ 特攻▽ = 固執），能力值重算全部吻合。字幕未說明 HP 21 / 速度 13 點的具體調整理由。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "龍爪", "value_en": "Dragon Claw", "confidence": 0.99, "source": "frame" },
+          { "value": "踢倒", "value_en": "Low Kick", "confidence": 0.99, "source": "frame" },
+          { "value": "神速", "value_en": "Extreme Speed", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "與龍頭地鼠互相聯防的龍系（地面+鋼+龍聯攻幾乎無盲點）；Champions 無講究眼鏡所以選龍之牙快龍。龍爪保證秒殺滿血烈咬陸鯊、踢倒秒殺仆斬將軍、神速收殘補足隊伍先制。多重鱗片保住時可接 200 威力掃墓。通常不首發，站龍頭地鼠隔壁或收尾。守住主要用來拖空間，可替換。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 606],
+      "frames_used": 5,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以冷門的 Mega 龍頭地鼠為核心的順風隊（反主流）：Mega 後特性貫穿鑽可無視守住，高物攻岩崩/鐵頭保證擊殺主流的噴火龍、花葉蒂、Mega 化石翼龍。順風手固定為風妖精，美納斯（好勝）負責反威嚇與用極攻冰凍光束秒殺烈咬陸鯊，兩者加龍頭地鼠為主核心；圍巾艾路雷朵處理幽尾玄魚與烈咬陸鯊，極攻奇麒麟用尾甲擋先制並以吼叫反空間/反強化，龍之牙快龍與龍頭地鼠聯防收尾。六隻速度種族值都在 60~80 間、預覽像空間隊但實際極快，帶地雷性質。常見首發：風妖精+美納斯/奇麒麟、龍頭地鼠+美納斯、艾路雷朵+奇麒麟；快龍幾乎不首發。弱點：怕燒傷與某些狠辣椒隊、艾路雷朵鎖招時機關鍵、整體耐久偏低、依賴順風與控速。Fiske 評分：上手難度 3.5、操作彈性 3、穩定性 2.5、全面程度 2。",
+    "extracted_at": "2026-11-08T15:52:30Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

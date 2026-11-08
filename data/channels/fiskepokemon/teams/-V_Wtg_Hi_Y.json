@@ -1,0 +1,398 @@
+[
+  {
+    "id": "team_-V_Wtg_Hi_Y",
+    "name": "索羅亞克 & Mega 頭巾混混 雙重幻覺隊",
+    "name_source": "title",
+    "video_id": "-V_Wtg_Hi_Y",
+    "video_url": "https://www.youtube.com/watch?v=-V_Wtg_Hi_Y",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "mega",
+      "hyper-offense",
+      "tailwind",
+      "fake-out"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 571,
+          "name_zh": "索羅亞克",
+          "name_en": "Zoroark-Hisui",
+          "form": "洗翠的樣子",
+          "confidence": 0.98
+        },
+        "nickname": "靈魂板凳",
+        "gender": "M",
+        "ability": {
+          "value": "幻覺",
+          "value_en": "Illusion",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 132,
+          "atk": 108,
+          "def": 80,
+          "spa": 177,
+          "spd": 80,
+          "spe": 178,
+          "source": "frame"
+        },
+        "stats_note": "極速＋講究圍巾，會比雨天巨沼怪快一點點，打草結保證秒殺。性格依狀態頁 攻擊▽/速度▲ 判讀為膽小。能力點依種族值重算全部吻合。",
+        "moves": [
+          { "value": "冤冤相報", "value_en": "Bitter Malice", "confidence": 0.97, "source": "frame" },
+          { "value": "冰凍之風", "value_en": "Icy Wind", "confidence": 0.98, "source": "frame" },
+          { "value": "打草結", "value_en": "Grass Knot", "confidence": 0.98, "source": "frame" },
+          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "影片主角但「放在隊裡不選出」：不選他時幻覺會落到隊友（最後一隻）身上，形成雙重幻覺。選出時主要用冰凍之風、打草結（秒殺雨天巨沼怪），急速折返可返回換上棄世猴疊憤怒之拳；第四格很彈性。一般/幽靈屬性免疫一般、格鬥、幽靈，讓弱格鬥/幽靈或怕擊掌的隊友受益。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 979,
+          "name_zh": "棄世猴",
+          "name_en": "Annihilape",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "快點揍我",
+        "gender": "F",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 16,
+          "def": 2,
+          "spa": 0,
+          "spd": 14,
+          "spe": 2,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 217,
+          "atk": 166,
+          "def": 102,
+          "spa": 63,
+          "spd": 124,
+          "spe": 112,
+          "source": "frame"
+        },
+        "stats_note": "速度 112 在順風下會比化石翼龍（200）快一點點。性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "憤怒之拳", "value_en": "Rage Fist", "confidence": 0.98, "source": "frame" },
+          { "value": "吸取拳", "value_en": "Drain Punch", "confidence": 0.98, "source": "frame" },
+          { "value": "健美", "value_en": "Bulk Up", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第三模式（風妖精＋棄世猴）主力，專打耐久高、抗鋼的平衡隊：健美一兩次後面對中低速物攻手幾乎無敵，圍攻疊層後的憤怒之拳連美納斯、仙布也接不下。對手若為了處理賽富豪選咆哮虎，威嚇反而餵不服輸。與賽富豪同弱幽靈，對手打他前得先顧慮是不是索羅亞克變的。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 149,
+          "name_zh": "快龍",
+          "name_en": "Dragonite-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": "小黑暗鴉",
+        "gender": "M",
+        "ability": {
+          "value": "多重鱗片",
+          "value_en": "Multiscale",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "快龍進化石",
+          "value_en": "Dragoninite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 168,
+          "atk": 138,
+          "def": 115,
+          "spa": 152,
+          "spd": 120,
+          "spe": 145,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。極速是為了超過大部分噴火龍與烈咬陸鯊，先手開順風或先點流星群。性格依狀態頁 攻擊▽/速度▲ 判讀為膽小。能力點依原形種族值重算全部吻合。",
+        "moves": [
+          { "value": "流星群", "value_en": "Draco Meteor", "confidence": 0.98, "source": "frame" },
+          { "value": "十萬伏特", "value_en": "Thunderbolt", "confidence": 0.98, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.98, "source": "frame" },
+          { "value": "黑霧", "value_en": "Haze", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第二模式「順風快龍」，處理晴天與雨天：四倍抗草、兩倍抗火、免疫地面，噴火龍通常沒技能打他；十萬伏特專電大嘴鷗與噴火龍；黑霧用來清掉賽富豪淘金潮後的特攻下降（功能類似黑暗鴉）。帶快龍進化石（Mega 快龍），但字幕只談 Mega 頭巾混混，未明說快龍何時 Mega；每場僅能 Mega 一隻。第四格也可換神速或守住。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1000,
+          "name_zh": "賽富豪",
+          "name_en": "Gholdengo",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "樸實無華",
+        "gender": "N",
+        "ability": {
+          "value": "黃金之軀",
+          "value_en": "Good as Gold",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 164,
+          "atk": 72,
+          "def": 115,
+          "spa": 203,
+          "spd": 111,
+          "spe": 136,
+          "source": "frame"
+        },
+        "stats_note": "滿速是為了超過對面的賽富豪：生命寶珠暗影球雙方可互相秒殺。性格依狀態頁 攻擊▽/特攻▲ 判讀為內斂（Modest）。能力點重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "淘金潮", "value_en": "Make It Rain", "confidence": 0.98, "source": "frame" },
+          { "value": "詭計", "value_en": "Nasty Plot", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "雙重幻覺模式的首發核心之一（與頭巾混混同出）：趁對手以為頭巾混混是索羅亞克的第一回合，靠詭計／擊掌掩護後的淘金潮打出爆發。淘金潮後特攻降兩段，需後排控速與快龍黑霧重置。弱點：對面同時有噴火龍與烈咬陸鯊等剋鋼高速手，或雨天巨沼怪、大嘴鷗、鋁鋼橋龍等抗鋼隊。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 560,
+          "name_zh": "頭巾混混",
+          "name_en": "Scrafty-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "橙冠蜥",
+        "gender": "F",
+        "ability": {
+          "value": "自信過度",
+          "value_en": "Moxie",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "頭巾混混進化石",
+          "value_en": "Scraftinite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 24,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 10,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 164,
+          "atk": 156,
+          "def": 135,
+          "spa": 58,
+          "spd": 135,
+          "spe": 88,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。字幕：速度在空間下會比 0 速的袋獸慢 1，可先手近身戰；面對大部分順風隊的仙布剛好快 3 點左右。性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點依原形種族值重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.98, "source": "frame" },
+          { "value": "拍落", "value_en": "Knock Off", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "雙重幻覺的關鍵：環境中的頭巾混混幾乎 100% 帶威嚇，刻意改帶很少人用的自信過度，讓對手在他點出技能前誤以為是索羅亞克變的。本身是比咆哮虎更強的擊掌輔助：屬性剋制仆斬將軍、幽尾玄魚、咆哮虎且耐久高；遇到烈咬陸鯊可立刻 Mega 取得威嚇（Mega 後特性為威嚇，可彈性選擇威嚇時機）。與賽富豪互補弱點（妖精系打不贏賽富豪、大狃拉摸不到賽富豪）。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "陽光女孩",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 78,
+          "def": 105,
+          "spa": 129,
+          "spd": 95,
+          "spe": 184,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▽/速度▲ 判讀為膽小。能力點重算全部吻合。字幕未提及速度線。",
+        "moves": [
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.98, "source": "frame" },
+          { "value": "圍攻", "value_en": "Beat Up", "confidence": 0.98, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.98, "source": "frame" },
+          { "value": "再來一次", "value_en": "Encore", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第三模式與主模式的後排搭檔：圍攻幫棄世猴疊憤怒之拳、順風控速、再來一次干擾。不帶守住（格子不夠），靠索羅亞克的存在讓對手不敢隨意擊掌。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 635],
+      "frames_used": 8,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表（能力頁 f_052–f_056、狀態頁 f_057–f_059）六隻同時顯示在一頁，暱稱/特性/道具/四招/數值/能力點皆清楚可讀。快龍與頭巾混混都持 Mega 石，故兩隻 mega=true；字幕只明講頭巾混混會 Mega，快龍 Mega 時機未提。性格皆由 ▲▽ 箭頭判讀。快龍進化石英文依 names 表為 Dragoninite（@pkmn/dex 同名）。regulation 依 2026-06-27 落在 M-B 推得（投影片亦提到「前一個規則 M-A 組不出適合的」）。",
+    "notes": "核心是「雙重幻覺」：洗翠索羅亞克放在隊裡但通常不選出，讓幻覺的外型落到隊友身上；首發 Mega 頭巾混混（刻意帶自信過度而非環境幾乎 100% 的威嚇）＋生命寶珠賽富豪，趁對手懷疑頭巾混混是索羅亞克的第一回合，用擊掌掩護詭計／淘金潮打出爆發，頭巾混混遇烈咬陸鯊可即刻 Mega 取得威嚇。第二模式是順風快龍（極速、十萬伏特、黑霧重置賽富豪特攻下降）處理晴天與雨天隊；第三模式是風妖精＋棄世猴（圍攻疊憤怒之拳、健美）對付抗鋼的耐久平衡隊。Fiske 自評為 HO 隊，常以一條命換輸出或換人。弱點：策略只對高手有效、會被察覺特性識破、輸出依賴棄世猴與賽富豪、屬性上難打晴天與雨天（尤其噴火龍隊沒有絕對安全的首發）。評分：上手難度 2、操作彈性 1.5、穩定性 2、全面程度 2.5（/5）。",
+    "extracted_at": "2026-11-08T15:53:07Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
