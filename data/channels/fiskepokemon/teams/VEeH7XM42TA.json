@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_VEeH7XM42TA",
+    "name": "Mega 晶光花 & 瑪狃拉 晴天隊",
+    "name_source": "title",
+    "video_id": "VEeH7XM42TA",
+    "video_url": "https://www.youtube.com/watch?v=VEeH7XM42TA",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": ["sun", "mega", "tailwind", "balance"],
+    "tags_source": "subtitle",
+    "author": "JMOdriVGC",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 970, "name_zh": "晶光花", "name_en": "Glimmora-Mega", "form": "Mega", "confidence": 0.97 },
+        "nickname": "義大利麵",
+        "gender": "F",
+        "ability": { "value": "毒滿地", "value_en": "Toxic Debris", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "晶光花進化石", "value_en": "Glimmoranite", "confidence": 0.9, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 27, "atk": 0, "def": 0, "spa": 20, "spd": 1, "spe": 18, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 185, "atk": 67, "def": 110, "spa": 187, "spd": 102, "spe": 124, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點依原形種族值重算全部吻合（總和 66）。字幕：投資大量 HP，Mega 後可保證接下仆斬將軍／堅盾劍怪的極攻鐵頭與奇麒麟的極攻精神強念，剛好殘血存活。",
+        "moves": [
+          { "value": "尖刺防守", "value_en": "Spiky Shield", "confidence": 0.97, "source": "frame" },
+          { "value": "力量寶石", "value_en": "Power Gem", "confidence": 0.97, "source": "frame" },
+          { "value": "污泥炸彈", "value_en": "Sludge Bomb", "confidence": 0.97, "source": "frame" },
+          { "value": "大地之力", "value_en": "Earth Power", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "隊伍主 Mega 與特攻核心。原形特性毒滿地（被物攻打到撒毒），Mega 後特性變適應力，本系火力大增（字幕：特攻種族值約相當於 130 → 217）。岩石／毒剋制當前最熱門的 Mega 噴火龍與花葉蒂；大地之力補鋼系。不太依賴 Mega 也能做事，所以能與噴火龍同時選出。完全打不贏烈咬陸鯊，需隊友先手處理。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 547, "name_zh": "風妖精", "name_en": "Whimsicott", "form": null, "confidence": 0.98 },
+        "nickname": "純真寶可夢",
+        "gender": "F",
+        "ability": { "value": "惡作劇之心", "value_en": "Prankster", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "稜瓜果", "value_en": "Coba Berry", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.85, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 30, "atk": 0, "def": 16, "spa": 0, "spd": 16, "spe": 4, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 165, "atk": 78, "def": 133, "spa": 97, "spd": 111, "spe": 140, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀為大膽，字幕亦說「性格也是修正物防」。能力點重算全部吻合（總和 66）。字幕：大量物防＋抗飛果（稜瓜果）可保證接下 Mega 化石翼龍的極攻雙翼；仆斬將軍極攻鐵頭 94% 存活。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.98, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.98, "source": "frame" },
+          { "value": "再來一次", "value_en": "Encore", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "順風手，選它的主因是好打烈咬陸鯊（妖精剋龍）。不好處理火、毒、鋼、飛行，由烈咬陸鯊與噴火龍補。因為不是 HO 隊所以不常首發，多半是首發瑪狃拉擊掌後換進來聯防。道具以保命為主。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 461, "name_zh": "瑪狃拉", "name_en": "Weavile", "form": null, "confidence": 0.98 },
+        "nickname": "是你嗎古劍豹",
+        "gender": "F",
+        "ability": { "value": "順手牽羊", "value_en": "Pickpocket", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 1, "atk": 32, "def": 1, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 146, "atk": 189, "def": 86, "spa": 58, "spd": 105, "spe": 177, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點重算全部吻合（總和 66）。",
+        "moves": [
+          { "value": "拍落", "value_en": "Knock Off", "confidence": 0.98, "source": "frame" },
+          { "value": "冰柱墜擊", "value_en": "Icicle Crash", "confidence": 0.98, "source": "frame" },
+          { "value": "踢倒", "value_en": "Low Kick", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "晶光花最適合的搭檔，順風下常比沒帶圍巾的幽尾玄魚／烈咬陸鯊快：拍落秒幽尾玄魚、冰柱墜擊秒烈咬陸鯊（非接觸，不會被粗糙皮膚蹭掉披帶；三旋擊則可秒披帶化石翼龍與風妖精但怕 miss）。踢倒打鋼系與班基拉斯。會擊掌是它勝過古劍豹的最大優點；沒格子帶守住。最常見首發之一（瑪狃拉＋晶光花）。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 445, "name_zh": "烈咬陸鯊", "name_en": "Garchomp", "form": null, "confidence": 0.98 },
+        "nickname": "是你嗎土地雲",
+        "gender": "F",
+        "ability": { "value": "粗糙皮膚", "value_en": "Rough Skin", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.95, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 22, "atk": 30, "def": 0, "spa": 0, "spd": 3, "spe": 11, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 205, "atk": 198, "def": 115, "spa": 90, "spd": 108, "spe": 133, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執，字幕明說「我們的性格是固執」。能力點重算全部吻合（總和 66）。字幕：大量 HP＋少量特防，保證接下花葉蒂滿攻分散魔法閃耀（剩 1 點血）與爽朗適應力 150 威力掃墓；固執掃墓有 13% 機率被擊殺。對無耐久爽朗烈咬陸鯊：被龍爪打 70–83%，後手龍爪＋粗糙皮膚蹭一次可打 90–104%。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "龍爪", "value_en": "Dragon Claw", "confidence": 0.98, "source": "frame" },
+          { "value": "地震", "value_en": "Earthquake", "confidence": 0.98, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "與噴火龍組成主流晴天 Core，帶岩崩補風妖精不好打的火／毒／鋼／飛行。固執讓非本系分散岩崩有機率擊殺調過耐久的噴火龍。隊上沒有其他地面免疫，地震時隊友需守住或站噴火龍。道具以保命為主。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 902, "name_zh": "幽尾玄魚", "name_en": "Basculegion", "form": null, "confidence": 0.97 },
+        "nickname": "離家出走",
+        "gender": "M",
+        "ability": { "value": "適應力", "value_en": "Adaptability", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "刺耳果", "value_en": "Colbur Berry", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 18, "atk": 32, "def": 1, "spa": 0, "spd": 1, "spe": 14, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 213, "atk": 180, "def": 86, "spa": 90, "spd": 96, "spe": 112, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點重算全部吻合（總和 66，雄性種族值）。字幕：大量 HP＋抗惡果，主要為了接極攻黑色眼鏡仆斬將軍的技能＋一次波動衝反傷（總和 82–97%）剛好不死，再補約 20% 即可用水流噴射收掉。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "波動衝", "value_en": "Wave Crash", "confidence": 0.98, "source": "frame" },
+          { "value": "掃墓", "value_en": "Last Respects", "confidence": 0.98, "source": "frame" },
+          { "value": "水流噴射", "value_en": "Aqua Jet", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第六格「還 OK 的隊友」：能用到順風、有先制（水流噴射）、不怕大狃拉。晴天下水系威力減半，但常靠掃墓即可進場；補噴火龍不好打的火系與龍系盲點。噴火龍不是每場必選。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 6, "name_zh": "噴火龍", "name_en": "Charizard-Mega-Y", "form": "Mega-Y", "confidence": 0.98 },
+        "nickname": "需要溝通",
+        "gender": "M",
+        "ability": { "value": "太陽之力", "value_en": "Solar Power", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "噴火龍進化石Ｙ", "value_en": "Charizardite Y", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 16, "atk": 0, "def": 18, "spa": 21, "spd": 0, "spe": 11, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 169, "atk": 93, "def": 116, "spa": 165, "spd": 105, "spe": 131, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點依原形種族值重算全部吻合（總和 66）。字幕：大量 HP＋物防，保證接下烈咬陸鯊滿攻分散岩崩，極攻岩崩 94% 存活；雨天隊悠遊自如幽尾玄魚的極攻 150 威力掃墓保證存活，滿攻適應力則有 69% 機率被擊殺。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.97, "source": "frame" },
+          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.98, "source": "frame" },
+          { "value": "日光束", "value_en": "Solar Beam", "confidence": 0.98, "source": "frame" },
+          { "value": "氣象球", "value_en": "Weather Ball", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "第二顆 Mega 石，Mega Y 開晴天（日照）。與烈咬陸鯊組成主流晴天 Core，補風妖精／烈咬陸鯊共同弱冰與不好打妖精的問題。晶光花不依賴 Mega，所以兩隻可同時選出。不好打沙暴與火／龍系；被踩住時容易拿不到天氣。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 407],
+      "frames_used": 9,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "作者：字幕說「這個隊伍的作者是 JMO」，影片描述寫「隊伍創建者：JMOdriVGC」，採描述的完整 ID。晶光花 Mega 為 Champions 新 Mega，name_en 依 Showdown 慣例填 Glimmora-Mega、道具查表為 Glimmoranite。能力頁六隻一頁顯示（f_021–f_025），狀態頁 f_026、f_027、f_029、f_036、f_042；六隻能力點依 ▲▽ 性格重算全部吻合。",
+    "notes": "JMOdriVGC 打到排位 2500 分（約世界前 30）的反主流隊：Mega 晶光花（岩／毒，Mega 後適應力）正面壓制當前最熱門的 Mega 噴火龍與花葉蒂，但完全打不贏他們常見的隊友烈咬陸鯊與幽尾玄魚，所以搭配順風下先手的瑪狃拉（拍落／冰柱墜擊）與好打烈咬陸鯊的順風手風妖精，形成少見的「晶光花＋瑪狃拉＋風妖精」Core；另一個 Core 是主流的烈咬陸鯊＋噴火龍（Mega Y 晴天），第六格放有先制的幽尾玄魚互補。整體是「有順風的平衡隊」而非 HO，大量投資耐久且聯防完整，道具以保命為主，字幕花大量篇幅講關鍵傷害計算。常見首發是瑪狃拉＋晶光花，風妖精多半後換聯防。弱點：耐久投資多導致常後手行動，怕岩崩／惡之波動畏縮等低機率附加效果；不好打 Mega 耿鬼體系（三隻物攻手怕威嚇、地震時隊友需守住或站噴火龍、噴火龍被踩住拿不到天氣）。",
+    "extracted_at": "2026-11-09T00:10:00+08:00",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
