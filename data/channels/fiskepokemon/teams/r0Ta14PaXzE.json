@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_r0Ta14PaXzE",
+    "name": "Mega 噴火龍 X 幻覺隊",
+    "name_source": "title",
+    "video_id": "r0Ta14PaXzE",
+    "video_url": "https://www.youtube.com/watch?v=r0Ta14PaXzE",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": ["mega", "setup"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 6, "name_zh": "噴火龍", "name_en": "Charizard-Mega-X", "form": "Mega-X", "confidence": 0.99 },
+        "nickname": "比忍蛙厲害",
+        "gender": "M",
+        "ability": { "value": "猛火", "value_en": "Blaze", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "噴火龍進化石Ｘ", "value_en": "Charizardite X", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 17, "atk": 16, "def": 0, "spa": 0, "spd": 9, "spe": 24, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 170, "atk": 132, "def": 98, "spa": 116, "spd": 114, "spe": 144, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。能力點依原形種族值 78/84/78/109/85/100 重算全部吻合（總和 66）。字幕：投資不少耐久（物攻 +6 後輸出常溢出、且隊上有回血，分配沒針對特定技能，但常剛好殘血存活）；速度 144 只調到超過種族值 78 的極速（143）；若想在 +1 後超過 Mega 化石翼龍也可以再加，但對腹鼓型沒那麼必要。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "蓄能焰襲", "value_en": "Flame Charge", "confidence": 0.99, "source": "frame" },
+          { "value": "廣域破壞", "value_en": "Breaking Swipe", "confidence": 0.99, "source": "frame" },
+          { "value": "腹鼓", "value_en": "Belly Drum", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心、主要強化手；Mega 噴火龍 X 後特性為硬爪（Tough Claws），必須帶接觸技才能增傷。刻意不帶主流的龍舞/龍爪/閃焰衝鋒，改帶腹鼓一次把物攻拉到 +6（400%），在對手第一回合還在提防噴火龍 Y 時騙過阻止腹鼓的機會。攻擊技選蓄能焰襲（加速）與廣域破壞（群體），基礎威力雖低，但 +6 後相當於威力 200/240 的本系硬爪技，輸出常溢出。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 670, "name_zh": "花葉蒂", "name_en": "Floette-Eternal-Mega", "form": "Mega", "confidence": 0.97 },
+        "nickname": "P2W",
+        "gender": "F",
+        "ability": { "value": "花幕", "value_en": "Flower Veil", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "花葉蒂進化石", "value_en": "Floettite", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "內斂", "value_en": "Modest", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 25, "spa": 5, "spd": 2, "spe": 2, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 181, "atk": 76, "def": 112, "spa": 165, "spd": 150, "spe": 114, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）。能力點以永恆之花花葉蒂（Floette-Eternal）種族值 74/65/67/125/128/92 重算全部吻合（總和 66；一般花葉蒂種族值算不出 HP 181，故判定為永恆之花型態）。HP 滿、防禦 25，走耐久型冥想手；字幕未提具體調整。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.99, "source": "frame" },
+          { "value": "吸取之吻", "value_en": "Draining Kiss", "confidence": 0.99, "source": "frame" },
+          { "value": "冥想", "value_en": "Calm Mind", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "第二強化手（冥想），負責解決噴火龍 X 打不動的雨天隊／鋁鋼橋龍等物防高且不弱火龍的對象；本來就常與噴火龍同隊，讓隊伍看起來像主流噴火龍 Y 隊。單體技帶吸取之吻而非月亮之力，是為了可以不選來悲粗茶也能回血、增加選出彈性（月亮之力爆發更高，兩者各有好處）。與噴火龍不會同時選出；因為 Mega 名額給噴火龍時牠無法 Mega，後期處理殘血鋁鋼橋龍/耿鬼會很吃力。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 547, "name_zh": "風妖精", "name_en": "Whimsicott", "form": null, "confidence": 0.99 },
+        "nickname": "天真無邪",
+        "gender": "F",
+        "ability": { "value": "惡作劇之心", "value_en": "Prankster", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "通通果", "value_en": "Kebia Berry", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 25, "spa": 0, "spd": 9, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 167, "atk": 78, "def": 143, "spa": 97, "spd": 104, "spe": 136, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀（大膽）。能力點依種族值 60/67/85/77/75/116 重算全部吻合（總和 66）。字幕：物耐可在吃下抗毒果（通通果）後接下兩倍（原本四倍）的剋命爪；開出光牆後，噴火龍的熱風或晶光花的污泥炸彈都會剛好殘血存活。",
+        "moves": [
+          { "value": "撒嬌", "value_en": "Charm", "confidence": 0.99, "source": "frame" },
+          { "value": "挑釁", "value_en": "Taunt", "confidence": 0.99, "source": "frame" },
+          { "value": "再來一次", "value_en": "Encore", "confidence": 0.99, "source": "frame" },
+          { "value": "光牆", "value_en": "Light Screen", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "輔助三個強化手的干擾手，配置與主流順風風妖精（守住/月亮之力/順風/再來一次）完全不同、刻意不帶順風：撒嬌補花葉蒂（強化特防）缺的物理減傷；光牆補美納斯（強化物防）面對沙暴隊少數特攻手；挑釁防對面風妖精的再來一次；再來一次用來搞對面的強化手與擊掌輔助手。這個位置其實勾魂眼更適合，但為了讓隊伍長得像主流噴火龍隊而選風妖精。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 727, "name_zh": "熾焰咆哮虎", "name_en": "Incineroar", "form": null, "confidence": 0.99 },
+        "nickname": "咆哮伊布",
+        "gender": "M",
+        "ability": { "value": "威嚇", "value_en": "Intimidate", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "淘氣", "value_en": "Impish", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 22, "spa": 0, "spd": 9, "spe": 3, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 135, "def": 145, "spa": 90, "spd": 119, "spe": 83, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/特攻▽ 判讀（淘氣）。能力點依種族值 95/115/90/80/90/60 重算全部吻合（總和 66）。字幕：物耐可以接下大狃拉的 +0 近身戰。",
+        "moves": [
+          { "value": "閃焰衝鋒", "value_en": "Flare Blitz", "confidence": 0.99, "source": "frame" },
+          { "value": "ＤＤ金勾臂", "value_en": "Darkest Lariat", "confidence": 0.99, "source": "frame" },
+          { "value": "拋下狠話", "value_en": "Parting Shot", "confidence": 0.99, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "擊掌輔助手；與來悲粗茶同為花葉蒂常見隊友，讓隊伍看起來像合理的噴火龍 Y 隊。對耿鬼滅歌隊時，首發噴火龍換走騙掉牠的擊掌/拋下狠話後，再靠咆哮虎補一次 DD 金勾臂收掉半血鋁鋼橋龍；面對晶光花加風妖精時也要靠美納斯與咆哮虎。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 350, "name_zh": "美納斯", "name_en": "Milotic", "form": null, "confidence": 0.99 },
+        "nickname": "濁他",
+        "gender": "M",
+        "ability": { "value": "好勝", "value_en": "Competitive", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "吃剩的東西", "value_en": "Leftovers", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "溫和", "value_en": "Calm", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 29, "spa": 0, "spd": 5, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 72, "def": 128, "spa": 120, "spd": 165, "spe": 101, "source": "frame" },
+        "stats_note": "性格依狀態頁 特防▲/攻擊▽ 判讀（溫和）。能力點依種族值 95/60/79/100/125/81 重算全部吻合（總和 66）。字幕未提具體調整。",
+        "moves": [
+          { "value": "濁流", "value_en": "Muddy Water", "confidence": 0.99, "source": "frame" },
+          { "value": "催眠術", "value_en": "Hypnosis", "confidence": 0.99, "source": "frame" },
+          { "value": "盤蜷", "value_en": "Coil", "confidence": 0.99, "source": "frame" },
+          { "value": "自我再生", "value_en": "Recover", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "第三強化手（盤蜷），專門單獨處理沙暴隊（班基拉斯/龍頭地鼠/鋼鎧鴉等以物攻為主的組合）；很多噴火龍隊本來就會放美納斯（冰凍之風/熱水型），所以也不破壞偽裝。催眠術因為有盤蜷加命中一定催中，在噴火龍模式與花葉蒂模式下當輔助手；美納斯模式下常沒空點催眠術，可考慮改成暴風雪等補盲技。可搭配其他強化手一起選出。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 1013, "name_zh": "來悲粗茶", "name_en": "Sinistcha", "form": null, "confidence": 0.99 },
+        "nickname": "北上鄉民代表",
+        "gender": "N",
+        "ability": { "value": "款待", "value_en": "Hospitality", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "佛柑果", "value_en": "Kasib Berry", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 16, "spa": 0, "spd": 18, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 178, "atk": 72, "def": 156, "spa": 141, "spd": 118, "spe": 90, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀（大膽）。能力點依種族值 71/60/106/121/80/70 重算全部吻合（總和 66）。字幕未提具體調整。",
+        "moves": [
+          { "value": "刷刷茶炮", "value_en": "Matcha Gotcha", "confidence": 0.99, "source": "frame" },
+          { "value": "憤怒粉", "value_en": "Rage Powder", "confidence": 0.99, "source": "frame" },
+          { "value": "生命水滴", "value_en": "Life Dew", "confidence": 0.99, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "回血／憤怒粉輔助手，與咆哮虎同為噴火龍 Y 隊常見隊友（擊掌輔助＋回血的兩個名額只有這兩個人選可以不破壞偽裝）。花葉蒂帶吸取之吻後，不一定要選出來悲粗茶。對耿鬼滅歌隊時後期血量很重要。戲法空間為畫面上的第四招，字幕未提及用途。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 388],
+      "frames_used": 10,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "投影片 f_001 明示「M-A 規則」，與 published_at 2026-06-13 落在 M-A（4/8–6/17）一致。花葉蒂依數值反推為永恆之花型態（Floette-Eternal），name_en 填 Floette-Eternal-Mega；@pkmn/dex 中 Floette-Mega 與 Floette-Eternal-Mega 種族值相同。道具畫面寫「噴火龍進化石 X」，value 依 names 表寫全形 Ｘ。validator WARN「2 隻 mega=true」為刻意：噴火龍與花葉蒂都帶 Mega 石，字幕明說兩者不會同時選出、選噴火龍時花葉蒂「不能 Mega」。",
+    "notes": "以腹鼓 Mega 噴火龍 X 為核心的「幻覺隊」：刻意選用噴火龍 Y 隊的主流隊友（花葉蒂、風妖精、咆哮虎、來悲粗茶、美納斯），讓對手在隊伍預覽與第一回合誤判成 Y 而錯過阻止腹鼓的時機，一次把物攻拉到 +6 後用蓄能焰襲/廣域破壞秒人。三個強化手分工：噴火龍 X 主輸出、冥想花葉蒂處理雨天隊與高物防不弱火龍的對象、盤蜷美納斯單獨處理沙暴隊；風妖精（撒嬌/光牆/挑釁/再來一次，不帶順風）補兩種減傷並干擾對面強化手，咆哮虎與來悲粗茶負責擊掌與回血。選出很單純：1~2 個強化手 + 2~3 個輔助手，噴火龍與花葉蒂不同時選。弱點：輸出極度依賴少數強化手（被要害秒殺就可能直接輸）、地雷必須用主流寶可夢所以容易被反主流隊（晶光花+風妖精）屬性針對、作為慢節奏強化隊不好打帶雨天鋁鋼橋龍的耿鬼滅歌。評分：上手難度 1.5/5、操作彈性 2.5/5、穩定性 4/5、全面程度 1.5/5。",
+    "extracted_at": "2026-11-09T00:12:00+08:00",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

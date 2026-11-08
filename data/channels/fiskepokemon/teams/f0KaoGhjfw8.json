@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_f0KaoGhjfw8",
+    "name": "Mega 差不多娃娃 & 水晶燈火靈 單純變小隊",
+    "name_source": "subtitle",
+    "video_id": "f0KaoGhjfw8",
+    "video_url": "https://www.youtube.com/watch?v=f0KaoGhjfw8",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": ["mega", "setup", "trick-room"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 981, "name_zh": "奇麒麟", "name_en": "Farigiraf", "form": null, "confidence": 0.99 },
+        "nickname": "好想吃種子",
+        "gender": "M",
+        "ability": { "value": "尾甲", "value_en": "Armor Tail", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "心靈香草", "value_en": "Mental Herb", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "悠閒", "value_en": "Relaxed", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 22, "spa": 0, "spd": 12, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 227, "atk": 110, "def": 123, "spa": 130, "spd": 102, "spe": 72, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀為悠閒。能力點依種族值重算全部吻合（總和 66）。字幕：速度排序為隊上第二慢（僅快於差不多娃娃）。",
+        "moves": [
+          { "value": "輔助力量", "value_en": "Stored Power", "confidence": 0.97, "source": "frame" },
+          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.97, "source": "frame" },
+          { "value": "冥想", "value_en": "Calm Mind", "confidence": 0.97, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "尾甲擋先制的惡作劇之心挑釁／再來一次（全隊最怕的東西），也嚇阻對面首發高速擊掌輔助。選出率不高但某些對局沒他就打不贏。本身會自我暗示但常前期上場沒機會點，改帶冥想＋空間＋兩攻；可被單純光束後冥想，一次冥想後輔助力量相當於威力 200 本系。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 475, "name_zh": "艾路雷朵", "name_en": "Gallade", "form": null, "confidence": 0.99 },
+        "nickname": "原來是白板",
+        "gender": "M",
+        "ability": { "value": "鋒銳", "value_en": "Sharpness", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "白色香草", "value_en": "White Herb", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 17, "def": 17, "spa": 0, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 175, "atk": 178, "def": 102, "spa": 76, "spd": 135, "spe": 100, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/特攻▽ 判讀為固執。能力點依種族值重算全部吻合（總和 66）。字幕：物耐投資是全隊唯一關鍵的傷害計算，可保證接下幽尾玄魚的適應力爽朗波動衝或 50 威力掃墓（對方固執則一半機率被擊殺）。",
+        "moves": [
+          { "value": "聖劍", "value_en": "Sacred Sword", "confidence": 0.97, "source": "frame" },
+          { "value": "暗襲要害", "value_en": "Night Slash", "confidence": 0.97, "source": "frame" },
+          { "value": "健美", "value_en": "Bulk Up", "confidence": 0.97, "source": "frame" },
+          { "value": "自我暗示", "value_en": "Psych Up", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "針對 DD 金勾臂咆哮虎（無視物防／閃避上升、嚴重剋制燈火靈）的隊友：鋒銳聖劍砍咆哮虎或仆斬將軍保證擊殺。首發時輸出與進攻屬性極好、對面不可能不理他，且物耐低容易被秒，等於帶了 0.5 個看我嘛，幫差不多娃娃保血開空間。也會自我暗示。健美原本是毒擊，後來發現很少點、也不易秒人才改。選出率不高，多在對面有咆哮虎且他能剋制較多人時才選。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 36, "name_zh": "皮可西", "name_en": "Clefable", "form": null, "confidence": 0.99 },
+        "nickname": "是他帶壞我",
+        "gender": "M",
+        "ability": { "value": "純樸", "value_en": "Unaware", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "吃剩的東西", "value_en": "Leftovers", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 17, "spa": 1, "spd": 16, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 81, "def": 121, "spa": 116, "spd": 126, "spe": 80, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀為大膽。能力點依種族值重算全部吻合（總和 66）。字幕：這是比較受的隊伍，絕大多數情況不會被秒，傷害計算不關鍵。",
+        "moves": [
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.97, "source": "frame" },
+          { "value": "輔助力量", "value_en": "Stored Power", "confidence": 0.97, "source": "frame" },
+          { "value": "月光", "value_en": "Moonlight", "confidence": 0.97, "source": "frame" },
+          { "value": "自我暗示", "value_en": "Psych Up", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "後排自我暗示手首選：純樸可完全無視對面強化手（環境很多冥想隊），只有我方能強化；疊滿能力後輔助力量基礎威力常達兩三百，盲點只有免疫超能的惡系，而他本身妖精系剋惡。屬性上與燈火靈無重複弱點。遇到強化隊一定優先選。道具可與燈火靈互換（剩飯／文柚果）。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 448, "name_zh": "路卡利歐", "name_en": "Lucario", "form": null, "confidence": 0.99 },
+        "nickname": "與人為善",
+        "gender": "M",
+        "ability": { "value": "精神力", "value_en": "Inner Focus", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "講究圍巾", "value_en": "Choice Scarf", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 2, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 177, "atk": 130, "def": 92, "spa": 121, "spd": 90, "spe": 156, "source": "frame" },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀為爽朗。能力點依種族值重算全部吻合（總和 66）。字幕：HP 種族值 70 加滿後搏命可秒殺 HP 不加滿的高速手，如噴火龍（HP 種族 78，需 HP 能力點超過 24 才活）、Mega 化石翼龍、螳螂、波士可多拉、沙奈朵、狠辣椒、盔甲鳥、寶石海星、洗衣機等。",
+        "moves": [
+          { "value": "搏命", "value_en": "Final Gambit", "confidence": 0.97, "source": "frame" },
+          { "value": "快速防守", "value_en": "Quick Guard", "confidence": 0.97, "source": "frame" },
+          { "value": "生命水滴", "value_en": "Life Dew", "confidence": 0.97, "source": "frame" },
+          { "value": "指導", "value_en": "Coaching", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "與差不多娃娃首發的搏命輔助（Champions 目前只有路卡利歐會搏命，取代放棄世猴的位置）：開出空間後立刻搏命秒掉對面一隻、騰出位置換上強化手。隊上速度最快。對面有兩隻以上會被搏命秒殺的就優先首發他。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 609, "name_zh": "水晶燈火靈", "name_en": "Chandelure", "form": null, "confidence": 0.99 },
+        "nickname": "陽光寶可夢",
+        "gender": "F",
+        "ability": { "value": "引火", "value_en": "Flash Fire", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.97, "source": "frame" },
+        "nature": { "value": "悠閒", "value_en": "Relaxed", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 20, "spa": 0, "spd": 14, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 167, "atk": 75, "def": 143, "spa": 165, "spd": 124, "spe": 90, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀為悠閒。能力點依種族值重算全部吻合（總和 66）。字幕：速度排序為隊上第三（路卡利歐＞艾路雷朵＞燈火靈＞皮可西＞奇麒麟＞差不多娃娃），空間下常可先動。",
+        "moves": [
+          { "value": "噴射火焰", "value_en": "Flamethrower", "confidence": 0.97, "source": "frame" },
+          { "value": "冥想", "value_en": "Calm Mind", "confidence": 0.97, "source": "frame" },
+          { "value": "溶化", "value_en": "Acid Armor", "confidence": 0.97, "source": "frame" },
+          { "value": "變小", "value_en": "Minimize", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "隊伍主強化手：被單純光束後，溶化物防 +4、冥想特攻特防 +2、變小閃避 +4，強化速度極快，不倒的話可一挑四；之後再上後排隊友自我暗示複製能力。符合「不依賴特性、速度慢、空間下先動、能加雙防、無四倍弱點」的條件。帶文柚果而非剩飯是因仆斬必中且仆斬將軍比他慢，需及時回血。若對面難以威脅他也可直接首發強化。關鍵弱點：同時有物攻＋特攻剋制手在場（例：雨天大嘴鷗＋幽尾玄魚），難在冥想與溶化間抉擇。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 531, "name_zh": "差不多娃娃", "name_en": "Audino-Mega", "form": "Mega", "confidence": 0.99 },
+        "nickname": "我不道啊",
+        "gender": "M",
+        "ability": { "value": "再生力", "value_en": "Regenerator", "confidence": 0.97, "source": "frame" },
+        "item": { "value": "差不多娃娃進化石", "value_en": "Audinite", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "悠閒", "value_en": "Relaxed", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 14, "spa": 0, "spd": 20, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 210, "atk": 80, "def": 132, "spa": 80, "spd": 126, "spe": 63, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/速度▽ 判讀為悠閒。能力點依原形種族值重算全部吻合（總和 66）。狀態頁顯示為未 Mega 原形數值。字幕：隊上最慢。",
+        "moves": [
+          { "value": "單純光束", "value_en": "Simple Beam", "confidence": 0.97, "source": "frame" },
+          { "value": "大晴天", "value_en": "Sunny Day", "confidence": 0.97, "source": "frame" },
+          { "value": "生命水滴", "value_en": "Life Dew", "confidence": 0.97, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.97, "source": "frame" }
+        ],
+        "role_note": "隊伍核心與 Mega（Mega 後多妖精屬性、種族值全加耐久；Mega 後特性治癒之心，畫面顯示原形特性再生力）。目前全遊戲唯一會單純光束的寶可夢：把隊友特性改成單純，使能力升降變兩倍。首發開空間，之後用單純光束輔助強化手，並以生命水滴補血。大晴天原本是魔法閃耀（防挑釁後只能掙扎），但實戰從未被挑釁，改帶手動晴天在空間下對抗雨天隊（如大嘴鷗＋幽尾玄魚），避免隊友暴斃。沒有攻擊招式。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 476],
+      "frames_used": 10,
+      "pokepaste_url": null
+    },
+    "confidence": 0.99,
+    "review_status": "auto",
+    "review_notes": "隊名採字幕 0:00「差不多娃娃的單純變小隊」結合標題兩隻主角（標題本身無隊型名詞），name_source 填 subtitle。regulation：標題無 M-x 代碼，published_at 2026-05-23 落在 M-A 區間。能力頁六隻一頁顯示（f_038、f_039、f_041、f_042），狀態頁 f_045、f_046；主要以 f_038 與 f_045 裁切放大讀取。六隻能力點依 ▲▽ 性格重算全部吻合、總和皆 66。Mega 差不多娃娃 name_en 依 Showdown 填 Audino-Mega、道具查表為 Audinite。tags：mega（標題）、setup／trick-room（字幕明說「單純變小隊」「我們這種強化隊」「差不多娃娃開出空間」）；雖帶大晴天但只是單隻工具招，未標 sun。",
+    "notes": "以冷門 Mega 差不多娃娃為核心的單純變小／強化空間隊：差不多娃娃是全遊戲唯一會單純光束的寶可夢，先開戲法空間，再把隊友特性改成單純（能力升降兩倍），讓水晶燈火靈用溶化／冥想／變小極速疊滿雙防與閃避，站得住就一挑四；燈火靈倒了也不怕，後排皮可西（純樸，無視對面強化）、艾路雷朵、奇麒麟都會自我暗示複製能力，皮可西的輔助力量基礎威力常破兩三百。首發通常是差不多娃娃＋圍巾路卡利歐：開空間後搏命秒掉一隻 HP 不滿的高速手（噴火龍等），立刻換上強化手。奇麒麟（尾甲）專門處理全隊最怕的先制挑釁／再來一次，艾路雷朵（鋒銳聖劍）專門處理帶 DD 金勾臂的咆哮虎。出手順序：路卡利歐＞艾路雷朵＞燈火靈＞皮可西＞奇麒麟＞差不多娃娃。弱點：黑霧、吼叫等冷門招式幾乎無解；強化後被擊中要害可能滿血被秒；開空間後若對面同時站著兩隻非水系、物特攻兼具的高爆發剋制手（如 Mega 晶光花＋仆斬將軍）就很難強化，需靠搏命或換首發避開。",
+    "extracted_at": "2026-11-09T00:10:05+08:00",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
