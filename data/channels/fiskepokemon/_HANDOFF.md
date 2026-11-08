@@ -1,0 +1,65 @@
+# 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
+
+> 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
+> 最後更新：2026-11-08 17:30（第一擁有者提醒 session 用量近上限，提前寫這份）。
+
+## 現況（2026-11-08 17:30）
+
+| 項目 | 狀態 | 位置 |
+|---|---|---|
+| 頻道清單（679 支） | ✅ | `raw/channel-index.json`、`raw/ids.txt` |
+| 逐支 metadata / 字幕抓取 | ⏳ 背景跑中，約 200/679；可中斷重跑（會跳過已有 info.json 的） | `raw/*.info.json`、`raw/*.zh-TW.json3`、`raw/errors.log` |
+| 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
+| Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
+| 隊伍抽取 teams/<id>.json | 🟡 **8 完成 + 3 進行中**，其餘約 12 支待做 | `teams/*.json` |
+| 對抗式複核 | 🟡 1 支做了獨立再抽取（99% 一致）；其餘靠 `validate-teams.mjs` 機械驗證（0 ERR） | `teams/_review/` |
+| 合併 teams.json / csv | ⬜ 未跑 | `tools/yt/merge-teams.mjs` |
+| 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
+
+## 接手步驟（照順序敲）
+
+```bash
+cd /Users/d9niel/_projects/IChooseYou26
+CH=data/channels/fiskepokemon
+
+# 0. 工具鏈：yt-dlp ≥ 2026.10.26（yt-dlp -U）、deno、ffmpeg、app/node_modules 已裝
+
+# 1. 抓取若沒跑完（ls $CH/raw/*.info.json | wc -l 應接近 679 − 會員數）
+tools/yt/fetch-videos.sh $CH/raw/ids.txt $CH/raw        # 可重跑，只補缺的
+
+# 2. 重建主表
+node tools/yt/build-videos.mjs $CH                       # 看 stderr 統計：category/game/regulation 分布
+
+# 3. 找出還沒抽取的 Champions 公開對戰影片
+jq -r '[.[] | select(.game=="champions" and .category=="battle" and .is_members_only==false and .fetch_error==null)] | .[].id' $CH/videos.json \
+  | while read id; do [ -f $CH/teams/$id.json ] || echo $id; done > /tmp/todo-teams.txt
+cat /tmp/todo-teams.txt
+
+# 4. 準備素材（每支約 1 分 40 秒；已有 frames 的會跳過）
+node tools/yt/prep-team-intro.mjs $CH $(cat /tmp/todo-teams.txt)
+
+# 5. 逐支抽取：每支開一個 subagent，prompt 照 tools/yt/EXTRACTION_PROMPT.md（v1.2），
+#    指定專屬 scratchpad 子目錄 <id>/ 做裁切，寫 $CH/teams/<id>.json，跑完 validate 修到 0 ERR。
+#    一支約 10~17 萬 tokens、5~10 分鐘；平行 2~3 支即可。
+
+# 6. 驗證 + 合併
+node tools/yt/validate-teams.mjs $CH --strict
+node tools/yt/merge-teams.mjs $CH
+
+# 7. commit + push（raw/ frames/ 已 gitignore）
+git add $CH tools/yt && git commit -m "feat(data): ..." && git push
+```
+
+## 會員影片（之後）
+
+- 判定：`videos.json` 的 `is_members_only: true`（錯誤訊息含「會員」或在「會員專屬對戰影片」播放清單）。
+- 殼記錄：對 `game=="champions"` 且會員限定者，建 `teams/<id>.json`，`members: []`、`is_members_only: true`、`review_status: "needs-member-access"`、name 由標題推。可寫個小腳本批次生成（尚未寫）。
+- 補資料：第一擁有者用會員帳號照 yt-dlp wiki 匯出 `cookies.txt`（無痕登入 → 開 youtube.com/robots.txt → 匯出 → 關視窗），再 `tools/yt/fetch-videos.sh <只含會員 id 的清單> $CH/raw --cookies cookies.txt --sleep-interval 8 --max-sleep-interval 15`，之後走同一條抽取流程。
+
+## 已知待辦 / 待決定
+
+- [ ] `build-videos.mjs` 對沒進播放清單的 ~120 支影片分類為 `unknown`；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
+- [ ] tags 邊界在 v1.2 才收緊，前 3 支（Xul9 已修、9REO、qFiH）的 tags 可依 v1.2 重審。
+- [ ] `teams/_a7RrtzsMYM.json` 抽取者曾誤報影格混檔（主 agent 已查明不成立），建議列入抽樣複核。
+- [ ] 第 2 線的 Notion 遷移章節（`research/line5-platform-backend/03-notion-migration.md`）仍是推測，等第一擁有者在 Claude Code 跑 `/mcp` 授權 Notion 後讀取實際結構再補。
+- [ ] `research/line6-rag/` 內「目前在倉庫？」的數字是抓取進行到一半時統計的，抓取完後要更新。
