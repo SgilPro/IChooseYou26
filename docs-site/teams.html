@@ -143,7 +143,7 @@
     const battle = videos.filter((v) => v.category === "battle").length;
     const champPublic = videos.filter((v) => v.game === "champions" && v.category === "battle" && !v.is_members_only && v.fetch_error == null);
     const champMember = videos.filter((v) => v.game === "champions" && v.category === "battle" && v.is_members_only).length;
-    const teamVideoIds = new Set(teams.map((t) => t.video_id));
+    const teamVideoIds = new Set(teams.filter((t) => (t.members || []).length > 0).map((t) => t.video_id));
     const extracted = champPublic.filter((v) => teamVideoIds.has(v.id)).length;
     const latest = videos.map((v) => v.fetched_at).filter(Boolean).sort().pop();
 
@@ -152,8 +152,9 @@
       [fetched, "已抓到完整資料"],
       [members, "會員限定（待登入補）"],
       [battle, "對戰類影片"],
-      [teams.length, "已抽取隊伍"],
+      [teams.filter((t) => (t.members || []).length > 0).length, "已抽取隊伍"],
       [teams.reduce((n, t) => n + (t.members?.length || 0), 0), "已記錄寶可夢配置"],
+      [teams.filter((t) => t.review_status === "needs-member-access").length, "會員限定隊伍待補"],
     ].map(([n, l]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
 
     const pct = (a, b) => (b ? (a / b * 100).toFixed(1) : 0);
@@ -171,6 +172,12 @@
         <div class="t"><span>Champions 公開對戰影片 → 隊伍抽取</span><span>${extracted} / ${champPublic.length}（${pct(extracted, champPublic.length)}%）；另有 ${champMember} 支會員限定待補</span></div>
         <div class="track"><div class="seg ok" style="width:${pct(extracted, champPublic.length)}%"></div></div>
       </div>`;
+    const svPublic = videos.filter((v) => v.game === "sv" && v.category === "battle" && !v.is_members_only && v.fetch_error == null);
+    const svExtracted = svPublic.filter((v) => teamVideoIds.has(v.id)).length;
+    $("bars").insertAdjacentHTML("beforeend", `<div class="bar">
+        <div class="t"><span>朱紫（SV）公開對戰影片 → 隊伍匯入（pokepaste）</span><span>${svExtracted} / ${svPublic.length}（${pct(svExtracted, svPublic.length)}%）</span></div>
+        <div class="track"><div class="seg ok" style="width:${pct(svExtracted, svPublic.length)}%"></div></div>
+      </div>`);
     $("status").innerHTML = `<p style="font-size:13px;color:var(--ink-soft)">資料時間：${latest ? latest.slice(0, 16).replace("T", " ") + " UTC" : "—"} · 抽取規則版本：${[...new Set(teams.map((t) => t.extracted_by))].join("、")}</p>`;
 
     // ---- 隊伍 ----
@@ -185,7 +192,9 @@
       const keys = [["hp", "HP"], ["atk", "攻"], ["def", "防"], ["spa", "特攻"], ["spd", "特防"], ["spe", "速"]];
       return keys.filter(([k]) => e[k]).map(([k, l]) => `${l}${e[k]}`).join(" / ") || "—";
     };
-    const sortedTeams = [...teams].sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || ""));
+    const allTeams = [...teams].sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || ""));
+    const shells = allTeams.filter((t) => t.review_status === "needs-member-access");
+    const sortedTeams = allTeams.filter((t) => (t.members || []).length > 0);
     const allTags = [...new Set(sortedTeams.flatMap((t) => t.tags || []))];
     let active = null;
 
@@ -236,7 +245,7 @@
       }</tbody></table>`;
     }
     // teams
-    table("raw-teams", ["id", "name", "video_id", "video_published_at", "game", "regulation_set_id", "tags", "author", "is_members_only", "review_status", "confidence", "extracted_by"], sortedTeams);
+    table("raw-teams", ["id", "name", "video_id", "video_published_at", "game", "regulation_set_id", "tags", "author", "is_members_only", "review_status", "confidence", "extracted_by"], allTeams);
     // team members（instance）
     const memberRows = sortedTeams.flatMap((t) => (t.members || []).map((m) => ({
       team_id: t.id, slot: m.slot, species_zh: m.species?.name_zh, species_en: m.species?.name_en, dex_no: m.species?.dex_no, form: m.species?.form,
