@@ -1,7 +1,7 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-08 23:30（主表 336/679 完整；10 隊入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+> 最後更新：2026-11-09 00:30（主表 336/679 完整；22/22 公開 Champions 對戰隊伍入庫；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
 ## 現況（2026-11-08 17:30）
 
@@ -11,9 +11,9 @@
 | 逐支 metadata / 字幕抓取 | 🟡 兩輪後：336 成功、275 會員限定、69 仍失敗（多為「無法播放」速率限制 + 少數私人影片）。已排 1 小時後第三輪（更慢）；若仍缺，隔天再跑 `--sleep-interval 12 --max-sleep-interval 25` |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
-| 隊伍抽取 teams/<id>.json | 🟡 **10 完成**（validate 0 ERR），其餘約 13 支公開 Champions 對戰影片待做 | `teams/*.json` |
-| 對抗式複核 | 🟡 1 支做了獨立再抽取（99% 一致）；其餘靠 `validate-teams.mjs` 機械驗證（0 ERR） | `teams/_review/` |
-| 合併 teams.json / csv | ✅ 已跑一次（10 隊 / 60 隻），每新增隊伍後重跑 | `teams.json`、`teams.csv` |
+| 隊伍抽取 teams/<id>.json | ✅ **22/22 公開 Champions 對戰影片完成**（132 隻，validate 0 ERR；6 WARN 為刻意雙 Mega） | `teams/*.json` |
+| 對抗式複核 | 🟡 1/22 做了獨立再抽取（99% 一致）；其餘靠機械驗證。建議再抽 3~4 支複核 | `teams/_review/` |
+| 合併 teams.json / csv | ✅ 22 隊 / 132 列；每新增隊伍後重跑 | `teams.json`、`teams.csv` |
 | 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
 
 ## 接手步驟（照順序敲）
@@ -64,7 +64,8 @@ git add $CH tools/yt && git commit -m "feat(data): ..." && git push
 
 ## 已知待辦 / 待決定
 
-- [ ] `build-videos.mjs` 對沒進播放清單的 ~120 支影片分類為 `unknown`；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
+- [x] 2026-11-09：加「Champions 不早於 2026-04-08」與「專訪→chat」規則（修掉一支 2024 訪談被當 Champions 對戰）。
+- [ ] `build-videos.mjs` 對沒進播放清單的 ~95 支影片分類為 `unknown`；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
 - [ ] tags 邊界在 v1.2 才收緊，前 3 支（Xul9 已修、9REO、qFiH）的 tags 可依 v1.2 重審。
 - [ ] `teams/_a7RrtzsMYM.json` 抽取者曾誤報影格混檔（主 agent 已查明不成立），建議列入抽樣複核。
 - [ ] 第 2 線的 Notion 遷移章節（`research/line5-platform-backend/03-notion-migration.md`）仍是推測，等第一擁有者在 Claude Code 跑 `/mcp` 授權 Notion 後讀取實際結構再補。

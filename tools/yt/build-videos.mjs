@@ -51,14 +51,18 @@ function classify(rec, info) {
     return cat;
   }
   if (isStream) return "stream";
+  if (/專訪|訪談|訪問|Interview/i.test(title)) return "chat";
   if (/官方比賽|世界賽|Regional|Worlds|解說/.test(title)) return "official-commentary";
   if (/實戰|隊伍|對戰|Mega|雙打|Champions/.test(title)) return "battle";
   if (/新手|教學|入門|解析|怎麼|如何/.test(title)) return "tutorial";
   return "unknown";
 }
 
-function detectGame(title, pls) {
-  if (/Champions|寶可夢冠軍|#寶可夢冠軍/i.test(title) || pls.includes("寶可夢 Champions")) return "champions";
+const CHAMPIONS_LAUNCH = "2026-04-08"; // Pokémon Champions 上線日；更早的影片不可能是 Champions
+function detectGame(title, pls, publishedAt) {
+  if (publishedAt && publishedAt < CHAMPIONS_LAUNCH) {
+    if (/朱紫|朱\/紫|Scarlet|Violet|\bSV\b|太晶|世界冠軍|寶可夢冠軍/i.test(title)) return "sv";
+  } else if (/Champions|寶可夢冠軍|#寶可夢冠軍/i.test(title) || pls.includes("寶可夢 Champions")) return "champions";
   if (/朱紫|朱\/紫|Scarlet|Violet|\bSV\b|太晶/i.test(title)) return "sv";
   if (/Pokopia|Z-A|PTCG|火紅葉綠|迷宮|Fire Emblem|火焰紋章/i.test(title)) return "other";
   return null;
@@ -148,7 +152,7 @@ for (const rec of index.videos) {
     tab: rec.tabs || [],
     playlists: pls,
     category: classify(rec, info),
-    game: detectGame(title, pls),
+    game: detectGame(title, pls, uploadDate),
     regulation_code: detectRegulation(title),
     chapters,
     team_intro_range: teamIntroRange(chapters),

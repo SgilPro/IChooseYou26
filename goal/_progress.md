@@ -136,7 +136,7 @@ App 試用回饋 + 四項功能需求。
 | 1 | 頻道清單掃描（679 支） | ✅ | `tools/yt/scan-channel.mjs` |
 | 1 | 逐支抓 metadata / 字幕 | ⏳ | `tools/yt/fetch-videos.sh`，背景跑中（~200/679），可中斷重跑 |
 | 1 | 主表 videos.json / csv | 🟡 | `build-videos.mjs` 已可產出，抓完重跑 |
-| 1 | Champions 對戰影片隊伍抽取（抽取者 + 驗證器 + 抽樣審查者） | 🟡 | 23 支公開中 8+ 支完成、validate 0 ERR；1 支獨立複核 99% 一致；接手見 `data/channels/fiskepokemon/_HANDOFF.md` |
+| 1 | Champions 對戰影片隊伍抽取（抽取者 + 驗證器 + 抽樣審查者） | ✅ | 22/22 公開影片完成、132 隻、validate 0 ERR；1 支獨立複核 99% 一致；會員限定 ~37 支待登入補 |
 | 1 | 方法研究文件 `research/line4-channel-analysis/` | ✅ | 01-video-data-methods（紅隊審查過） |
 | 2 | Action Plan `research/line5-platform-backend/` | ✅ | 五篇，紅隊審查過；Notion 遷移章節待授權後補 |
 | 3 | RAG Pre-Plan `research/line6-rag/` | ✅ | 三篇，紅隊審查過 |
@@ -154,3 +154,4 @@ App 試用回饋 + 四項功能需求。
 - 2026-06-14：goal 260614_3（小回饋 + 方向調整）全做（app v0.0.5）：Mega/氣場類別、Toggle UI、lightbox、影片上傳註明；暫停 HP 與回合分組、聚焦 GameLog+特性/道具 OCR；未來工項(validator/觀看介面)寫進 docs。
 - 2026-11-08：收到 `261108_1.all_in_one.md`（三條線）。工具鏈、schema、參照表、頻道清單掃描完成；逐支抓取背景執行中。
 - 2026-11-08（晚）：三條線文件完成並過紅隊審查；8+ 支隊伍抽取；session 用量近上限 → 寫 `_HANDOFF.md` 供接手。
+- 2026-11-09：22 支公開 Champions 對戰影片隊伍全部抽完並上線 teams.html；主表 336/679 完整（其餘會員限定或待重試）。
