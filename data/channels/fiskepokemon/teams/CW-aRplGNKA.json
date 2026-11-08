@@ -1,0 +1,447 @@
+[
+  {
+    "id": "team_CW-aRplGNKA",
+    "name": "紅蓮鎧騎 + 煤炭龜 空間噴煙隊",
+    "name_source": "title",
+    "video_id": "CW-aRplGNKA",
+    "video_url": "https://www.youtube.com/watch?v=CW-aRplGNKA",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-a",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "固拉多的大哥",
+        "gender": "M",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "stats_note": "畫面字卡：「0速的時候的實際速度值是22」（Lv.50 無速度努力值；22 對應 0 速度個體值 + 降速性格）。性格依「能力」頁 特攻▲ 速度▼ 判讀為冷靜。特攻 252 依 f_028 能力頁特攻旁的 ✦ 滿努力值標記判讀（低解析，信心偏低）；其餘努力值畫面未顯示。字卡提到有人會問「加HP對雙防收益不是最高嗎」，暗示 HP 未必 252。",
+        "moves": [
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴煙",
+            "value_en": "Lava Plume",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心之一、空間下的主要輸出。晴天 + 木炭 + 本系的滿血噴火（字卡：150 × 本系1.5 × 晴天1.5 × 木炭1.2）可當場打倒不抗火的對手，連抗火的骨紋巨聲鱷都可能被噴死；噴煙用來打範圍並觸發隊友紅蓮鎧騎的引火。空間開出來後通常是全場第一個出手。",
+        "stats": {
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 22,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "洛克人X",
+        "gender": "M",
+        "ability": {
+          "value": "引火",
+          "value_en": "Flash Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": null,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "畫面字卡：「那努力值我是單純的252HP跟252特攻」。性格依「能力」頁 特攻▲ 速度▼ 判讀為冷靜。太晶一般依隊伍表灰色太晶圖示判讀。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴煙",
+            "value_en": "Lava Plume",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "另一個主角，兼具輸出與輔助：自己會開戲法空間；被隊友的噴煙／熱風或對手火招打到就觸發引火，火系威力 ×1.5，熱風傷害甚至高於煤炭龜的滿血噴火約 30%；搭配愛管侍的精神場地，廣域戰力變 120 威力的範圍技，可一發帶走兩隻。字卡：「真的是十個格子都不夠帶」。",
+        "stats": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 927,
+          "name_zh": "麻花犬",
+          "name_en": "Dachsbun",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "焦香之軀",
+          "value_en": "Well-Baked Body",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "格鬥",
+          "value_en": "Fighting",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "撲擊",
+            "value_en": "Body Press",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "通常會選出的第三隻。焦香之軀免疫火系並提升防禦，讓煤炭龜與紅蓮鎧騎能放心用熱風／噴煙打範圍；突擊背心耐久，撲擊配合防禦上升輸出，大聲咆哮削弱對方特攻。",
+        "stats": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間手兼引導：看我嘛保護紅蓮鎧騎開空間；精神場地讓紅蓮鎧騎的廣域戰力威力上升並變成範圍技，可與紅蓮鎧騎首發。",
+        "stats": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "冰",
+          "value_en": "Ice",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間外的高速物攻補位：突襲與冰礫先制技在空間內外都能出手，氣勢披帶保證行動。",
+        "stats": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 423,
+          "name_zh": "海兔獸",
+          "name_en": "Gastrodon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "引水",
+          "value_en": "Storm Drain",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "清除之煙",
+            "value_en": "Clear Smog",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "低速耐久補位：引水吸收對火系核心威脅最大的水招；哈欠、清除之煙干擾，自我再生與吃剩的東西續航。",
+        "stats": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 8,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "無字幕檔；全部欄位來自影格（遊戲內「隊伍 2」隊伍表 f_001 貫穿全片、「能力」頁 f_028/f_056，以及影片內嵌的硬字卡）。發布日 2022-11-30 早於 sv-reg-a 起始日 2022-12-02 兩天，依指示歸入 sv-reg-a。",
+    "notes": "Fiske 自組的戲法空間隊，核心是煤炭龜 + 紅蓮鎧騎的「空間噴煙」：晴天 + 木炭下的噴火與熱風是全遊戲最強的火系輸出，噴煙打範圍同時觸發紅蓮鎧騎的引火再疊 1.5 倍；紅蓮鎧騎與愛管侍都帶戲法空間，愛管侍的精神場地讓廣域戰力變成 120 威力範圍技。麻花犬（焦香之軀免疫火）是常選出的第三隻，古劍豹、海兔獸補位。弱點：抗火又抗超能的對手（如火加惡的古玉魚）與特殊針對隊伍需要另外處理。",
+    "extracted_at": "2026-11-08T20:05:35.678Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
+  }
+]

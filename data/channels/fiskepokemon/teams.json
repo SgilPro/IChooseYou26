@@ -44643,6 +44643,836 @@
     "video_published_at": "2024-06-02"
   },
   {
+    "id": "team_obqoq82GcBs",
+    "name": "衝浪之尾雷丘 電氣場地隊",
+    "name_source": "title",
+    "video_id": "obqoq82GcBs",
+    "video_url": "https://www.youtube.com/watch?v=obqoq82GcBs",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "electric-terrain",
+      "restricted",
+      "meme-gimmick"
+    ],
+    "tags_source": "title",
+    "author": "シリル",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1008,
+          "name_zh": "密勒頓",
+          "name_en": "Miraidon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "強子引擎",
+          "value_en": "Hadron Engine",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "閃電猛衝",
+            "value_en": "Electro Drift",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋物面充電",
+            "value_en": "Parabolic Charge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心「大哥」：強子引擎開電氣場地供三隻小弟加速／加威力。背心型，四倍抗電，隊友放電打到牠傷害很低且電系不會麻痺。太晶電依隊伍表圖示判讀（黃色電系星形）。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 939,
+          "name_zh": "電肚蛙",
+          "name_en": "Bellibolt",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "電力轉換",
+          "value_en": "Electromorphosis",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "放電",
+            "value_en": "Discharge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋物面充電",
+            "value_en": "Parabolic Charge",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主輸出之一：電力轉換被打後下一招電系威力翻倍，踩電氣場地打拋物面充電／放電威力極高（字幕：約等於太晶電＋眼鏡＋幫助的密勒頓放電），對面不抗電通常直接打死。耐久不差；可搭配古簡蝸大聲咆哮。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 26,
+          "name_zh": "雷丘",
+          "name_en": "Raichu-Alola",
+          "form": "Alola",
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "衝浪之尾",
+          "value_en": "Surge Surfer",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：HP 與雙防的個體值故意不滿（超低耐久），目的是先手被打出氣勢披帶後，再蠻幹把對手打到只剩一點 HP。",
+        "moves": [
+          {
+            "value": "蠻幹",
+            "value_en": "Endeavor",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蹭蹭臉頰",
+            "value_en": "Nuzzle",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "假哭",
+            "value_en": "Fake Tears",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "標題主角：阿羅拉雷丘在電氣場地上衝浪之尾速度翻倍，先手蹭蹭臉頰麻痺或假哭輔助密勒頓；氣勢披帶＋低個體值配合蠻幹。太晶幽靈依隊伍表圖示判讀。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1001,
+          "name_zh": "古簡蝸",
+          "name_en": "Wo-Chien",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "災禍之簡",
+          "value_en": "Tablets of Ruin",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "欺詐",
+            "value_en": "Foul Play",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "寄生種子",
+            "value_en": "Leech Seed",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：隊上輸出手多為特攻，所以災禍之簡降攻擊不會坑隊友；搭配背心密勒頓削弱對面物攻，或與電肚蛙一起點大聲咆哮＋拋物面充電。特防高又抗電，被隊友拋物面充電打到傷害不高。太晶水依隊伍表圖示判讀。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 637,
+          "name_zh": "火神蛾",
+          "name_en": "Volcarona",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "火焰之軀",
+          "value_en": "Flame Body",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "火之舞",
+            "value_en": "Fiery Dance",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蟲之抵抗",
+            "value_en": "Struggle Bug",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "終極吸取",
+            "value_en": "Giga Drain",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：原作者此位置本是鐵毒蛾，但全隊太弱地面（怕斷崖之劍）故改火神蛾；抗性較好，憤怒粉掩護隊友、蟲之抵抗降對面特攻，面對振翼髮＋固拉多等組合較有用。太晶草依隊伍表圖示判讀（抗地面）。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1006,
+          "name_zh": "鐵武者",
+          "name_en": "Iron Valiant",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "靈魂衝擊",
+            "value_en": "Spirit Break",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：主要幫隊友廣域防守（對蓋歐卡、蕾冠王、固拉多等範圍技多的隊伍），冰凍之風控速；電氣場地上夸克充能速度也快。清淨墜飾近身戰可打熾焰咆哮虎（其他隊友不好打牠）。太晶鋼依隊伍表圖示判讀（灰色鋼系圖示，較小、信心稍低）。",
+        "stats": null,
+        "gender": "N"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        103,
+        218
+      ],
+      "frames_used": 5,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為 SV 遊戲內隊伍一覽（f_014 全六隻清楚；f_002/f_012 補左欄、f_003 蠻幹說明、f_007 災禍之簡說明）。作者欄取自影片描述「隊伍創建者：シリル」（租用碼 DKRYL9，畫面右上亦顯示），字幕只稱「作者」未具名。努力值分配章節（3:38 起）不在切片內，evs/stats/nature 未抽到。tags 中 meme-gimmick 來自字幕「比較抽象的冷門隊伍」。",
+    "notes": "規則 G 單神電氣場地隊：背心密勒頓（強子引擎）當「大哥」開電氣場地，帶三個吃場地的小弟——衝浪之尾阿羅拉雷丘（披帶＋低個體值蠻幹、蹭蹭臉頰／假哭先手輔助）、眼鏡電肚蛙（電力轉換＋場地拋物面充電／放電，威力極高）、夸克充能鐵武者（廣域防守＋冰凍之風）。古簡蝸的災禍之簡因隊上多為特攻手而不坑隊友，並與密勒頓一起削弱對面物攻。火神蛾取代原本的鐵毒蛾以補全隊弱地面（怕斷崖之劍）的問題，提供憤怒粉與蟲之抵抗。字幕評為抽象冷門、上手難度高，但原作者以此隊打到賽季中排位前三十幾名。",
+    "extracted_at": "2026-11-08T20:02:34.676Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null,
+    "video_title": "電氣場地上宇宙最高速，衝浪之尾雷丘【寶可夢朱紫】雙打講解 #寶可夢對戰 #nintendoswitch",
+    "video_published_at": "2024-05-29"
+  },
+  {
+    "id": "team_No5icp4MCQs",
+    "name": "眼鏡太樂巴戈斯 + 生命寶珠雷吉鐸拉戈 HO 隊",
+    "name_source": "title",
+    "video_id": "No5icp4MCQs",
+    "video_url": "https://www.youtube.com/watch?v=No5icp4MCQs",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "hyper-offense",
+      "tailwind",
+      "follow-me",
+      "restricted",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Nils Dunlop",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": "Rapid-Strike",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：水武道熊師主要負責逼出對面的太晶，為鐸拉戈／太樂巴戈斯的龍系與晶光星群收尾鋪路。講究圍巾依隊伍表（f_014）判讀。水流型態依隊伍表水系圖示與水流連打判讀。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "惡作劇之心順風手，字幕：「順風噴龍」是本隊最常見的流程。太晶幽靈依隊伍表圖示判讀（字幕未提）。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "強力鞭打",
+            "value_en": "Power Whip",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：火厄鬼椪逼出對面太晶，並能抵抗振翼髮；帶看我嘛掩護鐸拉戈／太樂巴戈斯輸出，必要時改太晶厄鬼椪自己當輸出手（彈性切換模式）。火灶面具／太晶火依隊伍表判讀。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1024,
+          "name_zh": "太樂巴戈斯",
+          "name_en": "Terapagos",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "太晶變形",
+          "value_en": "Tera Shift",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "晶光星群",
+            "value_en": "Tera Starstorm",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "噴射火焰",
+            "value_en": "Flamethrower",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "破壞光線",
+            "value_en": "Hyper Beam",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：講究眼鏡太樂巴戈斯，晶光星群克制所有太晶屬性，隊友先逼出對面太晶妖精後再上場收尾；眼鏡配置比強化配置更不依賴太晶，有時可靠太晶甲殼硬打，眼鏡破壞光線威力也不低。隊伍表顯示 Lv.85。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：與厄鬼椪組成雙看我嘛掩護，確保鐸拉戈與太樂巴戈斯安全輸出。性別♀依隊伍表圖示（Indeedee-F）。太晶草依隊伍表圖示判讀。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 895,
+          "name_zh": "雷吉鐸拉戈",
+          "name_en": "Regidrago",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "龍顎",
+          "value_en": "Dragon's Maw",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "巨龍威能",
+            "value_en": "Dragon Energy",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "字幕：生命寶珠＋只帶龍系技能＋太晶龍，追求最極限的龍系輸出。巨龍威能滿血威力 150 打雙體，配特性與寶珠後力度極高；寶珠滿血噴龍比龍之牙多 10%，第二次因扣血威力下降但傷害仍與龍之牙相近（150×0.9×1.3）。只要對面沒有妖精系或先被隊友解決，就能打出超高傷害。",
+        "stats": null,
+        "gender": "N"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        139
+      ],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表為 SV 遊戲內租借隊伍一覽（f_014 最乾淨；f_002、f_005 作交叉確認），六隻的特性／道具／四招／太晶圖示清楚（租借隊 ID 7446YD，訓練家名 Cedric）。隊伍介紹切片（0:00–2:19）未講努力值，evs/stats/nature 皆 null；「QOTD & 努力值分配」章節在 2:19 之後不在切片內。規則依發布日 2024-05-26 推為 Regulation G。",
+    "notes": "Nils Dunlop（斯德哥爾摩地區賽八強）的典型太樂巴戈斯 HO 隊：講究眼鏡太樂巴戈斯搭配生命寶珠、純龍系技能＋太晶龍的雷吉鐸拉戈，追求極限龍系輸出。流程多半是風妖精順風、厄鬼椪／愛管侍看我嘛掩護，鐸拉戈先噴巨龍威能，再由太樂巴戈斯晶光星群克制對面的太晶妖精收尾；水武道熊師與火厄鬼椪負責逼出對面太晶，火厄鬼椪也能抵抗振翼髮。打不動時可切換成太晶厄鬼椪當主輸出。整體偏進攻、節奏快、操作不複雜。弱點：妖精系（尤其振翼髮與太晶妖精的黑馬王／密勒頓／露奈雅拉／猛雷鼓／奇麒麟／破空焰）擋龍系輸出。",
+    "extracted_at": "2026-11-08T20:02:54.013Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null,
+    "video_title": "晶光星群 + 巨龍威能，不可能聯防的高火力太樂巴戈斯！【寶可夢朱紫】雙打講解 #寶可夢對戰 #nintendoswitch",
+    "video_published_at": "2024-05-26"
+  },
+  {
     "id": "team_e9_iF6tqmRM",
     "name": "T8 Indy Regionals",
     "name_source": "pokepaste",
@@ -45126,6 +45956,417 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "當我有兩個神獸，而你只有一個，你怎麼跟我鬥？【寶可夢朱紫】雙打講解 #寶可夢對戰 #nintendoswitch",
     "video_published_at": "2024-05-20"
+  },
+  {
+    "id": "team_Pns6QSeGvl0",
+    "name": "藏瑪然特 撲擊 Anti-meta 隊（Keanu Inosanto / Michael Kelsch）",
+    "name_source": "title",
+    "video_id": "Pns6QSeGvl0",
+    "video_url": "https://www.youtube.com/watch?v=Pns6QSeGvl0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "subtitle",
+    "tags": [
+      "restricted",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Keanu Inosanto",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "講究頭帶物攻手；相對好打密勒頓、蓋歐卡與黑馬王，頭帶主要拿來處理特攻神獸。抗地面成員之一。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 381,
+          "name_zh": "拉帝歐斯",
+          "name_en": "Latios",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "飄浮",
+          "value_en": "Levitate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心之水滴",
+          "value_en": "Soul Dew",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "潔淨光芒",
+            "value_en": "Luster Purge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "屬性上剛好抵抗藏瑪然特全部弱點（龍抗火、超能抗格鬥、飄浮免疫地面）；太晶鋼後白馬王幾乎沒招打他。冰凍之風輔助，心之水滴流星群威力高，但較脆。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "相對好打黑馬王與密勒頓，但不好打白馬王。災禍之劍降對手防禦，也加成火焰鳥的欺詐。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 146,
+          "name_zh": "火焰鳥",
+          "name_en": "Moltres-Galar",
+          "form": "Galar",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "怒火沖天",
+          "value_en": "Berserk",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色眼鏡",
+          "value_en": "Black Glasses",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "怒火中燒",
+            "value_en": "Fiery Wrath",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "欺詐",
+            "value_en": "Foul Play",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "伽勒爾火焰鳥，屬性克制黑馬王；本系欺詐用對面物攻計算，加黑色眼鏡後太晶惡欺詐或災禍之劍下的欺詐可秒殺滿血白馬王。順風速控。免疫地面成員之一。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 889,
+          "name_zh": "藏瑪然特",
+          "name_en": "Zamazenta",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "不屈之盾",
+          "value_en": "Dauntless Shield",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "腐朽的盾",
+          "value_en": "Rusted Shield",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "撲擊",
+            "value_en": "Body Press",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "重磅衝撞",
+            "value_en": "Heavy Slam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心的限制級神獸（腐朽的盾＝劍王形態）；弱點火、格鬥、地面與高爆發特攻手，其餘五隻都為補他的弱點而選。克制太樂巴戈斯隊與白馬王隊；相對好打白馬王。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "降雨 counter 故勒頓、固拉多等晴天體系；相對好打白馬王。免疫地面成員之一。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        179
+      ],
+      "frames_used": 4,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": "隊伍作者 Keanu Inosanto（規則 G 第一場地區賽 8 強），Michael Kelsch 之後用同一隊拿下斯德哥爾摩地區賽冠軍。字幕 2:58「最後這是隊伍的努力值」但影格只到 2:48，努力值畫面未抓到，evs 全 null。",
+    "notes": "規則 G 的 anti-meta 隊：藏瑪然特（撲擊/重磅衝撞/廣域防守/守住，腐朽的盾）為核心，其餘五隻專門補他的火、格鬥、地面與高爆發特攻弱點。大嘴鷗降雨 counter 故勒頓/固拉多晴天體系；轟擂金剛猩講究頭帶與古劍豹處理密勒頓、蓋歐卡、黑馬王等特攻神獸；伽勒爾火焰鳥黑色眼鏡欺詐（太晶惡）可秒殺白馬王並提供順風；拉帝歐斯（心之水滴、太晶鋼）屬性剛好抵抗藏瑪然特全部弱點，冰凍之風輔助、流星群輸出。隊上三隻免疫地面、一隻抗地面。Fiske 認為隊伍強且特別，但組隊邏輯不直觀，不適合新手。",
+    "extracted_at": "2026-11-08T20:02:43.000Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "video_title": "轉生到異世界後獲得撲擊的狗狗「藏瑪然特」，真的能改變人生命運嗎【寶可夢朱紫】雙打講解 #寶可夢對戰 #nintendoswitch",
+    "video_published_at": "2024-05-17"
   },
   {
     "id": "team_Aego8RtRQmU",
@@ -66166,6 +67407,453 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "我用100%擊中要害的三首刺龍打贏了2015寶可夢世界冠軍！【寶可夢朱紫】雙打對戰 #NintendoSwitch",
     "video_published_at": "2022-12-21"
+  },
+  {
+    "id": "team_CW-aRplGNKA",
+    "name": "紅蓮鎧騎 + 煤炭龜 空間噴煙隊",
+    "name_source": "title",
+    "video_id": "CW-aRplGNKA",
+    "video_url": "https://www.youtube.com/watch?v=CW-aRplGNKA",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-a",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "固拉多的大哥",
+        "gender": "M",
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "stats_note": "畫面字卡：「0速的時候的實際速度值是22」（Lv.50 無速度努力值；22 對應 0 速度個體值 + 降速性格）。性格依「能力」頁 特攻▲ 速度▼ 判讀為冷靜。特攻 252 依 f_028 能力頁特攻旁的 ✦ 滿努力值標記判讀（低解析，信心偏低）；其餘努力值畫面未顯示。字卡提到有人會問「加HP對雙防收益不是最高嗎」，暗示 HP 未必 252。",
+        "moves": [
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴煙",
+            "value_en": "Lava Plume",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心之一、空間下的主要輸出。晴天 + 木炭 + 本系的滿血噴火（字卡：150 × 本系1.5 × 晴天1.5 × 木炭1.2）可當場打倒不抗火的對手，連抗火的骨紋巨聲鱷都可能被噴死；噴煙用來打範圍並觸發隊友紅蓮鎧騎的引火。空間開出來後通常是全場第一個出手。",
+        "stats": {
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 22,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "洛克人X",
+        "gender": "M",
+        "ability": {
+          "value": "引火",
+          "value_en": "Flash Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": null,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "畫面字卡：「那努力值我是單純的252HP跟252特攻」。性格依「能力」頁 特攻▲ 速度▼ 判讀為冷靜。太晶一般依隊伍表灰色太晶圖示判讀。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴煙",
+            "value_en": "Lava Plume",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "另一個主角，兼具輸出與輔助：自己會開戲法空間；被隊友的噴煙／熱風或對手火招打到就觸發引火，火系威力 ×1.5，熱風傷害甚至高於煤炭龜的滿血噴火約 30%；搭配愛管侍的精神場地，廣域戰力變 120 威力的範圍技，可一發帶走兩隻。字卡：「真的是十個格子都不夠帶」。",
+        "stats": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 927,
+          "name_zh": "麻花犬",
+          "name_en": "Dachsbun",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "焦香之軀",
+          "value_en": "Well-Baked Body",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "格鬥",
+          "value_en": "Fighting",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "撲擊",
+            "value_en": "Body Press",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "通常會選出的第三隻。焦香之軀免疫火系並提升防禦，讓煤炭龜與紅蓮鎧騎能放心用熱風／噴煙打範圍；突擊背心耐久，撲擊配合防禦上升輸出，大聲咆哮削弱對方特攻。",
+        "stats": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間手兼引導：看我嘛保護紅蓮鎧騎開空間；精神場地讓紅蓮鎧騎的廣域戰力威力上升並變成範圍技，可與紅蓮鎧騎首發。",
+        "stats": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "冰",
+          "value_en": "Ice",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "空間外的高速物攻補位：突襲與冰礫先制技在空間內外都能出手，氣勢披帶保證行動。",
+        "stats": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 423,
+          "name_zh": "海兔獸",
+          "name_en": "Gastrodon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "引水",
+          "value_en": "Storm Drain",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "清除之煙",
+            "value_en": "Clear Smog",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "低速耐久補位：引水吸收對火系核心威脅最大的水招；哈欠、清除之煙干擾，自我再生與吃剩的東西續航。",
+        "stats": null
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 8,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "無字幕檔；全部欄位來自影格（遊戲內「隊伍 2」隊伍表 f_001 貫穿全片、「能力」頁 f_028/f_056，以及影片內嵌的硬字卡）。發布日 2022-11-30 早於 sv-reg-a 起始日 2022-12-02 兩天，依指示歸入 sv-reg-a。",
+    "notes": "Fiske 自組的戲法空間隊，核心是煤炭龜 + 紅蓮鎧騎的「空間噴煙」：晴天 + 木炭下的噴火與熱風是全遊戲最強的火系輸出，噴煙打範圍同時觸發紅蓮鎧騎的引火再疊 1.5 倍；紅蓮鎧騎與愛管侍都帶戲法空間，愛管侍的精神場地讓廣域戰力變成 120 威力範圍技。麻花犬（焦香之軀免疫火）是常選出的第三隻，古劍豹、海兔獸補位。弱點：抗火又抗超能的對手（如火加惡的古玉魚）與特殊針對隊伍需要另外處理。",
+    "extracted_at": "2026-11-08T20:05:35.678Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null,
+    "video_title": "空間噴煙大隊！地表最強火系輸出  紅蓮鎧騎 + 煤炭龜【寶可夢朱紫】雙打隊伍講解 #nintendoswitch",
+    "video_published_at": "2022-11-30"
   },
   {
     "id": "team__wt98qOXryA",
