@@ -1,0 +1,519 @@
+[
+  {
+    "id": "team__a7RrtzsMYM",
+    "name": "Mega 路卡利歐 Z 鐵蹄光線復活隊",
+    "name_source": "title",
+    "video_id": "_a7RrtzsMYM",
+    "video_url": "https://www.youtube.com/watch?v=_a7RrtzsMYM",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "title",
+    "tags": [
+      "mega",
+      "balance"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 448,
+          "name_zh": "路卡利歐",
+          "name_en": "Lucario-Mega-Z",
+          "form": "Mega-Z",
+          "confidence": 0.99
+        },
+        "nickname": "卡咩哈咩哈",
+        "gender": "M",
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "路卡利歐進化石 Z",
+          "value_en": "Lucarionite Z",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 15,
+          "spd": 0,
+          "spe": 19,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 117,
+          "def": 90,
+          "spa": 150,
+          "spd": 90,
+          "spe": 141,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形（Lucario 種族值驗算吻合，總和 66）。性格依狀態頁 速度▲/攻擊▽ 判讀為膽小。字幕：耐久剛好接下大狃拉固執近身戰；速度 209 是 Mega Z 後的數值（Mega-Z 種族速度 151、19 點、膽小 → 209 吻合），比 194 的多龍快。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "鐵蹄光線",
+            "value_en": "Steel Beam",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心、唯一 Mega（路卡利歐 Z）。不走強化而帶威力 140 的鐵蹄光線換爆發（固定扣一半 HP，兩發必死），由巴布土撥復生祈禱補救；加農光炮也是必帶、使用頻率可能更高，鐵蹄光線看情況才用。高速稀有的鋼＋格鬥特攻手，剋咆哮虎/鋁鋼橋龍/仆斬將軍，但打不動噴火龍、大嘴鷗、暴鯉龍、賽富豪、巨甲武者等，極度依賴聯攻。隊伍表顯示原形特性精神力。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "虛假的神龍",
+        "gender": "M",
+        "ability": {
+          "value": "穿透",
+          "value_en": "Infiltrator",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 165,
+          "atk": 126,
+          "def": 95,
+          "spa": 167,
+          "spd": 95,
+          "spe": 194,
+          "source": "frame"
+        },
+        "stats_note": "字幕明說必須是內斂（內斂流星群打 2 HP 大狃拉 101–119%），狀態頁 特攻▲/攻擊▽ 一致。速度 194，可能比某些種族值 130 的極速慢一點。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "主要特攻龍系輸出，與路卡利歐互補盲點（鋼補龍、格鬥補幽靈）。寶珠＋幫助十萬伏特保證擊殺噴火龍；穿透無視替身/光牆，幫助流星群可擊殺開牆的鋁鋼橋龍；高速壓制晴天/雨天成員。斬殺線：流星群打 2 HP 大狃拉 101–119%、25 HP 雷丘 Y 保證擊殺、32 HP 75%；暗影球打 32 HP 賽富豪 90–109%、低於 12 HP 保證擊殺。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 923,
+          "name_zh": "巴布土撥",
+          "name_en": "Pawmot",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "真實的神龍",
+        "gender": "M",
+        "ability": {
+          "value": "蓄電",
+          "value_en": "Volt Absorb",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 147,
+          "atk": 167,
+          "def": 90,
+          "spa": 81,
+          "spd": 80,
+          "spe": 172,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀為爽朗。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "電光雙擊",
+            "value_en": "Double Shock",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "復生祈禱",
+            "value_en": "Revival Blessing",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "用復生祈禱復活打完鐵蹄光線的路卡利歐；電＋格鬥雙本系沒有被路卡利歐打不動的對象抵抗。因需帶復生祈禱與擊掌奇襲所以沒帶守住。特性蓄電/鐵拳皆可：選蓄電是為了聯防電系（近身戰不吃鐵拳加成），鐵拳的電光雙擊會高 20%。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "封印的脖子",
+        "gender": "M",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 17,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 224,
+          "atk": 99,
+          "def": 121,
+          "spa": 130,
+          "spd": 107,
+          "spe": 80,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀為大膽。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "封印",
+            "value_en": "Imprison",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "處理空間隊的關鍵：在場且點過封印對面就不能點空間，為三首惡龍/風速狗爭取時間。幫助拉高多龍與路卡利歐的斬殺線；廣域戰力蹭對面精神場地（精神種子大狃拉旁的愛管侍）解決大狃拉。廣域戰力/空間/封印必帶，幫助或守住擇一。功能是封印與尾甲，封印會首發、尾甲不一定；選出率不高但關鍵。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 635,
+          "name_zh": "三首惡龍",
+          "name_en": "Hydreigon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "前勇者",
+        "gender": "M",
+        "ability": {
+          "value": "飄浮",
+          "value_en": "Levitate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "蓮蒲果",
+          "value_en": "Chople Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 169,
+          "atk": 112,
+          "def": 110,
+          "spa": 194,
+          "spd": 110,
+          "spe": 150,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 特攻▲/攻擊▽ 判讀為內斂。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "取代金剛猩的位置：進攻屬性與多龍略重疊，但能開順風反制順風隊（路卡利歐很怕暴飛龍順風），防守屬性可聯防全隊弱點（尤其隊伍缺地面抗性）。守住/順風/流星群必帶，惡系技選大聲咆哮（常對付廣域戰力隊）而非惡之波動。需要開順風或大聲咆哮時首發。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": "Hisui",
+          "confidence": 0.97
+        },
+        "nickname": "傳說寶可夢",
+        "gender": "F",
+        "ability": {
+          "value": "堅硬腦袋",
+          "value_en": "Rock Head",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 6,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 28,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 176,
+          "atk": 183,
+          "def": 100,
+          "spa": 103,
+          "spd": 100,
+          "spe": 138,
+          "source": "frame"
+        },
+        "stats_note": "洗翠的樣子（火/岩，隊伍表圖示為火＋岩石，HP 176/攻擊 183 僅與洗翠風速狗種族值吻合）。字幕：圍巾後速度 207（138×1.5）比路卡利歐慢一點；沒加滿是因爽朗幽尾玄魚 214 比滿速圍巾風速狗還快 1，圍巾幽尾玄魚交給隊友，固執幫助更大。狀態頁 攻擊▲/特攻▽ 與字幕固執一致。能力點驗算吻合，總和 66。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "雙刃頭錘",
+            "value_en": "Head Smash",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.99,
+            "source": "frame"
+          }
+        ],
+        "role_note": "四倍抗火，處理路卡利歐怕的各種火系（尤其空間隊）與不弱格鬥的鋼系（賽富豪、巨甲武者），有單體（雙刃頭錘）與群體（岩崩）岩石技。最常用閃焰衝鋒與岩崩；特性選堅硬腦袋而非威嚇，因為有時必須對仆斬將軍或美納斯上場，而隊上兩隻龍都打不了仆斬將軍。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        516
+      ],
+      "frames_used": 12,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "抽取者曾回報 frames/_a7RrtzsMYM 混入其他影片畫面；主 agent 2026-11-08 親自檢視 f_005/f_020/f_040 確認皆為本片（路卡利歐 Z 隊）畫面，混檔不成立，應為平行抽取時共用 scratchpad 裁切圖被覆蓋所致。抽取者另以重抓片段讀取「能力」頁，資料來源仍為本片。待抽樣複核。",
+    "notes": "以 Mega 路卡利歐 Z 為核心的平衡偏進攻隊（Fiske 自稱「平衡隊裡比較偏向進攻的類型」）。路卡利歐捨棄強化改帶鐵蹄光線換最高火力，由巴布土撥復生祈禱復活再打一發；多龍巴魯托（穿透＋寶珠）為主要特攻龍系輸出並補盲點，奇麒麟以封印鎖空間、幫助拉斬殺線、廣域戰力解決大狃拉，三首惡龍開順風/大聲咆哮並聯防全隊弱點，洗翠風速狗（圍巾堅硬腦袋）處理火系與不弱格鬥的鋼系。選出不固定：四個輸出手都可與路卡利歐聯攻，三首惡龍需順風/大聲咆哮時首發，奇麒麟要封印時首發。弱點：龍系多、妖精重複弱點多，怕 2–3 隻高速妖精（風妖精＋花葉蒂）；整體高速但耐久低，常互秒，控速與出手順序極重要。評分：上手難度 3.5、操作彈性 4.5、穩定性 3.5、全面程度 2.5；拍片期間高分段 12 連勝、平均勝率約 90%。",
+    "extracted_at": "2026-11-08T09:19:21Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

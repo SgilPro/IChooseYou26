@@ -1,0 +1,225 @@
+[
+  {
+    "id": "team_ysCCcHIh4EQ",
+    "name": "Mega 雷丘 X 電氣場地電龍隊",
+    "name_source": "title",
+    "video_id": "ysCCcHIh4EQ",
+    "video_url": "https://www.youtube.com/watch?v=ysCCcHIh4EQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": ["electric-terrain", "trick-room", "mega"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 740,
+          "name_zh": "好勝毛蟹",
+          "name_en": "Crabominable",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "來世做不服輸",
+        "gender": "M",
+        "ability": { "value": "怪力鉗", "value_en": "Hyper Cutter", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "達人帶", "value_en": "Expert Belt", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "勇敢", "value_en": "Brave", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 32, "def": 2, "spa": 0, "spd": 0, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 204, "atk": 202, "def": 99, "spa": 82, "spd": 87, "spe": 56, "source": "frame" },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）。六項數值以 Lv.50 公式（原形種族值 97/132/77/62/67/43）驗算皆吻合，點數總和 66。字幕：達人帶岩崩力度與生命寶珠烈咬陸鯊相同，噴火龍通常直接被秒；拍落可秒未加耐久的幽尾玄魚；達人帶近身戰可保證擊殺帶抗鬥果的仆斬將軍。",
+        "moves": [
+          { "value": "冰錘", "value_en": "Ice Hammer", "confidence": 0.98, "source": "frame" },
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.98, "source": "frame" },
+          { "value": "拍落", "value_en": "Knock Off", "confidence": 0.98, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "低速物攻輸出手。特性怪力鉗免疫威嚇，Fiske 認為比 Mega 後更強，所以不 Mega。負責秒殺對面優先選出的來悲粗茶，並用拍落/岩崩處理妖火紅狐與噴火龍。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 26,
+          "name_zh": "雷丘",
+          "name_en": "Raichu-Mega-X",
+          "form": "Mega-X",
+          "confidence": 0.97
+        },
+        "nickname": "雷丘Y",
+        "gender": "F",
+        "ability": { "value": "避雷針", "value_en": "Lightning Rod", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "雷丘進化石 X", "value_en": "Raichunite X", "confidence": 0.85, "source": "frame" },
+        "nature": { "value": "固執", "value_en": "Adamant", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 32, "def": 2, "spa": 0, "spd": 0, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 167, "atk": 156, "def": 77, "spa": 99, "spd": 100, "spe": 130, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形（種族值 60/90/55/90/80/110）。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）。六項數值以 Lv.50 公式驗算皆吻合，點數總和 66。速度未加點（130），走低速空間路線；暱稱「雷丘Y」但道具是雷丘進化石 X。",
+        "moves": [
+          { "value": "伏特攻擊", "value_en": "Volt Tackle", "confidence": 0.98, "source": "frame" },
+          { "value": "劈瓦", "value_en": "Brick Break", "confidence": 0.98, "source": "frame" },
+          { "value": "伏特替換", "value_en": "Volt Switch", "confidence": 0.98, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍的 Mega 與核心。Mega 雷丘 X 為物攻手，Mega 後特性電氣製造者（Electric Surge，投影片）出場布下電氣場地，幫隊友增傷並防催眠粉；伏特攻擊力度比 Y 的電磁炮高約 14%、雙防更高。定位像袋獸：先擊掌幫空間手開空間，第二回合輸出或伏特替換退場讓電龍安全上場並留下場地。缺點：怕威嚇、補盲弱、隊友少。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "可靠的杯子",
+        "gender": "N",
+        "ability": { "value": "款待", "value_en": "Hospitality", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 0, "def": 2, "spa": 32, "spd": 0, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 178, "atk": 80, "def": 128, "spa": 190, "spd": 100, "spe": 81, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 71/60/106/121/80/70）驗算皆吻合，點數總和 66。字幕：披帶 + 加滿特攻，遇到少見的剋制技能也不太可能暴斃。",
+        "moves": [
+          { "value": "刷刷茶炮", "value_en": "Matcha Gotcha", "confidence": 0.98, "source": "frame" },
+          { "value": "暗影球", "value_en": "Shadow Ball", "confidence": 0.98, "source": "frame" },
+          { "value": "憤怒粉", "value_en": "Rage Powder", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "空間手之二，負責處理巨沼怪等地面系。不怕擊掌（披帶），對面有大狃拉等擊掌手時優先與雷丘首發；也可與芳香精首發，用憤怒粉掩護開空間。大多數對手會優先選出針對牠。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 691,
+          "name_zh": "毒藻龍",
+          "name_en": "Dragalge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "海馬Boy",
+        "gender": "F",
+        "ability": { "value": "適應力", "value_en": "Adaptability", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "生命寶珠", "value_en": "Life Orb", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29, "atk": 0, "def": 5, "spa": 32, "spd": 0, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 169, "atk": 95, "def": 115, "spa": 163, "spd": 143, "spe": 57, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 65/75/90/97/123/44）驗算皆吻合，點數總和 66。字幕：適應力 + 生命寶珠污泥炸彈可保證擊殺 28 HP 以下的仙布或花葉蒂；流星群可秒 32 HP 的鋁鋼橋龍。",
+        "moves": [
+          { "value": "龍之波動", "value_en": "Dragon Pulse", "confidence": 0.98, "source": "frame" },
+          { "value": "污泥炸彈", "value_en": "Sludge Bomb", "confidence": 0.98, "source": "frame" },
+          { "value": "流星群", "value_en": "Draco Meteor", "confidence": 0.98, "source": "frame" },
+          { "value": "真氣彈", "value_en": "Focus Blast", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "低速特攻輸出手。流星群常溢出，實戰較常用不會 miss 的龍之波動；毒、龍都打不動鋼系，第四格帶真氣彈補鋼（可換守住，但殘局會有盲點、不好打仆斬將軍）。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 181,
+          "name_zh": "電龍",
+          "name_en": "Ampharos",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "尬電",
+        "gender": "M",
+        "ability": { "value": "正電", "value_en": "Plus", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "磁鐵", "value_en": "Magnet", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32, "atk": 0, "def": 2, "spa": 32, "spd": 0, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 197, "atk": 95, "def": 107, "spa": 183, "spd": 110, "spe": 67, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 90/75/85/115/90/55）驗算皆吻合，點數總和 66。字幕：電力上升在一倍傷害下剛好能秒殺加滿 HP 的仆斬將軍；十萬伏特保證擊殺噴火龍並溢出 20-30%。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "電力上升", "value_en": "Rising Voltage", "confidence": 0.98, "source": "frame" },
+          { "value": "十萬伏特", "value_en": "Thunderbolt", "confidence": 0.98, "source": "frame" },
+          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "電氣場地上的主輸出：電力上升對站在場地上的對手威力 70→140，自己也在場地上再加 30%（相當於 182），搭配磁鐵增傷。十萬伏特用來打電飛行系與飄浮（不在場地上的對手，電力上升不翻倍）。扣除 Mega 後是目前特攻最高的電系。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 683,
+          "name_zh": "芳香精",
+          "name_en": "Aromatisse",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "屠龍勇士",
+        "gender": "M",
+        "ability": { "value": "芳香幕", "value_en": "Aroma Veil", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "妖精之羽", "value_en": "Fairy Feather", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 30, "atk": 0, "def": 0, "spa": 31, "spd": 5, "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": { "hp": 206, "atk": 92, "def": 92, "spa": 165, "spd": 114, "spe": 44, "source": "frame" },
+        "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）。六項數值以 Lv.50 公式（種族值 101/72/72/99/89/29）驗算皆吻合，點數總和 66。字幕：加特防後可保證接下極攻噴火龍的氣象球或滿攻分散熱風擊中要害；妖精之羽月亮之力對烈咬陸鯊傷害 110-130%，Mega 後也 100-120%。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.98, "source": "frame" },
+          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "空間手之一，專門應對噴火龍 + 烈咬陸鯊首發：雷丘擊掌烈咬陸鯊後保證開出空間，再用月亮之力秒殺烈咬陸鯊。特性芳香幕讓自己與雷丘免疫挑釁、再來一次等心靈狀態。需要防再來一次或妖精進攻有用時優先選出；怕擊掌。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 619],
+      "frames_used": 6,
+      "pokepaste_url": null
+    },
+    "confidence": 0.97,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 雷丘 X 的電氣場地為核心的低速戲法空間隊：雷丘先擊掌輔助空間手（芳香精／來悲粗茶）開空間，再由電龍在場地上打電力上升（威力 70→140，再加場地 30%）輸出，雷丘伏特替換退場並留下場地。空間手負責剋制地面系（妖精／草／幽靈），毒藻龍與好勝毛蟹補龍、毒、格鬥、惡、岩石的進攻屬性，好勝毛蟹的怪力鉗不怕威嚇。選出通常是雷丘 + 一名空間手首發，後排電龍 + 一名輸出手；對面太抗電時後排不放電龍。弱點：避雷針與抗電隊伍、對面手動開精神／薄霧場地、對面有多個擊掌輔助拖空間。Fiske 評分：上手難度 1.5、操作彈性 1.5、穩定性 3.5、全面程度 2（滿分 5）。",
+    "extracted_at": "2026-11-08T09:20:12Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]

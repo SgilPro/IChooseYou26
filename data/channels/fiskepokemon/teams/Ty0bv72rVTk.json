@@ -1,0 +1,522 @@
+[
+  {
+    "id": "team_Ty0bv72rVTk",
+    "name": "紅蓮鎧騎反晴天隊",
+    "name_source": "title",
+    "video_id": "Ty0bv72rVTk",
+    "video_url": "https://www.youtube.com/watch?v=Ty0bv72rVTk",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "tailwind",
+      "fake-out",
+      "follow-me",
+      "mega"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 861,
+          "name_zh": "長毛巨魔",
+          "name_en": "Grimmsnarl",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "陽光巨魔",
+        "gender": "M",
+        "ability": {
+          "value": "順手牽羊",
+          "value_en": "Pickpocket",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 28,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 6,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 198,
+          "atk": 189,
+          "def": 85,
+          "spa": 103,
+          "spd": 95,
+          "spe": 86,
+          "source": "frame"
+        },
+        "stats_note": "速度 86 比紅蓮鎧騎（85）快 1，通常比咆哮虎先動可擊掌；順風下比烈咬陸鯊快可嬉鬧秒殺。空間下變超低速輸出。性格依狀態頁 攻擊▲/特攻▽ 判讀（固執）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "臂錘",
+            "value_en": "Hammer Arm",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第一個隊友，Fiske 認為是紅蓮鎧騎最完美的搭檔：擊掌輔助開空間，本系突襲秒幽尾玄魚/賽富豪、本系嬉鬧秒烈咬陸鯊/三首惡龍/快龍，臂錘（威力固定 100、降速）在空間下成低速輸出。四格全攻擊技，無牆無變化技。特性理論上察覺最好，但察覺出場發動會讓對面提防突襲，故改帶幾乎無作用的順手牽羊。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 398,
+          "name_zh": "姆克鷹",
+          "name_en": "Staraptor-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "版本陷阱",
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "姆克鷹進化石",
+          "value_en": "Staraptite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 10,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 191,
+          "atk": 150,
+          "def": 90,
+          "spa": 63,
+          "spd": 80,
+          "spe": 159,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）；六項數值以 Lv.50 公式驗算皆吻合。速度未滿點（25 點）、HP 31 點，字幕未說明速度線。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "勇鳥猛攻",
+            "value_en": "Brave Bird",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "開順風的輔助手（不需先制，因紅蓮鎧騎不依賴順風，只是多一種控速選項）。帶 Mega 石但不是主要模式，選出率不高；開空間時通常不選。取代帶廣防的化石翼龍，可降低對面首發仆斬將軍/咆哮虎的動機，並讓隊伍乍看像普通姆克鷹隊而誤導對面首發。對面若有太多巨沼怪/鋁鋼橋龍/班基拉斯/龍頭地鼠/咆哮虎/仆斬將軍等紅蓮鎧騎不好打的人，就交給姆克鷹處理（高速模式：姆克鷹+長毛巨魔）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 752,
+          "name_zh": "滴蛛霸",
+          "name_en": "Araquanid",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "霸蛛滴蛛霸",
+        "gender": "M",
+        "ability": {
+          "value": "水泡",
+          "value_en": "Water Bubble",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "神秘水滴",
+          "value_en": "Mystic Water",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 175,
+          "atk": 134,
+          "def": 114,
+          "spa": 70,
+          "spd": 152,
+          "spe": 55,
+          "source": "frame"
+        },
+        "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀（勇敢）；六項數值以 Lv.50 公式驗算皆吻合。極攻極 HP、速度壓到 55 配合空間。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流裂破",
+            "value_en": "Liquidation",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "浸水",
+            "value_en": "Soak",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍需要的廣防手，且是唯一不弱水/火/龍/惡/鋼、與紅蓮鎧騎無重複弱點的選項（水+蟲防守屬性強）。水泡讓水系威力翻倍，可秒殺咆哮虎。格子不缺故不帶蟲系技，改帶浸水：空間下先手改對面屬性幫電龍或來悲粗茶增傷（少用的 Combo，可換）。面對化石翼龍+烈咬陸鯊的隊伍會考慮首發。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": "想你了管侍",
+        "gender": "M",
+        "ability": {
+          "value": "引火",
+          "value_en": "Flash Fire",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 5,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 189,
+          "atk": 80,
+          "def": 125,
+          "spa": 194,
+          "spd": 100,
+          "spe": 85,
+          "source": "frame"
+        },
+        "stats_note": "速度 85，比長毛巨魔（86）慢 1。字幕提到空間仙布可能與他同速或更慢。性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心與主要空間手，本片主題是「不帶廣域戰力的紅蓮鎧騎」（畫面四招為守住/熱風/精神強念/戲法空間）。火/超能防守屬性反主流：噴火龍隊的噴火龍、仙布、奇麒麟、妙蛙花、風妖精幾乎都打不動他，只怕烈咬陸鯊/化石翼龍/仆斬將軍/幽尾玄魚（地震、岩崩可被廣防）。也適合反空間（重空間隊常見的奇麒麟/煤炭龜/仙布打不了他）。最常見選出：紅蓮鎧騎 + 長毛巨魔或來悲粗茶。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": "你說誰是輔助",
+        "gender": "N",
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 72,
+          "def": 128,
+          "spa": 190,
+          "spd": 100,
+          "spe": 90,
+          "source": "frame"
+        },
+        "stats_note": "為了搭配高速模式，性格不減速；速度 90 順風下 180，面對空間隊常比對面全隊快一點（但附近有仙布，仙布速度不一定）。性格依狀態頁 特攻▲/攻擊▽ 判讀（內斂）；六項數值以 Lv.50 公式驗算皆吻合。",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "吸取力量",
+            "value_en": "Strength Sap",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "打輸出的來悲粗茶（氣勢披帶、極限特攻），補草系與幽靈系進攻，聯防水、地面（紅蓮鎧騎的弱點），憤怒粉輔助隊友開空間或輸出。常靠暗影球輸出。吸取力量是隊上唯一能幫姆克鷹強化（物攻 +1）並回滿自身血量的手段。特定情況（打滅歌隊）會以姆克鷹 + 來悲粗茶首發騙擊掌。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 181,
+          "name_zh": "電龍",
+          "name_en": "Ampharos-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "不是密勒頓",
+        "gender": "M",
+        "ability": {
+          "value": "靜電",
+          "value_en": "Static",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "電龍進化石",
+          "value_en": "Ampharosite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 95,
+          "def": 107,
+          "spa": 183,
+          "spd": 110,
+          "spe": 67,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 特攻▲/速度▽ 判讀（冷靜）；六項數值以 Lv.50 公式驗算皆吻合。極 HP 極特攻、速度減速配合空間。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "真氣彈",
+            "value_en": "Focus Blast",
+            "confidence": 0.98,
+            "source": "frame"
+          }
+        ],
+        "role_note": "最後一個彈性位置，隊伍的主要 Mega。同時剋制噴火龍、烈咬陸鯊、幽尾玄魚、美納斯這些紅蓮鎧騎不好打的對象。真氣彈可秒仆斬將軍與班基拉斯但命中低，非主要輸出手段（第四格可換棉花防守，但 Fiske 不推薦，因格鬥系進攻對本隊重要）。Mega 後特性為破格（字幕/投影片），Fiske 原認為不好，但拍片中兩次發揮作用（蓄電雷伊布、避雷針雷電獸隊）。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        629
+      ],
+      "frames_used": 13,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "兩隻標 mega=true 為刻意：隊伍表顯示姆克鷹持姆克鷹進化石、電龍持電龍進化石，字幕明說「姆克鷹雖然是帶 Mega 石但不是主要的模式」「我放的是 Mega 電龍」，依選出決定誰 Mega。姆克鷹進化石 value_en 依查表填 Staraptite（Champions 新道具）。來悲粗茶型態依隊伍表小圖判為一般型態（非名作型態），未能 100% 確認。",
+    "notes": "以紅蓮鎧騎為核心的反主流空間隊：紅蓮鎧騎的火/超能防守屬性幾乎完封主流噴火龍（晴天）隊，隊友依「會廣防、會擊掌、會看我嘛/憤怒粉、空間下能輸出、進攻屬性涵蓋冰龍妖精×2、格鬥地面×2、草電惡幽靈×2、以中低速為主」的條件挑選。長毛巨魔（擊掌＋四攻）與來悲粗茶（憤怒粉＋極特攻）是最常搭配紅蓮鎧騎的選出；滴蛛霸提供廣防；姆克鷹開順風作高速模式（姆克鷹＋長毛巨魔），電龍為主要 Mega。選出約五種：空間模式以紅蓮鎧騎＋長毛巨魔/來悲粗茶為主，面對化石翼龍＋烈咬陸鯊時考慮首發滴蛛霸；開不出空間則走高速模式。屬性聯攻類似朱紫故勒頓隊的低速版本，幾無盲點，隊上沒有純輔助、都加了大量物攻或特攻。弱點：紅蓮鎧騎不是完美空間手（弱點不少、耐久不如奇麒麟），難打免疫突襲的幽靈系首發（奇麒麟＋幽靈），開不出空間時較被動易因運氣輸，且多個招式命中約 90%；面對非主流隊伍時紅蓮鎧騎不會是主角。評分：上手難度 2/5、操作彈性 3/5、穩定性 2/5、全面程度 3/5。",
+    "extracted_at": "2026-11-08T09:19:12.719Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
