@@ -1,0 +1,159 @@
+[
+  {
+    "id": "team_r9kiS91vovo",
+    "name": "Mega 摔角鷹人 一擊必殺沙暴隊",
+    "name_source": "title",
+    "video_id": "r9kiS91vovo",
+    "video_url": "https://www.youtube.com/watch?v=r9kiS91vovo",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "tags": ["sand", "mega", "tailwind", "follow-me"],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 530, "name_zh": "龍頭地鼠", "name_en": "Excadrill", "form": null, "confidence": 0.99 },
+        "nickname": "鑽他",
+        "gender": "M",
+        "ability": { "value": "撥沙", "value_en": "Sand Rush", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 187, "atk": 187, "def": 80, "spa": 63, "spd": 85, "spe": 154, "source": "frame" },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）。HP 2、攻擊 32、速度 32（總和 66），數值以種族值 110/135/60/50/65/88 重算全部吻合。字幕：一擊必殺不用管輸出，需要高速的就加速度。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "十萬馬力", "value_en": "High Horsepower", "confidence": 0.99, "source": "frame" },
+          { "value": "岩崩", "value_en": "Rock Slide", "confidence": 0.99, "source": "frame" },
+          { "value": "角鑽", "value_en": "Horn Drill", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "「一快」的一擊必殺手：沙暴下撥沙加速後是目前最快的一擊必殺（角鑽），拿到無防守後先手秒殺；角鑽打不到幽靈系，所以隊上另配地裂互補。氣勢披帶確保至少能出手一次。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 450, "name_zh": "河馬獸", "name_en": "Hippowdon", "form": null, "confidence": 0.99 },
+        "nickname": "裂他",
+        "gender": "M",
+        "ability": { "value": "揚沙", "value_en": "Sand Stream", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "吃剩的東西", "value_en": "Leftovers", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "慎重", "value_en": "Careful", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 14, "spa": 0, "spd": 20, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 215, "atk": 132, "def": 152, "spa": 79, "spd": 123, "spe": 67, "source": "frame" },
+        "stats_note": "性格依狀態頁 特防▲/特攻▽ 判讀（慎重）。HP 32、防禦 14、特防 20（總和 66），數值以種族值 108/112/118/68/72/47 重算全部吻合。字幕：不需要速度的就加耐久。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "尖石攻擊", "value_en": "Stone Edge", "confidence": 0.99, "source": "frame" },
+          { "value": "地震", "value_en": "Earthquake", "confidence": 0.99, "source": "frame" },
+          { "value": "地裂", "value_en": "Fissure", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "「一慢」的一擊必殺手兼沙暴起手：揚沙開沙暴，生存能力最好的一擊必殺之一，靠高耐久後手打地裂（打不到飛行系，與角鑽互補）。地震作為一般沙暴模式下的輸出技能，隊友烈箭鷹是飛行系不怕被波及。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 663, "name_zh": "烈箭鷹", "name_en": "Talonflame", "form": null, "confidence": 0.99 },
+        "nickname": "岩崩受害協會",
+        "gender": "F",
+        "ability": { "value": "疾風之翼", "value_en": "Gale Wings", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "銳利鳥嘴", "value_en": "Sharp Beak", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 15, "atk": 19, "def": 0, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 168, "atk": 120, "def": 91, "spa": 84, "spd": 89, "spe": 195, "source": "frame" },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）。HP 15、攻擊 19、速度 32（總和 66），數值以種族值 78/81/71/74/69/126 重算全部吻合。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "勇鳥猛攻", "value_en": "Brave Bird", "confidence": 0.99, "source": "frame" },
+          { "value": "佯攻", "value_en": "Feint", "confidence": 0.99, "source": "frame" },
+          { "value": "順風", "value_en": "Tailwind", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "順風手：開天氣可能被改天氣，所以順風是必要條件；疾風之翼先制開順風，並能用佯攻解除對面守住，避免一擊必殺打到守住上。飛行系讓隊友可以放心帶地震。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 350, "name_zh": "美納斯", "name_en": "Milotic", "form": null, "confidence": 0.99 },
+        "nickname": "睡他",
+        "gender": "M",
+        "ability": { "value": "好勝", "value_en": "Competitive", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "大膽", "value_en": "Bold", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 31, "spa": 3, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 202, "atk": 72, "def": 143, "spa": 123, "spd": 145, "spe": 101, "source": "frame" },
+        "stats_note": "性格依狀態頁 防禦▲/攻擊▽ 判讀（大膽）。HP 32、防禦 31、特攻 3（總和 66），數值以種族值 95/60/79/100/125/81 重算全部吻合。",
+        "moves": [
+          { "value": "熱水", "value_en": "Scald", "confidence": 0.98, "source": "frame" },
+          { "value": "冰凍之風", "value_en": "Icy Wind", "confidence": 0.99, "source": "frame" },
+          { "value": "暴風雪", "value_en": "Blizzard", "confidence": 0.99, "source": "frame" },
+          { "value": "催眠術", "value_en": "Hypnosis", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "最後一格、用來壓制熾焰咆哮虎：好勝讓咆哮虎不敢首發威嚇或不敢選出；有很多低命中率強力技能（字幕舉水炮/暴風雪/催眠術，隊伍表實際為熱水/暴風雪/催眠術），適合搭配無防守。字幕說格子不夠沒辦法帶守住，因此摔角鷹人+美納斯首發要跟對面擊掌猜拳。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 701, "name_zh": "摔角鷹人", "name_en": "Hawlucha-Mega", "form": "Mega", "confidence": 0.99 },
+        "nickname": "始祖鷹人",
+        "gender": "M",
+        "ability": { "value": "柔軟", "value_en": "Limber", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "摔角鷹人進化石", "value_en": "Hawluchanite", "confidence": 0.95, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": true,
+        "evs": { "scale": "champions-points-32", "hp": 2, "atk": 32, "def": 0, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 155, "atk": 144, "def": 95, "spa": 84, "spd": 83, "spe": 187, "source": "frame" },
+        "stats_note": "畫面數值為未 Mega 的原形（種族值 78/92/75/74/63/118），HP 2、攻擊 32、速度 32（總和 66）重算全部吻合；性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）。Mega 後速度種族值不變，仍為 187。",
+        "moves": [
+          { "value": "勇鳥猛攻", "value_en": "Brave Bird", "confidence": 0.99, "source": "frame" },
+          { "value": "近身戰", "value_en": "Close Combat", "confidence": 0.99, "source": "frame" },
+          { "value": "快手還擊", "value_en": "Upper Hand", "confidence": 0.98, "source": "frame" },
+          { "value": "找夥伴", "value_en": "Entrainment", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "隊伍核心：Mega 後特性變成無防守（No Guard，字幕），用找夥伴把無防守送給隊友，讓隊友打一擊必殺或低命中技能。隊伍表為柔軟（原形特性）。第四招可自由選擇：為了避免與美納斯首發時跟對面擊掌猜拳而帶快手還擊，但其他情況下守住是更好的選擇，影片中兩種配置都有用到。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 925, "name_zh": "一家鼠", "name_en": "Maushold-Four", "form": "四口之家", "confidence": 0.9 },
+        "nickname": "彬彬有禮",
+        "gender": "N",
+        "ability": { "value": "友情防守", "value_en": "Friend Guard", "confidence": 0.99, "source": "frame" },
+        "item": { "value": "蓮蒲果", "value_en": "Chople Berry", "confidence": 0.98, "source": "frame" },
+        "nature": { "value": "爽朗", "value_en": "Jolly", "confidence": 0.8, "source": "frame" },
+        "tera_type": null,
+        "mega": false,
+        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 2, "spa": 0, "spd": 0, "spe": 32, "confidence": 0.97, "source": "frame" },
+        "stats": { "hp": 181, "atk": 95, "def": 92, "spa": 76, "spd": 95, "spe": 179, "source": "frame" },
+        "stats_note": "性格依狀態頁 速度▲/特攻▽ 判讀（爽朗）。HP 32、防禦 2、速度 32（總和 66），數值以種族值 74/75/70/65/75/111 重算全部吻合。型態依投影片立繪（四隻）判讀為四口之家，隊伍表小圖示無法完全確認。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.98, "source": "frame" },
+          { "value": "佯攻", "value_en": "Feint", "confidence": 0.99, "source": "frame" },
+          { "value": "看我嘛", "value_en": "Follow Me", "confidence": 0.99, "source": "frame" },
+          { "value": "您先請", "value_en": "After You", "confidence": 0.99, "source": "frame" }
+        ],
+        "role_note": "輔助手：找夥伴成功、摔角鷹人倒下後負責看我嘛保護強化手輸出；友情防守幫隊友減傷；佯攻解除對面守住、您先請讓隊友（例如河馬獸）高速地裂。字幕說一家鼠的每個特色都是一擊必殺隊非常需要的。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 341],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "以 Mega 摔角鷹人（Mega 後特性無防守 + 找夥伴）為核心的「無防守一擊必殺」沙暴隊：找夥伴把無防守送給隊友，讓隊友打必中的一擊必殺或低命中強力技能。一擊必殺有屬性盲點（角鑽/斷頭鉗打不到幽靈、地裂打不到飛行），所以配一快一慢兩種：沙暴下撥沙的龍頭地鼠（角鑽，先手秒殺）與開沙暴的高耐久河馬獸（地裂，後手秒殺）；怕被改天氣所以必帶順風，疾風之翼烈箭鷹先制順風 + 佯攻解守住；一家鼠看我嘛/友情防守/佯攻/您先請輔助；最後一格美納斯以好勝壓制熾焰咆哮虎（擊掌 + 威嚇），並有熱水/暴風雪/催眠術等低命中技能可搭配無防守。配點單純：需要速度的加速度、不需要的加耐久。Fiske 認為找夥伴一擊必殺並不強（找夥伴容易被 Counter、沒有拿到無防守就超強的寶可夢、成功後仍受守住/披帶限制），強度比不上前一集的晴天隊，操作難度高、不適合新手，沙暴隊本身有屬性弱點。選出：優先看摔角鷹人有沒有機會點出找夥伴，有則挑適合搭配的隊友，沒有則依對面應對找夥伴的手段猜首發再選。",
+    "extracted_at": "2026-11-09T00:10:17+08:00",
+    "extracted_by": "claude-fable-5.1/extract-v1.2"
+  }
+]
