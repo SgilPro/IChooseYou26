@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-e",
     "regulation_source": "date-inferred",
     "tags": [
-      "rain"
+      "rain",
+      "setup",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "tsltang0508",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Justin Tang / Gavin Michaels / Shiliang Tang",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：雨天下弱點少，詭計後清場，多數情況必選"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌奇襲掩護賽富豪，有加物防"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "憤怒粉與蘑菇孢子掩護賽富豪強化，接近極限物防；對面火力高時先首發催眠"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "冰凍之風控速，252 HP 高物防"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開雨天與廣域防守，雨天模式首發，氣勢披帶加物防"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇與圍巾順風輔助；極速抗武道熊師雙本系，先手暴風（太晶飛行）秒殺，對特攻隊關鍵"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Justin Tang、Gavin Michaels 與 Shiliang Tang 三人在 Toronto 地區賽使用同一隊，分別拿下前 8、前 16 與前 32；不帶任何 DLC 寶可夢、前代神獸與災厄，是支純規則 B 風格的隊伍。雖然主打暴飛龍，實際是賽富豪的雨天強化隊：雨天下賽富豪弱點只剩幽靈惡地面，靠鐵臂膀擊掌、盾菇憤怒粉、暴飛龍威嚇、大嘴鷗廣防與雨天、鐵包袱與暴飛龍控速掩護詭計後清場，多數情況都選出賽富豪。選出分雨天模式（大嘴鷗加一人）與強化模式（賽富豪加暴飛龍／鐵臂膀／盾菇），對面火力高時先用盾菇催眠再換上賽富豪強化。全隊堆大量物耐，對物攻隊完全不怕；對特攻隊（順風龍捲雲振翼髮古玉魚、振翼髮＋古玉魚＋武道熊師）則需大量判斷，極速圍巾暴飛龍抗武道熊師雙本系並先手暴風秒殺是關鍵。速度偏慢、控速僅鐵包袱冰凍之風與暴飛龍圍巾順風，賽富豪暴斃易崩盤，不適合新手。",
     "extracted_at": "2026-11-08T16:37:37.751Z",
     "extracted_by": "import-pokepaste-v1"
   }

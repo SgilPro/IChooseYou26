@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-e",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "hyper-offense",
+      "psychic-terrain"
+    ],
+    "tags_source": "subtitle",
+    "author": "ぎんなん",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍真正核心：輕裝＋精神種子速度翻倍後排清場，怕威嚇不輪轉；太晶岩石先手岩崩順風古玉魚"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開精神場地幫大狃拉加速並掩護輸出"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "氣勢披帶加碎裂鎧甲（非弱保）的地雷配置，廣域戰力補打賽富豪、盾菇、棄世猴；可廣防輔助"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾水流連打秒不太晶的土地雲；急速折返可打隊友碎裂鎧甲"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠冰礫打土地雲、咬碎打賽富豪與徬徨夜靈，不怕對面太晶"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "針對吃吼霸模式的後排選項"
       }
     ],
     "is_members_only": false,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "ぎんなん 用這支氣勢披帶紅蓮鎧騎＋大狃拉隊在排位同時打到結算第二與第六名，Fiske 練習與拍片約 30 場勝率近九成，操作極簡單、適合新手爬分，是超高速 HO 隊，目標先手把人打死、不太需要聯防。據作者說實際是圍繞大狃拉組的：愛管侍開精神場地讓輕裝大狃拉吃精神種子速度翻倍，紅蓮鎧騎火超能補大狃拉打不到的賽富豪、盾菇、棄世猴；大狃拉怕威嚇且不適合輪轉，多數情況不首發，先打死對面威嚇手或兩隻後再上。紅蓮鎧騎帶氣勢披帶加碎裂鎧甲（非弱點保險）有點地雷。圍巾水武道熊師與生命寶珠古劍豹（冰礫、咬碎）專打土地雲、賽富豪與徬徨夜靈空間。五種首發模式約 15 秒可選完：預設紅蓮鎧騎＋武道熊師或＋古劍豹（後排愛管侍、大狃拉），大狃拉＋愛管侍打古玉魚順風隊（太晶岩石先手岩崩），另兩種針對吃吼霸依對面有無晶光花撒毒調整。",
     "extracted_at": "2026-11-08T16:37:36.702Z",
     "extracted_by": "import-pokepaste-v1"
   }

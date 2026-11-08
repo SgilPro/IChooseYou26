@@ -10,12 +10,13 @@
     "regulation_set_id": "sv-reg-e",
     "regulation_source": "date-inferred",
     "tags": [
-      "bulky-offense",
-      "stall"
+      "stall",
+      "setup",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Dimonutive",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Joshua Dimond",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -169,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇配合死纏爛打反覆削弱對手；與長毛巨魔處理土地雲、鐵臂膀"
       },
       {
         "slot": 3,
@@ -246,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "完封鐵臂膀與月月熊，光牆下冥想對抗重空間特攻手"
       },
       {
         "slot": 4,
@@ -323,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "光牆與拋下狠話削弱對手；與黏美龍打順風振翼髮、與來悲粗茶打重空間"
       },
       {
         "slot": 5,
@@ -400,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高特防抗飛行，光牆下重磅衝撞撞死振翼髮"
       },
       {
         "slot": 6,
@@ -477,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：緊綁束帶死纏爛打困住對手每回合扣 1/6，水毒完封武道熊師"
       }
     ],
     "is_members_only": false,
@@ -493,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Joshua Dimond 以這支超級受的超壞星隊在百餘人的線上賽拿下第一名。核心是緊綁束帶超壞星：死纏爛打把對手困在場上並每回合扣 1/6 HP，水毒屬性完封武道熊師、弱點只有地面電超能（主要是土地雲與鐵臂膀），再透過長毛巨魔拋下狠話與土地雲威嚇反覆削弱被困住的對手。對順風振翼髮用黏美龍＋長毛巨魔（高特防抗飛行加光牆，重磅衝撞撞死振翼髮）；對重空間用長毛巨魔＋來悲粗茶（完封鐵臂膀與月月熊，開光牆後冥想）。自規則 D 起環境趨向 hyper offense，受隊已少見。弱點：很被動、輸出慢，對賽富豪＋盾菇、龍捲雲／古玉魚／水武道熊師＋振翼髮、克雷色利亞＋劍舞月月熊、化身土地雲＋惡武道熊師等 core 容錯率很低；速度不快不慢又無控速，怕要害與附加效果，需要一點運氣。",
     "extracted_at": "2026-11-08T16:37:34.630Z",
     "extracted_by": "import-pokepaste-v1"
   }

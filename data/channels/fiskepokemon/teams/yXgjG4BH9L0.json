@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-f",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "NashVGC7",
-    "author_source": "pokepaste",
+    "tags": [
+      "rain",
+      "trick-room",
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Nash",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "力量護踝 0 速，空間下比月月熊慢且無視守住，騙對面開空間後先手秒月月熊"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "0 速眼鏡雨天濁流輸出，廣域防守在空間結束後輔助"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "全隊唯一正常配置；首發開空間或空間後尾甲反先制（擊掌、青草滑梯、迅雷）"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "0 速空間輸出；十萬伏特打太晶水厄鬼椪，完封盾菇"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "香羅果極限特防不加輸出，專職安全開空間"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心：頭帶電晶體瘋狂伏特 OHKO 振翼髮，太晶一般大爆炸清場讓隊友開空間"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Nash 用於 Global Challenge（BO1、不公開配置）的雨天空間隊，刻意堆疊多個怪配置騙人：頭帶太晶一般、打神速與大爆炸的物攻雷吉艾勒奇，以及接近極限特防、完全不加輸出的香羅果振翼髮開空間。隊伍圍繞艾勒奇與武道熊師：艾勒奇電晶體讓頭帶瘋狂伏特媲美頭帶鐵臂膀可 OHKO 振翼髮，對面首發不抗一般就頭帶（或太晶一般）大爆炸，兩隻幽靈隊友不會被炸，炸完振翼髮無傷開空間再上後排三個 0 速輸出手。力量護踝 0 速武道熊師速度減半到 45 比月月熊還慢且無視守住，騙對面開空間後先手秒月月熊；0 速眼鏡大嘴鷗雨天濁流、0 速賽富豪十萬伏特打太晶水厄鬼椪並完封盾菇；奇麒麟是唯一正常配置，開空間或反先制。首發固定為振翼髮或奇麒麟加一人，最常振翼髮＋艾勒奇。屬地雷隊，優勢全來自對手誤判，配置公開後不一定每次能騙到人。",
     "extracted_at": "2026-11-08T16:37:30.413Z",
     "extracted_by": "import-pokepaste-v1"
   }

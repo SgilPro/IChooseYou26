@@ -1,0 +1,163 @@
+[
+  {
+    "id": "team_xSZITjMU0q0",
+    "name": "必中絕對零度 拉普拉斯 & 泥偶巨人隊",
+    "name_source": "title",
+    "video_id": "xSZITjMU0q0",
+    "video_url": "https://www.youtube.com/watch?v=xSZITjMU0q0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-h",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "perish-trap",
+      "meme-gimmick",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": { "dex_no": 576, "name_zh": "哥德小姐", "name_en": "Gothitelle", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "F",
+        "ability": { "value": "踩影", "value_en": "Shadow Tag", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "文柚果", "value_en": "Sitrus Berry", "confidence": 0.95, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "水", "value_en": "Water", "confidence": 0.85, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" },
+          { "value": "治癒波動", "value_en": "Heal Pulse", "confidence": 0.98, "source": "frame" },
+          { "value": "精神強念", "value_en": "Psychic", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "純滅歌模式必備隊友：踩影困住對手，擊掌奇襲爭取回合、治癒波動幫拉普拉斯續命。"
+      },
+      {
+        "slot": 2,
+        "species": { "dex_no": 131, "name_zh": "拉普拉斯", "name_en": "Lapras", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "F",
+        "ability": { "value": "儲水", "value_en": "Water Absorb", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "吃剩的東西", "value_en": "Leftovers", "confidence": 0.95, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "幽靈", "value_en": "Ghost", "confidence": 0.85, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "字幕只提到需要耐久夠高、速度夠慢、特防超高；原作者 Wolfe Glick 未公開努力值配置（放在 Patreon）。",
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "替身", "value_en": "Substitute", "confidence": 0.95, "source": "frame" },
+          { "value": "絕對零度", "value_en": "Sheer Cold", "confidence": 0.98, "source": "frame" },
+          { "value": "滅亡之歌", "value_en": "Perish Song", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "隊伍核心：接收特性互換來的無防守後打必中絕對零度；四倍抗冰 + 儲水，對雨天/雪天隊有利；另有滅歌模式用超高特防把對面唱死。"
+      },
+      {
+        "slot": 3,
+        "species": { "dex_no": 623, "name_zh": "泥偶巨人", "name_en": "Golurk", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "N",
+        "ability": { "value": "無防守", "value_en": "No Guard", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "光之黏土", "value_en": "Light Clay", "confidence": 0.95, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "格鬥", "value_en": "Fighting", "confidence": 0.85, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "詛咒", "value_en": "Curse", "confidence": 0.95, "source": "frame" },
+          { "value": "反射壁", "value_en": "Reflect", "confidence": 0.98, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "爆裂拳", "value_en": "Dynamic Punch", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "無防守工具人（可用者只有黑夜鬃岩狼人與泥偶巨人）：提供無防守給青銅鐘轉交拉普拉斯；自身可打無防守爆裂拳（必中、必混亂）並開反射壁。"
+      },
+      {
+        "slot": 4,
+        "species": { "dex_no": 727, "name_zh": "熾焰咆哮虎", "name_en": "Incineroar", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "M",
+        "ability": { "value": "威嚇", "value_en": "Intimidate", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "突擊背心", "value_en": "Assault Vest", "confidence": 0.95, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "草", "value_en": "Grass", "confidence": 0.97, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.98, "source": "frame" },
+          { "value": "閃焰衝鋒", "value_en": "Flare Blitz", "confidence": 0.95, "source": "frame" },
+          { "value": "地獄突刺", "value_en": "Throat Chop", "confidence": 0.98, "source": "frame" },
+          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "賽富豪天敵、克制盾菇；太晶草防睡。惡系帶地獄突刺而非拍落，先手封住對面咆哮虎的拋下狠話，強迫牠被滅歌唱死。"
+      },
+      {
+        "slot": 5,
+        "species": { "dex_no": 437, "name_zh": "青銅鐘", "name_en": "Bronzong", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "N",
+        "ability": { "value": "飄浮", "value_en": "Levitate", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "心靈香草", "value_en": "Mental Herb", "confidence": 0.95, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "惡", "value_en": "Dark", "confidence": 0.8, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "特性互換", "value_en": "Skill Swap", "confidence": 0.98, "source": "frame" },
+          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.98, "source": "frame" },
+          { "value": "催眠術", "value_en": "Hypnosis", "confidence": 0.98, "source": "frame" },
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" }
+        ],
+        "role_note": "會特性互換的空間手：先把無防守從泥偶巨人換到自己，必要時空間下先手打必中催眠術，再把無防守換給拉普拉斯；耐久高且抵抗淘金潮（對賽富豪）。"
+      },
+      {
+        "slot": 6,
+        "species": { "dex_no": 36, "name_zh": "皮可西", "name_en": "Clefable", "form": null, "confidence": 0.98 },
+        "nickname": null,
+        "gender": "F",
+        "ability": { "value": "純樸", "value_en": "Unaware", "confidence": 0.98, "source": "frame" },
+        "item": { "value": "防塵護目鏡", "value_en": "Safety Goggles", "confidence": 0.98, "source": "frame" },
+        "nature": null,
+        "tera_type": { "value": "水", "value_en": "Water", "confidence": 0.85, "source": "frame" },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
+          { "value": "看我嘛", "value_en": "Follow Me", "confidence": 0.98, "source": "frame" },
+          { "value": "月亮之力", "value_en": "Moonblast", "confidence": 0.98, "source": "frame" },
+          { "value": "特性互換", "value_en": "Skill Swap", "confidence": 0.98, "source": "frame" }
+        ],
+        "role_note": "關鍵隊友：防塵護目鏡看我嘛免疫孢子、純樸無視劍舞、抗惡，是盾菇與劍舞仆刀將軍的最佳 counter 之一。"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [0, 324],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "2016 世界冠軍 Wolfe Glick 的「必中絕對零度」隊，近期在大型線上賽打進八強。核心是三人 combo：泥偶巨人帶無防守 → 青銅鐘用特性互換先拿走無防守（必要時空間下打必中催眠術）→ 再把無防守換給拉普拉斯，讓絕對零度必中；絕對零度只打不到冰系，而冰系在目前環境極少。拉普拉斯另有滅歌模式，搭配哥德小姐踩影 + 擊掌 + 治癒波動把對手唱死；皮可西（防塵護目鏡看我嘛、純樸）處理盾菇與劍舞仆刀將軍，咆哮虎克制賽富豪與幽靈系，地獄突刺封住對面咆哮虎拋下狠話。弱點：策略被動、操作難度高，怕幽靈系與折返類技能躲踩影，以及火力型隊伍（Fiske 自己曾用噴火 + 魔法閃耀打爆）。原作者未公開租用碼與努力值（Patreon 付費），故 evs/stats/nature 皆未知。",
+    "extracted_at": "2026-11-08T16:59:36Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3"
+  }
+]

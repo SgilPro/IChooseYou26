@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-f",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 3337527",
-    "author_source": "pokepaste",
+    "tags": [
+      "sun"
+    ],
+    "tags_source": "subtitle",
+    "author": "フォルミア",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天太陽之力主攻手；氣象球單體高輸出、熱沙大地加太晶地面補盲並應對迅雷"
       },
       {
         "slot": 2,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風／冰凍之風控速輔助；高耐久、毒鎖鏈加羽棲可在殘局單挑"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "水妖精屬性加黑霧，處理噴火龍打不動的火龍系、古劍豹、土地雲、武道熊師、古鼎鹿、吃吼霸"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾惡武道熊師逼對面不能守住拖晴天，急速折返輪轉；對雨天雪天隊關鍵"
       },
       {
         "slot": 6,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "フォルミア 圍繞噴火龍組的晴天隊：噴火龍靠太陽之力在晴天下補足特攻，DLC 新技能氣象球（晴天下威力 100 單體火系）比熱風穩定且輸出高約四成，熱沙大地加太晶地面則能打咆哮虎、猛雷鼓、晶光花、風速狗、古玉魚、席多藍恩並減輕對迅雷的恐懼。噴火龍不好打的火、水、龍系與高速手、先制手、高特防手全靠隊友分擔：西獅海壬以水妖精屬性與黑霧處理火龍系、古劍豹、土地雲、兩種武道熊師、古鼎鹿、吃吼霸；吉雉雞負責順風／冰凍之風控速，高耐久加毒鎖鏈與羽棲也常在殘局單挑取勝；圍巾惡武道熊師逼對面不能守住拖晴天，急速折返輪轉，對雨天雪天隊尤其關鍵。首發通常是噴火龍＋武道熊師或吉雉雞＋一人，是否選吉雉雞取決於是否需要速度優勢。噴火龍難打的熱門對手很多、容易被秒，需要多動腦找輸出時機。",
     "extracted_at": "2026-11-08T16:37:27.263Z",
     "extracted_by": "import-pokepaste-v1"
   }

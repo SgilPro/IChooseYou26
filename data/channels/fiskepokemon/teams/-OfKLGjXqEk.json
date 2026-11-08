@@ -1,0 +1,415 @@
+[
+  {
+    "id": "team_-OfKLGjXqEk",
+    "name": "吼叫尾 & 故勒頓 晴天滅歌隊",
+    "name_source": "title",
+    "video_id": "-OfKLGjXqEk",
+    "video_url": "https://www.youtube.com/watch?v=-OfKLGjXqEk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g-2025",
+    "regulation_source": "subtitle",
+    "tags": [
+      "sun",
+      "perish-trap",
+      "restricted",
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 985,
+          "name_zh": "吼叫尾",
+          "name_en": "Scream Tail",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "定身法",
+            "value_en": "Disable",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "滅亡之歌",
+            "value_en": "Perish Song",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "滅歌手：滅亡之歌後靠守住／換人拖到第三回合。遇白馬王隊時與哥德小姐優先選出。太晶惡依隊伍表圖示判讀（深色惡系圖示，字幕未提）。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊上壓制幽靈系（主要是黑馬王）的手段：太晶一般免疫星碎，晴天下古代活性加速用暗影球逼黑馬王太晶，或冰凍之風配合閃焰衝鋒收掉太晶後的黑馬王。",
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 576,
+          "name_zh": "哥德小姐",
+          "name_en": "Gothitelle",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "踩影",
+          "value_en": "Shadow Tag",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "踩影鎖住對手不能換下，配合吼叫尾滅歌。字幕提到容易被秒殺是本規則滅歌隊的痛點。太晶水依隊伍表與投影片圖示判讀。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "蟲",
+          "value_en": "Bug",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "拖回合的輔助手：守住／擊掌／拋下狠話必備，最後一格捨拍落選閃焰衝鋒（晴天下可重傷或秒殺振翼髮等脆皮）。太晶蟲用來抗地面打固拉多；太晶惡的理由則給了盾菇。",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 591,
+          "name_zh": "敗露球菇",
+          "name_en": "Amoonguss",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "字幕：配置在「抗噴水」前提下靠心靈香草免疫一次挑釁（針對求雨龍捲雲／再來一次風妖精）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "拖回合／保護滅歌手；心靈香草免疫一次挑釁，污泥炸彈四倍剋風妖精。太晶惡主要為了抗黑馬王的廣域戰力。",
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1007,
+          "name_zh": "故勒頓",
+          "name_en": "Koraidon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "緋紅脈動",
+          "value_en": "Orichalcum Pulse",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "蓄能焰襲",
+            "value_en": "Flame Charge",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "本隊的限制級傳說與晴天來源；字幕說明選生命寶珠（而非清淨墜飾／頭帶）是唯一增傷選項，且本身剋咆哮虎不怕威嚇。遇白馬王隊時不一定選出。太晶火依隊伍表與投影片圖示判讀。",
+        "stats": null,
+        "gender": "N"
+      }
+    ],
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        311
+      ],
+      "frames_used": 6,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "隊伍表（f_003）為 SV 遊戲內隊伍一覽，六隻的特性／道具／四招／太晶圖示清楚；努力值分配章節（5:28）不在隊伍介紹切片內，evs/stats/nature 未抽到。",
+    "notes": "2016 世界冠軍 Wolfe Glick 在 2025 歐洲國際賽奪冠的規則 G 晴天滅歌隊：吼叫尾（滅亡之歌）＋哥德小姐（踩影）鎖住對手唱死，咆哮虎、盾菇負責拖回合，生命寶珠故勒頓提供晴天與火力。太晶一般的振翼髮專門處理免疫踩影的黑馬王。對太樂巴戈斯隊、密勒頓隊相對優勢，並補上一般故勒頓隊難打白馬王的弱點（遇白馬王優先選吼叫尾＋哥德小姐）。弱點：黑馬王（約 50/50 偏劣勢）、固拉多（實際更怕隔壁催眠粉）、惡系武道熊師、求雨龍捲雲。",
+    "extracted_at": "2026-11-08T16:59:41.936Z",
+    "extracted_by": "claude-fable-5.1/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
+  }
+]
