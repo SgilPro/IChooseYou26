@@ -9,10 +9,15 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "tailwind",
+      "trick-room",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "Behzad Muntazir",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心；高耐久加防守特性，順風或空間皆可用；流星光束秒非背心咆哮虎、暗影之光無視特性；太晶水對白馬王優勢"
       },
       {
         "slot": 2,
@@ -166,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "大量投資特防，針對振翼髮與黑馬王"
       },
       {
         "slot": 3,
@@ -243,7 +248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭盔，取代盾菇的位置；掩護轟鳴月使其不怕武道熊師"
       },
       {
         "slot": 4,
@@ -397,7 +402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "披帶；屬性上剋制露奈雅拉最難打的古玉魚"
       },
       {
         "slot": 6,
@@ -474,7 +479,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手；減物防、加物攻與速度，提高秒殺振翼髮或古玉魚的機率"
       }
     ],
     "is_members_only": false,
@@ -490,7 +495,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Behzad Muntazir 以此露奈雅拉與轟鳴月順風空間隊奪得加拿大溫哥華地區賽冠軍，第二天一路 2:0 全勝，是朱紫史上露奈雅拉最好的成績。靈感來自先前奪冠的轟鳴月加白馬王隊，以速度相近的露奈雅拉取代白馬王、愛管侍取代盾菇；露奈雅拉耐久高、防守特性好、輔助技能池優秀，順風與空間皆可配合，對藏瑪然特與蓋歐卡好打非常多。相較白馬王更好打咆哮虎（流星光束秒非背心咆哮虎），暗影之光附帶破格可無視厄鬼椪結實、皮皮友情防守、吃吼霸純樸等特性；最難打的古玉魚則由轟鳴月與武道熊師在屬性上剋制。配置也有調整：露奈雅拉太晶水後對白馬王相對優勢，所以武道熊師改帶披帶、土地雲大量投資特防針對振翼髮與黑馬王，轟鳴月因有頭盔愛管侍掩護而減物防、加物攻速度。缺點是威力過高的一倍屬性（例如頭帶惡武道熊師暗冥強擊仍可秒太晶水露奈雅拉）、觸發強力香草後面對太晶惡不好打，以及流星光束 90% 命中常 miss。",
     "extracted_at": "2026-11-08T16:39:20.285Z",
     "extracted_by": "import-pokepaste-v1"
   }

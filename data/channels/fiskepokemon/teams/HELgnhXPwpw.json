@@ -10,11 +10,16 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "bulky-offense"
+      "bulky-offense",
+      "restricted",
+      "tailwind",
+      "trick-room",
+      "balance",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Justin Tang & Shiliang Tang",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +96,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "空間手兼主輸出；太晶妖精針對密勒頓"
       },
       {
         "slot": 2,
@@ -168,7 +173,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "密勒頓剋星（免疫電）；對藏瑪然特抗撲擊、剋鋼與草"
       },
       {
         "slot": 3,
@@ -245,7 +250,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "太晶妖精；對黑馬王、密勒頓、藏瑪然特都是常用選出"
       },
       {
         "slot": 4,
@@ -322,7 +327,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "多投耐久；順風下太晶水水流連打威脅黑馬王加咆哮虎"
       },
       {
         "slot": 5,
@@ -399,7 +404,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "高耐久順風手；能量後超高速惡系，抗黑馬王加咆哮虎全部本系，拍落密勒頓道具"
       },
       {
         "slot": 6,
@@ -476,7 +481,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "近極限物防（加物防性格），可接岩石棘藤棒與 +2 雪矛；應對物攻為主的隊伍"
       }
     ],
     "is_members_only": false,
@@ -492,7 +497,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Justin Tang 與 Shiliang Tang 一起組的轟鳴月順風空間隊，在美國聖安東尼奧地區賽同時拿下冠軍與亞軍，是朱紫首次有一模一樣的隊伍（連努力值都相同）包攬冠亞軍。配置特色是投資大量耐久：火厄鬼椪近乎極限物防且性格加物防，武道熊師、土地雲與轟鳴月也多投耐久，速度落在模糊區間讓對面難判斷、易錯估傷害；因隊友偏慢，白馬王自開空間再搭配轟鳴月順風，形成雙向控速。轟鳴月能量後是超高速惡系，可同時抵抗黑馬王加咆哮虎的全部本系，面對黑馬王隊甚至可不選白馬王；對密勒頓隊則由轟鳴月先手順風或拍掉道具，土地雲（免疫電）與太晶妖精盾菇、白馬王針對，對藏瑪然特則靠土地雲、盾菇、武道熊師與白馬王。厄鬼椪能接 +2 雪矛，順風下也適合處理固拉多與蓋歐卡隊。整體是蠻平衡的隊伍，除飛行抗性稍弱外少有劣勢，只有帶吃吼霸的密勒頓隊很難打、鐵壁藏瑪然特稍棘手；缺點是需對傷害與速度有準確判斷，不算新手友善。",
     "extracted_at": "2026-11-08T16:39:25.525Z",
     "extracted_by": "import-pokepaste-v1"
   }

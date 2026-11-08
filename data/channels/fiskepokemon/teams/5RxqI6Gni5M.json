@@ -10,11 +10,15 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "bulky-offense"
+      "bulky-offense",
+      "restricted",
+      "setup",
+      "electric-terrain",
+      "tournament-team"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "Suggy",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +95,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心，隊伍九成輸出來源；電氣種子物防 +1、冥想、拋物面充電回血"
       },
       {
         "slot": 2,
@@ -168,7 +172,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌輔助"
       },
       {
         "slot": 3,
@@ -245,7 +249,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "負責開第二次電氣場地；帶污泥炸彈補打風妖精"
       },
       {
         "slot": 4,
@@ -399,7 +403,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "共生傳密探斗篷給密勒頓；號令讓隊友一回合連動兩次；極速鬼面控速"
       },
       {
         "slot": 6,
@@ -476,7 +480,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "破格擊掌，阻止順風蓋歐卡／密勒頓首回合噴水或魔法閃耀"
       }
     ],
     "is_members_only": false,
@@ -492,7 +496,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Suggy 的智揮猩號令冥想隊，在歐洲國際賽打進第二天（第 141 名）。密勒頓出場開電氣場地、吃電氣種子物防 +1，再靠冥想加特攻特防、拋物面充電回血，因此整隊策略以密勒頓為主、五個隊友專職輔助。智揮猩共生可把密探斗篷傳給密勒頓使其不怕擊掌、冰凍之風與大聲咆哮，專屬技能號令讓密勒頓首回合連續行動兩次（物防 +1、特攻 +2、特防 +2），且此隊是極速智揮猩，一次鬼面後保證快過極速黑馬王。巨鍛匠破格擊掌能阻止順風蓋歐卡或密勒頓首回合噴水／魔法閃耀；雷電雲負責開第二次電氣場地，並以污泥炸彈補打密勒頓打不動的風妖精。本質是一個單純的強化隊，缺點是輸出 90% 依賴密勒頓，若被快速秒殺或強化失敗就陷入劣勢，特別怕太晶地面的劍舞蒼響與太晶地面眼鏡黑馬王等地雷，整體不如常見密勒頓隊全面。",
     "extracted_at": "2026-11-08T16:39:21.336Z",
     "extracted_by": "import-pokepaste-v1"
   }

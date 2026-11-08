@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "rain"
+      "rain",
+      "restricted",
+      "icy-wind"
     ],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags_source": "subtitle",
+    "author": "たからっく",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心輸出，分享版帶斗篷（排位時用眼鏡）"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "圍巾高速：電網控速、大聲咆哮秒黑馬王、伏特替換幫搶天氣與場地"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心，不帶電光束的罕見配置，主要點撲擊或大聲咆哮"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "物攻配置：252 物攻拍落秒黑馬王、老千骰子種子機關槍；冰凍之風與擊掌輔助蓋歐卡噴水"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "廣域戰力搭愛管侍，迅子利刃秒披帶古劍豹／風妖精／岩石厄鬼椪，太晶格鬥打惡武道熊師與太樂巴戈斯"
       },
       {
         "slot": 6,
@@ -476,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "看我嘛掩護蓋歐卡、改掉對面草／電場地、封印空間或開空間反制順風"
       }
     ],
     "is_members_only": false,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 たからっく 的樂天河童與靈獸雷電雲雨天隊，上賽季排位結算第 38 名。樂天河童在第九世代失去熱水、環境速度又過快而沒落，這隊改用物攻配置：252 物攻拍落剛好秒殺不加耐久或太晶惡的黑馬王，老千骰子種子機關槍加幫助可秒披帶武道熊師或幫鋁鋼橋龍觸發持久力，冰凍之風與擊掌則輔助蓋歐卡滿血噴水。愛管侍負責看我嘛掩護、改掉對面草／電場地、封印空間或開空間反制順風；鐵頭殼靠廣域戰力搭愛管侍、迅子利刃秒披帶古劍豹、風妖精與岩石厄鬼椪，太晶格鬥打惡武道熊師與太樂巴戈斯；圍巾雷電雲高速電網控速、大聲咆哮秒黑馬王、伏特替換搶天氣場地。蓋歐卡分享版本為斗篷（排位時用眼鏡），鋁鋼橋龍不帶電光束也很罕見。缺點是全隊進攻屬性集中在水、電、鋼、超能、惡，盲點明確，遇到太晶草終極吸取的斗篷黑馬王加風妖精開牆、控速或再來一次就非常難打。",
     "extracted_at": "2026-11-08T16:39:19.238Z",
     "extracted_by": "import-pokepaste-v1"
   }

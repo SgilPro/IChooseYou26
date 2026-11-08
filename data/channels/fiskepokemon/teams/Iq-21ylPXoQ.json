@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "coaching",
+      "bulky-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "Alex Underhill",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "背心版，隊伍耐久核心，靠指導與回血輔助；十萬馬力由來悲粗茶掩護"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "適合首發，掩護對面特攻技能（蓋歐卡、密勒頓）"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "指導手；披帶，阻止對面首發咆哮虎威嚇、挑釁盾菇"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "對焦鏡後手提升命中：鬼火必中、熔岩風暴 90%；重磅衝撞秒振翼髮（雙刀，減速性格）"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "頭盔，後換上幫隊友回血並掩護物攻技能"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "超高速指導手，再來一次與定身法"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 Alex Underhill 的對焦鏡席多藍恩隊，在 Global Challenge 結算第十名。席多藍恩速度不快不慢、有無空間都常後手，剛好符合對焦鏡「比對象晚行動時命中 ×1.2」的嚴格條件，讓 85% 的鬼火超過 100% 必中、熔岩風暴提升到 90%，是少數能確保燒傷的手段。鬼火適合搭配高耐久隊友，藏瑪然特與席多藍恩弱點重複，故選白馬王；且此隊不用清淨墜飾而改帶背心，策略著重增加耐久，配上兩個指導工具人（棄世猴防首發咆哮虎威嚇、挑釁盾菇；鐵武者超高速再來一次與定身法）與兩個回血掩護手（愛管侍適合首發掩護特攻技、頭盔來悲粗茶後換上回血並掩護物攻技）。兩位指導手都怕能量振翼髮，所以席多藍恩帶物攻重磅衝撞秒振翼髮，性格減速但非 0 速的雙刀配置。對白馬王、黑馬王、密勒頓與蓋歐卡體系都強，但面對火系免疫鬼火的固拉多與故勒頓晴天體系相對劣勢，隊友又不抗妖精、地面、火、電，進攻盲點多、聯防少；Fiske 認為其成績部分來自不公開配置的誤導效果，配置公開後威力會下降。",
     "extracted_at": "2026-11-08T16:39:23.430Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "icy-wind",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "PokeKnight",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "核心；極巨炮、污泥炸彈、噴射火焰幾乎無盲點，毒系壓制妖精"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "有輸出能力的控速手，冰凍之風加電磁波（應對清淨墜飾、密探斗篷）"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "密探斗篷；與咆哮虎聯防超能弱點、壓制黑馬王"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "處理白馬王（抗冰、抗地面、剋火）並廣域防守；抗多數熱門神獸本系"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "補三人共同的地面弱點"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "只帶拍落，由無極汰那補妖精盲點；壓制黑馬王"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 PokeKnight 以此不拖時間的無極汰那隊在 2024 世界賽少年組晉級 32 強。有別於常見的宇宙力量自我再生受流或污泥波配鋼系版本，這隊屬性平衡、聯防選項多，是 Fiske 認為組得最好的無極汰那隊。核心思路是毒系在神戰環境是很強的進攻屬性（抗毒者少、弱毒者多），極巨炮加噴射火焰後幾乎無盲點，且毒剋妖精，適合搭配打不動妖精的只帶拍落咆哮虎與惡武道熊師，三人再互相聯防超能弱點壓制黑馬王；三人重複弱點是地面，故加金剛猩。無極汰那與武道熊師都不算快，所以需要有輸出能力的控速手，帶冰凍之風加電磁波的振翼髮可同時應對清淨墜飾故勒頓與密探斗篷黑馬王；最難打的太晶火白馬王則由抗冰抗地、剋火又會廣防的滴蛛霸處理，滴蛛霸也抵抗八大熱門神獸中五個的雙本系。對密勒頓體系大優勢，黑馬王與太樂巴戈斯看隊友與關鍵猜拳；白馬王仍是最難的對象，因為排位看不到對面太晶屬性，選不選金剛猩容易猜錯。",
     "extracted_at": "2026-11-08T16:39:26.575Z",
     "extracted_by": "import-pokepaste-v1"
   }

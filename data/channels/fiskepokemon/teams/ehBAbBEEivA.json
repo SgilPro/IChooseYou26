@@ -9,10 +9,14 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "restricted",
+      "spread-moves",
+      "tournament-team"
+    ],
+    "tags_source": "subtitle",
+    "author": "せぱる",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "實質核心，頭帶地震；跺腳反制擊掌（被擊掌後下回合威力翻倍）"
       },
       {
         "slot": 2,
@@ -166,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "雙刀但以物攻為主（畫龍點睛、神速）；免疫地震；氣閘消晴天壓制固拉多／故勒頓"
       },
       {
         "slot": 3,
@@ -243,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "首發密探斗篷無視擊掌；與烈空坐一起打晴天隊"
       },
       {
         "slot": 4,
@@ -320,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "取代古玉魚的火系位置，對白馬王與藏瑪然特體系很強"
       },
       {
         "slot": 5,
@@ -397,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "順風手，免疫隊友地震；黑霧消詭計、威嚇、不屈之盾"
       },
       {
         "slot": 6,
@@ -474,7 +478,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "免疫水流連打、打武道熊師與蓋歐卡；掩護蘑菇孢子並抵抗隊友地震"
       }
     ],
     "is_members_only": false,
@@ -490,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "作者 せぱる 的雙刀烈空坐隊，在相當於 2025 日本全國賽線上預賽的 Global Challenge 結算第 116 名，是 Fiske 所見朱紫成績最好的烈空坐隊，且並非真愛隊而是為了打贏而組。作者想組一個面對各體系都穩定的隊伍，認為環境中抗地面又強的寶可夢很少，於是以頭帶地震的古鼎鹿為主組成地震隊，嚴格說是一支古鼎鹿隊；隊友需免疫地面、不太需要太晶且最好是物攻手（古鼎鹿特性降特攻），因此選擇烈空坐，主要靠畫龍點睛與神速輸出，流星群少點。黑暗鴉開順風、免疫隊友地震，黑霧可消掉詭計、威嚇、不屈之盾與流星群的特攻下降，比其他順風手更適合；首發密探斗篷武道熊師加古鼎鹿跺腳是擊掌的反制，烈空坐氣閘消晴天後與武道熊師一起壓制固拉多、故勒頓等晴天隊。火系位置由古玉魚換成火神蛾（對白馬王與藏瑪然特體系強），最後補水厄鬼椪免疫水流連打、掩護蘑菇孢子並抵抗隊友地震。弱點是很怕有咆哮虎的強化隊，黑馬王一次詭計加掩護就幾乎打不過。",
     "extracted_at": "2026-11-08T16:39:24.480Z",
     "extracted_by": "import-pokepaste-v1"
   }
