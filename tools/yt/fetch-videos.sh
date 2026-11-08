@@ -6,7 +6,9 @@
 # 例：  tools/yt/fetch-videos.sh data/channels/fiskepokemon/raw/ids.txt data/channels/fiskepokemon/raw
 # 之後補會員影片：加 --cookies cookies.txt（照 yt-dlp wiki 用無痕視窗匯出，不要 --cookies-from-browser）
 #
-# 速率：未登入約 300 支/小時上限；這裡每支睡 5~10 秒、每個請求 1.5 秒，674 支約 1.5~2 小時。
+# 速率：未登入約 300 支/小時上限。實測含留言 + 4 種字幕時每支要 ~80 秒（請求太多），
+# 所以預設不抓留言、只抓 zh-TW 手動字幕 + zh-Hant 自動字幕備援，每支約 8~12 秒，679 支約 2 小時。
+# 要抓留言（置頂留言找 pokepaste）請設 WITH_COMMENTS=1，建議只對 battle 類影片的 id 清單跑。
 set -u
 IDS="${1:?ids.txt}"
 RAW="${2:?rawDir}"
@@ -22,13 +24,20 @@ while read -r id; do
 done < "$IDS"
 echo "[fetch] todo: $(wc -l < "$TODO" | tr -d ' ') / $(wc -l < "$IDS" | tr -d ' ')" >&2
 
+COMMENT_ARGS=()
+XARGS="youtube:lang=zh-TW"
+if [ "${WITH_COMMENTS:-0}" = "1" ]; then
+  COMMENT_ARGS=(--write-comments)
+  XARGS="youtube:lang=zh-TW;comment_sort=top;max_comments=20,0,0,0"
+fi
+
 yt-dlp \
   --batch-file "$TODO" \
   --skip-download --ignore-errors --no-overwrites \
-  --extractor-args "youtube:lang=zh-TW;comment_sort=top;max_comments=30,10,5,5" \
-  --write-info-json --write-comments \
-  --write-subs --write-auto-subs --sub-langs "zh-TW,zh-Hant,zh,en" --sub-format "json3/vtt" \
-  --sleep-requests 1.5 --sleep-interval 5 --max-sleep-interval 10 --sleep-subtitles 2 \
+  --extractor-args "$XARGS" \
+  --write-info-json ${COMMENT_ARGS[@]+"${COMMENT_ARGS[@]}"} \
+  --write-subs --write-auto-subs --sub-langs "zh-TW,zh-Hant" --sub-format "json3/vtt" \
+  --sleep-requests 0.75 --sleep-interval 3 --max-sleep-interval 6 --sleep-subtitles 1 \
   --no-progress --no-warnings \
   -o "$RAW/%(id)s.%(ext)s" \
   "$@" 2>> "$RAW/errors.log"
