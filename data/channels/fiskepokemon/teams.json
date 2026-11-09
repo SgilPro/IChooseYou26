@@ -25500,7 +25500,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "空間手兼主輸出；太晶妖精針對密勒頓"
+        "role_note": "空間手；太晶妖精針對密勒頓（鎖龍系時）"
       },
       {
         "slot": 2,
@@ -25899,9 +25899,9 @@
     "paste_text": "Calyrex-Ice @ Clear Amulet  \r\nAbility: As One (Glastrier)  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 252 HP / 116 Atk / 4 Def / 20 SpD / 116 Spe  \r\nAdamant Nature  \r\n- Glacial Lance  \r\n- High Horsepower  \r\n- Protect  \r\n- Trick Room  \r\n\r\nLandorus @ Life Orb  \r\nAbility: Sheer Force  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 244 HP / 4 Def / 124 SpA / 4 SpD / 132 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Earth Power  \r\n- Sludge Bomb  \r\n- Sandsear Storm  \r\n- Protect  \r\n\r\nAmoonguss @ Covert Cloak  \r\nAbility: Regenerator  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 244 HP / 156 Def / 108 SpD  \r\nRelaxed Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Pollen Puff  \r\n- Spore  \r\n- Protect  \r\n- Rage Powder  \r\n\r\nUrshifu-Rapid-Strike @ Mystic Water  \r\nAbility: Unseen Fist  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 204 HP / 188 Atk / 20 Def / 4 SpD / 92 Spe  \r\nAdamant Nature  \r\n- Surging Strikes  \r\n- Taunt  \r\n- Close Combat  \r\n- Detect  \r\n\r\nRoaring Moon @ Booster Energy  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Flying  \r\nEVs: 148 HP / 84 Atk / 116 Def / 4 SpD / 156 Spe  \r\nJolly Nature  \r\n- Knock Off  \r\n- Acrobatics  \r\n- Protect  \r\n- Tailwind  \r\n\r\nOgerpon-Hearthflame @ Hearthflame Mask  \r\nAbility: Mold Breaker  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 220 HP / 12 Atk / 252 Def / 4 SpD / 20 Spe  \r\nImpish Nature  \r\n- Ivy Cudgel  \r\n- Horn Leech  \r\n- Follow Me  \r\n- Spiky Shield  \r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
-    "notes": "Justin Tang 與 Shiliang Tang 一起組的轟鳴月順風空間隊，在美國聖安東尼奧地區賽同時拿下冠軍與亞軍，是朱紫首次有一模一樣的隊伍（連努力值都相同）包攬冠亞軍。配置特色是投資大量耐久：火厄鬼椪近乎極限物防且性格加物防，武道熊師、土地雲與轟鳴月也多投耐久，速度落在模糊區間讓對面難判斷、易錯估傷害；因隊友偏慢，白馬王自開空間再搭配轟鳴月順風，形成雙向控速。轟鳴月能量後是超高速惡系，可同時抵抗黑馬王加咆哮虎的全部本系，面對黑馬王隊甚至可不選白馬王；對密勒頓隊則由轟鳴月先手順風或拍掉道具，土地雲（免疫電）與太晶妖精盾菇、白馬王針對，對藏瑪然特則靠土地雲、盾菇、武道熊師與白馬王。厄鬼椪能接 +2 雪矛，順風下也適合處理固拉多與蓋歐卡隊。整體是蠻平衡的隊伍，除飛行抗性稍弱外少有劣勢，只有帶吃吼霸的密勒頓隊很難打、鐵壁藏瑪然特稍棘手；缺點是需對傷害與速度有準確判斷，不算新手友善。",
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核（逐句對 intro 0:00–3:45）：notes 17 句、role_note 6 則、author、tags 6 個；修 2 處過度詮釋（白馬王「主輸出」字幕未提→刪；「順風下處理固拉多/蓋歐卡」主詞為全隊非厄鬼椪）。",
+    "notes": "Justin Tang 與 Shiliang Tang 一起組的轟鳴月順風空間隊，在美國聖安東尼奧地區賽同時拿下冠軍與亞軍，是朱紫首次有一模一樣的隊伍（連努力值都相同）包攬冠亞軍。配置特色是投資大量耐久：火厄鬼椪近乎極限物防且性格加物防，武道熊師、土地雲與轟鳴月也多投耐久，速度落在模糊區間讓對面難判斷、易錯估傷害；因隊友偏慢，白馬王自開空間再搭配轟鳴月順風，形成雙向控速。轟鳴月能量後是超高速惡系，可同時抵抗黑馬王加咆哮虎的全部本系，面對黑馬王隊甚至可不選白馬王；對密勒頓隊則由轟鳴月先手順風或拍掉道具，土地雲（免疫電）與太晶妖精盾菇、白馬王針對，對藏瑪然特則靠土地雲、盾菇、武道熊師與白馬王。厄鬼椪能接 +2 雪矛；全隊在順風下也適合處理固拉多與蓋歐卡隊。整體是蠻平衡的隊伍，除飛行抗性稍弱外少有劣勢，只有帶吃吼霸的密勒頓隊很難打、鐵壁藏瑪然特稍棘手；缺點是需對傷害與速度有準確判斷，不算新手友善。",
     "extracted_at": "2026-11-08T16:39:25.525Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "史上最強的轟鳴月配置！高耐久 + 優秀輔助，橫掃冠軍 & 亞軍的超靈活戰術【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",
@@ -29820,8 +29820,8 @@
     "paste_text": "Scyther @ Eviolite  \r\nAbility: Technician  \r\nLevel: 50  \r\nTera Type: Dragon  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nJolly Nature  \r\n- Dual Wingbeat  \r\n- Close Combat  \r\n- U-turn  \r\n- Protect  \r\n\r\nSnorlax @ Custap Berry  \r\nAbility: Gluttony  \r\nLevel: 50  \r\nTera Type: Rock  \r\nEVs: 52 HP / 252 Atk / 204 Def  \r\nBrave Nature  \r\nIVs: 0 Spe  \r\n- Body Slam  \r\n- Rock Slide  \r\n- Belly Drum  \r\n- Protect  \r\n\r\nLilligant-Hisui @ Focus Sash  \r\nAbility: Chlorophyll  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nJolly Nature  \r\n- Leaf Blade  \r\n- Close Combat  \r\n- Sleep Powder  \r\n- After You  \r\n\r\nTorkoal @ Charcoal  \r\nAbility: Drought  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 252 SpA / 4 SpD  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Eruption  \r\n- Weather Ball  \r\n- Clear Smog  \r\n- Protect  \r\n\r\nIndeedee-F @ Rocky Helmet  \r\nAbility: Psychic Surge  \r\nLevel: 50  \r\nTera Type: Steel  \r\nEVs: 236 HP / 252 Def / 20 SpD  \r\nBold Nature  \r\nIVs: 0 Atk / 29 Spe  \r\n- Psychic  \r\n- Trick Room  \r\n- Follow Me  \r\n- Helping Hand  \r\n\r\nFarigiraf @ Sitrus Berry  \r\nAbility: Armor Tail  \r\nLevel: 50  \r\nTera Type: Fighting  \r\nEVs: 244 HP / 108 Def / 156 SpD  \r\nRelaxed Nature  \r\nIVs: 8 Spe  \r\n- Expanding Force  \r\n- Tera Blast  \r\n- Trick Room  \r\n- Wish  \r\n\r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核（逐句對 intro 0:00–3:44）：notes 7 句、role_note 6 則、author、tags 3 個全部有字幕/paste 依據，無修改。",
     "notes": "2017 世界冠軍 Otsubo Ryota 的卡比獸腹鼓隊。核心是貪吃鬼卡比獸在半血提早吃釋陀果，腹鼓後下回合先手 +6 岩崩秒殺對面。理想流程為第一回合母愛管侍看我嘛掩護卡比獸腹鼓，第二回合愛管侍開空間、卡比獸釋陀果岩崩雙殺，第三回合在空間下繼續輸出，愛管侍倒下後再上其他低速隊友。奇麒麟靠高耐久、尾甲與廣域戰力補足愛管侍早死或被金剛猩改場地的情況，煤炭龜是空間下第二輸出手，也可與裙兒小姐組成您先請噴火的高速模式，但裙兒主要功能是誘導對面首發抗火者。飛天螳螂的技術高手雙翼專門先手秒殺披帶封印的公愛管侍。弱點是卡比獸只有一般與岩石打點、coverage 差，岩崩威力低且會 miss，怕高威力群體技能與堅毅波導彈鋁鋼橋龍，穩定性與操作彈性都不高。",
     "extracted_at": "2026-11-08T16:36:49.813Z",
     "extracted_by": "import-pokepaste-v1",
@@ -55054,7 +55054,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "沙暴兄弟首發之一，背心高速打賽富豪；少見太晶超能太晶爆發補地面技缺口，打毒系／太晶毒與鐵臂膀"
+        "role_note": "沙暴兄弟首發之一，背心，聯攻賽富豪；少見太晶超能太晶爆發補地面技缺口，打毒系／太晶毒與鐵臂膀"
       },
       {
         "slot": 3,
@@ -55285,7 +55285,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "規則 A–C 式的輔助風速狗：極速 236 HP，拍人後鬼火廢掉土地雲／鐵臂膀，或長嚎強化金剛猩；與班基拉斯首發克制龍捲雲順風隊"
+        "role_note": "規則 A–C 式的輔助風速狗：極速 236 HP，搭配金剛猩或班基拉斯首發，隊友拍人、風速狗鬼火廢掉土地雲／鐵臂膀，或長嚎強化金剛猩；與班基拉斯首發克制龍捲雲順風隊"
       },
       {
         "slot": 6,
@@ -55376,9 +55376,9 @@
     "paste_text": "Kommo-o @ Leftovers  \r\nAbility: Bulletproof  \r\nLevel: 50  \r\nTera Type: Steel  \r\nEVs: 252 HP / 4 Atk / 156 Def / 92 SpD / 4 Spe  \r\nImpish Nature  \r\n- Body Press  \r\n- Iron Defense  \r\n- Iron Head  \r\n- Protect  \r\n\r\nTyranitar @ Assault Vest  \r\nAbility: Sand Stream  \r\nLevel: 50  \r\nTera Type: Psychic  \r\nEVs: 4 HP / 252 Atk / 4 Def / 4 SpD / 244 Spe  \r\nAdamant Nature  \r\n- Knock Off  \r\n- Rock Slide  \r\n- Low Kick  \r\n- Tera Blast  \r\n\r\nRillaboom @ Miracle Seed  \r\nAbility: Grassy Surge  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 212 HP / 252 Atk / 4 Def / 4 SpD / 36 Spe  \r\nAdamant Nature  \r\n- Fake Out  \r\n- Wood Hammer  \r\n- Grassy Glide  \r\n- Taunt  \r\n\r\nFlutter Mane @ Choice Specs  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 132 HP / 4 Def / 236 SpA / 4 SpD / 132 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Dazzling Gleam  \r\n- Moonblast  \r\n- Shadow Ball  \r\n- Trick Room  \r\n\r\nArcanine-Hisui @ Sitrus Berry  \r\nAbility: Intimidate  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 236 HP / 4 Atk / 4 Def / 12 SpD / 252 Spe  \r\nJolly Nature  \r\n- Flare Blitz  \r\n- Rock Slide  \r\n- Howl  \r\n- Will-O-Wisp  \r\n\r\nIron Bundle @ Booster Energy  \r\nAbility: Quark Drive  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 SpA / 4 SpD / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Freeze-Dry  \r\n- Icy Wind  \r\n- Hydro Pump  \r\n- Protect  \r\n\r\n",
     "paste_notes": "Format: gen9vgc2023regulatione",
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
-    "notes": "作者 EternalSnowman 以這隊在大型比賽爆冷奪冠。全隊圍繞杖尾鱗甲龍組成：防彈太晶鋼的鱗甲龍抗性與雙防極佳，鐵壁兩次後幾乎沒有物攻手打得動，撲擊本系輸出也遠高於黏美龍，且完封振翼髮、古玉魚等環境特攻手，但鐵壁撲擊摸不到幽靈系（振翼髮、賽富豪、太晶幽靈的古劍豹與鐵包袱），所以其他隊友都是負責聯攻逼出或打死幽靈系，再讓後排鱗甲龍上場強化。選出時先看對面有幾個幽靈系與特攻手：特攻手太多就不上鱗甲龍，改走班基拉斯＋風速狗的沙暴兄弟模式（兩人都抗飛行、沙暴下特防 1.5 倍，首發就能崩死龍捲雲克制順風隊），或用鐵包袱＋振翼髮高速爆破。難度較高，需要隨時 pivot 鱗甲龍騙出幽靈系再集火；鱗甲龍四倍弱妖精，看到對面可能太晶妖精的人要先守住 scout。",
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核（逐句對 intro 1:40–5:28 + 標題 + pokepaste 作者欄）：notes 14 句、role_note 6 則、author、tags 3 個；修 3 處過度詮釋（作者奪冠為標題+paste 合併推論→拆開標示；班基拉斯「高速」字幕未提→刪；風速狗「拍人」實為隊友動作）。",
+    "notes": "pokepaste 作者為 EternalSnowman；依標題，這隊在大型比賽爆冷奪冠。全隊圍繞杖尾鱗甲龍組成：防彈太晶鋼的鱗甲龍抗性與雙防極佳，鐵壁兩次後幾乎沒有物攻手打得動，撲擊本系輸出也遠高於黏美龍，且完封振翼髮、古玉魚等環境特攻手，但鐵壁撲擊摸不到幽靈系（振翼髮、賽富豪、太晶幽靈的古劍豹與鐵包袱），所以其他隊友都是負責聯攻逼出或打死幽靈系，再讓後排鱗甲龍上場強化。選出時先看對面有幾個幽靈系與特攻手：特攻手太多就不上鱗甲龍，改走班基拉斯＋風速狗的沙暴兄弟模式（兩人都抗飛行、沙暴下特防 1.5 倍，首發就能崩死龍捲雲克制順風隊），或用鐵包袱＋振翼髮高速爆破。難度較高，需要隨時 pivot 鱗甲龍騙出幽靈系再集火；鱗甲龍四倍弱妖精，看到對面可能太晶妖精的人要先守住 scout。",
     "extracted_at": "2026-11-08T16:37:38.800Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "【寶可夢朱紫】目前規則最強的沙暴兄弟！班基拉斯 & 杖尾鱗甲龍大爆冷門，奪下大型比賽冠軍 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc #nintendoswitch",
