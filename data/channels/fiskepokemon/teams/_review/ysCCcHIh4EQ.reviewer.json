@@ -1,0 +1,520 @@
+[
+  {
+    "id": "team_ysCCcHIh4EQ",
+    "name": "Mega 雷丘 X 電力上升空間隊",
+    "name_source": "title",
+    "video_id": "ysCCcHIh4EQ",
+    "video_url": "https://www.youtube.com/watch?v=ysCCcHIh4EQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "mega",
+      "electric-terrain",
+      "trick-room"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        619
+      ],
+      "frames_used": 4,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "reviewer independent pass; team-sheet frames: f_055–f_061（能力頁）, f_062（狀態頁）；投影片 f_027（電龍種族值）、f_063–f_066（選出）、f_067–f_074（弱點）、f_075–f_077（評分）。",
+    "notes": "核心是低速空間 Mega 雷丘 X（電氣製造者）開電氣場地 + 電龍電力上升（場地上威力 140，再 ×1.3）。雷丘先擊掌/伏特替換輔助隊友開空間，第二回合再輸出或退場讓電龍上。兩個空間手：妖精之羽芳香精（加特防，接噴火龍氣象球、秒烈咬陸鯊；芳香幕防挑釁/再來一次）與披帶來悲粗茶（憤怒粉、剋巨沼怪）。輸出手：生命寶珠適應力毒藻龍（污泥炸彈/流星群/真氣彈）、達人帶好勝毛蟹（怪力鉗免疫威嚇，拍落/岩崩打來悲粗茶/妖火紅狐/噴火龍）。首發通常雷丘+其中一個空間手。弱點：避雷針、精神/薄霧場地、不防擊掌。評分 1.5/1.5/3.5/2。",
+    "extracted_at": "2026-11-09T04:32:35Z",
+    "extracted_by": "fable-5.1/review-v1",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 740,
+          "name_zh": "好勝毛蟹",
+          "name_en": "Crabominable",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "來世做不服輸",
+        "gender": "M",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "冰錘",
+            "value_en": "Ice Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "怪力鉗免疫威嚇；達人帶岩崩力度 = 生命寶珠烈咬陸鯊（6:31）；近身戰可穿抗鬥果秒仆斬將軍（7:11）。",
+        "stats": {
+          "hp": 204,
+          "atk": 202,
+          "def": 99,
+          "spa": 82,
+          "spd": 87,
+          "spe": 56,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 26,
+          "name_zh": "雷丘",
+          "name_en": "Raichu-Mega-X",
+          "form": "Mega-X",
+          "confidence": 0.98
+        },
+        "nickname": "雷丘Y",
+        "gender": "F",
+        "ability": {
+          "value": "避雷針",
+          "value_en": "Lightning Rod",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "雷丘進化石 X",
+          "value_en": "Raichunite X",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀（攻擊▲ 特攻▽ = 固執）。狀態頁為未 Mega 原形數值，驗算用 Raichu 原形種族值。",
+        "moves": [
+          {
+            "value": "伏特攻擊",
+            "value_en": "Volt Tackle",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劈瓦",
+            "value_en": "Brick Break",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Mega X 後特性電氣製造者（Electric Surge，字幕 0:11 / 投影片 f_002）開電氣場地；暱稱「雷丘Y」為反諷。伏特替換後手折返讓電龍安全上場並保留場地（7:21）。",
+        "stats": {
+          "hp": 167,
+          "atk": 156,
+          "def": 77,
+          "spa": 99,
+          "spd": 100,
+          "spe": 130,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "可靠的杯子",
+        "gender": null,
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二空間手，處理巨沼怪等地面系；不怕擊掌（6:06）。",
+        "stats": {
+          "hp": 178,
+          "atk": 80,
+          "def": 128,
+          "spa": 190,
+          "spd": 100,
+          "spe": 81,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 691,
+          "name_zh": "毒藻龍",
+          "name_en": "Dragalge",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "海馬Boy",
+        "gender": "F",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 5,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "真氣彈",
+            "value_en": "Focus Blast",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "污泥炸彈保證擊殺 28 HP 以下仙布/花葉蒂（6:44）；龍之波動較常用；真氣彈補鋼系盲點（7:47）。",
+        "stats": {
+          "hp": 169,
+          "atk": 95,
+          "def": 115,
+          "spa": 163,
+          "spd": 143,
+          "spe": 57,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 181,
+          "name_zh": "電龍",
+          "name_en": "Ampharos",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "尬電",
+        "gender": "M",
+        "ability": {
+          "value": "正電",
+          "value_en": "Plus",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "磁鐵",
+          "value_en": "Magnet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電力上升",
+            "value_en": "Rising Voltage",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "電力上升主輸出（一倍傷害剛好秒滿 HP 仆斬將軍 3:57）；十萬伏特打電飛行/飄浮（7:57）。",
+        "stats": {
+          "hp": 197,
+          "atk": 95,
+          "def": 107,
+          "spa": 183,
+          "spd": 110,
+          "spe": 67,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 683,
+          "name_zh": "芳香精",
+          "name_en": "Aromatisse",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "屠龍勇士",
+        "gender": "M",
+        "ability": {
+          "value": "芳香幕",
+          "value_en": "Aroma Veil",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖精之羽",
+          "value_en": "Fairy Feather",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 30,
+          "atk": 0,
+          "def": 0,
+          "spa": 31,
+          "spd": 5,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "加特防接極攻噴火龍氣象球（5:03）；妖精之羽月亮之力秒烈咬陸鯊 110–130%（5:15）；芳香幕保護自己與雷丘不被挑釁/再來一次。",
+        "stats": {
+          "hp": 206,
+          "atk": 92,
+          "def": 92,
+          "spa": 165,
+          "spd": 114,
+          "spe": 44,
+          "source": "frame"
+        }
+      }
+    ]
+  }
+]

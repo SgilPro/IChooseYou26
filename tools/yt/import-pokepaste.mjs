@@ -26,7 +26,12 @@ const teamsDir = join(chDir, "teams");
 mkdirSync(teamsDir, { recursive: true });
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const zh = (table, en) => (en ? NAMES[table]?.en2zh?.[en] ?? null : null);
+// 查不到時去掉括號分型再查一次（例：As One (Glastrier) → As One）
+const zh = (table, en) => {
+  if (!en) return null;
+  const t = NAMES[table]?.en2zh ?? {};
+  return t[en] ?? t[en.replace(/\s*\([^)]*\)\s*$/, "")] ?? null;
+};
 
 // ---- Showdown 匯出解析 ----
 const STAT_KEYS = { HP: "hp", Atk: "atk", Def: "def", SpA: "spa", SpD: "spd", Spe: "spe" };

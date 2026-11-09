@@ -185,9 +185,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -485,7 +485,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/cd7a639518eb68dc"

@@ -1,0 +1,520 @@
+[
+  {
+    "id": "team_rZtdoPktkLg",
+    "name": "一家鼠鼠數兒隊（Mega 大嘴娃）",
+    "name_source": "title",
+    "video_id": "rZtdoPktkLg",
+    "video_url": "https://www.youtube.com/watch?v=rZtdoPktkLg",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "subtitle",
+    "tags": [
+      "mega",
+      "trick-room",
+      "tailwind"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "channel",
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        385
+      ],
+      "frames_used": 5,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "auto",
+    "review_notes": "reviewer independent pass; team-sheet frames: f_031–f_034（能力頁）, f_035（狀態頁）；投影片 f_017/f_018（多龍種族值）、f_019（首發模式）、f_036–f_045（選出/弱點）、f_046–f_048（評分）。",
+    "notes": "核心是廣角鏡一家鼠的鼠數兒（90.4% 命中滿 10 下）+ 技術高手；三種基本首發：一家鼠+棄世猴（指導/看我嘛）、多龍圍攻→圍巾棄世猴憤怒之拳、風妖精視情況開順風或空間。大嘴娃（大力士突襲/岩崩）與生命寶珠象牙豬為中速先制收尾手，兼 Mega 名額。能力點全隊極限配置，只有棄世猴加 9 點 HP、速度 25 點（圍巾後 202）。弱點：鼠數兒與圍攻都怕憤怒粉（狠辣椒、來悲粗茶）。評分 1.5/2.5/3.5/3.5。",
+    "extracted_at": "2026-11-09T04:32:35Z",
+    "extracted_by": "fable-5.1/review-v1",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 925,
+          "name_zh": "一家鼠",
+          "name_en": "Maushold",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "我就不揍了",
+        "gender": null,
+        "ability": {
+          "value": "技術高手",
+          "value_en": "Technician",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "廣角鏡",
+          "value_en": "Wide Lens",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鼠數兒",
+            "value_en": "Population Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "鼠數兒主輸出；佯攻可在棄世猴模式減少猜拳、空間下收殘血（4:00）；看我嘛掩護隊友開空間。",
+        "stats": {
+          "hp": 151,
+          "atk": 127,
+          "def": 90,
+          "spa": 76,
+          "spd": 95,
+          "spe": 179,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 979,
+          "name_zh": "棄世猴",
+          "name_en": "Annihilape",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "快來揍我",
+        "gender": "F",
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 9,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 25,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀（攻擊▲ 特攻▽ = 固執）。速度 25 點 → 135，圍巾後 202（字幕 4:35）。",
+        "moves": [
+          {
+            "value": "憤怒之拳",
+            "value_en": "Rage Fist",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "一家鼠最完美隊友：幽靈剋幽靈、格鬥剋岩/鋼、不服輸反威嚇、指導增傷。多龍圍攻後憤怒之拳 250 威力。",
+        "stats": {
+          "hp": 194,
+          "atk": 183,
+          "def": 100,
+          "spa": 63,
+          "spd": 110,
+          "spe": 135,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "我也先不揍",
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "目前唯一同時會順風與空間的輔助（2:33），視情況選控速方向。",
+        "stats": {
+          "hp": 167,
+          "atk": 78,
+          "def": 107,
+          "spa": 141,
+          "spd": 95,
+          "spe": 136,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 473,
+          "name_zh": "象牙豬",
+          "name_en": "Mamoswine",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "好想要雪矛",
+        "gender": "F",
+        "ability": {
+          "value": "遲鈍",
+          "value_en": "Oblivious",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依「狀態」頁 ▲▽ 判讀；能力點以 Lv.50 公式驗算吻合。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰礫",
+            "value_en": "Ice Shard",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "生命寶珠冰礫保證擊殺生命寶珠烈咬陸鯊（3:37）；地面補妖精盲點。",
+        "stats": {
+          "hp": 217,
+          "atk": 200,
+          "def": 100,
+          "spa": 81,
+          "spd": 80,
+          "spe": 102,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 887,
+          "name_zh": "多龍巴魯托",
+          "name_en": "Dragapult",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": "哈哈是我啦",
+        "gender": "M",
+        "ability": {
+          "value": "穿透",
+          "value_en": "Infiltrator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀（速度▲ 攻擊▽ = 膽小）。極速 213 = 滿速圍巾棄世猴（2:15），本隊棄世猴 202 故可先圍攻。",
+        "moves": [
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "圍攻",
+            "value_en": "Beat Up",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "負責圍攻棄世猴；刺耳果（抗惡果）防被突襲秒殺（4:11）。",
+        "stats": {
+          "hp": 165,
+          "atk": 126,
+          "def": 95,
+          "spa": 152,
+          "spd": 95,
+          "spe": 213,
+          "source": "frame"
+        }
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 303,
+          "name_zh": "大嘴娃",
+          "name_en": "Mawile-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
+        "nickname": "大嘴大嘴大嘴",
+        "gender": "F",
+        "ability": {
+          "value": "怪力鉗",
+          "value_en": "Hyper Cutter",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "大嘴娃進化石",
+          "value_en": "Mawilite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀（攻擊▲ 速度▽ = 勇敢）。狀態頁為未 Mega 原形數值，驗算用 Mawile 原形種族值。",
+        "moves": [
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Mega 後特性大力士（Huge Power），突襲相當於物攻種族 157 的本系突襲（3:24）；拍落是穩定出手技，無格子帶守住（4:22–4:28）。",
+        "stats": {
+          "hp": 157,
+          "atk": 150,
+          "def": 105,
+          "spa": 75,
+          "spd": 77,
+          "spe": 63,
+          "source": "frame"
+        }
+      }
+    ]
+  }
+]

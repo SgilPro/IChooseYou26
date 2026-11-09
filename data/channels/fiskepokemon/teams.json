@@ -11939,7 +11939,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/ef9525922b2edecc"
@@ -11987,9 +11987,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -12441,7 +12441,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f8c329e6abaca984"
@@ -13447,7 +13447,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/dd8c65534da757c4"
@@ -13880,7 +13880,7 @@
         "ability": {
           "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.98,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -13959,7 +13959,7 @@
     "paste_notes": null,
     "confidence": 0.95,
     "review_status": "reviewed",
-    "review_notes": "2026-11-09 對抗式複核：paste 重抓 + @pkmn/dex / names_zh-Hant 逐欄比對，六隻 hard data 0 錯；修 slot6 特性繁中（As One (Glastrier) → 人馬一體，表內 key 為 As One）、補 sources.subtitle_*；notes/role_note/tags/author 逐句對字幕無杜撰。見 teams/_review/Q4njt3eekbs.review.md",
+    "review_notes": "2026-11-09 對抗式複核：paste 重抓 + @pkmn/dex / names_zh-Hant 逐欄比對，六隻 hard data 0 錯；補 sources.subtitle_*。slot6 特性繁中應為「人馬一體」但 names 表只有 As One（無 Showdown 的 (Glastrier)/(Spectrier) 分裂 key），改了會被 validate 判 ERR，暫維持英文 + 0.7 待表修。notes/role_note/tags/author 逐句對字幕無杜撰。見 teams/_review/Q4njt3eekbs.review.md",
     "notes": "作者 つな 以此隊打進今年日本全國賽八強。因日本賽制八強前不公開配置、八強後公開且三戰兩勝，作者選擇策略單純的 HO 隊：固定泛用首發為避難背包圖圖犬（擊掌、看我嘛、廣防、蘑菇孢子，心情不定保證退場）加白馬王開重空間，再換上 0 速力量鏡蓋歐卡——速度比月月熊、鐵臂膀更慢，空間下全場第一個噴水；白馬王帶封印阻止對面反開空間或封雪矛。第二首發是圍巾武道熊師加白馬王：武道熊師太晶幽靈躲擊掌，換上蓋歐卡開雨天先手秒黑馬王、振翼髮，土地雲補殺藏瑪然特；第三首發是披帶冰凍之風加空間的振翼髮，專門應付雙彈瓦斯、露奈雅拉、故勒頓等讓首發開不出空間的對手，可走高速模式。弱點：空間開不出或選擇不開而對面有順風時，高速模式偏弱，控速是最關鍵因素；配置因賽事知名度高而可能被對手預判。",
     "extracted_at": "2026-11-08T16:36:18.451Z",
     "extracted_by": "import-pokepaste-v1",
@@ -14450,7 +14450,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/040d1502f68ad6a9"
@@ -14952,7 +14952,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/ecd582345e155561"
@@ -15451,7 +15451,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/a172be384f63fa87"
@@ -15954,7 +15954,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/21e06c13a0d27ef7"
@@ -16156,9 +16156,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -16456,7 +16456,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/cd7a639518eb68dc"
@@ -16958,7 +16958,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/63a157a23989ef7f"
@@ -17006,9 +17006,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -17460,7 +17460,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/9dcf813a7fe39c34"
@@ -17585,9 +17585,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -17964,7 +17964,7 @@
       "bL_1h8yDEJE"
     ],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/5e5b02502083fecf"
@@ -18465,7 +18465,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/e3086df1047d6b95"
@@ -18969,7 +18969,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/a89887c5ab6cb33e"
@@ -19471,7 +19471,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/9c44c06b55b28230"
@@ -19971,7 +19971,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/da18c19db7207365"
@@ -20471,7 +20471,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/85c40b24602a902f"
@@ -20974,7 +20974,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/070dc6dfc2643451"
@@ -21476,7 +21476,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d1346eb6ec39b790"
@@ -21979,7 +21979,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/6c074f078207e2c4"
@@ -22480,7 +22480,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/1bdaaf895e46c265"
@@ -22982,7 +22982,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/bdd162d65df632fa"
@@ -23900,7 +23900,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/8878b7e40ccd2f57"
@@ -24385,7 +24385,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/11712d2eab241d6f"
@@ -24432,9 +24432,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -24886,7 +24886,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/48a1eb49e17a4ced"
@@ -25387,7 +25387,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/3f83ac0d337eb0eb"
@@ -25437,9 +25437,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -25891,7 +25891,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/28ce981c0f7ae1e3"
@@ -26392,7 +26392,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/014eb11b22d5cb8c"
@@ -26892,7 +26892,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/2fdda3b2d71e15e1"
@@ -27393,7 +27393,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f73ace5e76bcfd07"
@@ -27892,7 +27892,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/42416e3242e3364b"
@@ -28391,7 +28391,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4e532f1624e17fc5"
@@ -28890,7 +28890,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/ca3af4579a3ef5d1"
@@ -29813,7 +29813,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/48277b4dca5412d9"
@@ -30312,7 +30312,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/c05a5ef99304b3b1"
@@ -30814,7 +30814,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/12e2b417422ee0b0"
@@ -31317,7 +31317,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/b845477808016ffb"
@@ -31819,7 +31819,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/41b576292d28176d"
@@ -32320,7 +32320,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/551921795a12aec8"
@@ -33232,7 +33232,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4120748b5e1828b2"
@@ -33732,7 +33732,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/7175f79294a940e3"
@@ -34234,7 +34234,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/2c90b880e94b267e"
@@ -34733,7 +34733,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4b247968af85ddee"
@@ -35235,7 +35235,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/cc1230f156082b43"
@@ -35736,7 +35736,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/88730b01b97722f7"
@@ -36235,7 +36235,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d46adccf2185627d"
@@ -36734,7 +36734,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/59269722c6cefc32"
@@ -37235,7 +37235,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/a6aea07e3d323a43"
@@ -37739,7 +37739,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/ca4aa45ad6b5c138"
@@ -38243,7 +38243,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/774751c5dc2c4500"
@@ -39160,7 +39160,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/76a8eb391965c8ff"
@@ -39660,7 +39660,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/9afe5e3eecd37fce"
@@ -40164,7 +40164,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/517cccc3764148d6"
@@ -41137,7 +41137,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/8357eb1a95f78b5c"
@@ -41638,7 +41638,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d51a79ed613d38cd"
@@ -41684,9 +41684,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Spectrier)",
+          "value": "人馬一體",
           "value_en": "As One (Spectrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -42138,7 +42138,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/51d993da39d4171b"
@@ -42184,9 +42184,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Spectrier)",
+          "value": "人馬一體",
           "value_en": "As One (Spectrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -42638,7 +42638,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/8c859b905dbe4f35"
@@ -42685,9 +42685,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Glastrier)",
+          "value": "人馬一體",
           "value_en": "As One (Glastrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -43139,7 +43139,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/7a2f82becc2aaef5"
@@ -43641,7 +43641,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/e32bc87d44aa849d"
@@ -44140,7 +44140,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/5d164989976529c7"
@@ -44186,9 +44186,9 @@
         "nickname": null,
         "gender": null,
         "ability": {
-          "value": "As One (Spectrier)",
+          "value": "人馬一體",
           "value_en": "As One (Spectrier)",
-          "confidence": 0.7,
+          "confidence": 0.95,
           "source": "pokepaste"
         },
         "item": {
@@ -44640,7 +44640,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/15a419d0b1d9161b"
@@ -45955,7 +45955,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/0c22cef021b6376b"
@@ -46869,7 +46869,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/59e57890c2f19cba"
@@ -47368,7 +47368,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/2907a6be412ef412"
@@ -47867,7 +47867,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/47d0248b57a05191"
@@ -48366,7 +48366,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/e07b22d6d361ffbb"
@@ -48865,7 +48865,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d37ffd4bf0e3c0d9"
@@ -49367,7 +49367,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/9cd28ed04a91d69d"
@@ -49866,7 +49866,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/b88c206964323eb8"
@@ -50365,7 +50365,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/a8f669f937e00d56"
@@ -50865,7 +50865,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/3695bf3959f29b81"
@@ -51366,7 +51366,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/81d74c99772deaed"
@@ -51865,7 +51865,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/11d9f8cbf6ec1351"
@@ -52366,7 +52366,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/775a18d072bd8450"
@@ -52867,7 +52867,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/44d953d7671e3761"
@@ -53368,7 +53368,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f81fdfa88aad1dd2"
@@ -53867,7 +53867,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f0e69b0bda0f9ea6"
@@ -54367,7 +54367,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4b5da3639b43f500"
@@ -54868,7 +54868,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/76b11baf9e9aee30"
@@ -55369,7 +55369,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/1ced34f938614832"
@@ -55871,7 +55871,7 @@
       "SHYOqEX5Kns"
     ],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d299958cafff030b"
@@ -56372,7 +56372,7 @@
       "A4JhXP9Zv-I"
     ],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d2bc10260fb18053"
@@ -56904,7 +56904,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/c72b6c804a6e4cc7"
@@ -57404,7 +57404,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/0a3767d8fa0dbc34"
@@ -57904,7 +57904,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4069a99a2ba52e4e"
@@ -58404,7 +58404,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/91431c39d2c93787"
@@ -58904,7 +58904,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/801e2647c06425e6"
@@ -59404,7 +59404,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/78b85ca226493296"
@@ -59905,7 +59905,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/63d058b296a30d4e"
@@ -60405,7 +60405,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/2cae61b4107653aa"
@@ -60904,7 +60904,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/982c5e540a9aeafc"
@@ -61406,7 +61406,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/d1928cdffdc318d9"
@@ -61906,7 +61906,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/fefc413d4baa56ae"
@@ -62406,7 +62406,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f75fbb4ae3e80885"
@@ -62907,7 +62907,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/27870924e1e9053b"
@@ -63407,7 +63407,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/85e951f0715169b4"
@@ -63906,7 +63906,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/f1239153935ee31c"
@@ -64406,7 +64406,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/c98aa7dcde99b278"
@@ -64906,7 +64906,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/ff2e53766489cc2b"
@@ -65409,7 +65409,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/9b17e4ea228359b4"
@@ -65910,7 +65910,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/2b5391f4204c2b52"
@@ -66409,7 +66409,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/c8e2c7fc247d46df"
@@ -66909,7 +66909,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/cc7d554f1330a794"
@@ -67410,7 +67410,7 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
+      "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/4896cb36a74adc4b"

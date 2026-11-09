@@ -483,16 +483,19 @@
     "is_members_only": false,
     "related_video_ids": [],
     "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        273
+      ],
       "frames_used": 0,
       "pokepaste_url": "https://pokepast.es/7c3381f5d8b5781c"
     },
     "paste_text": "Shaymin-Sky @ Focus Sash  \r\nAbility: Serene Grace  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 SpA / 4 SpD / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Seed Flare  \r\n- Air Slash  \r\n- Tailwind  \r\n- Protect  \r\n\r\nLunala @ Power Herb  \r\nAbility: Shadow Shield  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Meteor Beam  \r\n- Moongeist Beam  \r\n- Dazzling Gleam  \r\n- Wide Guard  \r\n\r\nPelipper @ Covert Cloak  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Weather Ball  \r\n- Hurricane  \r\n- Wide Guard  \r\n- Protect  \r\n\r\nUrsaluna @ Assault Vest  \r\nAbility: Guts  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 204 HP / 196 Atk / 108 Def  \r\nAdamant Nature  \r\n- Earthquake  \r\n- Headlong Rush  \r\n- Shadow Claw  \r\n- Giga Impact  \r\n\r\nUrshifu-Rapid-Strike @ Choice Scarf  \r\nAbility: Unseen Fist  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 252 Atk / 4 SpD / 252 Spe  \r\nAdamant Nature  \r\n- Surging Strikes  \r\n- Close Combat  \r\n- Aqua Jet  \r\n- U-turn  \r\n\r\nRaging Bolt @ Safety Goggles  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Electric  \r\nEVs: 228 HP / 220 SpA / 60 Spe  \r\nModest Nature  \r\nIVs: 20 Atk  \r\n- Thunderbolt  \r\n- Draco Meteor  \r\n- Thunderclap  \r\n- Protect  \r\n\r\n\r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "2026-11-09 對抗式複核：paste 重抓 + @pkmn/dex / names_zh-Hant 逐欄比對，六隻 hard data 0 錯；僅補 sources.subtitle_*；notes/role_note/author 逐句對字幕無杜撰，tags hyper-offense 為標題「高速」alias 命中（邊界內、偏寬）。見 teams/_review/G_3TO_nuCgs.review.md",
     "notes": "作者為 2017 年世界冠軍 Otsubo Ryota。核心是披帶謝米的高速天恩（空氣斬 60% 畏縮、種子閃光 80% 特防 -2）搭配較慢的群體特攻手露奈雅拉：首發謝米加露奈雅拉讓對手誤以為要開空間而先點攻擊或挑釁，謝米趁機開順風，第二回合種子閃光降特防後由露奈雅拉輸出，實際上是「乍看像空間隊的順風隊」；背心月月熊配合順風地震首發並加深迷惑性。大嘴鷗改天氣、猛雷鼓蹭天氣針對故勒頓加振翼髮的晴天隊，並以太晶草、防塵鏡防蘑菇孢子；圍巾武道熊師在雨天下保證秒黑馬王、對藏瑪然特過半。弱點：劍舞阿爾宙斯加古劍豹（全隊多人弱冰或惡）、爆發火力偏低、高耐久開牆隊難打死人，且謝米雙本系技能可能 miss，操作難度較高。",
     "extracted_at": "2026-11-08T16:35:58.471Z",
     "extracted_by": "import-pokepaste-v1"
