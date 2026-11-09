@@ -41,6 +41,7 @@
 - **能力點驗算**：Lv.50 數值 = floor((2×種族值 + 31 + floor(EV/4)) × 50/100 + 5)（HP +60 不 +5），EV = 4 + 8×(點數−1)；若能驗算吻合可把 evs.confidence 提到 0.95+。總和應為 66。
 - **Mega 的特性**：隊伍表顯示的是原形特性（例：阿勃梭魯「正義之心」），Mega 後特性（例：「鋒銳」）寫進 `role_note`，ability 欄填畫面上的原形特性。
 - **守住 vs 看穿**：圖示顏色一般系灰色 = 守住、格鬥系橘色 = 看穿；放大確認。
+- **無性別的寶可夢 gender 填 `N`**（例：一家鼠、來悲粗茶、磁怪類）；型態多樣的種族看 `names_zh-Hant.json` 的 `extra.species_form_hints`。
 - **name_zh 用官方全名**（字幕常簡稱：金剛猩 → 轟擂金剛猩、鋁鋼龍 → 鋁鋼橋龍）。
 - Z-Mega 道具 `value_en` 填 `<Species>ite Z`（例：`Absolite Z`，見 names_zh-Hant.json 的 extra），confidence ≤ 0.85。
 

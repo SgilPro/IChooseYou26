@@ -30,9 +30,9 @@
     },
     "confidence": 0.98,
     "review_status": "auto",
-    "review_notes": "reviewer independent pass; team-sheet frames: f_031–f_034（能力頁）, f_035（狀態頁）；投影片 f_017/f_018（多龍種族值）、f_019（首發模式）、f_036–f_045（選出/弱點）、f_046–f_048（評分）。",
+    "review_notes": "reviewer independent pass（初版 name_en 填 Maushold＝三口之家、gender 填 null，比對後依投影片 f_001/f_038 四隻鼠及 schema enum 修正為 Maushold-Four / N）; team-sheet frames: f_031–f_034（能力頁）, f_035（狀態頁）；投影片 f_017/f_018（多龍種族值）、f_019（首發模式）、f_036–f_045（選出/弱點）、f_046–f_048（評分）。",
     "notes": "核心是廣角鏡一家鼠的鼠數兒（90.4% 命中滿 10 下）+ 技術高手；三種基本首發：一家鼠+棄世猴（指導/看我嘛）、多龍圍攻→圍巾棄世猴憤怒之拳、風妖精視情況開順風或空間。大嘴娃（大力士突襲/岩崩）與生命寶珠象牙豬為中速先制收尾手，兼 Mega 名額。能力點全隊極限配置，只有棄世猴加 9 點 HP、速度 25 點（圍巾後 202）。弱點：鼠數兒與圍攻都怕憤怒粉（狠辣椒、來悲粗茶）。評分 1.5/2.5/3.5/3.5。",
-    "extracted_at": "2026-11-09T04:32:35Z",
+    "extracted_at": "2026-11-09T04:34:39Z",
     "extracted_by": "fable-5.1/review-v1",
     "members": [
       {
@@ -40,12 +40,12 @@
         "species": {
           "dex_no": 925,
           "name_zh": "一家鼠",
-          "name_en": "Maushold",
-          "form": null,
+          "name_en": "Maushold-Four",
+          "form": "Family of Four",
           "confidence": 0.98
         },
         "nickname": "我就不揍了",
-        "gender": null,
+        "gender": "N",
         "ability": {
           "value": "技術高手",
           "value_en": "Technician",
