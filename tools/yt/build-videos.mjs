@@ -11,6 +11,10 @@ const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
 const raw = join(chDir, "raw");
 const index = JSON.parse(readFileSync(join(raw, "channel-index.json"), "utf8"));
 const errorsLog = existsSync(join(raw, "errors.log")) ? readFileSync(join(raw, "errors.log"), "utf8") : "";
+// 人工分類覆蓋（<chDir>/category-overrides.json，進版控）：{ "<id>": { category, game, reason } }
+// 規則分不出來（多半是沒有 info.json 的會員限定影片）時由人工補；category 一律覆蓋，game 只在非 null 時覆蓋
+const overridesPath = join(chDir, "category-overrides.json");
+const overrides = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, "utf8")) : {};
 
 // errors.log → id → 錯誤摘要
 const errById = new Map();
@@ -134,6 +138,7 @@ for (const rec of index.videos) {
   const subs = info ? Object.keys(info.subtitles || {}) : [];
   const uploadDate = info?.upload_date ? `${info.upload_date.slice(0, 4)}-${info.upload_date.slice(4, 6)}-${info.upload_date.slice(6, 8)}` : null;
   const pinned = pinnedComment(info);
+  const ov = overrides[rec.id];
 
   videos.push({
     id: rec.id,
@@ -151,8 +156,8 @@ for (const rec of index.videos) {
     is_members_only: isMembers,
     tab: rec.tabs || [],
     playlists: pls,
-    category: classify(rec, info),
-    game: detectGame(title, pls, uploadDate),
+    category: ov?.category ?? classify(rec, info),
+    game: ov?.game ?? detectGame(title, pls, uploadDate),
     regulation_code: detectRegulation(title),
     chapters,
     team_intro_range: teamIntroRange(chapters),
