@@ -68,12 +68,45 @@ git add $CH tools/yt && git commit -m "feat(data): ..." && git push
 - 「無法播放影片 / 這部影片目前無法播放，請稍後再試」→ **暫時性錯誤**（抓取到 2026-11-08 18:00 約 55 筆），多半是速率限制。重跑 `fetch-videos.sh` 會自動重試（沒有 info.json 的都會再抓）；若重試仍失敗，把 `--sleep-interval` 調到 8~15 再跑。
 - errors.log 跨次重跑會累積重複行；`build-videos.mjs` 以 id 去重。
 
-## 已知待辦 / 待決定
+## 待辦總表（2026-11-09 13:05 整理，接手從這裡開始）
 
-- [x] 2026-11-09：加「Champions 不早於 2026-04-08」與「專訪→chat」規則（修掉一支 2024 訪談被當 Champions 對戰）。
-- [x] 2026-11-09：95 支 unknown 以 `category-overrides.json` 人工覆蓋（全是會員限定影片，87 支對戰）。
-- [ ] 之後新影片若落入 unknown，可比照加進 overrides；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
-- [ ] tags 邊界在 v1.2 才收緊，前 3 支（Xul9 已修、9REO、qFiH）的 tags 可依 v1.2 重審。
-- [ ] `teams/_a7RrtzsMYM.json` 抽取者曾誤報影格混檔（主 agent 已查明不成立），建議列入抽樣複核。
-- [ ] 第 2 線的 Notion 遷移章節（`research/line5-platform-backend/03-notion-migration.md`）仍是推測，等第一擁有者在 Claude Code 跑 `/mcp` 授權 Notion 後讀取實際結構再補。
-- [ ] `research/line6-rag/` 內「目前在倉庫？」的數字是抓取進行到一半時統計的，抓取完後要更新。
+> 分三類：**A. 要第一擁有者動手**（我做不到）、**B. 接手 session 可直接做**（有指令）、**C. 之後的方向**（要先討論）。完成一項就打勾並 commit。
+
+### A. 需要第一擁有者
+
+- [ ] **會員限定影片（219 隊殼）**：用會員帳號照 yt-dlp wiki 匯出 `cookies.txt`（無痕視窗登入 → 開 youtube.com/robots.txt → 匯出 → 關視窗），放到 repo 外（例如 `~/cookies-yt.txt`，**不要 commit**）。然後接手 session 跑：
+  ```bash
+  CH=data/channels/fiskepokemon
+  jq -r '.[] | select(.is_members_only) | .id' $CH/videos.json > /tmp/member-ids.txt
+  tools/yt/fetch-videos.sh /tmp/member-ids.txt $CH/raw --cookies ~/cookies-yt.txt --sleep-interval 10 --max-sleep-interval 20
+  node tools/yt/build-videos.mjs $CH && node tools/yt/import-pokepaste.mjs $CH --force   # 殼會被 paste 匯入覆蓋
+  ```
+  沒有 paste 的會員影片再走影格流程（步驟 4~5）。
+- [ ] **Notion 授權**：在 Claude Code 輸入 `/mcp` 選 claude.ai Notion。之後讀兩個頁面（隊伍 DB、Pokémon SV 筆記）的實際欄位，補 `research/line5-platform-backend/03-notion-migration.md` 的對照表，並決定 D2（一次性搬家 vs 持續匯入）。
+- [ ] **關閉 Ditto 雲端 routine**（`trig_01SxgunyV3A44zHNRLCNiC6n`、`trig_01KApKAacVFDkbBqttMFnWom`）：它們建在另一個 Claude 帳號下，這個 profile 查不到。用原帳號到 https://claude.ai/code/routines 停用，或在該 profile 跑 `/schedule`。
+- [ ] **第 2 線 Action Plan 的決策 D1~D8**（`research/line5-platform-backend/00-action-plan.md`）：Supabase vs Firebase、Notion 搬家方式、會員限定隊伍公開程度、圖片來源、何時開放投稿、i18n、Game Log 與隊伍站是否同一 SPA、battle_format 欄位。
+
+### B. 接手 session 可直接做
+
+- [ ] **主表最後 4 支抓不到**：3 支私人影片放棄；1 支「無法播放」隔天再 `tools/yt/fetch-videos.sh $CH/raw/ids.txt $CH/raw --sleep-interval 15 --max-sleep-interval 30`。
+- [ ] **朱紫影格抽取的 9 隊努力值**（`extracted_by: extract-v1.3`，evs 幾乎全空）：影片後段有「努力值分配」章節（例：-OfKLGjXqEk 5:28、obqoq82GcBs 3:38），用 `prep-team-intro.mjs` 指定該章節區間抽幀再補 evs / nature。
+- [ ] **複核覆蓋率**：目前 18/136 隊 reviewed。建議再做：(a) 前 3 支 Champions 隊（9REO、qFiH）依 v1.2 tags 邊界重審；(b) `_a7RrtzsMYM`（抽取者曾誤報影格混檔）；(c) 每批 pokepaste 字幕補充抽 1 隊做忠實度稽核（目前 11/104）。稽核 prompt 範本見 git log 2026-11-09 的 Agent 任務描述或複製 `teams/_review/*.review.md` 的表格格式。
+- [ ] **tags 第二層（戰術分析）**：目前只標標題/字幕明說的概念（prompt 第三步「未來進階」）。可對 136 隊跑一次 LLM pass，依六隻配置 + notes 推 archetype / speed-control / core，寫到新欄位 `tags_analysis`（不要混進 `tags`），`tags_source: "analysis"`。
+- [ ] **新影片增量**：Fiske 每週 1~2 支。流程：`scan-channel.mjs` → `fetch-videos.sh`（只補缺） → `build-videos.mjs` → `import-pokepaste.mjs`（朱紫）或 `prep-team-intro.mjs` + 抽取 agent（Champions） → `validate` → `merge` → commit。可寫進 `scripts/daily-routine.md` 當 Ditto 每日步驟（目前 routine 沒有這段）。
+- [ ] **分類規則補強**：新影片若落入 `unknown`，加進 `category-overrides.json`；可考慮「published ≥ 2026-04-08 且標題含隊/Mega → champions/battle」規則。
+- [ ] **名稱對照表擴充**：`names_zh-Hant.json` 的 `extra` 目前只補了幾顆 Mega 石與型態提示；每次驗證器出現「不在 @pkmn/dex」或查表不一致，就把正確對照加進 extra，不要只改單一隊伍檔。
+- [ ] **validator 的 7 個 WARN**：皆為「隊上帶兩顆 Mega 石」刻意配置，可加 `review_notes` 關鍵字白名單讓驗證器不再提醒。
+- [ ] **網站**：teams.html 已有搜尋/篩選/排序；下一步可做「寶可夢頁」（點 species 看出場隊伍、常見道具/特性，資料已在 raw species 表）與「會員待補清單」頁。更大的 Phase 1 規劃見 `research/line5-platform-backend/00-action-plan.md`。
+- [ ] **RAG 線 M1 前置**：`research/line6-rag/01-pre-plan.md` 的評估集 25 題中現在可測的變多了（字幕 328 支、隊伍 136），可把「M1 可測？」欄重新標記。
+
+### C. 之後的方向（先討論再做）
+
+- [ ] 其他頻道：同一套工具只要換 handle（`scan-channel.mjs @xxx`）；但隊伍介紹段的畫面與 pokepaste 習慣因頻道而異，抽取 prompt 需要針對新頻道試跑一支再調。
+- [ ] 官方比賽解說影片（90 支）：裡面有賽事隊伍（OTS），是另一種實體（選手的賽事隊伍而非創作者介紹隊），要不要納入、schema 怎麼標 `source: tournament`。
+- [ ] 直播與週末盃（51 + 39 支）：隊伍資訊零散，價值低，暫不處理。
+- [ ] Game Log 原型（app/）自 6 月後未動；與隊伍資料站整合見第 2 線 D7。
+
+### 已完成（供查證）
+
+- [x] 2026-11-09：Champions 不早於 2026-04-08、專訪→chat 分類規則；95 支 unknown 人工覆蓋。
+- [x] 2026-11-09：RAG 語料清單數字更新；Reg G 2025 再登場補進參照表；分型特性英文名回填；author 正規化與主表回填。
