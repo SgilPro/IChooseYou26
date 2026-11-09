@@ -1,7 +1,7 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-09 05:30（公開對戰影片全部處理完；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+> 最後更新：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
 ## 現況（2026-11-08 17:30）
 
@@ -11,9 +11,9 @@
 | 逐支 metadata / 字幕抓取 | ✅ 401/679 完整、275 會員限定、4 抓不到（3 私人影片 + 1） |
 | 主表 videos.json / csv | 🟡 已可產出（規則式分類），抓取完要**重跑** | `videos.json`、`videos.csv` |
 | Champions 公開對戰影片（23 支）隊伍介紹段素材 | ⏳ 背景跑中（約 12/23 完成） | `intro/<id>.zh-TW.txt`、`frames/<id>/` |
-| 隊伍抽取 teams/<id>.json | ✅ 公開對戰影片全部完成：Champions 22（影格+字幕 LLM）、朱紫 104（pokepaste 匯入 + 字幕補充）+ 9（影格 LLM，無 paste）；⬜ 會員限定 132 隊只有殼 | `teams/*.json` |
-| 對抗式複核 | 🟡 1/22 做了獨立再抽取（99% 一致）；其餘靠機械驗證。建議再抽 3~4 支複核 | `teams/_review/` |
-| 合併 teams.json / csv | ✅ 268 隊（136 有六隻 / 132 殼）；每次異動後重跑 | `teams.json`、`teams.csv` |
+| 隊伍抽取 teams/<id>.json | ✅ 公開對戰影片全部完成（136 隊）；⬜ 會員限定 219 隊只有殼（含 95 支原 unknown 經人工覆蓋分類後新增的 87 支） | `teams/*.json` |
+| 對抗式複核 | ✅ 5/136 做了獨立再抽取或重抓 paste 比對（Xul9、rZtd、ysCC、Q4nj、G_3T；硬資料一致率 99~100%，不一致皆在審查方）；其餘靠機械驗證 | `teams/_review/` |
+| 合併 teams.json / csv | ✅ 355 隊（136 有六隻 / 219 會員殼）、816 隻；每次異動後重跑 | `teams.json`、`teams.csv` |
 | 會員限定影片（~96 支）殼記錄 | ⬜ 未做 | 見下「會員影片」 |
 
 ## 接手步驟（照順序敲）
@@ -71,7 +71,8 @@ git add $CH tools/yt && git commit -m "feat(data): ..." && git push
 ## 已知待辦 / 待決定
 
 - [x] 2026-11-09：加「Champions 不早於 2026-04-08」與「專訪→chat」規則（修掉一支 2024 訪談被當 Champions 對戰）。
-- [ ] `build-videos.mjs` 對沒進播放清單的 ~95 支影片分類為 `unknown`；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
+- [x] 2026-11-09：95 支 unknown 以 `category-overrides.json` 人工覆蓋（全是會員限定影片，87 支對戰）。
+- [ ] 之後新影片若落入 unknown，可比照加進 overrides；可加「published ≥ 2026-04-08 且標題像對戰 → champions/battle」規則，或用 LLM 補分類。
 - [ ] tags 邊界在 v1.2 才收緊，前 3 支（Xul9 已修、9REO、qFiH）的 tags 可依 v1.2 重審。
 - [ ] `teams/_a7RrtzsMYM.json` 抽取者曾誤報影格混檔（主 agent 已查明不成立），建議列入抽樣複核。
 - [ ] 第 2 線的 Notion 遷移章節（`research/line5-platform-backend/03-notion-migration.md`）仍是推測，等第一擁有者在 Claude Code 跑 `/mcp` 授權 Notion 後讀取實際結構再補。
