@@ -67,6 +67,9 @@
     details.raw summary { cursor: pointer; padding: 12px 16px; font-weight: 600; font-size: 15px; list-style: none; display: flex; justify-content: space-between; }
     details.raw summary::after { content: "展開 ▸"; font-weight: 400; font-size: 12px; color: var(--ink-soft); }
     details.raw[open] summary::after { content: "收合 ▾"; }
+    #progress { margin: 8px 0 4px; }
+    .progress-body { padding: 4px 16px 16px; }
+    .progress-body .lede { margin-top: 0; }
     details.raw summary small { color: var(--ink-soft); font-weight: 400; margin-left: 8px; }
     .tbl-wrap { overflow-x: auto; padding: 0 16px 16px; }
     table.raw { border-collapse: collapse; font-size: 12px; white-space: nowrap; min-width: 100%; }
@@ -102,13 +105,17 @@
   <div class="wrap">
     <div class="crumbs"><a href="./">Live Docs</a> › 頻道資料線 › Fiske Pokémon</div>
     <h1>Fiske Pokémon 頻道 → 影片主表 + 隊伍資料庫</h1>
+    <details class="raw" id="progress"><summary>資料說明與進度<small>影片主表、隊伍抽取進度（點開查看）</small></summary>
+      <div class="progress-body">
     <p class="lede">把一個 YouTube 雙打對戰頻道的影片自動整理成兩張表：<strong>每支影片的基本資料</strong>，以及<strong>對戰影片介紹的隊伍六隻與配置</strong>。下面是目前進度與已抽出的隊伍，資料直接從 repo 的 JSON 讀取，每次 push 自動更新。</p>
 
     <div id="status"></div>
     <div class="tiles" id="tiles"></div>
     <div class="bars" id="bars"></div>
+      </div>
+    </details>
 
-    <h2>已抽取的隊伍</h2>
+    <h2 style="margin-top:18px">已抽取的隊伍</h2>
     <div class="toolbar" id="toolbar">
       <input class="q" id="f-q" type="search" placeholder="搜尋隊伍：隊名、寶可夢、作者、標題" autocomplete="off" aria-label="搜尋隊伍" />
       <label>遊戲 <select id="f-game"><option value="">全部</option><option value="champions">Champions</option><option value="sv">朱紫</option></select></label>
