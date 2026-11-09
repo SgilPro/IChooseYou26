@@ -62,7 +62,8 @@ function checkField(where, f, table, label) {
     const exp = expectedEn(table, f.value);
     // 比對用 Showdown 式 id（去掉非英數，忽略彎/直引號差異，如 Dragon’s Maw vs Dragon's Maw）
     const toId = (x) => String(x).toLowerCase().replace(/[^a-z0-9]/g, "");
-    if (exp && toId(exp) !== toId(f.value_en)) err(`${where}: ${label}「${f.value}」查表應為「${exp}」，但填了「${f.value_en}」`);
+    // Showdown 對同名特性有分型（例：As One (Glastrier) / As One (Spectrier)），接受「以查表名開頭」
+    if (exp && toId(exp) !== toId(f.value_en) && !toId(f.value_en).startsWith(toId(exp))) err(`${where}: ${label}「${f.value}」查表應為「${exp}」，但填了「${f.value_en}」`);
   }
   if (f.value_en) {
     const x = dex[table].get(f.value_en);
