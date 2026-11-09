@@ -1,0 +1,150 @@
+{
+  "source": "https://wiki.52poke.com/wiki/水（属性） 內嵌 CSS（2026-11-09 取得）",
+  "note": "color 為 52poke 屬性標籤底色（取自頁面內嵌 CSS）；icon 來自 PokeAPI sprites 的朱紫版：icon_name 含屬性名稱的標籤圖，icon_symbol 為小圖示。",
+  "types": [
+    {
+      "id": "normal",
+      "name_zh_hant": "一般",
+      "name_zh_hans": "一般",
+      "color": "#9fa19f",
+      "icon_name": "icons/name/normal.png",
+      "icon_symbol": "icons/symbol/normal.png"
+    },
+    {
+      "id": "fighting",
+      "name_zh_hant": "格鬥",
+      "name_zh_hans": "格斗",
+      "color": "#ff8000",
+      "icon_name": "icons/name/fighting.png",
+      "icon_symbol": "icons/symbol/fighting.png"
+    },
+    {
+      "id": "flying",
+      "name_zh_hant": "飛行",
+      "name_zh_hans": "飞行",
+      "color": "#81b9ef",
+      "icon_name": "icons/name/flying.png",
+      "icon_symbol": "icons/symbol/flying.png"
+    },
+    {
+      "id": "poison",
+      "name_zh_hant": "毒",
+      "name_zh_hans": "毒",
+      "color": "#9141cb",
+      "icon_name": "icons/name/poison.png",
+      "icon_symbol": "icons/symbol/poison.png"
+    },
+    {
+      "id": "ground",
+      "name_zh_hant": "地面",
+      "name_zh_hans": "地面",
+      "color": "#915121",
+      "icon_name": "icons/name/ground.png",
+      "icon_symbol": "icons/symbol/ground.png"
+    },
+    {
+      "id": "rock",
+      "name_zh_hant": "岩石",
+      "name_zh_hans": "岩石",
+      "color": "#afa981",
+      "icon_name": "icons/name/rock.png",
+      "icon_symbol": "icons/symbol/rock.png"
+    },
+    {
+      "id": "bug",
+      "name_zh_hant": "蟲",
+      "name_zh_hans": "虫",
+      "color": "#91a119",
+      "icon_name": "icons/name/bug.png",
+      "icon_symbol": "icons/symbol/bug.png"
+    },
+    {
+      "id": "ghost",
+      "name_zh_hant": "幽靈",
+      "name_zh_hans": "幽灵",
+      "color": "#704170",
+      "icon_name": "icons/name/ghost.png",
+      "icon_symbol": "icons/symbol/ghost.png"
+    },
+    {
+      "id": "steel",
+      "name_zh_hant": "鋼",
+      "name_zh_hans": "钢",
+      "color": "#60a1b8",
+      "icon_name": "icons/name/steel.png",
+      "icon_symbol": "icons/symbol/steel.png"
+    },
+    {
+      "id": "fire",
+      "name_zh_hant": "火",
+      "name_zh_hans": "火",
+      "color": "#e62829",
+      "icon_name": "icons/name/fire.png",
+      "icon_symbol": "icons/symbol/fire.png"
+    },
+    {
+      "id": "water",
+      "name_zh_hant": "水",
+      "name_zh_hans": "水",
+      "color": "#2980ef",
+      "icon_name": "icons/name/water.png",
+      "icon_symbol": "icons/symbol/water.png"
+    },
+    {
+      "id": "grass",
+      "name_zh_hant": "草",
+      "name_zh_hans": "草",
+      "color": "#3fa129",
+      "icon_name": "icons/name/grass.png",
+      "icon_symbol": "icons/symbol/grass.png"
+    },
+    {
+      "id": "electric",
+      "name_zh_hant": "電",
+      "name_zh_hans": "电",
+      "color": "#fac000",
+      "icon_name": "icons/name/electric.png",
+      "icon_symbol": "icons/symbol/electric.png"
+    },
+    {
+      "id": "psychic",
+      "name_zh_hant": "超能力",
+      "name_zh_hans": "超能力",
+      "color": "#ef4179",
+      "icon_name": "icons/name/psychic.png",
+      "icon_symbol": "icons/symbol/psychic.png"
+    },
+    {
+      "id": "ice",
+      "name_zh_hant": "冰",
+      "name_zh_hans": "冰",
+      "color": "#3fd8ff",
+      "icon_name": "icons/name/ice.png",
+      "icon_symbol": "icons/symbol/ice.png"
+    },
+    {
+      "id": "dragon",
+      "name_zh_hant": "龍",
+      "name_zh_hans": "龙",
+      "color": "#5060e1",
+      "icon_name": "icons/name/dragon.png",
+      "icon_symbol": "icons/symbol/dragon.png"
+    },
+    {
+      "id": "dark",
+      "name_zh_hant": "惡",
+      "name_zh_hans": "恶",
+      "color": "#50413f",
+      "icon_name": "icons/name/dark.png",
+      "icon_symbol": "icons/symbol/dark.png"
+    },
+    {
+      "id": "fairy",
+      "name_zh_hant": "妖精",
+      "name_zh_hans": "妖精",
+      "color": "#ef70ef",
+      "icon_name": "icons/name/fairy.png",
+      "icon_symbol": "icons/symbol/fairy.png"
+    }
+  ]
+}

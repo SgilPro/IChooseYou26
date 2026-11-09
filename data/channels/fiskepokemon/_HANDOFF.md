@@ -82,13 +82,13 @@ git add $CH tools/yt && git commit -m "feat(data): ..." && git push
   node tools/yt/build-videos.mjs $CH && node tools/yt/import-pokepaste.mjs $CH --force   # 殼會被 paste 匯入覆蓋
   ```
   沒有 paste 的會員影片再走影格流程（步驟 4~5）。
-- [ ] **Notion 授權**：在 Claude Code 輸入 `/mcp` 選 claude.ai Notion。之後讀兩個頁面（隊伍 DB、Pokémon SV 筆記）的實際欄位，補 `research/line5-platform-backend/03-notion-migration.md` 的對照表，並決定 D2（一次性搬家 vs 持續匯入）。
-- [ ] **關閉 Ditto 雲端 routine**（`trig_01SxgunyV3A44zHNRLCNiC6n`、`trig_01KApKAacVFDkbBqttMFnWom`）：它們建在另一個 Claude 帳號下，這個 profile 查不到。用原帳號到 https://claude.ai/code/routines 停用，或在該 profile 跑 `/schedule`。
+- [x] **Notion 已讀取**（2026-11-09）：欄位對照與重疊分析寫在 `research/line5-platform-backend/03-notion-migration.md` 第七節。SV 24 隊中 18 隊是 Fiske 影片（已在主表），只有 6 隊原創 + Champions 4 筆是 Notion 獨有。**D2 建議：一次性搬家 + Notion 封存**，待第一擁有者拍板。
+- [x] **關閉 Ditto 雲端 routine**（2026-11-09 確認）：兩個 trigger（`trig_01SxgunyV3A44zHNRLCNiC6n`、`trig_01KApKAacVFDkbBqttMFnWom`）在兩個帳號都查不到，判定已刪除，不需處理。
 - [ ] **第 2 線 Action Plan 的決策 D1~D8**（`research/line5-platform-backend/00-action-plan.md`）：Supabase vs Firebase、Notion 搬家方式、會員限定隊伍公開程度、圖片來源、何時開放投稿、i18n、Game Log 與隊伍站是否同一 SPA、battle_format 欄位。
 
 ### B. 接手 session 可直接做
 
-- [ ] **主表最後 4 支抓不到**：3 支私人影片放棄；1 支「無法播放」隔天再 `tools/yt/fetch-videos.sh $CH/raw/ids.txt $CH/raw --sleep-interval 15 --max-sleep-interval 30`。
+- [x] **主表最後 4 支抓不到**（2026-11-09 確認為永久性，放棄）：3 支私人影片（1PwvZF-_gAI、bWN3Zr7jz4k、LM5xf-yA8uc）、1 支「已由上傳者移除」（jftZDwsxBhc）。不需再重試。
 - [ ] **朱紫影格抽取的 9 隊努力值**（`extracted_by: extract-v1.3`，evs 幾乎全空）：影片後段有「努力值分配」章節（例：-OfKLGjXqEk 5:28、obqoq82GcBs 3:38），用 `prep-team-intro.mjs` 指定該章節區間抽幀再補 evs / nature。
 - [ ] **複核覆蓋率**：目前 18/136 隊 reviewed。建議再做：(a) 前 3 支 Champions 隊（9REO、qFiH）依 v1.2 tags 邊界重審；(b) `_a7RrtzsMYM`（抽取者曾誤報影格混檔）；(c) 每批 pokepaste 字幕補充抽 1 隊做忠實度稽核（目前 11/104）。稽核 prompt 範本見 git log 2026-11-09 的 Agent 任務描述或複製 `teams/_review/*.review.md` 的表格格式。
 - [ ] **tags 第二層（戰術分析）**：目前只標標題/字幕明說的概念（prompt 第三步「未來進階」）。可對 136 隊跑一次 LLM pass，依六隻配置 + notes 推 archetype / speed-control / core，寫到新欄位 `tags_analysis`（不要混進 `tags`），`tags_source: "analysis"`。

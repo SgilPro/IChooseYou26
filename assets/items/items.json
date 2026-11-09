@@ -1,0 +1,2562 @@
+[
+ {
+  "id": "flame-orb",
+  "category": "bad-held-items",
+  "name_en": "Flame Orb",
+  "name_zh_hant": "火焰寶珠",
+  "name_zh_hans": "火焰宝珠",
+  "icon": "icons/flame-orb.png"
+ },
+ {
+  "id": "full-incense",
+  "category": "bad-held-items",
+  "name_en": "Full Incense",
+  "name_zh_hant": "飽腹薰香",
+  "name_zh_hans": "饱腹薰香",
+  "icon": "icons/full-incense.png"
+ },
+ {
+  "id": "iron-ball",
+  "category": "bad-held-items",
+  "name_en": "Iron Ball",
+  "name_zh_hant": "黑色鐵球",
+  "name_zh_hans": "黑色铁球",
+  "icon": "icons/iron-ball.png"
+ },
+ {
+  "id": "lagging-tail",
+  "category": "bad-held-items",
+  "name_en": "Lagging Tail",
+  "name_zh_hant": "後攻之尾",
+  "name_zh_hans": "后攻之尾",
+  "icon": "icons/lagging-tail.png"
+ },
+ {
+  "id": "sticky-barb",
+  "category": "bad-held-items",
+  "name_en": "Sticky Barb",
+  "name_zh_hant": "附著針",
+  "name_zh_hans": "附着针",
+  "icon": "icons/sticky-barb.png"
+ },
+ {
+  "id": "toxic-orb",
+  "category": "bad-held-items",
+  "name_en": "Toxic Orb",
+  "name_zh_hant": "劇毒寶珠",
+  "name_zh_hans": "剧毒宝珠",
+  "icon": "icons/toxic-orb.png"
+ },
+ {
+  "id": "aspear-berry",
+  "category": "berry-other",
+  "name_en": "Aspear Berry",
+  "name_zh_hant": "利木果",
+  "name_zh_hans": "利木果",
+  "icon": "icons/aspear-berry.png"
+ },
+ {
+  "id": "cheri-berry",
+  "category": "berry-other",
+  "name_en": "Cheri Berry",
+  "name_zh_hant": "櫻子果",
+  "name_zh_hans": "樱子果",
+  "icon": "icons/cheri-berry.png"
+ },
+ {
+  "id": "chesto-berry",
+  "category": "berry-other",
+  "name_en": "Chesto Berry",
+  "name_zh_hant": "零餘果",
+  "name_zh_hans": "零余果",
+  "icon": "icons/chesto-berry.png"
+ },
+ {
+  "id": "enigma-berry",
+  "category": "berry-other",
+  "name_en": "Enigma Berry",
+  "name_zh_hant": "謎芝果",
+  "name_zh_hans": "谜芝果",
+  "icon": "icons/enigma-berry.png"
+ },
+ {
+  "id": "jaboca-berry",
+  "category": "berry-other",
+  "name_en": "Jaboca Berry",
+  "name_zh_hant": "嘉珍果",
+  "name_zh_hans": "嘉珍果",
+  "icon": "icons/jaboca-berry.png"
+ },
+ {
+  "id": "leppa-berry",
+  "category": "berry-other",
+  "name_en": "Leppa Berry",
+  "name_zh_hant": "蘋野果",
+  "name_zh_hans": "苹野果",
+  "icon": "icons/leppa-berry.png"
+ },
+ {
+  "id": "lum-berry",
+  "category": "berry-other",
+  "name_en": "Lum Berry",
+  "name_zh_hant": "木子果",
+  "name_zh_hans": "木子果",
+  "icon": "icons/lum-berry.png"
+ },
+ {
+  "id": "oran-berry",
+  "category": "berry-other",
+  "name_en": "Oran Berry",
+  "name_zh_hant": "橙橙果",
+  "name_zh_hans": "橙橙果",
+  "icon": "icons/oran-berry.png"
+ },
+ {
+  "id": "pecha-berry",
+  "category": "berry-other",
+  "name_en": "Pecha Berry",
+  "name_zh_hant": "桃桃果",
+  "name_zh_hans": "桃桃果",
+  "icon": "icons/pecha-berry.png"
+ },
+ {
+  "id": "persim-berry",
+  "category": "berry-other",
+  "name_en": "Persim Berry",
+  "name_zh_hant": "柿仔果",
+  "name_zh_hans": "柿仔果",
+  "icon": "icons/persim-berry.png"
+ },
+ {
+  "id": "rawst-berry",
+  "category": "berry-other",
+  "name_en": "Rawst Berry",
+  "name_zh_hant": "莓莓果",
+  "name_zh_hans": "莓莓果",
+  "icon": "icons/rawst-berry.png"
+ },
+ {
+  "id": "rowap-berry",
+  "category": "berry-other",
+  "name_en": "Rowap Berry",
+  "name_zh_hant": "霧蓮果",
+  "name_zh_hans": "雾莲果",
+  "icon": "icons/rowap-berry.png"
+ },
+ {
+  "id": "sitrus-berry",
+  "category": "berry-other",
+  "name_en": "Sitrus Berry",
+  "name_zh_hant": "文柚果",
+  "name_zh_hans": "文柚果",
+  "icon": "icons/sitrus-berry.png"
+ },
+ {
+  "id": "choice-band",
+  "category": "choice",
+  "name_en": "Choice Band",
+  "name_zh_hant": "講究頭帶",
+  "name_zh_hans": "讲究头带",
+  "icon": "icons/choice-band.png"
+ },
+ {
+  "id": "choice-scarf",
+  "category": "choice",
+  "name_en": "Choice Scarf",
+  "name_zh_hant": "講究圍巾",
+  "name_zh_hans": "讲究围巾",
+  "icon": "icons/choice-scarf.png"
+ },
+ {
+  "id": "choice-specs",
+  "category": "choice",
+  "name_en": "Choice Specs",
+  "name_zh_hant": "講究眼鏡",
+  "name_zh_hans": "讲究眼镜",
+  "icon": "icons/choice-specs.png"
+ },
+ {
+  "id": "ability-shield",
+  "category": "held-items",
+  "name_en": "Ability Shield",
+  "name_zh_hant": "特性護具",
+  "name_zh_hans": "特性护具",
+  "icon": "icons/ability-shield.png"
+ },
+ {
+  "id": "absorb-bulb",
+  "category": "held-items",
+  "name_en": "Absorb Bulb",
+  "name_zh_hant": "球根",
+  "name_zh_hans": "球根",
+  "icon": "icons/absorb-bulb.png"
+ },
+ {
+  "id": "adrenaline-orb",
+  "category": "held-items",
+  "name_en": "Adrenaline Orb",
+  "name_zh_hant": "膽怯球",
+  "name_zh_hans": "胆怯球",
+  "icon": "icons/adrenaline-orb.png"
+ },
+ {
+  "id": "air-balloon",
+  "category": "held-items",
+  "name_en": "Air Balloon",
+  "name_zh_hant": "氣球",
+  "name_zh_hans": "气球",
+  "icon": "icons/air-balloon.png"
+ },
+ {
+  "id": "assault-vest",
+  "category": "held-items",
+  "name_en": "Assault Vest",
+  "name_zh_hant": "突擊背心",
+  "name_zh_hans": "突击背心",
+  "icon": "icons/assault-vest.png"
+ },
+ {
+  "id": "big-root",
+  "category": "held-items",
+  "name_en": "Big Root",
+  "name_zh_hant": "大根莖",
+  "name_zh_hans": "大根茎",
+  "icon": "icons/big-root.png"
+ },
+ {
+  "id": "binding-band",
+  "category": "held-items",
+  "name_en": "Binding Band",
+  "name_zh_hant": "緊綁束帶",
+  "name_zh_hans": "紧绑束带",
+  "icon": "icons/binding-band.png"
+ },
+ {
+  "id": "black-sludge",
+  "category": "held-items",
+  "name_en": "Black Sludge",
+  "name_zh_hant": "黑色污泥",
+  "name_zh_hans": "黑色污泥",
+  "icon": "icons/black-sludge.png"
+ },
+ {
+  "id": "blunder-policy",
+  "category": "held-items",
+  "name_en": "Blunder Policy",
+  "name_zh_hant": "打空保險",
+  "name_zh_hans": "打空保险",
+  "icon": "icons/blunder-policy.png"
+ },
+ {
+  "id": "booster-energy",
+  "category": "held-items",
+  "name_en": "Booster Energy",
+  "name_zh_hant": "驅勁能量",
+  "name_zh_hans": "驱劲能量",
+  "icon": "icons/booster-energy.png"
+ },
+ {
+  "id": "bright-powder",
+  "category": "held-items",
+  "name_en": "Bright Powder",
+  "name_zh_hant": "光粉",
+  "name_zh_hans": "光粉",
+  "icon": "icons/bright-powder.png"
+ },
+ {
+  "id": "cell-battery",
+  "category": "held-items",
+  "name_en": "Cell Battery",
+  "name_zh_hant": "充電電池",
+  "name_zh_hans": "充电电池",
+  "icon": "icons/cell-battery.png"
+ },
+ {
+  "id": "clear-amulet",
+  "category": "held-items",
+  "name_en": "Clear Amulet",
+  "name_zh_hant": "清淨墜飾",
+  "name_zh_hans": "清净坠饰",
+  "icon": "icons/clear-amulet.png"
+ },
+ {
+  "id": "cornerstone-mask",
+  "category": "held-items",
+  "name_en": "Cornerstone Mask",
+  "name_zh_hant": "礎石面具",
+  "name_zh_hans": "础石面具",
+  "icon": "icons/cornerstone-mask.png"
+ },
+ {
+  "id": "covert-cloak",
+  "category": "held-items",
+  "name_en": "Covert Cloak",
+  "name_zh_hant": "密探斗篷",
+  "name_zh_hans": "密探斗篷",
+  "icon": "icons/covert-cloak.png"
+ },
+ {
+  "id": "damp-rock",
+  "category": "held-items",
+  "name_en": "Damp Rock",
+  "name_zh_hant": "潮濕岩石",
+  "name_zh_hans": "潮湿岩石",
+  "icon": "icons/damp-rock.png"
+ },
+ {
+  "id": "destiny-knot",
+  "category": "held-items",
+  "name_en": "Destiny Knot",
+  "name_zh_hant": "紅線",
+  "name_zh_hans": "红线",
+  "icon": "icons/destiny-knot.png"
+ },
+ {
+  "id": "eject-button",
+  "category": "held-items",
+  "name_en": "Eject Button",
+  "name_zh_hant": "逃脫按鍵",
+  "name_zh_hans": "逃脱按键",
+  "icon": "icons/eject-button.png"
+ },
+ {
+  "id": "eject-pack",
+  "category": "held-items",
+  "name_en": "Eject Pack",
+  "name_zh_hant": "避難背包",
+  "name_zh_hans": "避难背包",
+  "icon": "icons/eject-pack.png"
+ },
+ {
+  "id": "electric-seed",
+  "category": "held-items",
+  "name_en": "Electric Seed",
+  "name_zh_hant": "電氣種子",
+  "name_zh_hans": "电气种子",
+  "icon": "icons/electric-seed.png"
+ },
+ {
+  "id": "eviolite",
+  "category": "held-items",
+  "name_en": "Eviolite",
+  "name_zh_hant": "進化奇石",
+  "name_zh_hans": "进化奇石",
+  "icon": "icons/eviolite.png"
+ },
+ {
+  "id": "expert-belt",
+  "category": "held-items",
+  "name_en": "Expert Belt",
+  "name_zh_hant": "達人帶",
+  "name_zh_hans": "达人带",
+  "icon": "icons/expert-belt.png"
+ },
+ {
+  "id": "fairy-feather",
+  "category": "held-items",
+  "name_en": "Fairy Feather",
+  "name_zh_hant": "妖精之羽",
+  "name_zh_hans": "妖精之羽",
+  "icon": "icons/fairy-feather.png"
+ },
+ {
+  "id": "float-stone",
+  "category": "held-items",
+  "name_en": "Float Stone",
+  "name_zh_hant": "輕石",
+  "name_zh_hans": "轻石",
+  "icon": "icons/float-stone.png"
+ },
+ {
+  "id": "focus-band",
+  "category": "held-items",
+  "name_en": "Focus Band",
+  "name_zh_hant": "氣勢頭帶",
+  "name_zh_hans": "气势头带",
+  "icon": "icons/focus-band.png"
+ },
+ {
+  "id": "focus-sash",
+  "category": "held-items",
+  "name_en": "Focus Sash",
+  "name_zh_hant": "氣勢披帶",
+  "name_zh_hans": "气势披带",
+  "icon": "icons/focus-sash.png"
+ },
+ {
+  "id": "grassy-seed",
+  "category": "held-items",
+  "name_en": "Grassy Seed",
+  "name_zh_hant": "青草種子",
+  "name_zh_hans": "青草种子",
+  "icon": "icons/grassy-seed.png"
+ },
+ {
+  "id": "grip-claw",
+  "category": "held-items",
+  "name_en": "Grip Claw",
+  "name_zh_hant": "緊纏鉤爪",
+  "name_zh_hans": "紧缠钩爪",
+  "icon": "icons/grip-claw.png"
+ },
+ {
+  "id": "hearthflame-mask",
+  "category": "held-items",
+  "name_en": "Hearthflame Mask",
+  "name_zh_hant": "火灶面具",
+  "name_zh_hans": "火灶面具",
+  "icon": "icons/hearthflame-mask.png"
+ },
+ {
+  "id": "heat-rock",
+  "category": "held-items",
+  "name_en": "Heat Rock",
+  "name_zh_hant": "熾熱岩石",
+  "name_zh_hans": "炽热岩石",
+  "icon": "icons/heat-rock.png"
+ },
+ {
+  "id": "heavy-duty-boots",
+  "category": "held-items",
+  "name_en": "Heavy-Duty Boots",
+  "name_zh_hant": "厚底靴",
+  "name_zh_hans": "厚底靴",
+  "icon": "icons/heavy-duty-boots.png"
+ },
+ {
+  "id": "icy-rock",
+  "category": "held-items",
+  "name_en": "Icy Rock",
+  "name_zh_hant": "冰冷岩石",
+  "name_zh_hans": "冰冷岩石",
+  "icon": "icons/icy-rock.png"
+ },
+ {
+  "id": "kings-rock",
+  "category": "held-items",
+  "name_en": "King’s Rock",
+  "name_zh_hant": "王者之證",
+  "name_zh_hans": "王者之证",
+  "icon": "icons/kings-rock.png"
+ },
+ {
+  "id": "lax-incense",
+  "category": "held-items",
+  "name_en": "Lax Incense",
+  "name_zh_hant": "悠閒薰香",
+  "name_zh_hans": "悠闲薰香",
+  "icon": "icons/lax-incense.png"
+ },
+ {
+  "id": "leftovers",
+  "category": "held-items",
+  "name_en": "Leftovers",
+  "name_zh_hant": "吃剩的東西",
+  "name_zh_hans": "吃剩的东西",
+  "icon": "icons/leftovers.png"
+ },
+ {
+  "id": "life-orb",
+  "category": "held-items",
+  "name_en": "Life Orb",
+  "name_zh_hant": "生命寶珠",
+  "name_zh_hans": "生命宝珠",
+  "icon": "icons/life-orb.png"
+ },
+ {
+  "id": "light-clay",
+  "category": "held-items",
+  "name_en": "Light Clay",
+  "name_zh_hant": "光之黏土",
+  "name_zh_hans": "光之黏土",
+  "icon": "icons/light-clay.png"
+ },
+ {
+  "id": "loaded-dice",
+  "category": "held-items",
+  "name_en": "Loaded Dice",
+  "name_zh_hant": "老千骰子",
+  "name_zh_hans": "机变骰子",
+  "icon": "icons/loaded-dice.png"
+ },
+ {
+  "id": "luminous-moss",
+  "category": "held-items",
+  "name_en": "Luminous Moss",
+  "name_zh_hant": "光苔",
+  "name_zh_hans": "光苔",
+  "icon": "icons/luminous-moss.png"
+ },
+ {
+  "id": "mental-herb",
+  "category": "held-items",
+  "name_en": "Mental Herb",
+  "name_zh_hant": "心靈香草",
+  "name_zh_hans": "心灵香草",
+  "icon": "icons/mental-herb.png"
+ },
+ {
+  "id": "metronome",
+  "category": "held-items",
+  "name_en": "Metronome",
+  "name_zh_hant": "節拍器",
+  "name_zh_hans": "节拍器",
+  "icon": "icons/metronome.png"
+ },
+ {
+  "id": "mirror-herb",
+  "category": "held-items",
+  "name_en": "Mirror Herb",
+  "name_zh_hant": "模仿香草",
+  "name_zh_hans": "模仿香草",
+  "icon": "icons/mirror-herb.png"
+ },
+ {
+  "id": "misty-seed",
+  "category": "held-items",
+  "name_en": "Misty Seed",
+  "name_zh_hant": "薄霧種子",
+  "name_zh_hans": "薄雾种子",
+  "icon": "icons/misty-seed.png"
+ },
+ {
+  "id": "muscle-band",
+  "category": "held-items",
+  "name_en": "Muscle Band",
+  "name_zh_hant": "力量頭帶",
+  "name_zh_hans": "力量头带",
+  "icon": "icons/muscle-band.png"
+ },
+ {
+  "id": "pass-orb",
+  "category": "held-items",
+  "name_en": "Pass Orb",
+  "name_zh_hant": "釋出之玉",
+  "name_zh_hans": "释出之玉",
+  "icon": "icons/pass-orb.png"
+ },
+ {
+  "id": "power-herb",
+  "category": "held-items",
+  "name_en": "Power Herb",
+  "name_zh_hant": "強力香草",
+  "name_zh_hans": "强力香草",
+  "icon": "icons/power-herb.png"
+ },
+ {
+  "id": "protective-pads",
+  "category": "held-items",
+  "name_en": "Protective Pads",
+  "name_zh_hant": "部位護具",
+  "name_zh_hans": "部位护具",
+  "icon": "icons/protective-pads.png"
+ },
+ {
+  "id": "psychic-seed",
+  "category": "held-items",
+  "name_en": "Psychic Seed",
+  "name_zh_hant": "精神種子",
+  "name_zh_hans": "精神种子",
+  "icon": "icons/psychic-seed.png"
+ },
+ {
+  "id": "punching-glove",
+  "category": "held-items",
+  "name_en": "Punching Glove",
+  "name_zh_hant": "拳擊手套",
+  "name_zh_hans": "拳击手套",
+  "icon": "icons/punching-glove.png"
+ },
+ {
+  "id": "quick-claw",
+  "category": "held-items",
+  "name_en": "Quick Claw",
+  "name_zh_hant": "先制之爪",
+  "name_zh_hans": "先制之爪",
+  "icon": "icons/quick-claw.png"
+ },
+ {
+  "id": "razor-claw",
+  "category": "held-items",
+  "name_en": "Razor Claw",
+  "name_zh_hant": "銳利之爪",
+  "name_zh_hans": "锐利之爪",
+  "icon": "icons/razor-claw.png"
+ },
+ {
+  "id": "razor-fang",
+  "category": "held-items",
+  "name_en": "Razor Fang",
+  "name_zh_hant": "銳利之牙",
+  "name_zh_hans": "锐利之牙",
+  "icon": "icons/razor-fang.png"
+ },
+ {
+  "id": "red-card",
+  "category": "held-items",
+  "name_en": "Red Card",
+  "name_zh_hant": "紅牌",
+  "name_zh_hans": "红牌",
+  "icon": "icons/red-card.png"
+ },
+ {
+  "id": "ring-target",
+  "category": "held-items",
+  "name_en": "Ring Target",
+  "name_zh_hant": "標靶",
+  "name_zh_hans": "标靶",
+  "icon": "icons/ring-target.png"
+ },
+ {
+  "id": "rocky-helmet",
+  "category": "held-items",
+  "name_en": "Rocky Helmet",
+  "name_zh_hant": "凸凸頭盔",
+  "name_zh_hans": "凸凸头盔",
+  "icon": "icons/rocky-helmet.png"
+ },
+ {
+  "id": "room-service",
+  "category": "held-items",
+  "name_en": "Room Service",
+  "name_zh_hant": "客房服務",
+  "name_zh_hans": "客房服务",
+  "icon": "icons/room-service.png"
+ },
+ {
+  "id": "safety-goggles",
+  "category": "held-items",
+  "name_en": "Safety Goggles",
+  "name_zh_hant": "防塵護目鏡",
+  "name_zh_hans": "防尘护目镜",
+  "icon": "icons/safety-goggles.png"
+ },
+ {
+  "id": "scope-lens",
+  "category": "held-items",
+  "name_en": "Scope Lens",
+  "name_zh_hant": "焦點鏡",
+  "name_zh_hans": "焦点镜",
+  "icon": "icons/scope-lens.png"
+ },
+ {
+  "id": "shed-shell",
+  "category": "held-items",
+  "name_en": "Shed Shell",
+  "name_zh_hant": "美麗空殼",
+  "name_zh_hans": "美丽空壳",
+  "icon": "icons/shed-shell.png"
+ },
+ {
+  "id": "shell-bell",
+  "category": "held-items",
+  "name_en": "Shell Bell",
+  "name_zh_hant": "貝殼之鈴",
+  "name_zh_hans": "贝壳之铃",
+  "icon": "icons/shell-bell.png"
+ },
+ {
+  "id": "smoke-ball",
+  "category": "held-items",
+  "name_en": "Smoke Ball",
+  "name_zh_hant": "煙霧球",
+  "name_zh_hans": "烟雾球",
+  "icon": "icons/smoke-ball.png"
+ },
+ {
+  "id": "smooth-rock",
+  "category": "held-items",
+  "name_en": "Smooth Rock",
+  "name_zh_hant": "沙沙岩石",
+  "name_zh_hans": "沙沙岩石",
+  "icon": "icons/smooth-rock.png"
+ },
+ {
+  "id": "snowball",
+  "category": "held-items",
+  "name_en": "Snowball",
+  "name_zh_hant": "雪球",
+  "name_zh_hans": "雪球",
+  "icon": "icons/snowball.png"
+ },
+ {
+  "id": "terrain-extender",
+  "category": "held-items",
+  "name_en": "Terrain Extender",
+  "name_zh_hant": "大地膜",
+  "name_zh_hans": "大地膜",
+  "icon": "icons/terrain-extender.png"
+ },
+ {
+  "id": "throat-spray",
+  "category": "held-items",
+  "name_en": "Throat Spray",
+  "name_zh_hant": "爽喉噴霧",
+  "name_zh_hans": "爽喉喷雾",
+  "icon": "icons/throat-spray.png"
+ },
+ {
+  "id": "utility-umbrella",
+  "category": "held-items",
+  "name_en": "Utility Umbrella",
+  "name_zh_hant": "萬能傘",
+  "name_zh_hans": "万能伞",
+  "icon": "icons/utility-umbrella.png"
+ },
+ {
+  "id": "weakness-policy",
+  "category": "held-items",
+  "name_en": "Weakness Policy",
+  "name_zh_hant": "弱點保險",
+  "name_zh_hans": "弱点保险",
+  "icon": "icons/weakness-policy.png"
+ },
+ {
+  "id": "wellspring-mask",
+  "category": "held-items",
+  "name_en": "Wellspring Mask",
+  "name_zh_hant": "水井面具",
+  "name_zh_hans": "水井面具",
+  "icon": "icons/wellspring-mask.png"
+ },
+ {
+  "id": "white-herb",
+  "category": "held-items",
+  "name_en": "White Herb",
+  "name_zh_hant": "白色香草",
+  "name_zh_hans": "白色香草",
+  "icon": "icons/white-herb.png"
+ },
+ {
+  "id": "wide-lens",
+  "category": "held-items",
+  "name_en": "Wide Lens",
+  "name_zh_hant": "廣角鏡",
+  "name_zh_hans": "广角镜",
+  "icon": "icons/wide-lens.png"
+ },
+ {
+  "id": "wise-glasses",
+  "category": "held-items",
+  "name_en": "Wise Glasses",
+  "name_zh_hant": "博識眼鏡",
+  "name_zh_hans": "博识眼镜",
+  "icon": "icons/wise-glasses.png"
+ },
+ {
+  "id": "zoom-lens",
+  "category": "held-items",
+  "name_en": "Zoom Lens",
+  "name_zh_hant": "對焦鏡",
+  "name_zh_hans": "对焦镜",
+  "icon": "icons/zoom-lens.png"
+ },
+ {
+  "id": "apicot-berry",
+  "category": "in-a-pinch",
+  "name_en": "Apicot Berry",
+  "name_zh_hant": "杏仔果",
+  "name_zh_hans": "杏仔果",
+  "icon": "icons/apicot-berry.png"
+ },
+ {
+  "id": "custap-berry",
+  "category": "in-a-pinch",
+  "name_en": "Custap Berry",
+  "name_zh_hant": "釋陀果",
+  "name_zh_hans": "释陀果",
+  "icon": "icons/custap-berry.png"
+ },
+ {
+  "id": "ganlon-berry",
+  "category": "in-a-pinch",
+  "name_en": "Ganlon Berry",
+  "name_zh_hant": "龍睛果",
+  "name_zh_hans": "龙睛果",
+  "icon": "icons/ganlon-berry.png"
+ },
+ {
+  "id": "lansat-berry",
+  "category": "in-a-pinch",
+  "name_en": "Lansat Berry",
+  "name_zh_hant": "蘭薩果",
+  "name_zh_hans": "兰萨果",
+  "icon": "icons/lansat-berry.png"
+ },
+ {
+  "id": "liechi-berry",
+  "category": "in-a-pinch",
+  "name_en": "Liechi Berry",
+  "name_zh_hant": "枝荔果",
+  "name_zh_hans": "枝荔果",
+  "icon": "icons/liechi-berry.png"
+ },
+ {
+  "id": "micle-berry",
+  "category": "in-a-pinch",
+  "name_en": "Micle Berry",
+  "name_zh_hant": "奇秘果",
+  "name_zh_hans": "奇秘果",
+  "icon": "icons/micle-berry.png"
+ },
+ {
+  "id": "petaya-berry",
+  "category": "in-a-pinch",
+  "name_en": "Petaya Berry",
+  "name_zh_hant": "龍火果",
+  "name_zh_hans": "龙火果",
+  "icon": "icons/petaya-berry.png"
+ },
+ {
+  "id": "salac-berry",
+  "category": "in-a-pinch",
+  "name_en": "Salac Berry",
+  "name_zh_hant": "沙鱗果",
+  "name_zh_hans": "沙鳞果",
+  "icon": "icons/salac-berry.png"
+ },
+ {
+  "id": "starf-berry",
+  "category": "in-a-pinch",
+  "name_en": "Starf Berry",
+  "name_zh_hant": "星桃果",
+  "name_zh_hans": "星桃果",
+  "icon": "icons/starf-berry.png"
+ },
+ {
+  "id": "bug-gem",
+  "category": "jewels",
+  "name_en": "Bug Gem",
+  "name_zh_hant": "蟲之寶石",
+  "name_zh_hans": "虫之宝石",
+  "icon": "icons/bug-gem.png"
+ },
+ {
+  "id": "dark-gem",
+  "category": "jewels",
+  "name_en": "Dark Gem",
+  "name_zh_hant": "惡之寶石",
+  "name_zh_hans": "恶之宝石",
+  "icon": "icons/dark-gem.png"
+ },
+ {
+  "id": "dragon-gem",
+  "category": "jewels",
+  "name_en": "Dragon Gem",
+  "name_zh_hant": "龍之寶石",
+  "name_zh_hans": "龙之宝石",
+  "icon": "icons/dragon-gem.png"
+ },
+ {
+  "id": "electric-gem",
+  "category": "jewels",
+  "name_en": "Electric Gem",
+  "name_zh_hant": "電之寶石",
+  "name_zh_hans": "电之宝石",
+  "icon": "icons/electric-gem.png"
+ },
+ {
+  "id": "fairy-gem",
+  "category": "jewels",
+  "name_en": "Fairy Gem",
+  "name_zh_hant": "妖精寶石",
+  "name_zh_hans": "妖精宝石",
+  "icon": "icons/fairy-gem.png"
+ },
+ {
+  "id": "fighting-gem",
+  "category": "jewels",
+  "name_en": "Fighting Gem",
+  "name_zh_hant": "格鬥寶石",
+  "name_zh_hans": "格斗宝石",
+  "icon": "icons/fighting-gem.png"
+ },
+ {
+  "id": "fire-gem",
+  "category": "jewels",
+  "name_en": "Fire Gem",
+  "name_zh_hant": "火之寶石",
+  "name_zh_hans": "火之宝石",
+  "icon": "icons/fire-gem.png"
+ },
+ {
+  "id": "flying-gem",
+  "category": "jewels",
+  "name_en": "Flying Gem",
+  "name_zh_hant": "飛行寶石",
+  "name_zh_hans": "飞行宝石",
+  "icon": "icons/flying-gem.png"
+ },
+ {
+  "id": "ghost-gem",
+  "category": "jewels",
+  "name_en": "Ghost Gem",
+  "name_zh_hant": "幽靈寶石",
+  "name_zh_hans": "幽灵宝石",
+  "icon": "icons/ghost-gem.png"
+ },
+ {
+  "id": "grass-gem",
+  "category": "jewels",
+  "name_en": "Grass Gem",
+  "name_zh_hant": "草之寶石",
+  "name_zh_hans": "草之宝石",
+  "icon": "icons/grass-gem.png"
+ },
+ {
+  "id": "ground-gem",
+  "category": "jewels",
+  "name_en": "Ground Gem",
+  "name_zh_hant": "地面寶石",
+  "name_zh_hans": "地面宝石",
+  "icon": "icons/ground-gem.png"
+ },
+ {
+  "id": "ice-gem",
+  "category": "jewels",
+  "name_en": "Ice Gem",
+  "name_zh_hant": "冰之寶石",
+  "name_zh_hans": "冰之宝石",
+  "icon": "icons/ice-gem.png"
+ },
+ {
+  "id": "normal-gem",
+  "category": "jewels",
+  "name_en": "Normal Gem",
+  "name_zh_hant": "一般寶石",
+  "name_zh_hans": "一般宝石",
+  "icon": "icons/normal-gem.png"
+ },
+ {
+  "id": "poison-gem",
+  "category": "jewels",
+  "name_en": "Poison Gem",
+  "name_zh_hant": "毒之寶石",
+  "name_zh_hans": "毒之宝石",
+  "icon": "icons/poison-gem.png"
+ },
+ {
+  "id": "psychic-gem",
+  "category": "jewels",
+  "name_en": "Psychic Gem",
+  "name_zh_hant": "超能力寶石",
+  "name_zh_hans": "超能力宝石",
+  "icon": "icons/psychic-gem.png"
+ },
+ {
+  "id": "rock-gem",
+  "category": "jewels",
+  "name_en": "Rock Gem",
+  "name_zh_hant": "岩石寶石",
+  "name_zh_hans": "岩石宝石",
+  "icon": "icons/rock-gem.png"
+ },
+ {
+  "id": "steel-gem",
+  "category": "jewels",
+  "name_en": "Steel Gem",
+  "name_zh_hant": "鋼之寶石",
+  "name_zh_hans": "钢之宝石",
+  "icon": "icons/steel-gem.png"
+ },
+ {
+  "id": "water-gem",
+  "category": "jewels",
+  "name_en": "Water Gem",
+  "name_zh_hant": "水之寶石",
+  "name_zh_hans": "水之宝石",
+  "icon": "icons/water-gem.png"
+ },
+ {
+  "id": "abomasite",
+  "category": "mega-stones",
+  "name_en": "Abomasite",
+  "name_zh_hant": "暴雪王進化石",
+  "name_zh_hans": "暴雪王进化石",
+  "icon": "icons/abomasite.png"
+ },
+ {
+  "id": "absolite",
+  "category": "mega-stones",
+  "name_en": "Absolite",
+  "name_zh_hant": "阿勃梭魯進化石",
+  "name_zh_hans": "阿勃梭鲁进化石",
+  "icon": "icons/absolite.png"
+ },
+ {
+  "id": "absolite-z",
+  "category": "mega-stones",
+  "name_en": "Absolite Z",
+  "name_zh_hant": "阿勃梭魯進化石Z",
+  "name_zh_hans": "阿勃梭鲁进化石Z",
+  "icon": "icons/absolite-z.png"
+ },
+ {
+  "id": "aerodactylite",
+  "category": "mega-stones",
+  "name_en": "Aerodactylite",
+  "name_zh_hant": "化石翼龍進化石",
+  "name_zh_hans": "化石翼龙进化石",
+  "icon": "icons/aerodactylite.png"
+ },
+ {
+  "id": "aggronite",
+  "category": "mega-stones",
+  "name_en": "Aggronite",
+  "name_zh_hant": "波士可多拉進化石",
+  "name_zh_hans": "波士可多拉进化石",
+  "icon": "icons/aggronite.png"
+ },
+ {
+  "id": "alakazite",
+  "category": "mega-stones",
+  "name_en": "Alakazite",
+  "name_zh_hant": "胡地進化石",
+  "name_zh_hans": "胡地进化石",
+  "icon": "icons/alakazite.png"
+ },
+ {
+  "id": "altarianite",
+  "category": "mega-stones",
+  "name_en": "Altarianite",
+  "name_zh_hant": "七夕青鳥進化石",
+  "name_zh_hans": "七夕青鸟进化石",
+  "icon": "icons/altarianite.png"
+ },
+ {
+  "id": "ampharosite",
+  "category": "mega-stones",
+  "name_en": "Ampharosite",
+  "name_zh_hant": "電龍進化石",
+  "name_zh_hans": "电龙进化石",
+  "icon": "icons/ampharosite.png"
+ },
+ {
+  "id": "audinite",
+  "category": "mega-stones",
+  "name_en": "Audinite",
+  "name_zh_hant": "差不多娃娃進化石",
+  "name_zh_hans": "差不多娃娃进化石",
+  "icon": "icons/audinite.png"
+ },
+ {
+  "id": "banettite",
+  "category": "mega-stones",
+  "name_en": "Banettite",
+  "name_zh_hant": "詛咒娃娃進化石",
+  "name_zh_hans": "诅咒娃娃进化石",
+  "icon": "icons/banettite.png"
+ },
+ {
+  "id": "barbaracite",
+  "category": "mega-stones",
+  "name_en": "Barbaracite",
+  "name_zh_hant": "龜足巨鎧進化石",
+  "name_zh_hans": "龟足巨铠进化石",
+  "icon": "icons/barbaracite.png"
+ },
+ {
+  "id": "baxcalibrite",
+  "category": "mega-stones",
+  "name_en": "Baxcalibrite",
+  "name_zh_hant": "戟脊龍進化石",
+  "name_zh_hans": "戟脊龙进化石",
+  "icon": "icons/baxcalibrite.png"
+ },
+ {
+  "id": "beedrillite",
+  "category": "mega-stones",
+  "name_en": "Beedrillite",
+  "name_zh_hant": "大針蜂進化石",
+  "name_zh_hans": "大针蜂进化石",
+  "icon": "icons/beedrillite.png"
+ },
+ {
+  "id": "blastoisinite",
+  "category": "mega-stones",
+  "name_en": "Blastoisinite",
+  "name_zh_hant": "水箭龜進化石",
+  "name_zh_hans": "水箭龟进化石",
+  "icon": "icons/blastoisinite.png"
+ },
+ {
+  "id": "blazikenite",
+  "category": "mega-stones",
+  "name_en": "Blazikenite",
+  "name_zh_hant": "火焰雞進化石",
+  "name_zh_hans": "火焰鸡进化石",
+  "icon": "icons/blazikenite.png"
+ },
+ {
+  "id": "cameruptite",
+  "category": "mega-stones",
+  "name_en": "Cameruptite",
+  "name_zh_hant": "噴火駝進化石",
+  "name_zh_hans": "喷火驼进化石",
+  "icon": "icons/cameruptite.png"
+ },
+ {
+  "id": "chandelurite",
+  "category": "mega-stones",
+  "name_en": "Chandelurite",
+  "name_zh_hant": "水晶燈火靈進化石",
+  "name_zh_hans": "水晶灯火灵进化石",
+  "icon": "icons/chandelurite.png"
+ },
+ {
+  "id": "charizardite-x",
+  "category": "mega-stones",
+  "name_en": "Charizardite X",
+  "name_zh_hant": "噴火龍進化石Ｘ",
+  "name_zh_hans": "喷火龙进化石Ｘ",
+  "icon": "icons/charizardite-x.png"
+ },
+ {
+  "id": "charizardite-y",
+  "category": "mega-stones",
+  "name_en": "Charizardite Y",
+  "name_zh_hant": "噴火龍進化石Ｙ",
+  "name_zh_hans": "喷火龙进化石Ｙ",
+  "icon": "icons/charizardite-y.png"
+ },
+ {
+  "id": "chesnaughtite",
+  "category": "mega-stones",
+  "name_en": "Chesnaughtite",
+  "name_zh_hant": "布里卡隆進化石",
+  "name_zh_hans": "布里卡隆进化石",
+  "icon": "icons/chesnaughtite.png"
+ },
+ {
+  "id": "chimechite",
+  "category": "mega-stones",
+  "name_en": "Chimechite",
+  "name_zh_hant": "風鈴鈴進化石",
+  "name_zh_hans": "风铃铃进化石",
+  "icon": "icons/chimechite.png"
+ },
+ {
+  "id": "clefablite",
+  "category": "mega-stones",
+  "name_en": "Clefablite",
+  "name_zh_hant": "皮可西進化石",
+  "name_zh_hans": "皮可西进化石",
+  "icon": "icons/clefablite.png"
+ },
+ {
+  "id": "crabominite",
+  "category": "mega-stones",
+  "name_en": "Crabominite",
+  "name_zh_hant": "好勝毛蟹進化石",
+  "name_zh_hans": "好胜毛蟹进化石",
+  "icon": "icons/crabominite.png"
+ },
+ {
+  "id": "darkranite",
+  "category": "mega-stones",
+  "name_en": "Darkranite",
+  "name_zh_hant": "達克萊伊進化石",
+  "name_zh_hans": "达克莱伊进化石",
+  "icon": "icons/darkranite.png"
+ },
+ {
+  "id": "delphoxite",
+  "category": "mega-stones",
+  "name_en": "Delphoxite",
+  "name_zh_hant": "妖火紅狐進化石",
+  "name_zh_hans": "妖火红狐进化石",
+  "icon": "icons/delphoxite.png"
+ },
+ {
+  "id": "diancite",
+  "category": "mega-stones",
+  "name_en": "Diancite",
+  "name_zh_hant": "蒂安希進化石",
+  "name_zh_hans": "蒂安希进化石",
+  "icon": "icons/diancite.png"
+ },
+ {
+  "id": "dragalgite",
+  "category": "mega-stones",
+  "name_en": "Dragalgite",
+  "name_zh_hant": "毒藻龍進化石",
+  "name_zh_hans": "毒藻龙进化石",
+  "icon": "icons/dragalgite.png"
+ },
+ {
+  "id": "dragoninite",
+  "category": "mega-stones",
+  "name_en": "Dragoninite",
+  "name_zh_hant": "快龍進化石",
+  "name_zh_hans": "快龙进化石",
+  "icon": "icons/dragoninite.png"
+ },
+ {
+  "id": "drampanite",
+  "category": "mega-stones",
+  "name_en": "Drampanite",
+  "name_zh_hant": "老翁龍進化石",
+  "name_zh_hans": "老翁龙进化石",
+  "icon": "icons/drampanite.png"
+ },
+ {
+  "id": "eelektrossite",
+  "category": "mega-stones",
+  "name_en": "Eelektrossite",
+  "name_zh_hant": "麻麻鰻魚王進化石",
+  "name_zh_hans": "麻麻鳗鱼王进化石",
+  "icon": "icons/eelektrossite.png"
+ },
+ {
+  "id": "emboarite",
+  "category": "mega-stones",
+  "name_en": "Emboarite",
+  "name_zh_hant": "炎武王進化石",
+  "name_zh_hans": "炎武王进化石",
+  "icon": "icons/emboarite.png"
+ },
+ {
+  "id": "excadrite",
+  "category": "mega-stones",
+  "name_en": "Excadrite",
+  "name_zh_hant": "龍頭地鼠進化石",
+  "name_zh_hans": "龙头地鼠进化石",
+  "icon": "icons/excadrite.png"
+ },
+ {
+  "id": "falinksite",
+  "category": "mega-stones",
+  "name_en": "Falinksite",
+  "name_zh_hant": "列陣兵進化石",
+  "name_zh_hans": "列阵兵进化石",
+  "icon": "icons/falinksite.png"
+ },
+ {
+  "id": "feraligite",
+  "category": "mega-stones",
+  "name_en": "Feraligite",
+  "name_zh_hant": "大力鱷進化石",
+  "name_zh_hans": "大力鳄进化石",
+  "icon": "icons/feraligite.png"
+ },
+ {
+  "id": "floettite",
+  "category": "mega-stones",
+  "name_en": "Floettite",
+  "name_zh_hant": "花葉蒂進化石",
+  "name_zh_hans": "花叶蒂进化石",
+  "icon": "icons/floettite.png"
+ },
+ {
+  "id": "froslassite",
+  "category": "mega-stones",
+  "name_en": "Froslassite",
+  "name_zh_hant": "雪妖女進化石",
+  "name_zh_hans": "雪妖女进化石",
+  "icon": "icons/froslassite.png"
+ },
+ {
+  "id": "galladite",
+  "category": "mega-stones",
+  "name_en": "Galladite",
+  "name_zh_hant": "艾路雷朵進化石",
+  "name_zh_hans": "艾路雷朵进化石",
+  "icon": "icons/galladite.png"
+ },
+ {
+  "id": "garchompite",
+  "category": "mega-stones",
+  "name_en": "Garchompite",
+  "name_zh_hant": "烈咬陸鯊進化石",
+  "name_zh_hans": "烈咬陆鲨进化石",
+  "icon": "icons/garchompite.png"
+ },
+ {
+  "id": "garchompite-z",
+  "category": "mega-stones",
+  "name_en": "Garchompite Z",
+  "name_zh_hant": "烈咬陸鯊進化石Z",
+  "name_zh_hans": "烈咬陆鲨进化石Z",
+  "icon": "icons/garchompite-z.png"
+ },
+ {
+  "id": "gardevoirite",
+  "category": "mega-stones",
+  "name_en": "Gardevoirite",
+  "name_zh_hant": "沙奈朵進化石",
+  "name_zh_hans": "沙奈朵进化石",
+  "icon": "icons/gardevoirite.png"
+ },
+ {
+  "id": "gengarite",
+  "category": "mega-stones",
+  "name_en": "Gengarite",
+  "name_zh_hant": "耿鬼進化石",
+  "name_zh_hans": "耿鬼进化石",
+  "icon": "icons/gengarite.png"
+ },
+ {
+  "id": "glalitite",
+  "category": "mega-stones",
+  "name_en": "Glalitite",
+  "name_zh_hant": "冰鬼護進化石",
+  "name_zh_hans": "冰鬼护进化石",
+  "icon": "icons/glalitite.png"
+ },
+ {
+  "id": "glimmoranite",
+  "category": "mega-stones",
+  "name_en": "Glimmoranite",
+  "name_zh_hant": "晶光花進化石",
+  "name_zh_hans": "晶光花进化石",
+  "icon": "icons/glimmoranite.png"
+ },
+ {
+  "id": "golisopite",
+  "category": "mega-stones",
+  "name_en": "Golisopite",
+  "name_zh_hant": "具甲武者進化石",
+  "name_zh_hans": "具甲武者进化石",
+  "icon": "icons/golisopite.png"
+ },
+ {
+  "id": "golurkite",
+  "category": "mega-stones",
+  "name_en": "Golurkite",
+  "name_zh_hant": "泥偶巨人進化石",
+  "name_zh_hans": "泥偶巨人进化石",
+  "icon": "icons/golurkite.png"
+ },
+ {
+  "id": "greninjite",
+  "category": "mega-stones",
+  "name_en": "Greninjite",
+  "name_zh_hant": "甲賀忍蛙進化石",
+  "name_zh_hans": "甲贺忍蛙进化石",
+  "icon": "icons/greninjite.png"
+ },
+ {
+  "id": "gyaradosite",
+  "category": "mega-stones",
+  "name_en": "Gyaradosite",
+  "name_zh_hant": "暴鯉龍進化石",
+  "name_zh_hans": "暴鲤龙进化石",
+  "icon": "icons/gyaradosite.png"
+ },
+ {
+  "id": "hawluchanite",
+  "category": "mega-stones",
+  "name_en": "Hawluchanite",
+  "name_zh_hant": "摔角鷹人進化石",
+  "name_zh_hans": "摔角鹰人进化石",
+  "icon": "icons/hawluchanite.png"
+ },
+ {
+  "id": "heatranite",
+  "category": "mega-stones",
+  "name_en": "Heatranite",
+  "name_zh_hant": "席多藍恩進化石",
+  "name_zh_hans": "席多蓝恩进化石",
+  "icon": "icons/heatranite.png"
+ },
+ {
+  "id": "heracronite",
+  "category": "mega-stones",
+  "name_en": "Heracronite",
+  "name_zh_hant": "赫拉克羅斯進化石",
+  "name_zh_hans": "赫拉克罗斯进化石",
+  "icon": "icons/heracronite.png"
+ },
+ {
+  "id": "houndoominite",
+  "category": "mega-stones",
+  "name_en": "Houndoominite",
+  "name_zh_hant": "黑魯加進化石",
+  "name_zh_hans": "黑鲁加进化石",
+  "icon": "icons/houndoominite.png"
+ },
+ {
+  "id": "kangaskhanite",
+  "category": "mega-stones",
+  "name_en": "Kangaskhanite",
+  "name_zh_hant": "袋獸進化石",
+  "name_zh_hans": "袋兽进化石",
+  "icon": "icons/kangaskhanite.png"
+ },
+ {
+  "id": "latiasite",
+  "category": "mega-stones",
+  "name_en": "Latiasite",
+  "name_zh_hant": "拉帝亞斯進化石",
+  "name_zh_hans": "拉帝亚斯进化石",
+  "icon": "icons/latiasite.png"
+ },
+ {
+  "id": "latiosite",
+  "category": "mega-stones",
+  "name_en": "Latiosite",
+  "name_zh_hant": "拉帝歐斯進化石",
+  "name_zh_hans": "拉帝欧斯进化石",
+  "icon": "icons/latiosite.png"
+ },
+ {
+  "id": "lopunnite",
+  "category": "mega-stones",
+  "name_en": "Lopunnite",
+  "name_zh_hant": "長耳兔進化石",
+  "name_zh_hans": "长耳兔进化石",
+  "icon": "icons/lopunnite.png"
+ },
+ {
+  "id": "lucarionite",
+  "category": "mega-stones",
+  "name_en": "Lucarionite",
+  "name_zh_hant": "路卡利歐進化石",
+  "name_zh_hans": "路卡利欧进化石",
+  "icon": "icons/lucarionite.png"
+ },
+ {
+  "id": "lucarionite-z",
+  "category": "mega-stones",
+  "name_en": "Lucarionite Z",
+  "name_zh_hant": "路卡利歐進化石Z",
+  "name_zh_hans": "路卡利欧进化石Z",
+  "icon": "icons/lucarionite-z.png"
+ },
+ {
+  "id": "magearnite",
+  "category": "mega-stones",
+  "name_en": "Magearnite",
+  "name_zh_hant": "瑪機雅娜進化石",
+  "name_zh_hans": "玛机雅娜进化石",
+  "icon": "icons/magearnite.png"
+ },
+ {
+  "id": "malamarite",
+  "category": "mega-stones",
+  "name_en": "Malamarite",
+  "name_zh_hant": "烏賊王進化石",
+  "name_zh_hans": "乌贼王进化石",
+  "icon": "icons/malamarite.png"
+ },
+ {
+  "id": "manectite",
+  "category": "mega-stones",
+  "name_en": "Manectite",
+  "name_zh_hant": "雷電獸進化石",
+  "name_zh_hans": "雷电兽进化石",
+  "icon": "icons/manectite.png"
+ },
+ {
+  "id": "mawilite",
+  "category": "mega-stones",
+  "name_en": "Mawilite",
+  "name_zh_hant": "大嘴娃進化石",
+  "name_zh_hans": "大嘴娃进化石",
+  "icon": "icons/mawilite.png"
+ },
+ {
+  "id": "medichamite",
+  "category": "mega-stones",
+  "name_en": "Medichamite",
+  "name_zh_hant": "恰雷姆進化石",
+  "name_zh_hans": "恰雷姆进化石",
+  "icon": "icons/medichamite.png"
+ },
+ {
+  "id": "meganiumite",
+  "category": "mega-stones",
+  "name_en": "Meganiumite",
+  "name_zh_hant": "大竺葵進化石",
+  "name_zh_hans": "大竺葵进化石",
+  "icon": "icons/meganiumite.png"
+ },
+ {
+  "id": "meowsticite",
+  "category": "mega-stones",
+  "name_en": "Meowsticite",
+  "name_zh_hant": "超能妙喵進化石",
+  "name_zh_hans": "超能妙喵进化石",
+  "icon": "icons/meowsticite.png"
+ },
+ {
+  "id": "metagrossite",
+  "category": "mega-stones",
+  "name_en": "Metagrossite",
+  "name_zh_hant": "巨金怪進化石",
+  "name_zh_hans": "巨金怪进化石",
+  "icon": "icons/metagrossite.png"
+ },
+ {
+  "id": "mewtwonite-x",
+  "category": "mega-stones",
+  "name_en": "Mewtwonite X",
+  "name_zh_hant": "超夢進化石Ｘ",
+  "name_zh_hans": "超梦进化石Ｘ",
+  "icon": "icons/mewtwonite-x.png"
+ },
+ {
+  "id": "mewtwonite-y",
+  "category": "mega-stones",
+  "name_en": "Mewtwonite Y",
+  "name_zh_hant": "超夢進化石Ｙ",
+  "name_zh_hans": "超梦进化石Ｙ",
+  "icon": "icons/mewtwonite-y.png"
+ },
+ {
+  "id": "pidgeotite",
+  "category": "mega-stones",
+  "name_en": "Pidgeotite",
+  "name_zh_hant": "大比鳥進化石",
+  "name_zh_hans": "大比鸟进化石",
+  "icon": "icons/pidgeotite.png"
+ },
+ {
+  "id": "pinsirite",
+  "category": "mega-stones",
+  "name_en": "Pinsirite",
+  "name_zh_hant": "凱羅斯進化石",
+  "name_zh_hans": "凯罗斯进化石",
+  "icon": "icons/pinsirite.png"
+ },
+ {
+  "id": "pyroarite",
+  "category": "mega-stones",
+  "name_en": "Pyroarite",
+  "name_zh_hant": "火炎獅進化石",
+  "name_zh_hans": "火炎狮进化石",
+  "icon": "icons/pyroarite.png"
+ },
+ {
+  "id": "raichunite-x",
+  "category": "mega-stones",
+  "name_en": "Raichunite X",
+  "name_zh_hant": "雷丘進化石Ｘ",
+  "name_zh_hans": "雷丘进化石X",
+  "icon": "icons/raichunite-x.png"
+ },
+ {
+  "id": "raichunite-y",
+  "category": "mega-stones",
+  "name_en": "Raichunite Y",
+  "name_zh_hant": "雷丘進化石Ｙ",
+  "name_zh_hans": "雷丘进化石Y",
+  "icon": "icons/raichunite-y.png"
+ },
+ {
+  "id": "sablenite",
+  "category": "mega-stones",
+  "name_en": "Sablenite",
+  "name_zh_hant": "勾魂眼進化石",
+  "name_zh_hans": "勾魂眼进化石",
+  "icon": "icons/sablenite.png"
+ },
+ {
+  "id": "salamencite",
+  "category": "mega-stones",
+  "name_en": "Salamencite",
+  "name_zh_hant": "暴飛龍進化石",
+  "name_zh_hans": "暴飞龙进化石",
+  "icon": "icons/salamencite.png"
+ },
+ {
+  "id": "sceptilite",
+  "category": "mega-stones",
+  "name_en": "Sceptilite",
+  "name_zh_hant": "蜥蜴王進化石",
+  "name_zh_hans": "蜥蜴王进化石",
+  "icon": "icons/sceptilite.png"
+ },
+ {
+  "id": "scizorite",
+  "category": "mega-stones",
+  "name_en": "Scizorite",
+  "name_zh_hant": "巨鉗螳螂進化石",
+  "name_zh_hans": "巨钳螳螂进化石",
+  "icon": "icons/scizorite.png"
+ },
+ {
+  "id": "scolipite",
+  "category": "mega-stones",
+  "name_en": "Scolipite",
+  "name_zh_hant": "蜈蚣王進化石",
+  "name_zh_hans": "蜈蚣王进化石",
+  "icon": "icons/scolipite.png"
+ },
+ {
+  "id": "scovillainite",
+  "category": "mega-stones",
+  "name_en": "Scovillainite",
+  "name_zh_hant": "狠辣椒進化石",
+  "name_zh_hans": "狠辣椒进化石",
+  "icon": "icons/scovillainite.png"
+ },
+ {
+  "id": "scraftinite",
+  "category": "mega-stones",
+  "name_en": "Scraftinite",
+  "name_zh_hant": "頭巾混混進化石",
+  "name_zh_hans": "头巾混混进化石",
+  "icon": "icons/scraftinite.png"
+ },
+ {
+  "id": "sharpedonite",
+  "category": "mega-stones",
+  "name_en": "Sharpedonite",
+  "name_zh_hant": "巨牙鯊進化石",
+  "name_zh_hans": "巨牙鲨进化石",
+  "icon": "icons/sharpedonite.png"
+ },
+ {
+  "id": "skarmorite",
+  "category": "mega-stones",
+  "name_en": "Skarmorite",
+  "name_zh_hant": "盔甲鳥進化石",
+  "name_zh_hans": "盔甲鸟进化石",
+  "icon": "icons/skarmorite.png"
+ },
+ {
+  "id": "slowbronite",
+  "category": "mega-stones",
+  "name_en": "Slowbronite",
+  "name_zh_hant": "呆殼獸進化石",
+  "name_zh_hans": "呆壳兽进化石",
+  "icon": "icons/slowbronite.png"
+ },
+ {
+  "id": "staraptite",
+  "category": "mega-stones",
+  "name_en": "Staraptite",
+  "name_zh_hant": "姆克鷹進化石",
+  "name_zh_hans": "姆克鹰进化石",
+  "icon": "icons/staraptite.png"
+ },
+ {
+  "id": "starminite",
+  "category": "mega-stones",
+  "name_en": "Starminite",
+  "name_zh_hant": "寶石海星進化石",
+  "name_zh_hans": "宝石海星进化石",
+  "icon": "icons/starminite.png"
+ },
+ {
+  "id": "steelixite",
+  "category": "mega-stones",
+  "name_en": "Steelixite",
+  "name_zh_hant": "大鋼蛇進化石",
+  "name_zh_hans": "大钢蛇进化石",
+  "icon": "icons/steelixite.png"
+ },
+ {
+  "id": "swampertite",
+  "category": "mega-stones",
+  "name_en": "Swampertite",
+  "name_zh_hant": "巨沼怪進化石",
+  "name_zh_hans": "巨沼怪进化石",
+  "icon": "icons/swampertite.png"
+ },
+ {
+  "id": "tatsugirinite",
+  "category": "mega-stones",
+  "name_en": "Tatsugirinite",
+  "name_zh_hant": "米立龍進化石",
+  "name_zh_hans": "米立龙进化石",
+  "icon": "icons/tatsugirinite.png"
+ },
+ {
+  "id": "tyranitarite",
+  "category": "mega-stones",
+  "name_en": "Tyranitarite",
+  "name_zh_hant": "班基拉斯進化石",
+  "name_zh_hans": "班基拉斯进化石",
+  "icon": "icons/tyranitarite.png"
+ },
+ {
+  "id": "venusaurite",
+  "category": "mega-stones",
+  "name_en": "Venusaurite",
+  "name_zh_hant": "妙蛙花進化石",
+  "name_zh_hans": "妙蛙花进化石",
+  "icon": "icons/venusaurite.png"
+ },
+ {
+  "id": "victreebelite",
+  "category": "mega-stones",
+  "name_en": "Victreebelite",
+  "name_zh_hant": "大食花進化石",
+  "name_zh_hans": "大食花进化石",
+  "icon": "icons/victreebelite.png"
+ },
+ {
+  "id": "zeraorite",
+  "category": "mega-stones",
+  "name_en": "Zeraorite",
+  "name_zh_hant": "捷拉奧拉進化石",
+  "name_zh_hans": "捷拉奥拉进化石",
+  "icon": "icons/zeraorite.png"
+ },
+ {
+  "id": "zygardite",
+  "category": "mega-stones",
+  "name_en": "Zygardite",
+  "name_zh_hant": "基格爾德進化石",
+  "name_zh_hans": "基格尔德进化石",
+  "icon": "icons/zygardite.png"
+ },
+ {
+  "id": "bug-memory",
+  "category": "memories",
+  "name_en": "Bug Memory",
+  "name_zh_hant": "蟲子記憶碟",
+  "name_zh_hans": "虫子存储碟",
+  "icon": "icons/bug-memory.png"
+ },
+ {
+  "id": "dark-memory",
+  "category": "memories",
+  "name_en": "Dark Memory",
+  "name_zh_hant": "黑暗記憶碟",
+  "name_zh_hans": "黑暗存储碟",
+  "icon": "icons/dark-memory.png"
+ },
+ {
+  "id": "dragon-memory",
+  "category": "memories",
+  "name_en": "Dragon Memory",
+  "name_zh_hant": "龍記憶碟",
+  "name_zh_hans": "龙存储碟",
+  "icon": "icons/dragon-memory.png"
+ },
+ {
+  "id": "electric-memory",
+  "category": "memories",
+  "name_en": "Electric Memory",
+  "name_zh_hant": "電子記憶碟",
+  "name_zh_hans": "电子存储碟",
+  "icon": "icons/electric-memory.png"
+ },
+ {
+  "id": "fairy-memory",
+  "category": "memories",
+  "name_en": "Fairy Memory",
+  "name_zh_hant": "妖精記憶碟",
+  "name_zh_hans": "妖精存储碟",
+  "icon": "icons/fairy-memory.png"
+ },
+ {
+  "id": "fighting-memory",
+  "category": "memories",
+  "name_en": "Fighting Memory",
+  "name_zh_hant": "戰鬥記憶碟",
+  "name_zh_hans": "战斗存储碟",
+  "icon": "icons/fighting-memory.png"
+ },
+ {
+  "id": "fire-memory",
+  "category": "memories",
+  "name_en": "Fire Memory",
+  "name_zh_hant": "火焰記憶碟",
+  "name_zh_hans": "火焰存储碟",
+  "icon": "icons/fire-memory.png"
+ },
+ {
+  "id": "flying-memory",
+  "category": "memories",
+  "name_en": "Flying Memory",
+  "name_zh_hant": "飛翔記憶碟",
+  "name_zh_hans": "飞翔存储碟",
+  "icon": "icons/flying-memory.png"
+ },
+ {
+  "id": "ghost-memory",
+  "category": "memories",
+  "name_en": "Ghost Memory",
+  "name_zh_hant": "幽靈記憶碟",
+  "name_zh_hans": "幽灵存储碟",
+  "icon": "icons/ghost-memory.png"
+ },
+ {
+  "id": "grass-memory",
+  "category": "memories",
+  "name_en": "Grass Memory",
+  "name_zh_hant": "青草記憶碟",
+  "name_zh_hans": "青草存储碟",
+  "icon": "icons/grass-memory.png"
+ },
+ {
+  "id": "ground-memory",
+  "category": "memories",
+  "name_en": "Ground Memory",
+  "name_zh_hant": "大地記憶碟",
+  "name_zh_hans": "大地存储碟",
+  "icon": "icons/ground-memory.png"
+ },
+ {
+  "id": "ice-memory",
+  "category": "memories",
+  "name_en": "Ice Memory",
+  "name_zh_hant": "冰雪記憶碟",
+  "name_zh_hans": "冰雪存储碟",
+  "icon": "icons/ice-memory.png"
+ },
+ {
+  "id": "poison-memory",
+  "category": "memories",
+  "name_en": "Poison Memory",
+  "name_zh_hant": "毒記憶碟",
+  "name_zh_hans": "毒存储碟",
+  "icon": "icons/poison-memory.png"
+ },
+ {
+  "id": "psychic-memory",
+  "category": "memories",
+  "name_en": "Psychic Memory",
+  "name_zh_hant": "精神記憶碟",
+  "name_zh_hans": "精神存储碟",
+  "icon": "icons/psychic-memory.png"
+ },
+ {
+  "id": "rock-memory",
+  "category": "memories",
+  "name_en": "Rock Memory",
+  "name_zh_hant": "岩石記憶碟",
+  "name_zh_hans": "岩石存储碟",
+  "icon": "icons/rock-memory.png"
+ },
+ {
+  "id": "steel-memory",
+  "category": "memories",
+  "name_en": "Steel Memory",
+  "name_zh_hant": "鋼鐵記憶碟",
+  "name_zh_hans": "钢铁存储碟",
+  "icon": "icons/steel-memory.png"
+ },
+ {
+  "id": "water-memory",
+  "category": "memories",
+  "name_en": "Water Memory",
+  "name_zh_hant": "清水記憶碟",
+  "name_zh_hans": "清水存储碟",
+  "icon": "icons/water-memory.png"
+ },
+ {
+  "id": "griseous-core",
+  "category": "other-battle",
+  "name_en": "Griseous Core",
+  "name_zh_hant": "大白金寶玉",
+  "name_zh_hans": "大白金宝玉",
+  "icon": "icons/griseous-core.png"
+ },
+ {
+  "id": "maranga-berry",
+  "category": "other-battle",
+  "name_en": "Maranga Berry",
+  "name_zh_hant": "香羅果",
+  "name_zh_hans": "香罗果",
+  "icon": "icons/maranga-berry.png"
+ },
+ {
+  "id": "power-anklet",
+  "category": "other-battle",
+  "name_en": "Power Anklet",
+  "name_zh_hant": "力量護踝",
+  "name_zh_hans": "力量护踝",
+  "icon": "icons/power-anklet.png"
+ },
+ {
+  "id": "power-lens",
+  "category": "other-battle",
+  "name_en": "Power Lens",
+  "name_zh_hant": "力量鏡",
+  "name_zh_hans": "力量镜",
+  "icon": "icons/power-lens.png"
+ },
+ {
+  "id": "aguav-berry",
+  "category": "picky-healing",
+  "name_en": "Aguav Berry",
+  "name_zh_hant": "樂芭果",
+  "name_zh_hans": "乐芭果",
+  "icon": "icons/aguav-berry.png"
+ },
+ {
+  "id": "figy-berry",
+  "category": "picky-healing",
+  "name_en": "Figy Berry",
+  "name_zh_hant": "勿花果",
+  "name_zh_hans": "勿花果",
+  "icon": "icons/figy-berry.png"
+ },
+ {
+  "id": "iapapa-berry",
+  "category": "picky-healing",
+  "name_en": "Iapapa Berry",
+  "name_zh_hant": "芭亞果",
+  "name_zh_hans": "芭亚果",
+  "icon": "icons/iapapa-berry.png"
+ },
+ {
+  "id": "mago-berry",
+  "category": "picky-healing",
+  "name_en": "Mago Berry",
+  "name_zh_hant": "芒芒果",
+  "name_zh_hans": "芒芒果",
+  "icon": "icons/mago-berry.png"
+ },
+ {
+  "id": "wiki-berry",
+  "category": "picky-healing",
+  "name_en": "Wiki Berry",
+  "name_zh_hant": "異奇果",
+  "name_zh_hans": "异奇果",
+  "icon": "icons/wiki-berry.png"
+ },
+ {
+  "id": "blank-plate",
+  "category": "plates",
+  "name_en": "Blank Plate",
+  "name_zh_hant": "淨空石板",
+  "name_zh_hans": "净空石板",
+  "icon": "icons/blank-plate.png"
+ },
+ {
+  "id": "draco-plate",
+  "category": "plates",
+  "name_en": "Draco Plate",
+  "name_zh_hant": "龍之石板",
+  "name_zh_hans": "龙之石板",
+  "icon": "icons/draco-plate.png"
+ },
+ {
+  "id": "dread-plate",
+  "category": "plates",
+  "name_en": "Dread Plate",
+  "name_zh_hant": "惡顏石板",
+  "name_zh_hans": "恶颜石板",
+  "icon": "icons/dread-plate.png"
+ },
+ {
+  "id": "earth-plate",
+  "category": "plates",
+  "name_en": "Earth Plate",
+  "name_zh_hant": "大地石板",
+  "name_zh_hans": "大地石板",
+  "icon": "icons/earth-plate.png"
+ },
+ {
+  "id": "fist-plate",
+  "category": "plates",
+  "name_en": "Fist Plate",
+  "name_zh_hant": "拳頭石板",
+  "name_zh_hans": "拳头石板",
+  "icon": "icons/fist-plate.png"
+ },
+ {
+  "id": "flame-plate",
+  "category": "plates",
+  "name_en": "Flame Plate",
+  "name_zh_hant": "火球石板",
+  "name_zh_hans": "火球石板",
+  "icon": "icons/flame-plate.png"
+ },
+ {
+  "id": "icicle-plate",
+  "category": "plates",
+  "name_en": "Icicle Plate",
+  "name_zh_hant": "冰柱石板",
+  "name_zh_hans": "冰柱石板",
+  "icon": "icons/icicle-plate.png"
+ },
+ {
+  "id": "insect-plate",
+  "category": "plates",
+  "name_en": "Insect Plate",
+  "name_zh_hant": "玉蟲石板",
+  "name_zh_hans": "玉虫石板",
+  "icon": "icons/insect-plate.png"
+ },
+ {
+  "id": "iron-plate",
+  "category": "plates",
+  "name_en": "Iron Plate",
+  "name_zh_hant": "鋼鐵石板",
+  "name_zh_hans": "钢铁石板",
+  "icon": "icons/iron-plate.png"
+ },
+ {
+  "id": "legend-plate",
+  "category": "plates",
+  "name_en": "Legend Plate",
+  "name_zh_hant": "傳說石板",
+  "name_zh_hans": "传说石板",
+  "icon": "icons/legend-plate.png"
+ },
+ {
+  "id": "meadow-plate",
+  "category": "plates",
+  "name_en": "Meadow Plate",
+  "name_zh_hant": "碧綠石板",
+  "name_zh_hans": "碧绿石板",
+  "icon": "icons/meadow-plate.png"
+ },
+ {
+  "id": "mind-plate",
+  "category": "plates",
+  "name_en": "Mind Plate",
+  "name_zh_hant": "神奇石板",
+  "name_zh_hans": "神奇石板",
+  "icon": "icons/mind-plate.png"
+ },
+ {
+  "id": "pixie-plate",
+  "category": "plates",
+  "name_en": "Pixie Plate",
+  "name_zh_hant": "妖精石板",
+  "name_zh_hans": "妖精石板",
+  "icon": "icons/pixie-plate.png"
+ },
+ {
+  "id": "sky-plate",
+  "category": "plates",
+  "name_en": "Sky Plate",
+  "name_zh_hant": "藍天石板",
+  "name_zh_hans": "蓝天石板",
+  "icon": "icons/sky-plate.png"
+ },
+ {
+  "id": "splash-plate",
+  "category": "plates",
+  "name_en": "Splash Plate",
+  "name_zh_hant": "水滴石板",
+  "name_zh_hans": "水滴石板",
+  "icon": "icons/splash-plate.png"
+ },
+ {
+  "id": "spooky-plate",
+  "category": "plates",
+  "name_en": "Spooky Plate",
+  "name_zh_hant": "妖怪石板",
+  "name_zh_hans": "妖怪石板",
+  "icon": "icons/spooky-plate.png"
+ },
+ {
+  "id": "stone-plate",
+  "category": "plates",
+  "name_en": "Stone Plate",
+  "name_zh_hant": "岩石石板",
+  "name_zh_hans": "岩石石板",
+  "icon": "icons/stone-plate.png"
+ },
+ {
+  "id": "toxic-plate",
+  "category": "plates",
+  "name_en": "Toxic Plate",
+  "name_zh_hant": "劇毒石板",
+  "name_zh_hans": "剧毒石板",
+  "icon": "icons/toxic-plate.png"
+ },
+ {
+  "id": "zap-plate",
+  "category": "plates",
+  "name_en": "Zap Plate",
+  "name_zh_hant": "雷電石板",
+  "name_zh_hans": "雷电石板",
+  "icon": "icons/zap-plate.png"
+ },
+ {
+  "id": "adamant-orb",
+  "category": "species-specific",
+  "name_en": "Adamant Orb",
+  "name_zh_hant": "金剛寶珠",
+  "name_zh_hans": "金刚宝珠",
+  "icon": "icons/adamant-orb.png"
+ },
+ {
+  "id": "burn-drive",
+  "category": "species-specific",
+  "name_en": "Burn Drive",
+  "name_zh_hant": "火焰卡帶",
+  "name_zh_hans": "火焰卡带",
+  "icon": "icons/burn-drive.png"
+ },
+ {
+  "id": "chill-drive",
+  "category": "species-specific",
+  "name_en": "Chill Drive",
+  "name_zh_hant": "冰凍卡帶",
+  "name_zh_hans": "冰冻卡带",
+  "icon": "icons/chill-drive.png"
+ },
+ {
+  "id": "deep-sea-scale",
+  "category": "species-specific",
+  "name_en": "Deep Sea Scale",
+  "name_zh_hant": "深海鱗片",
+  "name_zh_hans": "深海鳞片",
+  "icon": "icons/deep-sea-scale.png"
+ },
+ {
+  "id": "deep-sea-tooth",
+  "category": "species-specific",
+  "name_en": "Deep Sea Tooth",
+  "name_zh_hant": "深海之牙",
+  "name_zh_hans": "深海之牙",
+  "icon": "icons/deep-sea-tooth.png"
+ },
+ {
+  "id": "douse-drive",
+  "category": "species-specific",
+  "name_en": "Douse Drive",
+  "name_zh_hant": "水流卡帶",
+  "name_zh_hans": "水流卡带",
+  "icon": "icons/douse-drive.png"
+ },
+ {
+  "id": "griseous-orb",
+  "category": "species-specific",
+  "name_en": "Griseous Orb",
+  "name_zh_hant": "白金寶珠",
+  "name_zh_hans": "白金宝珠",
+  "icon": "icons/griseous-orb.png"
+ },
+ {
+  "id": "light-ball",
+  "category": "species-specific",
+  "name_en": "Light Ball",
+  "name_zh_hant": "電氣球",
+  "name_zh_hans": "电气球",
+  "icon": "icons/light-ball.png"
+ },
+ {
+  "id": "lucky-punch",
+  "category": "species-specific",
+  "name_en": "Lucky Punch",
+  "name_zh_hant": "吉利拳",
+  "name_zh_hans": "吉利拳",
+  "icon": "icons/lucky-punch.png"
+ },
+ {
+  "id": "lustrous-orb",
+  "category": "species-specific",
+  "name_en": "Lustrous Orb",
+  "name_zh_hant": "白玉寶珠",
+  "name_zh_hans": "白玉宝珠",
+  "icon": "icons/lustrous-orb.png"
+ },
+ {
+  "id": "metal-powder",
+  "category": "species-specific",
+  "name_en": "Metal Powder",
+  "name_zh_hant": "金屬粉",
+  "name_zh_hans": "金属粉",
+  "icon": "icons/metal-powder.png"
+ },
+ {
+  "id": "pink-nectar",
+  "category": "species-specific",
+  "name_en": "Pink Nectar",
+  "name_zh_hant": "桃粉色花蜜",
+  "name_zh_hans": "桃粉色花蜜",
+  "icon": "icons/pink-nectar.png"
+ },
+ {
+  "id": "purple-nectar",
+  "category": "species-specific",
+  "name_en": "Purple Nectar",
+  "name_zh_hant": "蘭紫色花蜜",
+  "name_zh_hans": "兰紫色花蜜",
+  "icon": "icons/purple-nectar.png"
+ },
+ {
+  "id": "quick-powder",
+  "category": "species-specific",
+  "name_en": "Quick Powder",
+  "name_zh_hant": "速度粉",
+  "name_zh_hans": "速度粉",
+  "icon": "icons/quick-powder.png"
+ },
+ {
+  "id": "red-nectar",
+  "category": "species-specific",
+  "name_en": "Red Nectar",
+  "name_zh_hant": "朱紅色花蜜",
+  "name_zh_hans": "朱红色花蜜",
+  "icon": "icons/red-nectar.png"
+ },
+ {
+  "id": "rusted-shield",
+  "category": "species-specific",
+  "name_en": "Rusted Shield",
+  "name_zh_hant": "腐朽的盾",
+  "name_zh_hans": "腐朽的盾",
+  "icon": "icons/rusted-shield.png"
+ },
+ {
+  "id": "rusted-sword",
+  "category": "species-specific",
+  "name_en": "Rusted Sword",
+  "name_zh_hant": "腐朽的劍",
+  "name_zh_hans": "腐朽的剑",
+  "icon": "icons/rusted-sword.png"
+ },
+ {
+  "id": "shock-drive",
+  "category": "species-specific",
+  "name_en": "Shock Drive",
+  "name_zh_hant": "閃電卡帶",
+  "name_zh_hans": "闪电卡带",
+  "icon": "icons/shock-drive.png"
+ },
+ {
+  "id": "soul-dew",
+  "category": "species-specific",
+  "name_en": "Soul Dew",
+  "name_zh_hant": "心之水滴",
+  "name_zh_hans": "心之水滴",
+  "icon": "icons/soul-dew.png"
+ },
+ {
+  "id": "stick",
+  "category": "species-specific",
+  "name_en": "Leek",
+  "name_zh_hant": "大蔥",
+  "name_zh_hans": "大葱",
+  "icon": "icons/stick.png"
+ },
+ {
+  "id": "thick-club",
+  "category": "species-specific",
+  "name_en": "Thick Club",
+  "name_zh_hant": "粗骨頭",
+  "name_zh_hans": "粗骨头",
+  "icon": "icons/thick-club.png"
+ },
+ {
+  "id": "yellow-nectar",
+  "category": "species-specific",
+  "name_en": "Yellow Nectar",
+  "name_zh_hant": "金黃色花蜜",
+  "name_zh_hans": "金黄色花蜜",
+  "icon": "icons/yellow-nectar.png"
+ },
+ {
+  "id": "black-belt",
+  "category": "type-enhancement",
+  "name_en": "Black Belt",
+  "name_zh_hant": "黑帶",
+  "name_zh_hans": "黑带",
+  "icon": "icons/black-belt.png"
+ },
+ {
+  "id": "black-glasses",
+  "category": "type-enhancement",
+  "name_en": "Black Glasses",
+  "name_zh_hant": "黑色眼鏡",
+  "name_zh_hans": "黑色眼镜",
+  "icon": "icons/black-glasses.png"
+ },
+ {
+  "id": "charcoal",
+  "category": "type-enhancement",
+  "name_en": "Charcoal",
+  "name_zh_hant": "木炭",
+  "name_zh_hans": "木炭",
+  "icon": "icons/charcoal.png"
+ },
+ {
+  "id": "dragon-fang",
+  "category": "type-enhancement",
+  "name_en": "Dragon Fang",
+  "name_zh_hant": "龍之牙",
+  "name_zh_hans": "龙之牙",
+  "icon": "icons/dragon-fang.png"
+ },
+ {
+  "id": "hard-stone",
+  "category": "type-enhancement",
+  "name_en": "Hard Stone",
+  "name_zh_hant": "硬石頭",
+  "name_zh_hans": "硬石头",
+  "icon": "icons/hard-stone.png"
+ },
+ {
+  "id": "magnet",
+  "category": "type-enhancement",
+  "name_en": "Magnet",
+  "name_zh_hant": "磁鐵",
+  "name_zh_hans": "磁铁",
+  "icon": "icons/magnet.png"
+ },
+ {
+  "id": "metal-coat",
+  "category": "type-enhancement",
+  "name_en": "Metal Coat",
+  "name_zh_hant": "金屬膜",
+  "name_zh_hans": "金属膜",
+  "icon": "icons/metal-coat.png"
+ },
+ {
+  "id": "miracle-seed",
+  "category": "type-enhancement",
+  "name_en": "Miracle Seed",
+  "name_zh_hant": "奇跡種子",
+  "name_zh_hans": "奇迹种子",
+  "icon": "icons/miracle-seed.png"
+ },
+ {
+  "id": "mystic-water",
+  "category": "type-enhancement",
+  "name_en": "Mystic Water",
+  "name_zh_hant": "神秘水滴",
+  "name_zh_hans": "神秘水滴",
+  "icon": "icons/mystic-water.png"
+ },
+ {
+  "id": "never-melt-ice",
+  "category": "type-enhancement",
+  "name_en": "Never-Melt Ice",
+  "name_zh_hant": "不融冰",
+  "name_zh_hans": "不融冰",
+  "icon": "icons/never-melt-ice.png"
+ },
+ {
+  "id": "odd-incense",
+  "category": "type-enhancement",
+  "name_en": "Odd Incense",
+  "name_zh_hant": "奇異薰香",
+  "name_zh_hans": "奇异薰香",
+  "icon": "icons/odd-incense.png"
+ },
+ {
+  "id": "poison-barb",
+  "category": "type-enhancement",
+  "name_en": "Poison Barb",
+  "name_zh_hant": "毒針",
+  "name_zh_hans": "毒针",
+  "icon": "icons/poison-barb.png"
+ },
+ {
+  "id": "rock-incense",
+  "category": "type-enhancement",
+  "name_en": "Rock Incense",
+  "name_zh_hant": "岩石薰香",
+  "name_zh_hans": "岩石薰香",
+  "icon": "icons/rock-incense.png"
+ },
+ {
+  "id": "rose-incense",
+  "category": "type-enhancement",
+  "name_en": "Rose Incense",
+  "name_zh_hant": "花朵薰香",
+  "name_zh_hans": "花朵薰香",
+  "icon": "icons/rose-incense.png"
+ },
+ {
+  "id": "sea-incense",
+  "category": "type-enhancement",
+  "name_en": "Sea Incense",
+  "name_zh_hant": "海潮薰香",
+  "name_zh_hans": "海潮薰香",
+  "icon": "icons/sea-incense.png"
+ },
+ {
+  "id": "sharp-beak",
+  "category": "type-enhancement",
+  "name_en": "Sharp Beak",
+  "name_zh_hant": "銳利鳥嘴",
+  "name_zh_hans": "锐利鸟嘴",
+  "icon": "icons/sharp-beak.png"
+ },
+ {
+  "id": "silk-scarf",
+  "category": "type-enhancement",
+  "name_en": "Silk Scarf",
+  "name_zh_hant": "絲綢圍巾",
+  "name_zh_hans": "丝绸围巾",
+  "icon": "icons/silk-scarf.png"
+ },
+ {
+  "id": "silver-powder",
+  "category": "type-enhancement",
+  "name_en": "Silver Powder",
+  "name_zh_hant": "銀粉",
+  "name_zh_hans": "银粉",
+  "icon": "icons/silver-powder.png"
+ },
+ {
+  "id": "soft-sand",
+  "category": "type-enhancement",
+  "name_en": "Soft Sand",
+  "name_zh_hant": "柔軟沙子",
+  "name_zh_hans": "柔软沙子",
+  "icon": "icons/soft-sand.png"
+ },
+ {
+  "id": "spell-tag",
+  "category": "type-enhancement",
+  "name_en": "Spell Tag",
+  "name_zh_hant": "詛咒之符",
+  "name_zh_hans": "诅咒之符",
+  "icon": "icons/spell-tag.png"
+ },
+ {
+  "id": "twisted-spoon",
+  "category": "type-enhancement",
+  "name_en": "Twisted Spoon",
+  "name_zh_hant": "彎曲的湯匙",
+  "name_zh_hans": "弯曲的汤匙",
+  "icon": "icons/twisted-spoon.png"
+ },
+ {
+  "id": "wave-incense",
+  "category": "type-enhancement",
+  "name_en": "Wave Incense",
+  "name_zh_hant": "漣漪薰香",
+  "name_zh_hans": "涟漪薰香",
+  "icon": "icons/wave-incense.png"
+ },
+ {
+  "id": "babiri-berry",
+  "category": "type-protection",
+  "name_en": "Babiri Berry",
+  "name_zh_hant": "霹霹果",
+  "name_zh_hans": "霹霹果",
+  "icon": "icons/babiri-berry.png"
+ },
+ {
+  "id": "charti-berry",
+  "category": "type-protection",
+  "name_en": "Charti Berry",
+  "name_zh_hant": "草蠶果",
+  "name_zh_hans": "草蚕果",
+  "icon": "icons/charti-berry.png"
+ },
+ {
+  "id": "chilan-berry",
+  "category": "type-protection",
+  "name_en": "Chilan Berry",
+  "name_zh_hant": "燈漿果",
+  "name_zh_hans": "灯浆果",
+  "icon": "icons/chilan-berry.png"
+ },
+ {
+  "id": "chople-berry",
+  "category": "type-protection",
+  "name_en": "Chople Berry",
+  "name_zh_hant": "蓮蒲果",
+  "name_zh_hans": "莲蒲果",
+  "icon": "icons/chople-berry.png"
+ },
+ {
+  "id": "coba-berry",
+  "category": "type-protection",
+  "name_en": "Coba Berry",
+  "name_zh_hant": "稜瓜果",
+  "name_zh_hans": "棱瓜果",
+  "icon": "icons/coba-berry.png"
+ },
+ {
+  "id": "colbur-berry",
+  "category": "type-protection",
+  "name_en": "Colbur Berry",
+  "name_zh_hant": "刺耳果",
+  "name_zh_hans": "刺耳果",
+  "icon": "icons/colbur-berry.png"
+ },
+ {
+  "id": "haban-berry",
+  "category": "type-protection",
+  "name_en": "Haban Berry",
+  "name_zh_hant": "莓榴果",
+  "name_zh_hans": "莓榴果",
+  "icon": "icons/haban-berry.png"
+ },
+ {
+  "id": "kasib-berry",
+  "category": "type-protection",
+  "name_en": "Kasib Berry",
+  "name_zh_hant": "佛柑果",
+  "name_zh_hans": "佛柑果",
+  "icon": "icons/kasib-berry.png"
+ },
+ {
+  "id": "kebia-berry",
+  "category": "type-protection",
+  "name_en": "Kebia Berry",
+  "name_zh_hant": "通通果",
+  "name_zh_hans": "通通果",
+  "icon": "icons/kebia-berry.png"
+ },
+ {
+  "id": "occa-berry",
+  "category": "type-protection",
+  "name_en": "Occa Berry",
+  "name_zh_hant": "巧可果",
+  "name_zh_hans": "巧可果",
+  "icon": "icons/occa-berry.png"
+ },
+ {
+  "id": "passho-berry",
+  "category": "type-protection",
+  "name_en": "Passho Berry",
+  "name_zh_hant": "千香果",
+  "name_zh_hans": "千香果",
+  "icon": "icons/passho-berry.png"
+ },
+ {
+  "id": "payapa-berry",
+  "category": "type-protection",
+  "name_en": "Payapa Berry",
+  "name_zh_hant": "福祿果",
+  "name_zh_hans": "福禄果",
+  "icon": "icons/payapa-berry.png"
+ },
+ {
+  "id": "rindo-berry",
+  "category": "type-protection",
+  "name_en": "Rindo Berry",
+  "name_zh_hant": "羅子果",
+  "name_zh_hans": "罗子果",
+  "icon": "icons/rindo-berry.png"
+ },
+ {
+  "id": "roseli-berry",
+  "category": "type-protection",
+  "name_en": "Roseli Berry",
+  "name_zh_hant": "洛玫果",
+  "name_zh_hans": "洛玫果",
+  "icon": "icons/roseli-berry.png"
+ },
+ {
+  "id": "shuca-berry",
+  "category": "type-protection",
+  "name_en": "Shuca Berry",
+  "name_zh_hant": "腰木果",
+  "name_zh_hans": "腰木果",
+  "icon": "icons/shuca-berry.png"
+ },
+ {
+  "id": "tanga-berry",
+  "category": "type-protection",
+  "name_en": "Tanga Berry",
+  "name_zh_hant": "扁櫻果",
+  "name_zh_hans": "扁樱果",
+  "icon": "icons/tanga-berry.png"
+ },
+ {
+  "id": "wacan-berry",
+  "category": "type-protection",
+  "name_en": "Wacan Berry",
+  "name_zh_hant": "燭木果",
+  "name_zh_hans": "烛木果",
+  "icon": "icons/wacan-berry.png"
+ },
+ {
+  "id": "yache-berry",
+  "category": "type-protection",
+  "name_en": "Yache Berry",
+  "name_zh_hant": "番荔果",
+  "name_zh_hans": "番荔果",
+  "icon": "icons/yache-berry.png"
+ }
+]
