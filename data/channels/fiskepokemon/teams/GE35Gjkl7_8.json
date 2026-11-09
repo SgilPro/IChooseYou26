@@ -94,7 +94,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "空間手，太晶爆發四倍克制龍系"
+        "role_note": "空間手，冰凍光束四倍克制多數龍系"
       },
       {
         "slot": 2,
@@ -171,7 +171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "空間模式必選，威嚇與擊掌輔助"
+        "role_note": "空間模式通常選出，威嚇與擊掌輔助"
       },
       {
         "slot": 3,
@@ -493,8 +493,8 @@
     "paste_text": "Porygon2 @ Eviolite  \r\nAbility: Download  \r\nLevel: 50  \r\nTera Type: Fighting  \r\nEVs: 252 HP / 76 Def / 172 SpA / 4 SpD / 4 Spe  \r\nModest Nature  \r\n- Tera Blast  \r\n- Ice Beam  \r\n- Trick Room  \r\n- Recover  \r\n\r\nIncineroar @ Sitrus Berry  \r\nAbility: Intimidate  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 HP / 196 Atk / 28 Def / 4 SpD / 28 Spe  \r\nAdamant Nature  \r\n- Fake Out  \r\n- Knock Off  \r\n- Flare Blitz  \r\n- Parting Shot  \r\n\r\nUrsaluna @ Flame Orb  \r\nAbility: Guts  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 140 HP / 252 Atk / 116 Spe  \r\nAdamant Nature  \r\n- Headlong Rush  \r\n- Facade  \r\n- Earthquake  \r\n- Protect  \r\n\r\nJumpluff @ Covert Cloak  \r\nAbility: Chlorophyll  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 60 Def / 196 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Rage Powder  \r\n- Sunny Day  \r\n- Tailwind  \r\n- Sleep Powder  \r\n\r\nCharizard @ Choice Specs  \r\nAbility: Solar Power  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Heat Wave  \r\n- Overheat  \r\n- Weather Ball  \r\n- Dragon Pulse  \r\n\r\nTorkoal @ Eject Pack  \r\nAbility: Drought  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 252 SpA / 4 SpD  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Overheat  \r\n- Eruption  \r\n- Helping Hand  \r\n- Protect  \r\n\r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：修正多邊獸 role_note（四倍克龍為冰凍光束，非格鬥太晶爆發）、咆哮虎「必選」改「通常選出」；其餘有據。",
     "notes": "Marco Silva 以此隊在官方線上賽 Grand Challenge 第二屆拿下結算第四名。核心是膽小眼鏡噴火龍的太陽之力熱風，在現環境群體輸出頂尖，連烈咬陸鯊也會被眼鏡過熱秒殺，且不像火爆獸噴火需要滿血。噴火龍特攻低、沒晴天就沒輸出，因此同時帶煤炭龜與毽子棉確保晴天：煤炭龜帶避難背包，遇首發威嚇可直接下場換噴火龍或毽子棉開順風。另有空間模式以多邊獸與月月熊補打噴火龍打不動的高耐久火、龍、岩石系，月月熊加一點速度也能在順風下搭配噴火龍地震。選出彈性小，高速模式幾乎固定毽子棉加噴火龍，空間模式選咆哮虎、多邊獸、月月熊，常見首發只有五種。弱點是全隊以火系輸出為主，難處理引火紅蓮鎧騎與班基拉斯，咆哮虎一旦被秒就很難打。",
     "extracted_at": "2026-11-08T16:36:51.909Z",
     "extracted_by": "import-pokepaste-v1"

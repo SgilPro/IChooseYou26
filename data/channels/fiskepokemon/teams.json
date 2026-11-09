@@ -15962,8 +15962,8 @@
     "paste_text": "Miraidon @ Assault Vest  \r\nAbility: Hadron Engine  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 116 HP / 4 Def / 252 SpA / 4 SpD / 132 Spe  \r\nTimid Nature  \r\n- Electro Drift  \r\n- Volt Switch  \r\n- Parabolic Charge  \r\n- Overheat  \r\n\r\nRaging Bolt @ Life Orb  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Electric  \r\nEVs: 108 HP / 4 Def / 252 SpA / 4 SpD / 140 Spe  \r\nModest Nature  \r\nIVs: 20 Atk  \r\n- Protect  \r\n- Draco Meteor  \r\n- Rising Voltage  \r\n- Thunderclap  \r\n\r\nWhimsicott @ Covert Cloak  \r\nAbility: Prankster  \r\nLevel: 50  \r\nTera Type: Steel  \r\nEVs: 156 HP / 204 SpD / 148 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Tailwind  \r\n- Light Screen  \r\n- Grass Knot  \r\n- Encore  \r\n\r\nIron Bundle @ Focus Sash  \r\nAbility: Quark Drive  \r\nLevel: 50  \r\nTera Type: Ground  \r\nEVs: 252 SpA / 4 SpD / 252 Spe  \r\nTimid Nature  \r\n- Icy Wind  \r\n- Ice Beam  \r\n- U-turn  \r\n- Protect  \r\n\r\nGroudon @ Leftovers  \r\nAbility: Drought  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 76 Atk / 4 Def / 92 SpD / 84 Spe  \r\nAdamant Nature  \r\n- Precipice Blades  \r\n- Protect  \r\n- Helping Hand  \r\n- Heat Crash  \r\n\r\nFarigiraf @ Electric Seed  \r\nAbility: Armor Tail  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 204 HP / 164 Def / 4 SpA / 108 SpD / 28 Spe  \r\nBold Nature  \r\nIVs: 0 Atk  \r\n- Helping Hand  \r\n- Trick Room  \r\n- Roar  \r\n- Foul Play  ",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：notes 全句、6 role_note、author、5 tags 皆有字幕/pokepaste 依據，無修改。",
     "notes": "作者 Brian Fournier 的電力上升猛雷鼓隊，北美國際賽 64 強。核心是朱紫中只剩猛雷鼓會的電力上升：使用者站在電氣場地乘 1.3 倍、對象也在場地上再乘 2 倍，搭配古代活性、生命寶珠、太晶電與幫助時約為眼鏡密勒頓閃電猛衝的 2.39 倍，能秒殺堆滿特防的太晶草白馬王；因此同時放了密勒頓與固拉多專門輔助。條件一是確保猛雷鼓先出手，靠風妖精順風、奇麒麟空間與鐵包袱的高速冰凍之風控速；條件二是搶到場地與天氣，所以密勒頓用背心保留伏特替換、鐵包袱帶急速折返，固拉多則偏輔助（剩飯、幫助）且選出率不高。整體策略高度集中在進攻 Synergy，只要開出場地且猛雷鼓先手就能換掉對面至少一人。弱點是防守重複：四人弱冰、全隊不抗妖精、地面抗性極差（固拉多太晶火後三人弱地面）；面對露奈雅拉加月月熊或白馬王加密勒頓必須優先秒殺對面空間手，否則只能靠奇麒麟反開空間，遇到古鼎鹿也很難打。",
     "extracted_at": "2026-11-08T16:36:22.626Z",
     "extracted_by": "import-pokepaste-v1",
@@ -18996,7 +18996,6 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "trick-room",
       "restricted",
       "rain",
       "tailwind"
@@ -19479,8 +19478,8 @@
     "paste_text": "Forretress @ Leftovers  \r\nAbility: Overcoat  \r\nLevel: 50  \r\nTera Type: Dragon  \r\nEVs: 252 HP / 252 Def / 4 SpD  \r\nBold Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Protect  \r\n- Body Press  \r\n- Volt Switch  \r\n- Iron Defense  \r\n\r\nKyogre @ Choice Scarf  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 4 Def / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Water Spout  \r\n- Origin Pulse  \r\n- Thunder  \r\n- Ice Beam  \r\n\r\nTsareena @ Wide Lens  \r\nAbility: Queenly Majesty  \r\nLevel: 50  \r\nTera Type: Ice  \r\nEVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe  \r\nAdamant Nature  \r\n- Protect  \r\n- Power Whip  \r\n- Triple Axel  \r\n- Helping Hand  \r\n\r\nOgerpon-Cornerstone (F) @ Cornerstone Mask  \r\nAbility: Sturdy  \r\nLevel: 50  \r\nTera Type: Rock  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nAdamant Nature  \r\n- Spiky Shield  \r\n- Ivy Cudgel  \r\n- Power Whip  \r\n- Follow Me  \r\n\r\nTornadus @ Focus Sash  \r\nAbility: Prankster  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Bleakwind Storm  \r\n- Tailwind  \r\n- Rain Dance  \r\n\r\nLandorus @ Life Orb  \r\nAbility: Sheer Force  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Earth Power  \r\n- Sandsear Storm  \r\n- Sludge Bomb  \r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：移除 trick-room tag（全隊無戲法空間，字幕的空間皆指對手）；其餘 notes/role_note/author 有據。",
     "notes": "作者為 2017 年世界冠軍 Otsubo Ryota 的鐵壁佛烈托斯雨天隊。隊伍其他成員都是圍巾蓋歐卡順風隊的常見配置：龍捲雲先制順風與求雨搶天氣、土地雲剋電系處理密勒頓與猛雷鼓、甜冷美后阻止先制並以幫助增傷，多數場合就是靠太晶水幫助噴水一打四。蓋歐卡隊整體弱冰，無法第一回合阻止空間時容易被白馬王雪矛打穿，所以放了專門針對白馬王的佛烈托斯：蟲鋼抗雪矛、不弱地面格鬥毒草、防塵不怕盾菇與圖圖犬催眠也不怕拍落，鐵壁一次後白馬王就打不動他，而撲擊能打抗水的太晶白馬王。佛烈托斯特防極脆，需土地雲與甜冷美后處理猛雷鼓，而伏特替換可在不加特攻下秒滿血大嘴鷗；岩石厄鬼椪剋白馬王冰系、太晶後水系與龍捲雲，並以看我嘛避免圍巾蓋歐卡暴斃。只有面對空間白馬王時才會考慮選佛烈托斯。",
     "extracted_at": "2026-11-08T16:39:12.967Z",
     "extracted_by": "import-pokepaste-v1",
@@ -22990,8 +22989,8 @@
     "paste_text": "Lunala @ Power Herb  \r\nAbility: Shadow Shield  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 116 HP / 108 Def / 252 SpA / 28 SpD / 4 Spe  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Meteor Beam  \r\n- Expanding Force  \r\n- Moongeist Beam  \r\n- Trick Room  \r\n\r\nLandorus @ Life Orb  \r\nAbility: Sheer Force  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 164 HP / 140 SpA / 204 SpD  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Earth Power  \r\n- Sludge Bomb  \r\n- Sandsear Storm  \r\n- Protect  \r\n\r\nIndeedee-F @ Rocky Helmet  \r\nAbility: Psychic Surge  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 252 HP / 252 Def / 4 SpD  \r\nBold Nature  \r\nIVs: 0 Atk / 29 Spe  \r\n- Alluring Voice  \r\n- Trick Room  \r\n- Follow Me  \r\n- Helping Hand  \r\n\r\nOgerpon-Hearthflame (F) @ Hearthflame Mask  \r\nAbility: Mold Breaker  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 220 HP / 12 Atk / 252 Def / 4 SpD / 20 Spe  \r\nJolly Nature  \r\n- Ivy Cudgel  \r\n- Wood Hammer  \r\n- Follow Me  \r\n- Spiky Shield  \r\n\r\nUrshifu-Rapid-Strike @ Focus Sash  \r\nAbility: Unseen Fist  \r\nLevel: 50  \r\nTera Type: Stellar  \r\nEVs: 252 Atk / 4 Def / 252 Spe  \r\nAdamant Nature  \r\n- Surging Strikes  \r\n- Close Combat  \r\n- Taunt  \r\n- Protect  \r\n\r\nRoaring Moon @ Booster Energy  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Flying  \r\nEVs: 44 HP / 196 Atk / 4 Def / 12 SpD / 252 Spe  \r\nJolly Nature  \r\n- Acrobatics  \r\n- Knock Off  \r\n- Tailwind  \r\n- Protect  \r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：notes 全句、5 role_note、author、4 tags 皆有字幕/pokepaste 依據，無修改。",
     "notes": "作者 Behzad Muntazir 以此露奈雅拉與轟鳴月順風空間隊奪得加拿大溫哥華地區賽冠軍，第二天一路 2:0 全勝，是朱紫史上露奈雅拉最好的成績。靈感來自先前奪冠的轟鳴月加白馬王隊，以速度相近的露奈雅拉取代白馬王、愛管侍取代盾菇；露奈雅拉耐久高、防守特性好、輔助技能池優秀，順風與空間皆可配合，對藏瑪然特與蓋歐卡好打非常多。相較白馬王更好打咆哮虎（流星光束秒非背心咆哮虎），暗影之光附帶破格可無視厄鬼椪結實、皮皮友情防守、吃吼霸純樸等特性；最難打的古玉魚則由轟鳴月與武道熊師在屬性上剋制。配置也有調整：露奈雅拉太晶水後對白馬王相對優勢，所以武道熊師改帶披帶、土地雲大量投資特防針對振翼髮與黑馬王，轟鳴月因有頭盔愛管侍掩護而減物防、加物攻速度。缺點是威力過高的一倍屬性（例如頭帶惡武道熊師暗冥強擊仍可秒太晶水露奈雅拉）、觸發強力香草後面對太晶惡不好打，以及流星光束 90% 命中常 miss。",
     "extracted_at": "2026-11-08T16:39:20.285Z",
     "extracted_by": "import-pokepaste-v1",
@@ -30422,7 +30421,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "空間手，太晶爆發四倍克制龍系"
+        "role_note": "空間手，冰凍光束四倍克制多數龍系"
       },
       {
         "slot": 2,
@@ -30499,7 +30498,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": "空間模式必選，威嚇與擊掌輔助"
+        "role_note": "空間模式通常選出，威嚇與擊掌輔助"
       },
       {
         "slot": 3,
@@ -30821,8 +30820,8 @@
     "paste_text": "Porygon2 @ Eviolite  \r\nAbility: Download  \r\nLevel: 50  \r\nTera Type: Fighting  \r\nEVs: 252 HP / 76 Def / 172 SpA / 4 SpD / 4 Spe  \r\nModest Nature  \r\n- Tera Blast  \r\n- Ice Beam  \r\n- Trick Room  \r\n- Recover  \r\n\r\nIncineroar @ Sitrus Berry  \r\nAbility: Intimidate  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 HP / 196 Atk / 28 Def / 4 SpD / 28 Spe  \r\nAdamant Nature  \r\n- Fake Out  \r\n- Knock Off  \r\n- Flare Blitz  \r\n- Parting Shot  \r\n\r\nUrsaluna @ Flame Orb  \r\nAbility: Guts  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 140 HP / 252 Atk / 116 Spe  \r\nAdamant Nature  \r\n- Headlong Rush  \r\n- Facade  \r\n- Earthquake  \r\n- Protect  \r\n\r\nJumpluff @ Covert Cloak  \r\nAbility: Chlorophyll  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 60 Def / 196 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Rage Powder  \r\n- Sunny Day  \r\n- Tailwind  \r\n- Sleep Powder  \r\n\r\nCharizard @ Choice Specs  \r\nAbility: Solar Power  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Heat Wave  \r\n- Overheat  \r\n- Weather Ball  \r\n- Dragon Pulse  \r\n\r\nTorkoal @ Eject Pack  \r\nAbility: Drought  \r\nLevel: 50  \r\nTera Type: Fire  \r\nEVs: 252 HP / 252 SpA / 4 SpD  \r\nQuiet Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Overheat  \r\n- Eruption  \r\n- Helping Hand  \r\n- Protect  \r\n\r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：修正多邊獸 role_note（四倍克龍為冰凍光束，非格鬥太晶爆發）、咆哮虎「必選」改「通常選出」；其餘有據。",
     "notes": "Marco Silva 以此隊在官方線上賽 Grand Challenge 第二屆拿下結算第四名。核心是膽小眼鏡噴火龍的太陽之力熱風，在現環境群體輸出頂尖，連烈咬陸鯊也會被眼鏡過熱秒殺，且不像火爆獸噴火需要滿血。噴火龍特攻低、沒晴天就沒輸出，因此同時帶煤炭龜與毽子棉確保晴天：煤炭龜帶避難背包，遇首發威嚇可直接下場換噴火龍或毽子棉開順風。另有空間模式以多邊獸與月月熊補打噴火龍打不動的高耐久火、龍、岩石系，月月熊加一點速度也能在順風下搭配噴火龍地震。選出彈性小，高速模式幾乎固定毽子棉加噴火龍，空間模式選咆哮虎、多邊獸、月月熊，常見首發只有五種。弱點是全隊以火系輸出為主，難處理引火紅蓮鎧騎與班基拉斯，咆哮虎一旦被秒就很難打。",
     "extracted_at": "2026-11-08T16:36:51.909Z",
     "extracted_by": "import-pokepaste-v1",

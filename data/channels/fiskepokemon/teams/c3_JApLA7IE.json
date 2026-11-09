@@ -10,7 +10,6 @@
     "regulation_set_id": "sv-reg-g-2025",
     "regulation_source": "date-inferred",
     "tags": [
-      "trick-room",
       "restricted",
       "rain",
       "tailwind"
@@ -493,8 +492,8 @@
     "paste_text": "Forretress @ Leftovers  \r\nAbility: Overcoat  \r\nLevel: 50  \r\nTera Type: Dragon  \r\nEVs: 252 HP / 252 Def / 4 SpD  \r\nBold Nature  \r\nIVs: 0 Atk / 0 Spe  \r\n- Protect  \r\n- Body Press  \r\n- Volt Switch  \r\n- Iron Defense  \r\n\r\nKyogre @ Choice Scarf  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Water  \r\nEVs: 4 Def / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Water Spout  \r\n- Origin Pulse  \r\n- Thunder  \r\n- Ice Beam  \r\n\r\nTsareena @ Wide Lens  \r\nAbility: Queenly Majesty  \r\nLevel: 50  \r\nTera Type: Ice  \r\nEVs: 44 HP / 252 Atk / 4 Def / 4 SpD / 204 Spe  \r\nAdamant Nature  \r\n- Protect  \r\n- Power Whip  \r\n- Triple Axel  \r\n- Helping Hand  \r\n\r\nOgerpon-Cornerstone (F) @ Cornerstone Mask  \r\nAbility: Sturdy  \r\nLevel: 50  \r\nTera Type: Rock  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nAdamant Nature  \r\n- Spiky Shield  \r\n- Ivy Cudgel  \r\n- Power Whip  \r\n- Follow Me  \r\n\r\nTornadus @ Focus Sash  \r\nAbility: Prankster  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Bleakwind Storm  \r\n- Tailwind  \r\n- Rain Dance  \r\n\r\nLandorus @ Life Orb  \r\nAbility: Sheer Force  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 4 HP / 252 SpA / 252 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Earth Power  \r\n- Sandsear Storm  \r\n- Sludge Bomb  \r\n",
     "paste_notes": null,
     "confidence": 0.95,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "字幕忠實度複核：移除 trick-room tag（全隊無戲法空間，字幕的空間皆指對手）；其餘 notes/role_note/author 有據。",
     "notes": "作者為 2017 年世界冠軍 Otsubo Ryota 的鐵壁佛烈托斯雨天隊。隊伍其他成員都是圍巾蓋歐卡順風隊的常見配置：龍捲雲先制順風與求雨搶天氣、土地雲剋電系處理密勒頓與猛雷鼓、甜冷美后阻止先制並以幫助增傷，多數場合就是靠太晶水幫助噴水一打四。蓋歐卡隊整體弱冰，無法第一回合阻止空間時容易被白馬王雪矛打穿，所以放了專門針對白馬王的佛烈托斯：蟲鋼抗雪矛、不弱地面格鬥毒草、防塵不怕盾菇與圖圖犬催眠也不怕拍落，鐵壁一次後白馬王就打不動他，而撲擊能打抗水的太晶白馬王。佛烈托斯特防極脆，需土地雲與甜冷美后處理猛雷鼓，而伏特替換可在不加特攻下秒滿血大嘴鷗；岩石厄鬼椪剋白馬王冰系、太晶後水系與龍捲雲，並以看我嘛避免圍巾蓋歐卡暴斃。只有面對空間白馬王時才會考慮選佛烈托斯。",
     "extracted_at": "2026-11-08T16:39:12.967Z",
     "extracted_by": "import-pokepaste-v1"
