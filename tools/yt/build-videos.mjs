@@ -4,7 +4,7 @@
 //
 // 用法：node tools/yt/build-videos.mjs data/channels/fiskepokemon
 
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
@@ -171,6 +171,22 @@ for (const rec of index.videos) {
     fetched_at: new Date().toISOString(),
     fetch_error: info ? null : err,
   });
+}
+
+// 回填作者：若該影片已有隊伍檔且作者來源不是頻道預設（字幕/描述/pokepaste 點名原作者），主表 author 跟著改。
+{
+  const teamsDir = join(chDir, "teams");
+  if (existsSync(teamsDir)) {
+    const byVideo = new Map();
+    for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json"))) {
+      try {
+        for (const t of JSON.parse(readFileSync(join(teamsDir, f), "utf8"))) {
+          if (t.author && t.author_source && t.author_source !== "channel") byVideo.set(t.video_id, { author: t.author, source: t.author_source });
+        }
+      } catch {}
+    }
+    for (const v of videos) { const a = byVideo.get(v.id); if (a) { v.author = a.author; v.author_source = a.source; } }
+  }
 }
 
 videos.sort((a, b) => (b.published_at || "").localeCompare(a.published_at || "") || a.id.localeCompare(b.id));
