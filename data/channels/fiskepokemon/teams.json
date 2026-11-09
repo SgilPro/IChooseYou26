@@ -28917,7 +28917,6 @@
     "regulation_set_id": "sv-reg-h",
     "regulation_source": "date-inferred",
     "tags": [
-      "hyper-offense",
       "setup",
       "tera"
     ],
@@ -28951,7 +28950,7 @@
         "tera_type": {
           "value": "幽靈",
           "value_en": "Ghost",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "frame"
         },
         "mega": false,
@@ -29013,7 +29012,7 @@
         "tera_type": {
           "value": "幽靈",
           "value_en": "Ghost",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "frame"
         },
         "mega": false,
@@ -29075,7 +29074,7 @@
         "tera_type": {
           "value": "毒",
           "value_en": "Poison",
-          "confidence": 0.75,
+          "confidence": 0.9,
           "source": "frame"
         },
         "mega": false,
@@ -29271,7 +29270,7 @@
         "tera_type": {
           "value": "幽靈",
           "value_en": "Ghost",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "source": "frame"
         },
         "mega": false,
@@ -29320,8 +29319,8 @@
       "pokepaste_url": null
     },
     "confidence": 0.98,
-    "review_status": "auto",
-    "review_notes": "隊伍表畫面（f_002、f_022 無遮擋）六隻的特性／道具／四招／太晶圖示皆清楚；性格與多數努力值畫面未顯示，留 null。tags 中 hyper-offense 來自標題「高速爆發」，setup／tera 來自字幕（強化手、太晶星晶）；字幕本身反而說策略偏慢。規則依發布日 2024-12-10 推為 Reg H。",
+    "review_status": "reviewed",
+    "review_notes": "reviewer 獨立複核（f_022 放大）：六隻 species/性別/特性/道具/四招/太晶/EV 全部一致；太晶圖示複核後幽靈×3、毒、草、星晶確認，confidence 提至 0.9；移除 hyper-offense（標題「高速爆發」與字幕 2:53「策略比較慢、沒有超高爆發」矛盾）。原 notes：隊伍表畫面（f_002、f_022 無遮擋）六隻的特性／道具／四招／太晶圖示皆清楚；性格與多數努力值畫面未顯示，留 null。tags 中 hyper-offense 來自標題「高速爆發」，setup／tera 來自字幕（強化手、太晶星晶）；字幕本身反而說策略偏慢。規則依發布日 2024-12-10 推為 Reg H。",
     "notes": "2016 世界冠軍 Wolfe Glick 的全御三家隊（君主蛇版）。出發點與 Fiske 自己的御三家隊相同，都是以西獅海壬的水草誓約（濕地）為主，但本隊以唱反調君主蛇取代假面喵：飛葉風暴邊打邊升特攻，可獨立作為強化手，也能與咆哮虎／金剛猩首發用擊掌掩護強化；太晶星晶太晶爆發補足對抗草對手的打擊面。因君主蛇、西獅海壬、咆哮虎、金剛猩全都弱大狃拉，由鬼火＋偷懶、純樸的巨聲鱷負責壓制大狃拉與劍舞仆斬將軍、吃吼霸；第六位從帝王拿波改成火焰雞，靠近身戰處理鋁鋼橋龍雨天隊。弱點：策略偏慢、缺乏高爆發清場手段，攻防屬性重疊，對暴飛龍只靠西獅海壬、對鋁鋼橋龍只靠火焰雞，雨天下與首發同時弱大狃拉時非常被動。",
     "extracted_at": "2026-11-08T17:04:10Z",
     "extracted_by": "claude-fable-5.1/extract-v1.3",
@@ -40644,8 +40643,8 @@
       "pokepaste_url": null
     },
     "confidence": 0.98,
-    "review_status": "auto",
-    "review_notes": null,
+    "review_status": "reviewed",
+    "review_notes": "reviewer 獨立複核（f_021 放大）：六隻 species/型態（洗翠風速狗）/性別/特性/道具/四招/太晶/0 速 EV 全部一致；作者 onsoni（おんそに）、Reg G（2024-07-17）確認；無修正。隊伍表 f_021 完整、f_018/f_020 右半被鱗射說明遮擋。",
     "notes": "作者 onsoni（畫面顯示 おんそに，租借隊伍 ID NWNL08），6 月賽季結算第 24 名。看似故勒頓＋振翼髮＋古玉魚＋猛雷鼓的高速晴天 HO，實際上六隻全部 0 速、減速性格的空間隊：對手常首發順風手等控速輔助，反而難阻止振翼髮開空間，空間下蹭對面順風反打。故勒頓被白馬王壓制，故加入黑色鐵球雷吉鐸拉戈（空間下噴龍）與太晶水洗翠風速狗（岩崩／純水系）針對白馬王。故勒頓不首發、不怕威嚇，改帶老千骰子鱗射在空間結束後靠加速維持先手。",
     "extracted_at": "2026-11-08T17:03:32.449Z",
     "extracted_by": "claude-fable-5.1/extract-v1.3",

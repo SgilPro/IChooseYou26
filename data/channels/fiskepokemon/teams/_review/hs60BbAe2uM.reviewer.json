@@ -1,0 +1,471 @@
+[
+  {
+    "id": "team_hs60BbAe2uM",
+    "name": "故勒頓假高速真空間隊",
+    "name_source": "title",
+    "video_id": "hs60BbAe2uM",
+    "video_url": "https://www.youtube.com/watch?v=hs60BbAe2uM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "trick-room",
+      "restricted"
+    ],
+    "tags_source": "subtitle",
+    "author": "onsoni",
+    "author_source": "subtitle",
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        170
+      ],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "reviewer-draft",
+    "review_notes": "reviewer independent pass; team screen f_021（乾淨全隊）、f_018/f_020（鱗射說明遮右半）；玩家名 おんそに、隊伍 ID NWNL08；6 月賽季第 24 名。",
+    "notes": "假高速真空間：全隊 0 速減速性格，振翼髮開空間；故勒頓老千骰子鱗射；黑鐵球鐸拉戈與洗翠風速狗（太晶水）針對白馬王。",
+    "extracted_at": "2026-11-09T04:41:23Z",
+    "extracted_by": "fable-5.1/review-v1",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1007,
+          "name_zh": "故勒頓",
+          "name_en": "Koraidon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "緋紅脈動",
+          "value_en": "Orichalcum Pulse",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "老千骰子",
+          "value_en": "Loaded Dice",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "全開猛撞",
+            "value_en": "Collision Course",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鱗射",
+            "value_en": "Scale Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.100；0 速減速性格",
+        "stats": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.84；0 速",
+        "stats": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.60；0 速",
+        "stats": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1021,
+          "name_zh": "猛雷鼓",
+          "name_en": "Raging Bolt",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "迅雷",
+            "value_en": "Thunderclap",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.75；0 速",
+        "stats": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": "Hisui",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "雙刃頭錘",
+            "value_en": "Head Smash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.50；屬性圖示火/岩＝洗翠型態（字幕 1:46）；太晶水針對白馬王；0 速",
+        "stats": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 895,
+          "name_zh": "雷吉鐸拉戈",
+          "name_en": "Regidrago",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "龍顎",
+          "value_en": "Dragon’s Maw",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": null,
+          "spd": null,
+          "spe": 0,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "巨龍威能",
+            "value_en": "Dragon Energy",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.100；黑鐵球空間下噴白馬王；0 速",
+        "stats": null
+      }
+    ]
+  }
+]

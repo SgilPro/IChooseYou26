@@ -1,0 +1,420 @@
+[
+  {
+    "id": "team_DQ9m1uGQ4gE",
+    "name": "Mentality（Wolfe Glick 御三家誓約隊）",
+    "name_source": "frame",
+    "video_id": "DQ9m1uGQ4gE",
+    "video_url": "https://www.youtube.com/watch?v=DQ9m1uGQ4gE",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-h",
+    "regulation_source": "date-inferred",
+    "tags": [
+      "setup"
+    ],
+    "tags_source": "subtitle",
+    "author": "Wolfe Glick",
+    "author_source": "subtitle",
+    "is_members_only": false,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": "zh-TW",
+      "subtitle_range_s": [
+        0,
+        235
+      ],
+      "frames_used": 3,
+      "pokepaste_url": null
+    },
+    "confidence": 0.98,
+    "review_status": "reviewer-draft",
+    "review_notes": "reviewer independent pass; team screen f_022（乾淨）、f_024/f_027/f_029 部分遮擋；隊名 Mentality、玩家名 Wolfey（Wolfe Glick）。",
+    "notes": "全御三家隊 2.0：西獅海壬水草誓約為主，君主蛇唱反調飛葉風暴自我強化＋星晶太晶爆發；巨聲鱷鬼火/偷懶壓大狃拉；火焰雞近身戰打鋁鋼橋龍。",
+    "extracted_at": "2026-11-09T04:41:23Z",
+    "extracted_by": "fable-5.1/review-v1",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "火之誓約",
+            "value_en": "Fire Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.87",
+        "stats": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鼓擊",
+            "value_en": "Drum Beating",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "草之誓約",
+            "value_en": "Grass Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.50",
+        "stats": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 730,
+          "name_zh": "西獅海壬",
+          "name_en": "Primarina",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "濕潤之聲",
+          "value_en": "Liquid Voice",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水之誓約",
+            "value_en": "Water Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.70；字幕 2:23 沒帶黑霧",
+        "stats": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 911,
+          "name_zh": "骨紋巨聲鱷",
+          "name_en": "Skeledirge",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "純樸",
+          "value_en": "Unaware",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰高歌",
+            "value_en": "Torch Song",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "偷懶",
+            "value_en": "Slack Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.67；字幕 2:08 多投 HP 與物防（數值未明）",
+        "stats": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 497,
+          "name_zh": "君主蛇",
+          "name_en": "Serperior",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "唱反調",
+          "value_en": "Contrary",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": null,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": 252,
+          "confidence": 0.85,
+          "source": "subtitle"
+        },
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "飛葉風暴",
+            "value_en": "Leaf Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "草之誓約",
+            "value_en": "Grass Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.50；字幕 1:25 252 特攻 252 速度",
+        "stats": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 257,
+          "name_zh": "火焰雞",
+          "name_en": "Blaziken",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "加速",
+          "value_en": "Speed Boost",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "火之誓約",
+            "value_en": "Fire Pledge",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Lv.65",
+        "stats": null
+      }
+    ]
+  }
+]
