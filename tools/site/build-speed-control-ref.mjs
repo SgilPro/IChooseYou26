@@ -10,6 +10,16 @@ const { Dex } = require("@pkmn/dex");
 const g = Dex.forGen(9);
 const N = JSON.parse(readFileSync(ROOT + "/data/ref/names_zh-Hant.json", "utf8"));
 const en2zh = { move: N.moves.en2zh, ability: N.abilities.en2zh, item: N.items.en2zh };
+// ===== 顯示 Level 預設對照（集中於此，之後只改這裡）[domain]：使用者定義三層；未明說者為整理者判斷，列於 README 待確認 =====
+// Level 1：順風、戲法空間（以及「核心戰術」晉升者，由 analysis.speed_control_core 在分類器晉升，不在此預設）
+// Level 2：次要控速（折疊）；Level 3：輔助與收殘（折疊，不屬於控速討論）
+const LEVEL_BY_CATEGORY = {
+  "field-control": 1,
+  "spread-speed-drop": 2, "paralysis": 2, "temporary": 2, "item-speed": 2, "self-speed-boost": 2,
+  "priority-main": 2, "pledge-field": 2, "setup-speed": 2,
+  "ability-priority": 3, "tempo-moves": 3, "priority-cleanup": 3, "stat-drop-utility": 3,
+};
+const LEVEL_BY_ENTRY = {}; // 例外：{ "<name_en>": level }，目前無
 const cats = [
   { id: "field-control", tier: "core", name_zh: "場地／全隊控速", name_en: "Field / Side Speed Control", scope: "field", description_zh: "直接改變全隊或全場的速度關係：順風讓己方全隊速度加倍，戲法空間讓場上出手順序反轉（慢的先動）。" },
   { id: "spread-speed-drop", tier: "core", name_zh: "範圍降速技", name_en: "Spread Speed-Drop Moves", scope: "target", description_zh: "用範圍招式（或場地設置）降低對手速度；可能被特性、道具或屬性免疫。" },
@@ -29,7 +39,7 @@ const E = [];
 const add = (category, kind, en, o = {}) => {
   const zh = en2zh[kind][en];
   if (!zh) { console.error("NAME MISSING", kind, en); process.exitCode = 1; return; }
-  const e = { category, tier: cats.find((c) => c.id === category).tier, kind, name_zh: zh, name_en: en, ...o };
+  const e = { category, tier: cats.find((c) => c.id === category).tier, level: LEVEL_BY_ENTRY[en] ?? LEVEL_BY_CATEGORY[category], kind, name_zh: zh, name_en: en, ...o };
   if (kind === "move") { const m = g.moves.get(en); if (!m.exists) { console.error("DEX MISSING", en); process.exitCode = 1; } else if (e.priority === undefined) e.priority = m.priority; }
   E.push(e);
 };
@@ -84,6 +94,7 @@ const SETUP = ["Agility","Rock Polish","Dragon Dance","Quiver Dance","Shift Gear
 for (const n of SETUP) { const m = g.moves.get(n); add("setup-speed","move",n,{notes_zh:`自身速度 +${m.boosts.spe} 級（dex：${JSON.stringify(m.boosts)}）。`,source:"dex"}); }
 // 11 其他降速
 for (const n of ["Bulldoze","String Shot","Cotton Spore"]) { const m = g.moves.get(n); add("stat-drop-utility","move",n,{notes_zh:`目標 ${m.target}，速度 ${m.boosts?.spe ?? m.secondary?.boosts?.spe} 級（dex）。是否為主要控速待判斷。`,source:"dex"}); }
-const out = { version: 2, updated: "2026-11-10", note: "tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。", categories: cats, entries: E };
+for (const c of cats) c.level = LEVEL_BY_CATEGORY[c.id];
+const out = { version: 3, updated: "2026-11-10", note: "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。", categories: cats, entries: E };
 writeFileSync(ROOT + "/data/ref/speed-control.json", JSON.stringify(out, null, 2) + "\n");
 console.log(E.length, "entries");

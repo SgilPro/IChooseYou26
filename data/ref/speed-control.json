@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-11-10",
-  "note": "tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
+  "note": "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
   "categories": [
     {
       "id": "field-control",
@@ -9,7 +9,8 @@
       "name_zh": "場地／全隊控速",
       "name_en": "Field / Side Speed Control",
       "scope": "field",
-      "description_zh": "直接改變全隊或全場的速度關係：順風讓己方全隊速度加倍，戲法空間讓場上出手順序反轉（慢的先動）。"
+      "description_zh": "直接改變全隊或全場的速度關係：順風讓己方全隊速度加倍，戲法空間讓場上出手順序反轉（慢的先動）。",
+      "level": 1
     },
     {
       "id": "spread-speed-drop",
@@ -17,7 +18,8 @@
       "name_zh": "範圍降速技",
       "name_en": "Spread Speed-Drop Moves",
       "scope": "target",
-      "description_zh": "用範圍招式（或場地設置）降低對手速度；可能被特性、道具或屬性免疫。"
+      "description_zh": "用範圍招式（或場地設置）降低對手速度；可能被特性、道具或屬性免疫。",
+      "level": 2
     },
     {
       "id": "paralysis",
@@ -25,7 +27,8 @@
       "name_zh": "麻痺",
       "name_en": "Paralysis",
       "scope": "target",
-      "description_zh": "用麻痺狀態讓單一對手變慢（並有機率無法行動）；電屬性等對象可能免疫。"
+      "description_zh": "用麻痺狀態讓單一對手變慢（並有機率無法行動）；電屬性等對象可能免疫。",
+      "level": 2
     },
     {
       "id": "self-speed-boost",
@@ -33,7 +36,8 @@
       "name_zh": "自身加速（天氣／特性）",
       "name_en": "Self Speed Boost",
       "scope": "self",
-      "description_zh": "靠天氣、場地或特性條件，讓寶可夢自己的速度提高（含衝浪之尾、加速）。"
+      "description_zh": "靠天氣、場地或特性條件，讓寶可夢自己的速度提高（含衝浪之尾、加速）。",
+      "level": 2
     },
     {
       "id": "item-speed",
@@ -41,7 +45,8 @@
       "name_zh": "道具控速",
       "name_en": "Item-based Speed",
       "scope": "item",
-      "description_zh": "靠持有道具提高持有者速度，例如講究圍巾。"
+      "description_zh": "靠持有道具提高持有者速度，例如講究圍巾。",
+      "level": 2
     },
     {
       "id": "temporary",
@@ -49,7 +54,8 @@
       "name_zh": "暫時性控速",
       "name_en": "Temporary Turn-Order Manipulation",
       "scope": "temporary",
-      "description_zh": "只影響單一回合出手順序的手段，例如延後、您先請、釋陀果。"
+      "description_zh": "只影響單一回合出手順序的手段，例如延後、您先請、釋陀果。",
+      "level": 2
     },
     {
       "id": "priority-main",
@@ -57,7 +63,8 @@
       "name_zh": "先制主力輸出",
       "name_en": "Priority Main Attackers",
       "scope": "priority",
-      "description_zh": "優先度大於 0、威力 70 以上的攻擊招式（門檻為使用者判斷），主攻手靠它先手輸出，不只是收殘。"
+      "description_zh": "優先度大於 0、威力 70 以上的攻擊招式（門檻為使用者判斷），主攻手靠它先手輸出，不只是收殘。",
+      "level": 2
     },
     {
       "id": "ability-priority",
@@ -65,7 +72,8 @@
       "name_zh": "特性式先制",
       "name_en": "Ability-based Priority",
       "scope": "priority",
-      "description_zh": "靠特性取得先制（疾風之翼、惡作劇之心）；要看是否為隊伍核心戰術。"
+      "description_zh": "靠特性取得先制（疾風之翼、惡作劇之心）；要看是否為隊伍核心戰術。",
+      "level": 3
     },
     {
       "id": "tempo-moves",
@@ -73,7 +81,8 @@
       "name_zh": "先制輔助招式",
       "name_en": "Utility Priority Moves",
       "scope": "priority",
-      "description_zh": "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。"
+      "description_zh": "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。",
+      "level": 3
     },
     {
       "id": "pledge-field",
@@ -81,7 +90,8 @@
       "name_zh": "誓約場地（濕地）",
       "name_en": "Pledge Swamp",
       "scope": "field",
-      "description_zh": "水之誓約與草之誓約合併後，在對手場地形成濕地，使該側全體速度降為 1/4（4 回合）。"
+      "description_zh": "水之誓約與草之誓約合併後，在對手場地形成濕地，使該側全體速度降為 1/4（4 回合）。",
+      "level": 2
     },
     {
       "id": "setup-speed",
@@ -89,7 +99,8 @@
       "name_zh": "自身提速（蝶舞、龍舞類）",
       "name_en": "Self Speed Setup Moves",
       "scope": "self",
-      "description_zh": "核心輸出手靠隊友掩護，自己用提升速度的變化招式（蝶舞、龍舞、高速移動等）加速。"
+      "description_zh": "核心輸出手靠隊友掩護，自己用提升速度的變化招式（蝶舞、龍舞、高速移動等）加速。",
+      "level": 2
     },
     {
       "id": "stat-drop-utility",
@@ -97,7 +108,8 @@
       "name_zh": "其他降速招式",
       "name_en": "Other Speed-Drop Moves",
       "scope": "target",
-      "description_zh": "重踏、吐絲、棉孢子等也會降速，但是否為這隊的主要控速要另外判斷。"
+      "description_zh": "重踏、吐絲、棉孢子等也會降速，但是否為這隊的主要控速要另外判斷。",
+      "level": 3
     },
     {
       "id": "priority-cleanup",
@@ -105,13 +117,15 @@
       "name_zh": "收殘手段（不計入控速）",
       "name_en": "Cleanup Priority Moves",
       "scope": "priority",
-      "description_zh": "優先度大於 0 但威力低於 70 的攻擊招式，主要用於收掉殘血對手，不視為控速。"
+      "description_zh": "優先度大於 0 但威力低於 70 的攻擊招式，主要用於收掉殘血對手，不視為控速。",
+      "level": 3
     }
   ],
   "entries": [
     {
       "category": "field-control",
       "tier": "core",
+      "level": 1,
       "kind": "move",
       "name_zh": "順風",
       "name_en": "Tailwind",
@@ -122,6 +136,7 @@
     {
       "category": "field-control",
       "tier": "core",
+      "level": 1,
       "kind": "move",
       "name_zh": "戲法空間",
       "name_en": "Trick Room",
@@ -132,6 +147,7 @@
     {
       "category": "spread-speed-drop",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "冰凍之風",
       "name_en": "Icy Wind",
@@ -150,6 +166,7 @@
     {
       "category": "spread-speed-drop",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "電網",
       "name_en": "Electroweb",
@@ -171,6 +188,7 @@
     {
       "category": "spread-speed-drop",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "黏黏網",
       "name_en": "Sticky Web",
@@ -189,6 +207,7 @@
     {
       "category": "paralysis",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "電磁波",
       "name_en": "Thunder Wave",
@@ -209,6 +228,7 @@
     {
       "category": "paralysis",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "電磁炮",
       "name_en": "Zap Cannon",
@@ -229,6 +249,7 @@
     {
       "category": "paralysis",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "蹭蹭臉頰",
       "name_en": "Nuzzle",
@@ -249,6 +270,7 @@
     {
       "category": "paralysis",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "大蛇瞪眼",
       "name_en": "Glare",
@@ -265,6 +287,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "葉綠素",
       "name_en": "Chlorophyll",
@@ -274,6 +297,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "悠游自如",
       "name_en": "Swift Swim",
@@ -283,6 +307,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "撥沙",
       "name_en": "Sand Rush",
@@ -292,6 +317,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "撥雪",
       "name_en": "Slush Rush",
@@ -301,6 +327,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "輕裝",
       "name_en": "Unburden",
@@ -310,6 +337,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "衝浪之尾",
       "name_en": "Surge Surfer",
@@ -319,6 +347,7 @@
     {
       "category": "self-speed-boost",
       "tier": "core",
+      "level": 2,
       "kind": "ability",
       "name_zh": "加速",
       "name_en": "Speed Boost",
@@ -328,6 +357,7 @@
     {
       "category": "item-speed",
       "tier": "core",
+      "level": 2,
       "kind": "item",
       "name_zh": "講究圍巾",
       "name_en": "Choice Scarf",
@@ -337,6 +367,7 @@
     {
       "category": "temporary",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "延後",
       "name_en": "Quash",
@@ -347,6 +378,7 @@
     {
       "category": "temporary",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "您先請",
       "name_en": "After You",
@@ -357,6 +389,7 @@
     {
       "category": "temporary",
       "tier": "core",
+      "level": 2,
       "kind": "item",
       "name_zh": "釋陀果",
       "name_en": "Custap Berry",
@@ -366,6 +399,7 @@
     {
       "category": "tempo-moves",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "快手還擊",
       "name_en": "Upper Hand",
@@ -380,6 +414,7 @@
     {
       "category": "tempo-moves",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "擊掌奇襲",
       "name_en": "Fake Out",
@@ -394,6 +429,7 @@
     {
       "category": "tempo-moves",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "迎頭一擊",
       "name_en": "First Impression",
@@ -408,6 +444,7 @@
     {
       "category": "priority-main",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "神速",
       "name_en": "Extreme Speed",
@@ -422,6 +459,7 @@
     {
       "category": "tempo-moves",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "佯攻",
       "name_en": "Feint",
@@ -436,6 +474,7 @@
     {
       "category": "priority-main",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "突襲",
       "name_en": "Sucker Punch",
@@ -450,6 +489,7 @@
     {
       "category": "priority-main",
       "tier": "core",
+      "level": 2,
       "kind": "move",
       "name_zh": "迅雷",
       "name_en": "Thunderclap",
@@ -468,6 +508,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "噴射拳",
       "name_en": "Jet Punch",
@@ -482,6 +523,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "衝岩",
       "name_en": "Accelerock",
@@ -496,6 +538,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "水流噴射",
       "name_en": "Aqua Jet",
@@ -510,6 +553,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "子彈拳",
       "name_en": "Bullet Punch",
@@ -524,6 +568,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "冰礫",
       "name_en": "Ice Shard",
@@ -538,6 +583,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "音速拳",
       "name_en": "Mach Punch",
@@ -552,6 +598,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "電光一閃",
       "name_en": "Quick Attack",
@@ -566,6 +613,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "影子偷襲",
       "name_en": "Shadow Sneak",
@@ -580,6 +628,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "真空波",
       "name_en": "Vacuum Wave",
@@ -594,6 +643,7 @@
     {
       "category": "priority-cleanup",
       "tier": "cleanup",
+      "level": 3,
       "kind": "move",
       "name_zh": "飛水手裡劍",
       "name_en": "Water Shuriken",
@@ -608,6 +658,7 @@
     {
       "category": "ability-priority",
       "tier": "broad",
+      "level": 3,
       "kind": "ability",
       "name_zh": "疾風之翼",
       "name_en": "Gale Wings",
@@ -617,6 +668,7 @@
     {
       "category": "ability-priority",
       "tier": "broad",
+      "level": 3,
       "kind": "ability",
       "name_zh": "惡作劇之心",
       "name_en": "Prankster",
@@ -629,6 +681,7 @@
     {
       "category": "pledge-field",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "水之誓約",
       "name_en": "Water Pledge",
@@ -643,6 +696,7 @@
     {
       "category": "pledge-field",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "草之誓約",
       "name_en": "Grass Pledge",
@@ -657,6 +711,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "高速移動",
       "name_en": "Agility",
@@ -667,6 +722,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "岩石打磨",
       "name_en": "Rock Polish",
@@ -677,6 +733,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "龍之舞",
       "name_en": "Dragon Dance",
@@ -687,6 +744,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "蝶舞",
       "name_en": "Quiver Dance",
@@ -697,6 +755,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "換檔",
       "name_en": "Shift Gear",
@@ -707,6 +766,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "破殼",
       "name_en": "Shell Smash",
@@ -717,6 +777,7 @@
     {
       "category": "setup-speed",
       "tier": "broad",
+      "level": 2,
       "kind": "move",
       "name_zh": "魂舞烈音爆",
       "name_en": "Clangorous Soul",
@@ -727,6 +788,7 @@
     {
       "category": "stat-drop-utility",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "重踏",
       "name_en": "Bulldoze",
@@ -737,6 +799,7 @@
     {
       "category": "stat-drop-utility",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "吐絲",
       "name_en": "String Shot",
@@ -747,6 +810,7 @@
     {
       "category": "stat-drop-utility",
       "tier": "broad",
+      "level": 3,
       "kind": "move",
       "name_zh": "棉孢子",
       "name_en": "Cotton Spore",

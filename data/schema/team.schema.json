@@ -199,6 +199,19 @@
       "properties": {
         "core_offense": { "type": ["string", "null"], "description": "核心輸出戰術" },
         "speed_control": { "type": ["string", "null"], "description": "控速手段" },
+        "speed_control_core": {
+          "type": ["array", "null"],
+          "description": "選用：明確寫在隊伍核心戰術裡的控速手段（用來把控速項目由 Level 2 晉升為 Level 1）。必須有依據，不可憑空推測",
+          "items": {
+            "type": "object",
+            "required": ["slot", "name_zh", "reason"],
+            "properties": {
+              "slot": { "type": "integer", "description": "隊員槽位" },
+              "name_zh": { "type": "string", "description": "招式／特性／道具中文名（須與隊員實際配置一致）" },
+              "reason": { "type": "string", "description": "判斷為核心戰術的依據（引用標題／備註／畫面）" }
+            }
+          }
+        },
         "cautions": { "type": ["string", "null"], "description": "注意事項" },
         "scores": {
           "type": ["object", "null"],
@@ -225,6 +238,8 @@
             "properties": {
               "category": { "type": "string" },
               "label_zh": { "type": "string" },
+              "tier": { "type": "string", "enum": ["core", "broad", "cleanup"] },
+              "level": { "type": "integer", "enum": [1, 2, 3], "description": "顯示層級：1 直接顯示；2 次要（折疊）；3 輔助與收殘（折疊，不屬控速討論）" },
               "via": {
                 "type": "array",
                 "items": {
@@ -232,6 +247,9 @@
                   "properties": {
                     "member_slot": { "type": "integer" },
                     "kind": { "type": "string", "enum": ["move", "ability", "item"] },
+                    "level": { "type": "integer", "enum": [1, 2, 3] },
+                    "promoted": { "type": "boolean" },
+                    "reason": { "type": ["string", "null"] },
                     "name_zh": { "type": "string" }
                   }
                 }

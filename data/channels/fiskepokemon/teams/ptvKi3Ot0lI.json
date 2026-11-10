@@ -7,28 +7,479 @@
     "video_url": "https://www.youtube.com/watch?v=ptvKi3Ot0lI",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-j",
+    "regulation_source": "date-inferred",
     "tags": [
       "trick-room"
     ],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "team_code": "98JLBX",
+    "author": "kametto_LR",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 162,
+          "name_zh": "大尾立",
+          "name_en": "Furret",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "察覺",
+          "value_en": "Frisk",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": null,
+          "def": 252,
+          "spa": null,
+          "spd": null,
+          "spe": 252,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "Lv.100（隊伍表顯示）；Spe 標 +，Atk 標 -（為 0 努力值而非性格降低）；性格依 + 標記推定為膽小（降低項目未知）",
+        "moves": [
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒門牙",
+            "value_en": "Super Fang",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": null,
+        "gender": "F"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 1008,
+          "name_zh": "密勒頓",
+          "name_en": "Miraidon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "強子引擎",
+          "value_en": "Hadron Engine",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "保守",
+          "value_en": "Modest",
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 92,
+          "atk": null,
+          "def": null,
+          "spa": 252,
+          "spd": null,
+          "spe": 164,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "Lv.100；SpA 標 +，性格依標記推定為內斂（降低項目未知）",
+        "moves": [
+          {
+            "value": "閃電猛衝",
+            "value_en": "Electro Drift",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 475,
+          "name_zh": "艾路雷朵",
+          "name_en": "Gallade",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "鋒銳",
+          "value_en": "Sharpness",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.75,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.75,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 140,
+          "atk": 252,
+          "def": 116,
+          "spa": null,
+          "spd": null,
+          "spe": null,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "Lv.100；Atk 標 +，Spe 標 0 IV（空間隊），性格推定為勇敢",
+        "moves": [
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "影子偷襲",
+            "value_en": "Shadow Sneak",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "戲法空間設置手之一",
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王",
+          "name_en": "Calyrex",
+          "form": "Ice",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Glastrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 164,
+          "def": 4,
+          "spa": null,
+          "spd": 28,
+          "spe": 60,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "Lv.100；Atk 標 +，性格依標記推定為固執（降低項目未知）；配置卡副標「騎白馬的樣子」＝冰騎",
+        "moves": [
+          {
+            "value": "雪矛",
+            "value_en": "Glacial Lance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": null,
+        "gender": "N"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 645,
+          "name_zh": "土地雲",
+          "name_en": "Landorus",
+          "form": "Incarnate",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "強行",
+          "value_en": "Sheer Force",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats_note": "Lv.100；僅隊伍表有資料，無配置卡，努力值與性格未見",
+        "moves": [
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "熱沙風暴",
+            "value_en": "Sandsear Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": null,
+        "gender": "M"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.7,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 92,
+          "atk": 212,
+          "def": null,
+          "spa": null,
+          "spd": 188,
+          "spe": null,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats_note": "Lv.100；Atk 標 +、Spe 標 0 IV，性格推定為勇敢",
+        "moves": [
+          {
+            "value": "吸取拳",
+            "value_en": "Drain Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "踢倒",
+            "value_en": "Low Kick",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": null,
+        "gender": "N"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 6,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.85,
+    "review_status": "auto",
+    "review_notes": "會員影片，無字幕，全部依畫面。隊伍表 f_001（遊戲內，訓練家名「かめっと」、隊伍ID 98JLBX、Lv.100）；配置卡 f_006 蕾冠王、f_007 鐵臂膀、f_009 密勒頓、f_015 艾路雷朵、f_017 大尾立。土地雲無配置卡，只有隊伍表資料（努力值、性格 null）。作者：說明欄「隊伍創建者」連結 x.com/kametto_LR，與遊戲內訓練家名かめっと一致。性格皆依 +/- 標記推定。太晶屬性依圖示：艾路雷朵草（圖示為綠色葉狀，約 0.75）。影片後段另有其他寶可夢畫面（實戰），未納入。",
+    "notes": "空間隊：大尾立看我嘛＋憤怒門牙＋氣勢披帶負責護場與拖速，艾路雷朵與蕾冠王（冰騎）設置戲法空間，鐵臂膀、土地雲、密勒頓負責輸出。作者隊伍在寶可夢朱紫結算世界前 100 名（依標題）。",
+    "extracted_at": "2026-11-10T07:15:36.035Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
   }
 ]

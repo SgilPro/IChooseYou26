@@ -1,32 +1,496 @@
 [
   {
     "id": "team_8pvLzYf7qvQ",
-    "name": "任何地雷，在他面前都無所遁形！結算前 200 名的真愛隊，史上最強詛咒娃娃",
+    "name": "詛咒娃娃戲法空間隊（結算前 200 名・真愛隊）",
     "name_source": "title",
     "video_id": "8pvLzYf7qvQ",
     "video_url": "https://www.youtube.com/watch?v=8pvLzYf7qvQ",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-j",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "たこやき（@8989takoyaki）",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王",
+          "name_en": "Calyrex-Ice",
+          "form": "Ice",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Glastrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "弱點保險",
+          "value_en": "Weakness Policy",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 44,
+          "def": 0,
+          "spa": 0,
+          "spd": 212,
+          "spe": 0,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.100（遊戲內租借隊伍表）。配置卡 Atk 標 44+、Spe 為「–」，性格依 +/- 標記推定為勇敢（Atk+ Spe-），不確定；無能力值畫面，未驗算。",
+        "moves": [
+          {
+            "value": "雪矛",
+            "value_en": "Glacial Lance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 354,
+          "name_zh": "詛咒娃娃",
+          "name_en": "Banette",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "察覺",
+          "value_en": "Frisk",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 220,
+          "spa": 0,
+          "spd": 0,
+          "spe": 36,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.50（遊戲內隊伍表；其餘五隻 Lv.100）。配置卡 Atk 標 252+，性格依 +/- 標記推定為固執（Atk+、特攻-），降低的能力未標示，不確定；未驗算。",
+        "moves": [
+          {
+            "value": "影子偷襲",
+            "value_en": "Shadow Sneak",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詛咒",
+            "value_en": "Curse",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪",
+          "name_en": "Ogerpon-Cornerstone",
+          "form": "Cornerstone",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "結實",
+          "value_en": "Sturdy",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "礎石面具",
+          "value_en": "Cornerstone Mask",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "岩石",
+          "value_en": "Rock",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 12,
+          "atk": 196,
+          "def": 140,
+          "spa": 0,
+          "spd": 4,
+          "spe": 156,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.100。配置卡 Spe 標 156+，性格依 +/- 標記推定為爽朗（Spe+ 特攻-）；未驗算。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 475,
+          "name_zh": "艾路雷朵",
+          "name_en": "Gallade",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "鋒銳",
+          "value_en": "Sharpness",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 92,
+          "atk": 252,
+          "def": 164,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.100。配置卡 Atk 標 252+、Spe 為「–」，性格依 +/- 標記推定為勇敢（Atk+ Spe-），不確定；未驗算。",
+        "moves": [
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "影子偷襲",
+            "value_en": "Shadow Sneak",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色鐵球",
+          "value_en": "Iron Ball",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 252,
+          "spe": 0,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.100。配置卡 Atk 標 252+、Spe 為「–」，性格依 +/- 標記推定為勇敢（Atk+ Spe-），不確定；未驗算。",
+        "moves": [
+          {
+            "value": "踢倒",
+            "value_en": "Low Kick",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "投擲",
+            "value_en": "Fling",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1008,
+          "name_zh": "密勒頓",
+          "name_en": "Miraidon",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "強子引擎",
+          "value_en": "Hadron Engine",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 12,
+          "atk": 0,
+          "def": 0,
+          "spa": 244,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "Lv.100。配置卡 Spe 標 252+，性格依 +/- 標記推定為膽小（Spe+ 攻擊-），不確定；未驗算。",
+        "moves": [
+          {
+            "value": "閃電猛衝",
+            "value_en": "Electro Drift",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 9,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1"
+    "team_code": "8Q799T",
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "會員限定影片，無字幕，全靠畫面。作者依據：說明欄「隊伍創建者」連結 x.com/8989takoyaki，遊戲內隊伍表訓練家名「たこやき」（f_048），投影片 f_007 為該帳號推文（賽季 33 雙打 195 位、租借隊伍；推文內提到 Reg I 與 Reg J）。隊伍表 f_048 六隻名單與說明欄一致。努力值取自配置卡投影片（f_017~f_047 內 6 張）；性格依 +/- 標記推定。regulation 依發布日 2025-10-05 推為 sv-reg-j。team_code 8Q799T 見 f_048。影片後段（白底日文清單 f_033~f_040）為隊伍選用準則資料，非隊伍。",
+    "notes": "以蕾冠王（騎白馬）、詛咒娃娃、厄鬼椪、艾路雷朵、鐵臂膀、密勒頓組成的戲法空間隊，租借隊伍代碼 8Q799T，原作者たこやき於賽季 33 雙打結算 195 位。詛咒娃娃氣勢披帶搭配再來一次與戲法空間負責開場控場，蕾冠王、艾路雷朵、鐵臂膀為空間下的高攻擊手，厄鬼椪以看我嘛與挑釁輔助。密勒頓為非空間時的高速攻擊手。",
+    "extracted_at": "2026-11-10T07:15:31.809Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

@@ -94,6 +94,10 @@
     .chips.sc-broad { opacity: .7; }
     .sc-cat.sc-cleanup { opacity: .5; }
     .chips.sc-cleanup { opacity: .45; }
+    .sc-fold { margin-top: 10px; border-top: 1px dashed var(--border); padding-top: 6px; }
+    .sc-fold summary { cursor: pointer; font-size: 12px; color: var(--ink-soft); }
+    .sc-fold.sc-l3 { opacity: .55; }
+    .tag.sc.promoted { border-style: solid; color: var(--accent); }
     .sc-sep { margin-top: 12px; border-top: 1px dashed var(--border); }
     details.sc-more { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 8px; }
     details.sc-more > summary { cursor: pointer; font-size: 12px; color: var(--ink-soft); list-style: none; }
@@ -319,27 +323,23 @@
       const mm = slotMember(v.member_slot);
       const nm = mm?.species?.name_zh || mm?.species?.name_en || `#${v.member_slot}`;
       const en = mm?.species?.name_en;
-      return `<span class="tag reg sc">${en ? `<img src="${monImg(en, "thumb")}" alt="" loading="lazy" ${onerr} />` : ""}${esc(nm)} · ${esc(v.name_zh)}</span>`;
+      const tip = v.promoted ? ` title="${esc("核心戰術：" + (v.reason || ""))}"` : "";
+      return `<span class="tag reg sc${v.promoted ? " promoted" : ""}"${tip}>${en ? `<img src="${monImg(en, "thumb")}" alt="" loading="lazy" ${onerr} />` : ""}${esc(nm)} · ${esc(v.name_zh)}${v.promoted ? " ★" : ""}</span>`;
     };
-    const scGroup = (arr, cls, note) => arr.map((c) => `<h4 class="sc-cat ${cls}">${esc(c.label_zh)}${note ? `<small>${esc(note)}</small>` : ""}</h4><div class="chips ${cls}">${(c.via || []).map(scChip).join("")}</div>`).join("");
+    // 每個類別一個小標＋chips；via 依 level 過濾（晉升項目可能與同類別其他項目不同層）
+    const scGroup = (arr, cls, lv) => arr.map((c) => {
+      const via = (c.via || []).filter((v) => (v.level ?? c.level ?? 2) === lv);
+      return via.length ? `<h4 class="sc-cat ${cls}">${esc(c.label_zh)}</h4><div class="chips ${cls}">${via.map(scChip).join("")}</div>` : "";
+    }).join("");
+    const lvOf = (c) => c.level ?? (c.tier === "cleanup" || c.tier === "broad" ? 3 : 2);
     let speedHtml;
     if (Array.isArray(derivedSc)) {
-      const tierOf = (c) => c.tier || "core"; // 舊資料沒有 tier 時視為 core
-      const core = derivedSc.filter((c) => tierOf(c) === "core");
-      const broad = derivedSc.filter((c) => tierOf(c) === "broad");
-      const cleanup = derivedSc.filter((c) => tierOf(c) === "cleanup");
-      // 主要控速直接顯示；廣義與收殘一律收進預設收合的「其他次要手段」
-      const n = (arr) => arr.reduce((s, c) => s + (c.via || []).length, 0);
-      const moreParts = [];
-      if (broad.length) moreParts.push(`廣義 ${n(broad)}`);
-      if (cleanup.length) moreParts.push(`收殘 ${n(cleanup)}`);
-      const more = broad.length || cleanup.length
-        ? `<details class="sc-more"><summary>其他次要手段（${moreParts.join("、")}）</summary>`
-          + (broad.length ? scGroup(broad, "sc-broad", "　廣義（要看是不是這隊的核心戰術）") : "")
-          + (cleanup.length ? scGroup(cleanup, "sc-cleanup", "　收殘手段（不計入控速）") : "")
-          + `</details>`
-        : "";
-      speedHtml = (core.length ? scGroup(core, "sc-core") : `<p class="empty">未偵測到主要控速手段</p>`) + more;
+      const lvVia = (lv) => derivedSc.filter((c) => (c.via || []).some((v) => (v.level ?? lvOf(c)) === lv));
+      const cnt = (lv) => derivedSc.reduce((n, c) => n + (c.via || []).filter((v) => (v.level ?? lvOf(c)) === lv).length, 0);
+      const l1 = lvVia(1), l2 = lvVia(2), l3 = lvVia(3);
+      speedHtml = (l1.length ? scGroup(l1, "sc-core", 1) : `<p class="empty">未偵測到 Level 1 控速（順風、空間、核心戰術）</p>`)
+        + (l2.length ? `<details class="sc-fold sc-l2"><summary>Level 2 次要控速（${cnt(2)}）</summary>${scGroup(l2, "sc-broad", 2)}</details>` : "")
+        + (l3.length ? `<details class="sc-fold sc-l3"><summary>Level 3 輔助與收殘（${cnt(3)}）— 不屬於控速討論</summary>${scGroup(l3, "sc-cleanup", 3)}</details>` : "");
     } else speedHtml = `${txt(an.speed_control)}${speedChips}`;
     const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
     const sc = an.scores;

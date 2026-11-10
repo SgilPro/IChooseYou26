@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:36:51.810Z",
+ "generated_at": "2026-11-10T07:16:27.241Z",
  "source": "@pkmn/dex 0.10.10（Gen 9）+ assets/items/items.json",
  "species": {
   "Abomasnow": {
@@ -273,6 +273,15 @@
    ],
    "match": "dex"
   },
+  "Banette": {
+   "types": [
+    "Ghost"
+   ],
+   "type_ids": [
+    "ghost"
+   ],
+   "match": "dex"
+  },
   "Basculegion": {
    "types": [
     "Water",
@@ -409,6 +418,17 @@
    "type_ids": [
     "grass",
     "dark"
+   ],
+   "match": "dex"
+  },
+  "Calyrex": {
+   "types": [
+    "Psychic",
+    "Grass"
+   ],
+   "type_ids": [
+    "psychic",
+    "grass"
    ],
    "match": "dex"
   },
@@ -1006,6 +1026,15 @@
    ],
    "match": "dex"
   },
+  "Furret": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
   "Gallade": {
    "types": [
     "Psychic",
@@ -1430,6 +1459,17 @@
    ],
    "match": "dex"
   },
+  "Iron Boulder": {
+   "types": [
+    "Rock",
+    "Psychic"
+   ],
+   "type_ids": [
+    "rock",
+    "psychic"
+   ],
+   "match": "dex"
+  },
   "Iron Bundle": {
    "types": [
     "Ice",
@@ -1842,6 +1882,17 @@
    ],
    "match": "dex"
   },
+  "Magearna": {
+   "types": [
+    "Steel",
+    "Fairy"
+   ],
+   "type_ids": [
+    "steel",
+    "fairy"
+   ],
+   "match": "dex"
+  },
   "Magmar": {
    "types": [
     "Fire"
@@ -1949,6 +2000,15 @@
    ],
    "type_ids": [
     "steel",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Mew": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
     "psychic"
    ],
    "match": "dex"
@@ -4010,6 +4070,16 @@
    "category": "special",
    "match": "dex"
   },
+  "Fleur Cannon": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fling": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
   "Flip Turn": {
    "type_id": "water",
    "category": "physical",
@@ -4442,6 +4512,11 @@
   },
   "Meteor Mash": {
    "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Mighty Cleave": {
+   "type_id": "rock",
    "category": "physical",
    "match": "dex"
   },
@@ -5680,6 +5755,12 @@
    "slug": "iapapa-berry",
    "icon": "icons/iapapa-berry.png",
    "name_zh": "芭亞果",
+   "match": "exact"
+  },
+  "Icicle Plate": {
+   "slug": "icicle-plate",
+   "icon": "icons/icicle-plate.png",
+   "name_zh": "冰柱石板",
    "match": "exact"
   },
   "Iron Ball": {

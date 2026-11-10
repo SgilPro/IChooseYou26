@@ -48,6 +48,14 @@
 
 先制招式的篩選是可重現的：`node tools/site/build-speed-control-ref.mjs` 會從 @pkmn/dex 篩 priority > 0、category 非 Status、非 nonstandard 的招式，basePower >= 70 為 priority-main，其餘為 priority-cleanup；擊掌奇襲、迎頭一擊、佯攻、快手還擊固定歸 broad。70 的門檻是使用者的判斷（[domain]）。修改分類表請改該腳本再重跑，不要手改 JSON。
 
+## 顯示層級 level（speed-control）
+
+分類表另有 `level`（1/2/3）供網站顯示：Level 1 直接顯示（順風、戲法空間，以及被晉升的核心戰術）；Level 2 次要控速（折疊）；Level 3 輔助與收殘（折疊，不屬於控速討論）。預設對照集中在 `build-speed-control-ref.mjs` 的 `LEVEL_BY_CATEGORY`／`LEVEL_BY_ENTRY`，要調整請改那裡再重跑。
+
+晉升（Level 2 → 1）只依 `analysis.speed_control_core`（`{slot, name_zh, reason}`，reason 須有依據）；缺席就不晉升也不降級，不可由標題推測。目前 Level 1 只有順風與戲法空間。
+
+待使用者確認的預設：誓約場地、蝶舞龍舞類、先制主力（突襲、迅雷、神速）預設 Level 2；其他降速招式（重踏、吐絲、棉孢子）預設 Level 3。
+
 ## 名稱查表結果（speed-control.json）
 
 分類表 51 筆 entries 的 name_zh／name_en 皆與 names_zh-Hant.json 一致，沒有查不到的名稱。需注意：使用者原文的「悠遊自如」在名稱表為「悠游自如」（以名稱表為準）；「順風」對應 Tailwind。
