@@ -108,8 +108,8 @@
       "name_zh": "其他降速招式",
       "name_en": "Other Speed-Drop Moves",
       "scope": "target",
-      "description_zh": "重踏、吐絲、棉孢子等也會降速，但是否為這隊的主要控速要另外判斷。",
-      "level": 3
+      "description_zh": "吐絲、棉孢子是變化招式，打全體對手、速度 −2（棉孢子為粉末招式，草屬性、防塵、護目鏡免疫）；重踏速度 −1 但會打到所有相鄰目標（含自己的隊友）。功能與冰凍之風、電網同類；是否為這隊的主要控速仍要另外判斷。",
+      "level": 2
     },
     {
       "id": "priority-cleanup",
@@ -788,33 +788,33 @@
     {
       "category": "stat-drop-utility",
       "tier": "broad",
-      "level": 3,
+      "level": 2,
       "kind": "move",
       "name_zh": "重踏",
       "name_en": "Bulldoze",
-      "notes_zh": "目標 allAdjacent，速度 -1 級（dex）。是否為主要控速待判斷。",
+      "notes_zh": "目標 allAdjacent，速度 -1 級（dex）。功能同範圍降速技（Level 2）；是否為主要控速待判斷。注意：打所有相鄰目標，會波及己方隊友。",
       "source": "dex",
       "priority": 0
     },
     {
       "category": "stat-drop-utility",
       "tier": "broad",
-      "level": 3,
+      "level": 2,
       "kind": "move",
       "name_zh": "吐絲",
       "name_en": "String Shot",
-      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。是否為主要控速待判斷。",
+      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。功能同範圍降速技（Level 2）；是否為主要控速待判斷。",
       "source": "dex",
       "priority": 0
     },
     {
       "category": "stat-drop-utility",
       "tier": "broad",
-      "level": 3,
+      "level": 2,
       "kind": "move",
       "name_zh": "棉孢子",
       "name_en": "Cotton Spore",
-      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。是否為主要控速待判斷。",
+      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。功能同範圍降速技（Level 2）；是否為主要控速待判斷。",
       "source": "dex",
       "priority": 0
     }

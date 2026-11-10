@@ -2155,13 +2155,13 @@
           "category": "stat-drop-utility",
           "label_zh": "其他降速招式",
           "tier": "broad",
-          "level": 3,
+          "level": 2,
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "吐絲",
-              "level": 3
+              "level": 2
             }
           ]
         }
@@ -16562,13 +16562,13 @@
           "category": "stat-drop-utility",
           "label_zh": "其他降速招式",
           "tier": "broad",
-          "level": 3,
+          "level": 2,
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "吐絲",
-              "level": 3
+              "level": 2
             }
           ]
         },
@@ -20790,6 +20790,20 @@
           ]
         },
         {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "重踏",
+              "level": 2
+            }
+          ]
+        },
+        {
           "category": "ability-priority",
           "label_zh": "特性式先制",
           "tier": "broad",
@@ -20813,20 +20827,6 @@
               "member_slot": 5,
               "kind": "move",
               "name_zh": "擊掌奇襲",
-              "level": 3
-            }
-          ]
-        },
-        {
-          "category": "stat-drop-utility",
-          "label_zh": "其他降速招式",
-          "tier": "broad",
-          "level": 3,
-          "via": [
-            {
-              "member_slot": 2,
-              "kind": "move",
-              "name_zh": "重踏",
               "level": 3
             }
           ]
@@ -42047,6 +42047,20 @@
           ]
         },
         {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "重踏",
+              "level": 2
+            }
+          ]
+        },
+        {
           "category": "ability-priority",
           "label_zh": "特性式先制",
           "tier": "broad",
@@ -42082,20 +42096,6 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "佯攻",
-              "level": 3
-            }
-          ]
-        },
-        {
-          "category": "stat-drop-utility",
-          "label_zh": "其他降速招式",
-          "tier": "broad",
-          "level": 3,
-          "via": [
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "重踏",
               "level": 3
             }
           ]
@@ -66910,6 +66910,20 @@
           ]
         },
         {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "棉孢子",
+              "level": 2
+            }
+          ]
+        },
+        {
           "category": "ability-priority",
           "label_zh": "特性式先制",
           "tier": "broad",
@@ -66919,20 +66933,6 @@
               "member_slot": 3,
               "kind": "ability",
               "name_zh": "惡作劇之心",
-              "level": 3
-            }
-          ]
-        },
-        {
-          "category": "stat-drop-utility",
-          "label_zh": "其他降速招式",
-          "tier": "broad",
-          "level": 3,
-          "via": [
-            {
-              "member_slot": 3,
-              "kind": "move",
-              "name_zh": "棉孢子",
               "level": 3
             }
           ]
@@ -86236,13 +86236,13 @@
           "category": "stat-drop-utility",
           "label_zh": "其他降速招式",
           "tier": "broad",
-          "level": 3,
+          "level": 2,
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "重踏",
-              "level": 3
+              "level": 2
             }
           ]
         }
@@ -100037,13 +100037,13 @@
           "category": "stat-drop-utility",
           "label_zh": "其他降速招式",
           "tier": "broad",
-          "level": 3,
+          "level": 2,
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "重踏",
-              "level": 3
+              "level": 2
             }
           ]
         },

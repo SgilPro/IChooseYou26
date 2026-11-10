@@ -17,7 +17,7 @@ const LEVEL_BY_CATEGORY = {
   "field-control": 1,
   "spread-speed-drop": 2, "paralysis": 2, "temporary": 2, "item-speed": 2, "self-speed-boost": 2,
   "priority-main": 2, "pledge-field": 2, "setup-speed": 2,
-  "ability-priority": 3, "tempo-moves": 3, "priority-cleanup": 3, "stat-drop-utility": 3,
+  "ability-priority": 3, "tempo-moves": 3, "priority-cleanup": 3, "stat-drop-utility": 2, // 使用者 2026-11-10：吐絲與冰凍之風、電網同為 Level 2（功能相同的範圍降速，與出現率無關）
 };
 const LEVEL_BY_ENTRY = {}; // 例外：{ "<name_en>": level }，目前無
 const cats = [
@@ -32,7 +32,7 @@ const cats = [
   { id: "tempo-moves", tier: "broad", name_zh: "先制輔助招式", name_en: "Utility Priority Moves", scope: "priority", description_zh: "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。" },
   { id: "pledge-field", tier: "broad", name_zh: "誓約場地（濕地）", name_en: "Pledge Swamp", scope: "field", description_zh: "水之誓約與草之誓約合併後，在對手場地形成濕地，使該側全體速度降為 1/4（4 回合）。" },
   { id: "setup-speed", tier: "broad", name_zh: "自身提速（蝶舞、龍舞類）", name_en: "Self Speed Setup Moves", scope: "self", description_zh: "核心輸出手靠隊友掩護，自己用提升速度的變化招式（蝶舞、龍舞、高速移動等）加速。" },
-  { id: "stat-drop-utility", tier: "broad", name_zh: "其他降速招式", name_en: "Other Speed-Drop Moves", scope: "target", description_zh: "重踏、吐絲、棉孢子等也會降速，但是否為這隊的主要控速要另外判斷。" },
+  { id: "stat-drop-utility", tier: "broad", name_zh: "其他降速招式", name_en: "Other Speed-Drop Moves", scope: "target", description_zh: "吐絲、棉孢子是變化招式，打全體對手、速度 −2（棉孢子為粉末招式，草屬性、防塵、護目鏡免疫）；重踏速度 −1 但會打到所有相鄰目標（含自己的隊友）。功能與冰凍之風、電網同類；是否為這隊的主要控速仍要另外判斷。" },
   { id: "priority-cleanup", tier: "cleanup", name_zh: "收殘手段（不計入控速）", name_en: "Cleanup Priority Moves", scope: "priority", description_zh: "優先度大於 0 但威力低於 70 的攻擊招式，主要用於收掉殘血對手，不視為控速。" },
 ];
 const E = [];
@@ -93,7 +93,7 @@ for (const n of ["Water Pledge","Grass Pledge"]) add("pledge-field","move",n,{no
 const SETUP = ["Agility","Rock Polish","Dragon Dance","Quiver Dance","Shift Gear","Shell Smash","Clangorous Soul"];
 for (const n of SETUP) { const m = g.moves.get(n); add("setup-speed","move",n,{notes_zh:`自身速度 +${m.boosts.spe} 級（dex：${JSON.stringify(m.boosts)}）。`,source:"dex"}); }
 // 11 其他降速
-for (const n of ["Bulldoze","String Shot","Cotton Spore"]) { const m = g.moves.get(n); add("stat-drop-utility","move",n,{notes_zh:`目標 ${m.target}，速度 ${m.boosts?.spe ?? m.secondary?.boosts?.spe} 級（dex）。是否為主要控速待判斷。`,source:"dex"}); }
+for (const n of ["Bulldoze","String Shot","Cotton Spore"]) { const m = g.moves.get(n); add("stat-drop-utility","move",n,{notes_zh:`目標 ${m.target}，速度 ${m.boosts?.spe ?? m.secondary?.boosts?.spe} 級（dex）。功能同範圍降速技（Level 2）；是否為主要控速待判斷。${n==="Bulldoze"?"注意：打所有相鄰目標，會波及己方隊友。":""}`,source:"dex"}); }
 for (const c of cats) c.level = LEVEL_BY_CATEGORY[c.id];
 const out = { version: 3, updated: "2026-11-10", note: "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。", categories: cats, entries: E };
 writeFileSync(ROOT + "/data/ref/speed-control.json", JSON.stringify(out, null, 2) + "\n");
