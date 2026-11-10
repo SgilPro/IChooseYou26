@@ -59,3 +59,4 @@
 ## 名稱查表結果（speed-control.json）
 
 分類表 51 筆 entries 的 name_zh／name_en 皆與 names_zh-Hant.json 一致，沒有查不到的名稱。需注意：使用者原文的「悠遊自如」在名稱表為「悠游自如」（以名稱表為準）；「順風」對應 Tailwind。
+- `doubles/roles.md`：雙打隊伍的角色與功能分類（輸出手、核心戰術手、輔助手），供隊伍分析判斷核心用。
