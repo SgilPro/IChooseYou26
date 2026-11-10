@@ -4,6 +4,133 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
+<title>Design System 研究總覽 · IChooseYou26</title>
+<style>
+:root{color-scheme:light;--bg:#F4F5F7;--card:#FFFFFF;--ink:#1B1F24;--ink2:#4A525B;--line:#D3D7DC;--pri:#3B4CCA;--onpri:#fff;--soft:rgba(59,76,202,.10);--good:#1A7339;--warn:#8F5300;--bad:#B3261E;--code:#ECEEF1}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#14171C;--card:#1D2127;--ink:#E8EAED;--ink2:#A9B0B8;--line:#3A4048;--pri:#9AA7FF;--onpri:#14171C;--soft:rgba(154,167,255,.14);--good:#5BD08A;--warn:#F0B35A;--bad:#FF8A80;--code:#272C33}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.7 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
+a{color:var(--pri)}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.top{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:8px}
+.top a.back{font-size:.875rem;text-decoration:none;border:1px solid var(--line);padding:6px 12px;border-radius:999px;color:var(--ink)}
+h1{font-size:clamp(1.5rem,5vw,2.2rem);line-height:1.25;margin:8px 0}
+h2{font-size:1.35rem;margin:28px 0 8px}
+h3{font-size:1.1rem;margin:0 0 4px}
+p.lede{color:var(--ink2);margin:0 0 12px}
+.tabs{display:flex;gap:6px;overflow-x:auto;border-bottom:2px solid var(--line);margin:16px 0;padding-bottom:0;position:sticky;top:0;background:var(--bg);z-index:5;-webkit-overflow-scrolling:touch}
+.tabs button{flex:none;font:inherit;font-size:.9rem;padding:10px 14px;border:0;background:none;color:var(--ink2);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--pri);font-weight:700}
+.tabs button:focus-visible{outline:2px solid var(--pri);outline-offset:-2px}
+.panel[hidden]{display:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.pick{border-left:5px solid var(--pri)}
+.tag{display:inline-block;font-size:.75rem;font-weight:700;padding:1px 8px;border-radius:999px;border:1px solid currentColor;margin-right:6px}
+.tag.rec{color:var(--good)}.tag.part{color:var(--warn)}.tag.no{color:var(--bad)}
+table{border-collapse:collapse;width:100%;font-size:.875rem}
+.tw{overflow-x:auto}
+th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+code{background:var(--code);padding:1px 5px;border-radius:4px;font-size:.85em;word-break:break-all}
+.sw{display:inline-flex;align-items:center;gap:4px;font-size:.75rem;margin:2px 8px 2px 0}
+.sw i{width:14px;height:14px;border-radius:3px;border:1px solid rgba(128,128,128,.5);display:inline-block}
+.meta{font-size:.85rem;color:var(--ink2)}
+.meta b{color:var(--ink)}
+.sysgrid{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}.card{min-width:0;overflow-wrap:anywhere}.top,.lede{min-width:0}
+@media(min-width:860px){.sysgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.frame{width:100%;border:1px solid var(--line);border-radius:8px;background:#fff;display:block;min-height:400px}
+.note{font-size:.85rem;color:var(--ink2)}
+/* ===== specimen（共用，靠 --s-* 變數換膚） ===== */
+.spec{background:var(--s-bg);color:var(--s-ink);font-family:var(--s-font);padding:14px;border-radius:var(--s-r);border:var(--s-bw) solid var(--s-line);line-height:1.5;font-size:var(--s-fs,14px)}
+.spec *{box-sizing:border-box}
+.spec .sp-card{background:var(--s-surface);border:var(--s-bw) solid var(--s-line);border-radius:var(--s-r);box-shadow:var(--s-sh);padding:12px;margin-top:10px}
+.spec .sp-h{font-weight:700;font-size:1.05em;margin:0 0 6px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.spec .sp-h small{font-weight:400;color:var(--s-ink2);font-size:.8em}
+.spec .types{display:flex;flex-wrap:wrap;gap:5px}
+.spec .tl{font-size:.78em;font-weight:700;padding:1px 8px;border-radius:var(--s-lr,4px);line-height:1.6;white-space:nowrap;border:1.5px solid var(--t);color:var(--t);background:color-mix(in srgb,var(--t) 13%,var(--s-surface))}
+.spec.solid .tl{background:var(--t);color:#fff;border-color:var(--t)}
+.spec.solid .tl.dk{color:#1B1B1B}
+.spec .mons{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}
+.spec .mon{border:var(--s-bw) solid var(--s-line);border-radius:calc(var(--s-r)*.7);padding:5px 6px;font-size:.85em;background:var(--s-bg);text-align:center}
+.spec .mon span{display:block;font-size:.72em;color:var(--s-ink2)}
+.spec .bar{display:grid;grid-template-columns:4.2em 1fr 2.2em;align-items:center;gap:8px;margin:5px 0;font-size:.85em}
+.spec .bar .tr{height:9px;background:var(--s-track);border-radius:var(--s-br,99px);overflow:hidden;border:var(--s-bbw,0) solid var(--s-line)}
+.spec .bar .tr i{display:block;height:100%;background:var(--s-primary)}
+.spec .bar .tr i.g{background:var(--s-good)}.spec .bar .tr i.w{background:var(--s-warn)}
+.spec .bar b{text-align:right}
+.spec .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.spec .bt{font:inherit;font-weight:700;padding:7px 14px;border-radius:var(--s-br2,var(--s-r));border:var(--s-bw) solid var(--s-primary);background:var(--s-primary);color:var(--s-onp);cursor:pointer;box-shadow:var(--s-bsh,none);min-height:36px}
+.spec .bt.sec{background:transparent;color:var(--s-ptext,var(--s-primary))}
+.spec .bt:focus-visible{outline:3px solid var(--s-focus,var(--s-primary));outline-offset:2px}
+.tbl td,.tbl th{padding:5px 8px}
+.qa li{margin:8px 0}
+.mini{font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="./">← 回 Live Docs</a>
+    <a class="back" href="teams.html">隊伍資料庫</a>
+  </div>
+  <h1>Design System 研究總覽</h1>
+  <p class="lede">資料密集的寶可夢雙打工具（隊伍卡、屬性標籤、評分條、按鈕）該長什麼樣子。這一頁把先前三份預覽（深色玻璃、水泥灰、再生紙）與新增的 11 個方向放在同一處，並附上待決問題與建議。</p>
+
+  <div class="tabs" role="tablist" id="tabs">
+    <button role="tab" data-tab="overview">總覽與建議</button>
+    <button role="tab" data-tab="research">新增方向研究（11）</button>
+    <button role="tab" data-tab="v1">v1 深色玻璃</button>
+    <button role="tab" data-tab="concrete">水泥灰</button>
+    <button role="tab" data-tab="paper">再生紙</button>
+    <button role="tab" data-tab="questions">待決問題</button>
+  </div>
+
+  <section class="panel" id="p-overview" hidden>
+    <h2>建議前三名</h2>
+    <div class="grid">
+      <div class="card pick"><h3>1. Radix Colors + shadcn 風（中性 slate + 靛色）</h3><p class="meta">MIT、12 階色階系統化、淺深色對應完整。每個屬性色都能拿「第 3 階做底、第 11 階做字」，剛好就是「外框 + 淡底」的標籤做法，能解決紅／水／超能力當實底對比不足的問題。</p></div>
+      <div class="card pick"><h3>2. GitHub Primer 風（密度與表格元件）</h3><p class="meta">MIT、以 14px 為基準，label、counter、progress 都是為資料密集設計。半徑 6px、色彩克制，最適合隊伍分析區。可直接借它的 token 命名與間距階。</p></div>
+      <div class="card pick"><h3>3. 再生紙（既有方案）＋ Radix 色階補強</h3><p class="meta">辨識度最高、最不像一般工具站；手寫字體只用在標題與註記。以 Radix 的屬性色階取代自訂顏色，可兼顧個性與對比。</p></div>
+    </div>
+    <h2>選擇邏輯</h2>
+    <ul>
+      <li>屬性標籤一律採「外框 + 淡底 + 深字」（outline-tint），不用實底，才能全部通過 4.5:1 對比。</li>
+      <li>授權：優先 MIT／Apache-2.0／OFL；Atlassian 與 GOV.UK 品牌資產有使用限制，只借概念不借資產。</li>
+      <li>Pokémon Champions、遊戲內 UI 與官方圖示屬任天堂／Game Freak 等公司所有，本站一律只用 CSS 自繪，不複製任何官方素材。</li>
+      <li>評分條與控速 Level 要以「數字 + 形狀」雙重編碼，不能只靠顏色。</li>
+    </ul>
+    <h2>全部方向速覽</h2>
+    <div class="tw"><table class="tbl" id="summary"></table></div>
+    <p class="note">色碼與尺寸為依官方文件整理的近似值，落地前請對照各來源 URL。</p>
+  </section>
+
+  <section class="panel" id="p-research" hidden>
+    <p class="lede">每張卡片的右半是用該系統 token 重現的活樣本（同一份假資料：屬性標籤、隊伍卡、評分條、按鈕）。樣本全用 CSS 繪製，不含任何官方圖像。</p>
+    <div class="sysgrid" id="sysgrid"></div>
+  </section>
+
+  <section class="panel" id="p-v1" hidden><p class="note">原 design-system.html（深色／淺色自動，液態玻璃）。以下為完整內容，內嵌於獨立框架，樣式互不干擾。</p><iframe class="frame" data-src="v-v1" title="v1 深色玻璃"></iframe></section>
+  <section class="panel" id="p-concrete" hidden><p class="note">原 design-system-concrete.html：水泥灰，底色 #E4E7EA、主色靛紫 #5B44C6。</p><iframe class="frame" data-src="v-concrete" title="水泥灰"></iframe></section>
+  <section class="panel" id="p-paper" hidden><p class="note">原 design-system-paper.html：再生紙，底色 #F0EBE0、主色靛藍 #2D45B8。</p><iframe class="frame" data-src="v-paper" title="再生紙"></iframe></section>
+
+  <section class="panel" id="p-questions" hidden>
+    <h2>待決問題</h2>
+    <ol class="qa">
+      <li><b>屬性標籤是否改成外框 + 淡底（outline-tint）？</b>紅（火）、藍（水）、粉（超能力）等顏色當實底配白字，對比低於 4.5:1，不通過。建議全面改 outline-tint，實底只留給大面積裝飾。</li>
+      <li><b>石板（slate）風格只用在分析區嗎？</b>深色石板質感很適合隊伍分析、評分與控速這類「儀表」區，但全站套用會與淺色主體衝突。傾向僅限分析區使用。</li>
+      <li><b>警示色（warn）要不要更偏黃？</b>目前偏棕橘（#8F5300），在淺底對比夠，但不像「警告」。可改成較黃的底色加深色字（例如 #FFF3C4 底 + #6B4A00 字），維持對比又更直覺。</li>
+    </ol>
+    <p class="note">以上三題來自水泥灰／再生紙兩份預覽的審視，尚未決定；新增方向的研究結果（尤其 Radix 色階）可作為決策依據。</p>
+  </section>
+</div>
+
+<script id="v-v1" type="text/plain"><!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>IChooseYou26 Design System 預覽</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -870,6 +997,1519 @@ footer { padding: var(--sp-7) 0 var(--sp-8); color: var(--text-muted); font-size
 
   applyTheme();
   loadTypes();
+})();
+<\/script>
+</body>
+</html>
+</script>
+<script id="v-concrete" type="text/plain"><!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Design System · 水泥灰（淺）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Iansui&display=swap">
+<style>
+/* =====================================================================
+   TOKENS（淺色）。深色版預留：:root[data-theme="dark"] 只需覆寫「同名」變數，
+   元件一律吃變數，不寫死色碼；目前先不實作。
+   ===================================================================== */
+:root{
+  color-scheme: light;
+  --bg:#E4E7EA;
+  --surface:#EEF0F2;
+  --raised:#F7F8F9;
+  --overlay:#FFFFFF;
+  --sunken:#D9DDE1;
+  --ink:#1B1F24;
+  --ink2:#4A525B;
+  --ink3:#5C646D;
+  --line:#C9CDD2;
+  --line-strong:#7B838C;
+  --primary:#5B44C6;
+  --primary-hover:#4B36B0;
+  --on-primary:#FFFFFF;
+  --primary-soft:rgba(91,68,198,.14);
+  --primary-text:#5B44C6;
+  --primary-glow:rgba(91,68,198,.26);
+  --accent:#F5B800;
+  --accent-glow:rgba(245,184,0,.30);
+  --info-glow:rgba(40,150,200,.22);
+  --on-accent:#231B00;
+  --accent-text:#8A5A00;
+  --success:#1A7339;
+  --warn:#8F5300;
+  --danger:#B3261E;
+  --info:#0B6A8F;
+  --sl-bg:#353B42;
+  --sl-slab:#40474F;
+  --sl-ink:#ECEAE4;
+  --sl-ink2:#BCC0C5;
+  --sl-primary:#C4BAFF;
+  --sl-on-primary:#20184F;
+  --sl-chalk:#F3D66B;
+  --pp-sheet:#FBFBF8;
+  --pp-ink:#262B31;
+  --pp-ink2:#555D66;
+  --pp-pen:#5B44C6;
+  --pp-rule:rgba(70,110,170,.28);
+  --pp-stamp:#A63A12;
+  --font-ui: "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-hand: "Iansui","Klee One","BiauKai","Kaiti TC","STKaiti","DFKai-SB",cursive;
+  --font-mono: ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --r-sm:6px; --r-md:12px; --r-lg:20px; --r-pill:999px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:32px; --sp-7:48px;
+  --fs-xs:.75rem; --fs-sm:.875rem; --fs-md:1rem; --fs-lg:1.25rem; --fs-xl:1.625rem; --fs-2xl:2.25rem;
+  --sh-1:0 1px 2px rgba(20,24,30,.10), 0 1px 1px rgba(20,24,30,.06);
+  --sh-2:0 4px 12px rgba(20,24,30,.12), 0 1px 3px rgba(20,24,30,.08);
+  --sh-3:0 12px 32px rgba(20,24,30,.18), 0 2px 6px rgba(20,24,30,.10);
+  --focus: 0 0 0 3px var(--bg), 0 0 0 5px var(--primary);
+}
+/* :root[data-theme="dark"]{ 預留：--bg --surface --raised --overlay --ink... 於此覆寫 } */
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs-md)/1.7 var(--font-ui);overflow-x:hidden}
+img{max-width:100%}
+a{color:var(--primary-text);text-underline-offset:3px}
+a:hover{color:var(--primary-hover)}
+:focus-visible{outline:none;box-shadow:var(--focus);border-radius:4px}
+h1,h2,h3,h4{line-height:1.3;margin:0 0 var(--sp-3)}
+h1{font-size:var(--fs-2xl)} h2{font-size:var(--fs-xl)} h3{font-size:var(--fs-lg)} h4{font-size:var(--fs-md)}
+p{margin:0 0 var(--sp-3)}
+code{font-family:var(--font-mono);font-size:.88em;background:var(--sunken);padding:.1em .4em;border-radius:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--sp-4)}
+section.blk{padding:var(--sp-7) 0 var(--sp-5);border-top:1px solid var(--line)}
+.eyebrow{font:700 var(--fs-xs)/1 var(--font-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:var(--sp-2)}
+.lead{color:var(--ink2);max-width:70ch}
+.muted{color:var(--ink2)} .small{font-size:var(--fs-sm)}
+.grid{display:grid;gap:var(--sp-4)}
+.g-auto{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.g-wide{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+.g-3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.tscroll{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+th{color:var(--ink2);font-weight:700;white-space:nowrap}
+
+/* 頂部說明條 */
+.notice{background:var(--ink);color:var(--bg);font-size:var(--fs-sm)}
+.notice .wrap{display:flex;flex-wrap:wrap;gap:var(--sp-2) var(--sp-4);align-items:center;padding-top:10px;padding-bottom:10px}
+.notice a{color:var(--bg);font-weight:700}
+.notice a[aria-current]{text-decoration:none;background:var(--bg);color:var(--ink);padding:2px 10px;border-radius:var(--r-pill)}
+.toc{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.toc .wrap{display:flex;gap:var(--sp-2);overflow-x:auto;padding-top:8px;padding-bottom:8px}
+.toc a{white-space:nowrap;text-decoration:none;color:var(--ink2);font-size:var(--fs-sm);padding:4px 10px;border-radius:var(--r-pill)}
+.toc a:hover{background:var(--sunken);color:var(--ink)}
+.hero{padding:var(--sp-7) 0 var(--sp-5)}
+.hero h1 span{color:var(--primary-text)}
+
+/* 通用面板（文件區，非元件示範） */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-4);box-shadow:var(--sh-1);min-width:0}
+.panel.rec{border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-soft)}
+.pill{display:inline-block;font:700 var(--fs-xs)/1 var(--font-ui);padding:4px 8px;border-radius:var(--r-pill);vertical-align:middle}
+.pill.ok{background:#D8EFDF;color:#10502A}.pill.no{background:#F6D9D6;color:#7A1912}.pill.mid{background:#F4E4C2;color:#5E3700}
+.pill.rec{background:var(--primary);color:var(--on-primary)}
+.callout{border-left:4px solid var(--primary);background:var(--surface);padding:var(--sp-3) var(--sp-4);border-radius:0 var(--r-md) var(--r-md) 0;margin:var(--sp-4) 0}
+.callout.warn{border-color:var(--warn)}
+.callout h4{margin-bottom:var(--sp-1)}
+.callout ul{margin:var(--sp-2) 0 0;padding-left:1.2em}
+
+/* 色票 */
+.sw{border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--raised);min-width:0}
+.sw .chip-c{height:84px;display:flex;align-items:flex-end;padding:8px;font:700 var(--fs-sm)/1.2 var(--font-mono)}
+.sw .meta{padding:var(--sp-3);font-size:var(--fs-sm)}
+.sw.rec{outline:3px solid var(--primary);outline-offset:2px}
+.scale{display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:6px}
+.scale .st{border:1px solid var(--line);border-radius:var(--r-sm);padding:8px;font:var(--fs-xs)/1.35 var(--font-mono);min-height:78px;display:flex;flex-direction:column;justify-content:space-between}
+.levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:var(--sp-4);padding:var(--sp-5);background:var(--sunken);border-radius:var(--r-lg)}
+.lv{padding:var(--sp-4);border-radius:var(--r-md);min-height:110px;font-size:var(--fs-sm)}
+.lv b{display:block;font-family:var(--font-mono)}
+
+/* primary 候選 */
+.cand{display:flex;flex-direction:column;gap:var(--sp-3)}
+.cand .btns{display:flex;flex-wrap:wrap;gap:var(--sp-2);align-items:center}
+.cbtn{font:700 var(--fs-sm) var(--font-ui);padding:10px 16px;border-radius:var(--r-md);border:2px solid;cursor:pointer;min-height:44px}
+.metrics{display:grid;gap:6px;font-size:var(--fs-sm)}
+.metrics .row{display:flex;justify-content:space-between;gap:8px;align-items:center;border-bottom:1px dashed var(--line);padding-bottom:4px}
+.metrics .row span:first-child{color:var(--ink2)}
+.cvd{display:grid;gap:6px;font-size:var(--fs-xs)}
+.cvd .r{display:grid;grid-template-columns:64px 1fr;gap:8px;align-items:center}
+.strip{display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid var(--line-strong)}
+.strip i{flex:1;display:block}
+
+/* tokens */
+.tk{appearance:none;border:1px solid var(--line);background:var(--raised);color:var(--ink);border-radius:var(--r-md);padding:0;text-align:left;font:inherit;cursor:pointer;overflow:hidden;min-width:0;width:100%}
+.tk:hover{border-color:var(--primary)}
+.tk .tc{height:44px;border-bottom:1px solid var(--line)}
+.tk .tt{padding:8px 10px;font-size:var(--fs-xs);line-height:1.5}
+.tk .tt b{display:block;font-family:var(--font-mono);font-size:var(--fs-xs);word-break:break-all}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:var(--r-pill);font-size:var(--fs-sm);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50;max-width:90vw}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.demo-box{border:1px solid var(--line);background:var(--surface);border-radius:var(--r-md);padding:var(--sp-3);font-size:var(--fs-sm)}
+.spacer{display:flex;align-items:center;gap:8px;font:var(--fs-xs) var(--font-mono);margin:4px 0}
+.spacer i{display:block;height:12px;background:var(--primary);border-radius:3px}
+
+/* 屬性 */
+.ty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3);display:grid;gap:8px;min-width:0;font-size:var(--fs-sm)}
+.ty.fail{border-color:var(--danger)}
+.ty .hd{display:flex;align-items:center;gap:8px;font-weight:700}
+.ty .hd img{width:24px;height:24px}
+.tg{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 6px;border-radius:var(--r-pill);font:700 var(--fs-sm)/1.4 var(--font-ui);border:1.5px solid transparent;white-space:nowrap}
+.tg img{width:18px;height:18px;border-radius:50%;background:rgba(255,255,255,.9);padding:1px}
+.tg-solid{}
+.tg-soft{}
+.nums{font:var(--fs-xs)/1.5 var(--font-mono);color:var(--ink2)}
+.nums > div{padding:2px 0}
+
+/* =====================================================================
+   元件（三種風格共用結構；風格在 .st-* 範圍覆寫）
+   ===================================================================== */
+.sty{--s-ink:var(--ink);--s-ink2:var(--ink2);--s-ptext:var(--primary-text);--s-fill:var(--primary);--s-track:var(--sunken);--s-line:var(--line);
+  color:var(--s-ink);border-radius:var(--r-lg);padding:var(--sp-5);min-width:0;position:relative;isolation:isolate}
+.sty .stack{display:grid;gap:var(--sp-4)}
+.sty .row{display:flex;flex-wrap:wrap;gap:var(--sp-2);align-items:center}
+.sty h4,.sty h5{margin:0 0 var(--sp-2)}
+.sty .sub{color:var(--s-ink2);font-size:var(--fs-sm)}
+.c-card{position:relative;padding:var(--sp-4);min-width:0}
+.c-btn{font:700 var(--fs-sm)/1.2 var(--font-ui);padding:10px 18px;min-height:44px;cursor:pointer;border:1.5px solid transparent;transition:transform .15s,box-shadow .15s,background .15s}
+.c-chip{font:600 var(--fs-sm)/1.3 var(--font-ui);padding:5px 12px;cursor:pointer;border:1.5px solid transparent;min-height:32px;color:inherit}
+.c-field{font:inherit;font-size:var(--fs-sm);padding:10px 12px;min-height:44px;width:100%;color:var(--s-ink);min-width:0}
+.c-field::placeholder{color:var(--s-ink2);opacity:1}
+.c-tabs{display:flex;flex-wrap:wrap;gap:4px}
+.c-tabs button{font:600 var(--fs-sm) var(--font-ui);padding:9px 16px;min-height:40px;cursor:pointer;border:1.5px solid transparent;background:transparent;color:var(--s-ink2)}
+.c-tabs button[aria-selected="true"]{color:var(--s-ink)}
+.c-badge{display:inline-flex;align-items:center;gap:6px;font:700 var(--fs-xs)/1 var(--font-ui);padding:6px 10px;letter-spacing:.04em}
+.c-meter{display:inline-flex;gap:4px;vertical-align:middle}
+.c-meter i{display:block;width:22px;height:10px;background:var(--s-track)}
+.c-meter i.on{background:var(--s-fill)}
+.c-tip{position:relative;display:inline-block}
+.c-tip .bubble{position:absolute;left:50%;bottom:calc(100% + 10px);transform:translateX(-50%);width:max-content;max-width:min(240px,70vw);padding:8px 12px;font-size:var(--fs-xs);line-height:1.5;opacity:0;pointer-events:none;transition:opacity .15s;z-index:5;text-align:left;font-weight:500}
+.c-tip:hover .bubble,.c-tip:focus-within .bubble,.c-tip.is-open .bubble{opacity:1}
+.sty .c-card .row.between{justify-content:space-between}
+.sty hr{border:0;height:1px;background:var(--s-line);margin:var(--sp-3) 0}
+.sty a{color:var(--s-ptext)}
+.bar{display:grid;grid-template-columns:2.2em 1fr 2.2em;gap:8px;align-items:center;font:var(--fs-xs) var(--font-mono)}
+.bar .tr{height:10px;background:var(--s-track);position:relative;overflow:hidden}
+.bar .tr i{position:absolute;inset:0 auto 0 0;background:var(--s-fill)}
+.bar b{text-align:right;font-weight:700}
+
+/* ---------- 風格 1：fluid glass（淺色） ---------- */
+.st-glass{--glass-bg:rgba(255,255,255,.52);
+  background:
+    radial-gradient(55% 45% at 12% 8%, var(--primary-glow), transparent 70%),
+    radial-gradient(45% 45% at 92% 18%, var(--accent-glow), transparent 70%),
+    radial-gradient(60% 55% at 55% 100%, var(--info-glow), transparent 70%),
+    var(--bg);
+  border:1px solid var(--line)}
+.st-glass .c-card,.st-glass .c-field,.st-glass .c-tip .bubble,.st-glass .c-tabs,.st-glass .c-chip:not(.is-on){
+  background:var(--glass-bg);-webkit-backdrop-filter:blur(18px) saturate(1.5);backdrop-filter:blur(18px) saturate(1.5);
+  border:1px solid rgba(255,255,255,.78)}
+.st-glass .c-card{border-radius:var(--r-lg);box-shadow:0 10px 28px rgba(30,40,60,.10), inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(255,255,255,.35)}
+@supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .st-glass{--glass-bg:rgba(251,252,253,.97)}
+  .st-glass .c-card,.st-glass .c-field,.st-glass .c-tip .bubble,.st-glass .c-tabs,.st-glass .c-chip:not(.is-on){border-color:var(--line)}
+}
+.st-glass .c-btn{border-radius:var(--r-pill)}
+.st-glass .c-btn.is-primary{background:linear-gradient(180deg,color-mix(in srgb,var(--primary) 88%,#fff),var(--primary));color:var(--on-primary);box-shadow:0 6px 16px var(--primary-glow), inset 0 1px 0 rgba(255,255,255,.35)}
+.st-glass .c-btn.is-secondary{background:var(--glass-bg);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:var(--primary-text);border-color:rgba(255,255,255,.85);box-shadow:0 2px 8px rgba(30,40,60,.10), inset 0 1px 0 #fff}
+.st-glass .c-btn:hover{transform:translateY(-1px)}
+.st-glass .c-chip{border-radius:var(--r-pill)}
+.st-glass .c-chip.is-on{background:var(--primary);color:var(--on-primary)}
+.st-glass .c-field{border-radius:var(--r-md);box-shadow:inset 0 1px 2px rgba(30,40,60,.10)}
+.st-glass .c-tabs{border-radius:var(--r-pill);padding:4px;display:inline-flex}
+.st-glass .c-tabs button{border-radius:var(--r-pill)}
+.st-glass .c-tabs button[aria-selected="true"]{background:#fff;box-shadow:0 1px 4px rgba(30,40,60,.18);color:var(--primary-text)}
+.st-glass .c-badge{border-radius:var(--r-pill);background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.9);box-shadow:0 1px 3px rgba(30,40,60,.12);color:var(--ink)}
+.st-glass .c-badge b{background:var(--accent);color:var(--on-accent);padding:3px 7px;border-radius:var(--r-pill)}
+.st-glass .c-meter i,.st-glass .bar .tr{border-radius:var(--r-pill)}
+.st-glass .c-meter i.on,.st-glass .bar .tr i{background:linear-gradient(90deg,var(--primary),color-mix(in srgb,var(--primary) 60%,#7fd0ff))}
+.st-glass .c-tip .bubble{border-radius:var(--r-md);color:var(--ink);box-shadow:var(--sh-2);background:rgba(255,255,255,.82)}
+.st-glass .c-meter i{box-shadow:inset 0 1px 2px rgba(30,40,60,.15)}
+
+/* ---------- 風格 2：石板（消光、刻痕、粉筆字） ---------- */
+.st-slate{--s-ink:var(--sl-ink);--s-ink2:var(--sl-ink2);--s-ptext:var(--sl-primary);--s-fill:var(--sl-chalk);--s-track:rgba(0,0,0,.32);--s-line:rgba(255,255,255,.16);
+  background-color:var(--sl-bg);
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .08 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  border:1px solid rgba(0,0,0,.5);box-shadow:inset 0 0 0 4px rgba(255,255,255,.05), inset 0 0 40px rgba(0,0,0,.35)}
+.st-slate h4,.st-slate h5{letter-spacing:.05em;text-shadow:0 0 1px rgba(255,255,255,.5)}
+.st-slate .c-card{background:var(--sl-slab);border:1px solid rgba(0,0,0,.55);border-radius:6px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09), inset 0 -2px 0 rgba(0,0,0,.35), 0 8px 16px rgba(0,0,0,.35)}
+.st-slate .c-btn{border-radius:4px;letter-spacing:.06em}
+.st-slate .c-btn.is-primary{background:var(--sl-primary);color:var(--sl-on-primary);box-shadow:inset 0 1px 0 rgba(255,255,255,.45), 0 3px 0 rgba(0,0,0,.5)}
+.st-slate .c-btn.is-secondary{background:transparent;color:var(--sl-ink);border:1.5px dashed rgba(255,255,255,.55);box-shadow:0 3px 0 rgba(0,0,0,.35)}
+.st-slate .c-btn:active{transform:translateY(2px);box-shadow:none}
+.st-slate .c-chip{border-radius:4px;background:rgba(0,0,0,.28);border-color:rgba(255,255,255,.22);color:var(--sl-ink)}
+.st-slate .c-chip.is-on{background:var(--sl-chalk);color:#2A2410;border-color:var(--sl-chalk)}
+.st-slate .c-field{border-radius:4px;background:rgba(0,0,0,.30);border:1px solid rgba(0,0,0,.6);box-shadow:inset 0 3px 6px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.10);color:var(--sl-ink)}
+.st-slate .c-tabs{border-bottom:2px solid rgba(255,255,255,.2)}
+.st-slate .c-tabs button{border-radius:4px 4px 0 0;color:var(--sl-ink2)}
+.st-slate .c-tabs button[aria-selected="true"]{background:var(--sl-slab);color:var(--sl-ink);border-color:rgba(255,255,255,.2);border-bottom-color:var(--sl-slab);margin-bottom:-2px;box-shadow:inset 0 2px 0 var(--sl-chalk)}
+.st-slate .c-badge{border:1.5px solid var(--sl-chalk);color:var(--sl-chalk);border-radius:3px;background:rgba(0,0,0,.25)}
+.st-slate .c-badge b{background:var(--sl-chalk);color:#2A2410;padding:3px 6px;border-radius:2px}
+.st-slate .c-meter i,.st-slate .bar .tr{border-radius:1px;box-shadow:inset 0 2px 3px rgba(0,0,0,.55)}
+.st-slate .c-meter i.on,.st-slate .bar .tr i{box-shadow:0 0 6px rgba(243,214,107,.35)}
+.st-slate .c-tip .bubble{background:#1E2227;color:var(--sl-ink);border:1px solid rgba(255,255,255,.25);border-radius:4px;box-shadow:0 6px 14px rgba(0,0,0,.5)}
+.st-slate hr{background:repeating-linear-gradient(90deg,rgba(255,255,255,.35) 0 6px,transparent 6px 10px);height:2px}
+.st-slate .hl{color:var(--sl-chalk);border-bottom:2px dashed var(--sl-chalk)}
+.st-slate code{background:rgba(0,0,0,.3);color:var(--sl-chalk)}
+
+/* ---------- 風格 3：手寫紙（筆記本、膠帶、麥克筆） ---------- */
+.st-paper{--s-ink:var(--pp-ink);--s-ink2:var(--pp-ink2);--s-ptext:var(--pp-pen);--s-fill:var(--pp-pen);--s-track:rgba(60,50,30,.12);--s-line:rgba(60,50,30,.25);
+  font-family:var(--font-hand);font-size:1.1rem;
+  background:var(--sunken);border:1px solid var(--line)}
+.st-paper h4,.st-paper h5{font-weight:700;font-size:1.25rem}
+.st-paper .sub{font-size:1rem}
+.st-paper .c-tabs button,.st-paper .c-chip,.st-paper .c-field{font-size:1.05rem}
+.st-paper .c-card{background:var(--pp-sheet);
+  background-image:repeating-linear-gradient(to bottom,transparent 0 27px,var(--pp-rule) 27px 28px);background-position:0 8px;
+  line-height:28px;border:1.5px solid var(--pp-ink);border-radius:3px 12px 4px 10px / 10px 4px 12px 3px;
+  box-shadow:3px 4px 0 rgba(60,50,30,.18);padding-top:var(--sp-5);transform:rotate(-.35deg)}
+.st-paper .c-card:nth-child(even){transform:rotate(.4deg)}
+.st-paper .c-card::before{content:"";position:absolute;top:-11px;left:50%;width:84px;height:22px;margin-left:-42px;background:rgba(240,196,60,.62);transform:rotate(-3deg);box-shadow:0 1px 2px rgba(0,0,0,.18);
+  clip-path:polygon(0 8%,4% 0,8% 10%,12% 0,100% 0,96% 50%,100% 100%,0 100%,4% 55%)}
+.st-paper .c-card::after{content:"";position:absolute;left:34px;top:0;bottom:0;width:1.5px;background:rgba(200,70,60,.35);pointer-events:none}
+.st-paper .c-card > *{position:relative;z-index:1}
+.st-paper .c-card{padding-left:var(--sp-6)}
+.st-paper .c-btn{font-family:var(--font-hand);font-size:1rem;border-radius:255px 15px 225px 15px/15px 225px 15px 255px;border:2px solid var(--pp-ink)}
+.st-paper .c-btn.is-primary{background:var(--pp-pen);color:var(--on-primary);box-shadow:2px 3px 0 var(--pp-ink)}
+.st-paper .c-btn.is-secondary{background:var(--pp-sheet);color:var(--pp-ink);box-shadow:2px 3px 0 rgba(60,50,30,.4);transform:rotate(-.8deg)}
+.st-paper .c-btn:hover{transform:rotate(.6deg) translateY(-1px)}
+.st-paper .c-btn:active{box-shadow:none;transform:translate(2px,3px)}
+.st-paper .c-chip{font-family:var(--font-hand);font-size:.95rem;background:var(--pp-sheet);border:1.5px dashed var(--pp-ink);border-radius:var(--r-sm);color:var(--pp-ink)}
+.st-paper .c-chip.is-on{background:#FFE66D;border-style:solid;color:var(--pp-ink)}
+.st-paper .c-field{font-family:var(--font-hand);font-size:1rem;background:transparent;border:0;border-bottom:2px solid var(--pp-ink);border-radius:0;padding-left:4px;color:var(--pp-ink)}
+.st-paper .c-tabs button{font-family:var(--font-hand);font-size:1rem;border:1.5px solid var(--pp-ink);border-bottom:0;border-radius:10px 10px 0 0;background:rgba(60,50,30,.08);color:var(--pp-ink2)}
+.st-paper .c-tabs{border-bottom:1.5px solid var(--pp-ink);gap:6px}
+.st-paper .c-tabs button[aria-selected="true"]{background:var(--pp-sheet);color:var(--pp-ink);font-weight:700;margin-bottom:-1.5px}
+.st-paper .c-badge{font-family:var(--font-hand);font-size:.9rem;color:var(--pp-stamp);border:2.5px double var(--pp-stamp);border-radius:6px;transform:rotate(-4deg);padding:5px 10px}
+.st-paper .c-meter i,.st-paper .bar .tr{height:12px;border:1.5px solid var(--pp-ink);border-radius:6px 3px 7px 3px;background:transparent}
+.st-paper .c-meter i.on{background:var(--pp-pen);opacity:.9}
+.st-paper .bar .tr{height:12px}
+.st-paper .bar .tr i{inset:0 auto 0 0;background:repeating-linear-gradient(115deg,var(--pp-pen) 0 4px,color-mix(in srgb,var(--pp-pen) 70%,#fff) 4px 7px)}
+.st-paper .c-tip .bubble{background:#FFF08A;color:#2B2500;border-radius:2px;transform:translateX(-50%) rotate(1.5deg);box-shadow:2px 3px 6px rgba(0,0,0,.25);font-family:var(--font-hand);font-size:.9rem}
+.st-paper .hl{background:linear-gradient(transparent 52%,rgba(255,214,0,.62) 52%,rgba(255,214,0,.62) 92%,transparent 92%);padding:0 3px}
+.st-paper hr{height:0;border-top:2px dashed var(--pp-ink2);background:none;opacity:.6}
+.st-paper .sub,.st-paper .bar{font-family:var(--font-hand)}
+.st-paper code{background:rgba(255,214,0,.35)}
+
+/* 風格說明 */
+.style-note{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:var(--sp-3);margin:var(--sp-3) 0 var(--sp-4);font-size:var(--fs-sm)}
+.style-note > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3)}
+.style-note b{display:block;margin-bottom:4px}
+.style-note .y b{color:var(--success)} .style-note .n b{color:var(--danger)}
+.styhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--sp-2) var(--sp-4);margin-top:var(--sp-6)}
+.sw-switch{display:inline-flex;gap:4px;background:var(--sunken);padding:4px;border-radius:var(--r-pill);flex-wrap:wrap;margin-bottom:var(--sp-4)}
+.sw-switch button{font:700 var(--fs-sm) var(--font-ui);border:0;background:transparent;color:var(--ink2);padding:8px 16px;border-radius:var(--r-pill);cursor:pointer;min-height:40px}
+.sw-switch button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+/* 隊伍版型 */
+.team{display:grid;gap:var(--sp-5)}
+.brief{display:grid;gap:var(--sp-3)}
+.brief .blocks{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.brief .blocks i{display:flex;align-items:center;justify-content:center;height:64px;border-radius:8px;font:700 var(--fs-xs) var(--font-mono);color:rgba(255,255,255,.95)}
+.mons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:var(--sp-4)}
+.mon .top{display:flex;gap:var(--sp-3);align-items:center;margin-bottom:var(--sp-2)}
+.mon .ph{width:64px;height:64px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;font:700 var(--fs-lg) var(--font-mono);color:rgba(255,255,255,.95)}
+.mon .moves{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:var(--sp-2) 0}
+.mon .mv{display:flex;align-items:center;gap:6px;font-size:var(--fs-sm);min-width:0}
+.mon .mv i{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 0 1.5px rgba(0,0,0,.35)}
+.mon .stats{display:grid;gap:4px}
+.analysis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:var(--sp-4)}
+.analysis ul{margin:0;padding-left:1.2em}
+.score{display:grid;gap:6px}
+.score .r{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:var(--fs-sm)}
+
+/* a11y 區 */
+.motion-demo{display:inline-block;padding:8px 14px;border-radius:var(--r-md);background:var(--primary);color:var(--on-primary);animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+@media (max-width:560px){
+  :root{--fs-2xl:1.75rem;--fs-xl:1.4rem}
+  .sty{padding:var(--sp-3)}
+  .brief .blocks{gap:4px}
+  .c-tip .bubble{left:0;transform:none}
+  .st-paper .c-tip .bubble{transform:rotate(1.5deg)}
+}
+</style>
+</head>
+<body>
+<div class="notice"><div class="wrap">
+  <span><b>這是 design system 預覽，尚未套用到網站。</b></span>
+  <span>比較請用上方分頁切換。</span>
+</div></div>
+
+<nav class="toc" aria-label="頁內導覽"><div class="wrap">
+  <a href="#bg">1 底色</a><a href="#primary">2 Primary</a><a href="#tokens">3 Tokens</a><a href="#types">4 屬性色</a><a href="#styles">5 元件風格</a><a href="#team">6 隊伍頁</a><a href="#a11y">7 無障礙</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">IChooseYou26 · design system v2 · light</div>
+  <h1>水泥灰（淺）<span>Design System v2</span></h1>
+  <p class="lead">清水模的冷灰底、偏淺；primary 以色彩學與 a11y 檢驗後選定。三種元件風格：fluid glass、石板、手寫紙。</p>
+</div></header>
+
+<main class="wrap">
+
+<section class="blk" id="bg">
+  <div class="eyebrow">01 · 底色與色彩理論</div>
+  <h2>底色：三個明度候選</h2>
+  <p class="lead">清水模灰的重點是「冷、霧、消光」。為避免太沉，把 L*（CIELAB 明度）限制在 88–95。色相略偏藍紫（約 256°）、彩度極低（C* ≈ 1–3），像混凝土在陰天的樣子。</p>
+  <div class="grid g-3" id="bgCands"></div>
+  <div class="callout"><h4>推薦與原因</h4><p>推薦 <b>A2 #E4E7EA</b>（L* 91.5）。理由：</p><ul><li>A1（L* 94.7）幾乎是白，surface／raised／overlay 往上堆疊時已沒有可用的明度空間，卡片和底色分不開，「水泥感」也不見了。</li><li>A3（L* 87.9）仍算淺，但已接近你說「不要太深」的上限；而且深色底會吃掉文字對比預算：三級文字 <code>#5C646D</code> 在 A3 只剩 4.40:1（不及格），在 A2 是 4.84:1。</li><li>A2 在 L* 上比白低約 8.5，卡片用 surface／raised 往白堆就有明顯層次；C* 僅 1.9，保持「灰」而非「藍灰」。底色色相 256° 與紫色候選（251°）幾乎同色相，這是選紫色的和諧基礎。</li></ul></div>
+
+  <h3 style="margin-top:32px">中性色階</h3>
+  <p class="muted small">色階的色相與底色同族（微量染色），避免「灰得髒」。每格顯示對推薦底色的對比值。</p>
+  <div class="scale" id="neutrals"></div>
+
+  <h3 style="margin-top:32px">表面層級</h3>
+  <p class="muted small">四層由低到高：page → surface → raised → overlay，另有 sunken 作凹陷區。亮度逐層往白靠近，陰影逐層加深；不靠色相切換層級。</p>
+  <div class="levels" id="levels"></div>
+</section>
+
+<section class="blk" id="primary">
+  <div class="eyebrow">02 · Primary 候選比較</div>
+  <h2>Primary 色：用對比、色相關係與色盲模擬檢驗</h2>
+  <p class="lead">所有數字由本頁 JS 即時計算：WCAG 2.x 相對亮度對比（文字 ≥ 4.5:1，大字與 UI ≥ 3:1）；色盲模擬使用 Machado et al. (2009) 嚴重度 1.0 的矩陣（線性 RGB 空間），距離用 CIE Lab 的 ΔE76（≥30 清楚、15–30 需文字或圖示輔助、&lt;15 易混淆；此門檻為經驗值）。</p>
+  <div class="grid g-wide" id="cands" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))"></div>
+  <div class="callout"><h4>推薦與理由</h4><p>推薦 <b>C1 靛紫 #5B44C6</b>，搭配 <b>皮卡丘黃 #F5B800</b> 作暖色點綴（不當 primary）。</p><ul><li><b>對比</b>：白字 6.80:1、文字色對底 5.48:1、UI 邊框 5.48:1，全部通過，且都留有餘裕（不是剛好壓線）。</li><li><b>色盲</b>：紅綠色盲模擬下仍與底色（ΔE 80+）及最近的語意色（info，ΔE 37–41）清楚可分；紫色在紅綠色盲下會偏藍，但藍／黃軸不受影響，所以與 danger／success 不會混。</li><li><b>色彩關係</b>：與底色色相同屬冷區（類比），但明度差大；再用互補的黃色當點綴（紫與黃近互補），同時得到「和諧」與「亮點」。</li><li><b>延續性</b>：你原本的紫色可以保留，不必重來。</li></ul><p class="small muted">備選：C3 寶可夢藍對比最高（6.37／7.91），也是 CVD 安全，但與 info 語意色與連結藍太接近，品牌辨識度較弱。</p></div>
+  <div class="callout warn"><h4>回答你的假設：「暖底配冷色／冷底配暖色」</h4><p><b>結論：在水泥灰上「只有一半成立」。</b></p><ul><li><b>審美上成立</b>：冷灰底配暖色確實最跳。但<b>對比度與色相無關</b>，WCAG 只看明度：磚橘 C2、琥珀褐 C4 只要夠深，一樣全數通過（5.00／4.77:1）。所以 a11y 本身不阻止你用暖色。</li><li><b>真正的問題是語意碰撞與色盲</b>：暖色 primary 與 danger（紅）／warn（琥珀）同色區。C2 磚橘在正常視覺下與 danger 的 ΔE 只有 14（易混淆），在紅綠色盲下與 warn 只有 ΔE 2–5，幾乎同色；C4 琥珀褐與 warn 更是 ΔE 1–6。也就是說「主要按鈕」和「警告／危險」會被看成同一類。</li><li><b>例外／做法</b>：暖色適合做<b>小面積點綴</b>（黃色徽章、強調線、Reg Set 標記），不適合做 primary；primary 取冷區（紫或藍）反而最安全。藍黃軸在紅綠色盲下不被破壞，這是「冷主色＋暖點綴」可靠的色彩學理由。</li><li>若你仍想要暖 primary：需把 danger 改成偏洋紅的深紅並一律搭配圖示，成本較高，不建議。</li></ul></div>
+</section>
+
+<section class="blk" id="tokens">
+  <div class="eyebrow">03 · Design tokens（推薦組合）</div>
+  <h2>Tokens</h2>
+  <p class="lead">點任一格複製 CSS 變數（<code>var(--名稱)</code>）。數值為頁面實際計算結果；深色版只需覆寫同名變數。</p>
+  <h3>品牌與語意色</h3>
+  <div class="grid g-auto" id="tkBrand"></div>
+  <h3 style="margin-top:28px">文字色（含對比值）</h3>
+  <div class="grid g-auto" id="tkText"></div>
+  <h3 style="margin-top:28px">邊框、表面</h3>
+  <div class="grid g-auto" id="tkLine"></div>
+  <h3 style="margin-top:28px">陰影 / 圓角</h3>
+  <div class="grid g-auto" id="tkShape"></div>
+  <h3 style="margin-top:28px">間距 / 字級</h3>
+  <div class="grid g-wide">
+    <div class="demo-box" id="tkSpace"></div>
+    <div class="demo-box" id="tkFont"></div>
+  </div>
+</section>
+
+<section class="blk" id="types">
+  <div class="eyebrow">04 · 18 種屬性色可讀性</div>
+  <h2>屬性色在這個底色上的表現</h2>
+  <p class="lead">資料來源 <code>assets/types/colors.json</code>（52poke 屬性標籤色）。每種屬性評估兩種做法：<b>實心標籤</b>（底色＝屬性色，文字自動取白或墨色中對比較高者）與<b>描邊淡底標籤</b>（淡底＋屬性色邊框，文字由屬性色加深到 ≥ 4.5:1）。<span id="srcNote" class="muted small"></span></p>
+  <div class="grid g-auto" id="typeGrid"></div>
+  <div class="callout" id="typeRule"></div>
+</section>
+
+<section class="blk" id="styles">
+  <div class="eyebrow">05 · 元件風格</div>
+  <h2>三種元件風格，同一組元件</h2>
+  <p class="lead">卡片、主要／次要按鈕、tag／chip、輸入框／下拉、分頁籤、Reg Set 徽章、評分條、tooltip。互動元件可實際點擊／聚焦／hover。</p>
+
+  <div class="styhead"><h3>風格 1 · Fluid glass（淺色）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>首頁 hero、浮動工具列、對話框、篩選抽屜等「疊在內容或背景之上」的層；強調輕盈與現代感。</div>
+    <div class="n"><b>不適合</b>大量文字的資料表、長篇分析（半透明底會讓對比隨背景浮動）；低階裝置 blur 耗效能；不支援 backdrop-filter 時退為不透明（已實作 @supports 退路）。Apple HIG 對 Liquid Glass 的提醒同樣是：材質應用在導覽／控制層，內容層保持可讀。</div>
+  </div>
+  <div class="sty st-glass" id="sGlass"></div>
+
+  <div class="styhead"><h3>風格 2 · 石板（slate / stone）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>「戰術板」感的區塊：隊伍分析、對戰要點、成就／排行榜；與寶可夢對戰「擺陣」的主題契合，亮色屬性標籤在深石面上特別醒目。</div>
+    <div class="n"><b>不適合</b>全站大面積使用（在淺色主題裡會變成一塊塊深色島嶼，視覺很重）；粉筆黃用在小字時要確認對比；噪點紋理在高對比螢幕上可能偏粗。</div>
+  </div>
+  <div class="sty st-slate" id="sSlate"></div>
+
+  <div class="styhead"><h3>風格 3 · 手寫紙（筆記本）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>玩家筆記、對戰心得、隊伍「備忘」區；親切、有個人頻道風格，與影片頻道的「教學筆記」調性相近。</div>
+    <div class="n"><b>不適合</b>密集數據（手寫字體小字閱讀性差、橫線會干擾表格）；整頁使用易顯得幼稚；字體需載入 Iansui（約數 MB 的中文字型，已用 Google Fonts 分段載入，仍需 font-display:swap 與系統楷體退路）。</div>
+  </div>
+  <div class="sty st-paper" id="sPaper"></div>
+</section>
+
+<section class="blk" id="team">
+  <div class="eyebrow">06 · 隊伍頁真實版型示範</div>
+  <h2>隊伍 brief／detail／分析</h2>
+  <p class="lead">只用靜態假資料；寶可夢圖以色塊佔位。切換風格比較同一份版型（網址加 <code>#style=slate</code> 或 <code>#style=paper</code> 可直接開啟）。屬性圖示讀自 <code>assets/types/icons/symbol/</code>。</p>
+  <div class="sw-switch" role="group" aria-label="風格切換">
+    <button type="button" data-st="glass" aria-pressed="true">Fluid glass</button>
+    <button type="button" data-st="slate" aria-pressed="false">石板</button>
+    <button type="button" data-st="paper" aria-pressed="false">手寫紙</button>
+  </div>
+  <div class="sty st-glass" id="teamDemo"></div>
+</section>
+
+<section class="blk" id="a11y">
+  <div class="eyebrow">07 · 無障礙檢查</div>
+  <h2>對比表、焦點、減少動態</h2>
+  <div class="tscroll"><table id="a11yTable"><thead><tr><th>項目</th><th>前景</th><th>背景</th><th>對比</th><th>門檻</th><th>結果</th></tr></thead><tbody></tbody></table></div>
+  <div class="grid g-wide" style="margin-top:24px">
+    <div class="panel"><h4>焦點樣式</h4>
+      <p class="small muted">用 Tab 鍵移動；焦點環＝2px 底色間隔 + 2px primary 外環（<code>--focus</code>），對底色對比見上表。</p>
+      <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="cbtn" style="background:var(--primary);color:var(--on-primary);border-color:var(--primary)">按鈕</button><a href="#a11y">連結</a><input aria-label="輸入框範例" placeholder="輸入框" style="padding:10px;border:1.5px solid var(--line-strong);border-radius:8px;background:var(--raised);color:var(--ink);font:inherit;min-width:0;max-width:100%"></div>
+    </div>
+    <div class="panel"><h4>減少動態（prefers-reduced-motion）</h4>
+      <p class="small muted">偵測到的系統設定：<b id="rmState">—</b>。設為「減少動態」時，所有動畫與過渡會被關閉（下方方塊停止浮動）。</p>
+      <span class="motion-demo">會浮動的方塊</span>
+    </div>
+    <div class="panel"><h4>其他規則</h4>
+      <ul class="small" style="margin:0;padding-left:1.2em">
+        <li>屬性、狀態不只靠顏色：一律搭配圖示或文字。</li>
+        <li>觸控目標 ≥ 44px（按鈕、輸入、分頁籤皆有 min-height）。</li>
+        <li>手機 375px 不橫向捲動：表格容器內捲動、格線用 <code>minmax(min(100%,…))</code>。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted small" style="margin-top:32px">參考：WCAG 2.x 對比公式、Material Design 3 的表面層級與 tonal 色彩概念、Apple HIG Materials／Liquid Glass 的可讀性建議、Machado et al. 2009 色盲模擬。以上為依既有知識整理，頁面建置時未即時抓取外部網站；視覺靈感站（Dribbble 等）僅作方向參考。字型：Noto Sans TC（內文）、Iansui（手寫，Google Fonts 提供繁體中文）。</p>
+</section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const CFG = {"bgCandidates":[{"hex":"#EEF0F2","name":"A1 · 很淺","note":"幾乎接近白，與 surface／raised 難分層，灰的「水泥感」不足。"},{"hex":"#E4E7EA","name":"A2 · 淺水泥","rec":true,"note":"有明確的灰度與質感，卡片（surface/raised）仍能向上堆疊出層次。"},{"hex":"#D9DDE1","name":"A3 · 中淺","note":"接近你說「不要太深」的上限；白字與淺字需要更小心，卡片對底色的反差變小。"}],"neutralNames":["n-50","n-100","n-200","n-300","n-400","n-500","n-600","n-700","n-800","n-900"],"neutrals":["#F7F8F9","#EEF0F2","#E4E7EA","#D3D7DC","#B9BEC5","#7B838C","#5C646D","#434A52","#2C3238","#1B1F24"],"primaries":[{"id":"purple","name":"C1 · 靛紫（維持紫色）","hex":"#5B44C6","rel":"與冷灰底為類比（同在冷區）","rec":true,"note":""},{"id":"orange","name":"C2 · 磚橘（暖色互補）","hex":"#AD3A08","rel":"與冷灰底為互補／對比","note":""},{"id":"blue","name":"C3 · 寶可夢藍（冷色類比）","hex":"#2D45B8","rel":"與冷灰底為類比","note":""},{"id":"amber","name":"C4 · 琥珀褐（暖色）","hex":"#8A5A00","rel":"與冷灰底為互補","note":""}]};
+const TYPES_FALLBACK = [{"id":"normal","name_zh_hant":"一般","color":"#9fa19f","icon_symbol":"icons/symbol/normal.png"},{"id":"fighting","name_zh_hant":"格鬥","color":"#ff8000","icon_symbol":"icons/symbol/fighting.png"},{"id":"flying","name_zh_hant":"飛行","color":"#81b9ef","icon_symbol":"icons/symbol/flying.png"},{"id":"poison","name_zh_hant":"毒","color":"#9141cb","icon_symbol":"icons/symbol/poison.png"},{"id":"ground","name_zh_hant":"地面","color":"#915121","icon_symbol":"icons/symbol/ground.png"},{"id":"rock","name_zh_hant":"岩石","color":"#afa981","icon_symbol":"icons/symbol/rock.png"},{"id":"bug","name_zh_hant":"蟲","color":"#91a119","icon_symbol":"icons/symbol/bug.png"},{"id":"ghost","name_zh_hant":"幽靈","color":"#704170","icon_symbol":"icons/symbol/ghost.png"},{"id":"steel","name_zh_hant":"鋼","color":"#60a1b8","icon_symbol":"icons/symbol/steel.png"},{"id":"fire","name_zh_hant":"火","color":"#e62829","icon_symbol":"icons/symbol/fire.png"},{"id":"water","name_zh_hant":"水","color":"#2980ef","icon_symbol":"icons/symbol/water.png"},{"id":"grass","name_zh_hant":"草","color":"#3fa129","icon_symbol":"icons/symbol/grass.png"},{"id":"electric","name_zh_hant":"電","color":"#fac000","icon_symbol":"icons/symbol/electric.png"},{"id":"psychic","name_zh_hant":"超能力","color":"#ef4179","icon_symbol":"icons/symbol/psychic.png"},{"id":"ice","name_zh_hant":"冰","color":"#3fd8ff","icon_symbol":"icons/symbol/ice.png"},{"id":"dragon","name_zh_hant":"龍","color":"#5060e1","icon_symbol":"icons/symbol/dragon.png"},{"id":"dark","name_zh_hant":"惡","color":"#50413f","icon_symbol":"icons/symbol/dark.png"},{"id":"fairy","name_zh_hant":"妖精","color":"#ef70ef","icon_symbol":"icons/symbol/fairy.png"}];
+
+/* ---------- 色彩工具 ---------- */
+const nx = h => { h=h.trim(); if(h.length===4) h='#'+[1,2,3].map(i=>h[i]+h[i]).join(''); return h.toUpperCase(); };
+const h2r = h => { h=nx(h); return [1,3,5].map(i=>parseInt(h.slice(i,i+2),16)); };
+const r2h = a => '#'+a.map(v=>Math.max(0,Math.min(255,Math.round(v))).toString(16).padStart(2,'0')).join('').toUpperCase();
+const lin = c => { c/=255; return c<=.04045 ? c/12.92 : Math.pow((c+.055)/1.055,2.4); };
+const unlin = v => 255*(v<=.0031308 ? v*12.92 : 1.055*Math.pow(v,1/2.4)-.055);
+const lum = h => { const [r,g,b]=h2r(h).map(lin); return .2126*r+.7152*g+.0722*b; };
+const cr = (a,b) => { const x=lum(a), y=lum(b); return (Math.max(x,y)+.05)/(Math.min(x,y)+.05); };
+const lab = h => { const [r,g,b]=h2r(h).map(lin);
+  let X=(.4124564*r+.3575761*g+.1804375*b)/.95047, Y=.2126729*r+.7151522*g+.0721750*b, Z=(.0193339*r+.1191920*g+.9503041*b)/1.08883;
+  const f=t=>t>216/24389?Math.cbrt(t):(24389/27*t+16)/116; const fx=f(X),fy=f(Y),fz=f(Z);
+  return [116*fy-16,500*(fx-fy),200*(fy-fz)]; };
+const dE = (a,b) => { const p=lab(a), q=lab(b); return Math.hypot(p[0]-q[0],p[1]-q[1],p[2]-q[2]); };
+const hue = h => { const [r,g,b]=h2r(h).map(v=>v/255); const mx=Math.max(r,g,b), mn=Math.min(r,g,b), d=mx-mn; if(!d) return 0;
+  let H = mx===r ? ((g-b)/d)%6 : mx===g ? (b-r)/d+2 : (r-g)/d+4; H*=60; return (H+360)%360; };
+const mix = (a,b,t) => { const p=h2r(a), q=h2r(b); return r2h(p.map((v,i)=>v+(q[i]-v)*t)); };
+const MAT = {
+  protan:[[.152286,1.052583,-.204868],[.114503,.786281,.099216],[-.003882,-.048116,1.051998]],
+  deutan:[[.367322,.860646,-.227968],[.280085,.672501,.047413],[-.011820,.042940,.968881]],
+  tritan:[[1.255528,-.076749,-.178779],[-.078411,.930809,.147602],[.004733,.691367,.303900]]
+};
+const sim = (h,k) => { if(k==='normal') return nx(h); const v=h2r(h).map(lin), m=MAT[k];
+  return r2h(m.map(row=>unlin(Math.max(0,Math.min(1,row[0]*v[0]+row[1]*v[1]+row[2]*v[2]))))); };
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = n => n.toFixed(2)+':1';
+const badge = (ok,txt) => `<span class="pill ${ok?'ok':'no'}">${txt||(ok?'通過':'不及格')}</span>`;
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $ = s => document.querySelector(s);
+const BG = () => nx(css('--bg'));
+
+/* ---------- 1. 底色 ---------- */
+(function(){
+  const box=$('#bgCands'), ink=nx(css('--ink'));
+  box.innerHTML = CFG.bgCandidates.map(c=>{
+    const L=lab(c.hex), chroma=Math.hypot(L[1],L[2]), hh=(Math.atan2(L[2],L[1])*180/Math.PI+360)%360;
+    return `<div class="sw ${c.rec?'rec':''}"><div class="chip-c" style="background:${c.hex};color:${ink}">${c.hex}</div>
+    <div class="meta"><b>${esc(c.name)}</b> ${c.rec?'<span class="pill rec">推薦</span>':''}
+    <div class="nums">L* ${L[0].toFixed(1)} · 彩度 C* ${chroma.toFixed(1)} · 色相 ${hh.toFixed(0)}°<br>墨字對比 ${fmt(cr(ink,c.hex))} · 次要字對比 ${fmt(cr(nx(css('--ink2')),c.hex))}</div>
+    <div class="small muted" style="margin-top:6px">${c.note}</div></div></div>`;}).join('');
+  const names=CFG.neutralNames, bg=BG();
+  $('#neutrals').innerHTML = CFG.neutrals.map((h,i)=>{ const tx = cr(h,'#000000')>cr(h,'#FFFFFF')?'#000000':'#FFFFFF';
+    return `<div class="st" style="background:${h};color:${tx}"><b>${names[i]}</b><span>${h}<br>對底 ${cr(h,bg).toFixed(2)}</span></div>`;}).join('');
+  const lv=[['page','--bg','底層頁面','--sh-1'],['surface','--surface','一般卡片','--sh-1'],['raised','--raised','抬起／hover 卡片','--sh-2'],['overlay','--overlay','選單、對話框','--sh-3'],['sunken','--sunken','輸入底、凹陷區','none']];
+  $('#levels').innerHTML = lv.map(l=>`<div class="lv" style="background:var(${l[1]});box-shadow:var(${l[3]},none);border:1px solid var(--line)"><b>${l[0]}</b>${nx(css(l[1]))}<br>${l[2]}</div>`).join('');
+})();
+
+/* ---------- 2. Primary 候選 ---------- */
+(function(){
+  const bg=BG(), raised=nx(css('--raised')), W='#FFFFFF';
+  const sem=[['danger',nx(css('--danger'))],['success',nx(css('--success'))],['warn',nx(css('--warn'))],['info',nx(css('--info'))]];
+  const bgH=hue(bg), sims=[['normal','正常'],['protan','P 型（紅色盲）'],['deutan','D 型（綠色盲）']];
+  window.CAND_RESULT={};
+  $('#cands').innerHTML = CFG.primaries.map(p=>{
+    const c=nx(p.hex), dh=Math.abs(hue(c)-bgH), hd=Math.min(dh,360-dh);
+    const wOn=cr(W,c), tx=cr(c,bg), txR=cr(c,raised), ui=cr(c,bg);
+    const rows = sims.map(([k,label])=>{
+      const sc=sim(c,k), sb=sim(bg,k), ss=sem.map(([n,h])=>[n,sim(h,k)]);
+      const dbg=dE(sc,sb); let near=ss.map(([n,h])=>[n,dE(sc,h)]).sort((a,b)=>a[1]-b[1])[0];
+      const lvl=v=>v>=30?'ok':v>=15?'mid':'no';
+      const t=v=>v>=30?'清楚':v>=15?'需輔助':'易混淆';
+      (window.CAND_RESULT[p.id]=window.CAND_RESULT[p.id]||{})[k]={dbg,near};
+      return `<div class="r"><span>${label}</span><div><div class="strip" title="底色／候選／danger／success／warn／info（模擬後）"><i style="background:${sb}"></i><i style="background:${sc}"></i>${ss.map(s=>`<i style="background:${s[1]}"></i>`).join('')}</div>
+      <div class="nums">對底 ΔE ${dbg.toFixed(0)} <span class="pill ${lvl(dbg)}">${t(dbg)}</span> · 最近語意色 ${near[0]} ΔE ${near[1].toFixed(0)} <span class="pill ${lvl(near[1])}">${t(near[1])}</span></div></div></div>`;}).join('');
+    const relNote = `${p.rel}（與底色色相差 ${hd.toFixed(0)}°）`;
+    return `<div class="panel cand ${p.rec?'rec':''}">
+      <div><b>${esc(p.name)}</b> ${p.rec?'<span class="pill rec">推薦</span>':''}<div class="nums">${c} · hue ${hue(c).toFixed(0)}°<br>${relNote}</div></div>
+      <div class="btns"><button class="cbtn" style="background:${c};color:#fff;border-color:${c}">主要按鈕</button>
+        <button class="cbtn" style="background:transparent;color:${c};border-color:${c}">次要</button></div>
+      <div><span style="color:${c};font-weight:700">文字色範例：Reg Set 隊伍分析</span><br>
+        <span style="display:inline-block;margin-top:6px;border:2px solid ${c};border-radius:8px;padding:4px 10px;background:var(--raised);font-size:var(--fs-sm)">UI 邊框範例</span></div>
+      <div class="metrics">
+        <div class="row"><span>按鈕：白字 on 候選（≥4.5）</span><span>${fmt(wOn)} ${badge(wOn>=4.5)}</span></div>
+        <div class="row"><span>文字：候選 on 底色（≥4.5）</span><span>${fmt(tx)} ${badge(tx>=4.5)}</span></div>
+        <div class="row"><span>文字：候選 on 卡片 raised</span><span>${fmt(txR)} ${badge(txR>=4.5)}</span></div>
+        <div class="row"><span>UI 邊框：候選 vs 底色（≥3）</span><span>${fmt(ui)} ${badge(ui>=3)}</span></div>
+      </div>
+      <div class="cvd"><b>色盲模擬（色條：底／候選／danger／success／warn／info）</b>${rows}</div>
+      <div class="small muted">${p.note}</div></div>`;}).join('');
+})();
+
+/* ---------- 3. Tokens ---------- */
+(function(){
+  const toast=$('#toast'); let tm;
+  function copy(name){ const txt='var(--'+name+')';
+    const done=()=>{ toast.textContent='已複製 '+txt; toast.classList.add('on'); clearTimeout(tm); tm=setTimeout(()=>toast.classList.remove('on'),1600); };
+    if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(txt).then(done,()=>fallback()); } else fallback();
+    function fallback(){ const t=document.createElement('textarea'); t.value=txt; t.style.position='fixed'; t.style.opacity='0'; document.body.appendChild(t); t.select(); try{document.execCommand('copy')}catch(e){} t.remove(); done(); } }
+  document.addEventListener('click',e=>{ const b=e.target.closest('[data-copy]'); if(b) copy(b.dataset.copy); });
+  const bg=BG(), surf=nx(css('--surface'));
+  const tk=(n,note)=>{ const v=css('--'+n); return `<button type="button" class="tk" data-copy="${n}" aria-label="複製 var(--${n})"><div class="tc" style="background:var(--${n})"></div><div class="tt"><b>--${n}</b>${esc(v)}${note?'<br>'+note:''}</div></button>`; };
+  const brand=['primary','primary-hover','on-primary','primary-soft','primary-text','accent','on-accent','accent-text','success','warn','danger','info'];
+  const noteB={ 'primary':`白字 ${fmt(cr('#FFFFFF',nx(css('--primary'))))}`, 'primary-hover':`白字 ${fmt(cr('#FFFFFF',nx(css('--primary-hover'))))}`,
+    'primary-text':`對底 ${fmt(cr(nx(css('--primary-text')),bg))}`, 'accent':`墨字 ${fmt(cr(nx(css('--on-accent')),nx(css('--accent'))))}`,
+    'accent-text':`對底 ${fmt(cr(nx(css('--accent-text')),bg))}`,
+    'success':`對底 ${fmt(cr(nx(css('--success')),bg))}`,'warn':`對底 ${fmt(cr(nx(css('--warn')),bg))}`,'danger':`對底 ${fmt(cr(nx(css('--danger')),bg))}`,'info':`對底 ${fmt(cr(nx(css('--info')),bg))}` };
+  $('#tkBrand').innerHTML = brand.map(n=>tk(n,noteB[n])).join('');
+  $('#tkText').innerHTML = ['ink','ink2','ink3'].map(n=>{ const h=nx(css('--'+n)); return tk(n,`對底 ${fmt(cr(h,bg))} · 對卡片 ${fmt(cr(h,surf))}`); }).join('');
+  $('#tkLine').innerHTML = ['bg','surface','raised','overlay','sunken','line','line-strong'].map(n=>tk(n, n==='line-strong'?`對底 ${fmt(cr(nx(css('--line-strong')),bg))}（UI ≥3）`:'')).join('');
+  $('#tkShape').innerHTML = ['sh-1','sh-2','sh-3'].map(n=>`<button type="button" class="tk" data-copy="${n}"><div class="tc" style="height:64px;display:flex;align-items:center;justify-content:center;border:0"><div style="width:60%;height:34px;background:var(--raised);border-radius:8px;box-shadow:var(--${n})"></div></div><div class="tt"><b>--${n}</b></div></button>`).join('')
+    + ['r-sm','r-md','r-lg','r-pill'].map(n=>`<button type="button" class="tk" data-copy="${n}"><div class="tc" style="height:64px;display:flex;align-items:center;justify-content:center;border:0"><div style="width:60%;height:34px;background:var(--primary);border-radius:var(--${n})"></div></div><div class="tt"><b>--${n}</b>${css('--'+n)}</div></button>`).join('');
+  $('#tkSpace').innerHTML = '<b>間距（4px 基準）</b>'+[1,2,3,4,5,6,7].map(i=>`<div class="spacer"><span style="width:6em">--sp-${i}</span><i style="width:var(--sp-${i})"></i><span>${css('--sp-'+i)}</span></div>`).join('');
+  $('#tkFont').innerHTML = '<b>字級</b>'+['xs','sm','md','lg','xl','2xl'].map(n=>`<div style="display:flex;gap:10px;align-items:baseline;flex-wrap:wrap"><button type="button" data-copy="fs-${n}" class="tk" style="width:auto;padding:2px 8px;font:var(--fs-xs) var(--font-mono)">--fs-${n} ${css('--fs-'+n)}</button><span style="font-size:var(--fs-${n})">寶可夢雙打對戰</span></div>`).join('');
+})();
+
+/* ---------- 4. 屬性色 ---------- */
+let TYPES=null;
+function typeTagHTML(t, mode){
+  const c=nx(t.color), ink=nx(css('--ink')), raised=nx(css('--raised')); const ico=`<img src="assets/types/${t.icon_symbol}" alt="" onerror="this.remove()">`;
+  if(mode==='solid'){ const tx = cr('#FFFFFF',c)>=cr(ink,c)?'#FFFFFF':ink; return `<span class="tg tg-solid" style="background:${c};color:${tx};border-color:${c}">${ico}${esc(t.name_zh_hant)}</span>`; }
+  const bgs=mix(c,raised,.84); let tx=c, k=0; while(cr(tx,bgs)<4.5 && k<20){ k++; tx=mix(c,'#000000',k*.05); }
+  return `<span class="tg tg-soft" style="background:${bgs};color:${tx};border-color:${c}">${ico}${esc(t.name_zh_hant)}</span>`;
+}
+function renderTypes(){
+  const ink=nx(css('--ink')), raised=nx(css('--raised')), bg=BG(); let fails=[], softDark=[];
+  $('#typeGrid').innerHTML = TYPES.map(t=>{
+    const c=nx(t.color), w=cr('#FFFFFF',c), k=cr(ink,c), best=Math.max(w,k), ok=best>=4.5;
+    const bgs=mix(c,raised,.84); let tx=c, n=0; while(cr(tx,bgs)<4.5 && n<20){ n++; tx=mix(c,'#000000',n*.05); }
+    const sr=cr(tx,bgs), bd=cr(c,bg);
+    if(!ok) fails.push(t); if(n>0) softDark.push(t);
+    return `<div class="ty ${ok?'':'fail'}"><div class="hd"><img src="assets/types/${t.icon_symbol}" alt="" onerror="this.remove()">${esc(t.name_zh_hant)} <span class="nums">${c}</span></div>
+      <div>${typeTagHTML(t,'solid')} ${typeTagHTML(t,'soft')}</div>
+      <div class="nums"><div>實心：白 ${fmt(w)}／墨 ${fmt(k)} ${badge(ok,ok?'通過':'不及格')}</div>
+      <div>描邊淡底：文字 ${fmt(sr)}${n?`（加深 ${n*5}%）`:''} ${badge(sr>=4.5)}</div><div>屬性色邊框對底 ${fmt(bd)} ${bd>=3?'':'<span class="pill mid">邊框偏淡，靠圖示+文字補</span>'}</div></div></div>`; }).join('');
+  window.TYPE_STATS={fails,softDark,total:TYPES.length};
+  const failNames=fails.map(t=>t.name_zh_hant).join('、')||'無';
+  const darkNames=softDark.map(t=>t.name_zh_hant).join('、')||'無';
+  $('#typeRule').innerHTML = `<h4>統一規則</h4><ul>
+   <li><b>實心標籤</b>：文字色由程式在白／墨色擇對比較高者（不要一律白字）。本底色下有 <b>${fails.length}</b> 種連最佳選擇都未達 4.5:1：<b>${failNames}</b>。</li>
+   <li><b>修正</b>：這些屬性改用「描邊淡底標籤」（淡底＝屬性色 16% 混 raised，邊框＝屬性色，文字＝屬性色向黑加深至 ≥4.5:1）；或統一全站都用描邊淡底，視覺最一致。需要加深文字的屬性共 <b>${softDark.length}</b> 種：${darkNames}。</li>
+   <li><b>永遠搭配圖示＋文字</b>，不讓顏色獨自傳遞屬性資訊（色盲、列印、截圖壓縮都安全）。標籤字級 ≥ 14px、粗體。</li>
+   <li><b>色點</b>（招式前的小圓點）屬純裝飾，旁邊一律有文字，只需外圈 1.5px 深色描邊讓淺色（電、冰…）在淺底上看得見。</li></ul>`;
+}
+fetch('assets/types/colors.json').then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(j=>{ TYPES=j.types; $('#srcNote').textContent='（已由 fetch 讀取 assets/types/colors.json）'; })
+ .catch(()=>{ TYPES=TYPES_FALLBACK; $('#srcNote').textContent='（fetch 失敗，例如 file:// 開啟：改用頁內嵌入的相同資料）'; })
+ .then(()=>{ renderTypes(); initStyles(); renderA11y(); });
+
+/* ---------- 5/6. 元件風格與隊伍頁 ---------- */
+function componentSet(id){
+  const T=id; 
+  return `<div class="stack">
+  <div class="grid g-wide">
+    <div class="c-card"><h4><span class="hl">卡片 Card</span></h4><p class="sub">標題、說明與動作。卡片是最基本的容器，三種風格的差別主要在這裡。</p>
+      <div class="row"><button class="c-btn is-primary" type="button">主要按鈕</button><button class="c-btn is-secondary" type="button">次要按鈕</button></div></div>
+    <div class="c-card"><h4>輸入框／下拉</h4>
+      <div class="stack" style="gap:10px"><label class="sub" for="${T}-i">隊伍名稱</label><input class="c-field" id="${T}-i" placeholder="例如：晴天攻擊隊">
+      <label class="sub" for="${T}-s">規則</label><select class="c-field" id="${T}-s"><option>Reg Set M-A</option><option>Reg Set M-B</option></select></div></div>
+  </div>
+  <div class="grid g-wide">
+    <div class="c-card"><h4>Tag / Chip（可切換）</h4><div class="row">
+      <button class="c-chip is-on" type="button" aria-pressed="true">晴天</button><button class="c-chip" type="button" aria-pressed="false">雨天</button><button class="c-chip" type="button" aria-pressed="false">順風</button><button class="c-chip" type="button" aria-pressed="false">戲法空間</button></div>
+      <hr><div class="row">${TYPES.slice(9,13).map(t=>typeTagHTML(t,'solid')).join('')}</div></div>
+    <div class="c-card"><h4>分頁籤 Tabs</h4>
+      <div class="c-tabs" role="tablist"><button role="tab" aria-selected="true" type="button">概覽</button><button role="tab" aria-selected="false" type="button">寶可夢</button><button role="tab" aria-selected="false" type="button">分析</button></div>
+      <p class="sub" style="margin-top:12px">點擊切換（本頁僅切換選取狀態）。</p></div>
+  </div>
+  <div class="grid g-wide">
+    <div class="c-card"><h4>徽章 Badge（Reg Set）</h4><div class="row"><span class="c-badge"><b>REG</b> Set M-A</span><span class="c-badge"><b>CH</b> Champions</span></div>
+      <hr><h4>評分條</h4><div class="score" style="display:grid;gap:6px">
+      <div class="row" style="justify-content:space-between;flex-wrap:nowrap"><span>上手難度</span><span class="c-meter" role="img" aria-label="3 分（滿分 5）">${'<i class="on"></i>'.repeat(3)+'<i></i>'.repeat(2)}</span></div>
+      <div class="row" style="justify-content:space-between;flex-wrap:nowrap"><span>穩定性</span><span class="c-meter" role="img" aria-label="4 分（滿分 5）">${'<i class="on"></i>'.repeat(4)+'<i></i>'}</span></div></div></div>
+    <div class="c-card"><h4>Tooltip</h4><p class="sub">hover 或聚焦即顯示；下方第一個固定展開作示範。</p>
+      <div class="row" style="padding-top:64px;gap:20px">
+        <span class="c-tip is-open"><button class="c-btn is-secondary" type="button" aria-describedby="${T}-t1">固定展開</button><span class="bubble" role="tooltip" id="${T}-t1">能力點：每項最多 32、總和 66</span></span>
+        <span class="c-tip"><button class="c-btn is-secondary" type="button" aria-describedby="${T}-t2">hover 我</button><span class="bubble" role="tooltip" id="${T}-t2">先制技優先度 +1</span></span></div></div>
+  </div></div>`;
+}
+const FAKE = {
+  name:'晴天攻擊隊（示範資料）', code:'示範代碼 0000-0000', rule:'Reg Set M-A',
+  mons:[
+    {n:'噴火龍',c:'#E8743B',types:['fire','flying'],item:'氣勢頭帶',moves:[['熱風','fire'],['空氣斬','flying'],['太陽光線','grass'],['守住','normal']],st:[2,0,4,32,0,28]},
+    {n:'烈咬陸鯊',c:'#7A6AB8',types:['ground','dragon'],item:'突擊背心',moves:[['地震','ground'],['岩崩','rock'],['逆鱗','dragon'],['劍舞','normal']],st:[10,32,4,0,0,20]},
+    {n:'示範 C',c:'#3F8F9B',types:['water'],item:'生命寶珠',moves:[['衝浪','water'],['冰凍光束','ice'],['濁流','water'],['守住','normal']],st:[32,0,0,32,2,0]},
+    {n:'示範 D',c:'#5B8C3A',types:['grass','poison'],item:'食物',moves:[['粉塵','bug'],['保護','normal'],['污泥炸彈','poison'],['催眠粉','grass']],st:[32,0,16,0,18,0]},
+    {n:'示範 E',c:'#B04A63',types:['psychic','fairy'],item:'精靈之珠',moves:[['精神強念','psychic'],['月亮之力','fairy'],['戲法空間','psychic'],['守住','normal']],st:[32,0,0,34,0,0]},
+    {n:'示範 F',c:'#8A7F5A',types:['steel'],item:'大師球',moves:[['閃焰衝鋒','fire'],['鐵頭','steel'],['劍舞','normal'],['守住','normal']],st:[4,32,0,0,0,30]}],
+  speed:['順風','戲法空間','先制技','麻痺'],
+  notes:['面對雨天隊時，噴火龍第一回合盡量先守住','避免同時暴露兩隻主力在同一個範圍招式下','最後一隻示範 F 為收尾，不要太早送出'],
+  core:'以晴天加成的噴火龍為主火力，搭配烈咬陸鯊壓制地面系屬性；第三、四隻負責控場與補位。',
+  score:[['上手難度',3],['操作彈性',4],['穩定性',4],['全面程度',3]]
+};
+const STAT_NAMES=['H','A','B','C','D','S'];
+function renderTeam(){
+  const tmap=Object.fromEntries(TYPES.map(t=>[t.id,t]));
+  const tcol=id=>nx((tmap[id]||{color:'#999999'}).color);
+  const tg=id=>typeTagHTML(tmap[id],'solid');
+  const meter=n=>`<span class="c-meter" role="img" aria-label="${n} 分（滿分 5）">${'<i class="on"></i>'.repeat(n)+'<i></i>'.repeat(5-n)}</span>`;
+  return `<div class="team">
+   <article class="c-card brief" aria-label="隊伍 brief">
+     <div class="row between"><span class="c-badge"><b>REG</b> ${FAKE.rule}</span><span class="sub">${FAKE.code}</span></div>
+     <h3 style="margin:0"><span class="hl">${FAKE.name}</span></h3>
+     <div class="blocks" aria-hidden="true">${FAKE.mons.map(m=>`<i style="background:${m.c}">${esc(m.n.slice(0,1))}</i>`).join('')}</div>
+     <div class="row">${FAKE.speed.map(s=>`<span class="c-chip" style="cursor:default">${s}</span>`).join('')}</div>
+     <div class="row between"><span class="sub">頻道：示範頻道 · 2026-11</span><button class="c-btn is-primary" type="button">查看詳情</button></div>
+   </article>
+   <div class="mons">${FAKE.mons.slice(0,2).map(m=>`<article class="c-card mon"><div class="top"><div class="ph" style="background:${m.c}" aria-hidden="true">${esc(m.n.slice(0,1))}</div>
+     <div><h4 style="margin:0">${m.n}</h4><div class="row" style="margin-top:6px">${m.types.map(tg).join('')}</div></div></div>
+     <div class="row"><span class="c-chip" style="cursor:default">道具：${m.item}</span></div>
+     <div class="moves">${m.moves.map(mv=>`<div class="mv"><i style="background:${tcol(mv[1])}"></i><span>${mv[0]}</span></div>`).join('')}</div>
+     <div class="stats">${m.st.map((v,i)=>`<div class="bar"><span>${STAT_NAMES[i]}</span><div class="tr"><i style="width:${v/32*100}%"></i></div><b>${v}</b></div>`).join('')}</div></article>`).join('')}</div>
+   <div class="analysis">
+     <div class="c-card"><h4>核心輸出戰術</h4><p style="margin:0">${FAKE.core}</p></div>
+     <div class="c-card"><h4>控速手段</h4><div class="row">${FAKE.speed.map(s=>`<span class="c-chip" style="cursor:default">${s}</span>`).join('')}</div></div>
+     <div class="c-card"><h4>注意事項</h4><ul>${FAKE.notes.map(n=>`<li>${n}</li>`).join('')}</ul></div>
+     <div class="c-card"><h4>特性評分</h4><div class="score">${FAKE.score.map(s=>`<div class="r"><span>${s[0]}</span>${meter(s[1])}</div>`).join('')}</div></div>
+   </div></div>`;
+}
+function initStyles(){
+  $('#sGlass').innerHTML=componentSet('g'); $('#sSlate').innerHTML=componentSet('sl'); $('#sPaper').innerHTML=componentSet('pp');
+  const td=$('#teamDemo'); td.innerHTML=renderTeam();
+  function setStyle(s){ td.className='sty st-'+s; document.querySelectorAll('.sw-switch button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.st===s))); }
+  document.querySelectorAll('.sw-switch button').forEach(b=>b.addEventListener('click',()=>setStyle(b.dataset.st)));
+  const m=location.hash.match(/style=(glass|slate|paper)/); if(m) setStyle(m[1]);
+  document.addEventListener('click',e=>{
+    const tab=e.target.closest('.c-tabs button'); if(tab){ tab.parentNode.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b===tab))); }
+    const chip=e.target.closest('.c-chip[aria-pressed]'); if(chip){ const on=chip.getAttribute('aria-pressed')!=='true'; chip.setAttribute('aria-pressed',String(on)); chip.classList.toggle('is-on',on); }
+  });
+}
+
+/* ---------- 7. a11y ---------- */
+function renderA11y(){
+  const g=n=>nx(css('--'+n)); const rows=[];
+  const add=(label,fg,bgc,min,note)=>{ const r=cr(fg,bgc); rows.push(`<tr><td>${label}</td><td><span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${fg};border:1px solid #0003;vertical-align:-1px"></span> ${fg}</td><td><span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${bgc};border:1px solid #0003;vertical-align:-1px"></span> ${bgc}</td><td>${fmt(r)}</td><td>≥ ${min}${note?'（'+note+'）':''}</td><td>${badge(r>=min)}</td></tr>`); };
+  add('主要文字 on page',g('ink'),g('bg'),4.5); add('主要文字 on surface',g('ink'),g('surface'),4.5); add('主要文字 on raised',g('ink'),g('raised'),4.5);
+  add('次要文字 on page',g('ink2'),g('bg'),4.5); add('次要文字 on raised',g('ink2'),g('raised'),4.5);
+  add('三級文字（提示）on page',g('ink3'),g('bg'),4.5);
+  add('連結 on page',g('primary-text'),g('bg'),4.5); add('連結 on raised',g('primary-text'),g('raised'),4.5);
+  add('主要按鈕 白字 on primary',g('on-primary'),g('primary'),4.5); add('主要按鈕 hover',g('on-primary'),g('primary-hover'),4.5);
+  add('次要按鈕 文字 on page',g('primary-text'),g('bg'),4.5); add('強調（黃）墨字 on accent',g('on-accent'),g('accent'),4.5); add('accent-text on page',g('accent-text'),g('bg'),4.5);
+  ['success','warn','danger','info'].forEach(n=>add('語意文字 '+n+' on page',g(n),g('bg'),4.5));
+  add('輸入框邊框 line-strong vs page（UI）',g('line-strong'),g('bg'),3); add('焦點環 primary vs page（UI）',g('primary'),g('bg'),3);
+  add('評分條填色 primary vs track(sunken)',g('primary'),g('sunken'),3);
+  const st=window.TYPE_STATS; rows.push(`<tr><td>屬性標籤（實心，自動白／墨字）</td><td colspan="3">${st.total-st.fails.length} / ${st.total} 種通過 4.5:1</td><td>≥ 4.5</td><td>${badge(st.fails.length===0, st.fails.length? st.fails.length+' 種需改描邊淡底':'全部通過')}</td></tr>`);
+  $('#a11yTable tbody').innerHTML=rows.join('');
+  $('#rmState').textContent = matchMedia('(prefers-reduced-motion: reduce)').matches ? '已要求減少動態（動畫已關閉）' : '未要求（動畫開啟）';
+}
+<\/script>
+</body>
+</html>
+</script>
+<script id="v-paper" type="text/plain"><!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Design System · 再生紙米色</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Iansui&display=swap">
+<style>
+/* =====================================================================
+   TOKENS（淺色）。深色版預留：:root[data-theme="dark"] 只需覆寫「同名」變數，
+   元件一律吃變數，不寫死色碼；目前先不實作。
+   ===================================================================== */
+:root{
+  color-scheme: light;
+  --bg:#F0EBE0;
+  --surface:#F7F4EC;
+  --raised:#FCFAF5;
+  --overlay:#FFFFFF;
+  --sunken:#E6E0D1;
+  --ink:#26221C;
+  --ink2:#5A5348;
+  --ink3:#6A6254;
+  --line:#D9D2C1;
+  --line-strong:#857D6E;
+  --primary:#2D45B8;
+  --primary-hover:#22379A;
+  --on-primary:#FFFFFF;
+  --primary-soft:rgba(45,69,184,.13);
+  --primary-text:#2D45B8;
+  --primary-glow:rgba(45,69,184,.22);
+  --accent:#F5B800;
+  --accent-glow:rgba(245,184,0,.34);
+  --info-glow:rgba(40,150,200,.18);
+  --on-accent:#231B00;
+  --accent-text:#8A5A00;
+  --success:#1A7339;
+  --warn:#8F5300;
+  --danger:#B3261E;
+  --info:#0B6A8F;
+  --sl-bg:#3A3731;
+  --sl-slab:#46423A;
+  --sl-ink:#EFEBE0;
+  --sl-ink2:#C4BEB0;
+  --sl-primary:#A9BCFF;
+  --sl-on-primary:#14204F;
+  --sl-chalk:#F3D66B;
+  --pp-sheet:#FFFDF6;
+  --pp-ink:#2B261E;
+  --pp-ink2:#5F5748;
+  --pp-pen:#2D45B8;
+  --pp-rule:rgba(70,110,170,.26);
+  --pp-stamp:#A63A12;
+  --font-ui: "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-hand: "Iansui","Klee One","BiauKai","Kaiti TC","STKaiti","DFKai-SB",cursive;
+  --font-mono: ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --r-sm:6px; --r-md:12px; --r-lg:20px; --r-pill:999px;
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:24px; --sp-6:32px; --sp-7:48px;
+  --fs-xs:.75rem; --fs-sm:.875rem; --fs-md:1rem; --fs-lg:1.25rem; --fs-xl:1.625rem; --fs-2xl:2.25rem;
+  --sh-1:0 1px 2px rgba(20,24,30,.10), 0 1px 1px rgba(20,24,30,.06);
+  --sh-2:0 4px 12px rgba(20,24,30,.12), 0 1px 3px rgba(20,24,30,.08);
+  --sh-3:0 12px 32px rgba(20,24,30,.18), 0 2px 6px rgba(20,24,30,.10);
+  --focus: 0 0 0 3px var(--bg), 0 0 0 5px var(--primary);
+}
+/* :root[data-theme="dark"]{ 預留：--bg --surface --raised --overlay --ink... 於此覆寫 } */
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs-md)/1.7 var(--font-ui);overflow-x:hidden}
+img{max-width:100%}
+a{color:var(--primary-text);text-underline-offset:3px}
+a:hover{color:var(--primary-hover)}
+:focus-visible{outline:none;box-shadow:var(--focus);border-radius:4px}
+h1,h2,h3,h4{line-height:1.3;margin:0 0 var(--sp-3)}
+h1{font-size:var(--fs-2xl)} h2{font-size:var(--fs-xl)} h3{font-size:var(--fs-lg)} h4{font-size:var(--fs-md)}
+p{margin:0 0 var(--sp-3)}
+code{font-family:var(--font-mono);font-size:.88em;background:var(--sunken);padding:.1em .4em;border-radius:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--sp-4)}
+section.blk{padding:var(--sp-7) 0 var(--sp-5);border-top:1px solid var(--line)}
+.eyebrow{font:700 var(--fs-xs)/1 var(--font-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-bottom:var(--sp-2)}
+.lead{color:var(--ink2);max-width:70ch}
+.muted{color:var(--ink2)} .small{font-size:var(--fs-sm)}
+.grid{display:grid;gap:var(--sp-4)}
+.g-auto{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.g-wide{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+.g-3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.tscroll{overflow-x:auto;max-width:100%}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-sm)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+th{color:var(--ink2);font-weight:700;white-space:nowrap}
+
+/* 頂部說明條 */
+.notice{background:var(--ink);color:var(--bg);font-size:var(--fs-sm)}
+.notice .wrap{display:flex;flex-wrap:wrap;gap:var(--sp-2) var(--sp-4);align-items:center;padding-top:10px;padding-bottom:10px}
+.notice a{color:var(--bg);font-weight:700}
+.notice a[aria-current]{text-decoration:none;background:var(--bg);color:var(--ink);padding:2px 10px;border-radius:var(--r-pill)}
+.toc{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.toc .wrap{display:flex;gap:var(--sp-2);overflow-x:auto;padding-top:8px;padding-bottom:8px}
+.toc a{white-space:nowrap;text-decoration:none;color:var(--ink2);font-size:var(--fs-sm);padding:4px 10px;border-radius:var(--r-pill)}
+.toc a:hover{background:var(--sunken);color:var(--ink)}
+.hero{padding:var(--sp-7) 0 var(--sp-5)}
+.hero h1 span{color:var(--primary-text)}
+
+/* 通用面板（文件區，非元件示範） */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-4);box-shadow:var(--sh-1);min-width:0}
+.panel.rec{border-color:var(--primary);box-shadow:0 0 0 2px var(--primary-soft)}
+.pill{display:inline-block;font:700 var(--fs-xs)/1 var(--font-ui);padding:4px 8px;border-radius:var(--r-pill);vertical-align:middle}
+.pill.ok{background:#D8EFDF;color:#10502A}.pill.no{background:#F6D9D6;color:#7A1912}.pill.mid{background:#F4E4C2;color:#5E3700}
+.pill.rec{background:var(--primary);color:var(--on-primary)}
+.callout{border-left:4px solid var(--primary);background:var(--surface);padding:var(--sp-3) var(--sp-4);border-radius:0 var(--r-md) var(--r-md) 0;margin:var(--sp-4) 0}
+.callout.warn{border-color:var(--warn)}
+.callout h4{margin-bottom:var(--sp-1)}
+.callout ul{margin:var(--sp-2) 0 0;padding-left:1.2em}
+
+/* 色票 */
+.sw{border:1px solid var(--line);border-radius:var(--r-md);overflow:hidden;background:var(--raised);min-width:0}
+.sw .chip-c{height:84px;display:flex;align-items:flex-end;padding:8px;font:700 var(--fs-sm)/1.2 var(--font-mono)}
+.sw .meta{padding:var(--sp-3);font-size:var(--fs-sm)}
+.sw.rec{outline:3px solid var(--primary);outline-offset:2px}
+.scale{display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:6px}
+.scale .st{border:1px solid var(--line);border-radius:var(--r-sm);padding:8px;font:var(--fs-xs)/1.35 var(--font-mono);min-height:78px;display:flex;flex-direction:column;justify-content:space-between}
+.levels{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:var(--sp-4);padding:var(--sp-5);background:var(--sunken);border-radius:var(--r-lg)}
+.lv{padding:var(--sp-4);border-radius:var(--r-md);min-height:110px;font-size:var(--fs-sm)}
+.lv b{display:block;font-family:var(--font-mono)}
+
+/* primary 候選 */
+.cand{display:flex;flex-direction:column;gap:var(--sp-3)}
+.cand .btns{display:flex;flex-wrap:wrap;gap:var(--sp-2);align-items:center}
+.cbtn{font:700 var(--fs-sm) var(--font-ui);padding:10px 16px;border-radius:var(--r-md);border:2px solid;cursor:pointer;min-height:44px}
+.metrics{display:grid;gap:6px;font-size:var(--fs-sm)}
+.metrics .row{display:flex;justify-content:space-between;gap:8px;align-items:center;border-bottom:1px dashed var(--line);padding-bottom:4px}
+.metrics .row span:first-child{color:var(--ink2)}
+.cvd{display:grid;gap:6px;font-size:var(--fs-xs)}
+.cvd .r{display:grid;grid-template-columns:64px 1fr;gap:8px;align-items:center}
+.strip{display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid var(--line-strong)}
+.strip i{flex:1;display:block}
+
+/* tokens */
+.tk{appearance:none;border:1px solid var(--line);background:var(--raised);color:var(--ink);border-radius:var(--r-md);padding:0;text-align:left;font:inherit;cursor:pointer;overflow:hidden;min-width:0;width:100%}
+.tk:hover{border-color:var(--primary)}
+.tk .tc{height:44px;border-bottom:1px solid var(--line)}
+.tk .tt{padding:8px 10px;font-size:var(--fs-xs);line-height:1.5}
+.tk .tt b{display:block;font-family:var(--font-mono);font-size:var(--fs-xs);word-break:break-all}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:var(--r-pill);font-size:var(--fs-sm);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:50;max-width:90vw}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.demo-box{border:1px solid var(--line);background:var(--surface);border-radius:var(--r-md);padding:var(--sp-3);font-size:var(--fs-sm)}
+.spacer{display:flex;align-items:center;gap:8px;font:var(--fs-xs) var(--font-mono);margin:4px 0}
+.spacer i{display:block;height:12px;background:var(--primary);border-radius:3px}
+
+/* 屬性 */
+.ty{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3);display:grid;gap:8px;min-width:0;font-size:var(--fs-sm)}
+.ty.fail{border-color:var(--danger)}
+.ty .hd{display:flex;align-items:center;gap:8px;font-weight:700}
+.ty .hd img{width:24px;height:24px}
+.tg{display:inline-flex;align-items:center;gap:6px;padding:3px 10px 3px 6px;border-radius:var(--r-pill);font:700 var(--fs-sm)/1.4 var(--font-ui);border:1.5px solid transparent;white-space:nowrap}
+.tg img{width:18px;height:18px;border-radius:50%;background:rgba(255,255,255,.9);padding:1px}
+.tg-solid{}
+.tg-soft{}
+.nums{font:var(--fs-xs)/1.5 var(--font-mono);color:var(--ink2)}
+.nums > div{padding:2px 0}
+
+/* =====================================================================
+   元件（三種風格共用結構；風格在 .st-* 範圍覆寫）
+   ===================================================================== */
+.sty{--s-ink:var(--ink);--s-ink2:var(--ink2);--s-ptext:var(--primary-text);--s-fill:var(--primary);--s-track:var(--sunken);--s-line:var(--line);
+  color:var(--s-ink);border-radius:var(--r-lg);padding:var(--sp-5);min-width:0;position:relative;isolation:isolate}
+.sty .stack{display:grid;gap:var(--sp-4)}
+.sty .row{display:flex;flex-wrap:wrap;gap:var(--sp-2);align-items:center}
+.sty h4,.sty h5{margin:0 0 var(--sp-2)}
+.sty .sub{color:var(--s-ink2);font-size:var(--fs-sm)}
+.c-card{position:relative;padding:var(--sp-4);min-width:0}
+.c-btn{font:700 var(--fs-sm)/1.2 var(--font-ui);padding:10px 18px;min-height:44px;cursor:pointer;border:1.5px solid transparent;transition:transform .15s,box-shadow .15s,background .15s}
+.c-chip{font:600 var(--fs-sm)/1.3 var(--font-ui);padding:5px 12px;cursor:pointer;border:1.5px solid transparent;min-height:32px;color:inherit}
+.c-field{font:inherit;font-size:var(--fs-sm);padding:10px 12px;min-height:44px;width:100%;color:var(--s-ink);min-width:0}
+.c-field::placeholder{color:var(--s-ink2);opacity:1}
+.c-tabs{display:flex;flex-wrap:wrap;gap:4px}
+.c-tabs button{font:600 var(--fs-sm) var(--font-ui);padding:9px 16px;min-height:40px;cursor:pointer;border:1.5px solid transparent;background:transparent;color:var(--s-ink2)}
+.c-tabs button[aria-selected="true"]{color:var(--s-ink)}
+.c-badge{display:inline-flex;align-items:center;gap:6px;font:700 var(--fs-xs)/1 var(--font-ui);padding:6px 10px;letter-spacing:.04em}
+.c-meter{display:inline-flex;gap:4px;vertical-align:middle}
+.c-meter i{display:block;width:22px;height:10px;background:var(--s-track)}
+.c-meter i.on{background:var(--s-fill)}
+.c-tip{position:relative;display:inline-block}
+.c-tip .bubble{position:absolute;left:50%;bottom:calc(100% + 10px);transform:translateX(-50%);width:max-content;max-width:min(240px,70vw);padding:8px 12px;font-size:var(--fs-xs);line-height:1.5;opacity:0;pointer-events:none;transition:opacity .15s;z-index:5;text-align:left;font-weight:500}
+.c-tip:hover .bubble,.c-tip:focus-within .bubble,.c-tip.is-open .bubble{opacity:1}
+.sty .c-card .row.between{justify-content:space-between}
+.sty hr{border:0;height:1px;background:var(--s-line);margin:var(--sp-3) 0}
+.sty a{color:var(--s-ptext)}
+.bar{display:grid;grid-template-columns:2.2em 1fr 2.2em;gap:8px;align-items:center;font:var(--fs-xs) var(--font-mono)}
+.bar .tr{height:10px;background:var(--s-track);position:relative;overflow:hidden}
+.bar .tr i{position:absolute;inset:0 auto 0 0;background:var(--s-fill)}
+.bar b{text-align:right;font-weight:700}
+
+/* ---------- 風格 1：fluid glass（淺色） ---------- */
+.st-glass{--glass-bg:rgba(255,255,255,.52);
+  background:
+    radial-gradient(55% 45% at 12% 8%, var(--primary-glow), transparent 70%),
+    radial-gradient(45% 45% at 92% 18%, var(--accent-glow), transparent 70%),
+    radial-gradient(60% 55% at 55% 100%, var(--info-glow), transparent 70%),
+    var(--bg);
+  border:1px solid var(--line)}
+.st-glass .c-card,.st-glass .c-field,.st-glass .c-tip .bubble,.st-glass .c-tabs,.st-glass .c-chip:not(.is-on){
+  background:var(--glass-bg);-webkit-backdrop-filter:blur(18px) saturate(1.5);backdrop-filter:blur(18px) saturate(1.5);
+  border:1px solid rgba(255,255,255,.78)}
+.st-glass .c-card{border-radius:var(--r-lg);box-shadow:0 10px 28px rgba(30,40,60,.10), inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(255,255,255,.35)}
+@supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
+  .st-glass{--glass-bg:rgba(251,252,253,.97)}
+  .st-glass .c-card,.st-glass .c-field,.st-glass .c-tip .bubble,.st-glass .c-tabs,.st-glass .c-chip:not(.is-on){border-color:var(--line)}
+}
+.st-glass .c-btn{border-radius:var(--r-pill)}
+.st-glass .c-btn.is-primary{background:linear-gradient(180deg,color-mix(in srgb,var(--primary) 88%,#fff),var(--primary));color:var(--on-primary);box-shadow:0 6px 16px var(--primary-glow), inset 0 1px 0 rgba(255,255,255,.35)}
+.st-glass .c-btn.is-secondary{background:var(--glass-bg);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:var(--primary-text);border-color:rgba(255,255,255,.85);box-shadow:0 2px 8px rgba(30,40,60,.10), inset 0 1px 0 #fff}
+.st-glass .c-btn:hover{transform:translateY(-1px)}
+.st-glass .c-chip{border-radius:var(--r-pill)}
+.st-glass .c-chip.is-on{background:var(--primary);color:var(--on-primary)}
+.st-glass .c-field{border-radius:var(--r-md);box-shadow:inset 0 1px 2px rgba(30,40,60,.10)}
+.st-glass .c-tabs{border-radius:var(--r-pill);padding:4px;display:inline-flex}
+.st-glass .c-tabs button{border-radius:var(--r-pill)}
+.st-glass .c-tabs button[aria-selected="true"]{background:#fff;box-shadow:0 1px 4px rgba(30,40,60,.18);color:var(--primary-text)}
+.st-glass .c-badge{border-radius:var(--r-pill);background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.9);box-shadow:0 1px 3px rgba(30,40,60,.12);color:var(--ink)}
+.st-glass .c-badge b{background:var(--accent);color:var(--on-accent);padding:3px 7px;border-radius:var(--r-pill)}
+.st-glass .c-meter i,.st-glass .bar .tr{border-radius:var(--r-pill)}
+.st-glass .c-meter i.on,.st-glass .bar .tr i{background:linear-gradient(90deg,var(--primary),color-mix(in srgb,var(--primary) 60%,#7fd0ff))}
+.st-glass .c-tip .bubble{border-radius:var(--r-md);color:var(--ink);box-shadow:var(--sh-2);background:rgba(255,255,255,.82)}
+.st-glass .c-meter i{box-shadow:inset 0 1px 2px rgba(30,40,60,.15)}
+
+/* ---------- 風格 2：石板（消光、刻痕、粉筆字） ---------- */
+.st-slate{--s-ink:var(--sl-ink);--s-ink2:var(--sl-ink2);--s-ptext:var(--sl-primary);--s-fill:var(--sl-chalk);--s-track:rgba(0,0,0,.32);--s-line:rgba(255,255,255,.16);
+  background-color:var(--sl-bg);
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .08 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  border:1px solid rgba(0,0,0,.5);box-shadow:inset 0 0 0 4px rgba(255,255,255,.05), inset 0 0 40px rgba(0,0,0,.35)}
+.st-slate h4,.st-slate h5{letter-spacing:.05em;text-shadow:0 0 1px rgba(255,255,255,.5)}
+.st-slate .c-card{background:var(--sl-slab);border:1px solid rgba(0,0,0,.55);border-radius:6px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.09), inset 0 -2px 0 rgba(0,0,0,.35), 0 8px 16px rgba(0,0,0,.35)}
+.st-slate .c-btn{border-radius:4px;letter-spacing:.06em}
+.st-slate .c-btn.is-primary{background:var(--sl-primary);color:var(--sl-on-primary);box-shadow:inset 0 1px 0 rgba(255,255,255,.45), 0 3px 0 rgba(0,0,0,.5)}
+.st-slate .c-btn.is-secondary{background:transparent;color:var(--sl-ink);border:1.5px dashed rgba(255,255,255,.55);box-shadow:0 3px 0 rgba(0,0,0,.35)}
+.st-slate .c-btn:active{transform:translateY(2px);box-shadow:none}
+.st-slate .c-chip{border-radius:4px;background:rgba(0,0,0,.28);border-color:rgba(255,255,255,.22);color:var(--sl-ink)}
+.st-slate .c-chip.is-on{background:var(--sl-chalk);color:#2A2410;border-color:var(--sl-chalk)}
+.st-slate .c-field{border-radius:4px;background:rgba(0,0,0,.30);border:1px solid rgba(0,0,0,.6);box-shadow:inset 0 3px 6px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.10);color:var(--sl-ink)}
+.st-slate .c-tabs{border-bottom:2px solid rgba(255,255,255,.2)}
+.st-slate .c-tabs button{border-radius:4px 4px 0 0;color:var(--sl-ink2)}
+.st-slate .c-tabs button[aria-selected="true"]{background:var(--sl-slab);color:var(--sl-ink);border-color:rgba(255,255,255,.2);border-bottom-color:var(--sl-slab);margin-bottom:-2px;box-shadow:inset 0 2px 0 var(--sl-chalk)}
+.st-slate .c-badge{border:1.5px solid var(--sl-chalk);color:var(--sl-chalk);border-radius:3px;background:rgba(0,0,0,.25)}
+.st-slate .c-badge b{background:var(--sl-chalk);color:#2A2410;padding:3px 6px;border-radius:2px}
+.st-slate .c-meter i,.st-slate .bar .tr{border-radius:1px;box-shadow:inset 0 2px 3px rgba(0,0,0,.55)}
+.st-slate .c-meter i.on,.st-slate .bar .tr i{box-shadow:0 0 6px rgba(243,214,107,.35)}
+.st-slate .c-tip .bubble{background:#1E2227;color:var(--sl-ink);border:1px solid rgba(255,255,255,.25);border-radius:4px;box-shadow:0 6px 14px rgba(0,0,0,.5)}
+.st-slate hr{background:repeating-linear-gradient(90deg,rgba(255,255,255,.35) 0 6px,transparent 6px 10px);height:2px}
+.st-slate .hl{color:var(--sl-chalk);border-bottom:2px dashed var(--sl-chalk)}
+.st-slate code{background:rgba(0,0,0,.3);color:var(--sl-chalk)}
+
+/* ---------- 風格 3：手寫紙（筆記本、膠帶、麥克筆） ---------- */
+.st-paper{--s-ink:var(--pp-ink);--s-ink2:var(--pp-ink2);--s-ptext:var(--pp-pen);--s-fill:var(--pp-pen);--s-track:rgba(60,50,30,.12);--s-line:rgba(60,50,30,.25);
+  font-family:var(--font-hand);font-size:1.1rem;
+  background:var(--sunken);border:1px solid var(--line)}
+.st-paper h4,.st-paper h5{font-weight:700;font-size:1.25rem}
+.st-paper .sub{font-size:1rem}
+.st-paper .c-tabs button,.st-paper .c-chip,.st-paper .c-field{font-size:1.05rem}
+.st-paper .c-card{background:var(--pp-sheet);
+  background-image:repeating-linear-gradient(to bottom,transparent 0 27px,var(--pp-rule) 27px 28px);background-position:0 8px;
+  line-height:28px;border:1.5px solid var(--pp-ink);border-radius:3px 12px 4px 10px / 10px 4px 12px 3px;
+  box-shadow:3px 4px 0 rgba(60,50,30,.18);padding-top:var(--sp-5);transform:rotate(-.35deg)}
+.st-paper .c-card:nth-child(even){transform:rotate(.4deg)}
+.st-paper .c-card::before{content:"";position:absolute;top:-11px;left:50%;width:84px;height:22px;margin-left:-42px;background:rgba(240,196,60,.62);transform:rotate(-3deg);box-shadow:0 1px 2px rgba(0,0,0,.18);
+  clip-path:polygon(0 8%,4% 0,8% 10%,12% 0,100% 0,96% 50%,100% 100%,0 100%,4% 55%)}
+.st-paper .c-card::after{content:"";position:absolute;left:34px;top:0;bottom:0;width:1.5px;background:rgba(200,70,60,.35);pointer-events:none}
+.st-paper .c-card > *{position:relative;z-index:1}
+.st-paper .c-card{padding-left:var(--sp-6)}
+.st-paper .c-btn{font-family:var(--font-hand);font-size:1rem;border-radius:255px 15px 225px 15px/15px 225px 15px 255px;border:2px solid var(--pp-ink)}
+.st-paper .c-btn.is-primary{background:var(--pp-pen);color:var(--on-primary);box-shadow:2px 3px 0 var(--pp-ink)}
+.st-paper .c-btn.is-secondary{background:var(--pp-sheet);color:var(--pp-ink);box-shadow:2px 3px 0 rgba(60,50,30,.4);transform:rotate(-.8deg)}
+.st-paper .c-btn:hover{transform:rotate(.6deg) translateY(-1px)}
+.st-paper .c-btn:active{box-shadow:none;transform:translate(2px,3px)}
+.st-paper .c-chip{font-family:var(--font-hand);font-size:.95rem;background:var(--pp-sheet);border:1.5px dashed var(--pp-ink);border-radius:var(--r-sm);color:var(--pp-ink)}
+.st-paper .c-chip.is-on{background:#FFE66D;border-style:solid;color:var(--pp-ink)}
+.st-paper .c-field{font-family:var(--font-hand);font-size:1rem;background:transparent;border:0;border-bottom:2px solid var(--pp-ink);border-radius:0;padding-left:4px;color:var(--pp-ink)}
+.st-paper .c-tabs button{font-family:var(--font-hand);font-size:1rem;border:1.5px solid var(--pp-ink);border-bottom:0;border-radius:10px 10px 0 0;background:rgba(60,50,30,.08);color:var(--pp-ink2)}
+.st-paper .c-tabs{border-bottom:1.5px solid var(--pp-ink);gap:6px}
+.st-paper .c-tabs button[aria-selected="true"]{background:var(--pp-sheet);color:var(--pp-ink);font-weight:700;margin-bottom:-1.5px}
+.st-paper .c-badge{font-family:var(--font-hand);font-size:.9rem;color:var(--pp-stamp);border:2.5px double var(--pp-stamp);border-radius:6px;transform:rotate(-4deg);padding:5px 10px}
+.st-paper .c-meter i,.st-paper .bar .tr{height:12px;border:1.5px solid var(--pp-ink);border-radius:6px 3px 7px 3px;background:transparent}
+.st-paper .c-meter i.on{background:var(--pp-pen);opacity:.9}
+.st-paper .bar .tr{height:12px}
+.st-paper .bar .tr i{inset:0 auto 0 0;background:repeating-linear-gradient(115deg,var(--pp-pen) 0 4px,color-mix(in srgb,var(--pp-pen) 70%,#fff) 4px 7px)}
+.st-paper .c-tip .bubble{background:#FFF08A;color:#2B2500;border-radius:2px;transform:translateX(-50%) rotate(1.5deg);box-shadow:2px 3px 6px rgba(0,0,0,.25);font-family:var(--font-hand);font-size:.9rem}
+.st-paper .hl{background:linear-gradient(transparent 52%,rgba(255,214,0,.62) 52%,rgba(255,214,0,.62) 92%,transparent 92%);padding:0 3px}
+.st-paper hr{height:0;border-top:2px dashed var(--pp-ink2);background:none;opacity:.6}
+.st-paper .sub,.st-paper .bar{font-family:var(--font-hand)}
+.st-paper code{background:rgba(255,214,0,.35)}
+
+/* 風格說明 */
+.style-note{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:var(--sp-3);margin:var(--sp-3) 0 var(--sp-4);font-size:var(--fs-sm)}
+.style-note > div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-md);padding:var(--sp-3)}
+.style-note b{display:block;margin-bottom:4px}
+.style-note .y b{color:var(--success)} .style-note .n b{color:var(--danger)}
+.styhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--sp-2) var(--sp-4);margin-top:var(--sp-6)}
+.sw-switch{display:inline-flex;gap:4px;background:var(--sunken);padding:4px;border-radius:var(--r-pill);flex-wrap:wrap;margin-bottom:var(--sp-4)}
+.sw-switch button{font:700 var(--fs-sm) var(--font-ui);border:0;background:transparent;color:var(--ink2);padding:8px 16px;border-radius:var(--r-pill);cursor:pointer;min-height:40px}
+.sw-switch button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+/* 隊伍版型 */
+.team{display:grid;gap:var(--sp-5)}
+.brief{display:grid;gap:var(--sp-3)}
+.brief .blocks{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.brief .blocks i{display:flex;align-items:center;justify-content:center;height:64px;border-radius:8px;font:700 var(--fs-xs) var(--font-mono);color:rgba(255,255,255,.95)}
+.mons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:var(--sp-4)}
+.mon .top{display:flex;gap:var(--sp-3);align-items:center;margin-bottom:var(--sp-2)}
+.mon .ph{width:64px;height:64px;border-radius:12px;flex:none;display:flex;align-items:center;justify-content:center;font:700 var(--fs-lg) var(--font-mono);color:rgba(255,255,255,.95)}
+.mon .moves{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:var(--sp-2) 0}
+.mon .mv{display:flex;align-items:center;gap:6px;font-size:var(--fs-sm);min-width:0}
+.mon .mv i{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 0 1.5px rgba(0,0,0,.35)}
+.mon .stats{display:grid;gap:4px}
+.analysis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:var(--sp-4)}
+.analysis ul{margin:0;padding-left:1.2em}
+.score{display:grid;gap:6px}
+.score .r{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:var(--fs-sm)}
+
+/* a11y 區 */
+.motion-demo{display:inline-block;padding:8px 14px;border-radius:var(--r-md);background:var(--primary);color:var(--on-primary);animation:bob 1.6s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+@media (max-width:560px){
+  :root{--fs-2xl:1.75rem;--fs-xl:1.4rem}
+  .sty{padding:var(--sp-3)}
+  .brief .blocks{gap:4px}
+  .c-tip .bubble{left:0;transform:none}
+  .st-paper .c-tip .bubble{transform:rotate(1.5deg)}
+}
+</style>
+</head>
+<body>
+<div class="notice"><div class="wrap">
+  <span><b>這是 design system 預覽，尚未套用到網站。</b></span>
+  <span>比較請用上方分頁切換。</span>
+</div></div>
+
+<nav class="toc" aria-label="頁內導覽"><div class="wrap">
+  <a href="#bg">1 底色</a><a href="#primary">2 Primary</a><a href="#tokens">3 Tokens</a><a href="#types">4 屬性色</a><a href="#styles">5 元件風格</a><a href="#team">6 隊伍頁</a><a href="#a11y">7 無障礙</a>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">IChooseYou26 · design system v2 · light</div>
+  <h1>再生紙米色<span>Design System v2</span></h1>
+  <p class="lead">再生紙的淺米色底，略灰、不偏黃橘；primary 以色彩學與 a11y 檢驗後選定。三種元件風格：fluid glass、石板、手寫紙。</p>
+</div></header>
+
+<main class="wrap">
+
+<section class="blk" id="bg">
+  <div class="eyebrow">01 · 底色與色彩理論</div>
+  <h2>底色：三個明度候選</h2>
+  <p class="lead">再生紙的米色特徵是「偏灰的暖色」：色相約 92°（黃偏綠一點點的米），彩度低（C* 約 5–8）。太黃或太橘會像牛皮紙或泛黃舊報紙；太白則失去紙感。明度 L* 控制在 89–96。</p>
+  <div class="grid g-3" id="bgCands"></div>
+  <div class="callout"><h4>推薦與原因</h4><p>推薦 <b>P2 #F0EBE0</b>（L* 93.2、C* 5.9）。理由：</p><ul><li>P1（L* 95.9）是奶油白，和 surface 幾乎一樣亮，紙感與層次都薄。</li><li>P3（L* 89.3、C* 8.1）彩度已高出 P2 約 40%，大面積使用就是牛皮紙／泛黃感，你說要避免的「髒黃橘」；同時三級文字 <code>#6A6254</code> 在 P3 只有 4.57:1，幾乎壓線。</li><li>P2 的色相 92° 偏黃綠而非橘（橘約 60–70°），所以是「灰米」而非「奶茶／杏色」，更像未漂白的再生紙。</li></ul></div>
+
+  <h3 style="margin-top:32px">中性色階</h3>
+  <p class="muted small">色階的色相與底色同族（微量染色），避免「灰得髒」。每格顯示對推薦底色的對比值。</p>
+  <div class="scale" id="neutrals"></div>
+
+  <h3 style="margin-top:32px">表面層級</h3>
+  <p class="muted small">四層由低到高：page → surface → raised → overlay，另有 sunken 作凹陷區。亮度逐層往白靠近，陰影逐層加深；不靠色相切換層級。</p>
+  <div class="levels" id="levels"></div>
+</section>
+
+<section class="blk" id="primary">
+  <div class="eyebrow">02 · Primary 候選比較</div>
+  <h2>Primary 色：用對比、色相關係與色盲模擬檢驗</h2>
+  <p class="lead">所有數字由本頁 JS 即時計算：WCAG 2.x 相對亮度對比（文字 ≥ 4.5:1，大字與 UI ≥ 3:1）；色盲模擬使用 Machado et al. (2009) 嚴重度 1.0 的矩陣（線性 RGB 空間），距離用 CIE Lab 的 ΔE76（≥30 清楚、15–30 需文字或圖示輔助、&lt;15 易混淆；此門檻為經驗值）。</p>
+  <div class="grid g-wide" id="cands" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))"></div>
+  <div class="callout"><h4>推薦與理由</h4><p>推薦 <b>P1 寶可夢靛藍 #2D45B8</b>，搭配 <b>皮卡丘黃 #F5B800</b> 作暖色點綴（手寫紙風格的螢光筆、膠帶用）。</p><ul><li><b>對比</b>：白字 7.91:1、文字色對底 6.65:1、UI 邊框 6.65:1，是四個候選中餘裕最大的。</li><li><b>色盲</b>：紅綠色盲模擬下與底色 ΔE 86+，與最近語意色（info）ΔE 38，仍清楚。藍色與米色分處藍／黃軸兩端，色盲看起來仍是「冷」對「暖」。</li><li><b>辨識度</b>：靛藍就是寶可夢（紅藍版）的藍，品牌連結強；也不與 danger／warn／success 撞色。</li><li><b>備選</b>：P3 靛紫（5.72／6.52:1，ΔE 37）同樣通過，若要延續第一版的紫色，在米色底上完全可行，只是與藍相比少了與底色的互補張力。</li></ul></div>
+  <div class="callout warn"><h4>回答你的假設：「暖底配冷色／冷底配暖色」</h4><p><b>結論：在再生紙米色上「成立」，且有 a11y 以外的支持。</b></p><ul><li><b>色彩學</b>：底色色相 92°（黃綠米），互補約在 272° 附近（藍紫）。P1 靛藍 230°、P3 紫 251° 都落在互補帶，最「對比」且穩；對比越清楚，文字色對底的明度差也越好控制。</li><li><b>a11y</b>：同樣只看明度，所以暖色（P4 磚橘 4.68:1）也能過關；但 P4 與米色同屬暖區（類比），視覺上較「糊」成一片，且在紅綠色盲下與 warn ΔE 僅 1–6、與 danger 正常視覺下 ΔE 15，會與警告色混。</li><li><b>例外</b>：<b>並非所有冷色都好用</b>：P2 深青（hue 187°）雖是冷色且通過對比，但與我們的 info 語意色（青藍）在色盲模擬下 ΔE 只有 14，容易混淆；若選青色就得把 info 改成別的色相。結論：要選「藍到紫」這段，而不是「青到綠」。</li></ul></div>
+</section>
+
+<section class="blk" id="tokens">
+  <div class="eyebrow">03 · Design tokens（推薦組合）</div>
+  <h2>Tokens</h2>
+  <p class="lead">點任一格複製 CSS 變數（<code>var(--名稱)</code>）。數值為頁面實際計算結果；深色版只需覆寫同名變數。</p>
+  <h3>品牌與語意色</h3>
+  <div class="grid g-auto" id="tkBrand"></div>
+  <h3 style="margin-top:28px">文字色（含對比值）</h3>
+  <div class="grid g-auto" id="tkText"></div>
+  <h3 style="margin-top:28px">邊框、表面</h3>
+  <div class="grid g-auto" id="tkLine"></div>
+  <h3 style="margin-top:28px">陰影 / 圓角</h3>
+  <div class="grid g-auto" id="tkShape"></div>
+  <h3 style="margin-top:28px">間距 / 字級</h3>
+  <div class="grid g-wide">
+    <div class="demo-box" id="tkSpace"></div>
+    <div class="demo-box" id="tkFont"></div>
+  </div>
+</section>
+
+<section class="blk" id="types">
+  <div class="eyebrow">04 · 18 種屬性色可讀性</div>
+  <h2>屬性色在這個底色上的表現</h2>
+  <p class="lead">資料來源 <code>assets/types/colors.json</code>（52poke 屬性標籤色）。每種屬性評估兩種做法：<b>實心標籤</b>（底色＝屬性色，文字自動取白或墨色中對比較高者）與<b>描邊淡底標籤</b>（淡底＋屬性色邊框，文字由屬性色加深到 ≥ 4.5:1）。<span id="srcNote" class="muted small"></span></p>
+  <div class="grid g-auto" id="typeGrid"></div>
+  <div class="callout" id="typeRule"></div>
+</section>
+
+<section class="blk" id="styles">
+  <div class="eyebrow">05 · 元件風格</div>
+  <h2>三種元件風格，同一組元件</h2>
+  <p class="lead">卡片、主要／次要按鈕、tag／chip、輸入框／下拉、分頁籤、Reg Set 徽章、評分條、tooltip。互動元件可實際點擊／聚焦／hover。</p>
+
+  <div class="styhead"><h3>風格 1 · Fluid glass（淺色）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>首頁 hero、浮動工具列、對話框、篩選抽屜等「疊在內容或背景之上」的層；強調輕盈與現代感。</div>
+    <div class="n"><b>不適合</b>大量文字的資料表、長篇分析（半透明底會讓對比隨背景浮動）；低階裝置 blur 耗效能；不支援 backdrop-filter 時退為不透明（已實作 @supports 退路）。Apple HIG 對 Liquid Glass 的提醒同樣是：材質應用在導覽／控制層，內容層保持可讀。</div>
+  </div>
+  <div class="sty st-glass" id="sGlass"></div>
+
+  <div class="styhead"><h3>風格 2 · 石板（slate / stone）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>「戰術板」感的區塊：隊伍分析、對戰要點、成就／排行榜；與寶可夢對戰「擺陣」的主題契合，亮色屬性標籤在深石面上特別醒目。</div>
+    <div class="n"><b>不適合</b>全站大面積使用（在淺色主題裡會變成一塊塊深色島嶼，視覺很重）；粉筆黃用在小字時要確認對比；噪點紋理在高對比螢幕上可能偏粗。</div>
+  </div>
+  <div class="sty st-slate" id="sSlate"></div>
+
+  <div class="styhead"><h3>風格 3 · 手寫紙（筆記本）</h3></div>
+  <div class="style-note">
+    <div class="y"><b>適合</b>玩家筆記、對戰心得、隊伍「備忘」區；親切、有個人頻道風格，與影片頻道的「教學筆記」調性相近。</div>
+    <div class="n"><b>不適合</b>密集數據（手寫字體小字閱讀性差、橫線會干擾表格）；整頁使用易顯得幼稚；字體需載入 Iansui（約數 MB 的中文字型，已用 Google Fonts 分段載入，仍需 font-display:swap 與系統楷體退路）。</div>
+  </div>
+  <div class="sty st-paper" id="sPaper"></div>
+</section>
+
+<section class="blk" id="team">
+  <div class="eyebrow">06 · 隊伍頁真實版型示範</div>
+  <h2>隊伍 brief／detail／分析</h2>
+  <p class="lead">只用靜態假資料；寶可夢圖以色塊佔位。切換風格比較同一份版型（網址加 <code>#style=slate</code> 或 <code>#style=paper</code> 可直接開啟）。屬性圖示讀自 <code>assets/types/icons/symbol/</code>。</p>
+  <div class="sw-switch" role="group" aria-label="風格切換">
+    <button type="button" data-st="glass" aria-pressed="true">Fluid glass</button>
+    <button type="button" data-st="slate" aria-pressed="false">石板</button>
+    <button type="button" data-st="paper" aria-pressed="false">手寫紙</button>
+  </div>
+  <div class="sty st-glass" id="teamDemo"></div>
+</section>
+
+<section class="blk" id="a11y">
+  <div class="eyebrow">07 · 無障礙檢查</div>
+  <h2>對比表、焦點、減少動態</h2>
+  <div class="tscroll"><table id="a11yTable"><thead><tr><th>項目</th><th>前景</th><th>背景</th><th>對比</th><th>門檻</th><th>結果</th></tr></thead><tbody></tbody></table></div>
+  <div class="grid g-wide" style="margin-top:24px">
+    <div class="panel"><h4>焦點樣式</h4>
+      <p class="small muted">用 Tab 鍵移動；焦點環＝2px 底色間隔 + 2px primary 外環（<code>--focus</code>），對底色對比見上表。</p>
+      <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="cbtn" style="background:var(--primary);color:var(--on-primary);border-color:var(--primary)">按鈕</button><a href="#a11y">連結</a><input aria-label="輸入框範例" placeholder="輸入框" style="padding:10px;border:1.5px solid var(--line-strong);border-radius:8px;background:var(--raised);color:var(--ink);font:inherit;min-width:0;max-width:100%"></div>
+    </div>
+    <div class="panel"><h4>減少動態（prefers-reduced-motion）</h4>
+      <p class="small muted">偵測到的系統設定：<b id="rmState">—</b>。設為「減少動態」時，所有動畫與過渡會被關閉（下方方塊停止浮動）。</p>
+      <span class="motion-demo">會浮動的方塊</span>
+    </div>
+    <div class="panel"><h4>其他規則</h4>
+      <ul class="small" style="margin:0;padding-left:1.2em">
+        <li>屬性、狀態不只靠顏色：一律搭配圖示或文字。</li>
+        <li>觸控目標 ≥ 44px（按鈕、輸入、分頁籤皆有 min-height）。</li>
+        <li>手機 375px 不橫向捲動：表格容器內捲動、格線用 <code>minmax(min(100%,…))</code>。</li>
+      </ul>
+    </div>
+  </div>
+  <p class="muted small" style="margin-top:32px">參考：WCAG 2.x 對比公式、Material Design 3 的表面層級與 tonal 色彩概念、Apple HIG Materials／Liquid Glass 的可讀性建議、Machado et al. 2009 色盲模擬。以上為依既有知識整理，頁面建置時未即時抓取外部網站；視覺靈感站（Dribbble 等）僅作方向參考。字型：Noto Sans TC（內文）、Iansui（手寫，Google Fonts 提供繁體中文）。</p>
+</section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const CFG = {"bgCandidates":[{"hex":"#F7F3EA","name":"P1 · 很淺的奶油","note":"偏奶油白、接近 surface，紙感弱，層級不易分。"},{"hex":"#F0EBE0","name":"P2 · 再生紙","rec":true,"note":"灰調的米色，像未漂白再生紙；L* 與色彩飽和度剛好。"},{"hex":"#E6E0D1","name":"P3 · 偏牛皮","note":"已經往牛皮紙／泛黃走，大面積使用會顯髒，深色文字空間也變小。"}],"neutralNames":["n-50","n-100","n-200","n-300","n-400","n-500","n-600","n-700","n-800","n-900"],"neutrals":["#FCFAF5","#F7F4EC","#F0EBE0","#E2DCCD","#C9C2B0","#857D6E","#6A6254","#4E483D","#342F27","#26221C"],"primaries":[{"id":"indigo","name":"P1 · 寶可夢靛藍（冷色互補）","hex":"#2D45B8","rel":"與暖米色為互補／對比","rec":true,"note":""},{"id":"teal","name":"P2 · 深青（冷色）","hex":"#0E6672","rel":"與暖米色為對比（偏綠藍）","note":""},{"id":"purple","name":"P3 · 靛紫（維持紫色）","hex":"#5B44C6","rel":"冷色，與暖米色為對比","note":""},{"id":"orange","name":"P4 · 磚橘（暖色類比）","hex":"#B8400C","rel":"與暖米色為類比","note":""}]};
+const TYPES_FALLBACK = [{"id":"normal","name_zh_hant":"一般","color":"#9fa19f","icon_symbol":"icons/symbol/normal.png"},{"id":"fighting","name_zh_hant":"格鬥","color":"#ff8000","icon_symbol":"icons/symbol/fighting.png"},{"id":"flying","name_zh_hant":"飛行","color":"#81b9ef","icon_symbol":"icons/symbol/flying.png"},{"id":"poison","name_zh_hant":"毒","color":"#9141cb","icon_symbol":"icons/symbol/poison.png"},{"id":"ground","name_zh_hant":"地面","color":"#915121","icon_symbol":"icons/symbol/ground.png"},{"id":"rock","name_zh_hant":"岩石","color":"#afa981","icon_symbol":"icons/symbol/rock.png"},{"id":"bug","name_zh_hant":"蟲","color":"#91a119","icon_symbol":"icons/symbol/bug.png"},{"id":"ghost","name_zh_hant":"幽靈","color":"#704170","icon_symbol":"icons/symbol/ghost.png"},{"id":"steel","name_zh_hant":"鋼","color":"#60a1b8","icon_symbol":"icons/symbol/steel.png"},{"id":"fire","name_zh_hant":"火","color":"#e62829","icon_symbol":"icons/symbol/fire.png"},{"id":"water","name_zh_hant":"水","color":"#2980ef","icon_symbol":"icons/symbol/water.png"},{"id":"grass","name_zh_hant":"草","color":"#3fa129","icon_symbol":"icons/symbol/grass.png"},{"id":"electric","name_zh_hant":"電","color":"#fac000","icon_symbol":"icons/symbol/electric.png"},{"id":"psychic","name_zh_hant":"超能力","color":"#ef4179","icon_symbol":"icons/symbol/psychic.png"},{"id":"ice","name_zh_hant":"冰","color":"#3fd8ff","icon_symbol":"icons/symbol/ice.png"},{"id":"dragon","name_zh_hant":"龍","color":"#5060e1","icon_symbol":"icons/symbol/dragon.png"},{"id":"dark","name_zh_hant":"惡","color":"#50413f","icon_symbol":"icons/symbol/dark.png"},{"id":"fairy","name_zh_hant":"妖精","color":"#ef70ef","icon_symbol":"icons/symbol/fairy.png"}];
+
+/* ---------- 色彩工具 ---------- */
+const nx = h => { h=h.trim(); if(h.length===4) h='#'+[1,2,3].map(i=>h[i]+h[i]).join(''); return h.toUpperCase(); };
+const h2r = h => { h=nx(h); return [1,3,5].map(i=>parseInt(h.slice(i,i+2),16)); };
+const r2h = a => '#'+a.map(v=>Math.max(0,Math.min(255,Math.round(v))).toString(16).padStart(2,'0')).join('').toUpperCase();
+const lin = c => { c/=255; return c<=.04045 ? c/12.92 : Math.pow((c+.055)/1.055,2.4); };
+const unlin = v => 255*(v<=.0031308 ? v*12.92 : 1.055*Math.pow(v,1/2.4)-.055);
+const lum = h => { const [r,g,b]=h2r(h).map(lin); return .2126*r+.7152*g+.0722*b; };
+const cr = (a,b) => { const x=lum(a), y=lum(b); return (Math.max(x,y)+.05)/(Math.min(x,y)+.05); };
+const lab = h => { const [r,g,b]=h2r(h).map(lin);
+  let X=(.4124564*r+.3575761*g+.1804375*b)/.95047, Y=.2126729*r+.7151522*g+.0721750*b, Z=(.0193339*r+.1191920*g+.9503041*b)/1.08883;
+  const f=t=>t>216/24389?Math.cbrt(t):(24389/27*t+16)/116; const fx=f(X),fy=f(Y),fz=f(Z);
+  return [116*fy-16,500*(fx-fy),200*(fy-fz)]; };
+const dE = (a,b) => { const p=lab(a), q=lab(b); return Math.hypot(p[0]-q[0],p[1]-q[1],p[2]-q[2]); };
+const hue = h => { const [r,g,b]=h2r(h).map(v=>v/255); const mx=Math.max(r,g,b), mn=Math.min(r,g,b), d=mx-mn; if(!d) return 0;
+  let H = mx===r ? ((g-b)/d)%6 : mx===g ? (b-r)/d+2 : (r-g)/d+4; H*=60; return (H+360)%360; };
+const mix = (a,b,t) => { const p=h2r(a), q=h2r(b); return r2h(p.map((v,i)=>v+(q[i]-v)*t)); };
+const MAT = {
+  protan:[[.152286,1.052583,-.204868],[.114503,.786281,.099216],[-.003882,-.048116,1.051998]],
+  deutan:[[.367322,.860646,-.227968],[.280085,.672501,.047413],[-.011820,.042940,.968881]],
+  tritan:[[1.255528,-.076749,-.178779],[-.078411,.930809,.147602],[.004733,.691367,.303900]]
+};
+const sim = (h,k) => { if(k==='normal') return nx(h); const v=h2r(h).map(lin), m=MAT[k];
+  return r2h(m.map(row=>unlin(Math.max(0,Math.min(1,row[0]*v[0]+row[1]*v[1]+row[2]*v[2]))))); };
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = n => n.toFixed(2)+':1';
+const badge = (ok,txt) => `<span class="pill ${ok?'ok':'no'}">${txt||(ok?'通過':'不及格')}</span>`;
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const $ = s => document.querySelector(s);
+const BG = () => nx(css('--bg'));
+
+/* ---------- 1. 底色 ---------- */
+(function(){
+  const box=$('#bgCands'), ink=nx(css('--ink'));
+  box.innerHTML = CFG.bgCandidates.map(c=>{
+    const L=lab(c.hex), chroma=Math.hypot(L[1],L[2]), hh=(Math.atan2(L[2],L[1])*180/Math.PI+360)%360;
+    return `<div class="sw ${c.rec?'rec':''}"><div class="chip-c" style="background:${c.hex};color:${ink}">${c.hex}</div>
+    <div class="meta"><b>${esc(c.name)}</b> ${c.rec?'<span class="pill rec">推薦</span>':''}
+    <div class="nums">L* ${L[0].toFixed(1)} · 彩度 C* ${chroma.toFixed(1)} · 色相 ${hh.toFixed(0)}°<br>墨字對比 ${fmt(cr(ink,c.hex))} · 次要字對比 ${fmt(cr(nx(css('--ink2')),c.hex))}</div>
+    <div class="small muted" style="margin-top:6px">${c.note}</div></div></div>`;}).join('');
+  const names=CFG.neutralNames, bg=BG();
+  $('#neutrals').innerHTML = CFG.neutrals.map((h,i)=>{ const tx = cr(h,'#000000')>cr(h,'#FFFFFF')?'#000000':'#FFFFFF';
+    return `<div class="st" style="background:${h};color:${tx}"><b>${names[i]}</b><span>${h}<br>對底 ${cr(h,bg).toFixed(2)}</span></div>`;}).join('');
+  const lv=[['page','--bg','底層頁面','--sh-1'],['surface','--surface','一般卡片','--sh-1'],['raised','--raised','抬起／hover 卡片','--sh-2'],['overlay','--overlay','選單、對話框','--sh-3'],['sunken','--sunken','輸入底、凹陷區','none']];
+  $('#levels').innerHTML = lv.map(l=>`<div class="lv" style="background:var(${l[1]});box-shadow:var(${l[3]},none);border:1px solid var(--line)"><b>${l[0]}</b>${nx(css(l[1]))}<br>${l[2]}</div>`).join('');
+})();
+
+/* ---------- 2. Primary 候選 ---------- */
+(function(){
+  const bg=BG(), raised=nx(css('--raised')), W='#FFFFFF';
+  const sem=[['danger',nx(css('--danger'))],['success',nx(css('--success'))],['warn',nx(css('--warn'))],['info',nx(css('--info'))]];
+  const bgH=hue(bg), sims=[['normal','正常'],['protan','P 型（紅色盲）'],['deutan','D 型（綠色盲）']];
+  window.CAND_RESULT={};
+  $('#cands').innerHTML = CFG.primaries.map(p=>{
+    const c=nx(p.hex), dh=Math.abs(hue(c)-bgH), hd=Math.min(dh,360-dh);
+    const wOn=cr(W,c), tx=cr(c,bg), txR=cr(c,raised), ui=cr(c,bg);
+    const rows = sims.map(([k,label])=>{
+      const sc=sim(c,k), sb=sim(bg,k), ss=sem.map(([n,h])=>[n,sim(h,k)]);
+      const dbg=dE(sc,sb); let near=ss.map(([n,h])=>[n,dE(sc,h)]).sort((a,b)=>a[1]-b[1])[0];
+      const lvl=v=>v>=30?'ok':v>=15?'mid':'no';
+      const t=v=>v>=30?'清楚':v>=15?'需輔助':'易混淆';
+      (window.CAND_RESULT[p.id]=window.CAND_RESULT[p.id]||{})[k]={dbg,near};
+      return `<div class="r"><span>${label}</span><div><div class="strip" title="底色／候選／danger／success／warn／info（模擬後）"><i style="background:${sb}"></i><i style="background:${sc}"></i>${ss.map(s=>`<i style="background:${s[1]}"></i>`).join('')}</div>
+      <div class="nums">對底 ΔE ${dbg.toFixed(0)} <span class="pill ${lvl(dbg)}">${t(dbg)}</span> · 最近語意色 ${near[0]} ΔE ${near[1].toFixed(0)} <span class="pill ${lvl(near[1])}">${t(near[1])}</span></div></div></div>`;}).join('');
+    const relNote = `${p.rel}（與底色色相差 ${hd.toFixed(0)}°）`;
+    return `<div class="panel cand ${p.rec?'rec':''}">
+      <div><b>${esc(p.name)}</b> ${p.rec?'<span class="pill rec">推薦</span>':''}<div class="nums">${c} · hue ${hue(c).toFixed(0)}°<br>${relNote}</div></div>
+      <div class="btns"><button class="cbtn" style="background:${c};color:#fff;border-color:${c}">主要按鈕</button>
+        <button class="cbtn" style="background:transparent;color:${c};border-color:${c}">次要</button></div>
+      <div><span style="color:${c};font-weight:700">文字色範例：Reg Set 隊伍分析</span><br>
+        <span style="display:inline-block;margin-top:6px;border:2px solid ${c};border-radius:8px;padding:4px 10px;background:var(--raised);font-size:var(--fs-sm)">UI 邊框範例</span></div>
+      <div class="metrics">
+        <div class="row"><span>按鈕：白字 on 候選（≥4.5）</span><span>${fmt(wOn)} ${badge(wOn>=4.5)}</span></div>
+        <div class="row"><span>文字：候選 on 底色（≥4.5）</span><span>${fmt(tx)} ${badge(tx>=4.5)}</span></div>
+        <div class="row"><span>文字：候選 on 卡片 raised</span><span>${fmt(txR)} ${badge(txR>=4.5)}</span></div>
+        <div class="row"><span>UI 邊框：候選 vs 底色（≥3）</span><span>${fmt(ui)} ${badge(ui>=3)}</span></div>
+      </div>
+      <div class="cvd"><b>色盲模擬（色條：底／候選／danger／success／warn／info）</b>${rows}</div>
+      <div class="small muted">${p.note}</div></div>`;}).join('');
+})();
+
+/* ---------- 3. Tokens ---------- */
+(function(){
+  const toast=$('#toast'); let tm;
+  function copy(name){ const txt='var(--'+name+')';
+    const done=()=>{ toast.textContent='已複製 '+txt; toast.classList.add('on'); clearTimeout(tm); tm=setTimeout(()=>toast.classList.remove('on'),1600); };
+    if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(txt).then(done,()=>fallback()); } else fallback();
+    function fallback(){ const t=document.createElement('textarea'); t.value=txt; t.style.position='fixed'; t.style.opacity='0'; document.body.appendChild(t); t.select(); try{document.execCommand('copy')}catch(e){} t.remove(); done(); } }
+  document.addEventListener('click',e=>{ const b=e.target.closest('[data-copy]'); if(b) copy(b.dataset.copy); });
+  const bg=BG(), surf=nx(css('--surface'));
+  const tk=(n,note)=>{ const v=css('--'+n); return `<button type="button" class="tk" data-copy="${n}" aria-label="複製 var(--${n})"><div class="tc" style="background:var(--${n})"></div><div class="tt"><b>--${n}</b>${esc(v)}${note?'<br>'+note:''}</div></button>`; };
+  const brand=['primary','primary-hover','on-primary','primary-soft','primary-text','accent','on-accent','accent-text','success','warn','danger','info'];
+  const noteB={ 'primary':`白字 ${fmt(cr('#FFFFFF',nx(css('--primary'))))}`, 'primary-hover':`白字 ${fmt(cr('#FFFFFF',nx(css('--primary-hover'))))}`,
+    'primary-text':`對底 ${fmt(cr(nx(css('--primary-text')),bg))}`, 'accent':`墨字 ${fmt(cr(nx(css('--on-accent')),nx(css('--accent'))))}`,
+    'accent-text':`對底 ${fmt(cr(nx(css('--accent-text')),bg))}`,
+    'success':`對底 ${fmt(cr(nx(css('--success')),bg))}`,'warn':`對底 ${fmt(cr(nx(css('--warn')),bg))}`,'danger':`對底 ${fmt(cr(nx(css('--danger')),bg))}`,'info':`對底 ${fmt(cr(nx(css('--info')),bg))}` };
+  $('#tkBrand').innerHTML = brand.map(n=>tk(n,noteB[n])).join('');
+  $('#tkText').innerHTML = ['ink','ink2','ink3'].map(n=>{ const h=nx(css('--'+n)); return tk(n,`對底 ${fmt(cr(h,bg))} · 對卡片 ${fmt(cr(h,surf))}`); }).join('');
+  $('#tkLine').innerHTML = ['bg','surface','raised','overlay','sunken','line','line-strong'].map(n=>tk(n, n==='line-strong'?`對底 ${fmt(cr(nx(css('--line-strong')),bg))}（UI ≥3）`:'')).join('');
+  $('#tkShape').innerHTML = ['sh-1','sh-2','sh-3'].map(n=>`<button type="button" class="tk" data-copy="${n}"><div class="tc" style="height:64px;display:flex;align-items:center;justify-content:center;border:0"><div style="width:60%;height:34px;background:var(--raised);border-radius:8px;box-shadow:var(--${n})"></div></div><div class="tt"><b>--${n}</b></div></button>`).join('')
+    + ['r-sm','r-md','r-lg','r-pill'].map(n=>`<button type="button" class="tk" data-copy="${n}"><div class="tc" style="height:64px;display:flex;align-items:center;justify-content:center;border:0"><div style="width:60%;height:34px;background:var(--primary);border-radius:var(--${n})"></div></div><div class="tt"><b>--${n}</b>${css('--'+n)}</div></button>`).join('');
+  $('#tkSpace').innerHTML = '<b>間距（4px 基準）</b>'+[1,2,3,4,5,6,7].map(i=>`<div class="spacer"><span style="width:6em">--sp-${i}</span><i style="width:var(--sp-${i})"></i><span>${css('--sp-'+i)}</span></div>`).join('');
+  $('#tkFont').innerHTML = '<b>字級</b>'+['xs','sm','md','lg','xl','2xl'].map(n=>`<div style="display:flex;gap:10px;align-items:baseline;flex-wrap:wrap"><button type="button" data-copy="fs-${n}" class="tk" style="width:auto;padding:2px 8px;font:var(--fs-xs) var(--font-mono)">--fs-${n} ${css('--fs-'+n)}</button><span style="font-size:var(--fs-${n})">寶可夢雙打對戰</span></div>`).join('');
+})();
+
+/* ---------- 4. 屬性色 ---------- */
+let TYPES=null;
+function typeTagHTML(t, mode){
+  const c=nx(t.color), ink=nx(css('--ink')), raised=nx(css('--raised')); const ico=`<img src="assets/types/${t.icon_symbol}" alt="" onerror="this.remove()">`;
+  if(mode==='solid'){ const tx = cr('#FFFFFF',c)>=cr(ink,c)?'#FFFFFF':ink; return `<span class="tg tg-solid" style="background:${c};color:${tx};border-color:${c}">${ico}${esc(t.name_zh_hant)}</span>`; }
+  const bgs=mix(c,raised,.84); let tx=c, k=0; while(cr(tx,bgs)<4.5 && k<20){ k++; tx=mix(c,'#000000',k*.05); }
+  return `<span class="tg tg-soft" style="background:${bgs};color:${tx};border-color:${c}">${ico}${esc(t.name_zh_hant)}</span>`;
+}
+function renderTypes(){
+  const ink=nx(css('--ink')), raised=nx(css('--raised')), bg=BG(); let fails=[], softDark=[];
+  $('#typeGrid').innerHTML = TYPES.map(t=>{
+    const c=nx(t.color), w=cr('#FFFFFF',c), k=cr(ink,c), best=Math.max(w,k), ok=best>=4.5;
+    const bgs=mix(c,raised,.84); let tx=c, n=0; while(cr(tx,bgs)<4.5 && n<20){ n++; tx=mix(c,'#000000',n*.05); }
+    const sr=cr(tx,bgs), bd=cr(c,bg);
+    if(!ok) fails.push(t); if(n>0) softDark.push(t);
+    return `<div class="ty ${ok?'':'fail'}"><div class="hd"><img src="assets/types/${t.icon_symbol}" alt="" onerror="this.remove()">${esc(t.name_zh_hant)} <span class="nums">${c}</span></div>
+      <div>${typeTagHTML(t,'solid')} ${typeTagHTML(t,'soft')}</div>
+      <div class="nums"><div>實心：白 ${fmt(w)}／墨 ${fmt(k)} ${badge(ok,ok?'通過':'不及格')}</div>
+      <div>描邊淡底：文字 ${fmt(sr)}${n?`（加深 ${n*5}%）`:''} ${badge(sr>=4.5)}</div><div>屬性色邊框對底 ${fmt(bd)} ${bd>=3?'':'<span class="pill mid">邊框偏淡，靠圖示+文字補</span>'}</div></div></div>`; }).join('');
+  window.TYPE_STATS={fails,softDark,total:TYPES.length};
+  const failNames=fails.map(t=>t.name_zh_hant).join('、')||'無';
+  const darkNames=softDark.map(t=>t.name_zh_hant).join('、')||'無';
+  $('#typeRule').innerHTML = `<h4>統一規則</h4><ul>
+   <li><b>實心標籤</b>：文字色由程式在白／墨色擇對比較高者（不要一律白字）。本底色下有 <b>${fails.length}</b> 種連最佳選擇都未達 4.5:1：<b>${failNames}</b>。</li>
+   <li><b>修正</b>：這些屬性改用「描邊淡底標籤」（淡底＝屬性色 16% 混 raised，邊框＝屬性色，文字＝屬性色向黑加深至 ≥4.5:1）；或統一全站都用描邊淡底，視覺最一致。需要加深文字的屬性共 <b>${softDark.length}</b> 種：${darkNames}。</li>
+   <li><b>永遠搭配圖示＋文字</b>，不讓顏色獨自傳遞屬性資訊（色盲、列印、截圖壓縮都安全）。標籤字級 ≥ 14px、粗體。</li>
+   <li><b>色點</b>（招式前的小圓點）屬純裝飾，旁邊一律有文字，只需外圈 1.5px 深色描邊讓淺色（電、冰…）在淺底上看得見。</li></ul>`;
+}
+fetch('assets/types/colors.json').then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(j=>{ TYPES=j.types; $('#srcNote').textContent='（已由 fetch 讀取 assets/types/colors.json）'; })
+ .catch(()=>{ TYPES=TYPES_FALLBACK; $('#srcNote').textContent='（fetch 失敗，例如 file:// 開啟：改用頁內嵌入的相同資料）'; })
+ .then(()=>{ renderTypes(); initStyles(); renderA11y(); });
+
+/* ---------- 5/6. 元件風格與隊伍頁 ---------- */
+function componentSet(id){
+  const T=id; 
+  return `<div class="stack">
+  <div class="grid g-wide">
+    <div class="c-card"><h4><span class="hl">卡片 Card</span></h4><p class="sub">標題、說明與動作。卡片是最基本的容器，三種風格的差別主要在這裡。</p>
+      <div class="row"><button class="c-btn is-primary" type="button">主要按鈕</button><button class="c-btn is-secondary" type="button">次要按鈕</button></div></div>
+    <div class="c-card"><h4>輸入框／下拉</h4>
+      <div class="stack" style="gap:10px"><label class="sub" for="${T}-i">隊伍名稱</label><input class="c-field" id="${T}-i" placeholder="例如：晴天攻擊隊">
+      <label class="sub" for="${T}-s">規則</label><select class="c-field" id="${T}-s"><option>Reg Set M-A</option><option>Reg Set M-B</option></select></div></div>
+  </div>
+  <div class="grid g-wide">
+    <div class="c-card"><h4>Tag / Chip（可切換）</h4><div class="row">
+      <button class="c-chip is-on" type="button" aria-pressed="true">晴天</button><button class="c-chip" type="button" aria-pressed="false">雨天</button><button class="c-chip" type="button" aria-pressed="false">順風</button><button class="c-chip" type="button" aria-pressed="false">戲法空間</button></div>
+      <hr><div class="row">${TYPES.slice(9,13).map(t=>typeTagHTML(t,'solid')).join('')}</div></div>
+    <div class="c-card"><h4>分頁籤 Tabs</h4>
+      <div class="c-tabs" role="tablist"><button role="tab" aria-selected="true" type="button">概覽</button><button role="tab" aria-selected="false" type="button">寶可夢</button><button role="tab" aria-selected="false" type="button">分析</button></div>
+      <p class="sub" style="margin-top:12px">點擊切換（本頁僅切換選取狀態）。</p></div>
+  </div>
+  <div class="grid g-wide">
+    <div class="c-card"><h4>徽章 Badge（Reg Set）</h4><div class="row"><span class="c-badge"><b>REG</b> Set M-A</span><span class="c-badge"><b>CH</b> Champions</span></div>
+      <hr><h4>評分條</h4><div class="score" style="display:grid;gap:6px">
+      <div class="row" style="justify-content:space-between;flex-wrap:nowrap"><span>上手難度</span><span class="c-meter" role="img" aria-label="3 分（滿分 5）">${'<i class="on"></i>'.repeat(3)+'<i></i>'.repeat(2)}</span></div>
+      <div class="row" style="justify-content:space-between;flex-wrap:nowrap"><span>穩定性</span><span class="c-meter" role="img" aria-label="4 分（滿分 5）">${'<i class="on"></i>'.repeat(4)+'<i></i>'}</span></div></div></div>
+    <div class="c-card"><h4>Tooltip</h4><p class="sub">hover 或聚焦即顯示；下方第一個固定展開作示範。</p>
+      <div class="row" style="padding-top:64px;gap:20px">
+        <span class="c-tip is-open"><button class="c-btn is-secondary" type="button" aria-describedby="${T}-t1">固定展開</button><span class="bubble" role="tooltip" id="${T}-t1">能力點：每項最多 32、總和 66</span></span>
+        <span class="c-tip"><button class="c-btn is-secondary" type="button" aria-describedby="${T}-t2">hover 我</button><span class="bubble" role="tooltip" id="${T}-t2">先制技優先度 +1</span></span></div></div>
+  </div></div>`;
+}
+const FAKE = {
+  name:'晴天攻擊隊（示範資料）', code:'示範代碼 0000-0000', rule:'Reg Set M-A',
+  mons:[
+    {n:'噴火龍',c:'#E8743B',types:['fire','flying'],item:'氣勢頭帶',moves:[['熱風','fire'],['空氣斬','flying'],['太陽光線','grass'],['守住','normal']],st:[2,0,4,32,0,28]},
+    {n:'烈咬陸鯊',c:'#7A6AB8',types:['ground','dragon'],item:'突擊背心',moves:[['地震','ground'],['岩崩','rock'],['逆鱗','dragon'],['劍舞','normal']],st:[10,32,4,0,0,20]},
+    {n:'示範 C',c:'#3F8F9B',types:['water'],item:'生命寶珠',moves:[['衝浪','water'],['冰凍光束','ice'],['濁流','water'],['守住','normal']],st:[32,0,0,32,2,0]},
+    {n:'示範 D',c:'#5B8C3A',types:['grass','poison'],item:'食物',moves:[['粉塵','bug'],['保護','normal'],['污泥炸彈','poison'],['催眠粉','grass']],st:[32,0,16,0,18,0]},
+    {n:'示範 E',c:'#B04A63',types:['psychic','fairy'],item:'精靈之珠',moves:[['精神強念','psychic'],['月亮之力','fairy'],['戲法空間','psychic'],['守住','normal']],st:[32,0,0,34,0,0]},
+    {n:'示範 F',c:'#8A7F5A',types:['steel'],item:'大師球',moves:[['閃焰衝鋒','fire'],['鐵頭','steel'],['劍舞','normal'],['守住','normal']],st:[4,32,0,0,0,30]}],
+  speed:['順風','戲法空間','先制技','麻痺'],
+  notes:['面對雨天隊時，噴火龍第一回合盡量先守住','避免同時暴露兩隻主力在同一個範圍招式下','最後一隻示範 F 為收尾，不要太早送出'],
+  core:'以晴天加成的噴火龍為主火力，搭配烈咬陸鯊壓制地面系屬性；第三、四隻負責控場與補位。',
+  score:[['上手難度',3],['操作彈性',4],['穩定性',4],['全面程度',3]]
+};
+const STAT_NAMES=['H','A','B','C','D','S'];
+function renderTeam(){
+  const tmap=Object.fromEntries(TYPES.map(t=>[t.id,t]));
+  const tcol=id=>nx((tmap[id]||{color:'#999999'}).color);
+  const tg=id=>typeTagHTML(tmap[id],'solid');
+  const meter=n=>`<span class="c-meter" role="img" aria-label="${n} 分（滿分 5）">${'<i class="on"></i>'.repeat(n)+'<i></i>'.repeat(5-n)}</span>`;
+  return `<div class="team">
+   <article class="c-card brief" aria-label="隊伍 brief">
+     <div class="row between"><span class="c-badge"><b>REG</b> ${FAKE.rule}</span><span class="sub">${FAKE.code}</span></div>
+     <h3 style="margin:0"><span class="hl">${FAKE.name}</span></h3>
+     <div class="blocks" aria-hidden="true">${FAKE.mons.map(m=>`<i style="background:${m.c}">${esc(m.n.slice(0,1))}</i>`).join('')}</div>
+     <div class="row">${FAKE.speed.map(s=>`<span class="c-chip" style="cursor:default">${s}</span>`).join('')}</div>
+     <div class="row between"><span class="sub">頻道：示範頻道 · 2026-11</span><button class="c-btn is-primary" type="button">查看詳情</button></div>
+   </article>
+   <div class="mons">${FAKE.mons.slice(0,2).map(m=>`<article class="c-card mon"><div class="top"><div class="ph" style="background:${m.c}" aria-hidden="true">${esc(m.n.slice(0,1))}</div>
+     <div><h4 style="margin:0">${m.n}</h4><div class="row" style="margin-top:6px">${m.types.map(tg).join('')}</div></div></div>
+     <div class="row"><span class="c-chip" style="cursor:default">道具：${m.item}</span></div>
+     <div class="moves">${m.moves.map(mv=>`<div class="mv"><i style="background:${tcol(mv[1])}"></i><span>${mv[0]}</span></div>`).join('')}</div>
+     <div class="stats">${m.st.map((v,i)=>`<div class="bar"><span>${STAT_NAMES[i]}</span><div class="tr"><i style="width:${v/32*100}%"></i></div><b>${v}</b></div>`).join('')}</div></article>`).join('')}</div>
+   <div class="analysis">
+     <div class="c-card"><h4>核心輸出戰術</h4><p style="margin:0">${FAKE.core}</p></div>
+     <div class="c-card"><h4>控速手段</h4><div class="row">${FAKE.speed.map(s=>`<span class="c-chip" style="cursor:default">${s}</span>`).join('')}</div></div>
+     <div class="c-card"><h4>注意事項</h4><ul>${FAKE.notes.map(n=>`<li>${n}</li>`).join('')}</ul></div>
+     <div class="c-card"><h4>特性評分</h4><div class="score">${FAKE.score.map(s=>`<div class="r"><span>${s[0]}</span>${meter(s[1])}</div>`).join('')}</div></div>
+   </div></div>`;
+}
+function initStyles(){
+  $('#sGlass').innerHTML=componentSet('g'); $('#sSlate').innerHTML=componentSet('sl'); $('#sPaper').innerHTML=componentSet('pp');
+  const td=$('#teamDemo'); td.innerHTML=renderTeam();
+  function setStyle(s){ td.className='sty st-'+s; document.querySelectorAll('.sw-switch button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.st===s))); }
+  document.querySelectorAll('.sw-switch button').forEach(b=>b.addEventListener('click',()=>setStyle(b.dataset.st)));
+  const m=location.hash.match(/style=(glass|slate|paper)/); if(m) setStyle(m[1]);
+  document.addEventListener('click',e=>{
+    const tab=e.target.closest('.c-tabs button'); if(tab){ tab.parentNode.querySelectorAll('button').forEach(b=>b.setAttribute('aria-selected',String(b===tab))); }
+    const chip=e.target.closest('.c-chip[aria-pressed]'); if(chip){ const on=chip.getAttribute('aria-pressed')!=='true'; chip.setAttribute('aria-pressed',String(on)); chip.classList.toggle('is-on',on); }
+  });
+}
+
+/* ---------- 7. a11y ---------- */
+function renderA11y(){
+  const g=n=>nx(css('--'+n)); const rows=[];
+  const add=(label,fg,bgc,min,note)=>{ const r=cr(fg,bgc); rows.push(`<tr><td>${label}</td><td><span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${fg};border:1px solid #0003;vertical-align:-1px"></span> ${fg}</td><td><span style="display:inline-block;width:12px;height:12px;border-radius:3px;background:${bgc};border:1px solid #0003;vertical-align:-1px"></span> ${bgc}</td><td>${fmt(r)}</td><td>≥ ${min}${note?'（'+note+'）':''}</td><td>${badge(r>=min)}</td></tr>`); };
+  add('主要文字 on page',g('ink'),g('bg'),4.5); add('主要文字 on surface',g('ink'),g('surface'),4.5); add('主要文字 on raised',g('ink'),g('raised'),4.5);
+  add('次要文字 on page',g('ink2'),g('bg'),4.5); add('次要文字 on raised',g('ink2'),g('raised'),4.5);
+  add('三級文字（提示）on page',g('ink3'),g('bg'),4.5);
+  add('連結 on page',g('primary-text'),g('bg'),4.5); add('連結 on raised',g('primary-text'),g('raised'),4.5);
+  add('主要按鈕 白字 on primary',g('on-primary'),g('primary'),4.5); add('主要按鈕 hover',g('on-primary'),g('primary-hover'),4.5);
+  add('次要按鈕 文字 on page',g('primary-text'),g('bg'),4.5); add('強調（黃）墨字 on accent',g('on-accent'),g('accent'),4.5); add('accent-text on page',g('accent-text'),g('bg'),4.5);
+  ['success','warn','danger','info'].forEach(n=>add('語意文字 '+n+' on page',g(n),g('bg'),4.5));
+  add('輸入框邊框 line-strong vs page（UI）',g('line-strong'),g('bg'),3); add('焦點環 primary vs page（UI）',g('primary'),g('bg'),3);
+  add('評分條填色 primary vs track(sunken)',g('primary'),g('sunken'),3);
+  const st=window.TYPE_STATS; rows.push(`<tr><td>屬性標籤（實心，自動白／墨字）</td><td colspan="3">${st.total-st.fails.length} / ${st.total} 種通過 4.5:1</td><td>≥ 4.5</td><td>${badge(st.fails.length===0, st.fails.length? st.fails.length+' 種需改描邊淡底':'全部通過')}</td></tr>`);
+  $('#a11yTable tbody').innerHTML=rows.join('');
+  $('#rmState').textContent = matchMedia('(prefers-reduced-motion: reduce)').matches ? '已要求減少動態（動畫已關閉）' : '未要求（動畫開啟）';
+}
+<\/script>
+</body>
+</html>
+</script>
+<script>
+(function(){
+var T={fire:'#C2410C',water:'#1D4ED8',grass:'#15803D',electric:'#A16207',psychic:'#BE185D',ghost:'#6D28D9'};
+var N={fire:'火',water:'水',grass:'草',electric:'電',psychic:'超能力',ghost:'幽靈'};
+var S=[
+{n:'GOV.UK Design System',v:'part',u:'https://design-system.service.gov.uk/',lic:'程式碼 MIT；GDS Transport 字體與皇冠標誌僅限 gov.uk 使用',
+ tok:'藍 #1D70B8、文字 #0B0C0C、底 #F3F2F1、焦點黃 #FFDD00、紅 #D4351C、綠 #00703C；字體 Arial 後備、正文 19px；間距 5px 倍數；半徑 0；焦點為黃底黑框。',
+ fit:'優點：對比與可及性是業界標竿，焦點樣式極明顯，表格與標籤規範清楚。缺點：19px 大字密度低、視覺很「政府」，與寶可夢趣味落差大。可借：焦點環與標籤（tag）的淡底做法。',
+ css:{bg:'#F3F2F1',surface:'#FFFFFF',ink:'#0B0C0C',ink2:'#505A5F',line:'#B1B4B6',primary:'#1D70B8',onp:'#fff',good:'#00703C',warn:'#FFDD00',r:'0px',bw:'2px',sh:'none',font:'Arial,"Noto Sans TC",sans-serif',fs:'15px',bsh:'0 2px 0 #003078',focus:'#FFDD00'},cols:['#1D70B8','#0B0C0C','#F3F2F1','#FFDD00','#D4351C','#00703C']},
+{n:'GitHub Primer',v:'rec',u:'https://primer.style/',lic:'MIT（primer/primitives、primer/css）；Octicons MIT；Mona Sans OFL',
+ tok:'accent #0969DA、文字 #1F2328、畫布 #FFFFFF、次層 #F6F8FA、邊框 #D0D7DE、成功 #1A7F37、注意 #9A6700、危險 #D1242F；系統字體 14px；半徑 6px；間距 4/8/16/24/32/40。',
+ fit:'優點：為資料密集（列表、label、counter、progress）設計，token 命名清楚、淺深色齊全，授權乾淨。缺點：個性中性，需靠屬性色與插圖帶出寶可夢味。',
+ css:{bg:'#FFFFFF',surface:'#F6F8FA',ink:'#1F2328',ink2:'#59636E',line:'#D0D7DE',primary:'#0969DA',onp:'#fff',good:'#1A7F37',warn:'#9A6700',r:'6px',bw:'1px',sh:'none',font:'-apple-system,"Noto Sans TC",Segoe UI,sans-serif',fs:'14px'},cols:['#0969DA','#1F2328','#F6F8FA','#D0D7DE','#1A7F37','#9A6700']},
+{n:'Radix Themes / Radix Colors / shadcn/ui',v:'rec',u:'https://www.radix-ui.com/colors',lic:'Radix Colors、Themes、shadcn/ui 皆 MIT',
+ tok:'12 階色階：第 1-2 階頁面底、3-5 階元件底、6-8 邊框、9 實色、11 低對比文字、12 高對比文字。slate 3 約 #F0F0F3、indigo 9 約 #3E63DD、indigo 11 約 #3A5BC7；半徑 6-8px（shadcn 預設約 0.5rem）；間距 4px 倍數。',
+ fit:'優點：階數的「用途」已定義，淺深色自動對應，並保證第 11 階在第 3 階底上對比足夠，正好適合 outline-tint 標籤與評分條。缺點：自己要把 18 屬性映射到 Radix 色相（有些屬性無完全對應色相）。',
+ css:{bg:'#FCFCFD',surface:'#F0F0F3',ink:'#1C2024',ink2:'#60646C',line:'#CDCED6',primary:'#3E63DD',onp:'#fff',good:'#218358',warn:'#AB6400',r:'8px',bw:'1px',sh:'none',font:'Inter,"Noto Sans TC",system-ui,sans-serif',fs:'14px',ptext:'#3A5BC7'},cols:['#3E63DD','#1C2024','#F0F0F3','#CDCED6','#218358','#AB6400']},
+{n:'IBM Carbon',v:'part',u:'https://carbondesignsystem.com/',lic:'Apache-2.0；IBM Plex 字體 OFL',
+ tok:'藍 60 #0F62FE、文字 #161616、Gray 10 底 #F4F4F4、層 #FFFFFF、邊框 #C6C6C6、綠 #24A148、黃 #F1C21B、紅 #DA1E28；IBM Plex Sans；半徑 0；2x 網格、8px 間距。',
+ fit:'優點：資料表、狀態標籤、tag 規範完整，直角工整適合表格與評分。缺點：中文字體需另配、直角方正偏企業；Plex 字體需自載。',
+ css:{bg:'#F4F4F4',surface:'#FFFFFF',ink:'#161616',ink2:'#525252',line:'#C6C6C6',primary:'#0F62FE',onp:'#fff',good:'#198038',warn:'#8E6A00',r:'0px',bw:'1px',sh:'none',font:'"IBM Plex Sans","Noto Sans TC",sans-serif',fs:'14px',br:'0',br2:'0'},cols:['#0F62FE','#161616','#F4F4F4','#C6C6C6','#24A148','#F1C21B']},
+{n:'Atlassian Design System',v:'no',u:'https://atlassian.design/',lic:'依 Atlassian 授權：僅供開發 Atlassian 產品附加元件，不得修改或再散布',
+ tok:'藍 #0C66E4、文字 #172B4D、表面 #F7F8F9、邊框 #091E4224；字體 Atlassian Sans／系統；半徑 4px；間距 8px 倍數（space.100=8px）。',
+ fit:'設計語彙（lozenge 狀態標籤、緊湊列表）值得參考，但授權不允許拿來作為本站基礎，因此只讀不用。',
+ css:{bg:'#F7F8F9',surface:'#FFFFFF',ink:'#172B4D',ink2:'#44546F',line:'#DCDFE4',primary:'#0C66E4',onp:'#fff',good:'#1F845A',warn:'#B38600',r:'4px',bw:'1px',sh:'0 1px 1px rgba(9,30,66,.25)',font:'system-ui,"Noto Sans TC",sans-serif',fs:'14px'},cols:['#0C66E4','#172B4D','#F7F8F9','#DCDFE4','#1F845A','#B38600']},
+{n:'Material Design 3',v:'part',u:'https://m3.material.io/',lic:'material-web 程式碼 Apache-2.0；Roboto OFL；設計準則為 Google 文件',
+ tok:'基準主色 #6750A4、表面 #FEF7FF、文字 #1D1B20、輪廓 #79747E；半徑 12／16／28dp（元件各異）；4dp 網格；tonal 色調（容器色）。',
+ fit:'優點：tonal 色調正好是淡底標籤；動態色票可由種子色自動產生。缺點：大圓角與大留白降低密度，行動 App 味重；資料表非強項。',
+ css:{bg:'#FEF7FF',surface:'#F3EDF7',ink:'#1D1B20',ink2:'#49454F',line:'#CAC4D0',primary:'#6750A4',onp:'#fff',good:'#2E6B3A',warn:'#7D5700',r:'16px',bw:'0px',sh:'none',font:'Roboto,"Noto Sans TC",sans-serif',fs:'14px',br2:'999px'},cols:['#6750A4','#1D1B20','#FEF7FF','#E8DEF8','#2E6B3A','#7D5700']},
+{n:'瑞士／國際主義風（Swiss Style）',v:'part',u:'https://en.wikipedia.org/wiki/International_Typographic_Style',lic:'風格無授權問題；字體選 Inter（OFL）或思源黑體（OFL）',
+ tok:'白底黑字、單一強調紅 #E30613、無襯線粗細對比、嚴格網格、細線分隔、零圓角、大標題搭小內文。',
+ fit:'優點：細線 + 排版階層取代方框，資料密度最高、最耐看。缺點：個性靠排版而非色彩，需要有人持續守住網格。可借：用細線與字級代替卡片陰影。',
+ css:{bg:'#FFFFFF',surface:'#FFFFFF',ink:'#111111',ink2:'#555555',line:'#111111',primary:'#E30613',onp:'#fff',good:'#0A7A3B',warn:'#8A5A00',r:'0px',bw:'1px',sh:'none',font:'Inter,"Noto Sans TC",Helvetica,Arial,sans-serif',fs:'14px',br2:'0',br:'0',bbw:'1px'},cols:['#E30613','#111111','#FFFFFF','#555555','#0A7A3B','#8A5A00']},
+{n:'新粗獷主義（Neo-brutalism）',v:'part',u:'https://www.neobrutalism.dev/',lic:'neobrutalism.dev 為 shadcn 衍生元件庫，宣稱 MIT（落地前請確認 repo LICENSE）',
+ tok:'2-3px 黑框、硬陰影（4px 4px 0 #000）、飽和平塗色、圓角 0-8px、粗體字；按下時陰影收縮。',
+ fit:'優點：個性強、玩心重，很合粉絲站，按鈕與標籤辨識度高。缺點：資料表與長文閱讀吵雜，實底屬性色需另選深字色；建議只用在首頁與按鈕。',
+ css:{bg:'#FFF4D6',surface:'#FFFFFF',ink:'#000000',ink2:'#333333',line:'#000000',primary:'#7C5CFF',onp:'#fff',good:'#0E7C3A',warn:'#8A5A00',r:'8px',bw:'2px',sh:'4px 4px 0 #000',font:'"Space Grotesk","Noto Sans TC",system-ui,sans-serif',fs:'14px',bsh:'3px 3px 0 #000',br2:'6px',bbw:'2px',br:'4px',solid:1},cols:['#7C5CFF','#000000','#FFF4D6','#FFFFFF','#0E7C3A','#FFD43B']},
+{n:'包浩斯風（Bauhaus）',v:'part',u:'https://en.wikipedia.org/wiki/Bauhaus',lic:'風格無授權問題；字體可用 Jost（OFL，Futura 風）',
+ tok:'三原色 紅 #D62828／黃 #F7B500／藍 #1D3557、黑白、圓／方／三角的幾何、粗黑線、非對稱版面。',
+ fit:'優點：幾何色塊與精靈球（圓 + 紅白）天然呼應，標題與區塊分隔很有記憶點。缺點：三原色與屬性色衝突，資料區要降為黑白灰。',
+ css:{bg:'#F5F0E1',surface:'#FFFFFF',ink:'#1A1A1A',ink2:'#444444',line:'#1A1A1A',primary:'#1D3557',onp:'#fff',good:'#1E6B3A',warn:'#8A5A00',r:'0px',bw:'2px',sh:'none',font:'Jost,"Noto Sans TC",sans-serif',fs:'14px',br2:'999px',br:'0'},cols:['#D62828','#F7B500','#1D3557','#1A1A1A','#F5F0E1','#FFFFFF']},
+{n:'Pokédex／遊戲內 UI 風',v:'part',u:'https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex',lic:'官方 UI 與圖像屬任天堂／Game Freak，不可複製；僅可參考「概念」並用自繪 CSS 重現',
+ tok:'機身紅 #DC0A2D、螢幕深青綠 #1B3A3A、白色圓角面板、高光與斜切邊；扁平化後僅保留紅白分區與圓角矩形。',
+ fit:'優點：情感連結最強，一眼就是寶可夢。缺點：容易越界到侵權、光澤與斜切不利行動版與可讀性。做法：只取「紅頂 + 白底面板」配色與圓角，不做擬真機身。',
+ css:{bg:'#F2F2F2',surface:'#FFFFFF',ink:'#212121',ink2:'#555555',line:'#CFCFCF',primary:'#DC0A2D',onp:'#fff',good:'#1E7A3A',warn:'#8A5A00',r:'14px',bw:'2px',sh:'0 2px 0 #B0B0B0',font:'"Noto Sans TC",system-ui,sans-serif',fs:'14px',br2:'999px',solid:1},cols:['#DC0A2D','#212121','#F2F2F2','#FFFFFF','#1B3A3A','#FFCC00']},
+{n:'Showdown／Smogon 資料站風',v:'part',u:'https://dex.pokemonshowdown.com/',lic:'Pokémon Showdown client 為 AGPL-3.0（不可抄碼進本站，只參考版面慣例）；server MIT',
+ tok:'小型實底屬性色膠囊（約 11px 粗體）、窄行距的種族值橫條（紅→黃→綠漸層）、等寬數字、表格式密集排版。',
+ fit:'優點：玩家已熟悉，屬性膠囊與種族值條就是目標族群的「母語」。缺點：實底膠囊的白字對比不足；本站建議沿用「小膠囊」形狀但改 outline-tint。',
+ css:{bg:'#EEF1F5',surface:'#FFFFFF',ink:'#1B1F24',ink2:'#555E68',line:'#C5CBD3',primary:'#2F6FB0',onp:'#fff',good:'#2E7D32',warn:'#8A5A00',r:'4px',bw:'1px',sh:'none',font:'"Noto Sans TC",system-ui,sans-serif',fs:'13px',br:'2px',lr:'3px'},cols:['#2F6FB0','#1B1F24','#EEF1F5','#C5CBD3','#2E7D32','#8A5A00']}
+];
+var VN={rec:'推薦',part:'可借用',no:'不建議'};
+function spec(s){var c=s.css,st=['--s-bg:'+c.bg,'--s-surface:'+c.surface,'--s-ink:'+c.ink,'--s-ink2:'+c.ink2,'--s-line:'+c.line,'--s-primary:'+c.primary,'--s-ptext:'+(c.ptext||c.primary),'--s-onp:'+c.onp,'--s-good:'+c.good,'--s-warn:'+c.warn,'--s-r:'+c.r,'--s-bw:'+c.bw,'--s-sh:'+c.sh,'--s-font:'+c.font,'--s-fs:'+c.fs,'--s-track:color-mix(in srgb,'+c.ink+' 12%,'+c.surface+')'];
+ if(c.bsh)st.push('--s-bsh:'+c.bsh);if(c.br2)st.push('--s-br2:'+c.br2);if(c.br)st.push('--s-br:'+c.br);if(c.bbw)st.push('--s-bbw:'+c.bbw);if(c.lr)st.push('--s-lr:'+c.lr);if(c.focus)st.push('--s-focus:'+c.focus);
+ function tl(k){return '<span class="tl'+(k==='electric'?' dk':'')+'" style="--t:'+T[k]+'">'+N[k]+'</span>'}
+ var mons=[['喵喵','water'],['烈焰猴','fire'],['藤蔓怪','grass'],['皮皮','electric'],['超夢影','psychic'],['夜幽','ghost']].map(function(m){return '<div class="mon">'+m[0]+'<span>'+N[m[1]]+'</span></div>'}).join('');
+ return '<div class="spec'+(c.solid?' solid':'')+'" style="'+st.join(';')+'"><div class="types">'+Object.keys(T).map(tl).join('')+'</div>'+
+ '<div class="sp-card"><div class="sp-h">範例隊伍 A<small>Reg M-A</small></div><div class="mons">'+mons+'</div>'+
+ '<div class="bar"><span>輸出</span><span class="tr"><i style="width:82%"></i></span><b>82</b></div>'+
+ '<div class="bar"><span>控速</span><span class="tr"><i class="g" style="width:64%"></i></span><b>64</b></div>'+
+ '<div class="bar"><span>風險</span><span class="tr"><i class="w" style="width:38%"></i></span><b>38</b></div>'+
+ '<div class="btns"><button class="bt" type="button">查看隊伍</button><button class="bt sec" type="button">複製代碼</button></div></div></div>';}
+function sw(cols){return cols.map(function(c){return '<span class="sw"><i style="background:'+c+'"></i>'+c+'</span>'}).join('')}
+document.getElementById('sysgrid').innerHTML=S.map(function(s,i){
+ return '<article class="card"><h3>'+(i+1)+'. '+s.n+'</h3><p><span class="tag '+s.v+'">'+VN[s.v]+'</span><a class="mini" href="'+s.u+'" target="_blank" rel="noopener">'+s.u+'</a></p>'+
+ '<p class="meta"><b>授權：</b>'+s.lic+'</p><p class="meta"><b>核心 token：</b>'+s.tok+'</p><div>'+sw(s.cols)+'</div><p class="meta"><b>適配度：</b>'+s.fit+'</p>'+spec(s)+'</article>';}).join('');
+document.getElementById('summary').innerHTML='<tr><th>方向</th><th>授權</th><th>半徑</th><th>建議</th></tr>'+S.map(function(s){return '<tr><td><a href="'+s.u+'" target="_blank" rel="noopener">'+s.n+'</a></td><td>'+s.lic.split('；')[0]+'</td><td>'+s.css.r+'</td><td><span class="tag '+s.v+'">'+VN[s.v]+'</span></td></tr>'}).join('')+
+ '<tr><td>v1 深色玻璃</td><td>自家</td><td>8-30px</td><td>已有預覽（分頁）</td></tr><tr><td>水泥灰</td><td>自家</td><td>6-20px</td><td>已有預覽（分頁）</td></tr><tr><td>再生紙</td><td>自家</td><td>6-20px</td><td>已有預覽（分頁）</td></tr>';
+/* tabs */
+var tabs=[].slice.call(document.querySelectorAll('#tabs [role=tab]'));
+function fit(f){try{var d=f.contentDocument;if(d&&d.documentElement)f.style.height=(d.documentElement.scrollHeight+4)+'px'}catch(e){}}
+function show(id){if(!tabs.some(function(b){return b.dataset.tab===id}))id='overview';
+ tabs.forEach(function(b){b.setAttribute('aria-selected',String(b.dataset.tab===id))});
+ [].forEach.call(document.querySelectorAll('.panel'),function(p){p.hidden=p.id!=='p-'+id});
+ var f=document.querySelector('#p-'+id+' iframe');
+ if(f){if(!f.dataset.loaded){f.dataset.loaded=1;f.srcdoc=document.getElementById(f.dataset.src).textContent.replace(/<\\\/script/g,'</script');
+  f.addEventListener('load',function(){fit(f);try{new ResizeObserver(function(){fit(f)}).observe(f.contentDocument.documentElement)}catch(e){};setTimeout(function(){fit(f)},600)})}else fit(f)}}
+tabs.forEach(function(b){b.addEventListener('click',function(){location.hash=b.dataset.tab;show(b.dataset.tab)})});
+window.addEventListener('hashchange',function(){show(location.hash.slice(1))});
+window.addEventListener('resize',function(){var f=document.querySelector('.panel:not([hidden]) iframe');if(f)fit(f)});
+show(location.hash.slice(1)||'overview');
 })();
 </script>
 </body>
