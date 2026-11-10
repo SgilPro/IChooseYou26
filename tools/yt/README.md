@@ -40,6 +40,17 @@ node tools/yt/merge-teams.mjs $CH
 
 未登入抓不到，`videos.json` 會標 `is_members_only: true`，`teams/` 只建殼。之後用第一擁有者的會員帳號：照 yt-dlp wiki 在無痕視窗登入 → 匯出 `cookies.txt` → `tools/yt/fetch-videos.sh <只含失敗 id 的清單> $CH/raw --cookies cookies.txt --sleep-interval 8 --max-sleep-interval 15`。不要用 `--cookies-from-browser`（YouTube 會輪替 cookie，帳號有被標記風險）。
 
+## 會員影片影格的定期準備（排程已於 2026-11-10 關閉）
+
+曾用 Claude Code 的 CronCreate 每 12 分鐘跑一次 `node tools/yt/prep-queue-next.mjs`，為了省 token 已關閉（排程只存在於 session，也會 7 天過期）。要重開時照下面做：
+
+1. **前提**：cookies 檔在 repo 外（預設 `~/_projects/www.youtube.com_cookies.txt`，也可用環境變數 `COOKIES`），由使用者自己匯出，不要讀內容、不要提交。
+2. **一次準備一支**：`node tools/yt/prep-queue-next.mjs`。佇列規則：會員限定、category=battle、有 `team_intro_range`、`teams/<id>.json` 仍是會員殼、還沒有影格；由新到舊。只下載「隊伍介紹段」，不下載整支影片。
+3. **保護機制**：鎖檔（同時只跑一個）、超前上限 `MAX_AHEAD`（預設 12，影格備好卻未抽取的上限）、失敗退避 `BACKOFF_H`（預設 3 小時，寫在 `raw/.prep-backoff`）；輸出追加到 `raw/prep-queue.log`。若輸出含 FAIL／stop，多半是 cookies 失效或被限流，**不要自動重試**，先檢查帳號狀態。
+4. **一次抓一批**：`COOKIES=<path> node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon <id> [<id>...]`（請求間隔 `--sleep-requests 1`；要更保守可改慢）。
+5. **抽取**：影格備好後，依 `EXTRACTION_PROMPT.md`（v1.3）平行派 agent，每支一個 agent、各自獨立的暫存目錄、只改自己的 `teams/<id>.json`；結束後跑 `validate-teams.mjs`、`merge-teams.mjs`，再 commit。
+6. **目前狀態**：有「隊伍介紹章節」的會員影片已全部處理完（佇列為空）。尚未處理：朱紫對戰類沒有章節的 40 支、遊戲欄位未標的對戰類 71 支（內容未確認，建議先抽樣）、Champions Bonus 5 支（未看過畫面）、需「高級會員」的 5 支。
+
 ## 已知限制
 
 - 標題/章節若不鎖 `youtube:lang=zh-TW` 會被 YouTube 自動翻成英文；`build-videos.mjs` 優先用 description 裡的時間戳重建原文章節。
