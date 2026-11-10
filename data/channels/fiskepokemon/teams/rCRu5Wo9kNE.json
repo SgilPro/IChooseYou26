@@ -7,8 +7,9 @@
     "video_url": "https://www.youtube.com/watch?v=rCRu5Wo9kNE",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "team_code": "4J29YK036H",
     "tags": [
       "setup",
       "mega"
@@ -16,20 +17,501 @@
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 655,
+          "name_zh": "妖火紅狐",
+          "name_en": "Delphox-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖火紅狐進化石",
+          "value_en": "Delphoxite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 16,
+          "spa": 1,
+          "spd": 0,
+          "spe": 17,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 182,
+          "atk": 80,
+          "def": 108,
+          "spa": 148,
+          "spd": 120,
+          "spe": 141,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "輔助力量",
+            "value_en": "Stored Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我暗示",
+            "value_en": "Psych Up",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "睡覺",
+            "value_en": "Rest",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "畫面特性為原形「猛火」。靠自我暗示複製隊友的能力提升，搭配輔助力量輸出（依標題與投影片「適合的原因」）。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 678,
+          "name_zh": "超能妙喵",
+          "name_en": "Meowstic",
+          "form": "",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 24,
+          "spa": 0,
+          "spd": 10,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 181,
+          "atk": 61,
+          "def": 132,
+          "spa": 103,
+          "spd": 111,
+          "spe": 124,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "特性互換",
+            "value_en": "Skill Swap",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": "",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "毒手",
+          "value_en": "Poison Touch",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 182,
+          "def": 82,
+          "spa": 54,
+          "spd": 100,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "毒擊",
+            "value_en": "Poison Jab",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "指導",
+            "value_en": "Coaching",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 707,
+          "name_zh": "鑰圈兒",
+          "name_en": "Klefki",
+          "form": "",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 29,
+          "spa": 0,
+          "spd": 5,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 164,
+          "atk": 90,
+          "def": 154,
+          "spa": 100,
+          "spd": 112,
+          "spe": 95,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "吸取之吻",
+            "value_en": "Draining Kiss",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冥想",
+            "value_en": "Calm Mind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "替身",
+            "value_en": "Substitute",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我暗示",
+            "value_en": "Psych Up",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 687,
+          "name_zh": "烏賊王",
+          "name_en": "Malamar-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "唱反調",
+          "value_en": "Contrary",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "烏賊王進化石",
+          "value_en": "Malamarite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慎重",
+          "value_en": "Careful",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 23,
+          "spa": 0,
+          "spd": 11,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 193,
+          "atk": 112,
+          "def": 131,
+          "spa": 79,
+          "spd": 116,
+          "spe": 93,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "蠻力",
+            "value_en": "Superpower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "輔助力量",
+            "value_en": "Stored Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "自我暗示",
+            "value_en": "Psych Up",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "畫面特性為原形「唱反調」（投影片亦介紹）；攻擊時降低物防/攻擊的自傷反而變成強化，與自我暗示手互補。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 904,
+          "name_zh": "萬針魚",
+          "name_en": "Overqwil",
+          "form": "",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慎重",
+          "value_en": "Careful",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 6,
+          "spa": 0,
+          "spd": 15,
+          "spe": 13,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 192,
+          "atk": 135,
+          "def": 121,
+          "spa": 76,
+          "spd": 110,
+          "spe": 118,
+          "source": "frame"
+        },
+        "stats_note": "畫面數值為未 Mega 的原形；性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "毒千針",
+            "value_en": "Barb Barrage",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "變小",
+            "value_en": "Minimize",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "蓄力",
+            "value_en": "Stockpile",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "投影片「變小 + 蓄力」。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 12,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.93,
+    "review_status": "auto",
+    "review_notes": "會員影片無字幕，全部由畫面讀取。隊伍表「能力」頁 f_033~f_036、「狀態」頁 f_037~f_039（同一畫面重複）；六隻能力點皆為 66 且與 Lv.50 數值吻合。性格依 ▲▽ 判讀。隊伍ID 的 0（零）與 O 在字型下以字寬判為數字 0。tags 的「變小」無對應 slug，故不標。",
+    "notes": "以 Mega 烏賊王（唱反調）與 Mega 妖火紅狐為核心的連環強化隊：由自我暗示手（妖火紅狐、鑰圈兒）複製隊友的強化，烏賊王用蠻力攻擊時反而提升物防與攻擊，萬針魚則走變小 + 蓄力提高閃避與耐久。首發原則上為萬針魚加超能妙喵，後排自我暗示手三選二。弱點：看到黑霧與吹飛就可以投降、比差不多娃娃更怕滅歌、極其依賴前期強化、非常怕必中技能的強化手。Fiske 自評上手難度 1/5、操作彈性 1/5、穩定性 3.5/5、全面程度 2.5/5。",
+    "extracted_at": "2026-11-10T03:30:00.000Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

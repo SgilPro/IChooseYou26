@@ -1,32 +1,514 @@
 [
   {
     "id": "team_YX8unWM3Y-8",
-    "name": "無課金、不使用 Home 的新手，可以只用開局贈送的寶可夢打上大師球嗎？",
+    "name": "無課金新手：開局贈送寶可夢六隻隊（Champions 大師球挑戰）",
     "name_source": "title",
     "video_id": "YX8unWM3Y-8",
     "video_url": "https://www.youtube.com/watch?v=YX8unWM3Y-8",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "team_code": "45N6FTGN1C",
     "tags": [],
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 248,
+          "name_zh": "班基拉斯",
+          "name_en": "Tyranitar",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "揚沙",
+          "value_en": "Sand Stream",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 186,
+          "def": 130,
+          "spa": 103,
+          "spd": 120,
+          "spe": 124,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "風速狗",
+          "name_en": "Arcanine",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 178,
+          "def": 100,
+          "spa": 108,
+          "spd": 100,
+          "spe": 117,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "重踏",
+            "value_en": "Bulldoze",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 663,
+          "name_zh": "烈箭鷹",
+          "name_en": "Talonflame",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "疾風之翼",
+          "value_en": "Gale Wings",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "銳利鳥嘴",
+          "value_en": "Sharp Beak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 133,
+          "def": 91,
+          "spa": 84,
+          "spd": 89,
+          "spe": 195,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "勇鳥猛攻",
+            "value_en": "Brave Bird",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "羽毛舞",
+            "value_en": "Feather Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 479,
+          "name_zh": "洛托姆",
+          "name_en": "Rotom-Wash",
+          "form": "Wash",
+          "confidence": 0.8
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "飄浮",
+          "value_en": "Levitate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 76,
+          "def": 129,
+          "spa": 172,
+          "spd": 127,
+          "spe": 106,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。型態由電/水雙屬性判為洗衣機洛托姆。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水炮",
+            "value_en": "Hydro Pump",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "輕裝",
+          "value_en": "Unburden",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 182,
+          "def": 80,
+          "spa": 54,
+          "spd": 102,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "剋命爪",
+            "value_en": "Dire Claw",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 700,
+          "name_zh": "仙子伊布",
+          "name_en": "Sylveon",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "妖精皮膚",
+          "value_en": "Pixilate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "通通果",
+          "value_en": "Kebia Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 2,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 202,
+          "atk": 76,
+          "def": 85,
+          "spa": 178,
+          "spd": 150,
+          "spe": 82,
+          "source": "frame"
+        },
+        "stats_note": "性格依 ▲▽ 判讀。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "破壞光線",
+            "value_en": "Hyper Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光一閃",
+            "value_en": "Quick Attack",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 3,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.939Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.93,
+    "review_status": "auto",
+    "review_notes": "會員影片無字幕，全部由畫面讀取。挑戰類影片，限制：禁 Home、禁課金、只用開局給的 10 隻、盡量預設配置、禁 Mega。隊伍表「能力」頁 f_024~f_026 起、「狀態」頁 f_027~f_028（重複至 f_038）；六隻能力點皆為 66，數值以 Lv.50 公式驗算。隊伍ID 45N6FTGN1C 放大確認。洛托姆型態由電/水屬性推定為 Wash。標題/畫面無明確戰術概念，tags 留空。",
+    "notes": "挑戰「無課金、不使用 Home、只用開局贈送寶可夢、禁 Mega」打上大師球。六隻為班基拉斯（講究圍巾）、風速狗、烈箭鷹（順風）、洛托姆、大狃拉（氣勢披帶）、仙子伊布（巨聲）。班基拉斯揚沙搭配烈箭鷹順風與大狃拉、風速狗的高速物攻。影片開頭有列出開局贈送寶可夢的選擇規則。實戰共 9 場。",
+    "extracted_at": "2026-11-10T04:05:49.989Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

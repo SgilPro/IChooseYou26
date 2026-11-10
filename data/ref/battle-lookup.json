@@ -1,0 +1,6059 @@
+{
+ "generated_at": "2026-11-10T05:52:14.151Z",
+ "source": "@pkmn/dex 0.10.10（Gen 9）+ assets/items/items.json",
+ "species": {
+  "Abomasnow": {
+   "types": [
+    "Grass",
+    "Ice"
+   ],
+   "type_ids": [
+    "grass",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Abomasnow-Mega": {
+   "types": [
+    "Grass",
+    "Ice"
+   ],
+   "type_ids": [
+    "grass",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Absol": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Absol-Mega-Z": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "base-fallback",
+   "note": "Mega-Z 屬性待確認（暫用 Absol 的屬性；dex 資料標 Future：Dark/Ghost，僅供參考）"
+  },
+  "Aegislash": {
+   "types": [
+    "Steel",
+    "Ghost"
+   ],
+   "type_ids": [
+    "steel",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Aerodactyl": {
+   "types": [
+    "Rock",
+    "Flying"
+   ],
+   "type_ids": [
+    "rock",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Aerodactyl-Mega": {
+   "types": [
+    "Rock",
+    "Flying"
+   ],
+   "type_ids": [
+    "rock",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Alcremie": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Altaria": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Amoonguss": {
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "type_ids": [
+    "grass",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Ampharos": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Ampharos-Mega": {
+   "types": [
+    "Electric",
+    "Dragon"
+   ],
+   "type_ids": [
+    "electric",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Annihilape": {
+   "types": [
+    "Fighting",
+    "Ghost"
+   ],
+   "type_ids": [
+    "fighting",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Araquanid": {
+   "types": [
+    "Water",
+    "Bug"
+   ],
+   "type_ids": [
+    "water",
+    "bug"
+   ],
+   "match": "dex"
+  },
+  "Arcanine": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Arcanine-Hisui": {
+   "types": [
+    "Fire",
+    "Rock"
+   ],
+   "type_ids": [
+    "fire",
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Arceus": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Archaludon": {
+   "types": [
+    "Steel",
+    "Dragon"
+   ],
+   "type_ids": [
+    "steel",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Ariados": {
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "type_ids": [
+    "bug",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Armarouge": {
+   "types": [
+    "Fire",
+    "Psychic"
+   ],
+   "type_ids": [
+    "fire",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Aromatisse": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Articuno-Galar": {
+   "types": [
+    "Psychic",
+    "Flying"
+   ],
+   "type_ids": [
+    "psychic",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Audino-Mega": {
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "type_ids": [
+    "normal",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Avalugg": {
+   "types": [
+    "Ice"
+   ],
+   "type_ids": [
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Avalugg-Hisui": {
+   "types": [
+    "Ice",
+    "Rock"
+   ],
+   "type_ids": [
+    "ice",
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Azumarill": {
+   "types": [
+    "Water",
+    "Fairy"
+   ],
+   "type_ids": [
+    "water",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Basculegion": {
+   "types": [
+    "Water",
+    "Ghost"
+   ],
+   "type_ids": [
+    "water",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Basculegion-F": {
+   "types": [
+    "Water",
+    "Ghost"
+   ],
+   "type_ids": [
+    "water",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Baxcalibur": {
+   "types": [
+    "Dragon",
+    "Ice"
+   ],
+   "type_ids": [
+    "dragon",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Bellibolt": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Bisharp": {
+   "types": [
+    "Dark",
+    "Steel"
+   ],
+   "type_ids": [
+    "dark",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Blastoise-Mega": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Blaziken": {
+   "types": [
+    "Fire",
+    "Fighting"
+   ],
+   "type_ids": [
+    "fire",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Brambleghast": {
+   "types": [
+    "Grass",
+    "Ghost"
+   ],
+   "type_ids": [
+    "grass",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Braviary": {
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "type_ids": [
+    "normal",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Breloom": {
+   "types": [
+    "Grass",
+    "Fighting"
+   ],
+   "type_ids": [
+    "grass",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Bronzong": {
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "type_ids": [
+    "steel",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Brute Bonnet": {
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "type_ids": [
+    "grass",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Calyrex-Ice": {
+   "types": [
+    "Psychic",
+    "Ice"
+   ],
+   "type_ids": [
+    "psychic",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Calyrex-Shadow": {
+   "types": [
+    "Psychic",
+    "Ghost"
+   ],
+   "type_ids": [
+    "psychic",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Camerupt-Mega": {
+   "types": [
+    "Fire",
+    "Ground"
+   ],
+   "type_ids": [
+    "fire",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Ceruledge": {
+   "types": [
+    "Fire",
+    "Ghost"
+   ],
+   "type_ids": [
+    "fire",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Cetitan": {
+   "types": [
+    "Ice"
+   ],
+   "type_ids": [
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Chandelure": {
+   "types": [
+    "Ghost",
+    "Fire"
+   ],
+   "type_ids": [
+    "ghost",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Chandelure-Mega": {
+   "types": [
+    "Ghost",
+    "Fire"
+   ],
+   "type_ids": [
+    "ghost",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Charizard": {
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "type_ids": [
+    "fire",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Charizard-Mega-X": {
+   "types": [
+    "Fire",
+    "Dragon"
+   ],
+   "type_ids": [
+    "fire",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Charizard-Mega-Y": {
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "type_ids": [
+    "fire",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Chesnaught": {
+   "types": [
+    "Grass",
+    "Fighting"
+   ],
+   "type_ids": [
+    "grass",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Chi-Yu": {
+   "types": [
+    "Dark",
+    "Fire"
+   ],
+   "type_ids": [
+    "dark",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Chien-Pao": {
+   "types": [
+    "Dark",
+    "Ice"
+   ],
+   "type_ids": [
+    "dark",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Cinccino": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Cinderace": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Clawitzer": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Clefable": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Clefairy": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Cleffa": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Coalossal": {
+   "types": [
+    "Rock",
+    "Fire"
+   ],
+   "type_ids": [
+    "rock",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Cobalion": {
+   "types": [
+    "Steel",
+    "Fighting"
+   ],
+   "type_ids": [
+    "steel",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Conkeldurr": {
+   "types": [
+    "Fighting"
+   ],
+   "type_ids": [
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Corviknight": {
+   "types": [
+    "Flying",
+    "Steel"
+   ],
+   "type_ids": [
+    "flying",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Crabominable": {
+   "types": [
+    "Fighting",
+    "Ice"
+   ],
+   "type_ids": [
+    "fighting",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Cresselia": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Dachsbun": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Dartrix": {
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "type_ids": [
+    "grass",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Decidueye-Hisui": {
+   "types": [
+    "Grass",
+    "Fighting"
+   ],
+   "type_ids": [
+    "grass",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Delphox-Mega": {
+   "types": [
+    "Fire",
+    "Psychic"
+   ],
+   "type_ids": [
+    "fire",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Deoxys-Attack": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Ditto": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Dodrio": {
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "type_ids": [
+    "normal",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Dondozo": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Dragalge": {
+   "types": [
+    "Poison",
+    "Dragon"
+   ],
+   "type_ids": [
+    "poison",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Dragapult": {
+   "types": [
+    "Dragon",
+    "Ghost"
+   ],
+   "type_ids": [
+    "dragon",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Dragonair": {
+   "types": [
+    "Dragon"
+   ],
+   "type_ids": [
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Dragonite": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Dragonite-Mega": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Drifblim": {
+   "types": [
+    "Ghost",
+    "Flying"
+   ],
+   "type_ids": [
+    "ghost",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Dudunsparce-Three-Segment": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Electabuzz": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Electrode": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Entei": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Espeon": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Eternatus": {
+   "types": [
+    "Poison",
+    "Dragon"
+   ],
+   "type_ids": [
+    "poison",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Excadrill": {
+   "types": [
+    "Ground",
+    "Steel"
+   ],
+   "type_ids": [
+    "ground",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Excadrill-Mega": {
+   "types": [
+    "Ground",
+    "Steel"
+   ],
+   "type_ids": [
+    "ground",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Exeggutor": {
+   "types": [
+    "Grass",
+    "Psychic"
+   ],
+   "type_ids": [
+    "grass",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Farigiraf": {
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "type_ids": [
+    "normal",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Fezandipiti": {
+   "types": [
+    "Poison",
+    "Fairy"
+   ],
+   "type_ids": [
+    "poison",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Flamigo": {
+   "types": [
+    "Flying",
+    "Fighting"
+   ],
+   "type_ids": [
+    "flying",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Floatzel": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Floette-Eternal-Mega": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Flutter Mane": {
+   "types": [
+    "Ghost",
+    "Fairy"
+   ],
+   "type_ids": [
+    "ghost",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Forretress": {
+   "types": [
+    "Bug",
+    "Steel"
+   ],
+   "type_ids": [
+    "bug",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Frogadier": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Froslass-Mega": {
+   "types": [
+    "Ice",
+    "Ghost"
+   ],
+   "type_ids": [
+    "ice",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Frosmoth": {
+   "types": [
+    "Ice",
+    "Bug"
+   ],
+   "type_ids": [
+    "ice",
+    "bug"
+   ],
+   "match": "dex"
+  },
+  "Gallade": {
+   "types": [
+    "Psychic",
+    "Fighting"
+   ],
+   "type_ids": [
+    "psychic",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Garchomp": {
+   "types": [
+    "Dragon",
+    "Ground"
+   ],
+   "type_ids": [
+    "dragon",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Gardevoir": {
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "type_ids": [
+    "psychic",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Garganacl": {
+   "types": [
+    "Rock"
+   ],
+   "type_ids": [
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Gastrodon": {
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "type_ids": [
+    "water",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Gengar": {
+   "types": [
+    "Ghost",
+    "Poison"
+   ],
+   "type_ids": [
+    "ghost",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Gengar-Mega": {
+   "types": [
+    "Ghost",
+    "Poison"
+   ],
+   "type_ids": [
+    "ghost",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Gholdengo": {
+   "types": [
+    "Steel",
+    "Ghost"
+   ],
+   "type_ids": [
+    "steel",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Giratina-Origin": {
+   "types": [
+    "Ghost",
+    "Dragon"
+   ],
+   "type_ids": [
+    "ghost",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Glaceon": {
+   "types": [
+    "Ice"
+   ],
+   "type_ids": [
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Glimmora": {
+   "types": [
+    "Rock",
+    "Poison"
+   ],
+   "type_ids": [
+    "rock",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Glimmora-Mega": {
+   "types": [
+    "Rock",
+    "Poison"
+   ],
+   "type_ids": [
+    "rock",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Gliscor": {
+   "types": [
+    "Ground",
+    "Flying"
+   ],
+   "type_ids": [
+    "ground",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Gogoat": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Golisopod-Mega": {
+   "types": [
+    "Bug",
+    "Steel"
+   ],
+   "type_ids": [
+    "bug",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Golurk": {
+   "types": [
+    "Ground",
+    "Ghost"
+   ],
+   "type_ids": [
+    "ground",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Golurk-Mega": {
+   "types": [
+    "Ground",
+    "Ghost"
+   ],
+   "type_ids": [
+    "ground",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Goodra-Hisui": {
+   "types": [
+    "Steel",
+    "Dragon"
+   ],
+   "type_ids": [
+    "steel",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Gothitelle": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Gouging Fire": {
+   "types": [
+    "Fire",
+    "Dragon"
+   ],
+   "type_ids": [
+    "fire",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Grafaiai": {
+   "types": [
+    "Poison",
+    "Normal"
+   ],
+   "type_ids": [
+    "poison",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Great Tusk": {
+   "types": [
+    "Ground",
+    "Fighting"
+   ],
+   "type_ids": [
+    "ground",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Greninja": {
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "type_ids": [
+    "water",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Greninja-Mega": {
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "type_ids": [
+    "water",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Grimmsnarl": {
+   "types": [
+    "Dark",
+    "Fairy"
+   ],
+   "type_ids": [
+    "dark",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Groudon": {
+   "types": [
+    "Ground"
+   ],
+   "type_ids": [
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Grumpig": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Gyarados": {
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "type_ids": [
+    "water",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Hatterene": {
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "type_ids": [
+    "psychic",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Hawlucha-Mega": {
+   "types": [
+    "Fighting",
+    "Flying"
+   ],
+   "type_ids": [
+    "fighting",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Heatran": {
+   "types": [
+    "Fire",
+    "Steel"
+   ],
+   "type_ids": [
+    "fire",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Hippowdon": {
+   "types": [
+    "Ground"
+   ],
+   "type_ids": [
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Ho-Oh": {
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "type_ids": [
+    "fire",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Honchkrow": {
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "type_ids": [
+    "dark",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Hydrapple": {
+   "types": [
+    "Grass",
+    "Dragon"
+   ],
+   "type_ids": [
+    "grass",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Hydreigon": {
+   "types": [
+    "Dark",
+    "Dragon"
+   ],
+   "type_ids": [
+    "dark",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Illumise": {
+   "types": [
+    "Bug"
+   ],
+   "type_ids": [
+    "bug"
+   ],
+   "match": "dex"
+  },
+  "Incineroar": {
+   "types": [
+    "Fire",
+    "Dark"
+   ],
+   "type_ids": [
+    "fire",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Indeedee": {
+   "types": [
+    "Psychic",
+    "Normal"
+   ],
+   "type_ids": [
+    "psychic",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Indeedee-F": {
+   "types": [
+    "Psychic",
+    "Normal"
+   ],
+   "type_ids": [
+    "psychic",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Iron Bundle": {
+   "types": [
+    "Ice",
+    "Water"
+   ],
+   "type_ids": [
+    "ice",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Iron Crown": {
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "type_ids": [
+    "steel",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Iron Hands": {
+   "types": [
+    "Fighting",
+    "Electric"
+   ],
+   "type_ids": [
+    "fighting",
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Iron Jugulis": {
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "type_ids": [
+    "dark",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Iron Leaves": {
+   "types": [
+    "Grass",
+    "Psychic"
+   ],
+   "type_ids": [
+    "grass",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Iron Moth": {
+   "types": [
+    "Fire",
+    "Poison"
+   ],
+   "type_ids": [
+    "fire",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Iron Thorns": {
+   "types": [
+    "Rock",
+    "Electric"
+   ],
+   "type_ids": [
+    "rock",
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Iron Treads": {
+   "types": [
+    "Ground",
+    "Steel"
+   ],
+   "type_ids": [
+    "ground",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Iron Valiant": {
+   "types": [
+    "Fairy",
+    "Fighting"
+   ],
+   "type_ids": [
+    "fairy",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Jigglypuff": {
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "type_ids": [
+    "normal",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Jolteon": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Jumpluff": {
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "type_ids": [
+    "grass",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Kangaskhan": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Kangaskhan-Mega": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Kilowattrel": {
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "type_ids": [
+    "electric",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Kingambit": {
+   "types": [
+    "Dark",
+    "Steel"
+   ],
+   "type_ids": [
+    "dark",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Kingdra": {
+   "types": [
+    "Water",
+    "Dragon"
+   ],
+   "type_ids": [
+    "water",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Kleavor": {
+   "types": [
+    "Bug",
+    "Rock"
+   ],
+   "type_ids": [
+    "bug",
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Klefki": {
+   "types": [
+    "Steel",
+    "Fairy"
+   ],
+   "type_ids": [
+    "steel",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Kommo-o": {
+   "types": [
+    "Dragon",
+    "Fighting"
+   ],
+   "type_ids": [
+    "dragon",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Koraidon": {
+   "types": [
+    "Fighting",
+    "Dragon"
+   ],
+   "type_ids": [
+    "fighting",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Krookodile": {
+   "types": [
+    "Ground",
+    "Dark"
+   ],
+   "type_ids": [
+    "ground",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Kyogre": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Kyurem-White": {
+   "types": [
+    "Dragon",
+    "Ice"
+   ],
+   "type_ids": [
+    "dragon",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Landorus": {
+   "types": [
+    "Ground",
+    "Flying"
+   ],
+   "type_ids": [
+    "ground",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Landorus-Therian": {
+   "types": [
+    "Ground",
+    "Flying"
+   ],
+   "type_ids": [
+    "ground",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Lapras": {
+   "types": [
+    "Water",
+    "Ice"
+   ],
+   "type_ids": [
+    "water",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Latios": {
+   "types": [
+    "Dragon",
+    "Psychic"
+   ],
+   "type_ids": [
+    "dragon",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Leafeon": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Liepard": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Lilligant": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Lilligant-Hisui": {
+   "types": [
+    "Grass",
+    "Fighting"
+   ],
+   "type_ids": [
+    "grass",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Lokix": {
+   "types": [
+    "Bug",
+    "Dark"
+   ],
+   "type_ids": [
+    "bug",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Lucario": {
+   "types": [
+    "Fighting",
+    "Steel"
+   ],
+   "type_ids": [
+    "fighting",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Lucario-Mega-Z": {
+   "types": [
+    "Fighting",
+    "Steel"
+   ],
+   "type_ids": [
+    "fighting",
+    "steel"
+   ],
+   "match": "base-fallback",
+   "note": "Mega-Z 屬性待確認（暫用 Lucario 的屬性；dex 資料標 Future：Fighting/Steel，僅供參考）"
+  },
+  "Ludicolo": {
+   "types": [
+    "Water",
+    "Grass"
+   ],
+   "type_ids": [
+    "water",
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Lunala": {
+   "types": [
+    "Psychic",
+    "Ghost"
+   ],
+   "type_ids": [
+    "psychic",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Lycanroc": {
+   "types": [
+    "Rock"
+   ],
+   "type_ids": [
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Lycanroc-Dusk": {
+   "types": [
+    "Rock"
+   ],
+   "type_ids": [
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Magmar": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Malamar-Mega": {
+   "types": [
+    "Dark",
+    "Psychic"
+   ],
+   "type_ids": [
+    "dark",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Mamoswine": {
+   "types": [
+    "Ice",
+    "Ground"
+   ],
+   "type_ids": [
+    "ice",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Maushold": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Maushold-Four": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Mawile-Mega": {
+   "types": [
+    "Steel",
+    "Fairy"
+   ],
+   "type_ids": [
+    "steel",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Meganium-Mega": {
+   "types": [
+    "Grass",
+    "Fairy"
+   ],
+   "type_ids": [
+    "grass",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Meowscarada": {
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "type_ids": [
+    "grass",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Meowstic": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Mesprit": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Metagross": {
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "type_ids": [
+    "steel",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Mewtwo": {
+   "types": [
+    "Psychic"
+   ],
+   "type_ids": [
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Milotic": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Mimikyu": {
+   "types": [
+    "Ghost",
+    "Fairy"
+   ],
+   "type_ids": [
+    "ghost",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Miraidon": {
+   "types": [
+    "Electric",
+    "Dragon"
+   ],
+   "type_ids": [
+    "electric",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Misdreavus": {
+   "types": [
+    "Ghost"
+   ],
+   "type_ids": [
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Moltres": {
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "type_ids": [
+    "fire",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Moltres-Galar": {
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "type_ids": [
+    "dark",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Muk-Alola": {
+   "types": [
+    "Poison",
+    "Dark"
+   ],
+   "type_ids": [
+    "poison",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Murkrow": {
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "type_ids": [
+    "dark",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Naclstack": {
+   "types": [
+    "Rock"
+   ],
+   "type_ids": [
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Necrozma-Dawn-Wings": {
+   "types": [
+    "Psychic",
+    "Ghost"
+   ],
+   "type_ids": [
+    "psychic",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Necrozma-Dusk-Mane": {
+   "types": [
+    "Psychic",
+    "Steel"
+   ],
+   "type_ids": [
+    "psychic",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Ninetales-Alola": {
+   "types": [
+    "Ice",
+    "Fairy"
+   ],
+   "type_ids": [
+    "ice",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Ogerpon": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Ogerpon-Cornerstone": {
+   "types": [
+    "Grass",
+    "Rock"
+   ],
+   "type_ids": [
+    "grass",
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Ogerpon-Hearthflame": {
+   "types": [
+    "Grass",
+    "Fire"
+   ],
+   "type_ids": [
+    "grass",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Ogerpon-Wellspring": {
+   "types": [
+    "Grass",
+    "Water"
+   ],
+   "type_ids": [
+    "grass",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Okidogi": {
+   "types": [
+    "Poison",
+    "Fighting"
+   ],
+   "type_ids": [
+    "poison",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Oranguru": {
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "type_ids": [
+    "normal",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Oricorio-Pom-Pom": {
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "type_ids": [
+    "electric",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Oricorio-Sensu": {
+   "types": [
+    "Ghost",
+    "Flying"
+   ],
+   "type_ids": [
+    "ghost",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Orthworm": {
+   "types": [
+    "Steel"
+   ],
+   "type_ids": [
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Overqwil": {
+   "types": [
+    "Dark",
+    "Poison"
+   ],
+   "type_ids": [
+    "dark",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Pachirisu": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Palafin": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Palafin-Hero": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Palkia-Origin": {
+   "types": [
+    "Water",
+    "Dragon"
+   ],
+   "type_ids": [
+    "water",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Palossand": {
+   "types": [
+    "Ghost",
+    "Ground"
+   ],
+   "type_ids": [
+    "ghost",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Pawmot": {
+   "types": [
+    "Electric",
+    "Fighting"
+   ],
+   "type_ids": [
+    "electric",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Pelipper": {
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "type_ids": [
+    "water",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Persian-Alola": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Pincurchin": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Pinsir-Mega": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Politoed": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Porygon-Z": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Porygon2": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Primarina": {
+   "types": [
+    "Water",
+    "Fairy"
+   ],
+   "type_ids": [
+    "water",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Pyroar-Mega": {
+   "types": [
+    "Fire",
+    "Normal"
+   ],
+   "type_ids": [
+    "fire",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Quaquaval": {
+   "types": [
+    "Water",
+    "Fighting"
+   ],
+   "type_ids": [
+    "water",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Qwilfish-Hisui": {
+   "types": [
+    "Dark",
+    "Poison"
+   ],
+   "type_ids": [
+    "dark",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Raboot": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Rabsca": {
+   "types": [
+    "Bug",
+    "Psychic"
+   ],
+   "type_ids": [
+    "bug",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Raging Bolt": {
+   "types": [
+    "Electric",
+    "Dragon"
+   ],
+   "type_ids": [
+    "electric",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Raichu": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Raichu-Alola": {
+   "types": [
+    "Electric",
+    "Psychic"
+   ],
+   "type_ids": [
+    "electric",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Raichu-Mega-X": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Rayquaza": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Regidrago": {
+   "types": [
+    "Dragon"
+   ],
+   "type_ids": [
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Regieleki": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Regigigas": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Ribombee": {
+   "types": [
+    "Bug",
+    "Fairy"
+   ],
+   "type_ids": [
+    "bug",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Rillaboom": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Riolu": {
+   "types": [
+    "Fighting"
+   ],
+   "type_ids": [
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Roaring Moon": {
+   "types": [
+    "Dragon",
+    "Dark"
+   ],
+   "type_ids": [
+    "dragon",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Rotom-Heat": {
+   "types": [
+    "Electric",
+    "Fire"
+   ],
+   "type_ids": [
+    "electric",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Rotom-Wash": {
+   "types": [
+    "Electric",
+    "Water"
+   ],
+   "type_ids": [
+    "electric",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Sableye": {
+   "types": [
+    "Dark",
+    "Ghost"
+   ],
+   "type_ids": [
+    "dark",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Salamence": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Salamence-Mega": {
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "type_ids": [
+    "dragon",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Salazzle": {
+   "types": [
+    "Poison",
+    "Fire"
+   ],
+   "type_ids": [
+    "poison",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Samurott-Hisui": {
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "type_ids": [
+    "water",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Sandy Shocks": {
+   "types": [
+    "Electric",
+    "Ground"
+   ],
+   "type_ids": [
+    "electric",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Sceptile-Mega": {
+   "types": [
+    "Grass",
+    "Dragon"
+   ],
+   "type_ids": [
+    "grass",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Scizor": {
+   "types": [
+    "Bug",
+    "Steel"
+   ],
+   "type_ids": [
+    "bug",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Scovillain": {
+   "types": [
+    "Grass",
+    "Fire"
+   ],
+   "type_ids": [
+    "grass",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Scrafty-Mega": {
+   "types": [
+    "Dark",
+    "Fighting"
+   ],
+   "type_ids": [
+    "dark",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Scream Tail": {
+   "types": [
+    "Fairy",
+    "Psychic"
+   ],
+   "type_ids": [
+    "fairy",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Scyther": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Serperior": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Shaymin-Sky": {
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "type_ids": [
+    "grass",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Shiftry": {
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "type_ids": [
+    "grass",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Sinistcha": {
+   "types": [
+    "Grass",
+    "Ghost"
+   ],
+   "type_ids": [
+    "grass",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Skeledirge": {
+   "types": [
+    "Fire",
+    "Ghost"
+   ],
+   "type_ids": [
+    "fire",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Slither Wing": {
+   "types": [
+    "Bug",
+    "Fighting"
+   ],
+   "type_ids": [
+    "bug",
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Slurpuff": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Smeargle": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Sneasel-Hisui": {
+   "types": [
+    "Fighting",
+    "Poison"
+   ],
+   "type_ids": [
+    "fighting",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Sneasler": {
+   "types": [
+    "Fighting",
+    "Poison"
+   ],
+   "type_ids": [
+    "fighting",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Snorlax": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Spectrier": {
+   "types": [
+    "Ghost"
+   ],
+   "type_ids": [
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Squawkabilly": {
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "type_ids": [
+    "normal",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Squawkabilly-Blue": {
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "type_ids": [
+    "normal",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Stantler": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Staraptor-Mega": {
+   "types": [
+    "Fighting",
+    "Flying"
+   ],
+   "type_ids": [
+    "fighting",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Starmie-Mega": {
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "type_ids": [
+    "water",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Stonjourner": {
+   "types": [
+    "Rock"
+   ],
+   "type_ids": [
+    "rock"
+   ],
+   "match": "dex"
+  },
+  "Suicune": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Sunflora": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Swampert-Mega": {
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "type_ids": [
+    "water",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Sylveon": {
+   "types": [
+    "Fairy"
+   ],
+   "type_ids": [
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Talonflame": {
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "type_ids": [
+    "fire",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Tatsugiri": {
+   "types": [
+    "Dragon",
+    "Water"
+   ],
+   "type_ids": [
+    "dragon",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Tauros-Paldea-Aqua": {
+   "types": [
+    "Fighting",
+    "Water"
+   ],
+   "type_ids": [
+    "fighting",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Tentacruel": {
+   "types": [
+    "Water",
+    "Poison"
+   ],
+   "type_ids": [
+    "water",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Terapagos": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Terapagos-Stellar": {
+   "types": [
+    "Normal"
+   ],
+   "type_ids": [
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Thundurus": {
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "type_ids": [
+    "electric",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Thundurus-Therian": {
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "type_ids": [
+    "electric",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Ting-Lu": {
+   "types": [
+    "Dark",
+    "Ground"
+   ],
+   "type_ids": [
+    "dark",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Tinkaton": {
+   "types": [
+    "Fairy",
+    "Steel"
+   ],
+   "type_ids": [
+    "fairy",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Toedscruel": {
+   "types": [
+    "Ground",
+    "Grass"
+   ],
+   "type_ids": [
+    "ground",
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Torkoal": {
+   "types": [
+    "Fire"
+   ],
+   "type_ids": [
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Tornadus": {
+   "types": [
+    "Flying"
+   ],
+   "type_ids": [
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Torterra": {
+   "types": [
+    "Grass",
+    "Ground"
+   ],
+   "type_ids": [
+    "grass",
+    "ground"
+   ],
+   "match": "dex"
+  },
+  "Toxapex": {
+   "types": [
+    "Poison",
+    "Water"
+   ],
+   "type_ids": [
+    "poison",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Toxtricity-Low-Key": {
+   "types": [
+    "Electric",
+    "Poison"
+   ],
+   "type_ids": [
+    "electric",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Tsareena": {
+   "types": [
+    "Grass"
+   ],
+   "type_ids": [
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Typhlosion-Hisui": {
+   "types": [
+    "Fire",
+    "Ghost"
+   ],
+   "type_ids": [
+    "fire",
+    "ghost"
+   ],
+   "match": "dex"
+  },
+  "Tyranitar": {
+   "types": [
+    "Rock",
+    "Dark"
+   ],
+   "type_ids": [
+    "rock",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Tyranitar-Mega": {
+   "types": [
+    "Rock",
+    "Dark"
+   ],
+   "type_ids": [
+    "rock",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Umbreon": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Ursaluna": {
+   "types": [
+    "Ground",
+    "Normal"
+   ],
+   "type_ids": [
+    "ground",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Ursaluna-Bloodmoon": {
+   "types": [
+    "Ground",
+    "Normal"
+   ],
+   "type_ids": [
+    "ground",
+    "normal"
+   ],
+   "match": "dex"
+  },
+  "Urshifu": {
+   "types": [
+    "Fighting",
+    "Dark"
+   ],
+   "type_ids": [
+    "fighting",
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Urshifu-Rapid-Strike": {
+   "types": [
+    "Fighting",
+    "Water"
+   ],
+   "type_ids": [
+    "fighting",
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Vaporeon": {
+   "types": [
+    "Water"
+   ],
+   "type_ids": [
+    "water"
+   ],
+   "match": "dex"
+  },
+  "Veluza": {
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "type_ids": [
+    "water",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Venonat": {
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "type_ids": [
+    "bug",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Venusaur": {
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "type_ids": [
+    "grass",
+    "poison"
+   ],
+   "match": "dex"
+  },
+  "Vivillon": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Vivillon-Fancy": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Vivillon-Marine": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Volcarona": {
+   "types": [
+    "Bug",
+    "Fire"
+   ],
+   "type_ids": [
+    "bug",
+    "fire"
+   ],
+   "match": "dex"
+  },
+  "Walking Wake": {
+   "types": [
+    "Water",
+    "Dragon"
+   ],
+   "type_ids": [
+    "water",
+    "dragon"
+   ],
+   "match": "dex"
+  },
+  "Weavile": {
+   "types": [
+    "Dark",
+    "Ice"
+   ],
+   "type_ids": [
+    "dark",
+    "ice"
+   ],
+   "match": "dex"
+  },
+  "Weezing-Galar": {
+   "types": [
+    "Poison",
+    "Fairy"
+   ],
+   "type_ids": [
+    "poison",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Whimsicott": {
+   "types": [
+    "Grass",
+    "Fairy"
+   ],
+   "type_ids": [
+    "grass",
+    "fairy"
+   ],
+   "match": "dex"
+  },
+  "Wo-Chien": {
+   "types": [
+    "Dark",
+    "Grass"
+   ],
+   "type_ids": [
+    "dark",
+    "grass"
+   ],
+   "match": "dex"
+  },
+  "Wyrdeer": {
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "type_ids": [
+    "normal",
+    "psychic"
+   ],
+   "match": "dex"
+  },
+  "Yanmega": {
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "type_ids": [
+    "bug",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Zacian-Crowned": {
+   "types": [
+    "Fairy",
+    "Steel"
+   ],
+   "type_ids": [
+    "fairy",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Zamazenta": {
+   "types": [
+    "Fighting"
+   ],
+   "type_ids": [
+    "fighting"
+   ],
+   "match": "dex"
+  },
+  "Zamazenta-Crowned": {
+   "types": [
+    "Fighting",
+    "Steel"
+   ],
+   "type_ids": [
+    "fighting",
+    "steel"
+   ],
+   "match": "dex"
+  },
+  "Zapdos": {
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "type_ids": [
+    "electric",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Zapdos-Galar": {
+   "types": [
+    "Fighting",
+    "Flying"
+   ],
+   "type_ids": [
+    "fighting",
+    "flying"
+   ],
+   "match": "dex"
+  },
+  "Zebstrika": {
+   "types": [
+    "Electric"
+   ],
+   "type_ids": [
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Zekrom": {
+   "types": [
+    "Dragon",
+    "Electric"
+   ],
+   "type_ids": [
+    "dragon",
+    "electric"
+   ],
+   "match": "dex"
+  },
+  "Zoroark": {
+   "types": [
+    "Dark"
+   ],
+   "type_ids": [
+    "dark"
+   ],
+   "match": "dex"
+  },
+  "Zoroark-Hisui": {
+   "types": [
+    "Normal",
+    "Ghost"
+   ],
+   "type_ids": [
+    "normal",
+    "ghost"
+   ],
+   "match": "dex"
+  }
+ },
+ "moves": {
+  "Accelerock": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Acid Armor": {
+   "type_id": "poison",
+   "category": "status",
+   "match": "dex"
+  },
+  "Acid Spray": {
+   "type_id": "poison",
+   "category": "special",
+   "match": "dex"
+  },
+  "Acrobatics": {
+   "type_id": "flying",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Aerial Ace": {
+   "type_id": "flying",
+   "category": "physical",
+   "match": "dex"
+  },
+  "After You": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Air Cutter": {
+   "type_id": "flying",
+   "category": "special",
+   "match": "dex"
+  },
+  "Air Slash": {
+   "type_id": "flying",
+   "category": "special",
+   "match": "dex"
+  },
+  "Alluring Voice": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Ally Switch": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Amnesia": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Ancient Power": {
+   "type_id": "rock",
+   "category": "special",
+   "match": "dex"
+  },
+  "Aqua Cutter": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Aqua Jet": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Aqua Step": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Armor Cannon": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Aromatic Mist": {
+   "type_id": "fairy",
+   "category": "status",
+   "match": "dex"
+  },
+  "Assurance": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Astral Barrage": {
+   "type_id": "ghost",
+   "category": "special",
+   "match": "dex"
+  },
+  "Aura Sphere": {
+   "type_id": "fighting",
+   "category": "special",
+   "match": "dex"
+  },
+  "Aurora Veil": {
+   "type_id": "ice",
+   "category": "status",
+   "match": "dex"
+  },
+  "Baneful Bunker": {
+   "type_id": "poison",
+   "category": "status",
+   "match": "dex"
+  },
+  "Barb Barrage": {
+   "type_id": "poison",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Beat Up": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Behemoth Blade": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Belly Drum": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Bitter Blade": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Bitter Malice": {
+   "type_id": "ghost",
+   "category": "special",
+   "match": "dex"
+  },
+  "Bleakwind Storm": {
+   "type_id": "flying",
+   "category": "special",
+   "match": "dex"
+  },
+  "Blizzard": {
+   "type_id": "ice",
+   "category": "special",
+   "match": "dex"
+  },
+  "Blood Moon": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Body Press": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Body Slam": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Boomburst": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Brave Bird": {
+   "type_id": "flying",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Breaking Swipe": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Brick Break": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Bug Buzz": {
+   "type_id": "bug",
+   "category": "special",
+   "match": "dex"
+  },
+  "Bulk Up": {
+   "type_id": "fighting",
+   "category": "status",
+   "match": "dex"
+  },
+  "Bulldoze": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Bullet Punch": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Bullet Seed": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Burning Jealousy": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Calm Mind": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Charm": {
+   "type_id": "fairy",
+   "category": "status",
+   "match": "dex"
+  },
+  "Chilling Water": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Clanging Scales": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Clangorous Soul": {
+   "type_id": "dragon",
+   "category": "status",
+   "match": "dex"
+  },
+  "Clear Smog": {
+   "type_id": "poison",
+   "category": "special",
+   "match": "dex"
+  },
+  "Close Combat": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Coaching": {
+   "type_id": "fighting",
+   "category": "status",
+   "match": "dex"
+  },
+  "Coil": {
+   "type_id": "poison",
+   "category": "status",
+   "match": "dex"
+  },
+  "Collision Course": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Comeuppance": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Copycat": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Cosmic Power": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Cotton Spore": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Crunch": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Crush Grip": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Curse": {
+   "type_id": "ghost",
+   "category": "status",
+   "match": "dex"
+  },
+  "Dark Pulse": {
+   "type_id": "dark",
+   "category": "special",
+   "match": "dex"
+  },
+  "Darkest Lariat": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dazzling Gleam": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Decorate": {
+   "type_id": "fairy",
+   "category": "status",
+   "match": "dex"
+  },
+  "Detect": {
+   "type_id": "fighting",
+   "category": "status",
+   "match": "dex"
+  },
+  "Dire Claw": {
+   "type_id": "poison",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Disable": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Discharge": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Double Shock": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Double-Edge": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Draco Meteor": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Dragon Ascent": {
+   "type_id": "flying",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dragon Cheer": {
+   "type_id": "dragon",
+   "category": "status",
+   "match": "dex"
+  },
+  "Dragon Claw": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dragon Dance": {
+   "type_id": "dragon",
+   "category": "status",
+   "match": "dex"
+  },
+  "Dragon Darts": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dragon Energy": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Dragon Pulse": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Drain Punch": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Draining Kiss": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Drill Run": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Drum Beating": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dual Wingbeat": {
+   "type_id": "flying",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Dynamax Cannon": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Dynamic Punch": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Earth Power": {
+   "type_id": "ground",
+   "category": "special",
+   "match": "dex"
+  },
+  "Earthquake": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Eerie Impulse": {
+   "type_id": "electric",
+   "category": "status",
+   "match": "dex"
+  },
+  "Electric Terrain": {
+   "type_id": "electric",
+   "category": "status",
+   "match": "dex"
+  },
+  "Electro Ball": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Electro Drift": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Electro Shot": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Electroweb": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Encore": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Endeavor": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Endure": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Energy Ball": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Entrainment": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Eruption": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Expanding Force": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Explosion": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Extreme Speed": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Facade": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fairy Wind": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fake Out": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fake Tears": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Feather Dance": {
+   "type_id": "flying",
+   "category": "status",
+   "match": "dex"
+  },
+  "Feint": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fell Stinger": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fickle Beam": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fiery Dance": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fiery Wrath": {
+   "type_id": "dark",
+   "category": "special",
+   "match": "dex"
+  },
+  "Final Gambit": {
+   "type_id": "fighting",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fire Blast": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fire Pledge": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fire Punch": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "First Impression": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fissure": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Flame Charge": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Flamethrower": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Flare Blitz": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Flash Cannon": {
+   "type_id": "steel",
+   "category": "special",
+   "match": "dex"
+  },
+  "Flip Turn": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Flower Trick": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Focus Blast": {
+   "type_id": "fighting",
+   "category": "special",
+   "match": "dex"
+  },
+  "Focus Energy": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Follow Me": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Foul Play": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Freeze-Dry": {
+   "type_id": "ice",
+   "category": "special",
+   "match": "dex"
+  },
+  "Freezing Glare": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Fusion Bolt": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Fusion Flare": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Giga Drain": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Giga Impact": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Gigaton Hammer": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Glacial Lance": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Glaive Rush": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Glare": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Grass Knot": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Grass Pledge": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Grassy Glide": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Gravity": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Gunk Shot": {
+   "type_id": "poison",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Gyro Ball": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Hammer Arm": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Haze": {
+   "type_id": "ice",
+   "category": "status",
+   "match": "dex"
+  },
+  "Head Smash": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Headlong Rush": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Heal Pulse": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Heat Crash": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Heat Wave": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Heavy Slam": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Helping Hand": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Hex": {
+   "type_id": "ghost",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hidden Power": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "High Horsepower": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "High Jump Kick": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Horn Drill": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Horn Leech": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Howl": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Hurricane": {
+   "type_id": "flying",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hydro Pump": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hydro Steam": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hyper Beam": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hyper Drill": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Hyper Voice": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Hypnosis": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Ice Beam": {
+   "type_id": "ice",
+   "category": "special",
+   "match": "dex"
+  },
+  "Ice Hammer": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Ice Punch": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Ice Shard": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Ice Spinner": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Icicle Crash": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Icicle Spear": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Icy Wind": {
+   "type_id": "ice",
+   "category": "special",
+   "match": "dex"
+  },
+  "Imprison": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Infestation": {
+   "type_id": "bug",
+   "category": "special",
+   "match": "dex"
+  },
+  "Instruct": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Iron Defense": {
+   "type_id": "steel",
+   "category": "status",
+   "match": "dex"
+  },
+  "Iron Head": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Ivy Cudgel": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Jet Punch": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Judgment": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "King’s Shield": {
+   "type_id": "steel",
+   "category": "status",
+   "match": "dex"
+  },
+  "Knock Off": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Kowtow Cleave": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Lash Out": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Last Resort": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Last Respects": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Lava Plume": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Leaf Blade": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Leaf Storm": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Leech Life": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Leech Seed": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Leer": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Life Dew": {
+   "type_id": "water",
+   "category": "status",
+   "match": "dex"
+  },
+  "Light Screen": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Light of Ruin": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Liquidation": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Low Kick": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Lunar Blessing": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Luster Purge": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Mach Punch": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Magma Storm": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Make It Rain": {
+   "type_id": "steel",
+   "category": "special",
+   "match": "dex"
+  },
+  "Matcha Gotcha": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Megahorn": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Meteor Beam": {
+   "type_id": "rock",
+   "category": "special",
+   "match": "dex"
+  },
+  "Meteor Mash": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Minimize": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Mist": {
+   "type_id": "ice",
+   "category": "status",
+   "match": "dex"
+  },
+  "Moonblast": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Moongeist Beam": {
+   "type_id": "ghost",
+   "category": "special",
+   "match": "dex"
+  },
+  "Moonlight": {
+   "type_id": "fairy",
+   "category": "status",
+   "match": "dex"
+  },
+  "Morning Sun": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Mortal Spin": {
+   "type_id": "poison",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Mountain Gale": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Mud Shot": {
+   "type_id": "ground",
+   "category": "special",
+   "match": "dex"
+  },
+  "Muddy Water": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Mystical Fire": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Mystical Power": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Nasty Plot": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Night Slash": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Nuzzle": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Order Up": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Origin Pulse": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Outrage": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Overdrive": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Overheat": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Pain Split": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Parabolic Charge": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Parting Shot": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Payback": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Perish Song": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Petal Dance": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Phantom Force": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Photon Geyser": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Play Rough": {
+   "type_id": "fairy",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Poison Jab": {
+   "type_id": "poison",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Pollen Puff": {
+   "type_id": "bug",
+   "category": "special",
+   "match": "dex"
+  },
+  "Poltergeist": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Population Bomb": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Power Gem": {
+   "type_id": "rock",
+   "category": "special",
+   "match": "dex"
+  },
+  "Power Trip": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Power Whip": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Precipice Blades": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Protect": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Psyblade": {
+   "type_id": "psychic",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Psych Up": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Psychic": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Psychic Fangs": {
+   "type_id": "psychic",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Psychic Noise": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Psycho Boost": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Psycho Cut": {
+   "type_id": "psychic",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Psyshock": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Psystrike": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Pyro Ball": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Quash": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Quick Attack": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Quick Guard": {
+   "type_id": "fighting",
+   "category": "status",
+   "match": "dex"
+  },
+  "Quiver Dance": {
+   "type_id": "bug",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rage Fist": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Rage Powder": {
+   "type_id": "bug",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rain Dance": {
+   "type_id": "water",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rapid Spin": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Recover": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Reflect": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rest": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Revelation Dance": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Revival Blessing": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rising Voltage": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Roar": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Rock Blast": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Rock Slide": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Rock Tomb": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Roost": {
+   "type_id": "flying",
+   "category": "status",
+   "match": "dex"
+  },
+  "Ruination": {
+   "type_id": "dark",
+   "category": "special",
+   "match": "dex"
+  },
+  "Sacred Fire": {
+   "type_id": "fire",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Sacred Sword": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Salt Cure": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Sandsear Storm": {
+   "type_id": "ground",
+   "category": "special",
+   "match": "dex"
+  },
+  "Scald": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Scale Shot": {
+   "type_id": "dragon",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Scary Face": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Scorching Sands": {
+   "type_id": "ground",
+   "category": "special",
+   "match": "dex"
+  },
+  "Screech": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Seed Bomb": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Seed Flare": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Shadow Ball": {
+   "type_id": "ghost",
+   "category": "special",
+   "match": "dex"
+  },
+  "Shadow Claw": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Shadow Force": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Shadow Sneak": {
+   "type_id": "ghost",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Shed Tail": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sheer Cold": {
+   "type_id": "ice",
+   "category": "special",
+   "match": "dex"
+  },
+  "Shell Smash": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Shelter": {
+   "type_id": "steel",
+   "category": "status",
+   "match": "dex"
+  },
+  "Shore Up": {
+   "type_id": "ground",
+   "category": "status",
+   "match": "dex"
+  },
+  "Simple Beam": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sing": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Skill Swap": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Slack Off": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sleep Powder": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sleep Talk": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sludge Bomb": {
+   "type_id": "poison",
+   "category": "special",
+   "match": "dex"
+  },
+  "Sludge Wave": {
+   "type_id": "poison",
+   "category": "special",
+   "match": "dex"
+  },
+  "Snarl": {
+   "type_id": "dark",
+   "category": "special",
+   "match": "dex"
+  },
+  "Soak": {
+   "type_id": "water",
+   "category": "status",
+   "match": "dex"
+  },
+  "Solar Beam": {
+   "type_id": "grass",
+   "category": "special",
+   "match": "dex"
+  },
+  "Solar Blade": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Spacial Rend": {
+   "type_id": "dragon",
+   "category": "special",
+   "match": "dex"
+  },
+  "Speed Swap": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Spicy Extract": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Spiky Shield": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Spirit Break": {
+   "type_id": "fairy",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Spite": {
+   "type_id": "ghost",
+   "category": "status",
+   "match": "dex"
+  },
+  "Spore": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "Steel Beam": {
+   "type_id": "steel",
+   "category": "special",
+   "match": "dex"
+  },
+  "Stockpile": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Stomping Tantrum": {
+   "type_id": "ground",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Stone Axe": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Stone Edge": {
+   "type_id": "rock",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Stored Power": {
+   "type_id": "psychic",
+   "category": "special",
+   "match": "dex"
+  },
+  "Strange Steam": {
+   "type_id": "fairy",
+   "category": "special",
+   "match": "dex"
+  },
+  "Strength Sap": {
+   "type_id": "grass",
+   "category": "status",
+   "match": "dex"
+  },
+  "String Shot": {
+   "type_id": "bug",
+   "category": "status",
+   "match": "dex"
+  },
+  "Struggle Bug": {
+   "type_id": "bug",
+   "category": "special",
+   "match": "dex"
+  },
+  "Substitute": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sucker Punch": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Sunny Day": {
+   "type_id": "fire",
+   "category": "status",
+   "match": "dex"
+  },
+  "Sunsteel Strike": {
+   "type_id": "steel",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Super Fang": {
+   "type_id": "normal",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Superpower": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Surf": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Surging Strikes": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Swagger": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Swords Dance": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Tachyon Cutter": {
+   "type_id": "steel",
+   "category": "special",
+   "match": "dex"
+  },
+  "Tailwind": {
+   "type_id": "flying",
+   "category": "status",
+   "match": "dex"
+  },
+  "Taunt": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Tera Blast": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Tera Starstorm": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Terrain Pulse": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Throat Chop": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Thunder": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Thunder Punch": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Thunder Wave": {
+   "type_id": "electric",
+   "category": "status",
+   "match": "dex"
+  },
+  "Thunderbolt": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Thunderclap": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Thunderous Kick": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Torch Song": {
+   "type_id": "fire",
+   "category": "special",
+   "match": "dex"
+  },
+  "Torment": {
+   "type_id": "dark",
+   "category": "status",
+   "match": "dex"
+  },
+  "Toxic": {
+   "type_id": "poison",
+   "category": "status",
+   "match": "dex"
+  },
+  "Toxic Spikes": {
+   "type_id": "poison",
+   "category": "status",
+   "match": "dex"
+  },
+  "Trailblaze": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Transform": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Tri Attack": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Trick": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Trick Room": {
+   "type_id": "psychic",
+   "category": "status",
+   "match": "dex"
+  },
+  "Triple Arrows": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Triple Axel": {
+   "type_id": "ice",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Trop Kick": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "U-turn": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Upper Hand": {
+   "type_id": "fighting",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Vacuum Wave": {
+   "type_id": "fighting",
+   "category": "special",
+   "match": "dex"
+  },
+  "Volt Switch": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Volt Tackle": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Water Pledge": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Water Pulse": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Water Shuriken": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Water Spout": {
+   "type_id": "water",
+   "category": "special",
+   "match": "dex"
+  },
+  "Waterfall": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Wave Crash": {
+   "type_id": "water",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Weather Ball": {
+   "type_id": "normal",
+   "category": "special",
+   "match": "dex"
+  },
+  "Whirlwind": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Wicked Blow": {
+   "type_id": "dark",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Wide Guard": {
+   "type_id": "rock",
+   "category": "status",
+   "match": "dex"
+  },
+  "Wild Charge": {
+   "type_id": "electric",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Wildbolt Storm": {
+   "type_id": "electric",
+   "category": "special",
+   "match": "dex"
+  },
+  "Will-O-Wisp": {
+   "type_id": "fire",
+   "category": "status",
+   "match": "dex"
+  },
+  "Wish": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Wood Hammer": {
+   "type_id": "grass",
+   "category": "physical",
+   "match": "dex"
+  },
+  "X-Scissor": {
+   "type_id": "bug",
+   "category": "physical",
+   "match": "dex"
+  },
+  "Yawn": {
+   "type_id": "normal",
+   "category": "status",
+   "match": "dex"
+  },
+  "Zen Headbutt": {
+   "type_id": "psychic",
+   "category": "physical",
+   "match": "dex"
+  }
+ },
+ "items": {
+  "Abomasite": {
+   "slug": "abomasite",
+   "icon": "icons/abomasite.png",
+   "name_zh": "暴雪王進化石",
+   "match": "exact"
+  },
+  "Absolite Z": {
+   "slug": "absolite-z",
+   "icon": "icons/absolite-z.png",
+   "name_zh": "阿勃梭魯進化石Z",
+   "match": "exact"
+  },
+  "Aerodactylite": {
+   "slug": "aerodactylite",
+   "icon": "icons/aerodactylite.png",
+   "name_zh": "化石翼龍進化石",
+   "match": "exact"
+  },
+  "Aguav Berry": {
+   "slug": "aguav-berry",
+   "icon": "icons/aguav-berry.png",
+   "name_zh": "樂芭果",
+   "match": "exact"
+  },
+  "Ampharosite": {
+   "slug": "ampharosite",
+   "icon": "icons/ampharosite.png",
+   "name_zh": "電龍進化石",
+   "match": "exact"
+  },
+  "Assault Vest": {
+   "slug": "assault-vest",
+   "icon": "icons/assault-vest.png",
+   "name_zh": "突擊背心",
+   "match": "exact"
+  },
+  "Audinite": {
+   "slug": "audinite",
+   "icon": "icons/audinite.png",
+   "name_zh": "差不多娃娃進化石",
+   "match": "exact"
+  },
+  "Babiri Berry": {
+   "slug": "babiri-berry",
+   "icon": "icons/babiri-berry.png",
+   "name_zh": "霹霹果",
+   "match": "exact"
+  },
+  "Binding Band": {
+   "slug": "binding-band",
+   "icon": "icons/binding-band.png",
+   "name_zh": "緊綁束帶",
+   "match": "exact"
+  },
+  "Black Belt": {
+   "slug": "black-belt",
+   "icon": "icons/black-belt.png",
+   "name_zh": "黑帶",
+   "match": "exact"
+  },
+  "Black Glasses": {
+   "slug": "black-glasses",
+   "icon": "icons/black-glasses.png",
+   "name_zh": "黑色眼鏡",
+   "match": "exact"
+  },
+  "Black Sludge": {
+   "slug": "black-sludge",
+   "icon": "icons/black-sludge.png",
+   "name_zh": "黑色污泥",
+   "match": "exact"
+  },
+  "Blastoisinite": {
+   "slug": "blastoisinite",
+   "icon": "icons/blastoisinite.png",
+   "name_zh": "水箭龜進化石",
+   "match": "exact"
+  },
+  "Blunder Policy": {
+   "slug": "blunder-policy",
+   "icon": "icons/blunder-policy.png",
+   "name_zh": "打空保險",
+   "match": "exact"
+  },
+  "Booster Energy": {
+   "slug": "booster-energy",
+   "icon": "icons/booster-energy.png",
+   "name_zh": "驅勁能量",
+   "match": "exact"
+  },
+  "Bright Powder": {
+   "slug": "bright-powder",
+   "icon": "icons/bright-powder.png",
+   "name_zh": "光粉",
+   "match": "exact"
+  },
+  "Cameruptite": {
+   "slug": "cameruptite",
+   "icon": "icons/cameruptite.png",
+   "name_zh": "噴火駝進化石",
+   "match": "exact"
+  },
+  "Chandelurite": {
+   "slug": "chandelurite",
+   "icon": "icons/chandelurite.png",
+   "name_zh": "水晶燈火靈進化石",
+   "match": "exact"
+  },
+  "Charcoal": {
+   "slug": "charcoal",
+   "icon": "icons/charcoal.png",
+   "name_zh": "木炭",
+   "match": "exact"
+  },
+  "Charizardite X": {
+   "slug": "charizardite-x",
+   "icon": "icons/charizardite-x.png",
+   "name_zh": "噴火龍進化石Ｘ",
+   "match": "exact"
+  },
+  "Charizardite Y": {
+   "slug": "charizardite-y",
+   "icon": "icons/charizardite-y.png",
+   "name_zh": "噴火龍進化石Ｙ",
+   "match": "exact"
+  },
+  "Chesto Berry": {
+   "slug": "chesto-berry",
+   "icon": "icons/chesto-berry.png",
+   "name_zh": "零餘果",
+   "match": "exact"
+  },
+  "Choice Band": {
+   "slug": "choice-band",
+   "icon": "icons/choice-band.png",
+   "name_zh": "講究頭帶",
+   "match": "exact"
+  },
+  "Choice Scarf": {
+   "slug": "choice-scarf",
+   "icon": "icons/choice-scarf.png",
+   "name_zh": "講究圍巾",
+   "match": "exact"
+  },
+  "Choice Specs": {
+   "slug": "choice-specs",
+   "icon": "icons/choice-specs.png",
+   "name_zh": "講究眼鏡",
+   "match": "exact"
+  },
+  "Chople Berry": {
+   "slug": "chople-berry",
+   "icon": "icons/chople-berry.png",
+   "name_zh": "蓮蒲果",
+   "match": "exact"
+  },
+  "Clear Amulet": {
+   "slug": "clear-amulet",
+   "icon": "icons/clear-amulet.png",
+   "name_zh": "清淨墜飾",
+   "match": "exact"
+  },
+  "Coba Berry": {
+   "slug": "coba-berry",
+   "icon": "icons/coba-berry.png",
+   "name_zh": "稜瓜果",
+   "match": "exact"
+  },
+  "Colbur Berry": {
+   "slug": "colbur-berry",
+   "icon": "icons/colbur-berry.png",
+   "name_zh": "刺耳果",
+   "match": "exact"
+  },
+  "Cornerstone Mask": {
+   "slug": "cornerstone-mask",
+   "icon": "icons/cornerstone-mask.png",
+   "name_zh": "礎石面具",
+   "match": "exact"
+  },
+  "Covert Cloak": {
+   "slug": "covert-cloak",
+   "icon": "icons/covert-cloak.png",
+   "name_zh": "密探斗篷",
+   "match": "exact"
+  },
+  "Custap Berry": {
+   "slug": "custap-berry",
+   "icon": "icons/custap-berry.png",
+   "name_zh": "釋陀果",
+   "match": "exact"
+  },
+  "Delphoxite": {
+   "slug": "delphoxite",
+   "icon": "icons/delphoxite.png",
+   "name_zh": "妖火紅狐進化石",
+   "match": "exact"
+  },
+  "Dragon Fang": {
+   "slug": "dragon-fang",
+   "icon": "icons/dragon-fang.png",
+   "name_zh": "龍之牙",
+   "match": "exact"
+  },
+  "Dragoninite": {
+   "slug": "dragoninite",
+   "icon": "icons/dragoninite.png",
+   "name_zh": "快龍進化石",
+   "match": "exact"
+  },
+  "Dread Plate": {
+   "slug": "dread-plate",
+   "icon": "icons/dread-plate.png",
+   "name_zh": "惡顏石板",
+   "match": "exact"
+  },
+  "Earth Plate": {
+   "slug": "earth-plate",
+   "icon": "icons/earth-plate.png",
+   "name_zh": "大地石板",
+   "match": "exact"
+  },
+  "Eject Button": {
+   "slug": "eject-button",
+   "icon": "icons/eject-button.png",
+   "name_zh": "逃脫按鍵",
+   "match": "exact"
+  },
+  "Eject Pack": {
+   "slug": "eject-pack",
+   "icon": "icons/eject-pack.png",
+   "name_zh": "避難背包",
+   "match": "exact"
+  },
+  "Electric Seed": {
+   "slug": "electric-seed",
+   "icon": "icons/electric-seed.png",
+   "name_zh": "電氣種子",
+   "match": "exact"
+  },
+  "Eviolite": {
+   "slug": "eviolite",
+   "icon": "icons/eviolite.png",
+   "name_zh": "進化奇石",
+   "match": "exact"
+  },
+  "Excadrite": {
+   "slug": "excadrite",
+   "icon": "icons/excadrite.png",
+   "name_zh": "龍頭地鼠進化石",
+   "match": "exact"
+  },
+  "Expert Belt": {
+   "slug": "expert-belt",
+   "icon": "icons/expert-belt.png",
+   "name_zh": "達人帶",
+   "match": "exact"
+  },
+  "Fairy Feather": {
+   "slug": "fairy-feather",
+   "icon": "icons/fairy-feather.png",
+   "name_zh": "妖精之羽",
+   "match": "exact"
+  },
+  "Figy Berry": {
+   "slug": "figy-berry",
+   "icon": "icons/figy-berry.png",
+   "name_zh": "勿花果",
+   "match": "exact"
+  },
+  "Flame Orb": {
+   "slug": "flame-orb",
+   "icon": "icons/flame-orb.png",
+   "name_zh": "火焰寶珠",
+   "match": "exact"
+  },
+  "Floettite": {
+   "slug": "floettite",
+   "icon": "icons/floettite.png",
+   "name_zh": "花葉蒂進化石",
+   "match": "exact"
+  },
+  "Focus Sash": {
+   "slug": "focus-sash",
+   "icon": "icons/focus-sash.png",
+   "name_zh": "氣勢披帶",
+   "match": "exact"
+  },
+  "Froslassite": {
+   "slug": "froslassite",
+   "icon": "icons/froslassite.png",
+   "name_zh": "雪妖女進化石",
+   "match": "exact"
+  },
+  "Gengarite": {
+   "slug": "gengarite",
+   "icon": "icons/gengarite.png",
+   "name_zh": "耿鬼進化石",
+   "match": "exact"
+  },
+  "Glimmoranite": {
+   "slug": "glimmoranite",
+   "icon": "icons/glimmoranite.png",
+   "name_zh": "晶光花進化石",
+   "match": "exact"
+  },
+  "Golisopite": {
+   "slug": "golisopite",
+   "icon": "icons/golisopite.png",
+   "name_zh": "具甲武者進化石",
+   "match": "exact"
+  },
+  "Golurkite": {
+   "slug": "golurkite",
+   "icon": "icons/golurkite.png",
+   "name_zh": "泥偶巨人進化石",
+   "match": "exact"
+  },
+  "Grassy Seed": {
+   "slug": "grassy-seed",
+   "icon": "icons/grassy-seed.png",
+   "name_zh": "青草種子",
+   "match": "exact"
+  },
+  "Greninjite": {
+   "slug": "greninjite",
+   "icon": "icons/greninjite.png",
+   "name_zh": "甲賀忍蛙進化石",
+   "match": "exact"
+  },
+  "Griseous Core": {
+   "slug": "griseous-core",
+   "icon": "icons/griseous-core.png",
+   "name_zh": "大白金寶玉",
+   "match": "exact"
+  },
+  "Hawluchanite": {
+   "slug": "hawluchanite",
+   "icon": "icons/hawluchanite.png",
+   "name_zh": "摔角鷹人進化石",
+   "match": "exact"
+  },
+  "Hearthflame Mask": {
+   "slug": "hearthflame-mask",
+   "icon": "icons/hearthflame-mask.png",
+   "name_zh": "火灶面具",
+   "match": "exact"
+  },
+  "Heat Rock": {
+   "slug": "heat-rock",
+   "icon": "icons/heat-rock.png",
+   "name_zh": "熾熱岩石",
+   "match": "exact"
+  },
+  "Iapapa Berry": {
+   "slug": "iapapa-berry",
+   "icon": "icons/iapapa-berry.png",
+   "name_zh": "芭亞果",
+   "match": "exact"
+  },
+  "Iron Ball": {
+   "slug": "iron-ball",
+   "icon": "icons/iron-ball.png",
+   "name_zh": "黑色鐵球",
+   "match": "exact"
+  },
+  "Kangaskhanite": {
+   "slug": "kangaskhanite",
+   "icon": "icons/kangaskhanite.png",
+   "name_zh": "袋獸進化石",
+   "match": "exact"
+  },
+  "Kasib Berry": {
+   "slug": "kasib-berry",
+   "icon": "icons/kasib-berry.png",
+   "name_zh": "佛柑果",
+   "match": "exact"
+  },
+  "Kebia Berry": {
+   "slug": "kebia-berry",
+   "icon": "icons/kebia-berry.png",
+   "name_zh": "通通果",
+   "match": "exact"
+  },
+  "Lagging Tail": {
+   "slug": "lagging-tail",
+   "icon": "icons/lagging-tail.png",
+   "name_zh": "後攻之尾",
+   "match": "exact"
+  },
+  "Leftovers": {
+   "slug": "leftovers",
+   "icon": "icons/leftovers.png",
+   "name_zh": "吃剩的東西",
+   "match": "exact"
+  },
+  "Life Orb": {
+   "slug": "life-orb",
+   "icon": "icons/life-orb.png",
+   "name_zh": "生命寶珠",
+   "match": "exact"
+  },
+  "Light Clay": {
+   "slug": "light-clay",
+   "icon": "icons/light-clay.png",
+   "name_zh": "光之黏土",
+   "match": "exact"
+  },
+  "Loaded Dice": {
+   "slug": "loaded-dice",
+   "icon": "icons/loaded-dice.png",
+   "name_zh": "老千骰子",
+   "match": "exact"
+  },
+  "Lucarionite Z": {
+   "slug": "lucarionite-z",
+   "icon": "icons/lucarionite-z.png",
+   "name_zh": "路卡利歐進化石Z",
+   "match": "exact"
+  },
+  "Lum Berry": {
+   "slug": "lum-berry",
+   "icon": "icons/lum-berry.png",
+   "name_zh": "木子果",
+   "match": "exact"
+  },
+  "Lustrous Globe": {
+   "slug": "lustrous-globe",
+   "icon": "icons/lustrous-globe.png",
+   "name_zh": "大白寶玉",
+   "match": "exact"
+  },
+  "Magnet": {
+   "slug": "magnet",
+   "icon": "icons/magnet.png",
+   "name_zh": "磁鐵",
+   "match": "exact"
+  },
+  "Mago Berry": {
+   "slug": "mago-berry",
+   "icon": "icons/mago-berry.png",
+   "name_zh": "芒芒果",
+   "match": "exact"
+  },
+  "Malamarite": {
+   "slug": "malamarite",
+   "icon": "icons/malamarite.png",
+   "name_zh": "烏賊王進化石",
+   "match": "exact"
+  },
+  "Maranga Berry": {
+   "slug": "maranga-berry",
+   "icon": "icons/maranga-berry.png",
+   "name_zh": "香羅果",
+   "match": "exact"
+  },
+  "Mawilite": {
+   "slug": "mawilite",
+   "icon": "icons/mawilite.png",
+   "name_zh": "大嘴娃進化石",
+   "match": "exact"
+  },
+  "Meganiumite": {
+   "slug": "meganiumite",
+   "icon": "icons/meganiumite.png",
+   "name_zh": "大竺葵進化石",
+   "match": "exact"
+  },
+  "Mental Herb": {
+   "slug": "mental-herb",
+   "icon": "icons/mental-herb.png",
+   "name_zh": "心靈香草",
+   "match": "exact"
+  },
+  "Metal Coat": {
+   "slug": "metal-coat",
+   "icon": "icons/metal-coat.png",
+   "name_zh": "金屬膜",
+   "match": "exact"
+  },
+  "Miracle Seed": {
+   "slug": "miracle-seed",
+   "icon": "icons/miracle-seed.png",
+   "name_zh": "奇跡種子",
+   "match": "exact"
+  },
+  "Mirror Herb": {
+   "slug": "mirror-herb",
+   "icon": "icons/mirror-herb.png",
+   "name_zh": "模仿香草",
+   "match": "exact"
+  },
+  "Mystic Water": {
+   "slug": "mystic-water",
+   "icon": "icons/mystic-water.png",
+   "name_zh": "神秘水滴",
+   "match": "exact"
+  },
+  "Never-Melt Ice": {
+   "slug": "never-melt-ice",
+   "icon": "icons/never-melt-ice.png",
+   "name_zh": "不融冰",
+   "match": "exact"
+  },
+  "Normal Gem": {
+   "slug": "normal-gem",
+   "icon": "icons/normal-gem.png",
+   "name_zh": "一般寶石",
+   "match": "exact"
+  },
+  "Payapa Berry": {
+   "slug": "payapa-berry",
+   "icon": "icons/payapa-berry.png",
+   "name_zh": "福祿果",
+   "match": "exact"
+  },
+  "Pinsirite": {
+   "slug": "pinsirite",
+   "icon": "icons/pinsirite.png",
+   "name_zh": "凱羅斯進化石",
+   "match": "exact"
+  },
+  "Power Anklet": {
+   "slug": "power-anklet",
+   "icon": "icons/power-anklet.png",
+   "name_zh": "力量護踝",
+   "match": "exact"
+  },
+  "Power Herb": {
+   "slug": "power-herb",
+   "icon": "icons/power-herb.png",
+   "name_zh": "強力香草",
+   "match": "exact"
+  },
+  "Power Lens": {
+   "slug": "power-lens",
+   "icon": "icons/power-lens.png",
+   "name_zh": "力量鏡",
+   "match": "exact"
+  },
+  "Psychic Seed": {
+   "slug": "psychic-seed",
+   "icon": "icons/psychic-seed.png",
+   "name_zh": "精神種子",
+   "match": "exact"
+  },
+  "Pyroarite": {
+   "slug": "pyroarite",
+   "icon": "icons/pyroarite.png",
+   "name_zh": "火炎獅進化石",
+   "match": "exact"
+  },
+  "Raichunite X": {
+   "slug": "raichunite-x",
+   "icon": "icons/raichunite-x.png",
+   "name_zh": "雷丘進化石Ｘ",
+   "match": "exact"
+  },
+  "Razor Claw": {
+   "slug": "razor-claw",
+   "icon": "icons/razor-claw.png",
+   "name_zh": "銳利之爪",
+   "match": "exact"
+  },
+  "Red Card": {
+   "slug": "red-card",
+   "icon": "icons/red-card.png",
+   "name_zh": "紅牌",
+   "match": "exact"
+  },
+  "Rindo Berry": {
+   "slug": "rindo-berry",
+   "icon": "icons/rindo-berry.png",
+   "name_zh": "羅子果",
+   "match": "exact"
+  },
+  "Rocky Helmet": {
+   "slug": "rocky-helmet",
+   "icon": "icons/rocky-helmet.png",
+   "name_zh": "凸凸頭盔",
+   "match": "exact"
+  },
+  "Room Service": {
+   "slug": "room-service",
+   "icon": "icons/room-service.png",
+   "name_zh": "客房服務",
+   "match": "exact"
+  },
+  "Roseli Berry": {
+   "slug": "roseli-berry",
+   "icon": "icons/roseli-berry.png",
+   "name_zh": "洛玫果",
+   "match": "exact"
+  },
+  "Rusted Shield": {
+   "slug": "rusted-shield",
+   "icon": "icons/rusted-shield.png",
+   "name_zh": "腐朽的盾",
+   "match": "exact"
+  },
+  "Rusted Sword": {
+   "slug": "rusted-sword",
+   "icon": "icons/rusted-sword.png",
+   "name_zh": "腐朽的劍",
+   "match": "exact"
+  },
+  "Safety Goggles": {
+   "slug": "safety-goggles",
+   "icon": "icons/safety-goggles.png",
+   "name_zh": "防塵護目鏡",
+   "match": "exact"
+  },
+  "Salamencite": {
+   "slug": "salamencite",
+   "icon": "icons/salamencite.png",
+   "name_zh": "暴飛龍進化石",
+   "match": "exact"
+  },
+  "Scope Lens": {
+   "slug": "scope-lens",
+   "icon": "icons/scope-lens.png",
+   "name_zh": "焦點鏡",
+   "match": "exact"
+  },
+  "Scraftinite": {
+   "slug": "scraftinite",
+   "icon": "icons/scraftinite.png",
+   "name_zh": "頭巾混混進化石",
+   "match": "exact"
+  },
+  "Sharp Beak": {
+   "slug": "sharp-beak",
+   "icon": "icons/sharp-beak.png",
+   "name_zh": "銳利鳥嘴",
+   "match": "exact"
+  },
+  "Shuca Berry": {
+   "slug": "shuca-berry",
+   "icon": "icons/shuca-berry.png",
+   "name_zh": "腰木果",
+   "match": "exact"
+  },
+  "Silk Scarf": {
+   "slug": "silk-scarf",
+   "icon": "icons/silk-scarf.png",
+   "name_zh": "絲綢圍巾",
+   "match": "exact"
+  },
+  "Sitrus Berry": {
+   "slug": "sitrus-berry",
+   "icon": "icons/sitrus-berry.png",
+   "name_zh": "文柚果",
+   "match": "exact"
+  },
+  "Soft Sand": {
+   "slug": "soft-sand",
+   "icon": "icons/soft-sand.png",
+   "name_zh": "柔軟沙子",
+   "match": "exact"
+  },
+  "Soul Dew": {
+   "slug": "soul-dew",
+   "icon": "icons/soul-dew.png",
+   "name_zh": "心之水滴",
+   "match": "exact"
+  },
+  "Spell Tag": {
+   "slug": "spell-tag",
+   "icon": "icons/spell-tag.png",
+   "name_zh": "詛咒之符",
+   "match": "exact"
+  },
+  "Splash Plate": {
+   "slug": "splash-plate",
+   "icon": "icons/splash-plate.png",
+   "name_zh": "水滴石板",
+   "match": "exact"
+  },
+  "Staraptite": {
+   "slug": "staraptite",
+   "icon": "icons/staraptite.png",
+   "name_zh": "姆克鷹進化石",
+   "match": "exact"
+  },
+  "Starminite": {
+   "slug": "starminite",
+   "icon": "icons/starminite.png",
+   "name_zh": "寶石海星進化石",
+   "match": "exact"
+  },
+  "Swampertite": {
+   "slug": "swampertite",
+   "icon": "icons/swampertite.png",
+   "name_zh": "巨沼怪進化石",
+   "match": "exact"
+  },
+  "Throat Spray": {
+   "slug": "throat-spray",
+   "icon": "icons/throat-spray.png",
+   "name_zh": "爽喉噴霧",
+   "match": "exact"
+  },
+  "Twisted Spoon": {
+   "slug": "twisted-spoon",
+   "icon": "icons/twisted-spoon.png",
+   "name_zh": "彎曲的湯匙",
+   "match": "exact"
+  },
+  "Weakness Policy": {
+   "slug": "weakness-policy",
+   "icon": "icons/weakness-policy.png",
+   "name_zh": "弱點保險",
+   "match": "exact"
+  },
+  "Wellspring Mask": {
+   "slug": "wellspring-mask",
+   "icon": "icons/wellspring-mask.png",
+   "name_zh": "水井面具",
+   "match": "exact"
+  },
+  "White Herb": {
+   "slug": "white-herb",
+   "icon": "icons/white-herb.png",
+   "name_zh": "白色香草",
+   "match": "exact"
+  },
+  "Wide Lens": {
+   "slug": "wide-lens",
+   "icon": "icons/wide-lens.png",
+   "name_zh": "廣角鏡",
+   "match": "exact"
+  },
+  "Zap Plate": {
+   "slug": "zap-plate",
+   "icon": "icons/zap-plate.png",
+   "name_zh": "雷電石板",
+   "match": "exact"
+  },
+  "Zoom Lens": {
+   "slug": "zoom-lens",
+   "icon": "icons/zoom-lens.png",
+   "name_zh": "對焦鏡",
+   "match": "exact"
+  }
+ }
+}

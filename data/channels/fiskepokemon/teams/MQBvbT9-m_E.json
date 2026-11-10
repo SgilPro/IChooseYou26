@@ -7,8 +7,9 @@
     "video_url": "https://www.youtube.com/watch?v=MQBvbT9-m_E",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "team_code": "5K13994XRT",
     "tags": [
       "sun",
       "mega"
@@ -16,7 +17,488 @@
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Y",
+          "value_en": "Charizardite Y",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 30,
+          "atk": 0,
+          "def": 31,
+          "spa": 0,
+          "spd": 1,
+          "spe": 4,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 183,
+          "atk": 93,
+          "def": 129,
+          "spa": 141,
+          "spd": 106,
+          "spe": 124,
+          "source": "frame"
+        },
+        "stats_note": "狀態頁顯示未 Mega 原形數值。性格依 ▲▽ 判讀（特攻▲ 攻擊▽ = 內斂）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "日光束",
+            "value_en": "Solar Beam",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Mega 後特性為日照（Drought），自己開晴天；晴天下氣象球為火系、日光束免蓄力。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 185,
+          "atk": 182,
+          "def": 115,
+          "spa": 90,
+          "spd": 105,
+          "spe": 169,
+          "source": "frame"
+        },
+        "stats_note": "依 ▲▽ 判讀（速度▲ 特攻▽ = 爽朗）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "龍爪",
+            "value_en": "Dragon Claw",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.85,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "木炭",
+          "value_en": "Charcoal",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 28,
+          "def": 1,
+          "spa": 0,
+          "spd": 5,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 202,
+          "atk": 179,
+          "def": 111,
+          "spa": 100,
+          "spd": 115,
+          "spe": 72,
+          "source": "frame"
+        },
+        "stats_note": "依 ▲▽ 判讀（攻擊▲ 速度▽ = 勇敢）。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "DD金勾臂",
+            "value_en": "Darkest Lariat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 0,
+          "def": 15,
+          "spa": 0,
+          "spd": 20,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 226,
+          "atk": 99,
+          "def": 105,
+          "spa": 130,
+          "spd": 121,
+          "spe": 80,
+          "source": "frame"
+        },
+        "stats_note": "依 ▲▽ 判讀（特防▲ 攻擊▽ = 溫和）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 142,
+          "name_zh": "化石翼龍",
+          "name_en": "Aerodactyl",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "緊張感",
+          "value_en": "Unnerve",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 156,
+          "atk": 157,
+          "def": 86,
+          "spa": 72,
+          "spd": 95,
+          "spe": 200,
+          "source": "frame"
+        },
+        "stats_note": "依 ▲▽ 判讀（速度▲ 特攻▽ = 爽朗）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 700,
+          "name_zh": "仙子伊布",
+          "name_en": "Sylveon",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "妖精皮膚",
+          "value_en": "Pixilate",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖精之羽",
+          "value_en": "Fairy Feather",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 7,
+          "atk": 0,
+          "def": 24,
+          "spa": 20,
+          "spd": 0,
+          "spe": 15,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 76,
+          "def": 109,
+          "spa": 165,
+          "spd": 150,
+          "spe": 95,
+          "source": "frame"
+        },
+        "stats_note": "依 ▲▽ 判讀（特攻▲ 攻擊▽ = 內斂）。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "電光一閃",
+            "value_en": "Quick Attack",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [
       "VEeH7XM42TA"
@@ -24,14 +506,14 @@
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 10,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.935Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員影片無字幕，全由畫面讀取。隊伍表：能力頁 f_025–f_037（本次主要用 f_030）、狀態頁 f_038–f_039；六隻同頁、四招/特性/道具/數值/能力點皆可讀。team_code 5K13994XRT 放大確認。烈咬陸鯊持生命寶珠、非 Mega（標題「Mega 噴火龍 & 烈咬陸鯊」指兩隻主力）。「跺腳」原畫面疑讀為踩腳，依招式表與地面系圖示判為 Stomping Tantrum（0.85）。仙子伊布第一招依橘色（格鬥）圖示判為看穿。性格皆依狀態頁 ▲▽ 判讀；六隻能力點總和皆 66。無 is_members_only 變更。",
+    "notes": "以 Mega 噴火龍 Y 開晴天為核心，搭配烈咬陸鯊的物理火力；熾焰咆哮虎提供威嚇、擊掌與拋下狠話的場面操作，順風化石翼龍與戲法空間奇麒麟提供兩種速度模式，仙子伊布用妖精皮膚巨聲輸出。投影片稱選出方式「任何組合都可以首發」，並指出弱點：沒有非常嚴重的弱點，但不好處理某些空間隊（火炎獅、噴火駝等），也沒有強化手段（對手強化時只能硬扛）。評分：上手難度 3、操作彈性 4、穩定性 4、全面程度 4（/5）。",
+    "extracted_at": "2026-11-10T04:03:03.056Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

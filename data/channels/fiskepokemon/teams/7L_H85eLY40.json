@@ -1,34 +1,518 @@
 [
   {
     "id": "team_7L_H85eLY40",
-    "name": "最好上手、高勝率的雪天強攻隊！地表最強妖精火力，密阿雷的破滅之光！花葉蒂 & 阿",
+    "name": "雪天強攻隊（花葉蒂 & 阿羅拉九尾）",
     "name_source": "title",
     "video_id": "7L_H85eLY40",
     "video_url": "https://www.youtube.com/watch?v=7L_H85eLY40",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-a",
+    "regulation_source": "date-inferred",
+    "team_code": "6JRWESLBXP",
     "tags": [
       "snow"
     ],
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "狀態頁 f_044；特攻▽ 速度▲ 依 ▲▽ 判讀為爽朗；驗算 HP197 吻合，總和 66。畫面為 ♂ 型態，name_en 填 Basculegion。",
+        "moves": [
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "快速折返",
+            "value_en": "Flip Turn",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": {
+          "hp": 197,
+          "atk": 164,
+          "def": 85,
+          "spa": 90,
+          "spd": 95,
+          "spe": 143,
+          "source": "frame"
+        },
+        "gender": "M"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 670,
+          "name_zh": "花葉蒂",
+          "name_en": "Floette-Eternal-Mega",
+          "form": "Mega",
+          "confidence": 0.9
+        },
+        "nickname": null,
+        "ability": {
+          "value": "花幕",
+          "value_en": "Flower Veil",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "花葉蒂進化石",
+          "value_en": "Floettite",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "狀態頁 f_044（原形數值）；攻擊▽ 特攻▲ 依 ▲▽ 判讀為內斂；以永恆之花種族值驗算 HP151 / 特攻194 / 特防148 / 速度144 全部吻合，總和 66，故型態判為 Floette-Eternal（Mega 後為 Floette-Eternal-Mega）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "破滅之光",
+            "value_en": "Light of Ruin",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "持花葉蒂進化石，Mega 後特性為妖精氣場（影片投影片介紹，全體妖精招式變強），搭配破滅之光與月亮之力。",
+        "stats": {
+          "hp": 151,
+          "atk": 76,
+          "def": 87,
+          "spa": 194,
+          "spd": 148,
+          "spe": 144,
+          "source": "frame"
+        },
+        "gender": "F"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "柔軟沙子",
+          "value_en": "Soft Sand",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "特攻▽ 速度▲ 依 ▲▽ 判讀為爽朗；驗算 HP185 吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "踩腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": {
+          "hp": 185,
+          "atk": 182,
+          "def": 115,
+          "spa": 90,
+          "spd": 105,
+          "spe": 169,
+          "source": "frame"
+        },
+        "gender": "F"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 20,
+          "spa": 0,
+          "spd": 12,
+          "spe": 2,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "防禦▲ 特攻▽ 依 ▲▽ 判讀為淘氣；驗算 HP202 吻合，總和 66。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": {
+          "hp": 202,
+          "atk": 135,
+          "def": 143,
+          "spa": 90,
+          "spd": 122,
+          "spe": 82,
+          "source": "frame"
+        },
+        "gender": "M"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 142,
+          "name_zh": "化石翼龍",
+          "name_en": "Aerodactyl",
+          "form": null,
+          "confidence": 0.99
+        },
+        "nickname": null,
+        "ability": {
+          "value": "緊張感",
+          "value_en": "Unnerve",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "特攻▽ 速度▲ 依 ▲▽ 判讀為爽朗；驗算 HP157 / 速度200 吻合，總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "雙翼",
+            "value_en": "Dual Wingbeat",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null,
+        "stats": {
+          "hp": 157,
+          "atk": 157,
+          "def": 85,
+          "spa": 72,
+          "spd": 95,
+          "spe": 200,
+          "source": "frame"
+        },
+        "gender": "M"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 38,
+          "name_zh": "九尾",
+          "name_en": "Ninetales-Alola",
+          "form": "Alola",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "ability": {
+          "value": "降雪",
+          "value_en": "Snow Warning",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖精之羽",
+          "value_en": "Fairy Feather",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats_note": "攻擊▽ 速度▲ 依 ▲▽ 判讀為膽小；驗算 HP150 / 特攻133 / 速度177 以阿羅拉九尾種族值吻合，總和 66。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "暴風雪",
+            "value_en": "Blizzard",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "降雪開雪天、暴風雪必中；冰凍之風控速。",
+        "stats": {
+          "hp": 150,
+          "atk": 78,
+          "def": 95,
+          "spa": 133,
+          "spd": 120,
+          "spe": 177,
+          "source": "frame"
+        },
+        "gender": "F"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 3,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員限定、無字幕，全部從畫面讀取。隊伍表能力頁 f_042、狀態頁 f_044（另 f_043、f_045、f_046、f_050/f_051 為同頁），六隻特性/道具/四招/能力點/能力值皆讀到；隊伍ID 放大確認 6JRWESLBXP。花葉蒂以永恆之花種族值驗算四項能力值皆吻合，判為 Floette-Eternal，攜帶花葉蒂進化石故 name_en 為 Floette-Eternal-Mega；因狀態頁顯示原形數值且是否實際 Mega 進化依道具推定，species confidence 0.9。九尾依屬性（冰/妖精）、降雪與標題判為阿羅拉型態。性格皆依 ▲▽ 判讀。tags 僅取標題「雪天」；「強攻」未另標以守住 v1.2 邊界。",
+    "notes": "以九尾（阿羅拉）降雪開雪天，Mega 花葉蒂（花葉蒂進化石）用月亮之力、破滅之光輸出妖精火力，並有冰凍之風、順風輔助控速。幽尾玄魚（講究圍巾）、烈咬陸鯊、化石翼龍（氣勢披帶）提供高速物理輸出，熾焰咆哮虎用威嚇、擊掌奇襲、拋下狠話、幫助支援。標題強調此隊好上手、勝率高。弱點需看實戰影片，隊伍介紹段未明確說明。",
+    "extracted_at": "2026-11-10T04:05:55.855Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "paste_text": null,
+    "paste_notes": null
   }
 ]

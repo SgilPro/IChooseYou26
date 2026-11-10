@@ -31,7 +31,8 @@
 12. **confidence（整隊）**：六隻 species 全部正確的主觀機率。
 13. `review_status: "auto"`，`extracted_by: "<model>/extract-v1"`，`extracted_at` 用現在時間（ISO）。
 14. **team_code**（隊伍分享碼）：Champions 隊伍表頂端有「隊伍ID：XXXXXXXXXX」（10 碼英數，例 `XVTAS75SXK`），照抄進 `team_code`（大寫英數，小心 0/O、1/I 混淆，放大確認）。朱紫是租借隊伍代碼（若畫面或字幕出現才填）。沒看到填 `null`。同一隊不會有兩種代碼，意義由 `game` 決定。
-15. 一支影片若介紹多支隊伍，輸出多個物件（id 加 `_1`、`_2`）。
+15. **Mega 的 species.name_en 必須帶型態後綴**：`mega: true` 的那隻，`name_en` 填 `<Species>-Mega`（X/Y/Z 則 `-Mega-X`、`-Mega-Y`、`-Mega-Z`），與 `form` 一致（例 `Blastoise-Mega`、`Froslass-Mega`、`Salamence-Mega`）。即使「狀態」頁顯示的是原形數值，`name_en` 仍要帶 Mega 後綴；驗算才用原形種族值（見 v1.2）。網站用 `name_en` 找圖與屬性，沒帶後綴會顯示成原形。
+16. 一支影片若介紹多支隊伍，輸出多個物件（id 加 `_1`、`_2`）。
 
 ## 試跑學到的技巧（v1.1，來自 Xul9ZHTieLU）
 

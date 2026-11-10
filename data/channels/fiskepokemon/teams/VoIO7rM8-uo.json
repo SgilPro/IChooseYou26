@@ -1,34 +1,514 @@
 [
   {
     "id": "team_VoIO7rM8-uo",
-    "name": "誰說超壞星只能玩受隊？全進攻隊伍，最後卻讓對手根本打不動他！",
+    "name": "超壞星全進攻隊",
     "name_source": "title",
     "video_id": "VoIO7rM8-uo",
     "video_url": "https://www.youtube.com/watch?v=VoIO7rM8-uo",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "stall"
-    ],
+    "team_code": "B5RA58U5NX",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Y",
+          "value_en": "Charizardite Y",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 1,
+          "spa": 12,
+          "spd": 0,
+          "spe": 21,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 185,
+          "atk": 93,
+          "def": 99,
+          "spa": 141,
+          "spd": 105,
+          "spe": 155,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "原始之力",
+            "value_en": "Ancient Power",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "Mega 噴火龍 Y；隊伍表顯示原形特性猛火，Mega 後為日照（依遊戲規則，影片未明說）。狀態頁數值為未 Mega 原形。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 3,
+          "name_zh": "妙蛙花",
+          "name_en": "Venusaur",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "葉綠素",
+          "value_en": "Chlorophyll",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 91,
+          "def": 103,
+          "spa": 167,
+          "spd": 120,
+          "spe": 132,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "飛葉風暴",
+            "value_en": "Leaf Storm",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "投影片「高速噴火龍隊」範例中與噴火龍同列；特性葉綠素。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 22,
+          "spa": 0,
+          "spd": 9,
+          "spe": 3,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 202,
+          "atk": 135,
+          "def": 145,
+          "spa": 90,
+          "spd": 119,
+          "spe": 83,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "ＤＤ金勾臂",
+            "value_en": "Darkest Lariat",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "威嚇＋拋下狠話＋擊掌奇襲的輔助型。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 700,
+          "name_zh": "仙子伊布",
+          "name_en": "Sylveon",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "妖精皮膚",
+          "value_en": "Pixilate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖精之羽",
+          "value_en": "Fairy Feather",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 31,
+          "atk": 0,
+          "def": 25,
+          "spa": 10,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 201,
+          "atk": 76,
+          "def": 110,
+          "spa": 154,
+          "spd": 150,
+          "spe": 80,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "電光一閃",
+            "value_en": "Quick Attack",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "妖精皮膚巨聲的範圍輸出。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 748,
+          "name_zh": "超壞星",
+          "name_en": "Toxapex",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 15,
+          "spa": 0,
+          "spd": 19,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 157,
+          "atk": 74,
+          "def": 205,
+          "spa": 73,
+          "spd": 181,
+          "spe": 55,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "碉堡",
+            "value_en": "Baneful Bunker",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "劇毒",
+            "value_en": "Toxic",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "死纏爛打",
+            "value_en": "Infestation",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍主角；劇毒＋死纏爛打拖死對手，由隊友補足弱點。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 14,
+          "atk": 20,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 197,
+          "atk": 187,
+          "def": 115,
+          "spa": 90,
+          "spd": 105,
+          "spe": 154,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "龍爪",
+            "value_en": "Dragon Claw",
+            "confidence": 0.9,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.9,
+            "source": "frame"
+          }
+        ],
+        "role_note": "講究圍巾的地面系輸出（Champions 畫面招式「踩腳」，對照表為「跺腳」）。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 2,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員限定影片無字幕，全部資訊來自畫面：能力頁 f_024~f_035（用 f_030）、狀態頁 f_036~f_040（用 f_038）。六隻特性/道具/四招皆在能力頁讀到。隊伍表為「隊伍10」，作者 Fiske。烈咬陸鯊招式畫面為「踩腳」，對照表為「跺腳」（Stomping Tantrum）。標題未明講標籤概念（「全進攻」不等同 hyper-offense），tags 留空。發布日 2026-08-27 落在 M-B 區間，標題無 regulation 標記。",
+    "notes": "以超壞星為核心的全進攻隊：投影片列出隊友條件（地面系輸出、高爆發火系、剋制地面/電/超能、不能是純輔助、需有減傷特性或技能）。核心為 Mega 噴火龍 Y、妙蛙花、烈咬陸鯊與超壞星，劇毒加死纏爛打拖垮對手。選出方式非常不固定，常用首發為噴火龍搭配妙蛙花/熾焰咆哮虎/仙子伊布。弱點為不好搶天氣，以及超高爆發的超能系。",
+    "extracted_at": "2026-11-10T03:37:29.848Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

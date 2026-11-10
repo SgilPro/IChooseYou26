@@ -32,3 +32,6 @@ data/channels/*/frames/
 # YouTube 會員登入 cookies（絕對不要 commit）
 cookies*.txt
 *cookies*.txt
+
+# 寶可夢 HOME 風格圖（29MB，不進版控；用 tools/yt/fetch-pokemon-images.mjs 重新產生）
+assets/pokemon/home/

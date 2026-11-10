@@ -193,6 +193,37 @@
       ],
       "description": "隊伍思路摘要（來自字幕）"
     },
+    "analysis": {
+      "type": ["object", "null"],
+      "description": "選用：結構化的隊伍分析（隊伍詳細頁「隊伍分析」四塊）",
+      "properties": {
+        "core_offense": { "type": ["string", "null"], "description": "核心輸出戰術" },
+        "speed_control": { "type": ["string", "null"], "description": "控速手段" },
+        "cautions": { "type": ["string", "null"], "description": "注意事項" },
+        "scores": {
+          "type": ["object", "null"],
+          "description": "隊伍特性評分，各項 1~5",
+          "properties": {
+            "ease": { "type": "number", "minimum": 1, "maximum": 5, "description": "易上手度" },
+            "flexibility": { "type": "number", "minimum": 1, "maximum": 5, "description": "靈活度" },
+            "stability": { "type": "number", "minimum": 1, "maximum": 5, "description": "穩定度" },
+            "coverage": { "type": "number", "minimum": 1, "maximum": 5, "description": "覆蓋面" }
+          }
+        }
+      }
+    },
+    "lead_modes": {
+      "type": ["array", "null"],
+      "description": "選用：建議首發模式（寶可夢以 species.name_en 表示）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "leads": { "type": "array", "items": { "type": "string" }, "maxItems": 2 },
+          "back": { "type": "array", "items": { "type": "string" }, "maxItems": 2 },
+          "strategy": { "type": "string" }
+        }
+      }
+    },
     "extracted_at": {
       "type": "string",
       "format": "date-time"
