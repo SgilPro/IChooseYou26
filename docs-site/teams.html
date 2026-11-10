@@ -63,7 +63,7 @@
     .icons { display: flex; align-items: center; gap: 6px; flex: none; }
     .team .meta { flex-wrap: nowrap; overflow: hidden; }
     .team .meta > * { flex: none; white-space: nowrap; }
-    .tag.reg, .tag.game { border-radius: 8px; border-width: 2px; font-weight: 700; cursor: help; }
+    .tag.reg, .tag.game { border-radius: 8px; border-width: 2px; font-weight: 700; }
     .tag.game { display: inline-flex; align-items: center; gap: 2px; }
     .gl-img { height: auto; display: block; }
     .gl-txt i { font-style: normal; }
@@ -424,5 +424,6 @@
     table("raw-videos", Object.keys(vrows[0] || { id: 1 }), vrows);
   })();
   </script>
+<script src="tooltip.js"></script>
 </body>
 </html>
