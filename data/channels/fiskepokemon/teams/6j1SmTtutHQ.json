@@ -7,26 +7,400 @@
     "video_url": "https://www.youtube.com/watch?v=6j1SmTtutHQ",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-g-2025",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "ONE",
+    "author_source": "frame",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 131,
+          "name_zh": "拉普拉斯",
+          "name_en": "Lapras",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "儲水",
+          "value_en": "Water Absorb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.69（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍之舞",
+            "value_en": "Dragon Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 384,
+          "name_zh": "烈空坐",
+          "name_en": "Rayquaza",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "氣閘",
+          "value_en": "Air Lock",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "銳利之爪",
+          "value_en": "Razor Claw",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.75（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 900,
+          "name_zh": "劈斧螳螂",
+          "name_en": "Kleavor",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "鋒銳",
+          "value_en": "Sharpness",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "飛行",
+          "value_en": "Flying",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.70（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "岩斧",
+            "value_en": "Stone Axe",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十字剪",
+            "value_en": "X-Scissor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 244,
+          "name_zh": "炎帝",
+          "name_en": "Entei",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "力量頭帶",
+          "value_en": "Muscle Band",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.70（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "神聖之火",
+            "value_en": "Sacred Fire",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "咬碎",
+            "value_en": "Crunch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 146,
+          "name_zh": "火焰鳥",
+          "name_en": "Moltres-Galar",
+          "form": "Galar",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": {
+          "value": "怒火沖天",
+          "value_en": "Berserk",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.65,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.92（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "怒火中燒",
+            "value_en": "Fiery Wrath",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "空氣斬",
+            "value_en": "Air Slash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 930,
+          "name_zh": "奧利瓦",
+          "name_en": "Arboliva",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "掉出種子",
+          "value_en": "Seed Sower",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": null,
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "畫面顯示 Lv.71（對戰時降為 50）；無努力值、能力值、性格資訊。",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "終極吸取",
+            "value_en": "Giga Drain",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "花粉團",
+            "value_en": "Pollen Puff",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 2,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.93,
+    "review_status": "auto",
+    "review_notes": "會員限定影片，無字幕，隊伍表取自遊戲內租借隊伍畫面（f_001，f_010 內容一致）。畫面無努力值、能力值、性格，皆為 null。作者：說明欄無「隊伍創建者」，遊戲內隊伍表頂端訓練家名為「ONE」（隊伍名日文「6えいゆう」，租借隊伍代碼 F0SVDJ），非 Fiske 的遊戲內名稱，依規則填 ONE；Fiske 自己的租借隊伍畫面（kt1HwSolEXo f_020）頂端顯示的是版本名「スカーレット」，兩者格式不同。team_code 的第二碼為 0（數字零）或 O 已放大看，判讀為 0。太晶屬性依圖示：火焰鳥 Poison（洋紅紫色、有氣泡造型，約 0.65，也可能是 Ghost）；烈空坐、炎帝為灰色一般屬性圖示。火焰鳥為伽勒爾型態（特性怒火沖天、立繪＋說明欄「伽勒爾火焰鳥」）。規則依發布日 2025-03-10 推為 sv-reg-g-2025。",
+    "notes": "以寶可夢動畫「地平線」六英雄（拉普拉斯、烈空坐、奧利瓦、炎帝、伽勒爾火焰鳥、劈斧螳螂）為主題的朱紫雙打租借隊伍。拉普拉斯以冰凍之風、幫助、龍之舞支援；火焰鳥開順風，配合炎帝（神聖之火、神速）、劈斧螳螂（岩斧、十字剪）與烈空坐（劍舞＋地震、神速）等輸出手。奧利瓦以突擊背心搭配魔法閃耀、終極吸取、花粉團、大地之力。影片無字幕，選出組合與戰術細節未取得。",
+    "extracted_at": "2026-11-10T10:28:13.158Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1",
+    "team_code": "F0SVDJ"
   }
 ]

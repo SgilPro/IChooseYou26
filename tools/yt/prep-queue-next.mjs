@@ -25,7 +25,7 @@ const raw = join(ch, "raw");
 const LOG = join(raw, "prep-queue.log");
 const LOCK = join(raw, ".prep-queue.lock");
 const BACKOFF = join(raw, ".prep-backoff");
-const MAX_AHEAD = Number(process.env.MAX_AHEAD || 4);
+const MAX_AHEAD = Number(process.env.MAX_AHEAD || 12);
 const BACKOFF_H = Number(process.env.BACKOFF_H || 3);
 const COOKIES = process.env.COOKIES || join(homedir(), "_projects", "www.youtube.com_cookies.txt");
 
