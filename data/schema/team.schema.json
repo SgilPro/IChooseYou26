@@ -194,39 +194,153 @@
       "description": "隊伍思路摘要（來自字幕）"
     },
     "analysis": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "description": "選用：結構化的隊伍分析（隊伍詳細頁「隊伍分析」四塊）",
       "properties": {
-        "core_offense": { "type": ["string", "null"], "description": "核心輸出戰術" },
-        "speed_control": { "type": ["string", "null"], "description": "控速手段" },
+        "core_offense": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "核心輸出戰術"
+        },
+        "speed_control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "控速手段"
+        },
         "speed_control_core": {
-          "type": ["array", "null"],
+          "type": [
+            "array",
+            "null"
+          ],
           "description": "選用：明確寫在隊伍核心戰術裡的控速手段（用來把控速項目由 Level 2 晉升為 Level 1）。必須有依據，不可憑空推測",
           "items": {
             "type": "object",
-            "required": ["slot", "name_zh", "reason"],
+            "required": [
+              "slot",
+              "name_zh",
+              "reason"
+            ],
             "properties": {
-              "slot": { "type": "integer", "description": "隊員槽位" },
-              "name_zh": { "type": "string", "description": "招式／特性／道具中文名（須與隊員實際配置一致）" },
-              "reason": { "type": "string", "description": "判斷為核心戰術的依據（引用標題／備註／畫面）" }
+              "slot": {
+                "type": "integer",
+                "description": "隊員槽位"
+              },
+              "name_zh": {
+                "type": "string",
+                "description": "招式／特性／道具中文名（須與隊員實際配置一致）"
+              },
+              "reason": {
+                "type": "string",
+                "description": "判斷為核心戰術的依據（引用標題／備註／畫面）"
+              }
             }
           }
         },
-        "cautions": { "type": ["string", "null"], "description": "注意事項" },
+        "cautions": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "注意事項"
+        },
         "scores": {
-          "type": ["object", "null"],
-          "description": "隊伍特性評分，各項 1~5",
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "隊伍特性評分（Fiske 影片投影片上的四項評分，原值照抄，不自行評分）。數字越大代表該項越高，「上手難度」越高代表越難上手（以投影片標示為準，agent 須在 sources.scores 寫明判讀依據）",
           "properties": {
-            "ease": { "type": "number", "minimum": 1, "maximum": 5, "description": "易上手度" },
-            "flexibility": { "type": "number", "minimum": 1, "maximum": 5, "description": "靈活度" },
-            "stability": { "type": "number", "minimum": 1, "maximum": 5, "description": "穩定度" },
-            "coverage": { "type": "number", "minimum": 1, "maximum": 5, "description": "覆蓋面" }
+            "difficulty": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "上手難度"
+            },
+            "flexibility": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "操作彈性"
+            },
+            "stability": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "穩定性"
+            },
+            "coverage": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "全面程度"
+            },
+            "scale_max": {
+              "type": "number",
+              "description": "評分滿分（投影片實際標示，例如 5）"
+            }
           }
+        },
+        "sources": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "各分析欄位的依據：core_offense / cautions / scores / speed_control_core 各一個字串，格式如「title」「notes」「slide:f_052」「subtitle」，可多個以逗號分隔",
+          "properties": {
+            "core_offense": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "cautions": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "scores": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "speed_control_core": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "analyzed_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "產生分析的模型/流程版本"
+        },
+        "analyzed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "分析時間（ISO）"
         }
       }
     },
     "analysis_derived": {
-      "type": ["object", "null"],
+      "type": [
+        "object",
+        "null"
+      ],
       "description": "選用：由程式依隊伍配置衍生的分析，只出現在合併後的 teams.json（不寫入 teams/<video>.json）",
       "properties": {
         "speed_control": {
@@ -234,23 +348,71 @@
           "description": "控速手段分類（tools/site/classify-speed-control.mjs；分類表 data/ref/speed-control.json）",
           "items": {
             "type": "object",
-            "required": ["category", "label_zh", "via"],
+            "required": [
+              "category",
+              "label_zh",
+              "via"
+            ],
             "properties": {
-              "category": { "type": "string" },
-              "label_zh": { "type": "string" },
-              "tier": { "type": "string", "enum": ["core", "broad", "cleanup"] },
-              "level": { "type": "integer", "enum": [1, 2, 3], "description": "顯示層級：1 直接顯示；2 次要（折疊）；3 輔助與收殘（折疊，不屬控速討論）" },
+              "category": {
+                "type": "string"
+              },
+              "label_zh": {
+                "type": "string"
+              },
+              "tier": {
+                "type": "string",
+                "enum": [
+                  "core",
+                  "broad",
+                  "cleanup"
+                ]
+              },
+              "level": {
+                "type": "integer",
+                "enum": [
+                  1,
+                  2,
+                  3
+                ],
+                "description": "顯示層級：1 直接顯示；2 次要（折疊）；3 輔助與收殘（折疊，不屬控速討論）"
+              },
               "via": {
                 "type": "array",
                 "items": {
                   "type": "object",
                   "properties": {
-                    "member_slot": { "type": "integer" },
-                    "kind": { "type": "string", "enum": ["move", "ability", "item"] },
-                    "level": { "type": "integer", "enum": [1, 2, 3] },
-                    "promoted": { "type": "boolean" },
-                    "reason": { "type": ["string", "null"] },
-                    "name_zh": { "type": "string" }
+                    "member_slot": {
+                      "type": "integer"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "move",
+                        "ability",
+                        "item"
+                      ]
+                    },
+                    "level": {
+                      "type": "integer",
+                      "enum": [
+                        1,
+                        2,
+                        3
+                      ]
+                    },
+                    "promoted": {
+                      "type": "boolean"
+                    },
+                    "reason": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "name_zh": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -260,14 +422,31 @@
       }
     },
     "lead_modes": {
-      "type": ["array", "null"],
+      "type": [
+        "array",
+        "null"
+      ],
       "description": "選用：建議首發模式（寶可夢以 species.name_en 表示）",
       "items": {
         "type": "object",
         "properties": {
-          "leads": { "type": "array", "items": { "type": "string" }, "maxItems": 2 },
-          "back": { "type": "array", "items": { "type": "string" }, "maxItems": 2 },
-          "strategy": { "type": "string" }
+          "leads": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 2
+          },
+          "back": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 2
+          },
+          "strategy": {
+            "type": "string"
+          }
         }
       }
     },

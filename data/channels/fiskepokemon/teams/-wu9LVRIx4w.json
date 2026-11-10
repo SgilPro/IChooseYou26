@@ -511,6 +511,26 @@
     "extracted_at": "2026-11-10T03:37:35.597Z",
     "extracted_by": "claude-sonnet-5-5/extract-v1.3",
     "paste_text": null,
-    "paste_notes": null
+    "paste_notes": null,
+    "analysis": {
+      "core_offense": "標題以紅蓮鎧騎（不帶引火、搭配冷門道具）為核心，主打超高速輸出；備註記載愛管侍以看我嘛／幫助／戲法空間輔助，甜冷美后、幽尾玄魚、大狃拉與 Mega 暴飛龍負責高速輸出。",
+      "speed_control_core": [],
+      "cautions": "有多重控速的中速隊伍；爆發火力偏低（不容易秒殺人，需要大量計算傷害）",
+      "scores": {
+        "difficulty": 3,
+        "flexibility": 2.5,
+        "stability": 2,
+        "coverage": 3,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, notes（無字幕；各員誰為主輸出僅來自備註）",
+        "speed_control_core": "無字幕，標題只說冷門道具但未指明，無法確認主輸出與控速核心，故不列",
+        "cautions": "slide:f_050（隊伍弱點，含小字括號）",
+        "scores": "slide:f_051-f_052（3/2.5/2/3，/5）；無字幕，上手難度方向待確認"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:24.905Z"
+    }
   }
 ]

@@ -512,6 +512,26 @@
     "notes": "以 Mega 甲賀忍蛙為核心的隊伍，標題強調 Mega 後仍可靠變幻自如在出場時依招式改屬性，專挑弱點秒殺對手；另一隻 Mega 為巨沼怪（兩隻 Mega 有需要時可同時選出）。隊上以大嘴鷗、烈箭鷹的順風與冰凍之風等輔助搭配甜冷美后、鋁鋼橋龍。常用選出（投影片）：大嘴鷗＋鋁鋼橋龍、大嘴鷗＋巨沼怪、烈箭鷹＋甲賀忍蛙、甜冷美后＋鋁鋼橋龍。隊伍弱點（投影片）：大狃拉的重複弱點較多、抗性少，整體容易被秒殺，穩定性太低。",
     "extracted_at": "2026-11-10T03:18:18.324Z",
     "extracted_by": "claude-sonnet-5-5/extract-v1.3",
-    "team_code": "XVTAS75SXK"
+    "team_code": "XVTAS75SXK",
+    "analysis": {
+      "core_offense": "以 Mega 甲賀忍蛙為核心輸出：標題點名其變幻自如出場後可改兩次屬性、專挑弱點秒殺對手；投影片「甲賀忍蛙的優勢」列出高速打 2x 或 4x 剋制技能、進攻屬性多種、配置難猜。",
+      "speed_control_core": [],
+      "cautions": "投影片「隊伍弱點」：大狃拉的重複弱點較多、抗性少；整體容易被秒殺；穩定性太低。（隊上並無大狃拉，投影片文字原樣照錄，所指對象待確認。）",
+      "scores": {
+        "difficulty": 2.5,
+        "flexibility": 2,
+        "stability": 1,
+        "coverage": 1,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, slide:甲賀忍蛙的優勢(f_011), notes",
+        "speed_control_core": "無字幕（會員影片）；標題與投影片未明寫任何控速為核心戰術，故不列",
+        "cautions": "slide:隊伍弱點(f_049~f_051), notes",
+        "scores": "slide:評分(f_052~f_054)，皆為 /5；上手難度方向待確認（無字幕說明，依 Fiske 他隊同欄位用法推測數字越大越難，未經本影片證實）"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:31.521Z"
+    }
   }
 ]

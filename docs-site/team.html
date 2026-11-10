@@ -114,6 +114,7 @@
     .score .pips i { width: 18px; height: 8px; border-radius: 3px; background: var(--bar-track); }
     .score .pips i.on { background: var(--accent); }
     .score .n { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+    .score .hint-inline { margin-left: 6px; font-size: 10px; color: var(--ink-soft); opacity: .8; }
 
     /* ===== 建議首發模式（選用） ===== */
     .combos { margin-top: var(--gap); background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 14px 16px; }
@@ -341,12 +342,19 @@
         + (l2.length ? `<details class="sc-fold sc-l2"><summary>Level 2 次要控速（${cnt(2)}）</summary>${scGroup(l2, "sc-broad", 2)}</details>` : "")
         + (l3.length ? `<details class="sc-fold sc-l3"><summary>Level 3 輔助與收殘（${cnt(3)}）— 不屬於控速討論</summary>${scGroup(l3, "sc-cleanup", 3)}</details>` : "");
     } else speedHtml = `${txt(an.speed_control)}${speedChips}`;
-    const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
+    const SCORES = [["difficulty", "上手難度"], ["flexibility", "操作彈性"], ["stability", "穩定性"], ["coverage", "全面程度"]];
     const sc = an.scores;
     const scoreHtml = sc && SCORES.some(([k]) => typeof sc[k] === "number")
       ? `<div class="score">${SCORES.filter(([k]) => typeof sc[k] === "number").map(([k, l]) => {
-        const v = Math.max(0, Math.min(5, Math.round(sc[k])));
-        return `<span>${l}</span><span class="pips" role="img" aria-label="${l} ${v} / 5">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= v ? "on" : ""}"></i>`).join("")}</span><span class="n">${v}/5</span>`;
+        // 滿分以投影片標示為準（Fiske 為 5 分制、可有 0.5 分）；每格代表 1 分，可部分填滿
+        const max = Math.max(1, Math.min(10, Math.round(Number(sc.scale_max) || 5)));
+        const v = Math.max(0, Math.min(max, Number(sc[k])));
+        const pips = Array.from({ length: max }, (_, i) => {
+          const f = Math.max(0, Math.min(1, v - i));
+          return `<i style="background:linear-gradient(90deg,var(--accent) ${f * 100}%,var(--bar-track) ${f * 100}%)"></i>`;
+        }).join("");
+        const label = k === "difficulty" ? `${l}<small class="hint-inline">越高越難</small>` : l;
+        return `<span>${label}</span><span class="pips" role="img" aria-label="${l} ${v} / ${max}">${pips}</span><span class="n">${v}/${max}</span>`;
       }).join("")}</div>` : `<p class="empty">尚無評分</p>`;
     const nameZh = (en) => members.find((m) => m.species?.name_en === en)?.species?.name_zh || en;
     const figs = (arr) => (arr || []).map((en) => `<figure><img src="${monImg(en, "thumb")}" alt="${esc(nameZh(en))}" loading="lazy" ${onerr} /><figcaption>${esc(nameZh(en))}</figcaption></figure>`).join("");

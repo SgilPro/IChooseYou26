@@ -512,6 +512,26 @@
     "notes": "以 Mega 耿鬼為核心（標題：不唱滅歌、不讓對手換人）的隊伍，標題強調永遠掌握天氣與場地：九尾（阿羅拉）降雪、愛管侍精神場地並備戲法空間，搭配紅蓮鎧騎的廣域戰力與鎧農炮、姆克鷹（Mega 候選）與持講究圍巾的烈咬陸鯊負責物理火力。投影片「紅蓮鎧騎模式」選出：紅蓮鎧騎＋耿鬼、紅蓮鎧騎＋愛管侍、烈咬陸鯊＋愛管侍、烈咬陸鯊＋耿鬼。隊伍弱點（投影片）：容易畏縮一次就直接輸了。評分：上手難度 1.5/5、操作彈性 2/5、穩定性 3/5、全面程度 2/5。",
     "extracted_at": "2026-11-10T03:29:59.301Z",
     "extracted_by": "claude-sonnet-5-5/extract-v1.3",
-    "team_code": "33KE6U0DR3"
+    "team_code": "33KE6U0DR3",
+    "analysis": {
+      "core_offense": "標題以 Mega 耿鬼為核心主角（不唱滅歌、不讓對手換人），並以九尾降雪、愛管侍精神場地＋戲法空間掌控天氣與場地；投影片選出方式有「紅蓮鎧騎模式」，紅蓮鎧騎的廣域戰力／鎧農炮為主力火力，烈咬陸鯊（講究圍巾）負責物理火力。",
+      "speed_control_core": [],
+      "cautions": "容易畏縮一次就直接輸了；特定類型的鋁鋼橋龍（雨天＋牆＋廣防順風＋大聲咆哮）",
+      "scores": {
+        "difficulty": 1.5,
+        "flexibility": 2,
+        "stability": 3,
+        "coverage": 2,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, notes, slide:選出方式(紅蓮鎧騎模式)",
+        "speed_control_core": "無字幕、投影片未明說控速手段為核心戰術，故不列",
+        "cautions": "slide:f_050（隊伍弱點兩項，含小字括號）",
+        "scores": "slide:f_051（1.5/2/3/2，/5）；無字幕，上手難度方向待確認"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:24.905Z"
+    }
   }
 ]

@@ -299,6 +299,26 @@
     "review_notes": "會員影片無字幕；只讀畫面。能力頁（特性/道具/招式）未在隊伍介紹段出現，這些欄位為 null。",
     "notes": "以 Mega 蜥蜴王搭配加熱洛托姆（速度▲，標題稱「高速放電」）為核心，隊伍構想源自推特上的 Wolfe Glick 風格「蜥蜴王洛托姆」隊（影片中引用 E36 バルドル 的貼文與 Wolfe Glick 隊伍畫面，Fiske 自己的版本改用紅蓮鎧騎，愛管侍性格為悠閒）。選出方式幾乎都是三組選兩組：蜥蜴王＋洛托姆、班基拉斯＋龍頭地鼠、紅蓮鎧騎＋愛管侍。弱點：意圖明顯容易被反制、太針對主流而盲點較多。自評 上手難度 2.5/5、操作彈性 1/5、穩定性 3/5、全面程度 1.5/5。",
     "extracted_at": "2026-11-10T03:30:06.498Z",
-    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "analysis": {
+      "core_offense": "以 Mega 蜥蜴王為主角、搭配加熱洛托姆：標題稱靠『高速放電』打出爆發；投影片說明 Mega 蜥蜴王的特性避雷針（吸引電屬性招式並提升特攻），接著介紹洛托姆為搭檔。",
+      "speed_control_core": [],
+      "cautions": "投影片「隊伍弱點」：意圖明顯，容易被反制；太針對主流，盲點較多。",
+      "scores": {
+        "difficulty": 2.5,
+        "flexibility": 1,
+        "stability": 3,
+        "coverage": 1.5,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, slide:避雷針說明(f_001~f_002), slide:洛托姆(f_003~f_004), notes",
+        "speed_control_core": "無字幕、能力頁（招式／特性／道具）未取得，隊員無招式資料，無從判斷，故不列",
+        "cautions": "slide:隊伍弱點, notes",
+        "scores": "slide:評分，皆為 /5；上手難度方向待確認（無字幕說明）"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:31.521Z"
+    }
   }
 ]

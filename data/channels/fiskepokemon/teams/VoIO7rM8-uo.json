@@ -509,6 +509,26 @@
     "review_notes": "會員限定影片無字幕，全部資訊來自畫面：能力頁 f_024~f_035（用 f_030）、狀態頁 f_036~f_040（用 f_038）。六隻特性/道具/四招皆在能力頁讀到。隊伍表為「隊伍10」，作者 Fiske。烈咬陸鯊招式畫面為「踩腳」，對照表為「跺腳」（Stomping Tantrum）。標題未明講標籤概念（「全進攻」不等同 hyper-offense），tags 留空。發布日 2026-08-27 落在 M-B 區間，標題無 regulation 標記。",
     "notes": "以超壞星為核心的全進攻隊：投影片列出隊友條件（地面系輸出、高爆發火系、剋制地面/電/超能、不能是純輔助、需有減傷特性或技能）。核心為 Mega 噴火龍 Y、妙蛙花、烈咬陸鯊與超壞星，劇毒加死纏爛打拖垮對手。選出方式非常不固定，常用首發為噴火龍搭配妙蛙花/熾焰咆哮虎/仙子伊布。弱點為不好搶天氣，以及超高爆發的超能系。",
     "extracted_at": "2026-11-10T03:37:29.848Z",
-    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "analysis": {
+      "core_offense": "以超壞星為核心的全進攻隊；Mega 噴火龍 Y、妙蛙花、烈咬陸鯊與超壞星為核心，超壞星以劇毒加死纏爛打拖垮對手。",
+      "speed_control_core": [],
+      "cautions": "比較不好搶天氣（其他天氣下，不見得好打特定鋼系）；超高爆發的超能系（超壞星佔走原本噴火龍隊處理他們的格子，例：仆斬將軍、幽尾玄魚）。",
+      "scores": {
+        "difficulty": 3,
+        "flexibility": 4,
+        "stability": 4,
+        "coverage": 3,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, notes(slide:隊友條件/主要策略), review_notes:會員限定無字幕",
+        "speed_control_core": "無字幕且畫面未明寫任何特定控速為核心戰術，故不列（葉綠素、講究圍巾維持 Level 2）",
+        "cautions": "slide:隊伍弱點(f_045)，無字幕",
+        "scores": "slide:評分(f_046~f_050，3/4/4/3，皆標 /5)；上手難度方向待確認（本隊無字幕，同系列其他影片字幕顯示數字越小越容易，推測數字越大越難）"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:51.553Z"
+    }
   }
 ]

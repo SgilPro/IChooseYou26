@@ -9,134 +9,493 @@
     "game": "champions",
     "regulation_set_id": "champions-m-c",
     "regulation_source": "title",
-    "tags": ["trick-room", "electric-terrain", "grassy-terrain", "psychic-terrain"],
+    "tags": [
+      "trick-room",
+      "electric-terrain",
+      "grassy-terrain",
+      "psychic-terrain"
+    ],
     "tags_source": "subtitle",
     "author": "Fiske",
     "author_source": "channel",
     "members": [
       {
         "slot": 1,
-        "species": { "dex_no": 693, "name_zh": "鋼炮臂蝦", "name_en": "Clawitzer", "form": null, "confidence": 0.99 },
+        "species": {
+          "dex_no": 693,
+          "name_zh": "鋼炮臂蝦",
+          "name_en": "Clawitzer",
+          "form": null,
+          "confidence": 0.99
+        },
         "nickname": "卡璞蝦蝦",
         "gender": "M",
-        "ability": { "value": "超級發射器", "value_en": "Mega Launcher", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "生命寶珠", "value_en": "Life Orb", "confidence": 0.99, "source": "frame" },
-        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "ability": {
+          "value": "超級發射器",
+          "value_en": "Mega Launcher",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": false,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 2, "spa": 32, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
-        "stats": { "hp": 178, "atk": 93, "def": 110, "spa": 189, "spd": 109, "spe": 71, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 178,
+          "atk": 93,
+          "def": 110,
+          "spa": 189,
+          "spd": 109,
+          "spe": 71,
+          "source": "frame"
+        },
         "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀為冷靜（空間型）。能力點經 Clawitzer 種族值驗算全部吻合，總和 66。",
         "moves": [
-          { "value": "水之波動", "value_en": "Water Pulse", "confidence": 0.99, "source": "frame" },
-          { "value": "大地波動", "value_en": "Terrain Pulse", "confidence": 0.99, "source": "frame" },
-          { "value": "波導彈", "value_en": "Aura Sphere", "confidence": 0.99, "source": "frame" },
-          { "value": "冰凍光束", "value_en": "Ice Beam", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "水之波動",
+            "value_en": "Water Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大地波動",
+            "value_en": "Terrain Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "波導彈",
+            "value_en": "Aura Sphere",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "隊伍核心（空間下的主力輸出）。大地波動在電氣/精神/青草場地變成對應屬性且威力翻倍再吃場地 30% 增傷，又屬波動類可吃超級發射器加成；配合三個場地手等於最多八種本系屬性。波導彈打鋼系（如鋁鋼橋龍），冰凍光束打暴飛龍與草系（來悲粗茶、金剛猩）。無法秒殺 32HP/2特防 的金剛猩，交給噴火駝補盲。不選龍之波動（力度更低）。"
       },
       {
         "slot": 2,
-        "species": { "dex_no": 871, "name_zh": "啪嚓海膽", "name_en": "Pincurchin", "form": null, "confidence": 0.99 },
+        "species": {
+          "dex_no": 871,
+          "name_zh": "啪嚓海膽",
+          "name_en": "Pincurchin",
+          "form": null,
+          "confidence": 0.99
+        },
         "nickname": "卡璞品品",
         "gender": "M",
-        "ability": { "value": "電氣製造者", "value_en": "Electric Surge", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "磁鐵", "value_en": "Magnet", "confidence": 0.98, "source": "frame" },
-        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "ability": {
+          "value": "電氣製造者",
+          "value_en": "Electric Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "磁鐵",
+          "value_en": "Magnet",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": false,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 2, "def": 0, "spa": 32, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
-        "stats": { "hp": 155, "atk": 123, "def": 115, "spa": 157, "spd": 105, "spe": 31, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 2,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 123,
+          "def": 115,
+          "spa": 157,
+          "spd": 105,
+          "spe": 31,
+          "source": "frame"
+        },
         "stats_note": "字幕：全遊戲速度最慢。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Pincurchin 種族值驗算全部吻合，總和 66。",
         "moves": [
-          { "value": "電力上升", "value_en": "Rising Voltage", "confidence": 0.99, "source": "frame" },
-          { "value": "十萬伏特", "value_en": "Thunderbolt", "confidence": 0.99, "source": "frame" },
-          { "value": "水炮", "value_en": "Hydro Pump", "confidence": 0.99, "source": "frame" },
-          { "value": "突襲", "value_en": "Sucker Punch", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "電力上升",
+            "value_en": "Rising Voltage",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "水炮",
+            "value_en": "Hydro Pump",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "電氣場地手。對飛行系/飄浮或非電氣場地時改用十萬伏特，所以帶兩個電系技；水炮打地面系，突襲在空間外收殘。四招都有機會用到，所以不帶守住（也很少需要）。"
       },
       {
         "slot": 3,
-        "species": { "dex_no": 812, "name_zh": "轟擂金剛猩", "name_en": "Rillaboom", "form": null, "confidence": 0.99 },
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.99
+        },
         "nickname": "卡璞拉拉",
         "gender": "M",
-        "ability": { "value": "青草製造者", "value_en": "Grassy Surge", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "達人帶", "value_en": "Expert Belt", "confidence": 0.99, "source": "frame" },
-        "nature": { "value": "勇敢", "value_en": "Brave", "confidence": 0.8, "source": "frame" },
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "達人帶",
+          "value_en": "Expert Belt",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "勇敢",
+          "value_en": "Brave",
+          "confidence": 0.8,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": false,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 25, "def": 0, "spa": 0, "spd": 9, "spe": 0, "confidence": 0.97, "source": "frame" },
-        "stats": { "hp": 207, "atk": 187, "def": 110, "spa": 80, "spd": 99, "spe": 94, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 25,
+          "def": 0,
+          "spa": 0,
+          "spd": 9,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 207,
+          "atk": 187,
+          "def": 110,
+          "spa": 80,
+          "spd": 99,
+          "spe": 94,
+          "source": "frame"
+        },
         "stats_note": "性格依狀態頁 攻擊▲/速度▽ 判讀為勇敢。能力點經 Rillaboom 種族值驗算全部吻合（攻擊 25 點、特防 9 點），總和 66。",
         "moves": [
-          { "value": "木槌", "value_en": "Wood Hammer", "confidence": 0.99, "source": "frame" },
-          { "value": "蠻力", "value_en": "Superpower", "confidence": 0.99, "source": "frame" },
-          { "value": "急速折返", "value_en": "U-turn", "confidence": 0.99, "source": "frame" },
-          { "value": "擊掌奇襲", "value_en": "Fake Out", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "蠻力",
+            "value_en": "Superpower",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "青草場地手、擊掌輔助，也是隊上唯一物攻手。最常用的輸出其實是急速折返（打弱蟲的愛管侍/金剛猩/奇麒麟），因此帶達人帶。蠻力打鋼系但用到機會少，可換拍落或十萬馬力。若不堅持全場地主題，可換成其他高速寶可夢。"
       },
       {
         "slot": 4,
-        "species": { "dex_no": 876, "name_zh": "愛管侍", "name_en": "Indeedee-F", "form": "F", "confidence": 0.99 },
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.99
+        },
         "nickname": "卡璞弟弟",
         "gender": "F",
-        "ability": { "value": "精神製造者", "value_en": "Psychic Surge", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "精神種子", "value_en": "Psychic Seed", "confidence": 0.98, "source": "frame" },
-        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.85, "source": "frame" },
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "精神種子",
+          "value_en": "Psychic Seed",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": false,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 18, "spa": 15, "spd": 1, "spe": 0, "confidence": 0.95, "source": "frame" },
-        "stats": { "hp": 177, "atk": 75, "def": 103, "spa": 143, "spd": 126, "spe": 94, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 18,
+          "spa": 15,
+          "spd": 1,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 75,
+          "def": 103,
+          "spa": 143,
+          "spd": 126,
+          "spe": 94,
+          "source": "frame"
+        },
         "stats_note": "字幕：稍微加了一點特攻、性格也修正特攻（環境火力低、沒必要全堆物防）。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Indeedee-F 種族值驗算全部吻合（特攻 15 點 → 143），總和 66。",
         "moves": [
-          { "value": "大地波動", "value_en": "Terrain Pulse", "confidence": 0.99, "source": "frame" },
-          { "value": "巨聲", "value_en": "Hyper Voice", "confidence": 0.99, "source": "frame" },
-          { "value": "看我嘛", "value_en": "Follow Me", "confidence": 0.99, "source": "frame" },
-          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "大地波動",
+            "value_en": "Terrain Pulse",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "精神場地手兼最泛用的首發輔助（看我嘛＋戲法空間）。不帶常見的精神強念而帶大地波動，必要時可作為草系或電系輸出手；巨聲打抵抗大地波動的對象。"
       },
       {
         "slot": 5,
-        "species": { "dex_no": 858, "name_zh": "布莉姆溫", "name_en": "Hatterene", "form": null, "confidence": 0.99 },
+        "species": {
+          "dex_no": 858,
+          "name_zh": "布莉姆溫",
+          "name_en": "Hatterene",
+          "form": null,
+          "confidence": 0.99
+        },
         "nickname": "我等了半年",
         "gender": "F",
-        "ability": { "value": "魔法鏡", "value_en": "Magic Bounce", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "氣勢披帶", "value_en": "Focus Sash", "confidence": 0.99, "source": "frame" },
-        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "ability": {
+          "value": "魔法鏡",
+          "value_en": "Magic Bounce",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.99,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": false,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 2, "spa": 32, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
-        "stats": { "hp": 164, "atk": 110, "def": 117, "spa": 206, "spd": 123, "spe": 44, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 164,
+          "atk": 110,
+          "def": 117,
+          "spa": 206,
+          "spd": 123,
+          "spe": 44,
+          "source": "frame"
+        },
         "stats_note": "性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Hatterene 種族值驗算全部吻合，總和 66。",
         "moves": [
-          { "value": "廣域戰力", "value_en": "Expanding Force", "confidence": 0.99, "source": "frame" },
-          { "value": "魔法閃耀", "value_en": "Dazzling Gleam", "confidence": 0.99, "source": "frame" },
-          { "value": "魔法火焰", "value_en": "Mystical Fire", "confidence": 0.99, "source": "frame" },
-          { "value": "戲法空間", "value_en": "Trick Room", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "魔法火焰",
+            "value_en": "Mystical Fire",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "主要首發與開空間手（速度慢、能用廣域戰力，與鋼炮臂蝦屬性不重疊故選她而非呆殼獸）。對手常優先選鋼系，魔法火焰很常用到，因此無格子帶守住。道具曾試過抗鋼果（對手擊掌＋金剛猩拍落時較好），但披帶在被擊中要害等情況最穩，最終選披帶。怕鋼系。"
       },
       {
         "slot": 6,
-        "species": { "dex_no": 323, "name_zh": "噴火駝", "name_en": "Camerupt-Mega", "form": "Mega", "confidence": 0.98 },
+        "species": {
+          "dex_no": 323,
+          "name_zh": "噴火駝",
+          "name_en": "Camerupt-Mega",
+          "form": "Mega",
+          "confidence": 0.98
+        },
         "nickname": "原始固拉多",
         "gender": "M",
-        "ability": { "value": "堅硬岩石", "value_en": "Solid Rock", "confidence": 0.98, "source": "frame" },
-        "item": { "value": "噴火駝進化石", "value_en": "Cameruptite", "confidence": 0.95, "source": "frame" },
-        "nature": { "value": "冷靜", "value_en": "Quiet", "confidence": 0.8, "source": "frame" },
+        "ability": {
+          "value": "堅硬岩石",
+          "value_en": "Solid Rock",
+          "confidence": 0.98,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火駝進化石",
+          "value_en": "Cameruptite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "冷靜",
+          "value_en": "Quiet",
+          "confidence": 0.8,
+          "source": "frame"
+        },
         "tera_type": null,
         "mega": true,
-        "evs": { "scale": "champions-points-32", "hp": 32, "atk": 0, "def": 2, "spa": 32, "spd": 0, "spe": 0, "confidence": 0.97, "source": "frame" },
-        "stats": { "hp": 177, "atk": 120, "def": 92, "spa": 172, "spd": 95, "spe": 54, "source": "frame" },
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 120,
+          "def": 92,
+          "spa": 172,
+          "spd": 95,
+          "spe": 54,
+          "source": "frame"
+        },
         "stats_note": "畫面數值為未 Mega 的原形。性格依狀態頁 特攻▲/速度▽ 判讀為冷靜。能力點經 Camerupt（原形）種族值驗算全部吻合，總和 66。",
         "moves": [
-          { "value": "守住", "value_en": "Protect", "confidence": 0.95, "source": "frame" },
-          { "value": "噴火", "value_en": "Eruption", "confidence": 0.98, "source": "frame" },
-          { "value": "熱風", "value_en": "Heat Wave", "confidence": 0.99, "source": "frame" },
-          { "value": "大地之力", "value_en": "Earth Power", "confidence": 0.99, "source": "frame" }
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "噴火",
+            "value_en": "Eruption",
+            "confidence": 0.98,
+            "source": "frame"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.99,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.99,
+            "source": "frame"
+          }
         ],
         "role_note": "隊伍唯一 Mega（主力鋼炮臂蝦用不到 Mega）。火＋地面補盲：秒殺其他人打不動的鋼系與金剛猩。隊伍表特性為原形的堅硬岩石，Mega 後為強行（Sheer Force）。M-A 版本帶原始之力打噴火龍，現在噴火龍變少且可靠海膽/鋼炮臂蝦處理，改帶更常用的守住（面對水系時常需要）。"
       }
@@ -145,7 +504,10 @@
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": "zh-TW",
-      "subtitle_range_s": [0, 407],
+      "subtitle_range_s": [
+        0,
+        407
+      ],
       "frames_used": 14,
       "pokepaste_url": null
     },
@@ -154,6 +516,26 @@
     "review_notes": null,
     "notes": "以「大地波動」為核心的空間隊：鋼炮臂蝦（超級發射器＋生命寶珠）在電氣/精神/青草場地下用大地波動切換屬性，等於同時擁有多達八種本系攻擊；三個場地手啪嚓海膽、轟擂金剛猩、愛管侍各自開場地（薄霧場地沒人用故不帶）。布莉姆溫為主要首發與開空間手，Mega 噴火駝（唯一 Mega）補鋼系與金剛猩的盲點。選出極單純：大多首發布莉姆溫＋愛管侍（或金剛猩擊掌），開空間後廣域戰力/噴火/魔法閃耀收場；對面重空間隊則視情況首發。能力點整體單純，只有愛管侍稍加特攻。弱點：整隊偏特攻，怕冥想花葉蒂、蝶舞火神蛾等強化特防；綁定三個場地手導致沒有高速寶可夢、空間外輸出弱；控速彈性低、物攻手只有一隻。評分：上手難度 1、操作彈性 1.5、穩定性 4、全面程度 3.5。",
     "extracted_at": "2026-11-08T09:14:05Z",
-    "extracted_by": "claude-fable-5.1/extract-v1.2"
+    "extracted_by": "claude-fable-5.1/extract-v1.2",
+    "analysis": {
+      "core_offense": "鋼炮臂蝦（超級發射器＋生命寶珠）是空間下的主要輸出，以大地波動為核心戰術：配合啪嚓海膽（電氣）、轟擂金剛猩（青草）、愛管侍（精神）三個場地手切換場地改變大地波動屬性，並吃超級發射器對波動類技能的增傷。",
+      "speed_control_core": [],
+      "cautions": "整隊偏特攻，對面若有強化特防手段（常見冥想花葉蒂、蝶舞火神蛾）強化兩次以上就非常危險，須優先針對；綁定三個場地手導致沒有高速寶可夢，空間外輸出弱；控速彈性低、物攻手只有一隻，可能遇到特定難打的隊伍；鋼炮臂蝦無法穩定秒殺 32HP/2特防 的轟擂金剛猩，需噴火駝補盲。",
+      "scores": {
+        "difficulty": 1,
+        "flexibility": 1.5,
+        "stability": 4,
+        "coverage": 3.5,
+        "scale_max": 5
+      },
+      "sources": {
+        "core_offense": "title, subtitle(0:14-0:40, 2:20)",
+        "speed_control_core": "subtitle, slide:控速僅戲法空間（Level 1），無明寫之核心控速手段；字幕並稱『策略上缺乏控速彈性』",
+        "cautions": "subtitle(5:14-5:45、2:00-2:10), slide:隊伍弱點",
+        "scores": "slide:評分（四項 1/1.5/4/3.5，皆標 /5）；上手難度方向：字幕『上手難度真的非常低…新手也容易理解』，故數字越小越容易"
+      },
+      "analyzed_by": "claude-sonnet-5-5/analyze-v1",
+      "analyzed_at": "2026-11-10T07:59:51.553Z"
+    }
   }
 ]
