@@ -125,6 +125,13 @@
       },
       "description": "同一隊伍的延伸影片（例如會員版）"
     },
+    "team_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "遊戲內的隊伍分享碼，意義由 game 決定：champions = 隊伍 ID（隊伍表頂端「隊伍ID：XXXXXXXXXX」，10 碼英數）；sv = 租借隊伍代碼。同一隊不會同時有兩種。從畫面讀到才填，沒看到填 null。"
+    },
     "sources": {
       "type": "object",
       "description": "本隊資料用到的素材",

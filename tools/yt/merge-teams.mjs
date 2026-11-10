@@ -28,13 +28,13 @@ const esc = (v) => {
 };
 const fv = (f) => f?.value ?? "";
 const fe = (f) => f?.value_en ?? "";
-const cols = ["team_id", "team_name", "video_id", "video_url", "video_published_at", "game", "regulation_set_id", "tags", "author", "is_members_only", "review_status", "team_confidence",
+const cols = ["team_id", "team_name", "video_id", "video_url", "video_published_at", "game", "team_code", "regulation_set_id", "tags", "author", "is_members_only", "review_status", "team_confidence",
   "slot", "species_zh", "species_en", "form", "nickname", "mega", "ability_zh", "ability_en", "item_zh", "item_en", "nature",
   "ev_scale", "ev_hp", "ev_atk", "ev_def", "ev_spa", "ev_spd", "ev_spe", "stat_hp", "stat_atk", "stat_def", "stat_spa", "stat_spd", "stat_spe",
   "move1", "move2", "move3", "move4", "move1_en", "move2_en", "move3_en", "move4_en", "stats_note", "role_note"];
 const rows = [cols.join(",")];
 for (const t of all) {
-  const base = [t.id, t.name, t.video_id, t.video_url, t.video_published_at, t.game, t.regulation_set_id, t.tags, t.author, t.is_members_only, t.review_status, t.confidence];
+  const base = [t.id, t.name, t.video_id, t.video_url, t.video_published_at, t.game, t.team_code ?? "", t.regulation_set_id, t.tags, t.author, t.is_members_only, t.review_status, t.confidence];
   if (!t.members?.length) { rows.push([...base, ...Array(cols.length - base.length).fill("")].map(esc).join(",")); continue; }
   for (const m of t.members) {
     const mv = m.moves ?? [];

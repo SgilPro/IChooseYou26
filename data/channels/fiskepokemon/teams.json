@@ -1,14 +1,14 @@
 [
   {
     "id": "team_4Vz5wZLr81w",
-    "name": "反覆發動變幻自如？Mega 甲賀忍蛙出場改兩次屬性，專挑弱點秒殺對手",
+    "name": "Mega 甲賀忍蛙變幻自如隊",
     "name_source": "title",
     "video_id": "4Vz5wZLr81w",
     "video_url": "https://www.youtube.com/watch?v=4Vz5wZLr81w",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
     "tags": [
       "protean-type-shift",
       "mega"
@@ -16,21 +16,503 @@
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 658,
+          "name_zh": "甲賀忍蛙",
+          "name_en": "Greninja-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "變幻自如",
+          "value_en": "Protean",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "甲賀忍蛙進化石",
+          "value_en": "Greninjite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慢吞吞",
+          "value_en": "Mild",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0,
+          "atk": 15,
+          "def": 0,
+          "spa": 19,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 147,
+          "atk": 130,
+          "def": 78,
+          "spa": 156,
+          "spd": 91,
+          "spe": 174,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "垃圾射擊",
+            "value_en": "Gunk Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心。標題主打 Mega 後出場改屬性（變幻自如，投影片說明「每次出場戰鬥時，變為與自己使出的招式相同的屬性 1 次」）。畫面數值為未 Mega 的原形；Mega 後特性畫面未顯示。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 763,
+          "name_zh": "甜冷美后",
+          "name_en": "Tsareena",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "女王的威嚴",
+          "value_en": "Queenly Majesty",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 24,
+          "atk": 12,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 30,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 171,
+          "atk": 152,
+          "def": 118,
+          "spa": 63,
+          "spd": 118,
+          "spe": 134,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "強力鞭打",
+            "value_en": "Power Whip",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "三旋擊",
+            "value_en": "Triple Axel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "意念頭錘",
+            "value_en": "Zen Headbutt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "芳香薄霧",
+            "value_en": "Aromatic Mist",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "投影片說明其進攻屬性適合幫水系補盲，常搭配以水系進攻為主的隊伍（如蓋歐卡）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 260,
+          "name_zh": "巨沼怪",
+          "name_en": "Swampert-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "激流",
+          "value_en": "Torrent",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "巨沼怪進化石",
+          "value_en": "Swampertite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 12,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 22,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 187,
+          "atk": 117,
+          "def": 110,
+          "spa": 150,
+          "spd": 110,
+          "spe": 102,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二隻 Mega 進化；畫面數值為未 Mega 的原形，特性為原形特性。選出方式中常與大嘴鷗同選。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 663,
+          "name_zh": "烈箭鷹",
+          "name_en": "Talonflame",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "疾風之翼",
+          "value_en": "Gale Wings",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 133,
+          "def": 91,
+          "spa": 84,
+          "spd": 89,
+          "spe": 195,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "雙翼",
+            "value_en": "Dual Wingbeat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與甲賀忍蛙同為首發組合。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "持久力",
+          "value_en": "Stamina",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 27,
+          "atk": 0,
+          "def": 6,
+          "spa": 1,
+          "spd": 32,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 192,
+          "atk": 112,
+          "def": 156,
+          "spa": 146,
+          "spd": 128,
+          "spe": 105,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與大嘴鷗或甜冷美后同選。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 63,
+          "def": 120,
+          "spa": 147,
+          "spd": 90,
+          "spe": 128,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與鋁鋼橋龍或巨沼怪同選。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 8,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員限定影片，無字幕；全部資訊取自畫面（能力頁 f_029~f_036、狀態頁 f_038、投影片 f_005/f_020/f_042/f_048），標題為隊名來源。",
+    "notes": "以 Mega 甲賀忍蛙為核心的隊伍，標題強調 Mega 後仍可靠變幻自如在出場時依招式改屬性，專挑弱點秒殺對手；另一隻 Mega 為巨沼怪（兩隻 Mega 有需要時可同時選出）。隊上以大嘴鷗、烈箭鷹的順風與冰凍之風等輔助搭配甜冷美后、鋁鋼橋龍。常用選出（投影片）：大嘴鷗＋鋁鋼橋龍、大嘴鷗＋巨沼怪、烈箭鷹＋甲賀忍蛙、甜冷美后＋鋁鋼橋龍。隊伍弱點（投影片）：大狃拉的重複弱點較多、抗性少，整體容易被秒殺，穩定性太低。",
+    "extracted_at": "2026-11-10T03:18:18.324Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "team_code": "XVTAS75SXK",
     "video_title": "反覆發動變幻自如？Mega 甲賀忍蛙出場改兩次屬性，專挑弱點秒殺對手【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-10-26"
   },
@@ -559,36 +1041,305 @@
   },
   {
     "id": "team_GGEax0idDZU",
-    "name": "環境變了，冷門的蜥蜴王終於翻身！搭配高速放電，打出驚人爆發",
+    "name": "蜥蜴王高速放電隊",
     "name_source": "title",
     "video_id": "GGEax0idDZU",
     "video_url": "https://www.youtube.com/watch?v=GGEax0idDZU",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "hyper-offense",
-      "meme-gimmick"
-    ],
+    "team_code": "WU4P4JWCCM",
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
+    "tags": [],
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 32,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 75,
+          "def": 128,
+          "spa": 115,
+          "spd": 127,
+          "spe": 94,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "與洛托姆/蜥蜴王之外的另一組配對（超能力/一般）；狀態頁防禦▲速度▽。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 479,
+          "name_zh": "洛托姆",
+          "name_en": "Rotom-Heat",
+          "form": "Heat",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "N",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 127,
+          "atk": 76,
+          "def": 127,
+          "spa": 157,
+          "spd": 127,
+          "spe": 151,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "火/電屬性（依立繪與屬性圖示判為加熱洛托姆）；與蜥蜴王為「難打空間隊」「難打噴火龍晴天」的一組。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 530,
+          "name_zh": "龍頭地鼠",
+          "name_en": "Excadrill",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 187,
+          "atk": 205,
+          "def": 80,
+          "spa": 63,
+          "spd": 85,
+          "spe": 140,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "與班基拉斯同組，投影片標註「會地震」。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 248,
+          "name_zh": "班基拉斯",
+          "name_en": "Tyranitar-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 30,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 4,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 205,
+          "atk": 204,
+          "def": 130,
+          "spa": 103,
+          "spd": 120,
+          "spe": 85,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "投影片出現 Mega 型態（岩石/惡）；畫面數值為未 Mega 原形。Mega 進化石與特性畫面未顯示。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 29,
+          "atk": 0,
+          "def": 4,
+          "spa": 32,
+          "spd": 1,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 189,
+          "atk": 72,
+          "def": 124,
+          "spa": 194,
+          "spd": 101,
+          "spe": 95,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "與愛管侍同組；特攻▲攻擊▽。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 254,
+          "name_zh": "蜥蜴王",
+          "name_en": "Sceptile-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": null,
+        "item": null,
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 147,
+          "atk": 94,
+          "def": 85,
+          "spa": 157,
+          "spd": 105,
+          "spe": 189,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。能力頁未出現，特性/道具/招式未知。",
+        "moves": [],
+        "role_note": "標題主角。投影片說明 Mega 後特性為避雷針（吸引電屬性招式並提升特攻），Mega 型態為草/龍；畫面數值為未 Mega 原形，Mega 進化石與原形特性畫面未顯示。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 11,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "會員影片無字幕；只讀畫面。能力頁（特性/道具/招式）未在隊伍介紹段出現，這些欄位為 null。",
+    "notes": "以 Mega 蜥蜴王搭配加熱洛托姆（速度▲，標題稱「高速放電」）為核心，隊伍構想源自推特上的 Wolfe Glick 風格「蜥蜴王洛托姆」隊（影片中引用 E36 バルドル 的貼文與 Wolfe Glick 隊伍畫面，Fiske 自己的版本改用紅蓮鎧騎，愛管侍性格為悠閒）。選出方式幾乎都是三組選兩組：蜥蜴王＋洛托姆、班基拉斯＋龍頭地鼠、紅蓮鎧騎＋愛管侍。弱點：意圖明顯容易被反制、太針對主流而盲點較多。自評 上手難度 2.5/5、操作彈性 1/5、穩定性 3/5、全面程度 1.5/5。",
+    "extracted_at": "2026-11-10T03:30:06.498Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
     "video_title": "環境變了，冷門的蜥蜴王終於翻身！搭配高速放電，打出驚人爆發【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-10-23"
   },
@@ -1116,37 +1867,518 @@
   },
   {
     "id": "team_h0oRLjOWrsk",
-    "name": "Mega 耿鬼不唱滅歌了！不讓對手換人，永遠掌握天氣 & 場地的霸道組合！",
+    "name": "Mega 耿鬼天氣場地掌控隊",
     "name_source": "title",
     "video_id": "h0oRLjOWrsk",
     "video_url": "https://www.youtube.com/watch?v=h0oRLjOWrsk",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
     "tags": [
-      "weather",
-      "perish-trap",
-      "mega"
+      "mega",
+      "weather"
     ],
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 94,
+          "name_zh": "耿鬼",
+          "name_en": "Gengar-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "詛咒之軀",
+          "value_en": "Cursed Body",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "耿鬼進化石",
+          "value_en": "Gengarite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 17,
+          "atk": 0,
+          "def": 15,
+          "spa": 10,
+          "spd": 0,
+          "spe": 24,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 152,
+          "atk": 76,
+          "def": 95,
+          "spa": 160,
+          "spd": 95,
+          "spe": 169,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "標題主角（Mega 耿鬼，不唱滅歌、不讓對手換人）。畫面數值為未 Mega 的原形；Mega 後特性畫面未顯示。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 876,
+          "name_zh": "愛管侍",
+          "name_en": "Indeedee-F",
+          "form": "F",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "精神製造者",
+          "value_en": "Psychic Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "悠閒",
+          "value_en": "Relaxed",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 32,
+          "atk": 0,
+          "def": 32,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 177,
+          "atk": 75,
+          "def": 128,
+          "spa": 115,
+          "spd": 127,
+          "spe": 94,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "大地波動",
+            "value_en": "Terrain Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "精神場地（精神製造者）＋戲法空間＋看我嘛的場地/輔助手；畫面性別為雌（Indeedee-F）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 38,
+          "name_zh": "九尾",
+          "name_en": "Ninetales-Alola",
+          "form": "Alola",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "降雪",
+          "value_en": "Snow Warning",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "不融冰",
+          "value_en": "Never-Melt Ice",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 13,
+          "atk": 0,
+          "def": 0,
+          "spa": 21,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 161,
+          "atk": 78,
+          "def": 95,
+          "spa": 122,
+          "spd": 120,
+          "spe": 177,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風雪",
+            "value_en": "Blizzard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冷凍乾燥",
+            "value_en": "Freeze-Dry",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "撒嬌",
+            "value_en": "Charm",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "降雪天氣手＋暴風雪；立繪與屬性圖示（冰/妖精）判為阿羅拉型態。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 936,
+          "name_zh": "紅蓮鎧騎",
+          "name_en": "Armarouge",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "碎裂鎧甲",
+          "value_en": "Weak Armor",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 162,
+          "atk": 72,
+          "def": 120,
+          "spa": 194,
+          "spd": 100,
+          "spe": 127,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域戰力",
+            "value_en": "Expanding Force",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鎧農炮",
+            "value_en": "Armor Cannon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "投影片「紅蓮鎧騎模式」的主力火力；精神場地下廣域戰力。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 398,
+          "name_zh": "姆克鷹",
+          "name_en": "Staraptor-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "姆克鷹進化石",
+          "value_en": "Staraptite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 24,
+          "atk": 2,
+          "def": 0,
+          "spa": 0,
+          "spd": 10,
+          "spe": 30,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 184,
+          "atk": 142,
+          "def": 90,
+          "spa": 63,
+          "spd": 90,
+          "spe": 165,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "勇鳥猛攻",
+            "value_en": "Brave Bird",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "羽棲",
+            "value_en": "Roost",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "畫面數值為未 Mega 的原形（Mega 後特性畫面未顯示）。持姆克鷹進化石，為隊上第二隻 Mega 候選。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 7,
+          "atk": 31,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 28,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 190,
+          "atk": 181,
+          "def": 115,
+          "spa": 90,
+          "spd": 105,
+          "spe": 165,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍爪",
+            "value_en": "Dragon Claw",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "講究圍巾的高速物攻手（無守住）。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 10,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員限定影片，無字幕；全部資訊取自畫面（能力頁 f_029~f_036、狀態頁 f_040、投影片 f_010/f_020/f_044/f_048/f_052），標題為隊名來源。隊伍ID 放大確認為 33KE6U0DR3。選出方式投影片僅確認「紅蓮鎧騎模式」，其餘模式未逐張讀取。",
+    "notes": "以 Mega 耿鬼為核心（標題：不唱滅歌、不讓對手換人）的隊伍，標題強調永遠掌握天氣與場地：九尾（阿羅拉）降雪、愛管侍精神場地並備戲法空間，搭配紅蓮鎧騎的廣域戰力與鎧農炮、姆克鷹（Mega 候選）與持講究圍巾的烈咬陸鯊負責物理火力。投影片「紅蓮鎧騎模式」選出：紅蓮鎧騎＋耿鬼、紅蓮鎧騎＋愛管侍、烈咬陸鯊＋愛管侍、烈咬陸鯊＋耿鬼。隊伍弱點（投影片）：容易畏縮一次就直接輸了。評分：上手難度 1.5/5、操作彈性 2/5、穩定性 3/5、全面程度 2/5。",
+    "extracted_at": "2026-11-10T03:29:59.301Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "team_code": "33KE6U0DR3",
     "video_title": "Mega 耿鬼不唱滅歌了！不讓對手換人，永遠掌握天氣 & 場地的霸道組合！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-10-13"
   },
@@ -1713,6 +2945,40 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "雨天雙濁流！勇敢的人，先享受 Miss｜母幽尾玄魚 & Mega 具甲武者 Bonus【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-10-02"
+  },
+  {
+    "id": "team_CMhT3LCKZaA",
+    "name": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fi",
+    "name_source": "title",
+    "video_id": "CMhT3LCKZaA",
+    "video_url": "https://www.youtube.com/watch?v=CMhT3LCKZaA",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.932Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-09-27"
   },
   {
     "id": "team__a7RrtzsMYM",
@@ -2790,6 +4056,42 @@
     "video_published_at": "2026-09-19"
   },
   {
+    "id": "team_ueGuFvkf7UE",
+    "name": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽",
+    "name_source": "title",
+    "video_id": "ueGuFvkf7UE",
+    "video_url": "https://www.youtube.com/watch?v=ueGuFvkf7UE",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "mega",
+      "tournament-team",
+      "meme-gimmick"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽（二）｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-09-03"
+  },
+  {
     "id": "team_VoIO7rM8-uo",
     "name": "誰說超壞星只能玩受隊？全進攻隊伍，最後卻讓對手根本打不動他！",
     "name_source": "title",
@@ -3342,6 +4644,38 @@
     "extracted_by": "claude-fable-5.1/extract-v1.2",
     "video_title": "這個場地根本沒人能搶！Mega 雷丘 X 讓電龍打出全遊戲最高電系輸出！【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-08-15"
+  },
+  {
+    "id": "team_8ACL1XG0vjI",
+    "name": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜F",
+    "name_source": "title",
+    "video_id": "8ACL1XG0vjI",
+    "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.930Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-11"
   },
   {
     "id": "team_V4qdHt6MKPA",
@@ -6684,6 +8018,38 @@
     "video_published_at": "2026-06-21"
   },
   {
+    "id": "team_UyrM7oewUuo",
+    "name": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本",
+    "name_source": "title",
+    "video_id": "UyrM7oewUuo",
+    "video_url": "https://www.youtube.com/watch?v=UyrM7oewUuo",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.938Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本全國冠軍賽（二）｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-06-16"
+  },
+  {
     "id": "team_r0Ta14PaXzE",
     "name": "Mega 噴火龍 X 幻覺隊",
     "name_source": "title",
@@ -7722,6 +9088,38 @@
     "video_published_at": "2026-06-06"
   },
   {
+    "id": "team_oo5-CpYyF5Q",
+    "name": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜20",
+    "name_source": "title",
+    "video_id": "oo5-CpYyF5Q",
+    "video_url": "https://www.youtube.com/watch?v=oo5-CpYyF5Q",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.936Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜2026 韓國訓練家盃比賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-06-01"
+  },
+  {
     "id": "team_xE6Z8qbwikQ",
     "name": "Mega 雪妖女 & 冰伊布 & 雷伊布 隊",
     "name_source": "title",
@@ -8261,6 +9659,38 @@
     "extracted_at": "2026-11-08T15:59:36Z",
     "extracted_by": "claude-fable-5.1/extract-v1.2",
     "video_title": "我用冰岩怪和芳香精打上冠軍級！冷門到對手根本沒見過的組合，卻成為噴火駝的致勝關鍵！Mega 噴火駝 & 冰岩怪 空間隊【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
+    "video_published_at": "2026-05-30"
+  },
+  {
+    "id": "team_on09yMCkE-c",
+    "name": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜202",
+    "name_source": "title",
+    "video_id": "on09yMCkE-c",
+    "video_url": "https://www.youtube.com/watch?v=on09yMCkE-c",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.936Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜2026 馬來西亞大師球聯盟賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-05-30"
   },
   {
@@ -12250,6 +13680,70 @@
     "video_published_at": "2026-03-28"
   },
   {
+    "id": "team_19PpR0W2qk0",
+    "name": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske",
+    "name_source": "title",
+    "video_id": "19PpR0W2qk0",
+    "video_url": "https://www.youtube.com/watch?v=19PpR0W2qk0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.928Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-03-10"
+  },
+  {
+    "id": "team_qlqyk4HZGy0",
+    "name": "告別第九世代，最後一場朱紫官方國際賽｜2026 歐洲國際賽｜Fiske 講比賽",
+    "name_source": "title",
+    "video_id": "qlqyk4HZGy0",
+    "video_url": "https://www.youtube.com/watch?v=qlqyk4HZGy0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.936Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "告別第九世代，最後一場朱紫官方國際賽｜2026 歐洲國際賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-03-04"
+  },
+  {
     "id": "team_VN0dQfuGeDQ",
     "name": "悠遊自如的萬針魚，與反先制的工具人蒼響",
     "name_source": "title",
@@ -12380,6 +13874,38 @@
     "video_published_at": "2025-12-14"
   },
   {
+    "id": "team_W2bkLeb0S5g",
+    "name": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽",
+    "name_source": "title",
+    "video_id": "W2bkLeb0S5g",
+    "video_url": "https://www.youtube.com/watch?v=W2bkLeb0S5g",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.938Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2025-12-05"
+  },
+  {
     "id": "team_P6dIWZfEkLE",
     "name": "拂曉之翼的最佳隊友！比蕾冠王更強，不斷上升特攻的滾雪球之王！瑪機雅娜 & 奈克洛",
     "name_source": "title",
@@ -12410,6 +13936,41 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "拂曉之翼的最佳隊友！比蕾冠王更強，不斷上升特攻的滾雪球之王！瑪機雅娜 & 奈克洛茲瑪 拂曉之翼【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
     "video_published_at": "2025-11-23"
+  },
+  {
+    "id": "team_hDXCB1HiTRk",
+    "name": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fis",
+    "name_source": "title",
+    "video_id": "hDXCB1HiTRk",
+    "video_url": "https://www.youtube.com/watch?v=hDXCB1HiTRk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "snow",
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.933Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2025-11-08"
   },
   {
     "id": "team_ptvKi3Ot0lI",
@@ -14078,6 +15639,70 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "動得了算你運氣好！最強天恩謝米，讓人誤以爲超慢的高速 Combo！謝米 & 露奈雅拉 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch2",
     "video_published_at": "2025-09-13"
+  },
+  {
+    "id": "team_dLE-lpqNSIM",
+    "name": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fisk",
+    "name_source": "title",
+    "video_id": "dLE-lpqNSIM",
+    "video_url": "https://www.youtube.com/watch?v=dLE-lpqNSIM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.932Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2025-09-08"
+  },
+  {
+    "id": "team_KVDHWjf-bNk",
+    "name": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fisk",
+    "name_source": "title",
+    "video_id": "KVDHWjf-bNk",
+    "video_url": "https://www.youtube.com/watch?v=KVDHWjf-bNk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2025-08-27"
   },
   {
     "id": "team_Ha5zN052be8",
@@ -21697,6 +23322,38 @@
     "video_published_at": "2025-04-26"
   },
   {
+    "id": "team_1Giw8ymwSBI",
+    "name": "讚讚的狗狗，與這次一定中的鬼火洗衣機",
+    "name_source": "title",
+    "video_id": "1Giw8ymwSBI",
+    "video_url": "https://www.youtube.com/watch?v=1Giw8ymwSBI",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.929Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "讚讚的狗狗，與這次一定中的鬼火洗衣機【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2025-04-24"
+  },
+  {
     "id": "team_A6zopkLavRA",
     "name": "艾姆利多 & 藏瑪然特 隊",
     "name_source": "title",
@@ -24400,6 +26057,40 @@
     "video_published_at": "2025-03-24"
   },
   {
+    "id": "team_o_Y42BV_pnY",
+    "name": "長相一言難盡，但是擁有超強特性的雨天大將！磨牙彩皮魚",
+    "name_source": "title",
+    "video_id": "o_Y42BV_pnY",
+    "video_url": "https://www.youtube.com/watch?v=o_Y42BV_pnY",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "rain"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.935Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "長相一言難盡，但是擁有超強特性的雨天大將！磨牙彩皮魚【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2025-03-21"
+  },
+  {
     "id": "team_R6CILAfqyr0",
     "name": "露奈雅拉 & 愛管侍 隊",
     "name_source": "title",
@@ -25948,6 +27639,41 @@
     "video_published_at": "2025-03-02"
   },
   {
+    "id": "team_1eZnYO-4uQ0",
+    "name": "吼叫尾大展身手，晴天滅歌第一人！歐洲國際賽（二）｜Fiske 講比賽",
+    "name_source": "title",
+    "video_id": "1eZnYO-4uQ0",
+    "video_url": "https://www.youtube.com/watch?v=1eZnYO-4uQ0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "sun",
+      "perish-trap"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.929Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "吼叫尾大展身手，晴天滅歌第一人！歐洲國際賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰",
+    "video_published_at": "2025-03-01"
+  },
+  {
     "id": "team_FDIWYRenBfY",
     "name": "外表看似寶寶，實則受到不行",
     "name_source": "title",
@@ -26998,6 +28724,40 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "說百發百中，其實也不是那麼百發百中",
     "video_published_at": "2025-02-17"
+  },
+  {
+    "id": "team_Ssxih_C_FgQ",
+    "name": "邊打邊加物防，最硬的威嚇手詭角鹿",
+    "name_source": "title",
+    "video_id": "Ssxih_C_FgQ",
+    "video_url": "https://www.youtube.com/watch?v=Ssxih_C_FgQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "intimidate"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "邊打邊加物防，最硬的威嚇手詭角鹿【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2025-02-13"
   },
   {
     "id": "team_ehBAbBEEivA",
@@ -29168,6 +30928,38 @@
     "video_published_at": "2025-01-16"
   },
   {
+    "id": "team_McwBVW0HKKI",
+    "name": "日本年度最強隊伍，岩石打磨的太樂巴戈斯",
+    "name_source": "title",
+    "video_id": "McwBVW0HKKI",
+    "video_url": "https://www.youtube.com/watch?v=McwBVW0HKKI",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "日本年度最強隊伍，岩石打磨的太樂巴戈斯【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2025-01-15"
+  },
+  {
     "id": "team_9n8P7TH-1jk",
     "name": "跟古月鳥不共戴天",
     "name_source": "title",
@@ -30830,6 +32622,41 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "建議阿渡回去當飛行系天王",
     "video_published_at": "2024-12-25"
+  },
+  {
+    "id": "team_e2OU9gxlBXI",
+    "name": "偽裝成非常高速，其實全家都慢到不行的耿鬼空間隊",
+    "name_source": "title",
+    "video_id": "e2OU9gxlBXI",
+    "video_url": "https://www.youtube.com/watch?v=e2OU9gxlBXI",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "trick-room",
+      "hyper-offense"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.932Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "偽裝成非常高速，其實全家都慢到不行的耿鬼空間隊【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2024-12-24"
   },
   {
     "id": "team_EGcI8srq8eI",
@@ -33343,6 +35170,38 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "非常認真，但是格子不夠",
     "video_published_at": "2024-11-24"
+  },
+  {
+    "id": "team_p_6syhTPXdM",
+    "name": "百發百中，金屬音的鑰圈兒",
+    "name_source": "title",
+    "video_id": "p_6syhTPXdM",
+    "video_url": "https://www.youtube.com/watch?v=p_6syhTPXdM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.936Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "百發百中，金屬音的鑰圈兒【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2024-11-23"
   },
   {
     "id": "team_kDXWd6IH4W4",
@@ -35991,6 +37850,38 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "花舞鳥 3.0！不跳舞的花舞鳥，與他的工具人風妖精【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰",
     "video_published_at": "2024-10-21"
+  },
+  {
+    "id": "team_K60MkrKbaGY",
+    "name": "閃避率爆表，光粉 + 沙隱的烈咬陸鯊讓對手崩潰",
+    "name_source": "title",
+    "video_id": "K60MkrKbaGY",
+    "video_url": "https://www.youtube.com/watch?v=K60MkrKbaGY",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "閃避率爆表，光粉 + 沙隱的烈咬陸鯊讓對手崩潰【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2024-10-19"
   },
   {
     "id": "team_DUgWUtZ3FGc",
@@ -38690,6 +40581,40 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "衝浪大隊來襲，瘋狂疊加特攻 & 回血的呆呆王空間隊【寶可夢朱紫】",
     "video_published_at": "2024-09-22"
+  },
+  {
+    "id": "team_XhhB6ptiPGQ",
+    "name": "羈絆的雨天飛水手裡劍，甲賀忍蛙",
+    "name_source": "title",
+    "video_id": "XhhB6ptiPGQ",
+    "video_url": "https://www.youtube.com/watch?v=XhhB6ptiPGQ",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "rain"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.939Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "羈絆的雨天飛水手裡劍，甲賀忍蛙【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2024-09-21"
   },
   {
     "id": "team_cvTg8qkQwsw",
@@ -41832,6 +43757,40 @@
     "video_published_at": "2024-08-25"
   },
   {
+    "id": "team_rmlIdp3htQM",
+    "name": "超強屬性 + 悠遊自如，雨天的萬針魚",
+    "name_source": "title",
+    "video_id": "rmlIdp3htQM",
+    "video_url": "https://www.youtube.com/watch?v=rmlIdp3htQM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "rain"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "超強屬性 + 悠遊自如，雨天的萬針魚【寶可夢朱紫】#寶可夢對戰 #級別對戰",
+    "video_published_at": "2024-08-24"
+  },
+  {
     "id": "team_6kMcLd7XgEU",
     "name": "晴天妙蛙花 & 空間多邊獸Ⅱ 高低速隊",
     "name_source": "title",
@@ -43914,6 +45873,38 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "不怕威嚇，但是怕 miss（頻道會員 Bonus）",
     "video_published_at": "2024-07-22"
+  },
+  {
+    "id": "team_WoYMABWwhbc",
+    "name": "尾立跟土台龜，但是賽季結算第 58 名？",
+    "name_source": "title",
+    "video_id": "WoYMABWwhbc",
+    "video_url": "https://www.youtube.com/watch?v=WoYMABWwhbc",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.938Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "尾立跟土台龜，但是賽季結算第 58 名？【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-07-20"
   },
   {
     "id": "team_hs60BbAe2uM",
@@ -47091,6 +49082,41 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "起源空間神，龍聲鼓舞的帕路奇亞（會員版 對戰影片）",
     "video_published_at": "2024-06-22"
+  },
+  {
+    "id": "team_0147Zc3JXgM",
+    "name": "宇宙最受神獸，壓迫感的無極汰那",
+    "name_source": "title",
+    "video_id": "0147Zc3JXgM",
+    "video_url": "https://www.youtube.com/watch?v=0147Zc3JXgM",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "stall",
+      "restricted"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.928Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "宇宙最受神獸，壓迫感的無極汰那【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-06-21"
   },
   {
     "id": "team_a8RGMzOFdS0",
@@ -51557,6 +53583,38 @@
     "video_published_at": "2024-05-13"
   },
   {
+    "id": "team_8o2Xba42B9o",
+    "name": "",
+    "name_source": "title",
+    "video_id": "8o2Xba42B9o",
+    "video_url": "https://www.youtube.com/watch?v=8o2Xba42B9o",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.930Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】先制之爪 + 一擊必殺，但是打到排位高分段，是怎麼辦到的？【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-05-11"
+  },
+  {
     "id": "team_fXmzaZI-F5g",
     "name": "地表最強暴風雪，焰白酋雷姆（會員版 對戰影片）",
     "name_source": "title",
@@ -51658,6 +53716,38 @@
     "video_published_at": "2024-04-28"
   },
   {
+    "id": "team_kX4E-V0jGjk",
+    "name": "【會員限定】玩台灣全國預賽第八名的賽富豪 & 來悲粗茶隊",
+    "name_source": "title",
+    "video_id": "kX4E-V0jGjk",
+    "video_url": "https://www.youtube.com/watch?v=kX4E-V0jGjk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】玩台灣全國預賽第八名的賽富豪 & 來悲粗茶隊【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-04-27"
+  },
+  {
     "id": "team_BGDvQmmADpE",
     "name": "如何讓你的 Showdown 變成中文版，以及變成「寶可夢朱紫」風格的對戰介面？",
     "name_source": "title",
@@ -51722,6 +53812,38 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "100% 勝率，宇宙最強封面神，黑馬王順風隊（會員版 對戰影片）",
     "video_published_at": "2024-04-22"
+  },
+  {
+    "id": "team_HPPaHpsCisA",
+    "name": "",
+    "name_source": "title",
+    "video_id": "HPPaHpsCisA",
+    "video_url": "https://www.youtube.com/watch?v=HPPaHpsCisA",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.933Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】好勝的胖可丁，與素質裸催的詭角鹿【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-04-19"
   },
   {
     "id": "team_ptXnN71u7Sg",
@@ -53319,6 +55441,38 @@
     "video_published_at": "2024-03-11"
   },
   {
+    "id": "team_18lWHV5N2Qg",
+    "name": "",
+    "name_source": "title",
+    "video_id": "18lWHV5N2Qg",
+    "video_url": "https://www.youtube.com/watch?v=18lWHV5N2Qg",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.928Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】宇宙最爛御三家，喬伊小姐的大竺葵【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-03-09"
+  },
+  {
     "id": "team_LXfIfNJV4zM",
     "name": "Raichu",
     "name_source": "pokepaste",
@@ -54320,6 +56474,40 @@
     "video_published_at": "2024-02-28"
   },
   {
+    "id": "team_q_iWHD0VamE",
+    "name": "",
+    "name_source": "title",
+    "video_id": "q_iWHD0VamE",
+    "video_url": "https://www.youtube.com/watch?v=q_iWHD0VamE",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.936Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】用前世界冠軍的地區賽隊伍打對戰！【寶可夢朱紫】雙打實況 #寶可夢對戰",
+    "video_published_at": "2024-02-27"
+  },
+  {
     "id": "team_nDRzhaer4A4",
     "name": "如何組一個雨天滅歌隊？（40 分鐘會員版）",
     "name_source": "title",
@@ -54352,6 +56540,38 @@
     "extracted_at": "2026-11-08T16:40:00.935Z",
     "extracted_by": "make-member-shells-v1",
     "video_title": "如何組一個雨天滅歌隊？（40 分鐘會員版）",
+    "video_published_at": "2024-02-25"
+  },
+  {
+    "id": "team_u98RPaSgSEg",
+    "name": "",
+    "name_source": "title",
+    "video_id": "u98RPaSgSEg",
+    "video_url": "https://www.youtube.com/watch?v=u98RPaSgSEg",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】嘟嘟利，他到底有什麼用？【寶可夢朱紫】雙打實況 #寶可夢對戰",
     "video_published_at": "2024-02-25"
   },
   {
@@ -56386,6 +58606,174 @@
     "video_published_at": "2024-02-10"
   },
   {
+    "id": "team_By9wJ7CdTas",
+    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（後）",
+    "name_source": "title",
+    "video_id": "By9wJ7CdTas",
+    "video_url": "https://www.youtube.com/watch?v=By9wJ7CdTas",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.931Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（後）【寶可夢朱紫】雙打對戰",
+    "video_published_at": "2024-02-07"
+  },
+  {
+    "id": "team_AqD2a-S2cZw",
+    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（前）",
+    "name_source": "title",
+    "video_id": "AqD2a-S2cZw",
+    "video_url": "https://www.youtube.com/watch?v=AqD2a-S2cZw",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.931Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（前）【寶可夢朱紫】雙打對戰",
+    "video_published_at": "2024-02-06"
+  },
+  {
+    "id": "team_lqa3EKpjQV4",
+    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（前）",
+    "name_source": "title",
+    "video_id": "lqa3EKpjQV4",
+    "video_url": "https://www.youtube.com/watch?v=lqa3EKpjQV4",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（前）【寶可夢朱紫】雙打對戰",
+    "video_published_at": "2024-02-05"
+  },
+  {
+    "id": "team_x1aMTuWmXkw",
+    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（後）",
+    "name_source": "title",
+    "video_id": "x1aMTuWmXkw",
+    "video_url": "https://www.youtube.com/watch?v=x1aMTuWmXkw",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.938Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（後）【寶可夢朱紫】雙打對戰",
+    "video_published_at": "2024-02-05"
+  },
+  {
+    "id": "team_tH4DW2Mb5MA",
+    "name": "",
+    "name_source": "title",
+    "video_id": "tH4DW2Mb5MA",
+    "video_url": "https://www.youtube.com/watch?v=tH4DW2Mb5MA",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】當你的寶可夢根本摸不到我，閣下又該如何應對？【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #零之秘寶 #藍之圓盤 #vgc",
+    "video_published_at": "2024-02-04"
+  },
+  {
     "id": "team_i2W1SFyRMhM",
     "name": "barudoru's Okidogi Primarina Team",
     "name_source": "pokepaste",
@@ -56883,6 +59271,40 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "擁有全遊戲最頂級抗性的西獅海壬，與一雪前恥的夠讚狗【寶可夢朱紫】#寶可夢對戰 #雙打對戰 #零之秘寶 #藍之圓盤 #nintendoswitch",
     "video_published_at": "2024-02-01"
+  },
+  {
+    "id": "team_72jmiwsmPi8",
+    "name": "",
+    "name_source": "title",
+    "video_id": "72jmiwsmPi8",
+    "video_url": "https://www.youtube.com/watch?v=72jmiwsmPi8",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "electric-terrain"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.929Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】臭魚爛蝦鐵斑葉，與他的電場兄弟們【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #零之秘寶 #藍之圓盤 #vgc",
+    "video_published_at": "2024-01-21"
   },
   {
     "id": "team_TEhCLre21jc",
@@ -58490,6 +60912,70 @@
     "video_published_at": "2023-11-30"
   },
   {
+    "id": "team_WhqlckZukmE",
+    "name": "",
+    "name_source": "title",
+    "video_id": "WhqlckZukmE",
+    "video_url": "https://www.youtube.com/watch?v=WhqlckZukmE",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.938Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】喜歡帶給對面玩家笑容的九尾，與光粉雪隱急凍鳥【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc",
+    "video_published_at": "2023-11-28"
+  },
+  {
+    "id": "team_96TFfeTI4XI",
+    "name": "",
+    "name_source": "title",
+    "video_id": "96TFfeTI4XI",
+    "video_url": "https://www.youtube.com/watch?v=96TFfeTI4XI",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.930Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】會員點播，用各種青蛙組隊來打對戰！【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc",
+    "video_published_at": "2023-11-25"
+  },
+  {
     "id": "team_LjNa9SnOAck",
     "name": "",
     "name_source": "title",
@@ -59589,6 +62075,40 @@
     "video_published_at": "2023-11-11"
   },
   {
+    "id": "team_dZp88f9tKIo",
+    "name": "",
+    "name_source": "title",
+    "video_id": "dZp88f9tKIo",
+    "video_url": "https://www.youtube.com/watch?v=dZp88f9tKIo",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "setup"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.932Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】願增猿 & 科學催眠美納斯的強化隊！三寶伴墊底的願增猿，他真的行嗎？【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-11-09"
+  },
+  {
     "id": "team_145Yuis-vfM",
     "name": "",
     "name_source": "title",
@@ -60124,6 +62644,38 @@
     "video_published_at": "2023-11-06"
   },
   {
+    "id": "team_danY1aL1kdk",
+    "name": "",
+    "name_source": "title",
+    "video_id": "danY1aL1kdk",
+    "video_url": "https://www.youtube.com/watch?v=danY1aL1kdk",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.932Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】DLC 的青草滑梯，能不能拯救根本沒人在用的 XY 御三家布里卡隆？【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-11-05"
+  },
+  {
     "id": "team_kioiUOte0nI",
     "name": "Kommo-o Bundle",
     "name_source": "pokepaste",
@@ -60623,6 +63175,108 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "【寶可夢朱紫】目前規則最強的沙暴兄弟！班基拉斯 & 杖尾鱗甲龍大爆冷門，奪下大型比賽冠軍 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc #nintendoswitch",
     "video_published_at": "2023-10-31"
+  },
+  {
+    "id": "team_hqF8wu-W0x0",
+    "name": "",
+    "name_source": "title",
+    "video_id": "hqF8wu-W0x0",
+    "video_url": "https://www.youtube.com/watch?v=hqF8wu-W0x0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.933Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】來做超難的「寶可夢學測」！各種對戰與朱紫遊戲細節，你能答對多少題？【寶可夢朱紫】",
+    "video_published_at": "2023-10-25"
+  },
+  {
+    "id": "team_Zd7sjkhP0Rw",
+    "name": "",
+    "name_source": "title",
+    "video_id": "Zd7sjkhP0Rw",
+    "video_url": "https://www.youtube.com/watch?v=Zd7sjkhP0Rw",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "rain",
+      "balance",
+      "setup"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.939Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】這個「雨天隊」稱霸了新規則的第一場大型比賽！兼具雨天「高爆發」與「平衡強化」的超強隊伍【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-10-23"
+  },
+  {
+    "id": "team_SHYOqEX5Kns",
+    "name": "",
+    "name_source": "title",
+    "video_id": "SHYOqEX5Kns",
+    "video_url": "https://www.youtube.com/watch?v=SHYOqEX5Kns",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [
+      "iy982L4wY7g"
+    ],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.937Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】卡比獸＆來悲粗茶的喝茶歌舞隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-10-17"
   },
   {
     "id": "team_iy982L4wY7g",
@@ -61159,6 +63813,74 @@
     "video_published_at": "2023-10-12"
   },
   {
+    "id": "team_nwdLyTHOr24",
+    "name": "",
+    "name_source": "title",
+    "video_id": "nwdLyTHOr24",
+    "video_url": "https://www.youtube.com/watch?v=nwdLyTHOr24",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.935Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】慶祝頻道滿 10,000 訂閱，跟觀眾一起玩四人雙打的揮指比賽！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-10-10"
+  },
+  {
+    "id": "team_A4JhXP9Zv-I",
+    "name": "",
+    "name_source": "title",
+    "video_id": "A4JhXP9Zv-I",
+    "video_url": "https://www.youtube.com/watch?v=A4JhXP9Zv-I",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "balance"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [
+      "eoIF5H7M_6w"
+    ],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.930Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】Fiske 排位直播｜草系厄鬼椪 & 原版火焰鳥的平衡隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-10-03"
+  },
+  {
     "id": "team_sm3hSSed79U",
     "name": "",
     "name_source": "title",
@@ -61692,6 +64414,41 @@
     "extracted_by": "import-pokepaste-v1",
     "video_title": "反威嚇美少女厄鬼椪，與面貌凶惡的平衡兄弟【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-09-30"
+  },
+  {
+    "id": "team_ICAfU1CoRh0",
+    "name": "",
+    "name_source": "title",
+    "video_id": "ICAfU1CoRh0",
+    "video_url": "https://www.youtube.com/watch?v=ICAfU1CoRh0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "balance",
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.933Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】Fiske 排位直播｜奪下世界賽 32 強的古簡蝸平衡隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-09-16"
   },
   {
     "id": "team_1Y0idc9K9xs",
@@ -62757,6 +65514,40 @@
     "video_published_at": "2023-09-06"
   },
   {
+    "id": "team_2zdCCYg25NY",
+    "name": "",
+    "name_source": "title",
+    "video_id": "2zdCCYg25NY",
+    "video_url": "https://www.youtube.com/watch?v=2zdCCYg25NY",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "balance"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.929Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】Fiske 排位直播｜黏美龍的超硬平衡隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-09-03"
+  },
+  {
     "id": "team_2Q1TRbYrWG8",
     "name": "",
     "name_source": "title",
@@ -63292,6 +66083,40 @@
     "video_published_at": "2023-08-31"
   },
   {
+    "id": "team_ZzQ97qOviR0",
+    "name": "",
+    "name_source": "title",
+    "video_id": "ZzQ97qOviR0",
+    "video_url": "https://www.youtube.com/watch?v=ZzQ97qOviR0",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "tournament-team"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.939Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】Fiske 排位直播｜2023 年寶可夢世界冠軍隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-08-30"
+  },
+  {
     "id": "team_22QugwOB6U4",
     "name": "真正的朱紫最強隊伍！寶可夢世界冠軍隊到底有多厲害？",
     "name_source": "title",
@@ -63824,6 +66649,40 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "【會員限定】世界冠軍隊｜混帳東西妖火紅狐",
     "video_published_at": "2023-08-22"
+  },
+  {
+    "id": "team_A4dK2k_CKSE",
+    "name": "",
+    "name_source": "title",
+    "video_id": "A4dK2k_CKSE",
+    "video_url": "https://www.youtube.com/watch?v=A4dK2k_CKSE",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [
+      "sand"
+    ],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.930Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "【會員限定】Fiske 排位直播｜仙子伊布的沙暴隊！【寶可夢朱紫】雙打實況",
+    "video_published_at": "2023-08-17"
   },
   {
     "id": "team_HiEI62PML3A",
@@ -80396,6 +83255,38 @@
     "video_published_at": "2022-12-17"
   },
   {
+    "id": "team_JKYq8tugHUg",
+    "name": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（",
+    "name_source": "title",
+    "video_id": "JKYq8tugHUg",
+    "video_url": "https://www.youtube.com/watch?v=JKYq8tugHUg",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": null,
+    "regulation_source": null,
+    "tags": [],
+    "tags_source": "title",
+    "author": "Fiske",
+    "author_source": "channel",
+    "members": [],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "sources": {
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "frames_used": 0,
+      "pokepaste_url": null
+    },
+    "confidence": 0,
+    "review_status": "needs-member-access",
+    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "notes": null,
+    "extracted_at": "2026-11-08T16:40:00.934Z",
+    "extracted_by": "make-member-shells-v1",
+    "video_title": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（下）【寶可夢朱紫】#nintendoswitch",
+    "video_published_at": "2022-12-15"
+  },
+  {
     "id": "team_bnKri0hecTo",
     "name": "使用率只有1.8%的寶可夢它到底行不行？拖拖蚓 + 狂歡浪舞鴨",
     "name_source": "title",
@@ -80873,1664 +83764,5 @@
     "paste_notes": null,
     "video_title": "空間噴煙大隊！地表最強火系輸出  紅蓮鎧騎 + 煤炭龜【寶可夢朱紫】雙打隊伍講解 #nintendoswitch",
     "video_published_at": "2022-11-30"
-  },
-  {
-    "id": "team_0147Zc3JXgM",
-    "name": "宇宙最受神獸，壓迫感的無極汰那",
-    "name_source": "title",
-    "video_id": "0147Zc3JXgM",
-    "video_url": "https://www.youtube.com/watch?v=0147Zc3JXgM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "stall",
-      "restricted"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.928Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "宇宙最受神獸，壓迫感的無極汰那【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_18lWHV5N2Qg",
-    "name": "",
-    "name_source": "title",
-    "video_id": "18lWHV5N2Qg",
-    "video_url": "https://www.youtube.com/watch?v=18lWHV5N2Qg",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.928Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】宇宙最爛御三家，喬伊小姐的大竺葵【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_19PpR0W2qk0",
-    "name": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske",
-    "name_source": "title",
-    "video_id": "19PpR0W2qk0",
-    "video_url": "https://www.youtube.com/watch?v=19PpR0W2qk0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.928Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_1eZnYO-4uQ0",
-    "name": "吼叫尾大展身手，晴天滅歌第一人！歐洲國際賽（二）｜Fiske 講比賽",
-    "name_source": "title",
-    "video_id": "1eZnYO-4uQ0",
-    "video_url": "https://www.youtube.com/watch?v=1eZnYO-4uQ0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "sun",
-      "perish-trap"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "吼叫尾大展身手，晴天滅歌第一人！歐洲國際賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_1Giw8ymwSBI",
-    "name": "讚讚的狗狗，與這次一定中的鬼火洗衣機",
-    "name_source": "title",
-    "video_id": "1Giw8ymwSBI",
-    "video_url": "https://www.youtube.com/watch?v=1Giw8ymwSBI",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "讚讚的狗狗，與這次一定中的鬼火洗衣機【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_2zdCCYg25NY",
-    "name": "",
-    "name_source": "title",
-    "video_id": "2zdCCYg25NY",
-    "video_url": "https://www.youtube.com/watch?v=2zdCCYg25NY",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】Fiske 排位直播｜黏美龍的超硬平衡隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_72jmiwsmPi8",
-    "name": "",
-    "name_source": "title",
-    "video_id": "72jmiwsmPi8",
-    "video_url": "https://www.youtube.com/watch?v=72jmiwsmPi8",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "electric-terrain"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】臭魚爛蝦鐵斑葉，與他的電場兄弟們【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #零之秘寶 #藍之圓盤 #vgc",
-    "video_published_at": null
-  },
-  {
-    "id": "team_8ACL1XG0vjI",
-    "name": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜F",
-    "name_source": "title",
-    "video_id": "8ACL1XG0vjI",
-    "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_8o2Xba42B9o",
-    "name": "",
-    "name_source": "title",
-    "video_id": "8o2Xba42B9o",
-    "video_url": "https://www.youtube.com/watch?v=8o2Xba42B9o",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】先制之爪 + 一擊必殺，但是打到排位高分段，是怎麼辦到的？【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_96TFfeTI4XI",
-    "name": "",
-    "name_source": "title",
-    "video_id": "96TFfeTI4XI",
-    "video_url": "https://www.youtube.com/watch?v=96TFfeTI4XI",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】會員點播，用各種青蛙組隊來打對戰！【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc",
-    "video_published_at": null
-  },
-  {
-    "id": "team_A4dK2k_CKSE",
-    "name": "",
-    "name_source": "title",
-    "video_id": "A4dK2k_CKSE",
-    "video_url": "https://www.youtube.com/watch?v=A4dK2k_CKSE",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "sand"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】Fiske 排位直播｜仙子伊布的沙暴隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_A4JhXP9Zv-I",
-    "name": "",
-    "name_source": "title",
-    "video_id": "A4JhXP9Zv-I",
-    "video_url": "https://www.youtube.com/watch?v=A4JhXP9Zv-I",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [
-      "eoIF5H7M_6w"
-    ],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】Fiske 排位直播｜草系厄鬼椪 & 原版火焰鳥的平衡隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_AqD2a-S2cZw",
-    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（前）",
-    "name_source": "title",
-    "video_id": "AqD2a-S2cZw",
-    "video_url": "https://www.youtube.com/watch?v=AqD2a-S2cZw",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.931Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（前）【寶可夢朱紫】雙打對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_By9wJ7CdTas",
-    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（後）",
-    "name_source": "title",
-    "video_id": "By9wJ7CdTas",
-    "video_url": "https://www.youtube.com/watch?v=By9wJ7CdTas",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.931Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 2（後）【寶可夢朱紫】雙打對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_CMhT3LCKZaA",
-    "name": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fi",
-    "name_source": "title",
-    "video_id": "CMhT3LCKZaA",
-    "video_url": "https://www.youtube.com/watch?v=CMhT3LCKZaA",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.932Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_danY1aL1kdk",
-    "name": "",
-    "name_source": "title",
-    "video_id": "danY1aL1kdk",
-    "video_url": "https://www.youtube.com/watch?v=danY1aL1kdk",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.932Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】DLC 的青草滑梯，能不能拯救根本沒人在用的 XY 御三家布里卡隆？【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_dLE-lpqNSIM",
-    "name": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fisk",
-    "name_source": "title",
-    "video_id": "dLE-lpqNSIM",
-    "video_url": "https://www.youtube.com/watch?v=dLE-lpqNSIM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.932Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_dZp88f9tKIo",
-    "name": "",
-    "name_source": "title",
-    "video_id": "dZp88f9tKIo",
-    "video_url": "https://www.youtube.com/watch?v=dZp88f9tKIo",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "setup"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.932Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】願增猿 & 科學催眠美納斯的強化隊！三寶伴墊底的願增猿，他真的行嗎？【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_e2OU9gxlBXI",
-    "name": "偽裝成非常高速，其實全家都慢到不行的耿鬼空間隊",
-    "name_source": "title",
-    "video_id": "e2OU9gxlBXI",
-    "video_url": "https://www.youtube.com/watch?v=e2OU9gxlBXI",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "trick-room",
-      "hyper-offense"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.932Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "偽裝成非常高速，其實全家都慢到不行的耿鬼空間隊【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_hDXCB1HiTRk",
-    "name": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fis",
-    "name_source": "title",
-    "video_id": "hDXCB1HiTRk",
-    "video_url": "https://www.youtube.com/watch?v=hDXCB1HiTRk",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "snow",
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_HPPaHpsCisA",
-    "name": "",
-    "name_source": "title",
-    "video_id": "HPPaHpsCisA",
-    "video_url": "https://www.youtube.com/watch?v=HPPaHpsCisA",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】好勝的胖可丁，與素質裸催的詭角鹿【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_hqF8wu-W0x0",
-    "name": "",
-    "name_source": "title",
-    "video_id": "hqF8wu-W0x0",
-    "video_url": "https://www.youtube.com/watch?v=hqF8wu-W0x0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】來做超難的「寶可夢學測」！各種對戰與朱紫遊戲細節，你能答對多少題？【寶可夢朱紫】",
-    "video_published_at": null
-  },
-  {
-    "id": "team_ICAfU1CoRh0",
-    "name": "",
-    "name_source": "title",
-    "video_id": "ICAfU1CoRh0",
-    "video_url": "https://www.youtube.com/watch?v=ICAfU1CoRh0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance",
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.933Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】Fiske 排位直播｜奪下世界賽 32 強的古簡蝸平衡隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_JKYq8tugHUg",
-    "name": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（",
-    "name_source": "title",
-    "video_id": "JKYq8tugHUg",
-    "video_url": "https://www.youtube.com/watch?v=JKYq8tugHUg",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（下）【寶可夢朱紫】#nintendoswitch",
-    "video_published_at": null
-  },
-  {
-    "id": "team_K60MkrKbaGY",
-    "name": "閃避率爆表，光粉 + 沙隱的烈咬陸鯊讓對手崩潰",
-    "name_source": "title",
-    "video_id": "K60MkrKbaGY",
-    "video_url": "https://www.youtube.com/watch?v=K60MkrKbaGY",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "閃避率爆表，光粉 + 沙隱的烈咬陸鯊讓對手崩潰【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_KVDHWjf-bNk",
-    "name": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fisk",
-    "name_source": "title",
-    "video_id": "KVDHWjf-bNk",
-    "video_url": "https://www.youtube.com/watch?v=KVDHWjf-bNk",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_kX4E-V0jGjk",
-    "name": "【會員限定】玩台灣全國預賽第八名的賽富豪 & 來悲粗茶隊",
-    "name_source": "title",
-    "video_id": "kX4E-V0jGjk",
-    "video_url": "https://www.youtube.com/watch?v=kX4E-V0jGjk",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】玩台灣全國預賽第八名的賽富豪 & 來悲粗茶隊【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_lqa3EKpjQV4",
-    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（前）",
-    "name_source": "title",
-    "video_id": "lqa3EKpjQV4",
-    "video_url": "https://www.youtube.com/watch?v=lqa3EKpjQV4",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（前）【寶可夢朱紫】雙打對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_McwBVW0HKKI",
-    "name": "日本年度最強隊伍，岩石打磨的太樂巴戈斯",
-    "name_source": "title",
-    "video_id": "McwBVW0HKKI",
-    "video_url": "https://www.youtube.com/watch?v=McwBVW0HKKI",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.934Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "日本年度最強隊伍，岩石打磨的太樂巴戈斯【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_nwdLyTHOr24",
-    "name": "",
-    "name_source": "title",
-    "video_id": "nwdLyTHOr24",
-    "video_url": "https://www.youtube.com/watch?v=nwdLyTHOr24",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.935Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】慶祝頻道滿 10,000 訂閱，跟觀眾一起玩四人雙打的揮指比賽！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_o_Y42BV_pnY",
-    "name": "長相一言難盡，但是擁有超強特性的雨天大將！磨牙彩皮魚",
-    "name_source": "title",
-    "video_id": "o_Y42BV_pnY",
-    "video_url": "https://www.youtube.com/watch?v=o_Y42BV_pnY",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "rain"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.935Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "長相一言難盡，但是擁有超強特性的雨天大將！磨牙彩皮魚【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_on09yMCkE-c",
-    "name": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜202",
-    "name_source": "title",
-    "video_id": "on09yMCkE-c",
-    "video_url": "https://www.youtube.com/watch?v=on09yMCkE-c",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜2026 馬來西亞大師球聯盟賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_oo5-CpYyF5Q",
-    "name": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜20",
-    "name_source": "title",
-    "video_id": "oo5-CpYyF5Q",
-    "video_url": "https://www.youtube.com/watch?v=oo5-CpYyF5Q",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜2026 韓國訓練家盃比賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_p_6syhTPXdM",
-    "name": "百發百中，金屬音的鑰圈兒",
-    "name_source": "title",
-    "video_id": "p_6syhTPXdM",
-    "video_url": "https://www.youtube.com/watch?v=p_6syhTPXdM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "百發百中，金屬音的鑰圈兒【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_q_iWHD0VamE",
-    "name": "",
-    "name_source": "title",
-    "video_id": "q_iWHD0VamE",
-    "video_url": "https://www.youtube.com/watch?v=q_iWHD0VamE",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】用前世界冠軍的地區賽隊伍打對戰！【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_qlqyk4HZGy0",
-    "name": "告別第九世代，最後一場朱紫官方國際賽｜2026 歐洲國際賽｜Fiske 講比賽",
-    "name_source": "title",
-    "video_id": "qlqyk4HZGy0",
-    "video_url": "https://www.youtube.com/watch?v=qlqyk4HZGy0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.936Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "告別第九世代，最後一場朱紫官方國際賽｜2026 歐洲國際賽｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_rmlIdp3htQM",
-    "name": "超強屬性 + 悠遊自如，雨天的萬針魚",
-    "name_source": "title",
-    "video_id": "rmlIdp3htQM",
-    "video_url": "https://www.youtube.com/watch?v=rmlIdp3htQM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "rain"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "超強屬性 + 悠遊自如，雨天的萬針魚【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_SHYOqEX5Kns",
-    "name": "",
-    "name_source": "title",
-    "video_id": "SHYOqEX5Kns",
-    "video_url": "https://www.youtube.com/watch?v=SHYOqEX5Kns",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [
-      "iy982L4wY7g"
-    ],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】卡比獸＆來悲粗茶的喝茶歌舞隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_Ssxih_C_FgQ",
-    "name": "邊打邊加物防，最硬的威嚇手詭角鹿",
-    "name_source": "title",
-    "video_id": "Ssxih_C_FgQ",
-    "video_url": "https://www.youtube.com/watch?v=Ssxih_C_FgQ",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "intimidate"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "邊打邊加物防，最硬的威嚇手詭角鹿【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_tH4DW2Mb5MA",
-    "name": "",
-    "name_source": "title",
-    "video_id": "tH4DW2Mb5MA",
-    "video_url": "https://www.youtube.com/watch?v=tH4DW2Mb5MA",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】當你的寶可夢根本摸不到我，閣下又該如何應對？【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #零之秘寶 #藍之圓盤 #vgc",
-    "video_published_at": null
-  },
-  {
-    "id": "team_u98RPaSgSEg",
-    "name": "",
-    "name_source": "title",
-    "video_id": "u98RPaSgSEg",
-    "video_url": "https://www.youtube.com/watch?v=u98RPaSgSEg",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】嘟嘟利，他到底有什麼用？【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_ueGuFvkf7UE",
-    "name": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽",
-    "name_source": "title",
-    "video_id": "ueGuFvkf7UE",
-    "video_url": "https://www.youtube.com/watch?v=ueGuFvkf7UE",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "mega",
-      "tournament-team",
-      "meme-gimmick"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.937Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽（二）｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_UyrM7oewUuo",
-    "name": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本",
-    "name_source": "title",
-    "video_id": "UyrM7oewUuo",
-    "video_url": "https://www.youtube.com/watch?v=UyrM7oewUuo",
-    "channel_handle": "@fiskepokemon",
-    "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本全國冠軍賽（二）｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_W2bkLeb0S5g",
-    "name": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽",
-    "name_source": "title",
-    "video_id": "W2bkLeb0S5g",
-    "video_url": "https://www.youtube.com/watch?v=W2bkLeb0S5g",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽（二）｜Fiske 講比賽【寶可夢朱紫】 #寶可夢對戰 #nintendoswitch2",
-    "video_published_at": null
-  },
-  {
-    "id": "team_WhqlckZukmE",
-    "name": "",
-    "name_source": "title",
-    "video_id": "WhqlckZukmE",
-    "video_url": "https://www.youtube.com/watch?v=WhqlckZukmE",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】喜歡帶給對面玩家笑容的九尾，與光粉雪隱急凍鳥【寶可夢朱紫】雙打實況 #寶可夢對戰 #雙打對戰 #碧之假面 #vgc",
-    "video_published_at": null
-  },
-  {
-    "id": "team_WoYMABWwhbc",
-    "name": "尾立跟土台龜，但是賽季結算第 58 名？",
-    "name_source": "title",
-    "video_id": "WoYMABWwhbc",
-    "video_url": "https://www.youtube.com/watch?v=WoYMABWwhbc",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "尾立跟土台龜，但是賽季結算第 58 名？【寶可夢朱紫】雙打實況 #寶可夢對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_x1aMTuWmXkw",
-    "name": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（後）",
-    "name_source": "title",
-    "video_id": "x1aMTuWmXkw",
-    "video_url": "https://www.youtube.com/watch?v=x1aMTuWmXkw",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "Fiske 比賽解說｜英國 Liverpool 地區賽 Day 1（後）【寶可夢朱紫】雙打對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_XhhB6ptiPGQ",
-    "name": "羈絆的雨天飛水手裡劍，甲賀忍蛙",
-    "name_source": "title",
-    "video_id": "XhhB6ptiPGQ",
-    "video_url": "https://www.youtube.com/watch?v=XhhB6ptiPGQ",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "rain"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.939Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "羈絆的雨天飛水手裡劍，甲賀忍蛙【寶可夢朱紫】#寶可夢對戰 #級別對戰",
-    "video_published_at": null
-  },
-  {
-    "id": "team_Zd7sjkhP0Rw",
-    "name": "",
-    "name_source": "title",
-    "video_id": "Zd7sjkhP0Rw",
-    "video_url": "https://www.youtube.com/watch?v=Zd7sjkhP0Rw",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "rain",
-      "balance",
-      "setup"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.939Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】這個「雨天隊」稱霸了新規則的第一場大型比賽！兼具雨天「高爆發」與「平衡強化」的超強隊伍【寶可夢朱紫】雙打實況",
-    "video_published_at": null
-  },
-  {
-    "id": "team_ZzQ97qOviR0",
-    "name": "",
-    "name_source": "title",
-    "video_id": "ZzQ97qOviR0",
-    "video_url": "https://www.youtube.com/watch?v=ZzQ97qOviR0",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.939Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】Fiske 排位直播｜2023 年寶可夢世界冠軍隊！【寶可夢朱紫】雙打實況",
-    "video_published_at": null
   }
 ]

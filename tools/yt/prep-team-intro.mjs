@@ -5,7 +5,7 @@
 //
 // 用法：node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon <videoId> [<videoId>...]
 //       node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon --all-champions-battle
-// 環境變數：FPS（預設 1/8，可寫 1/5 或 0.2）、MAX_INTRO_S（章節缺失時的預設長度，預設 480）、NO_FRAMES=1 只切字幕
+// 環境變數：COOKIES（會員影片用的 cookies.txt 路徑）、FPS（預設 1/8，可寫 1/5 或 0.2）、MAX_INTRO_S（章節缺失時的預設長度，預設 480）、NO_FRAMES=1 只切字幕
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
@@ -68,6 +68,7 @@ function extractFrames(id, start, end) {
     "-f", "bv*[height<=720][ext=mp4]/b[height<=720]", // 720p 才看得清隊伍表小字
     "--download-sections", `*${Math.floor(start)}-${Math.ceil(end)}`, // 不加 --force-keyframes-at-cuts：會整段重新編碼，實測 720p 8 分鐘要 5~10 分鐘
     "--extractor-args", "youtube:lang=zh-TW",
+    ...(process.env.COOKIES ? ["--cookies", process.env.COOKIES, "--sleep-requests", "1"] : []), // 會員影片：COOKIES=~/路徑/cookies.txt（repo 外，勿提交）
     "-o", seg,
     `https://www.youtube.com/watch?v=${id}`,
   ], { stdio: ["ignore", "ignore", "inherit"] });

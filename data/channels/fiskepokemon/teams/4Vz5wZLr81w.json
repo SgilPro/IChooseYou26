@@ -1,14 +1,14 @@
 [
   {
     "id": "team_4Vz5wZLr81w",
-    "name": "反覆發動變幻自如？Mega 甲賀忍蛙出場改兩次屬性，專挑弱點秒殺對手",
+    "name": "Mega 甲賀忍蛙變幻自如隊",
     "name_source": "title",
     "video_id": "4Vz5wZLr81w",
     "video_url": "https://www.youtube.com/watch?v=4Vz5wZLr81w",
     "channel_handle": "@fiskepokemon",
     "game": "champions",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "champions-m-c",
+    "regulation_source": "date-inferred",
     "tags": [
       "protean-type-shift",
       "mega"
@@ -16,20 +16,502 @@
     "tags_source": "title",
     "author": "Fiske",
     "author_source": "channel",
-    "members": [],
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 658,
+          "name_zh": "甲賀忍蛙",
+          "name_en": "Greninja-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "變幻自如",
+          "value_en": "Protean",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "甲賀忍蛙進化石",
+          "value_en": "Greninjite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慢吞吞",
+          "value_en": "Mild",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 0,
+          "atk": 15,
+          "def": 0,
+          "spa": 19,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 147,
+          "atk": 130,
+          "def": 78,
+          "spa": 156,
+          "spd": 91,
+          "spe": 174,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "垃圾射擊",
+            "value_en": "Gunk Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "隊伍核心。標題主打 Mega 後出場改屬性（變幻自如，投影片說明「每次出場戰鬥時，變為與自己使出的招式相同的屬性 1 次」）。畫面數值為未 Mega 的原形；Mega 後特性畫面未顯示。"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 763,
+          "name_zh": "甜冷美后",
+          "name_en": "Tsareena",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "女王的威嚴",
+          "value_en": "Queenly Majesty",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 24,
+          "atk": 12,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 30,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 171,
+          "atk": 152,
+          "def": 118,
+          "spa": 63,
+          "spd": 118,
+          "spe": 134,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "強力鞭打",
+            "value_en": "Power Whip",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "三旋擊",
+            "value_en": "Triple Axel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "意念頭錘",
+            "value_en": "Zen Headbutt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "芳香薄霧",
+            "value_en": "Aromatic Mist",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "投影片說明其進攻屬性適合幫水系補盲，常搭配以水系進攻為主的隊伍（如蓋歐卡）。"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 260,
+          "name_zh": "巨沼怪",
+          "name_en": "Swampert-Mega",
+          "form": "Mega",
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "激流",
+          "value_en": "Torrent",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "巨沼怪進化石",
+          "value_en": "Swampertite",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 12,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 22,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 187,
+          "atk": 117,
+          "def": 110,
+          "spa": 150,
+          "spd": 110,
+          "spe": 102,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "第二隻 Mega 進化；畫面數值為未 Mega 的原形，特性為原形特性。選出方式中常與大嘴鷗同選。"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 663,
+          "name_zh": "烈箭鷹",
+          "name_en": "Talonflame",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "疾風之翼",
+          "value_en": "Gale Wings",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 155,
+          "atk": 133,
+          "def": 91,
+          "spa": 84,
+          "spd": 89,
+          "spe": 195,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "雙翼",
+            "value_en": "Dual Wingbeat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與甲賀忍蛙同為首發組合。"
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "F",
+        "ability": {
+          "value": "持久力",
+          "value_en": "Stamina",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 27,
+          "atk": 0,
+          "def": 6,
+          "spa": 1,
+          "spd": 32,
+          "spe": 0,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 192,
+          "atk": 112,
+          "def": 156,
+          "spa": 146,
+          "spd": 128,
+          "spe": 105,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與大嘴鷗或甜冷美后同選。"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.97
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": {
+          "scale": "champions-points-32",
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32,
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "stats": {
+          "hp": 137,
+          "atk": 63,
+          "def": 120,
+          "spa": 147,
+          "spd": 90,
+          "spe": 128,
+          "source": "frame"
+        },
+        "stats_note": "依「狀態」頁 ▲▽ 判讀性格；能力值以 Lv.50 公式重算吻合、能力點總和 66。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "濁流",
+            "value_en": "Muddy Water",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": "選出方式中常與鋁鋼橋龍或巨沼怪同選。"
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 8,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.929Z",
-    "extracted_by": "make-member-shells-v1"
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": "會員限定影片，無字幕；全部資訊取自畫面（能力頁 f_029~f_036、狀態頁 f_038、投影片 f_005/f_020/f_042/f_048），標題為隊名來源。",
+    "notes": "以 Mega 甲賀忍蛙為核心的隊伍，標題強調 Mega 後仍可靠變幻自如在出場時依招式改屬性，專挑弱點秒殺對手；另一隻 Mega 為巨沼怪（兩隻 Mega 有需要時可同時選出）。隊上以大嘴鷗、烈箭鷹的順風與冰凍之風等輔助搭配甜冷美后、鋁鋼橋龍。常用選出（投影片）：大嘴鷗＋鋁鋼橋龍、大嘴鷗＋巨沼怪、烈箭鷹＋甲賀忍蛙、甜冷美后＋鋁鋼橋龍。隊伍弱點（投影片）：大狃拉的重複弱點較多、抗性少，整體容易被秒殺，穩定性太低。",
+    "extracted_at": "2026-11-10T03:18:18.324Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3",
+    "team_code": "XVTAS75SXK"
   }
 ]
