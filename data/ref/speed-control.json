@@ -1,10 +1,11 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-10",
-  "note": "依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
+  "note": "tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
   "categories": [
     {
       "id": "field-control",
+      "tier": "core",
       "name_zh": "場地／全隊控速",
       "name_en": "Field / Side Speed Control",
       "scope": "field",
@@ -12,6 +13,7 @@
     },
     {
       "id": "spread-speed-drop",
+      "tier": "core",
       "name_zh": "範圍降速技",
       "name_en": "Spread Speed-Drop Moves",
       "scope": "target",
@@ -19,6 +21,7 @@
     },
     {
       "id": "paralysis",
+      "tier": "core",
       "name_zh": "麻痺",
       "name_en": "Paralysis",
       "scope": "target",
@@ -26,13 +29,15 @@
     },
     {
       "id": "self-speed-boost",
+      "tier": "core",
       "name_zh": "自身加速（天氣／特性）",
       "name_en": "Self Speed Boost",
       "scope": "self",
-      "description_zh": "靠天氣、場地或特性條件，讓寶可夢自己的速度提高。"
+      "description_zh": "靠天氣、場地或特性條件，讓寶可夢自己的速度提高（含衝浪之尾、加速）。"
     },
     {
       "id": "item-speed",
+      "tier": "core",
       "name_zh": "道具控速",
       "name_en": "Item-based Speed",
       "scope": "item",
@@ -40,22 +45,73 @@
     },
     {
       "id": "temporary",
+      "tier": "core",
       "name_zh": "暫時性控速",
       "name_en": "Temporary Turn-Order Manipulation",
       "scope": "temporary",
       "description_zh": "只影響單一回合出手順序的手段，例如延後、您先請、釋陀果。"
     },
     {
-      "id": "priority-moves",
-      "name_zh": "先制技輸出",
-      "name_en": "Priority Moves",
+      "id": "priority-main",
+      "tier": "core",
+      "name_zh": "先制主力輸出",
+      "name_en": "Priority Main Attackers",
       "scope": "priority",
-      "description_zh": "用優先度較高的攻擊招式先行出手，不需要比對手快也能先攻擊。"
+      "description_zh": "優先度大於 0、威力 70 以上的攻擊招式（門檻為使用者判斷），主攻手靠它先手輸出，不只是收殘。"
+    },
+    {
+      "id": "ability-priority",
+      "tier": "broad",
+      "name_zh": "特性式先制",
+      "name_en": "Ability-based Priority",
+      "scope": "priority",
+      "description_zh": "靠特性取得先制（疾風之翼、惡作劇之心）；要看是否為隊伍核心戰術。"
+    },
+    {
+      "id": "tempo-moves",
+      "tier": "broad",
+      "name_zh": "先制輔助招式",
+      "name_en": "Utility Priority Moves",
+      "scope": "priority",
+      "description_zh": "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。"
+    },
+    {
+      "id": "pledge-field",
+      "tier": "broad",
+      "name_zh": "誓約場地（濕地）",
+      "name_en": "Pledge Swamp",
+      "scope": "field",
+      "description_zh": "水之誓約與草之誓約合併後，在對手場地形成濕地，使該側全體速度降為 1/4（4 回合）。"
+    },
+    {
+      "id": "setup-speed",
+      "tier": "broad",
+      "name_zh": "自身提速（蝶舞、龍舞類）",
+      "name_en": "Self Speed Setup Moves",
+      "scope": "self",
+      "description_zh": "核心輸出手靠隊友掩護，自己用提升速度的變化招式（蝶舞、龍舞、高速移動等）加速。"
+    },
+    {
+      "id": "stat-drop-utility",
+      "tier": "broad",
+      "name_zh": "其他降速招式",
+      "name_en": "Other Speed-Drop Moves",
+      "scope": "target",
+      "description_zh": "重踏、吐絲、棉孢子等也會降速，但是否為這隊的主要控速要另外判斷。"
+    },
+    {
+      "id": "priority-cleanup",
+      "tier": "cleanup",
+      "name_zh": "收殘手段（不計入控速）",
+      "name_en": "Cleanup Priority Moves",
+      "scope": "priority",
+      "description_zh": "優先度大於 0 但威力低於 70 的攻擊招式，主要用於收掉殘血對手，不視為控速。"
     }
   ],
   "entries": [
     {
       "category": "field-control",
+      "tier": "core",
       "kind": "move",
       "name_zh": "順風",
       "name_en": "Tailwind",
@@ -65,6 +121,7 @@
     },
     {
       "category": "field-control",
+      "tier": "core",
       "kind": "move",
       "name_zh": "戲法空間",
       "name_en": "Trick Room",
@@ -74,6 +131,7 @@
     },
     {
       "category": "spread-speed-drop",
+      "tier": "core",
       "kind": "move",
       "name_zh": "冰凍之風",
       "name_en": "Icy Wind",
@@ -91,6 +149,7 @@
     },
     {
       "category": "spread-speed-drop",
+      "tier": "core",
       "kind": "move",
       "name_zh": "電網",
       "name_en": "Electroweb",
@@ -111,6 +170,7 @@
     },
     {
       "category": "spread-speed-drop",
+      "tier": "core",
       "kind": "move",
       "name_zh": "黏黏網",
       "name_en": "Sticky Web",
@@ -128,6 +188,7 @@
     },
     {
       "category": "paralysis",
+      "tier": "core",
       "kind": "move",
       "name_zh": "電磁波",
       "name_en": "Thunder Wave",
@@ -147,6 +208,7 @@
     },
     {
       "category": "paralysis",
+      "tier": "core",
       "kind": "move",
       "name_zh": "電磁炮",
       "name_en": "Zap Cannon",
@@ -166,6 +228,7 @@
     },
     {
       "category": "paralysis",
+      "tier": "core",
       "kind": "move",
       "name_zh": "蹭蹭臉頰",
       "name_en": "Nuzzle",
@@ -185,6 +248,7 @@
     },
     {
       "category": "paralysis",
+      "tier": "core",
       "kind": "move",
       "name_zh": "大蛇瞪眼",
       "name_en": "Glare",
@@ -200,6 +264,7 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "葉綠素",
       "name_en": "Chlorophyll",
@@ -208,6 +273,7 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "悠游自如",
       "name_en": "Swift Swim",
@@ -216,6 +282,7 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "撥沙",
       "name_en": "Sand Rush",
@@ -224,6 +291,7 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "撥雪",
       "name_en": "Slush Rush",
@@ -232,6 +300,7 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "輕裝",
       "name_en": "Unburden",
@@ -240,22 +309,25 @@
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "衝浪之尾",
       "name_en": "Surge Surfer",
-      "notes_zh": "（擴充，使用者以「等」概括，是否納入待確認）電氣場地時速度加倍。",
+      "notes_zh": "電氣場地時速度加倍。",
       "source": "dex"
     },
     {
       "category": "self-speed-boost",
+      "tier": "core",
       "kind": "ability",
       "name_zh": "加速",
       "name_en": "Speed Boost",
-      "notes_zh": "（擴充，使用者以「等」概括，是否納入待確認）每回合結束速度 +1 級。",
+      "notes_zh": "每回合結束速度 +1 級。",
       "source": "dex"
     },
     {
       "category": "item-speed",
+      "tier": "core",
       "kind": "item",
       "name_zh": "講究圍巾",
       "name_en": "Choice Scarf",
@@ -264,6 +336,7 @@
     },
     {
       "category": "temporary",
+      "tier": "core",
       "kind": "move",
       "name_zh": "延後",
       "name_en": "Quash",
@@ -273,6 +346,7 @@
     },
     {
       "category": "temporary",
+      "tier": "core",
       "kind": "move",
       "name_zh": "您先請",
       "name_en": "After You",
@@ -282,6 +356,7 @@
     },
     {
       "category": "temporary",
+      "tier": "core",
       "kind": "item",
       "name_zh": "釋陀果",
       "name_en": "Custap Berry",
@@ -289,11 +364,83 @@
       "source": "dex"
     },
     {
-      "category": "priority-moves",
+      "category": "tempo-moves",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "快手還擊",
+      "name_en": "Upper Hand",
+      "base_power": 65,
+      "notes_zh": "優先度 +3，威力 65（dex）。100% flinch. Fails unless target using priority.",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 3
+    },
+    {
+      "category": "tempo-moves",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "擊掌奇襲",
+      "name_en": "Fake Out",
+      "base_power": 40,
+      "notes_zh": "優先度 +3，威力 40（dex）。Hits first. First turn out only. 100% flinch chance.",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 3
+    },
+    {
+      "category": "tempo-moves",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "迎頭一擊",
+      "name_en": "First Impression",
+      "base_power": 90,
+      "notes_zh": "優先度 +2，威力 90（dex）。Nearly always goes first. First turn out only.",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 2
+    },
+    {
+      "category": "priority-main",
+      "tier": "core",
+      "kind": "move",
+      "name_zh": "神速",
+      "name_en": "Extreme Speed",
+      "base_power": 80,
+      "notes_zh": "優先度 +2，威力 80（dex）。威力達門檻 70（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 2
+    },
+    {
+      "category": "tempo-moves",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "佯攻",
+      "name_en": "Feint",
+      "base_power": 30,
+      "notes_zh": "優先度 +2，威力 30（dex）。Nullifies Detect, Protect, and Quick/Wide Guard.",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 2
+    },
+    {
+      "category": "priority-main",
+      "tier": "core",
       "kind": "move",
       "name_zh": "突襲",
       "name_en": "Sucker Punch",
-      "notes_zh": "優先度 +1；對手本回合不使用攻擊招式則失敗。",
+      "base_power": 70,
+      "notes_zh": "優先度 +1，威力 70（dex）。威力達門檻 70（使用者判斷）。Usually goes first. Fails if target is not attacking.",
       "immunities": [
         "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
       ],
@@ -301,152 +448,311 @@
       "priority": 1
     },
     {
-      "category": "priority-moves",
+      "category": "priority-main",
+      "tier": "core",
       "kind": "move",
       "name_zh": "迅雷",
       "name_en": "Thunderclap",
-      "notes_zh": "名稱表中「迅雷」唯一對應 Thunderclap（電屬性特殊、優先度 +1、對手不攻擊則失敗）；使用者原文「迅雷」是否指此招 [待確認]。",
+      "base_power": 70,
+      "notes_zh": "優先度 +1，威力 70（dex）。威力達門檻 70（使用者判斷）。Usually goes first. Fails if target is not attacking.",
       "immunities": [
         "地面屬性（電屬性招式無效，dex 屬性相剋表）",
         "特性：蓄電",
         "特性：避雷針",
         "特性：電氣引擎",
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
       ],
       "source": "dex",
       "priority": 1
     },
     {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "神速",
-      "name_en": "Extreme Speed",
-      "notes_zh": "優先度 +2。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 2
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "電光一閃",
-      "name_en": "Quick Attack",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "水流噴射",
-      "name_en": "Aqua Jet",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "音速拳",
-      "name_en": "Mach Punch",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "子彈拳",
-      "name_en": "Bullet Punch",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "冰礫",
-      "name_en": "Ice Shard",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "影子偷襲",
-      "name_en": "Shadow Sneak",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "衝岩",
-      "name_en": "Accelerock",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "真空波",
-      "name_en": "Vacuum Wave",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
-      "kind": "move",
-      "name_zh": "飛水手裡劍",
-      "name_en": "Water Shuriken",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
-      "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
-      ],
-      "source": "dex",
-      "priority": 1
-    },
-    {
-      "category": "priority-moves",
+      "category": "priority-cleanup",
+      "tier": "cleanup",
       "kind": "move",
       "name_zh": "噴射拳",
       "name_en": "Jet Punch",
-      "notes_zh": "（擴充，使用者以「等」概括）dex 優先度 +1 的攻擊招式。",
+      "base_power": 60,
+      "notes_zh": "優先度 +1，威力 60（dex）。威力未達 70，視為收殘（使用者判斷）。",
       "immunities": [
-        "特性：鮮艷之軀／女王的威嚴／尾甲"
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
       ],
       "source": "dex",
       "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "衝岩",
+      "name_en": "Accelerock",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "水流噴射",
+      "name_en": "Aqua Jet",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "子彈拳",
+      "name_en": "Bullet Punch",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "冰礫",
+      "name_en": "Ice Shard",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "音速拳",
+      "name_en": "Mach Punch",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "電光一閃",
+      "name_en": "Quick Attack",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "影子偷襲",
+      "name_en": "Shadow Sneak",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "真空波",
+      "name_en": "Vacuum Wave",
+      "base_power": 40,
+      "notes_zh": "優先度 +1，威力 40（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "priority-cleanup",
+      "tier": "cleanup",
+      "kind": "move",
+      "name_zh": "飛水手裡劍",
+      "name_en": "Water Shuriken",
+      "base_power": 15,
+      "notes_zh": "優先度 +1，威力 15（dex）。威力未達 70，視為收殘（使用者判斷）。",
+      "immunities": [
+        "特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"
+      ],
+      "source": "dex",
+      "priority": 1
+    },
+    {
+      "category": "ability-priority",
+      "tier": "broad",
+      "kind": "ability",
+      "name_zh": "疾風之翼",
+      "name_en": "Gale Wings",
+      "notes_zh": "滿 HP 時飛行屬性招式優先度 +1（dex）。",
+      "source": "dex"
+    },
+    {
+      "category": "ability-priority",
+      "tier": "broad",
+      "kind": "ability",
+      "name_zh": "惡作劇之心",
+      "name_en": "Prankster",
+      "notes_zh": "變化招式優先度 +1，但惡屬性對象免疫（dex）。",
+      "immunities": [
+        "惡屬性對象"
+      ],
+      "source": "dex"
+    },
+    {
+      "category": "pledge-field",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "水之誓約",
+      "name_en": "Water Pledge",
+      "notes_zh": "水之誓約＋草之誓約由兩隻同回合使出，對手場地形成濕地：該側全體速度為 1/4，持續 4 回合（dex 招式說明與 condition.duration）。分類器要求同隊兩招都有才計入。",
+      "requires_team_has": [
+        "Water Pledge",
+        "Grass Pledge"
+      ],
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "pledge-field",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "草之誓約",
+      "name_en": "Grass Pledge",
+      "notes_zh": "水之誓約＋草之誓約由兩隻同回合使出，對手場地形成濕地：該側全體速度為 1/4，持續 4 回合（dex 招式說明與 condition.duration）。分類器要求同隊兩招都有才計入。",
+      "requires_team_has": [
+        "Water Pledge",
+        "Grass Pledge"
+      ],
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "高速移動",
+      "name_en": "Agility",
+      "notes_zh": "自身速度 +2 級（dex：{\"spe\":2}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "岩石打磨",
+      "name_en": "Rock Polish",
+      "notes_zh": "自身速度 +2 級（dex：{\"spe\":2}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "龍之舞",
+      "name_en": "Dragon Dance",
+      "notes_zh": "自身速度 +1 級（dex：{\"atk\":1,\"spe\":1}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "蝶舞",
+      "name_en": "Quiver Dance",
+      "notes_zh": "自身速度 +1 級（dex：{\"spa\":1,\"spd\":1,\"spe\":1}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "換檔",
+      "name_en": "Shift Gear",
+      "notes_zh": "自身速度 +2 級（dex：{\"spe\":2,\"atk\":1}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "破殼",
+      "name_en": "Shell Smash",
+      "notes_zh": "自身速度 +2 級（dex：{\"def\":-1,\"spd\":-1,\"atk\":2,\"spa\":2,\"spe\":2}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "setup-speed",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "魂舞烈音爆",
+      "name_en": "Clangorous Soul",
+      "notes_zh": "自身速度 +1 級（dex：{\"atk\":1,\"def\":1,\"spa\":1,\"spd\":1,\"spe\":1}）。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "stat-drop-utility",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "重踏",
+      "name_en": "Bulldoze",
+      "notes_zh": "目標 allAdjacent，速度 -1 級（dex）。是否為主要控速待判斷。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "stat-drop-utility",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "吐絲",
+      "name_en": "String Shot",
+      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。是否為主要控速待判斷。",
+      "source": "dex",
+      "priority": 0
+    },
+    {
+      "category": "stat-drop-utility",
+      "tier": "broad",
+      "kind": "move",
+      "name_zh": "棉孢子",
+      "name_en": "Cotton Spore",
+      "notes_zh": "目標 allAdjacentFoes，速度 -2 級（dex）。是否為主要控速待判斷。",
+      "source": "dex",
+      "priority": 0
     }
   ]
 }

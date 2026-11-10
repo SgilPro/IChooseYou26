@@ -89,6 +89,12 @@
     .empty { color: var(--ink-soft); opacity: .7; font-size: 13px; }
     .sc-cat { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-2); }
     .sc-cat:first-of-type { margin-top: 0; }
+    .sc-cat small { font-weight: 400; font-size: 11px; color: var(--ink-soft); }
+    .sc-cat.sc-broad { opacity: .75; }
+    .chips.sc-broad { opacity: .7; }
+    .sc-cat.sc-cleanup { opacity: .5; }
+    .chips.sc-cleanup { opacity: .45; }
+    .sc-sep { margin-top: 12px; border-top: 1px dashed var(--border); }
     .tag.sc { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px 2px 3px; }
     .tag.sc img { width: 22px; height: 22px; object-fit: contain; border-radius: 50%; background: var(--bg); }
     .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
@@ -141,7 +147,7 @@
   <div class="wrap">
     <a class="back" id="back" href="teams.html">← 回隊伍列表</a>
     <div id="app">載入中…</div>
-    <p class="foot">寶可夢圖像來自 PokeAPI sprites 的官方插畫（著作權屬 Nintendo / Creatures / GAME FREAK / The Pokémon Company，本站為非官方粉絲網站）。努力值以 Pokémon Champions 的「能力點」顯示（總和 66、單項 32）。</p>
+    <p class="foot">寶可夢圖像來自 PokeAPI sprites 的官方插畫（著作權屬 Nintendo / Creatures / GAME FREAK / The Pokémon Company，本站為非官方粉絲網站）。努力值：Champions 隊伍以「能力點」顯示（總和 66、單項 32），朱紫隊伍為 0–252 制。</p>
   </div>
 
   <script>
@@ -243,9 +249,14 @@
     };
     const teraIcon = (t) => {
       if (!t) return "";
-      const s = String(t).toLowerCase();
-      const hit = (colors.types || []).find((x) => x.id === s || x.name_zh_hant === t || x.name_zh_hans === t);
-      return `<div class="row"><span class="k">太晶</span><span class="v">${hit ? typeIcon(hit.id) + " " + esc(hit.name_zh_hant) : esc(t)}</span></div>`;
+      // tera_type 可能是字串，或 {value(中文), value_en(英文)} 物件
+      const zh = typeof t === "object" ? (t.value || "") : String(t);
+      const en = typeof t === "object" ? (t.value_en || "") : String(t);
+      const s = String(en || zh).toLowerCase();
+      const hit = (colors.types || []).find((x) => x.id === s || x.name_zh_hant === zh || x.name_zh_hans === zh);
+      if (!hit && s === "stellar") return `<div class="row"><span class="k">太晶</span><span class="v">星晶</span></div>`;
+      const label = hit ? typeIcon(hit.id) + " " + esc(hit.name_zh_hant) : esc(zh || en);
+      return `<div class="row"><span class="k">太晶</span><span class="v">${label}</span></div>`;
     };
     const card = (m, i) => {
       const sp = m.species || {};
@@ -297,16 +308,24 @@
     // 控速手段：優先顯示由隊伍配置衍生的 analysis_derived.speed_control；沒有此欄位時才退回舊的文字＋tags
     const derivedSc = team.analysis_derived?.speed_control;
     const slotMember = (slot) => members.find((m, i) => (m.slot ?? i + 1) === slot);
-    const speedHtml = Array.isArray(derivedSc)
-      ? (derivedSc.length
-        ? derivedSc.map((c) => `<h4 class="sc-cat">${esc(c.label_zh)}</h4><div class="chips">${(c.via || []).map((v) => {
-          const mm = slotMember(v.member_slot);
-          const nm = mm?.species?.name_zh || mm?.species?.name_en || `#${v.member_slot}`;
-          const en = mm?.species?.name_en;
-          return `<span class="tag reg sc">${en ? `<img src="${monImg(en, "thumb")}" alt="" loading="lazy" ${onerr} />` : ""}${esc(nm)} · ${esc(v.name_zh)}</span>`;
-        }).join("")}</div>`).join("")
-        : `<p class="empty">未偵測到控速手段</p>`)
-      : `${txt(an.speed_control)}${speedChips}`;
+    const scChip = (v) => {
+      const mm = slotMember(v.member_slot);
+      const nm = mm?.species?.name_zh || mm?.species?.name_en || `#${v.member_slot}`;
+      const en = mm?.species?.name_en;
+      return `<span class="tag reg sc">${en ? `<img src="${monImg(en, "thumb")}" alt="" loading="lazy" ${onerr} />` : ""}${esc(nm)} · ${esc(v.name_zh)}</span>`;
+    };
+    const scGroup = (arr, cls, note) => arr.map((c) => `<h4 class="sc-cat ${cls}">${esc(c.label_zh)}${note ? `<small>${esc(note)}</small>` : ""}</h4><div class="chips ${cls}">${(c.via || []).map(scChip).join("")}</div>`).join("");
+    let speedHtml;
+    if (Array.isArray(derivedSc)) {
+      const tierOf = (c) => c.tier || "core"; // 舊資料沒有 tier 時視為 core
+      const core = derivedSc.filter((c) => tierOf(c) === "core");
+      const broad = derivedSc.filter((c) => tierOf(c) === "broad");
+      const cleanup = derivedSc.filter((c) => tierOf(c) === "cleanup");
+      speedHtml = (core.length ? scGroup(core, "sc-core")
+        : `<p class="empty">${broad.length ? "未偵測到主要控速，以下為廣義項目" : "未偵測到控速手段"}</p>`)
+        + (broad.length ? `<div class="sc-sep"></div>${scGroup(broad, "sc-broad", "　廣義（要看是不是這隊的核心戰術）")}` : "")
+        + (cleanup.length ? `<div class="sc-sep"></div>${scGroup(cleanup, "sc-cleanup", "　收殘手段（不計入控速）")}` : "");
+    } else speedHtml = `${txt(an.speed_control)}${speedChips}`;
     const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
     const sc = an.scores;
     const scoreHtml = sc && SCORES.some(([k]) => typeof sc[k] === "number")

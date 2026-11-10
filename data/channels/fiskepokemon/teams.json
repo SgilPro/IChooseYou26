@@ -520,6 +520,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -531,6 +532,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -542,11 +544,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
             }
           ]
         }
@@ -1080,6 +1095,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -1091,6 +1107,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -1102,6 +1119,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -1111,8 +1129,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -1123,6 +1142,18 @@
               "member_slot": 3,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -1962,6 +1993,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -1978,6 +2010,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -1989,11 +2022,36 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "您先請"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "魂舞烈音爆"
+            }
+          ]
+        },
+        {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "吐絲"
             }
           ]
         }
@@ -2521,6 +2579,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -2532,6 +2591,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -2543,6 +2603,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -3083,6 +3144,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -3094,6 +3156,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -3110,6 +3173,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -3121,6 +3185,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -3130,13 +3195,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -3739,6 +3817,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -3755,6 +3834,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -3764,13 +3844,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -4297,6 +4390,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -4313,6 +4407,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -4324,6 +4419,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -4333,8 +4429,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -4871,6 +4968,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -4885,13 +4983,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -5452,6 +5563,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -5463,6 +5575,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -5472,8 +5585,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -6009,6 +6135,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -6019,6 +6146,18 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -6617,6 +6756,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -6631,13 +6771,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -7173,6 +7326,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -7187,18 +7341,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -7731,6 +7905,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -7747,6 +7922,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -7756,18 +7932,50 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "佯攻"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "冰礫"
-            },
-            {
-              "member_slot": 6,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -8299,6 +8507,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -8313,8 +8522,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            },
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -8849,6 +9088,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -8863,8 +9103,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 6,
@@ -9398,6 +9651,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -9408,6 +9662,30 @@
               "member_slot": 5,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -9965,7 +10243,42 @@
     "video_title": "烏賊王最邪惡的玩法！比姆克鷹更強的連環強化戰術，讓對手根本打不死他！Mega 烏賊王 & Mega 妖火紅狐 變小隊【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-07-04",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            },
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -10493,6 +10806,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -10509,6 +10823,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -10520,11 +10835,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -11054,8 +11394,33 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -11656,11 +12021,36 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -12190,6 +12580,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -12201,6 +12592,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -12212,6 +12604,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -12221,13 +12614,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -12787,6 +13193,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -12798,11 +13205,29 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "電網"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -13320,6 +13745,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -13330,6 +13756,23 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "佯攻"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -13892,6 +14335,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -13908,6 +14352,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -14442,6 +14887,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -14453,6 +14899,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -14462,13 +14909,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -15000,6 +15472,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -15011,6 +15484,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -15020,8 +15494,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "破殼"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -15555,6 +16059,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -15566,6 +16071,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -15575,8 +16081,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "吐絲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 2,
@@ -16120,6 +16639,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -16129,8 +16649,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -16697,6 +17242,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -16718,6 +17264,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -16729,6 +17276,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -16738,8 +17286,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -17276,6 +17837,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -17287,6 +17849,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -17298,6 +17861,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -17309,11 +17873,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -17841,6 +18430,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -17852,6 +18442,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -17863,6 +18454,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -17874,6 +18466,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -17883,14 +18476,46 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
-            },
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 2,
               "kind": "move",
@@ -18426,6 +19051,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -18435,13 +19061,48 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -18968,6 +19629,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -18979,6 +19641,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -18988,8 +19651,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -19524,6 +20188,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -19535,6 +20200,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -19546,6 +20212,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -19555,14 +20222,58 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "神速"
-            },
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "重踏"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 6,
               "kind": "move",
@@ -20095,6 +20806,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -20106,6 +20818,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -20117,6 +20830,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -20126,8 +20840,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -20664,6 +21391,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -20675,6 +21403,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -20686,6 +21415,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -20697,11 +21427,46 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "您先請"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "佯攻"
+            },
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "快手還擊"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -21235,11 +22000,29 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -21750,6 +22533,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -21764,13 +22548,50 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "蝶舞"
             }
           ]
         }
@@ -22341,6 +23162,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -22352,6 +23174,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -22363,6 +23186,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -22372,13 +23196,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -22870,6 +23719,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -22881,6 +23731,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -22890,13 +23741,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "蝶舞"
             }
           ]
         }
@@ -23388,6 +24264,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -23397,8 +24274,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -24114,6 +24992,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -24125,6 +25004,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -24674,11 +25554,29 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -25256,6 +26154,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -25267,6 +26166,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -25276,18 +26176,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 6,
-              "kind": "move",
-              "name_zh": "迅雷"
             }
           ]
         }
@@ -25931,6 +26839,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -25942,6 +26851,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -25951,13 +26861,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "迎頭一擊"
             }
           ]
         }
@@ -26503,6 +27426,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -26519,6 +27443,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -26530,6 +27455,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -26539,8 +27465,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -27088,6 +28027,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -27099,6 +28039,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -27108,8 +28049,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -27125,6 +28067,18 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -27671,6 +28625,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -27682,6 +28637,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -27693,6 +28649,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -28207,6 +29164,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -28216,8 +29174,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -28228,6 +29187,18 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -28837,6 +29808,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -28853,6 +29825,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -28862,13 +29835,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -29447,6 +30433,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -29458,6 +30445,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -29467,13 +30455,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -30016,7 +31029,25 @@
     "video_title": "讓最廢特性「壓迫感」發揮作用！四重 PP 消耗戰術，強迫對手無法使用技能！超夢 & 無極汰那 隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",
     "video_published_at": "2025-06-11",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -30525,6 +31556,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -31120,11 +32152,24 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -31670,6 +32715,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -31686,11 +32732,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -32269,6 +33328,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -32280,6 +33340,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -32289,8 +33350,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -32842,6 +33928,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -32853,11 +33940,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -33400,6 +34500,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -33416,6 +34517,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -33425,14 +34527,46 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
-            },
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 5,
               "kind": "move",
@@ -33979,6 +35113,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -33995,6 +35130,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -34004,8 +35140,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -34561,6 +35698,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -34577,6 +35715,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -34593,6 +35732,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -34602,8 +35742,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -35190,6 +36331,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -35200,6 +36342,18 @@
               "member_slot": 5,
               "kind": "move",
               "name_zh": "順風"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -35747,6 +36901,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -35756,8 +36911,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -36306,6 +37462,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -36317,6 +37474,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -36333,6 +37491,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -36344,11 +37503,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -36927,6 +38099,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -37399,11 +38572,29 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "冰凍之風"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -37981,11 +39172,58 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "電磁波"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "佯攻"
+            }
+          ]
+        },
+        {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "重踏"
             }
           ]
         }
@@ -38582,6 +39820,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -38593,6 +39832,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -39109,6 +40349,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -39696,6 +40937,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -39707,6 +40949,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -39716,14 +40959,22 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "神速"
-            },
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 3,
               "kind": "move",
@@ -40306,6 +41557,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -40893,6 +42145,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -40904,6 +42157,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -40913,13 +42167,31 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -41458,7 +42730,25 @@
     "video_title": "全隊有一半都超冷門，這個隊伍到底是能不能用？嘟嘟利 & 土台龜 強化隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",
     "video_published_at": "2025-01-16",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "破殼"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -42064,6 +43354,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -42075,6 +43366,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -42084,13 +43376,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -42632,6 +43937,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -42643,6 +43949,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -43192,6 +44499,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -43203,6 +44511,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -43214,6 +44523,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -43223,8 +44533,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -43806,6 +45129,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -43817,11 +45141,48 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "蹭蹭臉頰"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "疾風之翼"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "龍之舞"
             }
           ]
         }
@@ -44285,11 +45646,51 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "ability",
               "name_zh": "加速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "pledge-field",
+          "label_zh": "誓約場地（濕地）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "草之誓約"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "水之誓約"
+            },
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "草之誓約"
             }
           ]
         }
@@ -44833,6 +46234,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -44849,6 +46251,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -44860,6 +46263,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -45377,6 +46781,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -45891,6 +47296,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -45902,6 +47308,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -45913,6 +47320,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -45922,13 +47330,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "蝶舞"
             }
           ]
         }
@@ -46537,6 +47970,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -46553,11 +47987,24 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "ability",
               "name_zh": "葉綠素"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -47071,6 +48518,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -47087,11 +48535,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -47670,6 +49131,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -47691,6 +49153,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -48273,6 +49736,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -48294,6 +49758,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -48305,6 +49770,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -48314,8 +49780,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -48775,11 +50242,29 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -49354,11 +50839,41 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "pledge-field",
+          "label_zh": "誓約場地（濕地）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "水之誓約"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "草之誓約"
             }
           ]
         }
@@ -49931,7 +51446,35 @@
     "video_title": "勁舞團回歸！打破遊戲節奏的 Combo，讓對手無法招架！花舞鳥 & 彩粉蝶的跳舞大隊【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰 #nintendoswitch",
     "video_published_at": "2024-10-08",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "魂舞烈音爆"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -50440,6 +51983,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -50451,6 +51995,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -50460,13 +52005,31 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "快手還擊"
+            },
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -50976,6 +52539,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -50987,11 +52551,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -51536,6 +53113,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -51545,13 +53123,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -52195,6 +53786,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -52777,6 +54369,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -52788,6 +54381,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -52797,13 +54391,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -53313,6 +54920,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -53834,6 +55442,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -53850,6 +55459,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -53861,11 +55471,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -54444,6 +56079,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -54458,8 +56094,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -54979,6 +56640,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -54993,8 +56655,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -55460,6 +57147,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -55471,6 +57159,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -55480,8 +57169,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -56096,6 +57786,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -56105,8 +57796,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -56654,6 +58370,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -56668,13 +58385,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "蝶舞"
             }
           ]
         }
@@ -57188,6 +58918,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -57199,6 +58930,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -57208,13 +58940,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -57765,6 +59522,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -57774,8 +59532,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -58363,6 +60122,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -58379,6 +60139,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -58388,8 +60149,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -58400,11 +60186,6 @@
               "member_slot": 2,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -58950,6 +60731,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -58961,6 +60743,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -58970,8 +60753,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -59521,8 +61317,21 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -60070,6 +61879,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -60081,6 +61891,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -60090,13 +61901,43 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "快手還擊"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -60640,6 +62481,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -60651,6 +62493,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -60662,6 +62505,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -60671,8 +62515,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -61224,6 +63081,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -61240,11 +63098,29 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -61823,6 +63699,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -61839,6 +63716,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -61850,6 +63728,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -61859,8 +63738,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "棉孢子"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -62409,6 +64313,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -62420,11 +64325,24 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "ability",
               "name_zh": "加速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -62935,11 +64853,24 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "順風"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -63431,6 +65362,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -63442,6 +65374,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -63453,6 +65386,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -63884,6 +65818,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -63900,6 +65835,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -63909,8 +65845,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -64443,6 +66392,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -64459,11 +66409,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -64885,6 +66860,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -64896,6 +66872,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -64905,8 +66882,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -65425,6 +67403,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -65441,6 +67420,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -65450,18 +67430,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "真空波"
-            },
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -66332,8 +68332,9 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -66848,6 +68849,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -66857,18 +68859,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "子彈拳"
-            },
-            {
-              "member_slot": 1,
-              "kind": "move",
-              "name_zh": "神速"
             },
             {
               "member_slot": 5,
@@ -67415,6 +69425,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -67424,8 +69435,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -67436,6 +69448,23 @@
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -67977,6 +70006,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -67991,8 +70021,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -68008,6 +70039,23 @@
               "member_slot": 4,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "快手還擊"
+            },
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -68520,6 +70568,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -68529,14 +70578,39 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "迅雷"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 6,
               "kind": "move",
@@ -69151,6 +71225,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -69162,6 +71237,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -69173,6 +71249,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -69182,8 +71259,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -69698,6 +71776,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -69707,13 +71786,43 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "佯攻"
             }
           ]
         }
@@ -70224,6 +72333,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -70233,13 +72343,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -70783,6 +72918,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -70797,18 +72933,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 6,
-              "kind": "move",
-              "name_zh": "神速"
             }
           ]
         }
@@ -71486,6 +73630,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -71495,14 +73640,22 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "move",
               "name_zh": "突襲"
-            },
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 4,
               "kind": "move",
@@ -72084,6 +74237,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -72095,6 +74249,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -72104,8 +74259,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 6,
@@ -72622,6 +74802,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -72636,13 +74817,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -73190,11 +75384,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -73836,6 +76055,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -73847,6 +76067,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -73858,6 +76079,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -73867,13 +76089,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -74450,6 +76685,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -74461,6 +76697,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -74472,6 +76709,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -74481,8 +76719,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -75072,6 +77323,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -75083,6 +77335,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -75094,11 +77347,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -75642,6 +77908,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -75653,11 +77920,24 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "冰凍之風"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -76272,6 +78552,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -76283,11 +78564,36 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "魂舞烈音爆"
             }
           ]
         }
@@ -76933,6 +79239,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -76944,6 +79251,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -76954,6 +79262,35 @@
               "member_slot": 5,
               "kind": "move",
               "name_zh": "電磁波"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -77496,6 +79833,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -77505,8 +79843,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -78086,8 +80437,9 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -78672,11 +81024,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -79219,18 +81584,38 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 4,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -79806,6 +82191,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -79822,6 +82208,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -79831,18 +82218,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "冰礫"
-            },
-            {
-              "member_slot": 6,
-              "kind": "move",
-              "name_zh": "神速"
             }
           ]
         }
@@ -80378,6 +82785,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -80389,6 +82797,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -80400,11 +82809,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "重踏"
             }
           ]
         }
@@ -80978,6 +83400,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -80987,13 +83410,26 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -81503,6 +83939,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -81519,6 +83956,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -81528,13 +83966,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
               "kind": "move",
               "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             }
           ]
         }
@@ -82077,6 +84540,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -82093,6 +84557,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -82104,6 +84569,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -82113,8 +84579,33 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 4,
@@ -82669,6 +85160,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -82690,6 +85182,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -82701,6 +85194,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -83250,6 +85744,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -83259,8 +85754,55 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "突襲"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "pledge-field",
+          "label_zh": "誓約場地（濕地）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "草之誓約"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "水之誓約"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -83271,16 +85813,6 @@
               "member_slot": 4,
               "kind": "move",
               "name_zh": "水流噴射"
-            },
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "突襲"
-            },
-            {
-              "member_slot": 6,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -83822,14 +86354,39 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
             },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 4,
               "kind": "move",
@@ -84408,6 +86965,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -84419,6 +86977,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -84435,11 +86994,24 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
               "kind": "item",
               "name_zh": "講究圍巾"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -84981,11 +87553,24 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "ability",
               "name_zh": "撥沙"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "龍之舞"
             }
           ]
         }
@@ -85495,6 +88080,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -85506,6 +88092,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -85515,18 +88102,38 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "噴射拳"
-            },
-            {
-              "member_slot": 3,
-              "kind": "move",
-              "name_zh": "突襲"
             }
           ]
         }
@@ -86105,11 +88712,24 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "戲法空間"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -86651,6 +89271,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -86662,6 +89283,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -86671,14 +89293,22 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "突襲"
-            },
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 6,
               "kind": "move",
@@ -87192,6 +89822,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -87206,8 +89837,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 3,
@@ -87754,6 +90386,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -87763,8 +90396,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -87775,7 +90409,26 @@
               "member_slot": 2,
               "kind": "move",
               "name_zh": "神速"
-            },
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 5,
               "kind": "move",
@@ -88290,6 +90943,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -88301,6 +90955,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -88312,6 +90967,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -88321,8 +90977,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -88843,6 +91500,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -88852,14 +91510,34 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
               "kind": "move",
               "name_zh": "神速"
-            },
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 6,
               "kind": "move",
@@ -89369,7 +92047,32 @@
     "video_title": "萬受無疆的坐騎山羊【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-10",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "龍之舞"
+            }
+          ]
+        }
+      ]
     }
   },
   {
@@ -89908,14 +92611,10 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
-            {
-              "member_slot": 1,
-              "kind": "move",
-              "name_zh": "噴射拳"
-            },
             {
               "member_slot": 2,
               "kind": "move",
@@ -89925,6 +92624,18 @@
               "member_slot": 5,
               "kind": "move",
               "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "噴射拳"
             }
           ]
         }
@@ -90432,6 +93143,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -90443,6 +93155,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -90454,6 +93167,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -90975,6 +93689,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -90991,6 +93706,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -91002,6 +93718,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 1,
@@ -91517,6 +94234,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -91528,6 +94246,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -91537,8 +94256,9 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 2,
@@ -92051,6 +94771,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -92062,6 +94783,7 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -92574,8 +95296,33 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "突襲"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "佯攻"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
@@ -92586,11 +95333,6 @@
               "member_slot": 3,
               "kind": "move",
               "name_zh": "子彈拳"
-            },
-            {
-              "member_slot": 4,
-              "kind": "move",
-              "name_zh": "突襲"
             },
             {
               "member_slot": 6,
@@ -93136,18 +95878,38 @@
     "analysis_derived": {
       "speed_control": [
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "神速"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 1,
               "kind": "move",
               "name_zh": "噴射拳"
-            },
-            {
-              "member_slot": 5,
-              "kind": "move",
-              "name_zh": "神速"
             }
           ]
         }
@@ -93658,6 +96420,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -93669,6 +96432,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -93678,8 +96442,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "stat-drop-utility",
+          "label_zh": "其他降速招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "重踏"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 2,
@@ -94233,6 +97010,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -94249,11 +97027,36 @@
         {
           "category": "spread-speed-drop",
           "label_zh": "範圍降速技",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "冰凍之風"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "龍之舞"
             }
           ]
         }
@@ -94767,6 +97570,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 4,
@@ -94783,6 +97587,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -95299,6 +98104,7 @@
         {
           "category": "self-speed-boost",
           "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -95310,11 +98116,44 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "您先請"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "破殼"
             }
           ]
         }
@@ -95824,6 +98663,7 @@
         {
           "category": "paralysis",
           "label_zh": "麻痺",
+          "tier": "core",
           "via": [
             {
               "member_slot": 6,
@@ -95835,6 +98675,7 @@
         {
           "category": "item-speed",
           "label_zh": "道具控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 3,
@@ -95844,8 +98685,21 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "蝶舞"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -96361,6 +99215,7 @@
         {
           "category": "temporary",
           "label_zh": "暫時性控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
@@ -96370,8 +99225,45 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "擊掌奇襲"
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "龍之舞"
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
           "via": [
             {
               "member_slot": 5,
@@ -96888,11 +99780,24 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
               "kind": "move",
               "name_zh": "順風"
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制",
+          "tier": "broad",
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "惡作劇之心"
             }
           ]
         }
@@ -97448,6 +100353,7 @@
         {
           "category": "field-control",
           "label_zh": "場地／全隊控速",
+          "tier": "core",
           "via": [
             {
               "member_slot": 2,
@@ -97462,14 +100368,22 @@
           ]
         },
         {
-          "category": "priority-moves",
-          "label_zh": "先制技輸出",
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
           "via": [
             {
               "member_slot": 5,
               "kind": "move",
               "name_zh": "突襲"
-            },
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "via": [
             {
               "member_slot": 5,
               "kind": "move",
