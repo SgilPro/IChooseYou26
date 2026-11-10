@@ -1,32 +1,496 @@
 [
   {
     "id": "team_VN0dQfuGeDQ",
-    "name": "悠遊自如的萬針魚，與反先制的工具人蒼響",
+    "name": "悠遊自如萬針魚＋反先制蒼響隊",
     "name_source": "title",
     "video_id": "VN0dQfuGeDQ",
     "video_url": "https://www.youtube.com/watch?v=VN0dQfuGeDQ",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-i",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "kayaup_lapapa02",
+    "author_source": "description",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 904,
+          "name_zh": "萬針魚",
+          "name_en": "Overqwil",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "悠遊自如",
+          "value_en": "Swift Swim",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 212,
+          "atk": 0,
+          "def": 0,
+          "spa": 0,
+          "spd": 116,
+          "spe": 180,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。 卡上特攻為 –、速度 +，故判爽朗。太晶屬性圖示為深藍龍頭，判龍（0.8）。",
+        "moves": [
+          {
+            "value": "咬碎",
+            "value_en": "Crunch",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "酸液炸彈",
+            "value_en": "Acid Spray",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "雨天下速度加倍，冰凍之風降速、酸液炸彈降特防、挑釁"
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 888,
+          "name_zh": "蒼響",
+          "name_en": "Zacian-Crowned",
+          "form": "Crowned",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "不撓之劍",
+          "value_en": "Intrepid Sword",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "腐朽的劍",
+          "value_en": "Rusted Sword",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 52,
+          "atk": 244,
+          "def": 4,
+          "spa": 0,
+          "spd": 4,
+          "spe": 204,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。",
+        "moves": [
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "嬉鬧",
+            "value_en": "Play Rough",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "快速防守",
+            "value_en": "Quick Guard",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "快速防守擋先制技，反先制的工具人"
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲",
+          "name_en": "Tornadus",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "求雨",
+            "value_en": "Rain Dance",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "順風＋挑釁＋求雨；化身型態（說明欄寫「化身」）"
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 44,
+          "atk": 212,
+          "def": 4,
+          "spa": 0,
+          "spd": 244,
+          "spe": 4,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。",
+        "moves": [
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 382,
+          "name_zh": "蓋歐卡",
+          "name_en": "Kyogre",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。 太晶屬性與招式「太晶爆發」皆為幽靈。",
+        "moves": [
+          {
+            "value": "噴水",
+            "value_en": "Water Spout",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "根源波動",
+            "value_en": "Origin Pulse",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "打雷",
+            "value_en": "Thunder",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": "雨天主力輸出"
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.97,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 4,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "stats": null,
+        "stats_note": "努力值抄自 Fiske 配置卡（f_073~f_080）；性格依卡上 +/– 標記判讀（+ 速度/– 特攻 等），畫面未直接寫性格。",
+        "moves": [
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.97,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.97,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
-      "frames_used": 0,
+      "frames_used": 10,
       "pokepaste_url": null
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1"
+    "team_code": "697WMP",
+    "confidence": 0.93,
+    "review_status": "auto",
+    "review_notes": null,
+    "notes": "隊伍創建者為 X 帳號 kayaup_lapapa02（說明欄），影片開頭秀出原作者日文文章的隊伍表；Fiske 自己的租借隊伍為隊伍 3（代碼 697WMP）。核心為蓋歐卡（降雨）搭配悠遊自如萬針魚，以冰凍之風/酸液炸彈/挑釁輔助；蒼響快速防守反先制、龍捲雲順風＋挑釁＋求雨提供場面控制，轟擂金剛猩與古劍豹補物理火力。字幕不可用，配置來自畫面，未提及的欄位留空。",
+    "extracted_at": "2026-11-10T06:35:31.447Z",
+    "extracted_by": "claude-sonnet-5-5/extract-v1.3"
   }
 ]

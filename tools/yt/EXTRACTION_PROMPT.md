@@ -57,6 +57,7 @@
 
 ## 朱紫（Scarlet/Violet）影片的差異（v1.3）
 
+- **規則組日期例外**：發布日 ≥ 2026-01-05 的朱紫影片，`regulation_set_id` 一律 `sv-reg-i`（參照表註明朱紫排位自該日起重啟 Reg I 為最終規則；sv 區間表只到 2026-01-04，不要因此退回 sv-reg-j 或填空）。
 - **遊戲**：`game: "sv"`；`regulation_set_id` 依發布日對 `data/ref/regulation_sets.json` 中 `game=="sv"` 的區間（含 `sv-reg-g-2025`），`regulation_source: "date-inferred"`；字幕若明說「規則 X」則用字幕。
 - **努力值是 0~252 制**：`evs.scale: "ev-252"`，數字只填畫面或字幕明示的（例如字幕「HP 252 特攻 252」或畫面的配置表）。驗算用 Lv.50 公式直接代 EV：stat = floor((2×種族 + 31 + floor(EV/4)) × 50/100) + 5（HP +60）。
 - **太晶屬性**：`tera_type` 從畫面（隊伍表/投影片的太晶圖示）或字幕讀，`value_en` 用英文屬性名（Fire/Water/…/Stellar）。

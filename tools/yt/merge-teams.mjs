@@ -9,13 +9,19 @@ const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
 const teamsDir = join(chDir, "teams");
 if (!existsSync(teamsDir)) { console.error(`no ${teamsDir}`); process.exit(1); }
 
+// 衍生欄位：控速分類（只寫進合併後的 teams.json，不回寫 teams/<video>.json）。分類器不存在或載入失敗時略過。
+let classifyTeam = null;
+try { ({ classifyTeam } = await import(new URL("../site/classify-speed-control.mjs", import.meta.url))); } catch (e) { console.error(`[merge] classifier unavailable, skip analysis_derived: ${e.message}`); }
+
 const videos = new Map(JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8")).map((v) => [v.id, v]));
 const all = [];
 for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json")).sort()) {
   const arr = JSON.parse(readFileSync(join(teamsDir, f), "utf8"));
   for (const t of arr) {
     const v = videos.get(t.video_id);
-    all.push({ ...t, video_title: v?.title ?? null, video_published_at: v?.published_at ?? null });
+    const row = { ...t, video_title: v?.title ?? null, video_published_at: v?.published_at ?? null };
+    if (classifyTeam && (t.members?.length ?? 0) === 6) row.analysis_derived = { ...(t.analysis_derived || {}), speed_control: classifyTeam(t) };
+    all.push(row);
   }
 }
 all.sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || "") || a.id.localeCompare(b.id));

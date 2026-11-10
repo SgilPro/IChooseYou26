@@ -72,6 +72,8 @@ function parsePaste(text) {
 // ---- 規則組（依日期，game=sv） ----
 function regulationFor(date) {
   if (!date) return null;
+  // 參照表（regulation_sets.json 的 sv-reg-i.pokemon_pool_note）：朱紫排位自 2026-01-05 起重啟 Reg I，為最終規則
+  if (date >= "2026-01-05") return "sv-reg-i";
   const hits = REGS.filter((r) => r.game === "sv" && r.starts_on && r.starts_on <= date && (!r.ends_on || date <= r.ends_on));
   hits.sort((a, b) => (b.starts_on || "").localeCompare(a.starts_on || ""));
   return hits[0]?.id ?? null;

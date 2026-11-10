@@ -212,6 +212,35 @@
         }
       }
     },
+    "analysis_derived": {
+      "type": ["object", "null"],
+      "description": "選用：由程式依隊伍配置衍生的分析，只出現在合併後的 teams.json（不寫入 teams/<video>.json）",
+      "properties": {
+        "speed_control": {
+          "type": "array",
+          "description": "控速手段分類（tools/site/classify-speed-control.mjs；分類表 data/ref/speed-control.json）",
+          "items": {
+            "type": "object",
+            "required": ["category", "label_zh", "via"],
+            "properties": {
+              "category": { "type": "string" },
+              "label_zh": { "type": "string" },
+              "via": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "member_slot": { "type": "integer" },
+                    "kind": { "type": "string", "enum": ["move", "ability", "item"] },
+                    "name_zh": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "lead_modes": {
       "type": ["array", "null"],
       "description": "選用：建議首發模式（寶可夢以 species.name_en 表示）",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T05:52:14.151Z",
+ "generated_at": "2026-11-10T06:36:51.810Z",
  "source": "@pkmn/dex 0.10.10（Gen 9）+ assets/items/items.json",
  "species": {
   "Abomasnow": {
@@ -292,6 +292,17 @@
    "type_ids": [
     "water",
     "ghost"
+   ],
+   "match": "dex"
+  },
+  "Bastiodon": {
+   "types": [
+    "Rock",
+    "Steel"
+   ],
+   "type_ids": [
+    "rock",
+    "steel"
    ],
    "match": "dex"
   },
