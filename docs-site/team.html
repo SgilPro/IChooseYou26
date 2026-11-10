@@ -87,6 +87,10 @@
     .box h3 { margin: 0 0 8px; font-size: 15px; }
     .box p { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; }
     .empty { color: var(--ink-soft); opacity: .7; font-size: 13px; }
+    .sc-cat { margin: 10px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-2); }
+    .sc-cat:first-of-type { margin-top: 0; }
+    .tag.sc { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px 2px 3px; }
+    .tag.sc img { width: 22px; height: 22px; object-fit: contain; border-radius: 50%; background: var(--bg); }
     .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
     .score { display: grid; grid-template-columns: auto 1fr auto; gap: 6px 10px; align-items: center; font-size: 13px; }
     .score .pips { display: flex; gap: 4px; }
@@ -290,6 +294,19 @@
     const txt = (s) => (s && String(s).trim() ? `<p>${esc(s)}</p>` : none);
     const speedSlugs = (team.tags || []).filter((s) => tagBySlug[s]?.category === "speed-control");
     const speedChips = speedSlugs.length ? `<div class="chips">${speedSlugs.map((s) => `<span class="tag reg">${esc(tagLabel(s))}</span>`).join("")}</div>` : "";
+    // 控速手段：優先顯示由隊伍配置衍生的 analysis_derived.speed_control；沒有此欄位時才退回舊的文字＋tags
+    const derivedSc = team.analysis_derived?.speed_control;
+    const slotMember = (slot) => members.find((m, i) => (m.slot ?? i + 1) === slot);
+    const speedHtml = Array.isArray(derivedSc)
+      ? (derivedSc.length
+        ? derivedSc.map((c) => `<h4 class="sc-cat">${esc(c.label_zh)}</h4><div class="chips">${(c.via || []).map((v) => {
+          const mm = slotMember(v.member_slot);
+          const nm = mm?.species?.name_zh || mm?.species?.name_en || `#${v.member_slot}`;
+          const en = mm?.species?.name_en;
+          return `<span class="tag reg sc">${en ? `<img src="${monImg(en, "thumb")}" alt="" loading="lazy" ${onerr} />` : ""}${esc(nm)} · ${esc(v.name_zh)}</span>`;
+        }).join("")}</div>`).join("")
+        : `<p class="empty">未偵測到控速手段</p>`)
+      : `${txt(an.speed_control)}${speedChips}`;
     const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
     const sc = an.scores;
     const scoreHtml = sc && SCORES.some(([k]) => typeof sc[k] === "number")
@@ -311,7 +328,7 @@
       ${team.notes ? `<div class="brief"><b>隊伍簡介</b>\n${esc(team.notes)}</div>` : ""}
       <div class="quad">
         <div class="box"><h3>核心輸出戰術</h3>${txt(an.core_offense)}</div>
-        <div class="box"><h3>控速手段</h3>${txt(an.speed_control)}${speedChips}</div>
+        <div class="box"><h3>控速手段</h3>${speedHtml}</div>
         <div class="box"><h3>注意事項</h3>${txt(an.cautions)}</div>
         <div class="box"><h3>隊伍特性評分</h3>${scoreHtml}</div>
       </div>
