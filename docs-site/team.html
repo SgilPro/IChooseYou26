@@ -95,6 +95,13 @@
     .sc-cat.sc-cleanup { opacity: .5; }
     .chips.sc-cleanup { opacity: .45; }
     .sc-sep { margin-top: 12px; border-top: 1px dashed var(--border); }
+    details.sc-more { margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 8px; }
+    details.sc-more > summary { cursor: pointer; font-size: 12px; color: var(--ink-soft); list-style: none; }
+    details.sc-more > summary::before { content: "▸ "; }
+    details.sc-more[open] > summary::before { content: "▾ "; }
+    details.sc-more > summary::-webkit-details-marker { display: none; }
+    details.sc-more > summary:hover { color: var(--ink); }
+    details.sc-more .sc-cat:first-of-type { margin-top: 8px; }
     .tag.sc { display: inline-flex; align-items: center; gap: 5px; padding: 2px 9px 2px 3px; }
     .tag.sc img { width: 22px; height: 22px; object-fit: contain; border-radius: 50%; background: var(--bg); }
     .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
@@ -321,10 +328,18 @@
       const core = derivedSc.filter((c) => tierOf(c) === "core");
       const broad = derivedSc.filter((c) => tierOf(c) === "broad");
       const cleanup = derivedSc.filter((c) => tierOf(c) === "cleanup");
-      speedHtml = (core.length ? scGroup(core, "sc-core")
-        : `<p class="empty">${broad.length ? "未偵測到主要控速，以下為廣義項目" : "未偵測到控速手段"}</p>`)
-        + (broad.length ? `<div class="sc-sep"></div>${scGroup(broad, "sc-broad", "　廣義（要看是不是這隊的核心戰術）")}` : "")
-        + (cleanup.length ? `<div class="sc-sep"></div>${scGroup(cleanup, "sc-cleanup", "　收殘手段（不計入控速）")}` : "");
+      // 主要控速直接顯示；廣義與收殘一律收進預設收合的「其他次要手段」
+      const n = (arr) => arr.reduce((s, c) => s + (c.via || []).length, 0);
+      const moreParts = [];
+      if (broad.length) moreParts.push(`廣義 ${n(broad)}`);
+      if (cleanup.length) moreParts.push(`收殘 ${n(cleanup)}`);
+      const more = broad.length || cleanup.length
+        ? `<details class="sc-more"><summary>其他次要手段（${moreParts.join("、")}）</summary>`
+          + (broad.length ? scGroup(broad, "sc-broad", "　廣義（要看是不是這隊的核心戰術）") : "")
+          + (cleanup.length ? scGroup(cleanup, "sc-cleanup", "　收殘手段（不計入控速）") : "")
+          + `</details>`
+        : "";
+      speedHtml = (core.length ? scGroup(core, "sc-core") : `<p class="empty">未偵測到主要控速手段</p>`) + more;
     } else speedHtml = `${txt(an.speed_control)}${speedChips}`;
     const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
     const sc = an.scores;
