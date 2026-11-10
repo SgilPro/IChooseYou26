@@ -593,6 +593,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
+          ]
+        }
       ]
     }
   },
@@ -1216,6 +1238,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -1543,7 +1593,8 @@
     "video_title": "環境變了，冷門的蜥蜴王終於翻身！搭配高速放電，打出驚人爆發【寶可夢 Champions】#寶可夢冠軍 #寶可夢對戰 #雙打對戰",
     "video_published_at": "2026-10-23",
     "analysis_derived": {
-      "speed_control": []
+      "speed_control": [],
+      "roles": []
     }
   },
   {
@@ -2165,6 +2216,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -2746,6 +2826,30 @@
               "name_zh": "講究圍巾",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -3401,6 +3505,35 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -4081,6 +4214,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -4683,6 +4838,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -5274,6 +5452,36 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -5906,6 +6114,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -6482,6 +6711,29 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover"
           ]
         }
       ]
@@ -7144,6 +7396,40 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "healer"
+          ]
+        }
       ]
     }
   },
@@ -7733,6 +8019,36 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -8351,6 +8667,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -8944,6 +9288,39 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "dmg-boost",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -9515,6 +9892,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -10083,6 +10489,28 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -10678,6 +11106,23 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost",
+            "disruptor",
+            "mitigator"
           ]
         }
       ]
@@ -11281,6 +11726,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -11846,6 +12312,29 @@
               "name_zh": "子彈拳",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter",
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
           ]
         }
       ]
@@ -12479,6 +12968,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        }
       ]
     }
   },
@@ -13070,6 +13582,20 @@
               "name_zh": "惡作劇之心",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -13673,6 +14199,36 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -14222,6 +14778,43 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "controller"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -14812,6 +15405,32 @@
               "name_zh": "講究圍巾",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "mitigator",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "healer"
           ]
         }
       ]
@@ -15405,6 +16024,21 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -16008,6 +16642,42 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -16592,6 +17262,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -17173,6 +17857,21 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -17812,6 +18511,36 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        }
       ]
     }
   },
@@ -18419,6 +19148,33 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
           ]
         }
       ]
@@ -19054,6 +19810,26 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -19647,6 +20423,38 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -20213,6 +21021,28 @@
               "name_zh": "電光一閃",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter",
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -20845,6 +21675,32 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -21435,6 +22291,28 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "disruptor"
           ]
         }
       ]
@@ -22058,6 +22936,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "core-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -22617,6 +23523,35 @@
               "name_zh": "佯攻",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "disruptor"
           ]
         }
       ]
@@ -23197,6 +24132,36 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "dmg-boost",
+            "disruptor"
           ]
         }
       ]
@@ -23847,6 +24812,41 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter"
+          ]
+        }
       ]
     }
   },
@@ -24402,6 +25402,40 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "terrain-setter"
+          ]
+        }
       ]
     }
   },
@@ -24913,6 +25947,34 @@
               "name_zh": "迅雷",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -25454,6 +26516,30 @@
               "name_zh": "草之誓約",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "terrain-setter"
           ]
         }
       ]
@@ -26014,6 +27100,51 @@
               "name_zh": "戲法空間",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
           ]
         }
       ]
@@ -26608,6 +27739,39 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -27174,6 +28338,48 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "terrain-setter"
+          ]
+        }
       ]
     }
   },
@@ -27705,6 +28911,30 @@
               "name_zh": "講究圍巾",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -28277,6 +29507,35 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor",
+            "healer",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
           ]
         }
       ]
@@ -28904,6 +30163,27 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter",
+            "cover"
           ]
         }
       ]
@@ -29599,6 +30879,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -30214,6 +31515,33 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -30818,6 +32146,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -31400,6 +32749,47 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -31949,6 +33339,21 @@
               "name_zh": "惡作劇之心",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter"
           ]
         }
       ]
@@ -32616,6 +34021,36 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -33258,6 +34693,44 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "mitigator",
+            "controller"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -33818,6 +35291,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "healer"
+          ]
+        }
       ]
     }
   },
@@ -34348,6 +35843,43 @@
               "name_zh": "戲法空間",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -34952,6 +36484,33 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "healer"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -35537,6 +37096,36 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
           ]
         }
       ]
@@ -36181,6 +37770,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor",
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -36761,6 +38372,34 @@
               "name_zh": "惡作劇之心",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
           ]
         }
       ]
@@ -37389,6 +39028,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor",
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -37977,6 +39637,21 @@
               "name_zh": "迅雷",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
           ]
         }
       ]
@@ -38592,6 +40267,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -39196,6 +40900,39 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -39763,6 +41500,21 @@
               "name_zh": "神速",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -40378,6 +42130,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -40976,6 +42751,41 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -41459,6 +43269,40 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -42100,6 +43944,46 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -42718,6 +44602,44 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "healer"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "healer"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -43241,6 +45163,47 @@
               "name_zh": "戲法空間",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost",
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "dmg-boost",
+            "disruptor",
+            "mitigator"
           ]
         }
       ]
@@ -43870,6 +45833,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -44460,6 +46444,39 @@
               "name_zh": "順風",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -45095,6 +47112,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -45649,6 +47688,21 @@
               "name_zh": "蝶舞",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "healer"
           ]
         }
       ]
@@ -46310,6 +48364,21 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -46871,6 +48940,22 @@
               "name_zh": "講究圍巾",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter",
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -47479,6 +49564,32 @@
               "name_zh": "電光一閃",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -48121,6 +50232,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -48636,6 +50770,27 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "mitigator"
           ]
         }
       ]
@@ -49229,6 +51384,36 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -49742,6 +51927,26 @@
               "name_zh": "順風",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -50329,6 +52534,29 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -50981,6 +53209,36 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -51534,6 +53792,37 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "dmg-boost",
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -52146,6 +54435,37 @@
               "name_zh": "葉綠素",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -52787,6 +55107,45 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
+          ]
+        }
       ]
     }
   },
@@ -53267,6 +55626,34 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor",
+            "healer",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -53885,6 +56272,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "terrain-setter"
+          ]
+        }
       ]
     }
   },
@@ -54487,6 +56888,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -55055,6 +57477,22 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -55598,6 +58036,33 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "core-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -56178,6 +58643,29 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
           ]
         }
       ]
@@ -56831,6 +59319,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -57458,6 +59969,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -57979,6 +60504,29 @@
               "name_zh": "戲法空間",
               "level": 1
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -58560,6 +61108,35 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -59196,6 +61773,41 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -59766,6 +62378,41 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -60260,6 +62907,26 @@
               "name_zh": "迅雷",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -60921,6 +63588,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -61505,6 +64193,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -62080,6 +64789,21 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "disruptor"
           ]
         }
       ]
@@ -62658,6 +65382,20 @@
               "name_zh": "神速",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -63313,6 +66051,22 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -63908,6 +66662,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -64474,6 +67256,35 @@
               "name_zh": "影子偷襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -65088,6 +67899,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "weather-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -65695,6 +68535,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -66287,6 +69141,45 @@
               "name_zh": "佯攻",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor",
+            "controller"
           ]
         }
       ]
@@ -66951,6 +69844,23 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -67530,6 +70440,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -68062,6 +71000,42 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "core-other",
+            "disruptor",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -68589,6 +71563,33 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
+          ]
+        }
       ]
     }
   },
@@ -69069,6 +72070,30 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
           ]
         }
       ]
@@ -69654,6 +72679,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -70109,6 +73163,33 @@
               "name_zh": "突襲",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "cover"
           ]
         }
       ]
@@ -70692,6 +73773,29 @@
               "name_zh": "真空波",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -71574,6 +74678,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "dmg-boost",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -72123,6 +75249,22 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -72712,6 +75854,33 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -73315,6 +76484,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -73881,6 +77071,28 @@
               "name_zh": "子彈拳",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
           ]
         }
       ]
@@ -74543,6 +77755,21 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -75108,6 +78335,22 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -75666,6 +78909,21 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -76251,6 +79509,29 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -76966,6 +80247,17 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -77607,6 +80899,29 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "dmg-boost",
+            "disruptor",
+            "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -78158,6 +81473,26 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -78741,6 +82076,39 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "controller"
           ]
         }
       ]
@@ -79448,6 +82816,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -80094,6 +83476,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -80723,6 +84127,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
+          ]
+        }
       ]
     }
   },
@@ -81300,6 +84732,34 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "dmg-boost",
+            "mitigator"
           ]
         }
       ]
@@ -81964,6 +85424,30 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "dmg-boost",
+            "healer"
           ]
         }
       ]
@@ -82673,6 +86157,32 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -83249,6 +86759,14 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -83833,6 +87351,20 @@
               "name_zh": "飛水手裡劍",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -84436,6 +87968,15 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -85014,6 +88555,27 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -85661,6 +89223,27 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -86244,6 +89827,14 @@
               "name_zh": "重踏",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -86855,6 +90446,26 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -87432,6 +91043,30 @@
               "name_zh": "擊掌奇襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "disruptor"
           ]
         }
       ]
@@ -88066,6 +91701,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -88656,6 +92319,41 @@
               "name_zh": "您先請",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
           ]
         }
       ]
@@ -89284,6 +92982,14 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -89867,6 +93573,28 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "terrain-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -90499,6 +94227,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -91060,6 +94802,26 @@
               "name_zh": "龍之舞",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "dmg-boost"
           ]
         }
       ]
@@ -91633,6 +95395,32 @@
               "name_zh": "噴射拳",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -92235,6 +96023,22 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -92826,6 +96630,14 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter"
+          ]
+        }
       ]
     }
   },
@@ -93361,6 +97173,27 @@
               "name_zh": "影子偷襲",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -93960,6 +97793,20 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "dmg-boost"
+          ]
+        }
       ]
     }
   },
@@ -94526,6 +98373,32 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -95086,6 +98959,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor",
+            "healer",
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -95615,6 +99517,32 @@
               "name_zh": "惡作劇之心",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]
@@ -96189,6 +100117,21 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "mitigator"
+          ]
+        }
       ]
     }
   },
@@ -96736,6 +100679,28 @@
               "name_zh": "輕裝",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -97291,6 +101256,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -97837,6 +101830,23 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 4,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -98364,6 +102374,20 @@
               "name_zh": "冰凍之風",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -98921,6 +102945,20 @@
               "name_zh": "冰礫",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover"
           ]
         }
       ]
@@ -99501,6 +103539,35 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor",
+            "healer",
+            "controller"
+          ]
+        }
       ]
     }
   },
@@ -100065,6 +104132,28 @@
               "name_zh": "冰礫",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
           ]
         }
       ]
@@ -100666,6 +104755,40 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -101205,6 +105328,35 @@
               "name_zh": "撥雪",
               "level": 2
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-setter"
           ]
         }
       ]
@@ -101778,6 +105930,34 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover",
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "weather-setter"
+          ]
+        }
       ]
     }
   },
@@ -102335,6 +106515,26 @@
               "name_zh": "水流噴射",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "dmg-boost"
           ]
         }
       ]
@@ -102911,6 +107111,28 @@
             }
           ]
         }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather-setter",
+            "disruptor"
+          ]
+        }
       ]
     }
   },
@@ -103442,6 +107664,28 @@
               "name_zh": "惡作劇之心",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor"
           ]
         }
       ]
@@ -104039,6 +108283,35 @@
               "name_zh": "冰礫",
               "level": 3
             }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "weather-setter"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-setter"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-setter",
+            "terrain-setter",
+            "cover",
+            "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
           ]
         }
       ]

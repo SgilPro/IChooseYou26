@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "updated": "2026-11-10",
+  "note": "角色／功能標籤。rules 命中＝「推斷」（UI 以虛線標示）；analysis.roles 手動標＝「確認」。一隻可有多個。",
+  "tags": [
+    {
+      "id": "main-attacker",
+      "group": "a 輸出手",
+      "name_zh": "主攻手",
+      "manual_only": true,
+      "description_zh": "核心輸出，通常呼應核心戰術；可不只一隻（雙核心）。只能手動標。",
+      "rules": {
+        "move": [],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "sub-attacker",
+      "group": "a 輸出手",
+      "name_zh": "副攻／補盲",
+      "manual_only": true,
+      "description_zh": "多屬性打點或與主攻手互補；Mega 不等於核心。只能手動標。",
+      "rules": {
+        "move": [],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "speed-setter",
+      "group": "b 核心戰術手",
+      "name_zh": "控速手",
+      "manual_only": false,
+      "description_zh": "順風、戲法空間（Level 1 控速）。可同時是主攻、副攻或純輔助。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "順風",
+            "name_en": "Tailwind"
+          },
+          {
+            "name_zh": "戲法空間",
+            "name_en": "Trick Room"
+          }
+        ],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "weather-setter",
+      "group": "b 核心戰術手",
+      "name_zh": "天氣手",
+      "manual_only": false,
+      "description_zh": "",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "求雨",
+            "name_en": "Rain Dance"
+          },
+          {
+            "name_zh": "大晴天",
+            "name_en": "Sunny Day"
+          },
+          {
+            "name_zh": "沙暴",
+            "name_en": "Sandstorm"
+          },
+          {
+            "name_zh": "雪景",
+            "name_en": "Snowscape"
+          },
+          {
+            "name_zh": "冰雹",
+            "name_en": "Hail"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "降雨",
+            "name_en": "Drizzle"
+          },
+          {
+            "name_zh": "日照",
+            "name_en": "Drought"
+          },
+          {
+            "name_zh": "揚沙",
+            "name_en": "Sand Stream"
+          },
+          {
+            "name_zh": "降雪",
+            "name_en": "Snow Warning"
+          },
+          {
+            "name_zh": "預知夢",
+            "name_en": "Forewarn"
+          },
+          {
+            "name_zh": "始源之海",
+            "name_en": "Primordial Sea"
+          },
+          {
+            "name_zh": "終結之地",
+            "name_en": "Desolate Land"
+          },
+          {
+            "name_zh": "德爾塔氣流",
+            "name_en": "Delta Stream"
+          },
+          {
+            "name_zh": "緋紅脈動",
+            "name_en": "Orichalcum Pulse"
+          }
+        ],
+        "item": []
+      }
+    },
+    {
+      "id": "terrain-setter",
+      "group": "b 核心戰術手",
+      "name_zh": "場地手",
+      "manual_only": false,
+      "description_zh": "",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "電氣場地",
+            "name_en": "Electric Terrain"
+          },
+          {
+            "name_zh": "青草場地",
+            "name_en": "Grassy Terrain"
+          },
+          {
+            "name_zh": "精神場地",
+            "name_en": "Psychic Terrain"
+          },
+          {
+            "name_zh": "薄霧場地",
+            "name_en": "Misty Terrain"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "電氣製造者",
+            "name_en": "Electric Surge"
+          },
+          {
+            "name_zh": "青草製造者",
+            "name_en": "Grassy Surge"
+          },
+          {
+            "name_zh": "精神製造者",
+            "name_en": "Psychic Surge"
+          },
+          {
+            "name_zh": "薄霧製造者",
+            "name_en": "Misty Surge"
+          },
+          {
+            "name_zh": "強子引擎",
+            "name_en": "Hadron Engine"
+          }
+        ],
+        "item": []
+      }
+    },
+    {
+      "id": "core-other",
+      "group": "b 核心戰術手",
+      "name_zh": "其他核心戰術",
+      "manual_only": false,
+      "description_zh": "消掉負面特性（慢啟動、菌絲之力）、給隊友好用特性。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "找夥伴",
+            "name_en": "Entrainment"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "化學變化氣體",
+            "name_en": "Neutralizing Gas"
+          }
+        ],
+        "item": []
+      }
+    },
+    {
+      "id": "cover",
+      "group": "c 輔助手",
+      "name_zh": "掩護手",
+      "manual_only": false,
+      "description_zh": "幫輸出減傷、免傷、轉移傷害或阻止干擾。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "看我嘛",
+            "name_en": "Follow Me"
+          },
+          {
+            "name_zh": "憤怒粉",
+            "name_en": "Rage Powder"
+          },
+          {
+            "name_zh": "廣域防守",
+            "name_en": "Wide Guard"
+          },
+          {
+            "name_zh": "交換場地",
+            "name_en": "Ally Switch"
+          },
+          {
+            "name_zh": "快速防守",
+            "name_en": "Quick Guard"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "友情防守",
+            "name_en": "Friend Guard"
+          },
+          {
+            "name_zh": "女王的威嚴",
+            "name_en": "Queenly Majesty"
+          },
+          {
+            "name_zh": "鮮艷之軀",
+            "name_en": "Dazzling"
+          },
+          {
+            "name_zh": "尾甲",
+            "name_en": "Armor Tail"
+          },
+          {
+            "name_zh": "精神製造者",
+            "name_en": "Psychic Surge"
+          },
+          {
+            "name_zh": "電氣製造者",
+            "name_en": "Electric Surge"
+          },
+          {
+            "name_zh": "甜幕",
+            "name_en": "Sweet Veil"
+          },
+          {
+            "name_zh": "芳香幕",
+            "name_en": "Aroma Veil"
+          }
+        ],
+        "item": []
+      }
+    },
+    {
+      "id": "dmg-boost",
+      "group": "c 輔助手",
+      "name_zh": "增傷手",
+      "manual_only": false,
+      "description_zh": "增傷、降對手防禦、暫時增傷（特殊增傷如避雷針＋放電需手動標）。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "指導",
+            "name_en": "Coaching"
+          },
+          {
+            "name_zh": "長嚎",
+            "name_en": "Howl"
+          },
+          {
+            "name_zh": "裝飾",
+            "name_en": "Decorate"
+          },
+          {
+            "name_zh": "點穴",
+            "name_en": "Acupressure"
+          },
+          {
+            "name_zh": "假哭",
+            "name_en": "Fake Tears"
+          },
+          {
+            "name_zh": "潑冷水",
+            "name_en": "Chilling Water"
+          },
+          {
+            "name_zh": "金屬音",
+            "name_en": "Metal Sound"
+          },
+          {
+            "name_zh": "刺耳聲",
+            "name_en": "Screech"
+          },
+          {
+            "name_zh": "幫助",
+            "name_en": "Helping Hand"
+          }
+        ],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "disruptor",
+      "group": "c 輔助手",
+      "name_zh": "干擾手",
+      "manual_only": false,
+      "description_zh": "讓對手不能動作、限制動作、上負面狀態或改屬性。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "擊掌奇襲",
+            "name_en": "Fake Out"
+          },
+          {
+            "name_zh": "定身法",
+            "name_en": "Disable"
+          },
+          {
+            "name_zh": "再來一次",
+            "name_en": "Encore"
+          },
+          {
+            "name_zh": "挑釁",
+            "name_en": "Taunt"
+          },
+          {
+            "name_zh": "哈欠",
+            "name_en": "Yawn"
+          },
+          {
+            "name_zh": "蘑菇孢子",
+            "name_en": "Spore"
+          },
+          {
+            "name_zh": "催眠粉",
+            "name_en": "Sleep Powder"
+          },
+          {
+            "name_zh": "虛張聲勢",
+            "name_en": "Swagger"
+          },
+          {
+            "name_zh": "戲法",
+            "name_en": "Trick"
+          },
+          {
+            "name_zh": "輸電",
+            "name_en": "Electrify"
+          },
+          {
+            "name_zh": "浸水",
+            "name_en": "Soak"
+          }
+        ],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "mitigator",
+      "group": "c 輔助手",
+      "name_zh": "減傷手",
+      "manual_only": false,
+      "description_zh": "增防、降對手攻擊。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "指導",
+            "name_en": "Coaching"
+          },
+          {
+            "name_zh": "磁場操控",
+            "name_en": "Magnetic Flux"
+          },
+          {
+            "name_zh": "鮮花防守",
+            "name_en": "Flower Shield"
+          },
+          {
+            "name_zh": "點穴",
+            "name_en": "Acupressure"
+          },
+          {
+            "name_zh": "芳香薄霧",
+            "name_en": "Aromatic Mist"
+          },
+          {
+            "name_zh": "撒嬌",
+            "name_en": "Charm"
+          },
+          {
+            "name_zh": "圓瞳",
+            "name_en": "Baby-Doll Eyes"
+          },
+          {
+            "name_zh": "蟲之抵抗",
+            "name_en": "Struggle Bug"
+          },
+          {
+            "name_zh": "鬼火",
+            "name_en": "Will-O-Wisp"
+          }
+        ],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "healer",
+      "group": "c 輔助手",
+      "name_zh": "治療",
+      "manual_only": false,
+      "description_zh": "特殊回血（儲水／蓄電／食土配群體攻擊）需手動標。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "生命水滴",
+            "name_en": "Life Dew"
+          },
+          {
+            "name_zh": "治癒波動",
+            "name_en": "Heal Pulse"
+          },
+          {
+            "name_zh": "花療",
+            "name_en": "Floral Healing"
+          },
+          {
+            "name_zh": "新月祈禱",
+            "name_en": "Lunar Blessing"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "款待",
+            "name_en": "Hospitality"
+          }
+        ],
+        "item": []
+      }
+    },
+    {
+      "id": "controller",
+      "group": "c 輔助手",
+      "name_zh": "控制",
+      "manual_only": false,
+      "description_zh": "不讓對方換人、破對面防守。",
+      "rules": {
+        "move": [
+          {
+            "name_zh": "佯攻",
+            "name_en": "Feint"
+          },
+          {
+            "name_zh": "死纏爛打",
+            "name_en": "Infestation"
+          },
+          {
+            "name_zh": "黑色目光",
+            "name_en": "Mean Look"
+          },
+          {
+            "name_zh": "縫影",
+            "name_en": "Spirit Shackle"
+          }
+        ],
+        "ability": [
+          {
+            "name_zh": "踩影",
+            "name_en": "Shadow Tag"
+          },
+          {
+            "name_zh": "沙穴",
+            "name_en": "Arena Trap"
+          }
+        ],
+        "item": []
+      }
+    }
+  ]
+}

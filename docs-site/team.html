@@ -77,6 +77,13 @@
     .ev .n { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
     .evscale { font-size: 11px; color: var(--ink-soft); margin-top: 8px; }
     .role { margin-top: 10px; font-size: 12px; color: var(--ink-soft); border-top: 1px dashed var(--border); padding-top: 8px; position: relative; }
+    .rolechips { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
+    .rolechip { font-size: 11.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); background: transparent; }
+    .rolechip.inferred { border-style: dashed; color: var(--ink-soft); border-color: var(--border); }
+    body.hide-roles .rolechips { display: none; }
+    .rolebar { display: flex; align-items: center; gap: 8px; margin: 6px 0 12px; font-size: 13px; color: var(--ink-soft); }
+    .rolebar button { font: inherit; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink); cursor: pointer; }
+    .rolebar button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
     .incomplete { margin-top: 10px; font-size: 13px; color: var(--warn); }
 
     /* ===== 隊伍分析 ===== */
@@ -190,6 +197,7 @@
     }
     // 部署時 data/、assets/ 在站台根目錄；本機預覽則往上一層。
     let root = "";
+    let roleDefs = { tags: [] };
     let teams, regs, tags, lookup = { species: {}, moves: {}, items: {} }, pidx = {}, colors = { types: [] };
     try {
       const t = await getJSON(["data/channels/fiskepokemon/teams.json", "../data/channels/fiskepokemon/teams.json"]);
@@ -200,6 +208,7 @@
       return;
     }
     await Promise.all([
+      getJSON([root + "data/ref/roles.json"]).then((x) => (roleDefs = x.json)).catch(() => {}),
       getJSON([root + "data/ref/battle-lookup.json"]).then((x) => (lookup = x.json)).catch(() => {}),
       getJSON([root + "assets/pokemon/index.json"]).then((x) => (pidx = x.json)).catch(() => {}),
       getJSON([root + "assets/types/colors.json"]).then((x) => (colors = x.json)).catch(() => {}),
@@ -270,6 +279,12 @@
       const label = hit ? typeIcon(hit.id) + " " + esc(hit.name_zh_hant) : esc(zh || en);
       return `<div class="row"><span class="k">太晶</span><span class="v">${label}</span></div>`;
     };
+    const roleName = Object.fromEntries((roleDefs.tags || []).map((t) => [t.id, t]));
+    const rolesFor = (slot) => {
+      const man = ((team.analysis?.roles || []).find((r) => r.slot === slot)?.roles) || [];
+      const inf = ((team.analysis_derived?.roles || []).find((r) => r.slot === slot)?.roles) || [];
+      return [...man.map((id) => ({ id, inferred: false })), ...inf.filter((id) => !man.includes(id)).map((id) => ({ id, inferred: true }))].filter((r) => roleName[r.id]);
+    };
     const card = (m, i) => {
       const sp = m.species || {};
       const en = sp.name_en || "";
@@ -303,10 +318,12 @@
         </div>
         ${moves ? `<ul class="moves">${moves}</ul>` : ""}
         ${evBlock(m.evs)}
+        ${(() => { const rs = rolesFor(m.slot ?? i + 1); return rs.length ? `<div class="rolechips" aria-label="角色與功能">${rs.map((r) => `<span class="rolechip${r.inferred ? " inferred" : ""}" title="${esc((roleName[r.id].group || "") + (r.inferred ? "（由招式／特性推斷）" : "（手動確認）") + (roleName[r.id].description_zh ? "：" + roleName[r.id].description_zh : ""))}">${esc(roleName[r.id].name_zh)}</span>`).join("")}</div>` : ""; })()}
         ${m.role_note ? `<div class="role">${esc(m.role_note)}</div>` : ""}
       </article>`;
     };
     const infoSec = `<section id="info"><h2>隊伍資訊</h2>
+      ${(roleDefs.tags || []).length ? `<div class="rolebar"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷</span></div>` : ""}
       ${members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : ""}
       ${members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
     </section>`;
@@ -379,6 +396,13 @@
 
     $("app").innerHTML = head + `<nav class="sectnav" aria-label="區塊"><a href="#info">隊伍資訊</a><a href="#analysis">隊伍分析</a></nav>` + infoSec + anaSec;
 
+    const rt = $("roleToggle");
+    if (rt) {
+      const apply = (on) => { document.body.classList.toggle("hide-roles", !on); rt.setAttribute("aria-pressed", String(on)); rt.textContent = "角色標籤：" + (on ? "顯示" : "隱藏"); };
+      let on = true; try { on = localStorage.getItem("roleTags") !== "off"; } catch (e) {}
+      apply(on);
+      rt.addEventListener("click", () => { on = !on; apply(on); try { localStorage.setItem("roleTags", on ? "on" : "off"); } catch (e) {} });
+    }
     const copy = $("copy");
     if (copy) copy.addEventListener("click", async () => {
       let ok = false;

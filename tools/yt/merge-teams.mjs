@@ -13,6 +13,9 @@ if (!existsSync(teamsDir)) { console.error(`no ${teamsDir}`); process.exit(1); }
 let classifyTeam = null;
 try { ({ classifyTeam } = await import(new URL("../site/classify-speed-control.mjs", import.meta.url))); } catch (e) { console.error(`[merge] classifier unavailable, skip analysis_derived: ${e.message}`); }
 
+let inferRoles = null;
+try { ({ inferRoles } = await import(new URL("../site/classify-roles.mjs", import.meta.url))); } catch (e) { console.error(`[merge] roles inference unavailable: ${e.message}`); }
+
 const videos = new Map(JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8")).map((v) => [v.id, v]));
 const all = [];
 for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json")).sort()) {
@@ -20,7 +23,7 @@ for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json")).sort())
   for (const t of arr) {
     const v = videos.get(t.video_id);
     const row = { ...t, video_title: v?.title ?? null, video_published_at: v?.published_at ?? null };
-    if (classifyTeam && (t.members?.length ?? 0) === 6) row.analysis_derived = { ...(t.analysis_derived || {}), speed_control: classifyTeam(t) };
+    if (classifyTeam && (t.members?.length ?? 0) === 6) row.analysis_derived = { ...(t.analysis_derived || {}), speed_control: classifyTeam(t), ...(inferRoles ? { roles: inferRoles(t) } : {}) };
     all.push(row);
   }
 }
