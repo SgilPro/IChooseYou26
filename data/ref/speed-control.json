@@ -1,7 +1,7 @@
 {
   "version": 3,
   "updated": "2026-11-10",
-  "note": "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
+  "note": "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、support＝輔助（擊掌奇襲、惡作劇之心、先行治療等，不計入控速）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。",
   "categories": [
     {
       "id": "field-control",
@@ -68,20 +68,20 @@
     },
     {
       "id": "ability-priority",
-      "tier": "broad",
-      "name_zh": "特性式先制",
-      "name_en": "Ability-based Priority",
+      "tier": "support",
+      "name_zh": "特性式先制（輔助）",
+      "name_en": "Ability-based Priority (Support)",
       "scope": "priority",
-      "description_zh": "靠特性取得先制（疾風之翼、惡作劇之心）；要看是否為隊伍核心戰術。",
+      "description_zh": "靠特性取得先制（疾風之翼、惡作劇之心、先行治療）；定位是輔助，不放進控速討論。",
       "level": 3
     },
     {
       "id": "tempo-moves",
-      "tier": "broad",
+      "tier": "support",
       "name_zh": "先制輔助招式",
       "name_en": "Utility Priority Moves",
       "scope": "priority",
-      "description_zh": "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。",
+      "description_zh": "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；定位是輔助，不放進控速討論。",
       "level": 3
     },
     {
@@ -188,7 +188,7 @@
     {
       "category": "spread-speed-drop",
       "tier": "core",
-      "level": 2,
+      "level": 3,
       "kind": "move",
       "name_zh": "黏黏網",
       "name_en": "Sticky Web",
@@ -398,7 +398,7 @@
     },
     {
       "category": "tempo-moves",
-      "tier": "broad",
+      "tier": "support",
       "level": 3,
       "kind": "move",
       "name_zh": "快手還擊",
@@ -413,7 +413,7 @@
     },
     {
       "category": "tempo-moves",
-      "tier": "broad",
+      "tier": "support",
       "level": 3,
       "kind": "move",
       "name_zh": "擊掌奇襲",
@@ -428,7 +428,7 @@
     },
     {
       "category": "tempo-moves",
-      "tier": "broad",
+      "tier": "support",
       "level": 3,
       "kind": "move",
       "name_zh": "迎頭一擊",
@@ -458,7 +458,7 @@
     },
     {
       "category": "tempo-moves",
-      "tier": "broad",
+      "tier": "support",
       "level": 3,
       "kind": "move",
       "name_zh": "佯攻",
@@ -657,7 +657,7 @@
     },
     {
       "category": "ability-priority",
-      "tier": "broad",
+      "tier": "support",
       "level": 3,
       "kind": "ability",
       "name_zh": "疾風之翼",
@@ -667,7 +667,17 @@
     },
     {
       "category": "ability-priority",
-      "tier": "broad",
+      "tier": "support",
+      "level": 3,
+      "kind": "ability",
+      "name_zh": "先行治療",
+      "name_en": "Triage",
+      "notes_zh": "回復類招式優先度 +3（dex）；用於先手治療，屬輔助，不計入控速。",
+      "source": "dex"
+    },
+    {
+      "category": "ability-priority",
+      "tier": "support",
       "level": 3,
       "kind": "ability",
       "name_zh": "惡作劇之心",

@@ -332,7 +332,7 @@
       const via = (c.via || []).filter((v) => (v.level ?? c.level ?? 2) === lv);
       return via.length ? `<h4 class="sc-cat ${cls}">${esc(c.label_zh)}</h4><div class="chips ${cls}">${via.map(scChip).join("")}</div>` : "";
     }).join("");
-    const lvOf = (c) => c.level ?? (c.tier === "cleanup" || c.tier === "broad" ? 3 : 2);
+    const lvOf = (c) => c.level ?? (c.tier === "cleanup" || c.tier === "support" || c.tier === "broad" ? 3 : 2);
     let speedHtml;
     if (Array.isArray(derivedSc)) {
       const lvVia = (lv) => derivedSc.filter((c) => (c.via || []).some((v) => (v.level ?? lvOf(c)) === lv));

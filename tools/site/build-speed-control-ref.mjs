@@ -19,7 +19,7 @@ const LEVEL_BY_CATEGORY = {
   "priority-main": 2, "pledge-field": 2, "setup-speed": 2,
   "ability-priority": 3, "tempo-moves": 3, "priority-cleanup": 3, "stat-drop-utility": 2, // 使用者 2026-11-10：吐絲與冰凍之風、電網同為 Level 2（功能相同的範圍降速，與出現率無關）
 };
-const LEVEL_BY_ENTRY = {}; // 例外：{ "<name_en>": level }，目前無
+const LEVEL_BY_ENTRY = { "Sticky Web": 3 }; // 例外：黏黏網只讓「換上場」的接地對手降 1 級，不是即時範圍降速，使用者 2026-11-10 指定 Level 3
 const cats = [
   { id: "field-control", tier: "core", name_zh: "場地／全隊控速", name_en: "Field / Side Speed Control", scope: "field", description_zh: "直接改變全隊或全場的速度關係：順風讓己方全隊速度加倍，戲法空間讓場上出手順序反轉（慢的先動）。" },
   { id: "spread-speed-drop", tier: "core", name_zh: "範圍降速技", name_en: "Spread Speed-Drop Moves", scope: "target", description_zh: "用範圍招式（或場地設置）降低對手速度；可能被特性、道具或屬性免疫。" },
@@ -28,8 +28,8 @@ const cats = [
   { id: "item-speed", tier: "core", name_zh: "道具控速", name_en: "Item-based Speed", scope: "item", description_zh: "靠持有道具提高持有者速度，例如講究圍巾。" },
   { id: "temporary", tier: "core", name_zh: "暫時性控速", name_en: "Temporary Turn-Order Manipulation", scope: "temporary", description_zh: "只影響單一回合出手順序的手段，例如延後、您先請、釋陀果。" },
   { id: "priority-main", tier: "core", name_zh: "先制主力輸出", name_en: "Priority Main Attackers", scope: "priority", description_zh: "優先度大於 0、威力 70 以上的攻擊招式（門檻為使用者判斷），主攻手靠它先手輸出，不只是收殘。" },
-  { id: "ability-priority", tier: "broad", name_zh: "特性式先制", name_en: "Ability-based Priority", scope: "priority", description_zh: "靠特性取得先制（疾風之翼、惡作劇之心）；要看是否為隊伍核心戰術。" },
-  { id: "tempo-moves", tier: "broad", name_zh: "先制輔助招式", name_en: "Utility Priority Moves", scope: "priority", description_zh: "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；要看是否為隊伍核心戰術。" },
+  { id: "ability-priority", tier: "support", name_zh: "特性式先制（輔助）", name_en: "Ability-based Priority (Support)", scope: "priority", description_zh: "靠特性取得先制（疾風之翼、惡作劇之心、先行治療）；定位是輔助，不放進控速討論。" },
+  { id: "tempo-moves", tier: "support", name_zh: "先制輔助招式", name_en: "Utility Priority Moves", scope: "priority", description_zh: "擊掌奇襲、迎頭一擊、佯攻等有先制的招式；定位是輔助，不放進控速討論。" },
   { id: "pledge-field", tier: "broad", name_zh: "誓約場地（濕地）", name_en: "Pledge Swamp", scope: "field", description_zh: "水之誓約與草之誓約合併後，在對手場地形成濕地，使該側全體速度降為 1/4（4 回合）。" },
   { id: "setup-speed", tier: "broad", name_zh: "自身提速（蝶舞、龍舞類）", name_en: "Self Speed Setup Moves", scope: "self", description_zh: "核心輸出手靠隊友掩護，自己用提升速度的變化招式（蝶舞、龍舞、高速移動等）加速。" },
   { id: "stat-drop-utility", tier: "broad", name_zh: "其他降速招式", name_en: "Other Speed-Drop Moves", scope: "target", description_zh: "吐絲、棉孢子是變化招式，打全體對手、速度 −2（棉孢子為粉末招式，草屬性、防塵、護目鏡免疫）；重踏速度 −1 但會打到所有相鄰目標（含自己的隊友）。功能與冰凍之風、電網同類；是否為這隊的主要控速仍要另外判斷。" },
@@ -74,7 +74,7 @@ add("temporary","move","Quash",{notes_zh:"使用者指定一隻對手，本回�
 add("temporary","move","After You",{notes_zh:"指定對象在使用者之後立刻行動（雙打常用於讓隊友提前行動）。",source:"dex"});
 add("temporary","item","Custap Berry",{notes_zh:"HP 剩 1/4 以下時，同優先度中最先行動，單次使用。",source:"dex"});
 // 7 先制攻擊招式：priority > 0、category 非 Status、非 Past；威力 >= BP_THRESHOLD → priority-main，否則 priority-cleanup。
-// 例外：擊掌奇襲／迎頭一擊／佯攻／快手還擊用途偏輔助（首回合、擋保護、條件式），歸 broad 的 tempo-moves。
+// 例外：擊掌奇襲／迎頭一擊／佯攻／快手還擊用途偏輔助（首回合、擋保護、條件式），歸 support 的 tempo-moves。
 const UTILITY = new Set(["Fake Out", "First Impression", "Feint", "Upper Hand"]);
 const protectAb = ["特性：鮮艷之軀／女王的威嚴／尾甲（擋住對手先制招式）"];
 const prio = g.moves.all().filter((m) => m.exists && m.priority > 0 && m.category !== "Status" && !m.isNonstandard && en2zh.move[m.name]).sort((a, b) => b.priority - a.priority || b.basePower - a.basePower);
@@ -86,6 +86,7 @@ for (const m of prio) {
 }
 // 8 特性式先制
 add("ability-priority","ability","Gale Wings",{notes_zh:"滿 HP 時飛行屬性招式優先度 +1（dex）。",source:"dex"});
+add("ability-priority","ability","Triage",{notes_zh:"回復類招式優先度 +3（dex）；用於先手治療，屬輔助，不計入控速。",source:"dex"});
 add("ability-priority","ability","Prankster",{notes_zh:"變化招式優先度 +1，但惡屬性對象免疫（dex）。",immunities:["惡屬性對象"],source:"dex"});
 // 9 誓約（需同隊有水之誓約與草之誓約才成立）
 for (const n of ["Water Pledge","Grass Pledge"]) add("pledge-field","move",n,{notes_zh:"水之誓約＋草之誓約由兩隻同回合使出，對手場地形成濕地：該側全體速度為 1/4，持續 4 回合（dex 招式說明與 condition.duration）。分類器要求同隊兩招都有才計入。",requires_team_has:["Water Pledge","Grass Pledge"],source:"dex"});
@@ -95,6 +96,6 @@ for (const n of SETUP) { const m = g.moves.get(n); add("setup-speed","move",n,{n
 // 11 其他降速
 for (const n of ["Bulldoze","String Shot","Cotton Spore"]) { const m = g.moves.get(n); add("stat-drop-utility","move",n,{notes_zh:`目標 ${m.target}，速度 ${m.boosts?.spe ?? m.secondary?.boosts?.spe} 級（dex）。功能同範圍降速技（Level 2）；是否為主要控速待判斷。${n==="Bulldoze"?"注意：打所有相鄰目標，會波及己方隊友。":""}`,source:"dex"}); }
 for (const c of cats) c.level = LEVEL_BY_CATEGORY[c.id];
-const out = { version: 3, updated: "2026-11-10", note: "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。", categories: cats, entries: E };
+const out = { version: 3, updated: "2026-11-10", note: "level：1＝直接顯示（順風、空間、核心戰術晉升者）、2＝次要控速（折疊）、3＝輔助與收殘（折疊，不屬於控速討論）。tier：core＝核心控速、broad＝廣義（看是否為隊伍核心戰術）、support＝輔助（擊掌奇襲、惡作劇之心、先行治療等，不計入控速）、cleanup＝收殘（不計入控速）。依 @pkmn/dex（Gen 9）驗證；Champions 與 Gen 9 可能不同，均待確認。名稱以 data/ref/names_zh-Hant.json 為準。", categories: cats, entries: E };
 writeFileSync(ROOT + "/data/ref/speed-control.json", JSON.stringify(out, null, 2) + "\n");
 console.log(E.length, "entries");

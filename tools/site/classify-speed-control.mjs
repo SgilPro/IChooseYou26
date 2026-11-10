@@ -65,7 +65,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     const r = classifyTeam(t);
     if (!r.some((c) => c.level === 1)) noneL1++;
     if (!r.some((c) => c.tier === "core")) noneCore++;
-    if (!r.some((c) => c.tier !== "cleanup")) noneAny++;
+    if (!r.some((c) => c.tier !== "cleanup" && c.tier !== "support")) noneAny++;
     for (const lv of new Set(r.map((c) => c.level))) lvCount.set(lv, (lvCount.get(lv) || 0) + 1);
     for (const tier of new Set(r.map((c) => c.tier))) tierCount.set(tier, (tierCount.get(tier) || 0) + 1);
     for (const c of r) {
