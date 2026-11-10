@@ -37,8 +37,13 @@
     .toolbar .clear { background: transparent; color: var(--ink-soft); cursor: pointer; }
     .toolbar .clear:hover { color: var(--ink); border-color: var(--accent-2); }
     .toolbar .count { font-size: 12px; color: var(--accent-2); margin-left: auto; white-space: nowrap; }
-    .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
-    .chip { font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
+    .filters-wrap { flex: 1 1 100%; display: flex; align-items: flex-start; gap: 8px; }
+    .filters { flex: 1 1 auto; min-width: 0; display: flex; gap: 8px; flex-wrap: wrap; }
+    .filters.collapsed { max-height: 28px; overflow: hidden; }
+    .toolbar .more { flex: none; width: 28px; height: 28px; padding: 0; font-size: 11px; line-height: 1; cursor: pointer; color: var(--ink-soft); background: var(--bg-soft); }
+    .toolbar .more:hover { color: var(--ink); border-color: var(--accent-2); }
+    .toolbar .more[aria-expanded="true"] { transform: none; color: var(--accent-2); }
+    .chip { font-size: 12px; line-height: 18px; padding: 4px 10px; white-space: nowrap; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
     .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
     /* ===== 隊伍 brief 卡片（主題變數集中在 :root，之後好換）===== */
     :root { --card-radius: 14px; --thumb-size: 64px; --warn: #ffd37a; }
@@ -47,7 +52,6 @@
     .team:hover { border-color: var(--accent); transform: translateY(-2px); }
     .team h3 { margin: 0; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
     .team h3 a { color: var(--ink); text-decoration: none; }
-    .team h3 a:hover { color: var(--accent-2); }
     a:focus-visible, button:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
     .meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
     .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); font-family: inherit; }
@@ -63,16 +67,17 @@
     .icons { display: flex; align-items: center; gap: 6px; flex: none; }
     .team .meta { flex-wrap: nowrap; overflow: hidden; }
     .team .meta > * { flex: none; white-space: nowrap; }
-    .tag.reg, .tag.game { border-radius: 8px; border-width: 2px; font-weight: 700; }
-    .tag.game { display: inline-flex; align-items: center; gap: 2px; }
-    .gl-img { height: auto; display: block; }
+    .tag.reg, .tag.game { box-sizing: border-box; height: 24px; display: inline-flex; align-items: center; justify-content: center; padding: 0 9px; border-radius: 8px; border: 1px dotted; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 1; }
+    .tag.reg { background: var(--accent-2); color: #0b0f1a; border-color: #0b0f1a; }
+    .tag.game { background: #1d2140; border-color: rgba(255,255,255,.55); }
     .gl-txt i { font-style: normal; }
+    .gl-ch { color: var(--warn); }
     .ico { width: 18px; height: 18px; display: block; }
-    a.vid-ic { position: relative; display: inline-flex; width: 26px; height: 26px; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-2); background: var(--bg-soft); border: 1px solid var(--border); transition: transform .15s, background .15s, color .15s; }
+    a.vid-ic { position: relative; display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-2); background: var(--bg-soft); border: 2px solid var(--accent-2); transition: transform .15s, background .15s, color .15s; }
     a.vid-ic:hover, a.vid-ic:focus-visible { transform: scale(1.18); background: var(--accent-2); color: #0b0f1a; animation: vidpulse 1s ease-out infinite; }
+    a.vid-ic .badge-crown { position: absolute; top: -7px; right: -7px; width: 15px; height: 15px; padding: 2px; box-sizing: border-box; border-radius: 50%; background: var(--warn); color: #3a2a00; border: 1px solid var(--panel); }
     @keyframes vidpulse { 0% { box-shadow: 0 0 0 0 rgba(86,208,200,.55); } 100% { box-shadow: 0 0 0 9px rgba(86,208,200,0); } }
     @media (prefers-reduced-motion: reduce) { a.vid-ic:hover, a.vid-ic:focus-visible { animation: none; } }
-    .mem-ic { display: inline-flex; width: 26px; height: 26px; align-items: center; justify-content: center; color: var(--warn); }
     .vid { color: var(--accent-2); text-decoration: none; font-size: 12px; font-weight: 600; margin-left: auto; white-space: nowrap; }
     .vid:hover { text-decoration: underline; }
     .thumbs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-top: auto; }
@@ -150,8 +155,11 @@
       </select></label>
       <button class="clear" id="f-clear" type="button">清除</button>
       <span class="count" id="f-count"></span>
+      <div class="filters-wrap">
+        <div class="filters collapsed" id="filters"></div>
+        <button class="more" id="f-more" type="button" aria-expanded="false" aria-controls="filters" aria-label="展開全部標籤" data-tip="展開／收合全部標籤" hidden>▼</button>
+      </div>
     </div>
-    <div class="filters" id="filters"></div>
     <div class="teams" id="teams">載入中…</div>
 
     <h2>原始資料表</h2>
@@ -322,17 +330,27 @@
       ).sort(SORTS[state.sort] || SORTS["date-desc"]);
     }
 
-    // 遊戲符號：有 Liquipedia 圖（assets/games/）就用圖；沒有就用縮寫文字，配色取該版本兩個主色（日後舊作也照這個格式補）
+    // 遊戲符號：英文縮寫＋該版本的主色（舊作之後照這個格式補一筆；有圖的話可加 img，但目前決定不用圖，見 assets/README）
     const GAME_STYLE = {
-      sv: { img: "assets/games/sv.png", w: 22, label: "朱紫" },
-      champions: { img: "assets/games/champions.png", w: 30, label: "Champions" },
+      sv: { abbr: ["S", "V"], colors: ["#ff6b5e", "#b39dff"], label: "朱紫" },
+      champions: { abbr: ["★", "C"], colors: ["#ffd37a", "#ffd37a"], label: "Champions" },
       usum: { abbr: ["U", "S", "U", "M"], colors: ["#ff9a3c", "#ff9a3c", "#5aa0ff", "#5aa0ff"], label: "究極日月" },
       oras: { abbr: ["O", "R", "A", "S"], colors: ["#ff6b6b", "#ff6b6b", "#5aa0ff", "#5aa0ff"], label: "終極紅寶石／始源藍寶石" },
     };
     const gameIcon = (g) => {
       const st = GAME_STYLE[g]; if (!st) return "";
-      if (st.img) return `<img class="gl-img" src="${st.img}" alt="${esc(st.label)}" style="width:${st.w}px" />`;
       return `<span class="gl-txt">${st.abbr.map((c, i) => `<i style="color:${st.colors[i]}">${c}</i>`).join("")}</span>`;
+    };
+    // 標題只有被截斷才需要 tooltip；其餘情況不設
+    const markTruncated = () => document.querySelectorAll(".team h3 a").forEach((a) => {
+      if (a.scrollWidth > a.clientWidth) a.dataset.tip = a.textContent; else delete a.dataset.tip;
+    });
+    // 標籤列：預設一列，放不下才顯示展開鈕
+    const syncMore = () => {
+      const f = $("filters"), m = $("f-more"); if (!f || !m) return;
+      const open = m.getAttribute("aria-expanded") === "true";
+      if (open) { m.hidden = false; return; }
+      m.hidden = !(f.scrollHeight > f.clientHeight + 1);
     };
     function renderTeams() {
       const list = filtered();
@@ -346,18 +364,19 @@
         const glIcon = gameIcon(t.game);
         return `<article class="team" data-id="${esc(t.id)}">
           <div class="row1">
-            <h3 title="${esc(t.name)}"><a href="team.html?id=${encodeURIComponent(t.id)}">${esc(t.name)}</a></h3>
-            <span class="icons">${t.is_members_only ? `<span class="mem-ic" title="會員限定影片" aria-label="會員限定"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5L3 8z"/></svg></span>` : ""}${t.video_url ? `<a class="vid-ic" href="${esc(t.video_url)}" target="_blank" rel="noopener" title="開啟影片（新分頁）" aria-label="開啟影片（新分頁）"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></a>` : ""}</span>
+            <h3><a href="team.html?id=${encodeURIComponent(t.id)}">${esc(t.name)}</a></h3>
+            <span class="icons">${t.video_url ? `<a class="vid-ic" href="${esc(t.video_url)}" target="_blank" rel="noopener" data-tip="${t.is_members_only ? "播放影片（新分頁／需會員資格）" : "播放影片（新分頁）"}" aria-label="${t.is_members_only ? "播放影片（新分頁，需會員資格）" : "播放影片（新分頁）"}"><svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>${t.is_members_only ? `<svg class="badge-crown" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5L3 8z"/></svg>` : ""}</a>` : ""}</span>
           </div>
           <div class="meta">
             ${reg ? `<span class="tag reg" title="賽制／賽季：${esc(reg.name || reg.code)}">${esc(reg.code)}</span>` : ""}
             ${gl ? `<span class="tag game" title="遊戲：${esc(gl)}" aria-label="遊戲：${esc(gl)}">${glIcon}</span>` : ""}
-            ${(t.tags || []).slice(0, 3).map((s) => `<button type="button" class="tag" data-tag="${esc(s)}" title="只看「${esc(tagLabel(s))}」">${esc(tagLabel(s))}</button>`).join("")}
+            ${(t.tags || []).slice(0, 3).map((s) => `<button type="button" class="tag" data-tag="${esc(s)}">${esc(tagLabel(s))}</button>`).join("")}
           </div>
-          <div class="thumbs">${ms.slice(0, 6).map((m) => `<img loading="lazy" src="${thumb(m)}" alt="${esc(m.species?.name_zh || m.species?.name_en || "")}" title="${esc(m.species?.name_zh || "")}" onerror="this.onerror=null;this.src='${PH}'" />`).join("")}${Array.from({ length: Math.max(0, 6 - ms.length) }, () => `<span class="gap"></span>`).join("")}</div>
+          <div class="thumbs">${ms.slice(0, 6).map((m) => `<img loading="lazy" src="${thumb(m)}" alt="${esc(m.species?.name_zh || m.species?.name_en || "")}"  onerror="this.onerror=null;this.src='${PH}'" />`).join("")}${Array.from({ length: Math.max(0, 6 - ms.length) }, () => `<span class="gap"></span>`).join("")}</div>
           ${ms.length < 6 ? `<div class="incomplete">資料不完整（${ms.length} / 6）</div>` : ""}
         </article>`;
       }).join("") || "<p>沒有符合的隊伍。</p>";
+      markTruncated();
     }
     $("teams").addEventListener("click", (e) => {
       const tg = e.target.closest("button[data-tag]");
@@ -373,6 +392,13 @@
       state.tag = chip.dataset.tag || "";
       syncControls(); renderTeams();
     });
+    $("f-more").addEventListener("click", () => {
+      const m = $("f-more"), open = m.getAttribute("aria-expanded") !== "true";
+      m.setAttribute("aria-expanded", String(open)); m.textContent = open ? "▲" : "▼";
+      $("filters").classList.toggle("collapsed", !open); syncMore();
+    });
+    window.addEventListener("resize", () => { syncMore(); markTruncated(); });
+    syncMore();
     let qTimer = null;
     const onQuery = () => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = $("f-q").value; renderTeams(); }, 150); };
     $("f-q").addEventListener("input", onQuery);
