@@ -65,8 +65,8 @@
     .team .meta > * { flex: none; white-space: nowrap; }
     .tag.reg, .tag.game { border-radius: 8px; border-width: 2px; font-weight: 700; cursor: help; }
     .tag.game { display: inline-flex; align-items: center; gap: 2px; }
-    .gl-sv i { font-style: normal; } .gl-sv .s { color: #ff6b6b; } .gl-sv .v { color: #b39dff; }
-    .gl-ch { color: var(--warn); }
+    .gl-img { height: auto; display: block; }
+    .gl-txt i { font-style: normal; }
     .ico { width: 18px; height: 18px; display: block; }
     a.vid-ic { position: relative; display: inline-flex; width: 26px; height: 26px; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-2); background: var(--bg-soft); border: 1px solid var(--border); transition: transform .15s, background .15s, color .15s; }
     a.vid-ic:hover, a.vid-ic:focus-visible { transform: scale(1.18); background: var(--accent-2); color: #0b0f1a; animation: vidpulse 1s ease-out infinite; }
@@ -322,6 +322,18 @@
       ).sort(SORTS[state.sort] || SORTS["date-desc"]);
     }
 
+    // 遊戲符號：有 Liquipedia 圖（assets/games/）就用圖；沒有就用縮寫文字，配色取該版本兩個主色（日後舊作也照這個格式補）
+    const GAME_STYLE = {
+      sv: { img: "assets/games/sv.png", w: 22, label: "朱紫" },
+      champions: { img: "assets/games/champions.png", w: 30, label: "Champions" },
+      usum: { abbr: ["U", "S", "U", "M"], colors: ["#ff9a3c", "#ff9a3c", "#5aa0ff", "#5aa0ff"], label: "究極日月" },
+      oras: { abbr: ["O", "R", "A", "S"], colors: ["#ff6b6b", "#ff6b6b", "#5aa0ff", "#5aa0ff"], label: "終極紅寶石／始源藍寶石" },
+    };
+    const gameIcon = (g) => {
+      const st = GAME_STYLE[g]; if (!st) return "";
+      if (st.img) return `<img class="gl-img" src="${st.img}" alt="${esc(st.label)}" style="width:${st.w}px" />`;
+      return `<span class="gl-txt">${st.abbr.map((c, i) => `<i style="color:${st.colors[i]}">${c}</i>`).join("")}</span>`;
+    };
     function renderTeams() {
       const list = filtered();
       $("f-count").textContent = `${list.length} 隊符合`;
@@ -330,9 +342,8 @@
       $("teams").innerHTML = list.map((t) => {
         const reg = regById[t.regulation_set_id];
         const ms = (t.members || []).slice().sort((a, b) => (a.slot || 0) - (b.slot || 0));
-        const gl = t.game === "sv" ? "朱紫" : t.game === "champions" ? "Champions" : "";
-        // 遊戲符號：自繪（Liquipedia 圖示無法自動下載，見 assets/README）；之後可換成 assets/games/ 的圖
-        const glIcon = t.game === "sv" ? `<span class="gl-sv"><i class="s">S</i><i class="v">V</i></span>` : t.game === "champions" ? `<span class="gl-ch">★ C</span>` : "";
+        const gl = GAME_STYLE[t.game]?.label || "";
+        const glIcon = gameIcon(t.game);
         return `<article class="team" data-id="${esc(t.id)}">
           <div class="row1">
             <h3 title="${esc(t.name)}"><a href="team.html?id=${encodeURIComponent(t.id)}">${esc(t.name)}</a></h3>

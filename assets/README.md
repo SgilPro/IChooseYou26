@@ -51,6 +51,8 @@
 - [ ] 補不到的新 Mega 圖。
 - [ ] 公開前加粉絲站聲明（見上方）。
 
-## 遊戲圖示（Liquipedia，2026-11-10）
+## 遊戲圖示（`games/`，2026-11-10）
 
-使用者想用 Liquipedia 選手頁「G.」欄那種小圖示（Champions、朱紫等）。我們以說明用的 User-Agent 對 `liquipedia.net/pokemon/Wolfe_Glick` 發一次一般請求，回傳 403（擋自動化存取），**不繞過**。目前 `teams.html` 先用自繪的文字符號（朱紫＝紅紫 S/V，Champions＝★ C）。要換成圖示時：請手動下載圖到 `assets/games/`（注意 Liquipedia 圖檔有各自授權，遊戲標誌屬各權利人），再把 `glIcon` 改成 `<img>`。
+- `games/champions.png`（32×17）、`games/sv.png`（32×22）：使用者手動從 Liquipedia 下載（Liquipedia 對自動下載回 403，我們不繞過）。圖檔授權與遊戲標誌的權利屬各權利人，公開前要再確認。
+- `teams.html` 的 `GAME_STYLE` 管遊戲符號：有 `img` 就用圖；沒有圖的版本用縮寫文字，每個字母取該版本兩個主色，例如 USUM（究極日月：日橘、月藍）、ORAS（終極紅寶石／始源藍寶石：紅、藍）。之後抓到舊作隊伍，在 `GAME_STYLE` 補一筆即可（隊伍的 `game` 欄位也要有對應值）。
+- 若找不到合適的 Champions 圖，備案是用免費授權的冠軍腰帶圖（需確認授權）。
