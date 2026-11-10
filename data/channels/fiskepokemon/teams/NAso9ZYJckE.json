@@ -1,32 +1,497 @@
 [
   {
     "id": "team_NAso9ZYJckE",
-    "name": "火力全開的蒸汽兄弟與盜版黑暗鴉",
-    "name_source": "title",
+    "name": "FW#5",
+    "name_source": "pokepaste",
     "video_id": "NAso9ZYJckE",
     "video_url": "https://www.youtube.com/watch?v=NAso9ZYJckE",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-c",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "Guest 4588302",
+    "author_source": "pokepaste",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 430,
+          "name_zh": "烏鴉頭頭",
+          "name_en": "Honchkrow",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "自信過度",
+          "value_en": "Moxie",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "急躁",
+          "value_en": "Hasty",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: hp 0, def 0, spd 0",
+        "moves": [
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "惡意追擊",
+            "value_en": "Assurance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "雜技",
+            "value_en": "Acrobatics",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "復仇",
+            "value_en": "Comeuppance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 839,
+          "name_zh": "巨炭山",
+          "name_en": "Coalossal",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "蒸汽機",
+          "value_en": "Steam Engine",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "弱點保險",
+          "value_en": "Weakness Policy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 36,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 220,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "火焰拳",
+            "value_en": "Fire Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大爆炸",
+            "value_en": "Explosion",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 132,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 0,
+          "spe": 124,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 984,
+          "name_zh": "雄偉牙",
+          "name_en": "Great Tusk",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 0,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "突飛猛撲",
+            "value_en": "Headlong Rush",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 324,
+          "name_zh": "煤炭龜",
+          "name_en": "Torkoal",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "日照",
+          "value_en": "Drought",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "避難背包",
+          "value_en": "Eject Pack",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "飛行",
+          "value_en": "Flying",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 0,
+          "spa": 252,
+          "spd": 4,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "日光束",
+            "value_en": "Solar Beam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1009,
+          "name_zh": "波盪水",
+          "name_en": "Walking Wake",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 100,
+          "atk": 0,
+          "def": 0,
+          "spa": 156,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水蒸氣",
+            "value_en": "Hydro Steam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "噴射火焰",
+            "value_en": "Flamethrower",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
       "frames_used": 0,
-      "pokepaste_url": null
+      "pokepaste_url": "https://pokepast.es/be262ae05ce0e01b"
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "paste_text": "Honchkrow @ Focus Sash  \r\nAbility: Moxie  \r\nLevel: 50  \r\nTera Type: Dark  \r\nEVs: 252 Atk / 252 Spe  \r\nHasty Nature  \r\nIVs: 0 HP / 0 Def / 0 SpD  \r\n- Sucker Punch  \r\n- Assurance  \r\n- Acrobatics  \r\n- Comeuppance  \r\n\r\nCoalossal @ Weakness Policy  \r\nAbility: Steam Engine  \r\nLevel: 50  \r\nTera Type: Normal  \r\nEVs: 36 HP / 252 Atk / 220 Spe  \r\nAdamant Nature  \r\n- Rock Slide  \r\n- Fire Punch  \r\n- Earthquake  \r\n- Explosion  \r\n\r\nFlutter Mane @ Choice Specs  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Fairy  \r\nEVs: 132 HP / 252 SpA / 124 Spe  \r\nTimid Nature  \r\nIVs: 0 Atk  \r\n- Moonblast  \r\n- Dazzling Gleam  \r\n- Shadow Ball  \r\n- Icy Wind  \r\n\r\nGreat Tusk @ Choice Scarf  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Ground  \r\nEVs: 252 Atk / 252 Spe  \r\nAdamant Nature  \r\n- Close Combat  \r\n- Headlong Rush  \r\n- Earthquake  \r\n- Rock Slide  \r\n\r\nTorkoal @ Eject Pack  \r\nAbility: Drought  \r\nLevel: 50  \r\nTera Type: Flying  \r\nEVs: 252 HP / 252 SpA / 4 SpD  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Overheat  \r\n- Heat Wave  \r\n- Solar Beam  \r\n- Earth Power  \r\n\r\nWalking Wake @ Assault Vest  \r\nAbility: Protosynthesis  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 100 HP / 156 SpA / 252 Spe  \r\nModest Nature  \r\n- Aqua Jet  \r\n- Hydro Steam  \r\n- Flamethrower  \r\n- Snarl  \r\n\r\n",
+    "paste_notes": "Format: gen9vgc2023regulationc",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
     "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.935Z",
-    "extracted_by": "make-member-shells-v1"
+    "extracted_at": "2026-11-10T02:42:54.208Z",
+    "extracted_by": "import-pokepaste-v1"
   }
 ]

@@ -28,3 +28,7 @@ venv/
 # 資料線原始抓取物（yt-dlp info.json / 字幕 / 影格，數百 MB，不進版控）
 data/channels/*/raw/
 data/channels/*/frames/
+
+# YouTube 會員登入 cookies（絕對不要 commit）
+cookies*.txt
+*cookies*.txt

@@ -126,7 +126,7 @@ function toMember(mon, slot) {
 const TYPE_ZH = { Normal: "一般", Fire: "火", Water: "水", Electric: "電", Grass: "草", Ice: "冰", Fighting: "格鬥", Poison: "毒", Ground: "地面", Flying: "飛行", Psychic: "超能力", Bug: "蟲", Rock: "岩石", Ghost: "幽靈", Dragon: "龍", Dark: "惡", Steel: "鋼", Fairy: "妖精", Stellar: "星晶" };
 
 // ---- 主流程 ----
-let candidates = videos.filter((v) => v.category === "battle" && (v.pokepaste_urls?.length || 0) > 0 && !v.is_members_only && v.fetch_error == null);
+let candidates = videos.filter((v) => v.category === "battle" && (v.pokepaste_urls?.length || 0) > 0 && v.fetch_error == null);
 if (onlyArg) candidates = candidates.filter((v) => onlyArg.includes(v.id));
 candidates.sort((a, b) => (b.published_at || "").localeCompare(a.published_at || ""));
 let done = 0, skipped = 0, failed = 0;
@@ -154,7 +154,7 @@ for (const v of candidates) {
         tags: tagsFromTitle(v.title), tags_source: "title",
         author: (j.author && j.author.trim()) || v.author || "Fiske", author_source: j.author && j.author.trim() ? "pokepaste" : "channel",
         members,
-        is_members_only: false,
+        is_members_only: v.is_members_only === true,
         related_video_ids: [],
         sources: { subtitle_lang: null, subtitle_range_s: null, frames_used: 0, pokepaste_url: url },
         paste_text: j.paste,

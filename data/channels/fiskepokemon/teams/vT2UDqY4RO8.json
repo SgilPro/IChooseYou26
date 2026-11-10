@@ -1,32 +1,497 @@
 [
   {
     "id": "team_vT2UDqY4RO8",
-    "name": "在寶可夢世界用 Minecraft 角色打對戰",
-    "name_source": "title",
+    "name": "FW#6",
+    "name_source": "pokepaste",
     "video_id": "vT2UDqY4RO8",
     "video_url": "https://www.youtube.com/watch?v=vT2UDqY4RO8",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-c",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "Guest 3763677",
+    "author_source": "pokepaste",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 933,
+          "name_zh": "鹽石壘",
+          "name_en": "Naclstack",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "潔淨之鹽",
+          "value_en": "Purifying Salt",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "進化奇石",
+          "value_en": "Eviolite",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "自大",
+          "value_en": "Sassy",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 180,
+          "atk": 0,
+          "def": 76,
+          "spa": 0,
+          "spd": 252,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鹽醃",
+            "value_en": "Salt Cure",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鐵壁",
+            "value_en": "Iron Defense",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 934,
+          "name_zh": "鹽石巨靈",
+          "name_en": "Garganacl",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "潔淨之鹽",
+          "value_en": "Purifying Salt",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "慎重",
+          "value_en": "Careful",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "蟲",
+          "value_en": "Bug",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 4,
+          "spa": 0,
+          "spd": 252,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "鹽醃",
+            "value_en": "Salt Cure",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "自我再生",
+            "value_en": "Recover",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 995,
+          "name_zh": "鐵荊棘",
+          "name_en": "Iron Thorns",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "老千骰子",
+          "value_en": "Loaded Dice",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "蟲",
+          "value_en": "Bug",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 116,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 140,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "岩石爆擊",
+            "value_en": "Rock Blast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "雷電拳",
+            "value_en": "Thunder Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "龍之舞",
+            "value_en": "Dragon Dance",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 248,
+          "name_zh": "班基拉斯",
+          "name_en": "Tyranitar",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "揚沙",
+          "value_en": "Sand Stream",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "飛行",
+          "value_en": "Flying",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 4,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "咬碎",
+            "value_en": "Crunch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "踢倒",
+            "value_en": "Low Kick",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 745,
+          "name_zh": "鬃岩狼人",
+          "name_en": "Lycanroc",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "撥沙",
+          "value_en": "Sand Rush",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "格鬥",
+          "value_en": "Fighting",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "長嚎",
+            "value_en": "Howl",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 970,
+          "name_zh": "晶光花",
+          "name_en": "Glimmora",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "毒滿地",
+          "value_en": "Toxic Debris",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 0,
+          "spa": 156,
+          "spd": 100,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "晶光轉轉",
+            "value_en": "Mortal Spin",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "能量球",
+            "value_en": "Energy Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
       "frames_used": 0,
-      "pokepaste_url": null
+      "pokepaste_url": "https://pokepast.es/da88b783b44d14c9"
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "paste_text": "Naclstack @ Eviolite  \r\nAbility: Purifying Salt  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 180 HP / 76 Def / 252 SpD  \r\nSassy Nature  \r\n- Protect  \r\n- Salt Cure  \r\n- Iron Defense  \r\n- Recover  \r\n\r\nGarganacl @ Leftovers  \r\nAbility: Purifying Salt  \r\nLevel: 50  \r\nTera Type: Bug  \r\nEVs: 252 HP / 4 Def / 252 SpD  \r\nCareful Nature  \r\n- Protect  \r\n- Salt Cure  \r\n- Wide Guard  \r\n- Recover  \r\n\r\nIron Thorns @ Loaded Dice  \r\nAbility: Quark Drive  \r\nLevel: 50  \r\nTera Type: Bug  \r\nEVs: 116 HP / 252 Atk / 140 Spe  \r\nAdamant Nature  \r\n- Protect  \r\n- Rock Blast  \r\n- Thunder Punch  \r\n- Dragon Dance  \r\n\r\nTyranitar @ Choice Band  \r\nAbility: Sand Stream  \r\nLevel: 50  \r\nTera Type: Flying  \r\nEVs: 252 HP / 252 Atk / 4 Spe  \r\nAdamant Nature  \r\n- Rock Slide  \r\n- Crunch  \r\n- Low Kick  \r\n- Tera Blast  \r\n\r\nLycanroc @ Focus Sash  \r\nAbility: Sand Rush  \r\nLevel: 50  \r\nTera Type: Fighting  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nJolly Nature  \r\n- Protect  \r\n- Howl  \r\n- Rock Slide  \r\n- Close Combat  \r\n\r\nGlimmora @ Assault Vest  \r\nAbility: Toxic Debris  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 156 SpA / 100 SpD  \r\nModest Nature  \r\n- Mortal Spin  \r\n- Sludge Bomb  \r\n- Earth Power  \r\n- Energy Ball  \r\n\r\n",
+    "paste_notes": "Format: gen9vgc2023regulationc",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
     "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.938Z",
-    "extracted_by": "make-member-shells-v1"
+    "extracted_at": "2026-11-10T02:42:53.178Z",
+    "extracted_by": "import-pokepaste-v1"
   }
 ]
