@@ -298,7 +298,8 @@
         const mt = mv.value_en ? lookup.moves?.[mv.value_en] : null;
         return `<li>${mt?.type_id ? typeIcon(mt.type_id) : ""}<span>${esc(mv.value)}</span></li>`;
       }).join("");
-      const g = m.gender === "M" ? `<span class="gender M" title="雄性" aria-label="雄性">♂</span>` : m.gender === "F" ? `<span class="gender F" title="雌性" aria-label="雌性">♀</span>` : "";
+      const showGender = /^(Indeedee|Basculegion|Meowstic)/.test(en); // 性別影響種族值／配置者才顯示
+      const g = !showGender ? "" : m.gender === "M" ? `<span class="gender M" title="雄性" aria-label="雄性">♂</span>` : m.gender === "F" ? `<span class="gender F" title="雌性" aria-label="雌性">♀</span>` : "";
       return `<article class="mon" aria-label="${esc(sp.name_zh || en)}">
         <span class="slot" aria-hidden="true">${esc(m.slot ?? i + 1)}</span>
         <div class="mon-head">

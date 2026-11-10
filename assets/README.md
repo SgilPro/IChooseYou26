@@ -50,3 +50,7 @@
 - [ ] 下載到 `assets/pokemon/`，網頁改讀本機；型態改用型態 id。
 - [ ] 補不到的新 Mega 圖。
 - [ ] 公開前加粉絲站聲明（見上方）。
+
+## 遊戲圖示（Liquipedia，2026-11-10）
+
+使用者想用 Liquipedia 選手頁「G.」欄那種小圖示（Champions、朱紫等）。我們以說明用的 User-Agent 對 `liquipedia.net/pokemon/Wolfe_Glick` 發一次一般請求，回傳 403（擋自動化存取），**不繞過**。目前 `teams.html` 先用自繪的文字符號（朱紫＝紅紫 S/V，Champions＝★ C）。要換成圖示時：請手動下載圖到 `assets/games/`（注意 Liquipedia 圖檔有各自授權，遊戲標誌屬各權利人），再把 `glIcon` 改成 `<img>`。
