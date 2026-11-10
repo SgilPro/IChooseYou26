@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>隊伍詳細 · 寶可夢對戰工具</title>
+  <meta name="description" content="單一隊伍的完整配置與分析。" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* ===== 可調整的主題變數（沿用 styles.css 的色票，之後要換風格改這裡） ===== */
+    :root {
+      --card-bg: var(--bg-soft);
+      --card-radius: 14px;
+      --card-min: 320px;           /* 卡片最小寬度：決定 3→2→1 欄何時換行 */
+      --gap: 14px;
+      --art-size: 150px;
+      --icon-size: 20px;
+      --bar-track: rgba(255,255,255,.08);
+      --bar-fill: var(--accent-2);
+      --slot-ink: rgba(255,255,255,.07);
+      --male: #6aa8ff;
+      --female: #ff7aa8;
+      --warn: #ffd37a;
+    }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 80px; }
+    .crumbs { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
+    .crumbs a { color: var(--accent-2); text-decoration: none; }
+    .crumbs a:hover, .back:hover { text-decoration: underline; }
+    .back { display: inline-block; color: var(--accent-2); text-decoration: none; font-size: 14px; margin-bottom: 12px; }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; border-radius: 4px; }
+    h1 { margin: 0 0 8px; font-size: 26px; line-height: 1.35; overflow-wrap: anywhere; }
+    h2 { font-size: 20px; margin: 0 0 12px; }
+    .head { background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 16px 18px; }
+    .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 6px 0; }
+    .tag { font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); text-decoration: none; }
+    .tag.reg { color: var(--accent-2); border-color: rgba(86,208,200,.4); }
+    .tag.game { color: var(--accent); border-color: rgba(139,108,255,.45); }
+    .tag.member { color: var(--warn); border-color: rgba(255,211,122,.4); }
+    .tag.warn { color: var(--warn); border-color: rgba(255,211,122,.4); }
+    .vid { color: var(--accent-2); text-decoration: none; font-size: 14px; font-weight: 600; }
+    .code { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg-soft); border: 1px dashed var(--accent-2); border-radius: 8px; padding: 3px 10px; cursor: pointer; }
+    .code b { font-family: ui-monospace, Menlo, monospace; letter-spacing: .04em; }
+    .code:hover { background: var(--panel); }
+    .sectnav { position: sticky; top: 57px; z-index: 10; display: flex; gap: 8px; padding: 10px 0; margin: 10px 0 14px; background: var(--bg); }
+    .sectnav a { font-size: 14px; padding: 6px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); text-decoration: none; }
+    .sectnav a:hover { color: var(--ink); border-color: var(--accent-2); }
+    section { scroll-margin-top: 120px; margin-bottom: 34px; }
+
+    /* ===== 隊伍資訊：flex-wrap 3→2→1 欄 ===== */
+    .mons { display: flex; flex-wrap: wrap; gap: var(--gap); }
+    .mon { position: relative; overflow: hidden; flex: 1 1 calc((100% - 2 * var(--gap)) / 3); min-width: min(var(--card-min), 100%); background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 12px 14px 14px; font-size: 13px; }
+    .mon .slot { position: absolute; right: 10px; bottom: -8px; font-size: 76px; font-weight: 800; font-style: italic; line-height: 1; color: var(--slot-ink); pointer-events: none; user-select: none; }
+    .mon-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .mon-head .nm { font-size: 17px; font-weight: 700; }
+    .mon-head .nick { font-size: 12px; color: var(--ink-soft); }
+    .gender { font-weight: 800; font-size: 16px; }
+    .gender.M { color: var(--male); } .gender.F { color: var(--female); }
+    .ticon { width: var(--icon-size); height: var(--icon-size); flex: none; vertical-align: middle; }
+    .badge { font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: var(--accent); color: #fff; }
+    .en { color: var(--ink-soft); font-size: 11px; margin-top: 2px; }
+    .mon-body { display: flex; gap: 12px; align-items: center; margin-top: 8px; }
+    .art { position: relative; flex: none; width: var(--art-size); height: var(--art-size); background: radial-gradient(circle at 50% 60%, rgba(255,255,255,.09), transparent 70%); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+    .art img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    .art .hint { position: absolute; left: 0; right: 0; bottom: 0; font-size: 10px; line-height: 1.3; color: var(--warn); background: rgba(15,16,32,.8); text-align: center; border-radius: 0 0 12px 12px; padding: 1px 2px; }
+    .info { min-width: 0; flex: 1; display: grid; gap: 5px; }
+    .info .row { display: flex; align-items: center; gap: 6px; min-width: 0; }
+    .info .k { color: var(--ink-soft); font-size: 11px; flex: none; min-width: 2.2em; }
+    .info .v { overflow-wrap: anywhere; }
+    .item-icon { width: 28px; height: 28px; object-fit: contain; flex: none; }
+    .moves { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; }
+    .moves li { display: flex; align-items: center; gap: 6px; min-width: 0; background: rgba(255,255,255,.04); border-radius: 8px; padding: 4px 8px; }
+    .moves li span { min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
+    .evs { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px; }
+    .ev { display: grid; grid-template-columns: 2.4em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
+    .ev .bar { height: 6px; border-radius: 999px; background: var(--bar-track); overflow: hidden; }
+    .ev .bar i { display: block; height: 100%; background: var(--bar-fill); }
+    .ev .n { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
+    .evscale { font-size: 11px; color: var(--ink-soft); margin-top: 8px; }
+    .role { margin-top: 10px; font-size: 12px; color: var(--ink-soft); border-top: 1px dashed var(--border); padding-top: 8px; position: relative; }
+    .incomplete { margin-top: 10px; font-size: 13px; color: var(--warn); }
+
+    /* ===== 隊伍分析 ===== */
+    .brief { background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 12px 16px; margin-bottom: var(--gap); color: var(--ink-soft); font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .brief b { color: var(--ink); }
+    .quad { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap); }
+    .box { background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 14px 16px; min-width: 0; }
+    .box h3 { margin: 0 0 8px; font-size: 15px; }
+    .box p { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; }
+    .empty { color: var(--ink-soft); opacity: .7; font-size: 13px; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .score { display: grid; grid-template-columns: auto 1fr auto; gap: 6px 10px; align-items: center; font-size: 13px; }
+    .score .pips { display: flex; gap: 4px; }
+    .score .pips i { width: 18px; height: 8px; border-radius: 3px; background: var(--bar-track); }
+    .score .pips i.on { background: var(--accent); }
+    .score .n { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+
+    /* ===== 建議首發模式（選用） ===== */
+    .combos { margin-top: var(--gap); background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 14px 16px; }
+    .combos h3 { margin: 0 0 10px; font-size: 16px; }
+    .crow, .chead { display: grid; grid-template-columns: 2.2em 1fr 1fr 1.2fr; gap: 12px; align-items: center; }
+    .chead { font-size: 13px; font-weight: 700; text-align: center; color: var(--ink-soft); margin-bottom: 6px; }
+    .chead span { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 6px; padding: 2px 0; }
+    .crow { padding: 10px 0; border-top: 1px dashed var(--border); }
+    .num { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+    .pair { display: flex; gap: 6px; justify-content: center; }
+    .pair figure { margin: 0; text-align: center; font-size: 11px; color: var(--ink-soft); min-width: 0; }
+    .pair img { width: 72px; height: 72px; object-fit: contain; display: block; margin: 0 auto; }
+    .strategy { background: var(--bg-soft); border-radius: 10px; padding: 10px 12px; font-size: 13px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .lbl { display: none; font-size: 11px; color: var(--ink-soft); }
+    .err { background: #3a1f2a; border: 1px solid #7a3a4a; padding: 14px 18px; border-radius: 10px; }
+    .foot { margin-top: 40px; font-size: 12px; color: var(--ink-soft); }
+    .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--accent); color: #fff; padding: 8px 16px; border-radius: 999px; font-size: 13px; z-index: 50; }
+    @media (max-width: 720px) {
+      .quad { grid-template-columns: 1fr; }
+      h1 { font-size: 22px; }
+      .chead { display: none; }
+      .crow { grid-template-columns: 2.2em 1fr; }
+      .crow .pair, .crow .strategy { grid-column: 2; justify-content: flex-start; }
+      .lbl { display: block; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🟣</span>
+      <div>
+        <div class="brand-title">寶可夢對戰工具</div>
+        <div class="brand-sub">頻道資料線 · 隊伍詳細</div>
+      </div>
+    </div>
+    <div class="head-actions">
+      <a class="try-btn" href="./#channel-data" title="回 Live Docs">📖 回文件</a>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <a class="back" id="back" href="teams.html">← 回隊伍列表</a>
+    <div id="app">載入中…</div>
+    <p class="foot">寶可夢圖像來自 PokeAPI sprites 的官方插畫（著作權屬 Nintendo / Creatures / GAME FREAK / The Pokémon Company，本站為非官方粉絲網站）。努力值以 Pokémon Champions 的「能力點」顯示（總和 66、單項 32）。</p>
+  </div>
+
+  <script>
+  (async function () {
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#6b6f9c" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
+    const onerr = `onerror="this.onerror=null;this.src='${PH}'"`;
+    const hideErr = `onerror="this.style.display='none'"`;
+
+    // 回列表：還原列表的搜尋/篩選（hash）與捲動位置，存在 sessionStorage
+    try {
+      const h = sessionStorage.getItem("teams-list-hash");
+      if (h) $("back").href = "teams.html" + h;
+    } catch (e) {}
+    $("back").addEventListener("click", (e) => {
+      try {
+        const ref = document.referrer || "";
+        if (ref.includes("teams.html") && history.length > 1) { e.preventDefault(); history.back(); }
+      } catch (err) {}
+    });
+
+    async function getJSON(paths) {
+      for (const p of paths) {
+        try { const r = await fetch(p, { cache: "no-cache" }); if (r.ok) return { json: await r.json(), path: p }; } catch (e) {}
+      }
+      throw new Error("無法載入 " + paths[0]);
+    }
+    // 部署時 data/、assets/ 在站台根目錄；本機預覽則往上一層。
+    let root = "";
+    let teams, regs, tags, lookup = { species: {}, moves: {}, items: {} }, pidx = {}, colors = { types: [] };
+    try {
+      const t = await getJSON(["data/channels/fiskepokemon/teams.json", "../data/channels/fiskepokemon/teams.json"]);
+      teams = t.json; root = t.path.startsWith("../") ? "../" : "";
+      [regs, tags] = (await Promise.all([getJSON([root + "data/ref/regulation_sets.json"]), getJSON([root + "data/ref/tags.json"])])).map((x) => x.json);
+    } catch (e) {
+      $("app").innerHTML = `<div class="err">${esc(e.message)}。資料尚未部署或路徑不對。<br><a href="teams.html">← 回隊伍列表</a></div>`;
+      return;
+    }
+    await Promise.all([
+      getJSON([root + "data/ref/battle-lookup.json"]).then((x) => (lookup = x.json)).catch(() => {}),
+      getJSON([root + "assets/pokemon/index.json"]).then((x) => (pidx = x.json)).catch(() => {}),
+      getJSON([root + "assets/types/colors.json"]).then((x) => (colors = x.json)).catch(() => {}),
+    ]);
+    const typeById = Object.fromEntries((colors.types || []).map((t) => [t.id, t]));
+    const regById = Object.fromEntries(regs.map((r) => [r.id, r]));
+    const tagBySlug = Object.fromEntries(tags.map((t) => [t.slug, t]));
+    const tagLabel = (s) => tagBySlug[s]?.label_zh || s;
+
+    // ---- 圖示 / 圖片 helper（全部走 assets/ 相對路徑）----
+    const typeIcon = (id, cls = "ticon") => {
+      const t = typeById[id]; if (!t || !t.icon_symbol) return "";
+      return `<img class="${cls}" src="${root}assets/types/${esc(t.icon_symbol)}" alt="${esc(t.name_zh_hant)}屬性" title="${esc(t.name_zh_hant)}" loading="lazy" ${hideErr} />`;
+    };
+    const monImg = (nameEn, kind) => {
+      const e = pidx[nameEn]; const rel = e && e[kind];
+      return rel ? `${root}assets/pokemon/${rel}` : PH;
+    };
+    const teamId = new URLSearchParams(location.search).get("id");
+    const team = teams.find((t) => t.id === teamId);
+    if (!team) {
+      $("app").innerHTML = `<div class="err">找不到這支隊伍${teamId ? `（id：${esc(teamId)}）` : ""}。<br><a href="teams.html">← 回隊伍列表</a></div>`;
+      return;
+    }
+    document.title = `${team.name} · 隊伍詳細`;
+
+    const reg = regById[team.regulation_set_id];
+    const members = (team.members || []).slice().sort((a, b) => (a.slot || 0) - (b.slot || 0));
+    const isSV = team.game === "sv";
+    const gameLabel = isSV ? "朱紫" : team.game === "champions" ? "Champions" : esc(team.game || "");
+    const codeLabel = isSV ? "租借代碼" : "隊伍 ID";
+
+    // ---- 標題區 ----
+    const head = `<div class="head">
+      <h1>${esc(team.name)}</h1>
+      <div class="meta">
+        ${reg ? `<span class="tag reg">${esc(reg.game_name_zh)} · ${esc(reg.code)}</span>` : ""}
+        <span class="tag game">${gameLabel}</span>
+        ${team.author ? `<span class="tag">作者 ${esc(team.author)}</span>` : ""}
+        ${team.is_members_only ? `<span class="tag member">會員</span>` : ""}
+        ${(team.tags || []).map((s) => `<span class="tag">${esc(tagLabel(s))}</span>`).join("")}
+      </div>
+      <div class="meta">
+        ${team.video_url ? `<a class="vid" href="${esc(team.video_url)}" target="_blank" rel="noopener">▶ 觀看影片${team.video_published_at ? " · " + esc(String(team.video_published_at).slice(0, 10)) : ""}</a>` : ""}
+        ${team.team_code ? `<button class="code" type="button" id="copy" title="點擊複製">${codeLabel}：<b>${esc(team.team_code)}</b> 📋</button>` : ""}
+      </div>
+    </div>`;
+
+    // ---- 寶可夢卡片 ----
+    const EVKEYS = [["hp", "HP"], ["atk", "攻"], ["def", "防"], ["spa", "特攻"], ["spd", "特防"], ["spe", "速"]];
+    const evBlock = (e) => {
+      if (!e) return "";
+      const max = e.scale === "champions-points-32" ? 32 : e.scale === "ev-252" ? 252 : 0;
+      if (!max || !EVKEYS.some(([k]) => e[k])) return "";
+      return `<div class="evs" role="group" aria-label="${max === 32 ? "能力點" : "努力值"}">${EVKEYS.map(([k, l]) => {
+        const v = Number(e[k]) || 0;
+        return `<div class="ev"><span>${l}</span><span class="bar"><i style="width:${Math.min(100, v / max * 100)}%"></i></span><span class="n">${v}</span></div>`;
+      }).join("")}</div>`;
+    };
+    const teraIcon = (t) => {
+      if (!t) return "";
+      const s = String(t).toLowerCase();
+      const hit = (colors.types || []).find((x) => x.id === s || x.name_zh_hant === t || x.name_zh_hans === t);
+      return `<div class="row"><span class="k">太晶</span><span class="v">${hit ? typeIcon(hit.id) + " " + esc(hit.name_zh_hant) : esc(t)}</span></div>`;
+    };
+    const card = (m, i) => {
+      const sp = m.species || {};
+      const en = sp.name_en || "";
+      const meta = lookup.species?.[en];
+      const pe = pidx[en];
+      const hint = pe && pe.form_match === "fallback-base" ? `<div class="hint">${esc(pe.note || "此型態圖缺，暫用原形")}</div>` : "";
+      const types = (meta?.type_ids || []).map((id) => typeIcon(id)).join("");
+      const it = m.item?.value_en ? lookup.items?.[m.item.value_en] : null;
+      const itemIcon = it?.icon ? `<img class="item-icon" src="${root}assets/items/${esc(it.icon)}" alt="" loading="lazy" ${hideErr} />` : "";
+      const moves = (m.moves || []).filter((mv) => mv && mv.value).map((mv) => {
+        const mt = mv.value_en ? lookup.moves?.[mv.value_en] : null;
+        return `<li>${mt?.type_id ? typeIcon(mt.type_id) : ""}<span>${esc(mv.value)}</span></li>`;
+      }).join("");
+      const g = m.gender === "M" ? `<span class="gender M" title="雄性" aria-label="雄性">♂</span>` : m.gender === "F" ? `<span class="gender F" title="雌性" aria-label="雌性">♀</span>` : "";
+      return `<article class="mon" aria-label="${esc(sp.name_zh || en)}">
+        <span class="slot" aria-hidden="true">${esc(m.slot ?? i + 1)}</span>
+        <div class="mon-head">
+          <span class="nm">${esc(sp.name_zh || en || "（未知）")}</span>${g}${types}
+          ${m.mega ? `<span class="badge">Mega</span>` : ""}
+          ${m.nickname ? `<span class="nick">「${esc(m.nickname)}」</span>` : ""}
+        </div>
+        <div class="en">${esc(en)}</div>
+        <div class="mon-body">
+          <div class="art"><img src="${monImg(en, "art")}" alt="${esc((sp.name_zh || en) + (en ? "（" + en + "）" : ""))}" loading="lazy" width="475" height="475" ${onerr} />${hint}</div>
+          <div class="info">
+            <div class="row"><span class="k">特性</span><span class="v">${esc(m.ability?.value || "—")}</span></div>
+            <div class="row"><span class="k">道具</span>${itemIcon}<span class="v">${esc(m.item?.value || "—")}</span></div>
+            <div class="row"><span class="k">性格</span><span class="v">${esc(m.nature?.value || "—")}</span></div>
+            ${teraIcon(m.tera_type)}
+          </div>
+        </div>
+        ${moves ? `<ul class="moves">${moves}</ul>` : ""}
+        ${evBlock(m.evs)}
+        ${m.role_note ? `<div class="role">${esc(m.role_note)}</div>` : ""}
+      </article>`;
+    };
+    const infoSec = `<section id="info"><h2>隊伍資訊</h2>
+      ${members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : ""}
+      ${members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
+    </section>`;
+
+    // ---- 隊伍分析 ----
+    const an = team.analysis || {};
+    const none = `<p class="empty">尚無分析</p>`;
+    const txt = (s) => (s && String(s).trim() ? `<p>${esc(s)}</p>` : none);
+    const speedSlugs = (team.tags || []).filter((s) => tagBySlug[s]?.category === "speed-control");
+    const speedChips = speedSlugs.length ? `<div class="chips">${speedSlugs.map((s) => `<span class="tag reg">${esc(tagLabel(s))}</span>`).join("")}</div>` : "";
+    const SCORES = [["ease", "易上手度"], ["flexibility", "靈活度"], ["stability", "穩定度"], ["coverage", "覆蓋面"]];
+    const sc = an.scores;
+    const scoreHtml = sc && SCORES.some(([k]) => typeof sc[k] === "number")
+      ? `<div class="score">${SCORES.filter(([k]) => typeof sc[k] === "number").map(([k, l]) => {
+        const v = Math.max(0, Math.min(5, Math.round(sc[k])));
+        return `<span>${l}</span><span class="pips" role="img" aria-label="${l} ${v} / 5">${[1, 2, 3, 4, 5].map((n) => `<i class="${n <= v ? "on" : ""}"></i>`).join("")}</span><span class="n">${v}/5</span>`;
+      }).join("")}</div>` : `<p class="empty">尚無評分</p>`;
+    const nameZh = (en) => members.find((m) => m.species?.name_en === en)?.species?.name_zh || en;
+    const figs = (arr) => (arr || []).map((en) => `<figure><img src="${monImg(en, "thumb")}" alt="${esc(nameZh(en))}" loading="lazy" ${onerr} /><figcaption>${esc(nameZh(en))}</figcaption></figure>`).join("");
+    const modes = Array.isArray(team.lead_modes) ? team.lead_modes.filter((x) => x && (x.leads?.length || x.back?.length || x.strategy)) : [];
+    const combos = modes.length ? `<div class="combos"><h3>建議首發模式</h3>
+      <div class="chead"><span></span><span>Leads</span><span>Back</span><span>Strategy</span></div>
+      ${modes.map((x, i) => `<div class="crow"><div class="num" aria-label="模式 ${i + 1}">${i + 1}</div>
+        <div class="pair"><div><span class="lbl">Leads</span><div class="pair">${figs(x.leads)}</div></div></div>
+        <div class="pair"><div><span class="lbl">Back</span><div class="pair">${figs(x.back)}</div></div></div>
+        <div class="strategy">${x.strategy ? esc(x.strategy) : `<span class="empty">—</span>`}</div></div>`).join("")}
+    </div>` : "";
+    const anaSec = `<section id="analysis"><h2>隊伍分析</h2>
+      ${team.notes ? `<div class="brief"><b>隊伍簡介</b>\n${esc(team.notes)}</div>` : ""}
+      <div class="quad">
+        <div class="box"><h3>核心輸出戰術</h3>${txt(an.core_offense)}</div>
+        <div class="box"><h3>控速手段</h3>${txt(an.speed_control)}${speedChips}</div>
+        <div class="box"><h3>注意事項</h3>${txt(an.cautions)}</div>
+        <div class="box"><h3>隊伍特性評分</h3>${scoreHtml}</div>
+      </div>
+      ${combos}
+    </section>`;
+
+    $("app").innerHTML = head + `<nav class="sectnav" aria-label="區塊"><a href="#info">隊伍資訊</a><a href="#analysis">隊伍分析</a></nav>` + infoSec + anaSec;
+
+    const copy = $("copy");
+    if (copy) copy.addEventListener("click", async () => {
+      let ok = false;
+      try { await navigator.clipboard.writeText(team.team_code); ok = true; } catch (e) {
+        try { const ta = document.createElement("textarea"); ta.value = team.team_code; document.body.appendChild(ta); ta.select(); ok = document.execCommand("copy"); ta.remove(); } catch (e2) {}
+      }
+      const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
+      t.textContent = ok ? "已複製" + codeLabel : "複製失敗，請手動選取"; document.body.appendChild(t); setTimeout(() => t.remove(), 1600);
+    });
+  })();
+  </script>
+</body>
+</html>

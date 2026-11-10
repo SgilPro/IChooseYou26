@@ -40,27 +40,28 @@
     .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
     .chip { font-size: 12px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
     .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
-    .teams { display: grid; gap: 14px; }
-    .team { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
-    .team-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
-    .team-head h3 { margin: 0; font-size: 17px; }
-    .team-head a { color: var(--accent-2); text-decoration: none; font-size: 13px; }
-    .meta { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 12px; }
-    .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); }
+    /* ===== 隊伍 brief 卡片（主題變數集中在 :root，之後好換）===== */
+    :root { --card-radius: 14px; --thumb-size: 64px; --warn: #ffd37a; }
+    .teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 14px; }
+    .team { position: relative; display: flex; flex-direction: column; gap: 10px; background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 14px 16px; cursor: pointer; transition: border-color .15s, transform .15s; }
+    .team:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .team h3 { margin: 0; font-size: 16px; line-height: 1.4; overflow-wrap: anywhere; }
+    .team h3 a { color: var(--ink); text-decoration: none; }
+    .team h3 a:hover { color: var(--accent-2); }
+    a:focus-visible, button:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+    .meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); font-family: inherit; }
+    button.tag { cursor: pointer; }
+    button.tag:hover { border-color: var(--accent-2); color: var(--ink); }
     .tag.reg { color: var(--accent-2); border-color: rgba(86,208,200,.4); }
-    .tag.rev { color: #ffd37a; border-color: rgba(255,211,122,.35); }
-    .mons { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
-    .mon { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 10px; font-size: 12px; }
-    .mon .top { display: flex; align-items: center; gap: 8px; }
-    .mon img { width: 48px; height: 48px; image-rendering: pixelated; background: rgba(255,255,255,.04); border-radius: 8px; }
-    .mon .nm { font-weight: 700; font-size: 13px; }
-    .mon .en { color: var(--ink-soft); font-size: 11px; }
-    .mon .mega { color: var(--accent); font-weight: 700; font-size: 11px; }
-    .mon dl { margin: 8px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; }
-    .mon dt { color: var(--ink-soft); }
-    .mon dd { margin: 0; }
-    .mon .moves { margin-top: 6px; color: var(--ink); }
-    .notes { font-size: 13px; color: var(--ink-soft); margin-top: 12px; border-top: 1px dashed var(--border); padding-top: 10px; }
+    .tag.game { color: var(--accent); border-color: rgba(139,108,255,.45); }
+    .tag.member { color: var(--warn); border-color: rgba(255,211,122,.4); }
+    .vid { color: var(--accent-2); text-decoration: none; font-size: 12px; font-weight: 600; margin-left: auto; white-space: nowrap; }
+    .vid:hover { text-decoration: underline; }
+    .thumbs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-top: auto; }
+    .thumbs img { width: 100%; aspect-ratio: 1; object-fit: contain; background: rgba(255,255,255,.04); border-radius: 8px; }
+    .thumbs .gap { aspect-ratio: 1; border-radius: 8px; border: 1px dashed var(--border); }
+    .incomplete { font-size: 11px; color: var(--warn); }
     .foot { margin-top: 40px; font-size: 12px; color: var(--ink-soft); }
     .err { background: #3a1f2a; border: 1px solid #7a3a4a; padding: 12px 16px; border-radius: 10px; }
     details.raw { margin-top: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; }
@@ -83,7 +84,8 @@
       .tile .n { font-size: 22px; }
       .toolbar .q { flex-basis: 100%; }
       .toolbar label { flex: 1 1 45%; }
-      .toolbar label select { flex: 1; min-width: 0; max-width: none; }
+      .toolbar label { min-width: 0; }
+      .toolbar label select { flex: 1; min-width: 0; width: 100%; max-width: none; }
       .toolbar .count { flex-basis: 100%; margin-left: 0; }
     }
   </style>
@@ -141,7 +143,7 @@
     <details class="raw" id="raw-species"><summary>species（寶可夢圖鑑類別 · class）<small id="raw-species-n"></small></summary><div class="tbl-wrap"></div></details>
     <details class="raw" id="raw-videos"><summary>videos（影片主表，Champions 對戰影片）<small id="raw-videos-n"></small></summary><div class="tbl-wrap"></div></details>
 
-    <p class="foot">資料來源：<code>data/channels/fiskepokemon/videos.json</code>、<code>teams.json</code>（由 yt-dlp 抓 metadata 與字幕、ffmpeg 抽隊伍介紹段影格、Claude 讀畫面與字幕填表、再以 PokeAPI 名稱對照與 Lv.50 能力值公式機械驗證）。寶可夢圖示來自 PokeAPI sprites。努力值以 Pokémon Champions 的「能力點」顯示（總和 66、單項 32）。</p>
+    <p class="foot">資料來源：<code>data/channels/fiskepokemon/videos.json</code>、<code>teams.json</code>（由 yt-dlp 抓 metadata 與字幕、ffmpeg 抽隊伍介紹段影格、Claude 讀畫面與字幕填表、再以 PokeAPI 名稱對照與 Lv.50 能力值公式機械驗證）。寶可夢圖像來自 PokeAPI sprites 的官方插畫（著作權屬 Nintendo / Creatures / GAME FREAK / The Pokémon Company，本站為非官方粉絲網站）。努力值以 Pokémon Champions 的「能力點」顯示（總和 66、單項 32）。</p>
   </div>
 
   <script>
@@ -168,6 +170,11 @@
       $("status").innerHTML = `<div class="err">${e.message}。資料尚未部署或路徑不對。</div>`;
       $("teams").textContent = "";
       return;
+    }
+    // 寶可夢圖索引（以 name_en 查）；失敗就全部用佔位圖
+    let assetRoot = "", pidx = {};
+    for (const r of ["", "../"]) {
+      try { pidx = await getJSON([r + "assets/pokemon/index.json"]); assetRoot = r; break; } catch (e) {}
     }
     const regById = Object.fromEntries(regs.map((r) => [r.id, r]));
     const tagBySlug = Object.fromEntries(tags.map((t) => [t.slug, t]));
@@ -218,16 +225,12 @@
     $("status").innerHTML = `<p style="font-size:13px;color:var(--ink-soft)">資料時間：${latest ? latest.slice(0, 16).replace("T", " ") + " UTC" : "—"} · 抽取規則版本：${[...new Set(teams.map((t) => t.extracted_by))].join("、")}</p>`;
 
     // ---- 隊伍 ----
-    const sprite = (m) => {
-      const dex = m.species?.dex_no;
-      return dex ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${dex}.png` : "";
-    };
     const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
     const fv = (f) => esc(f?.value ?? "—");
-    const evs = (m) => {
-      const e = m.evs; if (!e) return "—";
-      const keys = [["hp", "HP"], ["atk", "攻"], ["def", "防"], ["spa", "特攻"], ["spd", "特防"], ["spe", "速"]];
-      return keys.filter(([k]) => e[k]).map(([k, l]) => `${l}${e[k]}`).join(" / ") || "—";
+    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#6b6f9c" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
+    const thumb = (m) => {
+      const e = pidx[m.species?.name_en];
+      return e && e.thumb ? `${assetRoot}assets/pokemon/${e.thumb}` : PH;
     };
     const allTeams = [...teams].sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || ""));
     const shells = allTeams.filter((t) => t.review_status === "needs-member-access");
@@ -302,32 +305,31 @@
       const list = filtered();
       $("f-count").textContent = `${list.length} 隊符合`;
       writeHash();
+      try { sessionStorage.setItem("teams-list-hash", location.hash); } catch (e) {}
       $("teams").innerHTML = list.map((t) => {
         const reg = regById[t.regulation_set_id];
-        return `<article class="team">
-          <div class="team-head">
-            <h3>${esc(t.name)}</h3>
-            <a href="${esc(t.video_url)}" target="_blank" rel="noopener">▶ 影片 · ${esc(t.video_published_at || "")}</a>
-          </div>
+        const ms = (t.members || []).slice().sort((a, b) => (a.slot || 0) - (b.slot || 0));
+        const gl = t.game === "sv" ? "朱紫" : t.game === "champions" ? "Champions" : "";
+        return `<article class="team" data-id="${esc(t.id)}">
+          <h3><a href="team.html?id=${encodeURIComponent(t.id)}">${esc(t.name)}</a></h3>
           <div class="meta">
-            ${reg ? `<span class="tag reg">${esc(reg.game_name_zh)} · ${esc(reg.code)}</span>` : ""}
-            ${(t.tags || []).map((s) => `<span class="tag">${esc(tagLabel(s))}</span>`).join("")}
-            <span class="tag rev">${t.review_status === "reviewed" ? "已獨立複核" : "機械驗證通過"} · 信心 ${Math.round((t.confidence || 0) * 100)}%</span>
+            ${reg ? `<span class="tag reg">${esc(reg.code)}</span>` : ""}
+            ${gl ? `<span class="tag game">${gl}</span>` : ""}
+            ${(t.tags || []).slice(0, 3).map((s) => `<button type="button" class="tag" data-tag="${esc(s)}" title="只看「${esc(tagLabel(s))}」">${esc(tagLabel(s))}</button>`).join("")}
+            ${t.video_url ? `<a class="vid" href="${esc(t.video_url)}" target="_blank" rel="noopener" aria-label="開啟影片（新分頁）">▶ 影片</a>` : ""}${t.is_members_only ? `<span class="tag member">會員</span>` : ""}
           </div>
-          <div class="mons">
-            ${(t.members || []).map((m) => `<div class="mon">
-              <div class="top">
-                ${sprite(m) ? `<img loading="lazy" src="${sprite(m)}" alt="" />` : ""}
-                <div><div class="nm">${esc(m.species?.name_zh)}</div><div class="en">${esc(m.species?.name_en || "")}</div>${m.mega ? `<div class="mega">Mega${m.species?.form && m.species.form !== "Mega" ? " " + esc(m.species.form.replace("Mega-", "")) : ""}</div>` : ""}</div>
-              </div>
-              <dl><dt>特性</dt><dd>${fv(m.ability)}</dd><dt>道具</dt><dd>${fv(m.item)}</dd><dt>性格</dt><dd>${fv(m.nature)}</dd><dt>能力點</dt><dd>${evs(m)}</dd></dl>
-              <div class="moves">${(m.moves || []).map((mv) => esc(mv?.value)).filter(Boolean).join(" · ")}</div>
-            </div>`).join("")}
-          </div>
-          ${t.notes ? `<div class="notes">${esc(t.notes)}</div>` : ""}
+          <div class="thumbs">${ms.slice(0, 6).map((m) => `<img loading="lazy" src="${thumb(m)}" alt="${esc(m.species?.name_zh || m.species?.name_en || "")}" title="${esc(m.species?.name_zh || "")}" onerror="this.onerror=null;this.src='${PH}'" />`).join("")}${Array.from({ length: Math.max(0, 6 - ms.length) }, () => `<span class="gap"></span>`).join("")}</div>
+          ${ms.length < 6 ? `<div class="incomplete">資料不完整（${ms.length} / 6）</div>` : ""}
         </article>`;
       }).join("") || "<p>沒有符合的隊伍。</p>";
     }
+    $("teams").addEventListener("click", (e) => {
+      const tg = e.target.closest("button[data-tag]");
+      if (tg) { e.stopPropagation(); state.tag = tg.dataset.tag; syncControls(); renderTeams(); return; }
+      if (e.target.closest("a")) return;
+      const card = e.target.closest(".team");
+      if (card) { try { sessionStorage.setItem("teams-list-scroll", String(window.scrollY)); } catch (er) {} location.href = "team.html?id=" + encodeURIComponent(card.dataset.id); }
+    });
     $("filters").innerHTML = `<span class="chip on" data-tag="">全部 ${sortedTeams.length}</span>` +
       allTags.map((s) => `<span class="chip" data-tag="${esc(s)}">${esc(tagLabel(s))}</span>`).join("");
     $("filters").addEventListener("click", (e) => {
@@ -345,6 +347,7 @@
     $("f-clear").addEventListener("click", () => { Object.assign(state, DEFAULTS); syncControls(); renderTeams(); });
     window.addEventListener("hashchange", () => { Object.assign(state, DEFAULTS); readHash(); syncControls(); renderTeams(); });
     readHash(); syncControls(); renderTeams();
+    try { const y = sessionStorage.getItem("teams-list-scroll"); if (y) { sessionStorage.removeItem("teams-list-scroll"); setTimeout(() => window.scrollTo(0, +y), 0); } } catch (e) {}
 
     // ---- 原始表（raw，可摺疊）----
     function table(id, cols, rows) {
@@ -374,8 +377,7 @@
       spMap.set(key, rec);
     }
     const speciesRows = [...spMap.values()].sort((a, b) => b.appearances - a.appearances || (a.dex_no || 0) - (b.dex_no || 0)).map((r) => ({
-      dex_no: r.dex_no, name_zh: r.name_zh, name_en: r.name_en_base, forms_seen: [...r.forms_seen], appearances: r.appearances, as_mega: r.as_mega, teams: r.teams.size, abilities_seen: [...r.abilities_seen], items_seen: [...r.items_seen],
-      sprite: r.dex_no ? `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${r.dex_no}.png` : "",
+      dex_no: r.dex_no, name_zh: r.name_zh, name_en: r.name_en_base, forms_seen: [...r.forms_seen], appearances: r.appearances, as_mega: r.as_mega, teams: r.teams.size, abilities_seen: [...r.abilities_seen], items_seen: [...r.items_seen]
     }));
     table("raw-species", ["dex_no", "name_zh", "name_en", "forms_seen", "appearances", "as_mega", "teams", "abilities_seen", "items_seen"], speciesRows);
     // videos（只列 Champions 對戰影片，避免 679 列）
