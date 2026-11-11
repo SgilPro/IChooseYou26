@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System · I Choose You</title>
+<meta name="description" content="I Choose You 站台目前實際使用的 token 與元件整理（v0.1 WIP）。">
+<link rel="stylesheet" href="tokens.css">
+<style>
+/* ===== 文件外框（前綴 d-）：只用 tokens.css 的變數，與站台同一套外觀 ===== */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 system-ui,-apple-system,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--primary-text);text-underline-offset:3px}
+code,.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+code{background:var(--sunken);padding:1px 6px;border-radius:5px;font-size:.88em;overflow-wrap:anywhere}
+.topbar{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 22px;background:rgba(247,248,249,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.d-brand{display:flex;align-items:center;gap:10px;min-width:0}
+.d-brand b{font-size:16px;white-space:nowrap}
+.d-brand span{font-size:12px;color:var(--ink-soft);background:var(--sunken);padding:2px 10px;border-radius:999px;white-space:nowrap}
+.head-actions{display:flex;align-items:center;gap:10px}
+.try-btn{background:var(--soft-bg);color:var(--soft-text);border:1px solid var(--soft-border);text-decoration:none;font-size:14px;font-weight:600;padding:7px 13px;border-radius:9px;white-space:nowrap}
+.try-btn:hover{background:var(--soft-bg-hover);border-color:var(--primary-400)}
+.d-layout{display:flex;max-width:1240px;margin:0 auto}
+.d-side{width:248px;flex:0 0 248px;position:sticky;top:57px;height:calc(100vh - 57px);overflow-y:auto;padding:24px 14px 32px 22px}
+.d-side h6{margin:18px 0 6px 10px;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase}
+.d-side h6:first-child{margin-top:0}
+.d-side a{display:block;padding:7px 12px;border-radius:9px;color:var(--ink-soft);text-decoration:none;font-size:14px}
+.d-side a:hover{background:var(--bg-soft);color:var(--ink)}
+.d-side a.on{background:var(--panel);color:var(--ink);font-weight:600;box-shadow:inset 0 0 0 1px var(--border),inset 3px 0 0 var(--primary)}
+.d-toc-btn{display:none}
+.d-main{flex:1;min-width:0;padding:32px clamp(16px,4vw,56px) 90px}
+.d-main>*{max-width:900px}
+.d-hero h1{font-size:clamp(26px,5vw,38px);line-height:1.25;margin:0 0 10px}
+.d-hero p{color:var(--ink-soft);font-size:17px;margin:0 0 12px}
+.d-meta{font:12px/1.8 ui-monospace,Menlo,monospace;color:var(--ink-soft)}
+.d-meta b{color:var(--ink);font-weight:600;margin-right:12px}
+section.d-sec{padding-top:52px;scroll-margin-top:57px}
+.d-kicker{font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.12em;color:var(--primary-text);text-transform:uppercase;margin-bottom:8px}
+.d-sec h2{font-size:28px;line-height:1.3;margin:0 0 8px}
+.d-sec h3{font-size:18px;margin:32px 0 10px}
+.d-sec>p.d-lede{color:var(--ink-soft);margin:0 0 18px}
+.d-note{border:1px solid;border-radius:12px;padding:12px 16px;margin:16px 0;font-size:14px}
+.d-note b{font-weight:700}
+.d-note.info{background:#E3F1F6;border-color:#8BC1D6;color:#0A4961}
+.d-note.bad{background:#F9E4E2;border-color:#E3A29E;color:#7C1913}
+.d-note.warn{background:#FBEFD9;border-color:#E2BA7C;color:#5E3700}
+.d-note.ok{background:#E4F3E8;border-color:#93C9A2;color:#134F28}
+.d-note ul{margin:6px 0 0;padding-left:20px}
+.d-cards{display:grid;gap:10px}
+a.d-card{display:flex;gap:14px;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink);transition:border-color .15s}
+a.d-card:hover{border-color:var(--primary)}
+.d-ico{flex:none;width:36px;height:36px;border-radius:9px;background:var(--soft-bg);color:var(--soft-text);display:grid;place-items:center;font:700 12px ui-monospace,Menlo,monospace}
+.d-card b{display:block;font-size:15px}
+.d-card span.t{display:block;font-size:13px;color:var(--ink-soft);line-height:1.55}
+.d-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,180px),1fr));gap:10px}
+.sw{border-radius:12px;padding:12px 12px 10px;border:1px solid var(--border);min-height:104px;display:flex;flex-direction:column;justify-content:space-between;gap:14px;font-size:12px;min-width:0}
+.sw .n{font:600 12px ui-monospace,Menlo,monospace;overflow-wrap:anywhere}
+.sw .h{font:11px ui-monospace,Menlo,monospace;opacity:.85}
+.sw .r{display:flex;justify-content:space-between;align-items:center;font:12px ui-monospace,Menlo,monospace;gap:6px}
+.bdg{font:700 10px/1 ui-monospace,Menlo,monospace;padding:3px 6px;border-radius:5px;background:rgba(255,255,255,.88);color:#1B1F24;white-space:nowrap}
+.bdg.AAA{background:#1A7339;color:#fff}.bdg.AA{background:#fff;color:#134F28;border:1px solid #1A7339}
+.bdg.AALg{background:#FBEFD9;color:#5E3700;border:1px solid #8F5300}.bdg.Fail{background:#F9E4E2;color:#7C1913;border:1px solid #B3261E}
+.bdg.na{background:transparent;border:1px dashed currentColor;color:inherit}
+.tw{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--border);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+th{background:var(--bg-soft);color:var(--ink-soft);font-weight:600;white-space:nowrap}
+.pair{display:inline-block;padding:2px 10px;border-radius:6px;font-weight:600;white-space:nowrap}
+.d-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px;margin:12px 0}
+.d-box>h4{margin:0 0 10px;font-size:14px}
+.d-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.d-cap{font-size:12px;color:var(--ink-soft);margin-top:8px}
+.d-spec{display:grid;gap:8px}
+.d-bar{display:flex;align-items:center;gap:12px;font-size:12px;font-family:ui-monospace,Menlo,monospace}
+.d-bar i{display:block;height:14px;background:var(--primary-400);border-radius:3px}
+.d-bar span{min-width:58px}
+.d-type{display:flex;align-items:baseline;gap:16px;padding:10px 0;border-bottom:1px solid var(--border)}
+.d-type small{flex:none;width:96px;font:11px ui-monospace,Menlo,monospace;color:var(--ink-soft)}
+.d-prev{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
+.d-prev a{display:block;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px;text-decoration:none;color:var(--ink)}
+.d-prev a:hover{border-color:var(--primary)}
+.d-prev .sa{display:flex;height:44px;border-radius:8px;overflow:hidden;margin-bottom:12px;border:1px solid var(--border)}
+.d-prev .sa i{flex:1}
+.d-prev b{display:block;font-size:16px}
+.d-prev p{margin:4px 0 8px;font-size:13px;color:var(--ink-soft)}
+.d-st{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--sunken);color:var(--ink-soft)}
+.d-st.cur{background:var(--soft-bg);color:var(--soft-text)}
+.fb{background:var(--sunken)}
+@media(max-width:900px){
+  .d-layout{display:block}
+  .d-toc-btn{display:flex;align-items:center;justify-content:space-between;width:calc(100% - 32px);margin:12px 16px 0;font:inherit;font-weight:600;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink);cursor:pointer}
+  .d-side{position:static;width:auto;height:auto;flex:none;display:none;margin:8px 16px 0;padding:10px;background:var(--panel);border:1px solid var(--border);border-radius:12px}
+  .d-side.open{display:block}
+  .topbar{padding:12px 16px}
+  .d-main{padding:20px 16px 70px}
+}
+@media(max-width:720px){.d-brand span{display:none}}
+@media(max-width:560px){.d-type{flex-direction:column;gap:2px}}
+
+/* ===== 活樣本：以下 .s-* 為站上實際 CSS 的複本（來源見各區說明），用同一組 token ===== */
+.stage{background:var(--bg);border:1px dashed var(--line-strong);border-radius:12px;padding:16px;margin:12px 0;overflow-x:auto}
+.s-frame{border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg);max-width:100%}
+.s-top{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;background:rgba(247,248,249,.9);border-bottom:1px solid var(--border);gap:8px}
+.s-top.m{padding:12px 14px}
+.s-brand{display:flex;align-items:center;gap:12px}
+.s-brand b{font-size:16px}.s-brand small{display:block;font-size:12px;color:var(--ink-soft);line-height:1.4}
+.s-logo{width:34px;height:34px;border-radius:50%;background:linear-gradient(#7B6FF3 48%,#1B1F24 48% 54%,#F7F8F9 54%);border:2px solid #1B1F24;flex:none}
+.s-actions{display:flex;gap:10px;align-items:center}
+.s-try{background:var(--soft-bg);color:var(--soft-text);border:1px solid var(--soft-border);font:600 14px/1.7 inherit;padding:7px 13px;border-radius:9px;white-space:nowrap;display:inline-block}
+.s-try.hv{background:var(--soft-bg-hover);border-color:var(--primary-400)}
+.s-menu{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink);padding:0}
+.s-drawer{display:flex;flex-direction:column;gap:10px;width:min(300px,100%);background:var(--panel);border-left:1px solid var(--border);padding:16px}
+.s-dl{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:600;padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink)}
+.s-tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--bg-soft);border:1px solid var(--border);color:var(--ink-soft);display:inline-block;font-family:inherit;line-height:1.6}
+.s-tag.member{color:var(--warn);border-color:rgba(143,83,0,.5)}
+.s-tag.reg,.s-tag.game{box-sizing:border-box;height:24px;display:inline-flex;align-items:center;justify-content:center;padding:0 9px;border-radius:8px;border:1px dotted;font-size:12px;font-weight:700;letter-spacing:.02em;line-height:1;color:var(--primary-text)}
+.s-tag.reg{background:var(--soft-bg);color:var(--soft-text);border-color:var(--primary-500)}
+.s-tag.game{background:var(--sunken);border-color:var(--line-strong)}
+.s-chip{font:inherit;font-size:12px;line-height:18px;padding:4px 10px;white-space:nowrap;border-radius:999px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink-soft);cursor:pointer}
+.s-chip:hover{border-color:var(--primary-500)}
+.s-chip.on{background:var(--soft-bg-hover);color:var(--soft-text);border-color:var(--primary-500);font-weight:600}
+.s-chip.fo{outline:2px solid var(--primary-text);outline-offset:2px}
+.s-vid{position:relative;display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;border-radius:50%;color:var(--primary-text);background:var(--bg-soft);border:2px solid var(--primary-text);transition:transform .15s,background .15s,color .15s;cursor:pointer;padding:0;font:inherit}
+.s-vid:hover,.s-vid.hv{transform:scale(1.18);background:var(--primary);color:var(--on-primary)}
+.s-vid:hover{animation:dsvidpulse 1s ease-out infinite}
+.s-vid.hv{box-shadow:0 0 0 5px rgba(79,61,181,.25)}
+.s-vid .crown{position:absolute;top:-7px;right:-7px;width:15px;height:15px;padding:2px;box-sizing:border-box;border-radius:50%;background:var(--warn);color:#fff;border:1px solid var(--panel)}
+@keyframes dsvidpulse{0%{box-shadow:0 0 0 0 rgba(79,61,181,.45)}100%{box-shadow:0 0 0 9px rgba(79,61,181,0)}}
+.s-team{display:flex;flex-direction:column;gap:10px;background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px 16px;max-width:360px;transition:border-color .15s,transform .15s;cursor:pointer}
+.s-team:hover,.s-team.hv{border-color:var(--accent);transform:translateY(-2px)}
+.s-team h5{margin:0;font-size:16px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
+.s-row1{display:flex;align-items:center;gap:8px;min-width:0}
+.s-meta{display:flex;gap:6px;align-items:center;overflow:hidden}
+.s-thumbs{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
+.s-thumbs i{aspect-ratio:1;border-radius:8px;background:var(--tint)}
+.s-thumbs i.gap{background:none;border:1px dashed var(--border)}
+.s-mon{position:relative;overflow:hidden;background:var(--bg-soft);border:1px solid var(--border);border-radius:14px;padding:12px 14px 14px;font-size:13px;max-width:380px;line-height:1.7}
+.s-slot{position:absolute;right:10px;bottom:-8px;font-size:76px;font-weight:800;font-style:italic;line-height:1;color:var(--tint);pointer-events:none}
+.s-mh{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.s-nm{font-size:17px;font-weight:700}.s-g{font-weight:800;font-size:16px;color:var(--male)}
+.s-badge{font-size:11px;font-weight:700;padding:1px 8px;border-radius:999px;background:var(--soft-bg-hover);color:var(--soft-text);border:1px solid var(--primary-400)}
+.s-body{display:flex;gap:12px;align-items:center;margin-top:8px}
+.s-art{flex:none;width:96px;height:96px;border-radius:12px;background:radial-gradient(circle at 50% 60%,rgba(27,31,36,.08),transparent 70%);display:grid;place-items:center;font-size:11px;color:var(--ink-soft)}
+.s-info{display:grid;gap:4px;font-size:13px;min-width:0}.s-info .k{color:var(--ink-soft);font-size:11px;margin-right:6px}
+.s-ticon{width:20px;height:20px;border-radius:50%;display:inline-block;vertical-align:middle}
+.s-moves{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:6px 10px}
+.s-moves li{display:flex;align-items:center;gap:6px;background:var(--tint);border-radius:8px;padding:4px 8px;line-height:1.3}
+.s-evs{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:3px 14px}
+.s-ev{display:grid;grid-template-columns:3.8em 1fr 2em;align-items:center;gap:6px;font-size:11px;color:var(--ink-soft)}
+.s-ev .bar{height:6px;border-radius:999px;background:var(--tint-strong);overflow:hidden}.s-ev .bar i{display:block;height:100%;background:var(--accent-2)}
+.s-ev .lbl{display:inline-flex;align-items:center;gap:2px;white-space:nowrap}.s-ev .n{text-align:right;color:var(--ink);font-variant-numeric:tabular-nums}
+.s-trend{width:12px;height:12px;flex:none}.s-trend.up{color:var(--success)}.s-trend.down{color:var(--danger)}
+.s-rc{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;line-height:1;padding:4px 9px 4px 6px;border-radius:8px;border:2px solid}
+.s-rc svg{width:14px;height:14px;flex:none}
+.s-rc.g-attacker{background:#fff2b3;border-color:#d99a00;color:#5a4300}
+.s-rc.g-tactic{background:#cfe4ff;border-color:#3b82f6;color:#12366b}
+.s-rc.g-support{background:#cdf3d8;border-color:#2fa35b;color:#0f4a28}
+.s-rc.inf{border-style:dashed}
+.s-tip{display:inline-block;position:relative;padding:7px 11px;border-radius:8px;background:#1B1F24;color:#fff;font:600 12.5px/1.45 system-ui,-apple-system,"Noto Sans TC",sans-serif;letter-spacing:.01em;box-shadow:0 6px 18px rgba(27,31,36,.28);margin-bottom:10px}
+.s-tip::after{content:"";position:absolute;left:50%;bottom:-4px;width:10px;height:10px;background:inherit;transform:translateX(-50%) rotate(45deg)}
+.s-tb{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:10px 12px}
+.s-tb input,.s-tb select,.s-tb button{font:inherit;font-size:13px;color:var(--ink);background:var(--bg-soft);border:1px solid var(--border);border-radius:8px;padding:7px 10px}
+.s-tb input.fo{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--primary-glow)}
+.s-tb .q{flex:1 1 200px;min-width:0}
+.s-tb .clear{background:transparent;color:var(--ink-soft);cursor:pointer}.s-tb .clear:hover{color:var(--ink);border-color:var(--accent-2)}
+.s-fw{flex:1 1 100%;display:flex;align-items:flex-start;gap:8px}
+.s-fl{flex:1;min-width:0;display:flex;gap:8px;flex-wrap:wrap}.s-fl.col{max-height:28px;overflow:hidden}
+.s-tb .more{flex:none;width:28px;height:28px;padding:0;font-size:11px;line-height:1;cursor:pointer;color:var(--ink-soft)}
+.s-tb .more[aria-expanded=true]{color:var(--accent-2)}
+.s-rb{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-soft)}
+.s-rb button{font:inherit;padding:3px 12px;border-radius:999px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink);cursor:pointer}
+.s-rb button[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+.s-pill{font-size:14px;padding:6px 16px;border-radius:999px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink-soft)}
+.s-code{font:inherit;font-size:13px;color:var(--ink);background:var(--bg-soft);border:1px dashed var(--accent-2);border-radius:8px;padding:3px 10px;cursor:pointer}
+.s-nav{background:none;border:1px solid var(--border);color:var(--ink);font-size:18px;border-radius:8px;padding:4px 10px;cursor:pointer}
+.pulse-demo{width:64px;height:64px;border-radius:50%;background:var(--primary);display:grid;place-items:center;color:#fff;font-size:11px;animation:dsvidpulse 1s ease-out infinite}
+.sl-demo{width:140px;height:40px;border-radius:10px;background:var(--panel);border:1px solid var(--border);display:grid;place-items:center;font-size:12px;transition:transform .22s}
+.sl-demo.out{transform:translateX(30px)}
+@media(prefers-reduced-motion:reduce){.s-vid:hover,.pulse-demo{animation:none}.s-team,.s-vid{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="d-brand"><b>I Choose You</b><span>Design System</span></div>
+  <div class="head-actions">
+    <a class="try-btn" href="teams.html" title="回隊伍列表">← 回隊伍列表</a>
+    <a class="try-btn" href="design-system-appendix.html" title="調查與候選方向">📎 附錄</a>
+    <a class="try-btn" href="./" title="回 Live Docs">📖 回文件</a>
+  </div>
+</header>
+
+<button class="d-toc-btn" id="tocBtn" type="button" aria-expanded="false" aria-controls="side">本頁目錄 <span aria-hidden="true">▾</span></button>
+<div class="d-layout">
+<nav class="d-side" id="side" aria-label="Design System 目錄">
+  <h6>Overview</h6>
+  <a href="#intro">Introduction</a><a href="#audit">Audit &amp; Research</a>
+  <h6>Foundations</h6>
+  <a href="#color">Color</a><a href="#typography">Typography</a><a href="#spacing">Spacing</a><a href="#radii">Radii</a><a href="#shadow">Shadow</a><a href="#motion">Motion</a>
+  <h6>Components</h6>
+  <a href="#inventory">Inventory</a><a href="#button">Button</a>
+  <h6>Preview</h6>
+  <a href="#preview">Style A/B/C</a>
+  <h6>其他</h6>
+  <a href="teams.html">← 回隊伍列表</a><a href="design-system-appendix.html">附錄：調查與候選方向</a>
+</nav>
+
+<main class="d-main">
+<div class="d-hero" id="intro">
+  <h1>I Choose You Design System</h1>
+  <p>寶可夢雙打學習工具站台目前實際使用的視覺 token 與元件。這份文件是 UI 調整時的單一對照表，不是新設計。</p>
+  <div class="d-meta"><b>version v0.1 (WIP)</b><b>last update 2026-11-11</b><b>source docs-site/tokens.css</b></div>
+</div>
+
+<section class="d-sec" style="padding-top:36px">
+  <div class="d-kicker">Overview</div>
+  <h2>這份文件是什麼</h2>
+  <p class="d-lede">站台是純靜態頁（GitHub Pages），各頁 CSS 寫在頁面內，共同的色彩由 <code>tokens.css</code> 提供。這裡把各頁實際用到的值整理在一處，方便對照、找出不一致，也方便日後換風格。</p>
+  <div class="d-note ok"><b>目前狀態：</b>全站已採用淺色（水泥灰＋深靛）主題，token 單一來源為 <code>docs-site/tokens.css</code>（舊變數名保留別名）。附錄中的三個候選（v1 深色玻璃、水泥灰、再生紙）是當初的調查，其中水泥灰方向已被採用，其餘保留作參考。本頁的色票由 <code>tokens.css</code> 即時讀取，對比值依 WCAG 2.x 公式當場計算，不會與實站脫節。</div>
+  <div class="d-note warn"><b>已知落差：</b>元件的 CSS 目前散在各頁（teams／team／roles／matches），尚無共用元件檔；角色標籤三組色與 tooltip 底色是寫死的十六進位值，不在 token 內。下方「待修問題」列出整理後的清單。</div>
+</section>
+
+<section class="d-sec" id="audit">
+  <div class="d-kicker">Process</div>
+  <h2>Audit &amp; Research</h2>
+  <p class="d-lede">調查與候選方向的完整內容放在附錄頁，以下每張卡片連到附錄對應分頁。</p>
+  <div class="d-cards">
+    <a class="d-card" href="design-system-appendix.html#research"><div class="d-ico">11</div><div><b>候選方向研究</b><span class="t">11 個公開設計系統（Radix、Primer 等）的 token、授權與同一份假資料的活樣本，含前三名建議。</span></div></a>
+    <a class="d-card" href="design-system-appendix.html#v1"><div class="d-ico">V1</div><div><b>v1 深色玻璃</b><span class="t">最早的預覽：深色／淺色自動切換，液態玻璃質感。</span></div></a>
+    <a class="d-card" href="design-system-appendix.html#concrete"><div class="d-ico">GR</div><div><b>水泥灰</b><span class="t">底色 #E4E7EA。此方向已被站台採用，最終主色決定為深靛 #4F3DB5。</span></div></a>
+    <a class="d-card" href="design-system-appendix.html#paper"><div class="d-ico">PP</div><div><b>再生紙</b><span class="t">底色 #F0EBE0、主色靛藍 #2D45B8，個性最強；保留作參考。</span></div></a>
+    <a class="d-card" href="design-system-appendix.html#questions"><div class="d-ico">?</div><div><b>待決問題</b><span class="t">屬性標籤是否改外框＋淡底、石板風只用於分析區、警示色是否偏黃。</span></div></a>
+    <a class="d-card" href="primary-color.html"><div class="d-ico">PC</div><div><b>主色決策頁</b><span class="t">深靛 #4F3DB5 的對比與色盲辨識即時計算。</span></div></a>
+  </div>
+  <div class="d-note bad"><b>待修問題（本頁盤點）</b><ul>
+    <li>兩組字型堆疊並存：<code>styles.css</code> 用 Helvetica Neue／PingFang TC，roles／matches 用 system-ui／Noto Sans TC。</li>
+    <li>角色標籤六個色碼與 tooltip 底 <code>#1B1F24</code> 寫死在頁面內，未進 token。</li>
+    <li>圓角混用 5／6／8／9／10／12／14，間距無正式階梯。</li>
+    <li>prefers-reduced-motion 只涵蓋播放鈕脈動、tooltip、抽屜；隊伍卡 hover 位移與側欄滑動未涵蓋。</li>
+    <li><code>--sh-1</code>、<code>--sh-2</code>、<code>--focus-ring</code> 已定義但目前沒有頁面使用。</li>
+  </ul></div>
+</section>
+
+<!-- ============ FOUNDATIONS ============ -->
+<section class="d-sec" id="color">
+  <div class="d-kicker">Foundations</div>
+  <h2>Color</h2>
+  <p class="d-lede">水泥灰中性底＋深靛主色（OKLCH 色相 283°）。對比值為「該色對其標示底色」的 WCAG 比值，徽章：AAA ≥ 7、AA ≥ 4.5、AA Lg ≥ 3（僅限大字或非文字）、其餘 Fail。</p>
+  <div class="d-note warn"><b>誤用警示：</b>主色 <code>--primary-400</code> 以下（含 400）不可當文字或白字底；<code>--primary-500</code> 白字僅 AA Lg。文字請用 <code>--primary-text</code>（#4F3DB5）或 700 以上。</div>
+  <div id="colorGroups"></div>
+
+  <h3>重要組合（前景 / 背景）</h3>
+  <div class="tw"><table><thead><tr><th>組合</th><th>樣本</th><th>前景</th><th>背景</th><th>比值</th><th>等級</th></tr></thead><tbody id="pairs"></tbody></table></div>
+  <p class="d-cap">「非文字」類（邊框、角色標籤外框）以 3:1 為門檻，等級欄以此判斷。</p>
+
+  <h3>角色標籤三組色（寫死於 team.html／roles.html）</h3>
+  <div class="d-row" id="roleSw"></div>
+  <h3>屬性色（assets/types/colors.json）</h3>
+  <p class="d-lede" style="margin-bottom:10px">來自 52poke 屬性標籤底色（2026-11-09 取得），目前僅作資料；網站尚未用它做大面積底色。小圖示在 <code>assets/types/icons/symbol/&lt;id&gt;.png</code>，道具圖示在 <code>assets/items/</code>（皆為 PokeAPI sprites，屬任天堂等公司，公開前需加非官方聲明，見 assets/types/README.md）。下列對比為白字於其上，多數不通過，所以不能直接當實底配白字。</p>
+  <div class="d-grid" id="typeSw"></div>
+</section>
+
+<section class="d-sec" id="typography">
+  <div class="d-kicker">Foundations</div>
+  <h2>Typography</h2>
+  <p class="d-lede">不引入網路字型，一律系統字型。</p>
+  <div class="d-box"><h4>字型堆疊</h4>
+    <p style="margin:0 0 6px"><b>A. 文件頁（styles.css）</b><br><code>"Helvetica Neue", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif</code>，行高 1.75</p>
+    <p style="margin:0 0 6px"><b>B. 隊伍角色／比賽（roles、matches）</b><br><code>system-ui, -apple-system, "Noto Sans TC", sans-serif</code>，15px／1.65</p>
+    <p style="margin:0 0 6px"><b>C. tooltip</b><br><code>system-ui, -apple-system, "Noto Sans TC", sans-serif</code>，600 12.5px／1.45</p>
+    <p style="margin:0"><b>D. 等寬</b><br><code>ui-monospace, Menlo, monospace</code>（隊伍代碼、程式碼）</p></div>
+  <div class="d-box"><h4>字級（實站出現的值）</h4>
+    <div class="d-type"><small>28 · h1 列表</small><span style="font-size:28px;font-weight:700">隊伍資料庫</span></div>
+    <div class="d-type"><small>26 · h1 詳細</small><span style="font-size:26px;font-weight:700">隊伍名稱</span></div>
+    <div class="d-type"><small>20–22 · h2</small><span style="font-size:20px;font-weight:700">隊伍分析</span></div>
+    <div class="d-type"><small>17 · 寶可夢名</small><span style="font-size:17px;font-weight:700">長尾怪</span></div>
+    <div class="d-type"><small>15–16 · 內文／卡片標題</small><span style="font-size:15px">內文 15px，卡片標題 16px。</span></div>
+    <div class="d-type"><small>13–14 · 次要</small><span style="font-size:13px;color:var(--ink-soft)">說明與表單 13px，按鈕 14px。</span></div>
+    <div class="d-type"><small>11–12 · 標籤／註記</small><span style="font-size:12px;color:var(--ink-soft)">標籤、能力點、註記 11–12px。</span></div>
+    <p class="d-cap">字重：400 內文、600 按鈕與次標、700 標題與標籤、800 性別符號與卡片浮水印。</p></div>
+</section>
+
+<section class="d-sec" id="spacing">
+  <div class="d-kicker">Foundations</div>
+  <h2>Spacing</h2>
+  <p class="d-lede">沒有正式的階梯，實站常用的值如下（px）。版面寬：docs 820、roles／matches 980、teams／team 1100、docs 外框 1180。</p>
+  <div class="d-box d-spec" id="spaceBars"></div>
+  <div class="d-box"><h4>版面變數（team.html／teams.html）</h4>
+    <code>--gap: 14px</code> <code>--card-min: 320px</code> <code>--card-radius: 14px</code> <code>--art-size: 150px</code> <code>--icon-size: 20px</code> <code>--thumb-size: 64px</code>
+    <p class="d-cap">頁面左右邊距 16–22px；卡片內距 12–16px。手機寬度維持 16px 邊距且無水平捲動。</p></div>
+</section>
+
+<section class="d-sec" id="radii">
+  <div class="d-kicker">Foundations</div>
+  <h2>Radii</h2>
+  <div class="d-box"><div class="d-row" id="radiiRow"></div>
+  <p class="d-cap">卡片／面板 12–14、按鈕與輸入 8–10、小標籤 5–8、膠囊（chip、tag）與圓形（播放鈕、序號）999／50%。</p></div>
+</section>
+
+<section class="d-sec" id="shadow">
+  <div class="d-kicker">Foundations</div>
+  <h2>Shadow</h2>
+  <p class="d-lede">站台以邊框分層為主，陰影很少。</p>
+  <div class="d-grid">
+    <div class="d-box" style="margin:0"><div style="height:48px;border-radius:10px;background:var(--panel);box-shadow:var(--sh-1)"></div><p class="d-cap"><code>--sh-1</code><br>已定義，尚未被頁面使用。</p></div>
+    <div class="d-box" style="margin:0"><div style="height:48px;border-radius:10px;background:var(--panel);box-shadow:var(--sh-2)"></div><p class="d-cap"><code>--sh-2</code><br>已定義，尚未被頁面使用。</p></div>
+    <div class="d-box" style="margin:0"><div style="height:48px;border-radius:10px;background:#1B1F24;box-shadow:0 6px 18px rgba(27,31,36,.28)"></div><p class="d-cap">tooltip：<code>0 6px 18px rgba(27,31,36,.28)</code></p></div>
+    <div class="d-box" style="margin:0"><div style="height:48px;border-radius:8px;border:1px solid var(--accent);background:var(--bg-soft);box-shadow:0 0 0 3px var(--primary-glow)"></div><p class="d-cap">輸入框 focus：<code>0 0 0 3px var(--primary-glow)</code></p></div>
+    <div class="d-box" style="margin:0"><div style="height:48px;border-radius:10px;background:var(--bg);box-shadow:var(--focus-ring)"></div><p class="d-cap"><code>--focus-ring</code><br>2px 底色＋2px 主色；目前全站用 <code>outline: 2px solid</code>。</p></div>
+  </div>
+</section>
+
+<section class="d-sec" id="motion">
+  <div class="d-kicker">Foundations</div>
+  <h2>Motion</h2>
+  <p class="d-lede">動畫都很短，目的只是回饋，不做裝飾。</p>
+  <div class="tw"><table><thead><tr><th>用途</th><th>時間</th><th>內容</th><th>reduced-motion</th></tr></thead><tbody>
+    <tr><td>播放鈕脈動</td><td>1s ease-out 循環</td><td><code>vidpulse</code>：box-shadow 光圈 0→9px，hover／focus 時並放大 1.18</td><td>關閉脈動</td></tr>
+    <tr><td>tooltip 淡入</td><td>.08s</td><td>opacity 與 translateY(2px→0)</td><td>關閉過渡</td></tr>
+    <tr><td>手機抽屜</td><td>.22s／遮罩 .2s</td><td>translateX(100%→0)、遮罩 opacity</td><td>關閉過渡</td></tr>
+    <tr><td>隊伍卡 hover</td><td>.15s</td><td>border-color、translateY(-2px)</td><td>未涵蓋（待補）</td></tr>
+    <tr><td>docs 側欄</td><td>.2s ease</td><td>translateX(-100%→0)</td><td>未涵蓋（待補）</td></tr>
+  </tbody></table></div>
+  <div class="d-box"><h4>活樣本</h4>
+    <div class="d-row"><div class="pulse-demo">pulse</div>
+    <div><div class="sl-demo" id="slDemo">抽屜滑動</div></div>
+    <button class="s-chip on" id="slBtn" type="button">切換滑動</button>
+    <span class="s-chip" data-tip="這是站上共用的自製 tooltip（tooltip.js）" tabindex="0">hover／focus 看 tooltip</span></div>
+    <p class="d-cap">系統設定「減少動態效果」時，脈動會停止、滑動變成瞬間切換。<span id="rmState"></span></p></div>
+</section>
+
+<!-- ============ COMPONENTS ============ -->
+<section class="d-sec" id="inventory">
+  <div class="d-kicker">Components</div>
+  <h2>Inventory</h2>
+  <p class="d-lede">站上實際存在的元件，樣本為各頁 CSS 的複本（類別名加 <code>s-</code> 前綴以免與本頁衝突）。差異見每項說明。</p>
+
+  <h3>1. 頁首與手機抽屜</h3>
+  <p class="d-cap">來源：styles.css（.topbar）＋site-header.js。≤ 720px 時右側按鈕收進右滑抽屜。本頁頁首就是實作，縮窄視窗可操作。</p>
+  <div class="stage"><div class="s-frame"><div class="s-top"><div class="s-brand"><span class="s-logo"></span><div><b>I Choose You</b><small>頻道資料線 · 隊伍資料庫</small></div></div><div class="s-actions"><span class="s-try">📖 回文件</span><span class="s-try hv">🏆 比賽資訊</span><span class="s-try">🎭 隊伍角色</span></div></div></div></div>
+  <div class="stage" style="display:flex;gap:16px;flex-wrap:wrap"><div class="s-frame" style="width:300px"><div class="s-top m"><div class="s-brand"><span class="s-logo"></span><b>I Choose You</b></div><span class="s-menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 12h16M4 6h16M4 18h16"/></svg></span></div></div>
+    <div class="s-drawer s-frame"><span class="s-dl" style="align-self:flex-end;width:40px;height:40px;padding:0;justify-content:center">✕</span><span class="s-dl">📖 回文件</span><span class="s-dl">🏆 比賽資訊</span><span class="s-dl">🎭 隊伍角色</span></div></div>
+  <p class="d-cap">差異：logo 改用簡化圖形（實站是 assets/master-ball-128.png）。</p>
+
+  <h3>2. 賽制／遊戲標籤與一般標籤</h3>
+  <div class="stage"><div class="d-row"><span class="s-tag reg">Reg M-A</span><span class="s-tag game">Champions</span><span class="s-tag">一般標籤</span><span class="s-tag member">會員限定</span></div>
+  <p class="d-cap">賽制（reg）：soft 底＋虛線框，24px 高、圓角 8。遊戲（game）：sunken 底、<code>--line-strong</code> 邊框。一般標籤：膠囊 11px，可作按鈕（hover 邊框變 accent-2）。會員／警示用 <code>--warn</code>。</p></div>
+
+  <h3>3. 播放鈕與會員皇冠 badge</h3>
+  <div class="stage"><div class="d-row" style="gap:28px">
+    <div><span class="s-vid"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><div class="d-cap">預設</div></div>
+    <div><span class="s-vid hv"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><div class="d-cap">hover／focus（放大＋光圈）</div></div>
+    <div><span class="s-vid"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><svg class="crown" viewBox="0 0 24 24" fill="currentColor"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5z"/></svg></span><div class="d-cap">會員影片（皇冠，--warn 底）</div></div>
+  </div><p class="d-cap">在滑鼠移上去的樣本上會真的播放脈動。差異：播放圖示為示意，皇冠路徑為簡化版。</p></div>
+
+  <h3>4. 隊伍卡（brief）</h3>
+  <div class="stage"><div class="s-team"><div class="s-row1"><h5>範例隊伍：雨天進攻隊</h5><span class="s-vid"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+    <div class="s-meta"><span class="s-tag reg">Reg M-A</span><span class="s-tag game">Champions</span><span class="s-tag">頻道名</span></div>
+    <div class="s-thumbs"><i></i><i></i><i></i><i></i><i class="gap"></i><i class="gap"></i></div></div>
+    <p class="d-cap">圓角 14、內距 14／16、hover 邊框變 accent 並上移 2px。縮圖為 6 格，缺的以虛線框佔位。差異：縮圖以灰塊代替寶可夢圖。</p></div>
+
+  <h3>5. 寶可夢卡、能力點條與性格趨勢圖示</h3>
+  <div class="stage"><div class="s-mon"><span class="s-slot">1</span>
+    <div class="s-mh"><span class="s-ticon" style="background:#2980ef"></span><span class="s-nm">範例寶可夢</span><span class="s-g">♂</span><span class="s-badge">Lv.50</span></div>
+    <div class="s-body"><div class="s-art">圖</div><div class="s-info"><div><span class="k">特性</span>特性名</div><div><span class="k">道具</span>道具名</div><div><span class="k">性格</span>固執</div></div></div>
+    <ul class="s-moves"><li>招式一</li><li>招式二</li><li>招式三</li><li>招式四</li></ul>
+    <div class="s-evs" id="evDemo"></div></div>
+    <p class="d-cap">能力點條：6px 高膠囊，填色 <code>--accent-2</code>（即 primary-text），底 <code>--tint-strong</code>。性格影響的能力旁加趨勢圖示：上升綠（<code>--success</code>）、下降紅（<code>--danger</code>），同時有圖示與文字，不單靠顏色。差異：屬性圖示以色圓代替、寶可夢圖以文字代替。</p></div>
+
+  <h3>6. 戰術定位標籤</h3>
+  <div class="stage"><div class="d-row" id="roleDemo"></div>
+    <p class="d-cap">黃＝輸出、藍＝戰術、綠＝輔助。實線外框＝手動確認，虛線外框＝由招式／特性推斷。三組色皆為淺底＋深字＋2px 同色系外框。差異：圖示為示意用的簡化形狀（實站每個角色有自己的線條圖示）。</p></div>
+
+  <h3>7. 自製 tooltip</h3>
+  <div class="stage"><div class="s-tip">性格：固執（攻擊提升、特攻下降）</div>
+    <p class="d-cap">tooltip.js：任何帶 <code>title</code> 或 <code>data-tip</code> 的元素 hover／focus 立即顯示，底 #1B1F24、白字 12.5px 600、圓角 8、帶小箭頭，Esc 關閉，捲動時隱藏。本頁已載入同一支腳本，<span class="s-chip" data-tip="立即顯示，不等瀏覽器預設延遲" tabindex="0">移到這裡</span>試試。</p></div>
+
+  <h3>8. Toolbar 與標籤列收合</h3>
+  <div class="stage"><div class="s-tb"><input class="q fo" placeholder="搜尋隊伍…" aria-label="搜尋"><select aria-label="排序"><option>最新</option></select><button class="clear" type="button">清除</button><span style="margin-left:auto;font-size:12px;color:var(--accent-2)">共 42 隊</span>
+    <div class="s-fw"><div class="s-fl col" id="fl"><span class="s-chip on">全部</span><span class="s-chip">Reg M-A</span><span class="s-chip">Champions</span><span class="s-chip">雨天</span><span class="s-chip">晴天</span><span class="s-chip">沙暴</span><span class="s-chip">順風</span><span class="s-chip">戲法空間</span></div><button class="more" id="moreBtn" type="button" aria-expanded="false" aria-label="展開標籤">▾</button></div></div>
+    <p class="d-cap">標籤列預設收合成一行（<code>max-height: 28px</code>），右側 28px 方鈕展開。輸入框 focus 為 accent 邊框＋ <code>--primary-glow</code> 3px 光圈。≤ 640px 時搜尋框與計數各佔整列。</p></div>
+
+  <h3>9. 顯示／隱藏切換</h3>
+  <div class="stage"><div class="s-rb"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷</span></div>
+    <p class="d-cap">用 <code>aria-pressed</code> 表達狀態：開啟時邊框與字變 <code>--accent</code>。實站以 body 的 class（hide-roles）控制內容顯示。可實際點擊試試。</p></div>
+</section>
+
+<section class="d-sec" id="button">
+  <div class="d-kicker">Components</div>
+  <h2>Button</h2>
+  <p class="d-lede">站上沒有實心主色按鈕，按鈕一律是淺色（soft）或框線式；主色實心只用在播放鈕 hover、序號圓點。</p>
+  <div class="tw"><table><thead><tr><th>類別（實站 class）</th><th>預設</th><th>hover</th><th>選取／啟用</th><th>focus</th></tr></thead><tbody>
+    <tr><td><code>.try-btn</code> 頁首按鈕<br><small>14px／600，7×13，圓角 9</small></td><td><span class="s-try">🎭 隊伍角色</span></td><td><span class="s-try hv">🎭 隊伍角色</span></td><td>—</td><td><span class="s-try" style="outline:2px solid var(--primary);outline-offset:2px">🎭 隊伍角色</span></td></tr>
+    <tr><td><code>.menu-btn</code> 手機選單<br><small>40×40，圓角 10</small></td><td><span class="s-menu">☰</span></td><td>—</td><td>—</td><td><span class="s-menu" style="outline:2px solid var(--primary);outline-offset:2px">☰</span></td></tr>
+    <tr><td><code>.chip</code> 篩選<br><small>12px，4×10，膠囊</small></td><td><span class="s-chip">雨天</span></td><td><span class="s-chip" style="border-color:var(--primary-500)">雨天</span></td><td><span class="s-chip on">雨天</span></td><td><span class="s-chip fo">雨天</span></td></tr>
+    <tr><td><code>button.tag</code> 可按標籤</td><td><span class="s-tag">頻道名</span></td><td><span class="s-tag" style="border-color:var(--accent-2);color:var(--ink)">頻道名</span></td><td>—</td><td>—</td></tr>
+    <tr><td><code>.clear</code> 清除鈕</td><td><span class="s-tb" style="padding:0;border:0;background:none"><button class="clear" type="button">清除</button></span></td><td><span class="s-tb" style="padding:0;border:0;background:none"><button class="clear" type="button" style="color:var(--ink);border-color:var(--accent-2)">清除</button></span></td><td>—</td><td>—</td></tr>
+    <tr><td><code>.more</code> 展開方鈕<br><small>28×28</small></td><td><span class="s-tb" style="padding:0;border:0;background:none"><button class="more" type="button" style="width:28px;height:28px;padding:0">▾</button></span></td><td>—</td><td><span class="s-tb" style="padding:0;border:0;background:none"><button class="more" type="button" aria-expanded="true" style="width:28px;height:28px;padding:0">▴</button></span></td><td>—</td></tr>
+    <tr><td>角色標籤開關<br><small>aria-pressed</small></td><td><span class="s-rb"><button type="button" aria-pressed="false">角色標籤：隱藏</button></span></td><td>—</td><td><span class="s-rb"><button type="button" aria-pressed="true">角色標籤：顯示</button></span></td><td>—</td></tr>
+    <tr><td><code>.sectnav a</code> 分頁膠囊<br><small>14px，6×16</small></td><td><span class="s-pill">隊伍資訊</span></td><td><span class="s-pill" style="border-color:var(--accent-2);color:var(--ink)">隊伍資訊</span></td><td>—</td><td>—</td></tr>
+    <tr><td><code>.code</code> 隊伍代碼<br><small>虛線框，等寬字</small></td><td><span class="s-code"><b class="mono">ABCD-1234</b></span></td><td><span class="s-code" style="background:var(--panel)"><b class="mono">ABCD-1234</b></span></td><td>—</td><td>—</td></tr>
+    <tr><td><code>.vid-ic</code> 播放鈕</td><td><span class="s-vid">▶</span></td><td><span class="s-vid hv">▶</span></td><td>—</td><td>同 hover</td></tr>
+  </tbody></table></div>
+  <div class="d-note info"><b>差異：</b>focus 樣本以全站的 <code>:focus-visible { outline: 2px solid var(--primary) }</code> 示意；部分頁面（teams）改用 <code>--accent-2</code>，視覺相同。表格內為靜態複本，hover 以強制狀態呈現。</div>
+</section>
+
+<section class="d-sec" id="preview">
+  <div class="d-kicker">Preview</div>
+  <h2>Style A / B / C</h2>
+  <p class="d-lede">附錄中三個候選風格的分頁。其中水泥灰（B）的方向已被站台採用，其餘保留作參考。</p>
+  <div class="d-prev">
+    <a href="design-system-appendix.html#v1"><div class="sa"><i style="background:#14171C"></i><i style="background:#1D2127"></i><i style="background:#9AA7FF"></i></div><b>Style A　v1 深色玻璃</b><p>深色底配半透明玻璃面板，深淺色自動切換，質感最強。</p><span class="d-st">保留作參考</span></a>
+    <a href="design-system-appendix.html#concrete"><div class="sa"><i style="background:#E4E7EA"></i><i style="background:#F7F8F9"></i><i style="background:#4F3DB5"></i></div><b>Style B　水泥灰</b><p>中性冷灰底配深靛主色，最適合資料密集的畫面。</p><span class="d-st cur">已採用（主色定案 #4F3DB5）</span></a>
+    <a href="design-system-appendix.html#paper"><div class="sa"><i style="background:#F0EBE0"></i><i style="background:#FBF8F1"></i><i style="background:#2D45B8"></i></div><b>Style C　再生紙</b><p>米色紙感配靛藍，個性最強、最不像一般工具站。</p><span class="d-st">保留作參考</span></a>
+  </div>
+  <p class="d-cap" style="margin-top:28px"><a href="teams.html">← 回隊伍列表</a>　·　<a href="design-system-appendix.html">附錄：調查與候選方向</a></p>
+</section>
+</main>
+</div>
+
+<script src="site-header.js"></script>
+<script src="tooltip.js"></script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const probe = document.createElement('span'); probe.style.display = 'none'; document.body.appendChild(probe);
+  const parse = (s) => { const m = s.match(/rgba?\(([^)]+)\)/); if (!m) return null; const p = m[1].split(/[ ,\/]+/).filter(Boolean).map(Number); return { r: p[0], g: p[1], b: p[2], a: p.length > 3 ? p[3] : 1 }; };
+  const hex = (c) => '#' + [c.r, c.g, c.b].map((v) => Math.round(v).toString(16).padStart(2, '0')).join('').toUpperCase();
+  const fromHex = (h) => { h = h.replace('#', ''); if (h.length === 3) h = h.split('').map((x) => x + x).join(''); return { r: parseInt(h.slice(0, 2), 16), g: parseInt(h.slice(2, 4), 16), b: parseInt(h.slice(4, 6), 16), a: 1 }; };
+  const tok = (name) => { probe.style.backgroundColor = ''; probe.style.backgroundColor = 'var(--' + name + ')'; return parse(getComputedStyle(probe).backgroundColor); };
+  const get = (x) => x.startsWith('#') ? fromHex(x) : tok(x);
+  // WCAG 2.x：相對亮度與對比
+  const lin = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+  const L = (c) => 0.2126 * lin(c.r) + 0.7152 * lin(c.g) + 0.0722 * lin(c.b);
+  const cr = (a, b) => { const x = L(a), y = L(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); };
+  const grade = (r, nonText) => nonText ? (r >= 3 ? 'AA' : 'Fail') : r >= 7 ? 'AAA' : r >= 4.5 ? 'AA' : r >= 3 ? 'AALg' : 'Fail';
+  const label = (g) => g === 'AALg' ? 'AA Lg' : g;
+  const badge = (g) => `<span class="bdg ${g}">${label(g)}</span>`;
+  const WHITE = { r: 255, g: 255, b: 255, a: 1 }, INK = fromHex('#1B1F24');
+
+  // ---- 色票 ----
+  const groups = [
+    ['Surface 表面（對 --ink）', 'bg bg-soft panel sunken overlay', 'ink'],
+    ['Text &amp; Line 文字與線（文字對 --panel；邊框為非文字，對 --bg-soft）', 'ink ink-soft ink3 border line-strong', 'panel'],
+    ['Primary 主色色階（白字於其上）', 'primary-50 primary-100 primary-200 primary-300 primary-400 primary-500 primary-600 primary-700 primary-800 primary-900 primary-950', '#fff'],
+    ['Primary 角色', 'primary primary-hover primary-text soft-bg soft-bg-hover soft-border soft-text', 'panel'],
+    ['Semantic 語意色（文字對 --panel）', 'success warn danger info male female', 'panel']
+  ];
+  const host = $('colorGroups');
+  groups.forEach(([title, names, vs]) => {
+    let h = `<h3>${title}</h3><div class="d-grid">`;
+    names.split(' ').forEach((n) => {
+      const c = tok(n); if (!c) return;
+      let against = vs === '#fff' ? WHITE : get(vs), vsName = vs === '#fff' ? '白' : '--' + vs;
+      let nonText = false;
+      if (n === 'border' || n === 'line-strong') { against = tok('bg-soft'); vsName = '--bg-soft'; nonText = true; }
+      if (/^(primary|primary-hover|soft-bg|soft-bg-hover|soft-border)$/.test(n) && vs !== '#fff') { /* 填色：對白字或其上文字 */ }
+      let r, g, fg = L(c) > 0.35 ? '#1B1F24' : '#fff';
+      if (title.startsWith('Surface')) { r = cr(c, INK); g = grade(r); }
+      else if (vs === '#fff') { r = cr(c, WHITE); g = grade(r); }
+      else if (/^(primary|primary-hover)$/.test(n)) { r = cr(c, WHITE); vsName = '白字'; g = grade(r); }
+      else if (/^soft-(bg|bg-hover|border)$/.test(n)) { r = cr(tok('soft-text'), c); vsName = '--soft-text 於其上'; g = grade(r, n === 'soft-border'); if (n === 'soft-border') { r = cr(c, tok('soft-bg')); vsName = '對 --soft-bg'; g = grade(r, true); } }
+      else { r = cr(c, against); g = grade(r, nonText); }
+      const swatchBg = (n === 'border' || n === 'line-strong' || /text|^ink|^success|^warn|^danger|^info|^male|^female/.test(n)) && !/^soft-text$/.test(n) ? 'var(--panel)' : `var(--${n})`;
+      // 文字類色票：以該色當字、邊框類以該色當邊
+      let style = `background:var(--${n});color:${fg}`;
+      if (/^(ink|ink-soft|ink3|success|warn|danger|info|male|female|primary-text|soft-text)$/.test(n)) style = `background:var(--panel);color:var(--${n});border-top:6px solid var(--${n})`;
+      if (n === 'soft-text') style = `background:var(--soft-bg);color:var(--soft-text);border-top:6px solid var(--soft-text)`;
+      h += `<div class="sw" style="${style}"><div><div class="n">--${n}</div><div class="h">${hex(c)}</div></div><div class="r"><span>${r.toFixed(2)}:1 <span style="opacity:.75">${vsName}</span></span>${badge(g)}</div></div>`;
+    });
+    host.insertAdjacentHTML('beforeend', h + '</div>');
+  });
+  host.insertAdjacentHTML('beforeend', `<h3>半透明與效果</h3><div class="d-grid">${['tint', 'tint-strong', 'primary-glow'].map((n) => { probe.style.backgroundColor = 'var(--' + n + ')'; return `<div class="sw" style="background:var(--${n});border:1px solid var(--border)"><div><div class="n">--${n}</div><div class="h">${getComputedStyle(probe).backgroundColor}</div></div><div class="r"><span>半透明疊色</span><span class="bdg na">N/A</span></div></div>`; }).join('')}</div>`);
+
+  // ---- 重要組合 ----
+  const P = [
+    ['正文 / 面板', 'ink', 'panel'], ['正文 / 底', 'ink', 'bg'], ['次要文字 / 面板', 'ink-soft', 'panel'], ['次要文字 / 卡片 (bg-soft)', 'ink-soft', 'bg-soft'], ['次要文字 / 底', 'ink-soft', 'bg'], ['ink3 / 面板', 'ink3', 'panel'],
+    ['accent 文字（連結）/ 面板', 'primary-text', 'panel'], ['accent 文字 / 底', 'primary-text', 'bg'], ['accent 文字 / 卡片', 'primary-text', 'bg-soft'],
+    ['soft 文字 / soft 底（賽制標籤、按鈕）', 'soft-text', 'soft-bg'], ['soft 文字 / soft hover 底（選取 chip）', 'soft-text', 'soft-bg-hover'],
+    ['白字 / 主色（播放鈕 hover）', 'on-primary', 'primary'], ['白字 / 主色 hover', 'on-primary', 'primary-hover'],
+    ['警示 warn / 面板', 'warn', 'panel'], ['警示 warn / 卡片', 'warn', 'bg-soft'], ['白 / warn（皇冠 badge 圖示）', '#FFFFFF', 'warn'],
+    ['success / 面板', 'success', 'panel'], ['danger / 面板', 'danger', 'panel'], ['info / 面板', 'info', 'panel'],
+    ['male / 卡片', 'male', 'bg-soft'], ['female / 卡片', 'female', 'bg-soft'],
+    ['tooltip 白字 / #1B1F24', '#FFFFFF', '#1B1F24'],
+    ['輸出標籤：#5a4300 / #fff2b3', '#5a4300', '#fff2b3'], ['戰術標籤：#12366b / #cfe4ff', '#12366b', '#cfe4ff'], ['輔助標籤：#0f4a28 / #cdf3d8', '#0f4a28', '#cdf3d8'],
+    ['輸出外框 #d99a00 / 面板（非文字）', '#d99a00', 'panel', 1], ['戰術外框 #3b82f6 / 面板（非文字）', '#3b82f6', 'panel', 1], ['輔助外框 #2fa35b / 面板（非文字）', '#2fa35b', 'panel', 1],
+    ['控制項邊框 line-strong / 卡片（非文字）', 'line-strong', 'bg-soft', 1], ['一般邊框 border / 面板（裝飾，不要求）', 'border', 'panel', 1]
+  ];
+  $('pairs').innerHTML = P.map(([name, f, b, nt]) => {
+    const fc = get(f), bc = get(b), r = cr(fc, bc), g = grade(r, !!nt);
+    const deco = name.includes('裝飾');
+    return `<tr><td>${name}</td><td><span class="pair" style="background:${hex(bc)};color:${hex(fc)};${nt ? 'box-shadow:inset 0 0 0 2px ' + hex(fc) : ''}">${nt ? '框' : '文字'}</span></td><td class="mono">${hex(fc)}</td><td class="mono">${hex(bc)}</td><td class="mono">${r.toFixed(2)}:1</td><td>${deco ? '<span class="bdg na">裝飾</span>' : badge(g)}</td></tr>`;
+  }).join('');
+
+  // ---- 角色三色、屬性色 ----
+  const RS = [['輸出 attacker', '#fff2b3', '#d99a00', '#5a4300'], ['戰術 tactic', '#cfe4ff', '#3b82f6', '#12366b'], ['輔助 support', '#cdf3d8', '#2fa35b', '#0f4a28']];
+  $('roleSw').innerHTML = RS.map(([n, bg, bd, tx]) => { const r = cr(fromHex(tx), fromHex(bg)); return `<div class="sw" style="background:${bg};border:2px solid ${bd};color:${tx};flex:1 1 200px"><div><div class="n">${n}</div><div class="h">底 ${bg}　框 ${bd}　字 ${tx}</div></div><div class="r"><span>字對底 ${r.toFixed(2)}:1</span>${badge(grade(r))}</div></div>`; }).join('');
+  const TYPES = [["normal","一般","#9fa19f"],["fighting","格鬥","#ff8000"],["flying","飛行","#81b9ef"],["poison","毒","#9141cb"],["ground","地面","#915121"],["rock","岩石","#afa981"],["bug","蟲","#91a119"],["ghost","幽靈","#704170"],["steel","鋼","#60a1b8"],["fire","火","#e62829"],["water","水","#2980ef"],["grass","草","#3fa129"],["electric","電","#fac000"],["psychic","超能力","#ef4179"],["ice","冰","#3fd8ff"],["dragon","龍","#5060e1"],["dark","惡","#50413f"],["fairy","妖精","#ef70ef"]];
+  $('typeSw').innerHTML = TYPES.map(([id, zh, c]) => { const r = cr(WHITE, fromHex(c)); return `<div class="sw" style="background:${c};color:#fff;min-height:84px"><div><div class="n" style="text-shadow:0 0 2px rgba(0,0,0,.45)">${zh} ${id}</div><div class="h" style="text-shadow:0 0 2px rgba(0,0,0,.45)">${c.toUpperCase()}</div></div><div class="r"><span style="text-shadow:0 0 2px rgba(0,0,0,.45)">${r.toFixed(2)}:1</span>${badge(grade(r))}</div></div>`; }).join('');
+
+  // ---- spacing / radii ----
+  $('spaceBars').innerHTML = [4, 5, 6, 8, 10, 12, 14, 16, 22].map((v) => `<div class="d-bar"><span>${v}px</span><i style="width:${v * 6}px"></i></div>`).join('');
+  $('radiiRow').innerHTML = [[5, 'code'], [6, '縮圖／表頭'], [8, '輸入、標籤、tooltip'], [9, 'try-btn'], [10, 'menu-btn、抽屜'], [12, '面板、toolbar'], [14, '卡片'], [999, '膠囊／圓形']].map(([r, n]) => `<div style="text-align:center;font-size:12px"><div style="width:64px;height:64px;background:var(--soft-bg);border:2px solid var(--primary-500);border-radius:${r}px;margin:0 auto 6px"></div><b>${r === 999 ? '999' : r}</b><br><span style="color:var(--ink-soft)">${n}</span></div>`).join('');
+
+  // ---- 能力點、角色樣本 ----
+  const up = '<svg class="s-trend up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>';
+  const dn = '<svg class="s-trend down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg>';
+  $('evDemo').innerHTML = [['HP', 32, ''], ['攻擊', 32, up], ['防禦', 2, ''], ['特攻', 0, dn], ['特防', 0, ''], ['速度', 0, '']].map(([l, v, t]) => `<div class="s-ev"><span class="lbl">${l}${t}</span><span class="bar"><i style="width:${v / 32 * 100}%"></i></span><span class="n">${v}</span></div>`).join('');
+  const ic = { a: '<path d="M14.5 17.5 3 6V3h3l11.5 11.5M13 19l6-6M16 16l4 4M19 21l2-2"/>', t: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>', s: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/>' };
+  $('roleDemo').innerHTML = [['g-attacker', 'a', '主攻', 0], ['g-attacker', 'a', '副攻', 1], ['g-tactic', 't', '控速', 0], ['g-tactic', 't', '場地', 1], ['g-support', 's', '掩護', 0], ['g-support', 's', '治療', 1]].map(([g, i, n, inf]) => `<span class="s-rc ${g}${inf ? ' inf' : ''}" data-tip="${n}${inf ? '（由招式／特性推斷）' : '（手動確認）'}" tabindex="0"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ic[i]}</svg>${n}</span>`).join('');
+
+  // ---- 互動樣本 ----
+  const mb = $('moreBtn'); mb.addEventListener('click', () => { const o = mb.getAttribute('aria-expanded') !== 'true'; mb.setAttribute('aria-expanded', String(o)); $('fl').classList.toggle('col', !o); mb.textContent = o ? '▴' : '▾'; });
+  const rt = $('roleToggle'); rt.addEventListener('click', () => { const on = rt.getAttribute('aria-pressed') !== 'true'; rt.setAttribute('aria-pressed', String(on)); rt.textContent = '角色標籤：' + (on ? '顯示' : '隱藏'); $('roleDemo').style.visibility = on ? '' : 'hidden'; });
+  $('slBtn').addEventListener('click', () => $('slDemo').classList.toggle('out'));
+  const mq = matchMedia('(prefers-reduced-motion: reduce)'); const rm = () => { $('rmState').textContent = ' 目前偵測：' + (mq.matches ? '已開啟減少動態效果' : '未開啟'); }; rm(); mq.addEventListener && mq.addEventListener('change', rm);
+
+  // ---- 導覽 ----
+  const side = $('side'), tb = $('tocBtn');
+  tb.addEventListener('click', () => { const o = !side.classList.contains('open'); side.classList.toggle('open', o); tb.setAttribute('aria-expanded', String(o)); });
+  side.addEventListener('click', (e) => { if (e.target.closest('a') && innerWidth <= 900) { side.classList.remove('open'); tb.setAttribute('aria-expanded', 'false'); } });
+  const links = [...side.querySelectorAll('a[href^="#"]')], secs = links.map((a) => document.querySelector(a.getAttribute('href')));
+  const spy = () => { let k = 0; secs.forEach((s, i) => { if (s && s.getBoundingClientRect().top < 140) k = i; }); links.forEach((a, i) => a.classList.toggle('on', i === k)); };
+  addEventListener('scroll', spy, { passive: true }); spy();
+})();
+</script>
+</body>
+</html>
