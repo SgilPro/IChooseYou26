@@ -1,17 +1,9 @@
-:root {
-  --bg: #0f1020;
-  --panel: #191b36;
-  --ink: #e8e9f5;
-  --ink-soft: #a9adcf;
-  --accent: #8b6cff;
-  --accent-2: #56d0c8;
-  --border: #2a2d55;
-}
+/* 色彩 token 來自 docs-site/tokens.css（由 main.tsx 引入）；頁首樣式來自 docs-site/header.css */
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink);
   font-family: "Helvetica Neue", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif; }
-.app { max-width: 920px; margin: 0 auto; padding: 28px 20px 80px; }
-.app-head h1 { margin: 0 0 6px; font-size: 26px; }
+.app { max-width: 920px; margin: 0 auto; padding: 22px 20px 80px; }
+.app-head h1 { margin: 0 0 6px; font-size: 24px; }
 .sub { color: var(--ink-soft); margin: 0 0 8px; }
 
 .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
@@ -23,40 +15,40 @@ body { margin: 0; background: var(--bg); color: var(--ink);
 .row.between { justify-content: space-between; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
 label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--ink-soft); }
-input, select, textarea { background: #0c0d1c; color: var(--ink); border: 1px solid var(--border);
+input, select, textarea { background: var(--overlay, #fff); color: var(--ink); border: 1px solid var(--border);
   border-radius: 8px; padding: 8px 10px; font-size: 14px; font-family: inherit; }
 textarea { resize: vertical; min-height: 44px; width: 100%; }
 
-button { background: #23264a; color: var(--ink); border: 1px solid var(--border);
+button { background: var(--bg-soft); color: var(--ink); border: 1px solid var(--border);
   border-radius: 9px; padding: 9px 16px; font-size: 14px; cursor: pointer; }
-button:hover:not(:disabled) { background: #2c2f5a; }
+button:hover:not(:disabled) { background: var(--sunken); }
 button:disabled { opacity: .5; cursor: not-allowed; }
 button.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
 button.del { padding: 4px 10px; font-size: 12px; }
 
 .roi-preview { max-width: 100%; border: 1px dashed var(--border); border-radius: 8px; }
 
-.progress { height: 10px; background: #0c0d1c; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.progress { height: 10px; background: var(--overlay, #fff); border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
 .progress .bar { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width .2s; }
 .status { color: var(--ink-soft); font-size: 14px; }
 .hint { color: var(--ink-soft); font-size: 13px; }
 
 .timeline { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 10px; }
-.event { display: flex; gap: 12px; background: #14162e; border: 1px solid var(--border); border-radius: 10px; padding: 10px; }
+.event { display: flex; gap: 12px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 10px; }
 .thumb { width: 160px; height: auto; border-radius: 6px; flex: 0 0 160px; object-fit: cover; cursor: zoom-in; }
 .ev-body { flex: 1; min-width: 0; }
 .ev-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
 .ev-meta .t { font-weight: 700; color: var(--accent-2); }
-.kind-label { font-size: 13px; background: #23264a; border: 1px solid var(--border); border-radius: 7px; padding: 3px 10px; }
+.kind-label { font-size: 13px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 7px; padding: 3px 10px; }
 .ev-text { font-size: 14px; line-height: 1.6; padding: 4px 2px; white-space: pre-wrap; color: var(--ink); }
 .ev-meta .conf { font-size: 12px; color: var(--ink-soft); }
 
-.region-tag { font-size: 12px; background: #2a2d55; color: var(--accent-2); padding: 2px 8px; border-radius: 999px; }
-.validator { background: #14162e; border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin: 10px 0; font-size: 14px; }
+.region-tag { font-size: 12px; background: var(--soft-bg-hover); color: var(--soft-text); padding: 2px 8px; border-radius: 999px; }
+.validator { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin: 10px 0; font-size: 14px; }
 .validator ul { margin: 8px 0 0; padding-left: 18px; }
 .validator li { margin: 4px 0; }
-.validator .ok { color: #8be0b0; }
-.validator .vw-warn { color: #ffcf8b; }
+.validator .ok { color: var(--success); }
+.validator .vw-warn { color: #8A5A00; }
 .validator .vw-info { color: var(--ink-soft); }
 .turn-group { margin: 10px 0 18px; }
 .turn-head { margin: 0 0 8px; font-size: 15px; color: var(--accent); border-left: 3px solid var(--accent); padding-left: 10px; }
@@ -69,13 +61,13 @@ button.del { padding: 4px 10px; font-size: 12px; }
 
 /* ROI crop 介面 */
 .roi-stage { position: relative; width: 100%; max-width: 720px; margin: 10px 0; border: 1px solid var(--border);
-  border-radius: 10px; overflow: hidden; user-select: none; touch-action: none; background: #0c0d1c; }
+  border-radius: 10px; overflow: hidden; user-select: none; touch-action: none; background: var(--overlay, #fff); }
 .roi-stage img { display: block; width: 100%; height: auto; pointer-events: none; }
 .roi-stage.empty { display: flex; align-items: center; justify-content: center; min-height: 160px; color: var(--ink-soft); }
-.roi-rect { position: absolute; border: 2px solid var(--accent-2); background: rgba(86,208,200,.12); cursor: move; box-sizing: border-box; }
-.roi-rect.sel { border-color: var(--accent); background: rgba(139,108,255,.18); }
-.roi-rect.pending { border-style: dashed; background: rgba(139,108,255,.1); pointer-events: none; }
-.roi-tag { position: absolute; top: -1px; left: -1px; font-size: 11px; background: var(--accent-2); color: #04261f;
+.roi-rect { position: absolute; border: 2px solid var(--accent-2); background: rgba(79,61,181,.10); cursor: move; box-sizing: border-box; }
+.roi-rect.sel { border-color: var(--accent); background: rgba(123,111,243,.18); }
+.roi-rect.pending { border-style: dashed; background: rgba(123,111,243,.10); pointer-events: none; }
+.roi-tag { position: absolute; top: -1px; left: -1px; font-size: 11px; background: var(--accent-2); color: #fff;
   padding: 1px 6px; border-radius: 0 0 6px 0; white-space: nowrap; }
 .roi-handle { position: absolute; width: 11px; height: 11px; background: #fff; border: 1px solid var(--accent);
   border-radius: 2px; box-sizing: border-box; }
@@ -90,31 +82,31 @@ button.del { padding: 4px 10px; font-size: 12px; }
 
 .roi-table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 13px; }
 .roi-table th, .roi-table td { border: 1px solid var(--border); padding: 4px 6px; text-align: center; }
-.roi-table th { background: #14162e; color: var(--ink-soft); font-weight: 600; }
-.roi-table tr.sel { background: rgba(139,108,255,.12); }
+.roi-table th { background: var(--bg-soft); color: var(--ink-soft); font-weight: 600; }
+.roi-table tr.sel { background: var(--soft-bg); }
 .roi-table input[type="text"], .roi-table input:not([type]) { width: 84px; }
 .roi-table input[type="number"] { width: 64px; }
 .roi-table input, .roi-table select { padding: 4px 6px; }
 
-.file-btn { display: inline-block; background: #23264a; border: 1px solid var(--border); border-radius: 9px; padding: 9px 16px; font-size: 14px; cursor: pointer; color: var(--ink); }
-.file-btn:hover { background: #2c2f5a; }
+.file-btn { display: inline-block; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 9px; padding: 9px 16px; font-size: 14px; cursor: pointer; color: var(--ink); }
+.file-btn:hover { background: var(--sunken); }
 .log-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
-.log-list li { display: flex; align-items: center; gap: 10px; background: #14162e; border: 1px solid var(--border); border-radius: 9px; padding: 8px 12px; }
+.log-list li { display: flex; align-items: center; gap: 10px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 9px; padding: 8px 12px; }
 .log-name { font-weight: 600; flex: 0 0 auto; }
 .log-list .hint { flex: 1; }
 
 .entities { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .entity { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); }
-.entity.species { background: #1d3a2e; color: #8be0b0; }
-.entity.move { background: #1d2a44; color: #8bb6ff; }
-.entity.ability { background: #38264a; color: #c79bff; }
-.entity.item { background: #44391d; color: #e0c98b; }
+.entity.species { background: #D5F0DF; color: #15572F; }
+.entity.move { background: #DCE8FF; color: #1E3F8A; }
+.entity.ability { background: #EADFFF; color: #4A2A8F; }
+.entity.item { background: #F7EBC6; color: #5C4308; }
 
 /* Toggle 按鈕 */
 .roi-toolbar { display: flex; align-items: center; gap: 12px; margin: 14px 0 6px; padding: 10px 12px;
-  background: #14162e; border: 1px solid var(--border); border-radius: 10px; flex-wrap: wrap; }
+  background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; flex-wrap: wrap; }
 .toggle { display: inline-flex; align-items: center; gap: 10px; background: none; border: none; padding: 0; cursor: pointer; }
-.toggle-track { width: 44px; height: 24px; border-radius: 999px; background: #3a3d63; position: relative; transition: background .15s; flex: 0 0 auto; }
+.toggle-track { width: 44px; height: 24px; border-radius: 999px; background: var(--line-strong); position: relative; transition: background .15s; flex: 0 0 auto; }
 .toggle-thumb { position: absolute; top: 2px; left: 2px; width: 20px; height: 20px; border-radius: 50%; background: #fff; transition: transform .15s; }
 .toggle.on .toggle-track { background: var(--accent); }
 .toggle.on .toggle-thumb { transform: translateX(20px); }
@@ -123,12 +115,12 @@ button.del { padding: 4px 10px; font-size: 12px; }
 /* 唯讀狀態更明顯（回饋 UI #1） */
 .roi-table.readonly { opacity: .55; }
 input:disabled, select:disabled, button:disabled { cursor: not-allowed; }
-.roi-table input:disabled, .roi-table select:disabled { background: #0a0b16; color: var(--ink-soft); border-style: dashed; }
+.roi-table input:disabled, .roi-table select:disabled { background: var(--sunken); color: var(--ink-soft); border-style: dashed; }
 
 /* Lightbox 縮圖預覽（回饋 UI #3） */
 .lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.82); display: flex;
   flex-direction: column; align-items: center; justify-content: center; gap: 14px; cursor: zoom-out; padding: 24px; }
 .lightbox img { max-width: 92vw; max-height: 82vh; border-radius: 8px; image-rendering: auto; box-shadow: 0 8px 40px rgba(0,0,0,.6); }
-.lightbox-hint { color: #cfd2ee; font-size: 13px; }
+.lightbox-hint { color: #E9EAFF; font-size: 13px; }
 
 .app-foot { color: var(--ink-soft); font-size: 12px; text-align: center; margin-top: 30px; }

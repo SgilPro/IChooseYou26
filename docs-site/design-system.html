@@ -6,6 +6,7 @@
 <title>Design System · I Choose You</title>
 <meta name="description" content="I Choose You 站台目前實際使用的 token 與元件整理（v0.1 WIP）。">
 <link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="header.css">
 <style>
 /* ===== 文件外框（前綴 d-）：只用 tokens.css 的變數，與站台同一套外觀 ===== */
 *{box-sizing:border-box}
@@ -14,15 +15,10 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 system-ui,-app
 a{color:var(--primary-text);text-underline-offset:3px}
 code,.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
 code{background:var(--sunken);padding:1px 6px;border-radius:5px;font-size:.88em;overflow-wrap:anywhere}
-.topbar{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 22px;background:rgba(247,248,249,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
-.d-brand{display:flex;align-items:center;gap:10px;min-width:0}
-.d-brand b{font-size:16px;white-space:nowrap}
-.d-brand span{font-size:12px;color:var(--ink-soft);background:var(--sunken);padding:2px 10px;border-radius:999px;white-space:nowrap}
-.head-actions{display:flex;align-items:center;gap:10px}
 .try-btn{background:var(--soft-bg);color:var(--soft-text);border:1px solid var(--soft-border);text-decoration:none;font-size:14px;font-weight:600;padding:7px 13px;border-radius:9px;white-space:nowrap}
 .try-btn:hover{background:var(--soft-bg-hover);border-color:var(--primary-400)}
 .d-layout{display:flex;max-width:1240px;margin:0 auto}
-.d-side{width:248px;flex:0 0 248px;position:sticky;top:57px;height:calc(100vh - 57px);overflow-y:auto;padding:24px 14px 32px 22px}
+.d-side{width:248px;flex:0 0 248px;position:sticky;top:var(--header-h);height:calc(100vh - var(--header-h));overflow-y:auto;padding:24px 14px 32px 22px}
 .d-side h6{margin:18px 0 6px 10px;font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.1em;color:var(--ink-soft);text-transform:uppercase}
 .d-side h6:first-child{margin-top:0}
 .d-side a{display:block;padding:7px 12px;border-radius:9px;color:var(--ink-soft);text-decoration:none;font-size:14px}
@@ -35,7 +31,7 @@ code{background:var(--sunken);padding:1px 6px;border-radius:5px;font-size:.88em;
 .d-hero p{color:var(--ink-soft);font-size:17px;margin:0 0 12px}
 .d-meta{font:12px/1.8 ui-monospace,Menlo,monospace;color:var(--ink-soft)}
 .d-meta b{color:var(--ink);font-weight:600;margin-right:12px}
-section.d-sec{padding-top:52px;scroll-margin-top:57px}
+section.d-sec{padding-top:52px;scroll-margin-top:var(--header-h)}
 .d-kicker{font:600 11px/1 ui-monospace,Menlo,monospace;letter-spacing:.12em;color:var(--primary-text);text-transform:uppercase;margin-bottom:8px}
 .d-sec h2{font-size:28px;line-height:1.3;margin:0 0 8px}
 .d-sec h3{font-size:18px;margin:32px 0 10px}
@@ -93,7 +89,6 @@ th{background:var(--bg-soft);color:var(--ink-soft);font-weight:600;white-space:n
   .d-toc-btn{display:flex;align-items:center;justify-content:space-between;width:calc(100% - 32px);margin:12px 16px 0;font:inherit;font-weight:600;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:var(--bg-soft);color:var(--ink);cursor:pointer}
   .d-side{position:static;width:auto;height:auto;flex:none;display:none;margin:8px 16px 0;padding:10px;background:var(--panel);border:1px solid var(--border);border-radius:12px}
   .d-side.open{display:block}
-  .topbar{padding:12px 16px}
   .d-main{padding:20px 16px 70px}
 }
 @media(max-width:720px){.d-brand span{display:none}}
@@ -183,11 +178,19 @@ th{background:var(--bg-soft);color:var(--ink-soft);font-weight:600;white-space:n
 </head>
 <body>
 <header class="topbar">
-  <div class="d-brand"><b>I Choose You</b><span>Design System</span></div>
+  <div class="brand" data-tip="寶可夢雙打學習天地">
+    <img class="wordmark" src="assets/master-ball-wordmark-web.png" alt="I Choose You" width="800" height="163" />
+    <div class="brand-sub">Design System</div>
+  </div>
   <div class="head-actions">
-    <a class="try-btn" href="teams.html" title="回隊伍列表">← 回隊伍列表</a>
-    <a class="try-btn" href="design-system-appendix.html" title="調查與候選方向">📎 附錄</a>
-    <a class="try-btn" href="./" title="回 Live Docs">📖 回文件</a>
+    <nav class="pill-nav" aria-label="主選單">
+      <a href="./">文件</a>
+      <a href="teams.html">隊伍列表</a>
+      <a href="matches.html">比賽資訊</a>
+      <a href="roles.html">戰術定位</a>
+      <a href="design-system.html" aria-current="page">Design System</a>
+      <a href="app/">試用工具</a>
+    </nav>
   </div>
 </header>
 

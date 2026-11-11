@@ -274,7 +274,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-head">
-        <h1>🟣 VGC Game Log 原型</h1>
+        <h1>Game Log 原型</h1>
         <p className="sub">
           影片 → 定時截圖 → 多塊 ROI 關鍵影格過濾 → 訊息框 / 特性 / HP OCR → 可編輯事件時間軸。
           半自動工具：機器產草稿，你校正。

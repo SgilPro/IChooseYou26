@@ -3,10 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VGC Game Log 原型</title>
+    <title>Game Log 原型 · I Choose You</title>
+    <link rel="icon" type="image/png" href="../assets/master-ball-128.png" />
   </head>
   <body>
+    <!-- 共用頁首（與全站同一份：header.css 由 main.tsx 打包進來，行為由站台根目錄的 site-header.js 提供） -->
+    <header class="topbar">
+      <div class="brand" data-tip="寶可夢雙打學習天地">
+        <img class="wordmark" src="../assets/master-ball-wordmark-web.png" alt="I Choose You" width="800" height="163" />
+        <div class="brand-sub">Game Log 原型</div>
+      </div>
+      <div class="head-actions">
+        <nav class="pill-nav" aria-label="主選單">
+          <a href="../">文件</a>
+          <a href="../teams.html">隊伍列表</a>
+          <a href="../matches.html">比賽資訊</a>
+          <a href="../roles.html">戰術定位</a>
+          <a href="../design-system.html">Design System</a>
+          <a href="./" aria-current="page">試用工具</a>
+        </nav>
+      </div>
+    </header>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script src="../tooltip.js"></script>
+    <script src="../site-header.js"></script>
   </body>
 </html>
