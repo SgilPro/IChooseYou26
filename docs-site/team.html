@@ -344,7 +344,7 @@
       </article>`;
     };
     const infoSec = `<section id="info"><h2>隊伍資訊</h2>
-      ${(roleDefs.tags || []).length ? `<div class="rolebar"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷。黃＝輸出、藍＝戰術、綠＝輔助</span></div>` : ""}
+      ${(roleDefs.tags || []).length ? `<div class="rolebar"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷。黃＝輸出、藍＝戰術、綠＝輔助（<a href="roles.html">角色說明與辨識對應</a>）</span></div>` : ""}
       ${members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : ""}
       ${members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
     </section>`;

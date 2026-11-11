@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>隊伍角色｜ICY</title>
+  <link rel="icon" type="image/png" href="assets/cherish-ball-128.png" />
+  <style>
+    :root { color-scheme: dark; --bg:#0b0f1a; --panel:#141a2e; --bg-soft:#1a2140; --border:#2a3354; --ink:#e8ecf8; --ink-soft:#9aa6c8; --accent:#8b6cff; --accent-2:#56d0c8; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.65 system-ui,-apple-system,"Noto Sans TC",sans-serif; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 20px 16px 70px; }
+    a { color: var(--accent-2); }
+    h1 { font-size: 24px; margin: 10px 0; }
+    h2 { font-size: 17px; margin: 30px 0 6px; color: var(--ink-soft); font-weight: 600; letter-spacing: .02em; }
+    .note { color: var(--ink-soft); font-size: 13px; }
+    .toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 4px; }
+    .role { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin: 10px 0; scroll-margin-top: 12px; }
+    .role-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .role-head .cnt { margin-left: auto; font-size: 12px; color: var(--ink-soft); }
+    .rolechip { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 700; line-height: 1; padding: 5px 10px 5px 7px; border-radius: 8px; border: 2px solid; text-decoration: none; }
+    .rolechip .ri { width: 15px; height: 15px; flex: none; }
+    .rolechip.g-attacker { background: #fff2b3; border-color: #d99a00; color: #5a4300; }
+    .rolechip.g-tactic { background: #cfe4ff; border-color: #3b82f6; color: #12366b; }
+    .rolechip.g-support { background: #cdf3d8; border-color: #2fa35b; color: #0f4a28; }
+    .role p { margin: 8px 0 4px; }
+    .role h3 { font-size: 13px; color: var(--ink-soft); margin: 12px 0 4px; font-weight: 600; }
+    .role ul { margin: 0; padding-left: 20px; }
+    .terms { display: flex; flex-wrap: wrap; gap: 5px; }
+    .term { font-size: 12.5px; padding: 3px 9px; border-radius: 8px; background: var(--bg-soft); border: 1px solid var(--border); }
+    .term small { color: var(--ink-soft); margin-left: 4px; }
+    .kind { font-size: 12px; color: var(--ink-soft); margin: 8px 0 3px; }
+    .manual { font-size: 13px; color: #ffd37a; }
+    code { background: var(--bg-soft); padding: 1px 6px; border-radius: 5px; font-size: 12.5px; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <p><a href="teams.html">← 隊伍列表</a></p>
+  <h1>隊伍角色與功能標籤</h1>
+  <p class="note">一隻寶可夢可以同時有多個角色。標籤分三色：<b style="color:#f0c040">黃＝輸出</b>、<b style="color:#6aa9ff">藍＝戰術</b>、<b style="color:#4ade80">綠＝輔助</b>。下面每個角色列出：敘述、舉例，以及用來辨識的招式／特性／道具（隊伍表上帶了這些就會「推斷」出該標籤，詳細頁顯示為虛線邊框；手動確認為實線）。</p>
+  <p class="note">更新對應表：編輯 <code>tools/site/build-roles-ref.mjs</code> → 執行 <code>node tools/site/build-roles-ref.mjs</code> → <code>node tools/yt/merge-teams.mjs data/channels/fiskepokemon</code>。手動標：在隊伍的 <code>analysis.roles</code> 寫 <code>[{"slot":1,"roles":["main-attacker"]}]</code>。</p>
+  <div id="app">載入中…</div>
+</div>
+<script>
+(async () => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const j = async (p) => (await fetch(p, { cache: "no-cache" })).json();
+  try {
+    const [roles, teams] = await Promise.all([j("data/ref/roles.json"), j("data/channels/fiskepokemon/teams.json").catch(() => [])]);
+    const cnt = {}, cntMan = {};
+    for (const t of teams) {
+      for (const r of t.analysis_derived?.roles || []) for (const id of r.roles) cnt[id] = (cnt[id] || 0) + 1;
+      for (const r of t.analysis?.roles || []) for (const id of r.roles) cntMan[id] = (cntMan[id] || 0) + 1;
+    }
+    const GROUPS = { attacker: "輸出", tactic: "戰術", support: "輔助" };
+    const chip = (t, href) => `<${href ? "a href=\"#" + esc(t.id) + "\"" : "span"} class="rolechip g-${esc(t.group)}"><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${t.icon || ""}</svg>${esc(t.name_zh)}</${href ? "a" : "span"}>`;
+    const terms = (label, list) => list.length ? `<div class="kind">${label}（${list.length}）</div><div class="terms">${list.map((r) => `<span class="term">${esc(r.name_zh)}<small>${esc(r.name_en)}</small></span>`).join("")}</div>` : "";
+    let html = `<div class="toc">${roles.tags.map((t) => chip(t, true)).join("")}</div>`;
+    for (const g of Object.keys(GROUPS)) {
+      html += `<h2>${GROUPS[g]}</h2>`;
+      for (const t of roles.tags.filter((x) => x.group === g)) {
+        const n = cnt[t.id] || 0, m = cntMan[t.id] || 0;
+        html += `<section class="role" id="${esc(t.id)}"><div class="role-head">${chip(t)}<code>${esc(t.id)}</code><span class="cnt">目前推斷 ${n} 隻・手動 ${m} 隻</span></div>
+          ${t.description_zh ? `<p>${esc(t.description_zh)}</p>` : ""}
+          ${t.examples_zh?.length ? `<h3>舉例</h3><ul>${t.examples_zh.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
+          <h3>辨識用的招式／特性／道具</h3>
+          ${t.manual_only ? `<p class="manual">目前沒有可自動辨識的招式或特性，只能手動標（<code>analysis.roles</code>）。</p>` : terms("招式", t.rules.move) + terms("特性", t.rules.ability) + terms("道具", t.rules.item)}
+        </section>`;
+      }
+    }
+    $("app").innerHTML = html;
+  } catch (e) { $("app").innerHTML = `<p class="note">載入失敗：${esc(e.message)}</p>`; }
+})();
+</script>
+</body>
+</html>
