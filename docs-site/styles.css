@@ -29,6 +29,9 @@ body {
 .logo { font-size: 26px; }
 .logo-img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .brand-title { font-weight: 700; font-size: 16px; }
+.wordmark { height: 34px; width: auto; display: block; flex: none; }
+.brand .brand-sub { padding-left: 12px; border-left: 1px solid var(--border); line-height: 1.2; }
+.topbar.compact .wordmark { height: 28px; }
 .brand-sub { font-size: 12px; color: var(--ink-soft); }
 .head-actions { display: flex; align-items: center; gap: 10px; }
 .try-btn { background: var(--soft-bg); color: var(--soft-text); border: 1px solid var(--soft-border); text-decoration: none; font-size: 14px; font-weight: 600; padding: 7px 13px; border-radius: 9px; white-space: nowrap; }
