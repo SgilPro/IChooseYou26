@@ -51,6 +51,23 @@ node tools/yt/merge-teams.mjs $CH
 5. **抽取**：影格備好後，依 `EXTRACTION_PROMPT.md`（v1.3）平行派 agent，每支一個 agent、各自獨立的暫存目錄、只改自己的 `teams/<id>.json`；結束後跑 `validate-teams.mjs`、`merge-teams.mjs`，再 commit。
 6. **目前狀態**：有「隊伍介紹章節」的會員影片已全部處理完（佇列為空）。尚未處理：朱紫對戰類沒有章節的 40 支、遊戲欄位未標的對戰類 71 支（內容未確認，建議先抽樣）、Champions Bonus 5 支（未看過畫面）、需「高級會員」的 5 支。
 
+## 比賽播報影片（Fiske 講比賽）的隊伍抽取
+
+影片類別 `official-commentary`：轉播畫面會在每場對戰開始時顯示選手隊伍表（中文遊戲 UI：技能、特性、性格箭頭為文字；**道具只有圖示**；沒有努力值）。一支影片只收錄「有出現的」對戰，每個對戰兩隊。
+
+**找隊伍表影格的方法（粗到細，省 token）**
+1. 下載 360p 整支影片到暫存目錄（repo 外）：`yt-dlp -f "bv*[height<=360][ext=mp4]" --cookies <cookies> --sleep-requests 1 …`（會員影片才要 cookies）。
+2. 每 20 秒一張拼成總覽圖：`ffmpeg -i v.mp4 -vf "fps=1/20,scale=240:-2,tile=6x6" sheet_%02d.jpg`，一張 = 12 分鐘（第 n 格 = `(n-1)×20` 秒）。隊伍表畫面（紫色面板格）一眼可辨；對戰畫面、解說席、「VS」字卡也看得出段落。82 分鐘的影片約 7 張圖。
+3. 找到時間點後，只對那幾個時間點下載 720p 的 15~20 秒片段（`--download-sections "*start-end"`），每 5 秒抽一張高畫質影格。
+4. 道具圖示：把每個道具位置放大裁切（ffmpeg `crop`+`scale`+`hstack`），再與 `assets/items/icons/`（PokeAPI 圖示庫）比對；Mega 石看顏色紋路，樹果看形狀與色。把握低的 `item_conf` 設 0.6~0.8。
+5. 人工標記時間點（例如使用者提供「2:11 Chase 的隊伍表」）可以直接略過步驟 1~2。
+
+**資料流程**
+- 規格檔：`data/channels/<ch>/tournament-specs/<videoId>.json`（賽事、對戰、每隊的技能／特性／性格／道具）。
+- `node tools/yt/import-tournament-teams.mjs <channelDir> <videoId>`：產生 `teams/<videoId>.json`（多隊，id `team_<videoId>_<n>`）與 `data/events/<eventId>.json`（賽事→對戰→選手→隊伍）。隊伍帶 `event_id`、`match_id`、`player`、`team_signature`（同配置偵測）、`source_t_s`。
+- 對戰 id＝賽事＋輪次＋選手（排序）；之後抽官方 replay 影片時依同一 match id 補資料，不重複建立。
+- 網頁：`docs-site/matches.html`（暫版，結構與介面之後再優化）。
+
 ## 已知限制
 
 - 標題/章節若不鎖 `youtube:lang=zh-TW` 會被 YouTube 自動翻成英文；`build-videos.mjs` 優先用 description 裡的時間戳重建原文章節。

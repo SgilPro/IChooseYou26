@@ -1,0 +1,60 @@
+{
+  "video_id": "8ACL1XG0vjI",
+  "event": { "id": "naic-2026", "name_zh": "2026 北美洲國際賽", "name_en": "2026 North America International Championships", "game": "champions", "date_approx": "2026-08" },
+  "note": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。",
+  "matches": [
+    { "round": "Round 6", "players": ["Chase Lybbert", "Zachary Weed"], "header_t_s": 108 },
+    { "round": "Top 8", "players": ["Marcus Dion", "Wolfe Glick"], "header_t_s": 2180 },
+    { "round": "Finals", "players": ["Francesco Pio Pero", "Eric Rios"], "header_t_s": 3740 }
+  ],
+  "teams": [
+    { "player": "Chase Lybbert", "round": "Round 6", "t_s": 131, "frames": ["f_015.jpg"], "members": [
+      { "zh": "妙蛙花", "en": "Venusaur", "mega": "Mega", "ability": "厚脂肪", "item": "Venusaurite", "nature": "Modest", "moves": ["污泥炸彈", "大地之力", "終極吸取", "守住"] },
+      { "zh": "長耳兔", "en": "Lopunny", "mega": "Mega", "ability": "膽量", "item": "Lopunnite", "nature": "Jolly", "moves": ["擊掌奇襲", "近身戰", "急速折返", "百萬噸重踢"] },
+      { "zh": "幽尾玄魚", "en": "Basculegion", "ability": "適應力", "item": "Coba Berry", "item_conf": 0.7, "nature": "Jolly", "moves": ["掃墓", "波動衝", "快速折返", "水流噴射"], "gender": "M" },
+      { "zh": "勾魂眼", "en": "Sableye", "ability": "惡作劇之心", "item": "Roseli Berry", "item_conf": 0.6, "nature": "Sassy", "moves": ["反射壁", "光牆", "求雨", "再來一次"] },
+      { "zh": "大嘴鷗", "en": "Pelipper", "ability": "降雨", "item": "Sitrus Berry", "nature": "Bold", "moves": ["暴風", "氣象球", "順風", "守住"] },
+      { "zh": "鋁鋼橋龍", "en": "Archaludon", "ability": "持久力", "item": "Leftovers", "nature": "Modest", "moves": ["電光束", "加農光炮", "龍之波動", "守住"] }
+    ] },
+    { "player": "Zachary Weed", "round": "Round 6", "t_s": 302, "frames": ["f_035.jpg"], "members": [
+      { "zh": "雪妖女", "en": "Froslass", "mega": "Mega", "ability": "降雪", "item": "Froslassite", "nature": "Modest", "moves": ["暴風雪", "暗影球", "極光幕", "守住"] },
+      { "zh": "狠辣椒", "en": "Scovillain", "mega": "Mega", "ability": "辣椒噴發", "item": "Scovillainite", "nature": "Bold", "moves": ["過熱", "終極吸取", "憤怒粉", "守住"] },
+      { "zh": "幽尾玄魚", "en": "Basculegion", "ability": "適應力", "item": "Sitrus Berry", "nature": "Adamant", "moves": ["波動衝", "掃墓", "水流噴射", "守住"], "gender": "M" },
+      { "zh": "仆斬將軍", "en": "Kingambit", "ability": "不服輸", "item": "Black Glasses", "nature": "Adamant", "moves": ["仆斬", "突襲", "劍舞", "守住"] },
+      { "zh": "鬃岩狼人", "en": "Lycanroc-Dusk", "form": "Dusk", "ability": "硬爪", "item": "Focus Band", "nature": "Adamant", "moves": ["岩崩", "近身戰", "衝岩", "守住"] },
+      { "zh": "大扭拉", "en": "Sneasler", "ability": "輕裝", "item": "White Herb", "nature": "Adamant", "moves": ["近身戰", "垃圾射擊", "擊掌奇襲", "守住"] }
+    ] },
+    { "player": "Marcus Dion", "round": "Top 8", "t_s": 2241, "frames": ["marcus_02.jpg"], "members": [
+      { "zh": "雪妖女", "en": "Froslass", "mega": "Mega", "ability": "降雪", "item": "Froslassite", "nature": "Modest", "moves": ["暴風雪", "暗影球", "極光幕", "守住"] },
+      { "zh": "狠辣椒", "en": "Scovillain", "mega": "Mega", "ability": "辣椒噴發", "item": "Scovillainite", "nature": "Bold", "moves": ["過熱", "終極吸取", "憤怒粉", "守住"] },
+      { "zh": "幽尾玄魚", "en": "Basculegion", "ability": "適應力", "item": "Sitrus Berry", "nature": "Adamant", "moves": ["波動衝", "掃墓", "水流噴射", "守住"], "gender": "M" },
+      { "zh": "仆斬將軍", "en": "Kingambit", "ability": "不服輸", "item": "Black Glasses", "nature": "Adamant", "moves": ["仆斬", "突襲", "劍舞", "守住"] },
+      { "zh": "鬃岩狼人", "en": "Lycanroc-Dusk", "form": "Dusk", "ability": "硬爪", "item": "Focus Band", "nature": "Adamant", "moves": ["岩崩", "近身戰", "衝岩", "守住"] },
+      { "zh": "大扭拉", "en": "Sneasler", "ability": "輕裝", "item": "White Herb", "nature": "Adamant", "moves": ["近身戰", "垃圾射擊", "擊掌奇襲", "守住"] }
+    ] },
+    { "player": "Wolfe Glick", "round": "Top 8", "t_s": 2277, "frames": ["wolfe_02.jpg"], "members": [
+      { "zh": "噴火龍", "en": "Charizard", "mega": "Mega-Y", "ability": "日照", "item": "Charizardite Y", "nature": "Timid", "moves": ["守住", "熱風", "日光束", "氣象球"] },
+      { "zh": "大扭拉", "en": "Sneasler", "ability": "輕裝", "item": "White Herb", "nature": "Jolly", "moves": ["守住", "近身戰", "擊掌奇襲", "剋命爪"] },
+      { "zh": "熾焰咆哮虎", "en": "Incineroar", "ability": "威嚇", "item": "Sitrus Berry", "nature": "Impish", "moves": ["擊掌奇襲", "拋下狠話", "閃焰衝鋒", "地獄突刺"] },
+      { "zh": "象牙豬", "en": "Mamoswine", "ability": "遲鈍", "item": "Focus Band", "nature": "Adamant", "moves": ["守住", "冰柱墜擊", "地震", "冰礫"] },
+      { "zh": "超壞星", "en": "Toxapex", "ability": "再生力", "item": "Leftovers", "nature": "Bold", "moves": ["碉堡", "死纏爛打", "劇毒", "廣域防守"] },
+      { "zh": "三首惡龍", "en": "Hydreigon", "ability": "飄浮", "item": "Coba Berry", "item_conf": 0.7, "nature": "Modest", "moves": ["惡之波動", "大地之力", "大聲咆哮", "流星群"] }
+    ] },
+    { "player": "Francesco Pio Pero", "round": "Finals", "t_s": 3779, "frames": ["francesco_02.jpg"], "members": [
+      { "zh": "噴火龍", "en": "Charizard", "mega": "Mega-Y", "ability": "日照", "item": "Charizardite Y", "nature": "Modest", "moves": ["熱風", "日光束", "氣象球", "守住"] },
+      { "zh": "化石翼龍", "en": "Aerodactyl", "mega": "Mega", "ability": "硬爪", "item": "Aerodactylite", "nature": "Jolly", "moves": ["順風", "雙翼", "岩崩", "廣域防守"] },
+      { "zh": "幽尾玄魚", "en": "Basculegion", "ability": "適應力", "item": "Focus Band", "nature": "Adamant", "moves": ["守住", "掃墓", "水流噴射", "水流裂破"], "gender": "M" },
+      { "zh": "仆斬將軍", "en": "Kingambit", "ability": "不服輸", "item": "Chople Berry", "item_conf": 0.7, "nature": "Adamant", "moves": ["突襲", "仆斬", "踢倒", "鐵頭"] },
+      { "zh": "仙子伊布", "en": "Sylveon", "ability": "妖精皮膚", "item": "Fairy Feather", "nature": "Modest", "moves": ["看穿", "巨聲", "哈欠", "電光一閃"] },
+      { "zh": "烈咬陸鯊", "en": "Garchomp", "ability": "粗糙皮膚", "item": "Sitrus Berry", "nature": "Jolly", "moves": ["岩石封鎖", "地震", "龍爪", "守住"] }
+    ] },
+    { "player": "Eric Rios", "round": "Finals", "t_s": 3829, "frames": ["eric_02.jpg"], "members": [
+      { "zh": "噴火龍", "en": "Charizard", "mega": "Mega-Y", "ability": "日照", "item": "Charizardite Y", "nature": "Modest", "moves": ["熱風", "日光束", "氣象球", "守住"] },
+      { "zh": "化石翼龍", "en": "Aerodactyl", "mega": "Mega", "ability": "硬爪", "item": "Aerodactylite", "nature": "Jolly", "moves": ["順風", "雙翼", "岩崩", "冰凍牙"] },
+      { "zh": "奇麒麟", "en": "Farigiraf", "ability": "尾甲", "item": "Sitrus Berry", "nature": "Bold", "moves": ["雙光束", "十萬伏特", "吼叫", "戲法空間"] },
+      { "zh": "仆斬將軍", "en": "Kingambit", "ability": "不服輸", "item": "Focus Band", "nature": "Adamant", "moves": ["突襲", "仆斬", "踢倒", "鐵頭"] },
+      { "zh": "仙子伊布", "en": "Sylveon", "ability": "妖精皮膚", "item": "Fairy Feather", "nature": "Modest", "moves": ["看穿", "巨聲", "破壞光線", "電光一閃"] },
+      { "zh": "烈咬陸鯊", "en": "Garchomp", "ability": "粗糙皮膚", "item": "Soft Sand", "item_conf": 0.8, "nature": "Jolly", "moves": ["踩腳", "地震", "龍爪", "守住"] }
+    ] }
+  ]
+}

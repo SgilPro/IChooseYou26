@@ -45,7 +45,8 @@ jobs:
           mkdir -p _site/app
           cp -r app/dist/* _site/app/
           # 資料線產出（JSON/CSV）一起上站，讓 teams.html 直接讀
-          mkdir -p _site/data/ref _site/data/channels
+          mkdir -p _site/data/ref _site/data/channels _site/data/events
+          cp data/events/*.json _site/data/events/
           cp data/ref/*.json _site/data/ref/
           for ch in data/channels/*/; do
             name=$(basename "$ch"); mkdir -p "_site/data/channels/$name"

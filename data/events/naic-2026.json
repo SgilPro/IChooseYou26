@@ -1,0 +1,84 @@
+{
+  "id": "naic-2026",
+  "name_zh": "2026 北美洲國際賽",
+  "name_en": "2026 North America International Championships",
+  "game": "champions",
+  "date_approx": "2026-08",
+  "matches": [
+    {
+      "id": "naic-2026__round-6__chase-lybbert__zachary-weed",
+      "round": "Round 6",
+      "players": [
+        {
+          "name": "Chase Lybbert",
+          "team_ids": [
+            "team_8ACL1XG0vjI_1"
+          ]
+        },
+        {
+          "name": "Zachary Weed",
+          "team_ids": [
+            "team_8ACL1XG0vjI_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "8ACL1XG0vjI",
+          "header_t_s": 108,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2026__top-8__marcus-dion__wolfe-glick",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Marcus Dion",
+          "team_ids": [
+            "team_8ACL1XG0vjI_3"
+          ]
+        },
+        {
+          "name": "Wolfe Glick",
+          "team_ids": [
+            "team_8ACL1XG0vjI_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "8ACL1XG0vjI",
+          "header_t_s": 2180,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2026__finals__eric-rios__francesco-pio-pero",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Francesco Pio Pero",
+          "team_ids": [
+            "team_8ACL1XG0vjI_5"
+          ]
+        },
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_8ACL1XG0vjI_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "8ACL1XG0vjI",
+          "header_t_s": 3740,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

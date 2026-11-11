@@ -471,6 +471,41 @@
         "null"
       ],
       "description": "pokepaste 的 notes 欄"
+    },
+    "event_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "所屬賽事 id（data/events/<id>.json）。賽事隊伍才有。"
+    },
+    "match_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "所屬對戰 id（賽事＋輪次＋選手排序組成，data/events/<event>.json 的 matches[].id）。之後官方 replay 影片依此補齊，不重複建立。"
+    },
+    "player": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "賽事選手名稱（與 author 相同；author 欄位另有作者歸屬用途）。"
+    },
+    "team_signature": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "配置簽章（物種、特性、道具、性格、招式的雜湊），用來偵測不同選手用同一份配置。"
+    },
+    "source_t_s": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "隊伍表在來源影片中出現的秒數（影片可跳轉）。"
     }
   }
 }
