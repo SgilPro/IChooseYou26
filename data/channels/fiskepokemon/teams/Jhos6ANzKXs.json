@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "VGCPastes",
-    "author_source": "pokepaste",
+    "tags": [
+      "setup"
+    ],
+    "tags_source": "subtitle",
+    "author": "こげぱん",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開牆輔助，與風速狗威嚇組成穩定的強化 core；物防為接快龍太晶一般、頭帶災禍之劍神速。"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特性怒火沖天搭配解睡果與睡覺回血被動特攻 +2，幫隊友開順風，怒火中燒／空氣斬有畏縮機率；偏輔助的高耐久玩法；物防同為接快龍。"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主角，耐久型：詭計強化＋吸取之吻回 3/4 傷害，漆黑嘶鳴打死人特攻 +1；太晶可把低於 60 威力的技能拉到 60；幾乎每場都選出。"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "努力值為接古劍豹突襲與眼鏡振翼髮暗影球；真氣彈主要是在互看配置的比賽中給對手壓力，排位用到機會很少。"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "強化型 core 的一員，威嚇；全隊能打古玉魚的只有風速狗，並靠太晶爆發對付月月熊。"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "配合太晶妖精、引水特性，與幽靈／毒／妖精系隊友同場可完封武道熊師。"
       }
     ],
     "is_members_only": true,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "こげぱん在日本 Teru Fest 拿下前八的靈幽馬＋火焰鳥強化隊。核心為長毛巨魔（開牆）、靈幽馬、火焰鳥，風速狗威嚇，幾乎每場都選出這幾隻；靈幽馬帶詭計強化與吸取之吻走耐久強化輸出，火焰鳥偏輔助（順風、畏縮）。海兔獸搭配太晶妖精與引水專門完封武道熊師。弱點：古玉魚、劍舞月月熊、太晶毒惡系武道熊師；節奏慢，怕對面連續擊中要害。",
     "extracted_at": "2026-11-11T13:27:00.000Z",
     "extracted_by": "import-pokepaste-v1"
   }

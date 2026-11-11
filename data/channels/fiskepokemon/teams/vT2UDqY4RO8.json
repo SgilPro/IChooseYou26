@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 3763677",
-    "author_source": "pokepaste",
+    "tags": [
+      "sand"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "鹽石壘為鹽石巨靈的兒子，具潔淨之鹽與鹽醃，搭配進化奇石雙防不錯，鐵壁撲擊玩法與鹽石巨靈相同；選兒子時上場就鐵壁撲擊。"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "爸爸版本，上場廣防鹽醃；成功鐵壁一兩次後可完封物攻手。"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "強化手，龍舞配合沙暴，耐久不算太差，可吃下一次克制技能。"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶強化輸出，沙暴開局；太晶飛行爆發是對付棄世猴的唯一手段（但頭帶無法賭正牌）。"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "長嚎高速輔助班基拉斯或鐵荊棘強化（約為兩倍傷害），理論上強化後可一倍傷害秒人。"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心搭配沙暴使特防極高，對特攻手較有優勢。"
       }
     ],
     "is_members_only": true,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 為「Fiske 週末盃 #6」（同屬性大賽）組的岩石系隊：沙暴兄弟（班基拉斯、鬃岩狼人等）、鹽醃兄弟（鹽石巨靈、鹽石壘）加晶光花。鬃岩狼人長嚎輔助班基拉斯（講究頭帶）或鐵荊棘龍舞強化。作者比賽當天最高第四名，全場約 80 人只有他玩岩石系；缺點是弱點多、速度慢，遇到水系等克制屬性的隊伍很吃力，岩石系也難找輔助手掩護強化。",
     "extracted_at": "2026-11-11T13:27:02.085Z",
     "extracted_by": "import-pokepaste-v1"
   }

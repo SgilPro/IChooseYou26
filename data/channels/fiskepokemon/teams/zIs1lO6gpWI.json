@@ -9,10 +9,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "sun",
+      "setup"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske",
-    "author_source": "pokepaste",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +92,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天；鐵壁撲擊配置，毽子棉急速折返返出後打出 +2 晴天熱風，帶清除之煙。"
       },
       {
         "slot": 2,
@@ -166,7 +169,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "憤怒粉掩護鐵臂膀，花粉團補血，再來一次限制對手，急速折返觸發隊友弱點保險。"
       },
       {
         "slot": 3,
@@ -243,7 +246,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險（弱蟲不必太晶即可觸發）、漂浮不怕地震、可開順風，熱風高威力範圍技能。"
       },
       {
         "slot": 4,
@@ -320,7 +323,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "腹鼓強化後以地震、岩崩輸出，需要掩護手與控速輔助。"
       },
       {
         "slot": 5,
@@ -397,7 +400,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極速控速輔助；晴天下魔法火焰相當於本系威力。"
       },
       {
         "slot": 6,
@@ -474,7 +477,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "紅牌搭配輕裝特性，變小加冥想近乎無敵；帶清除之煙（Fiske 認為吸取力量可能更好）。"
       }
     ],
     "is_members_only": true,
@@ -490,7 +493,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 本人組的隊伍，參加 Fiske 週末盃 #1（全隊不能帶本系技能）並在 11 場中拿下結算第一。以強化為主的晴天隊：鐵臂膀腹鼓後打地震、岩崩，毽子棉憤怒粉掩護並用急速折返觸發三首惡龍的弱點保險，再返出煤炭龜開晴天，打出 +2 晴天熱風；振翼髮極速控速。隨風球走紅牌加輕裝特性的變小冥想，煤炭龜走鐵壁撲擊。努力值多為簡單的 252。Fiske 事後認為隨風球的清除之煙可換成吸取力量，並自評強度還可以。",
     "extracted_at": "2026-11-11T13:27:08.381Z",
     "extracted_by": "import-pokepaste-v1"
   }

@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 4588302",
-    "author_source": "pokepaste",
+    "tags": [
+      "sun"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限零耐久（252 物攻／252 速度，個體值與努力值都不滿），摸一下摸出氣勢披帶後以復仇反殺；超幸運加暗襲每次攻擊約 50% 擊中要害；專門 counter 吃吼霸並免疫地震。"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "全場宇宙第一高速輸出手：蒸汽機被水系技能打到速度 +6，弱點保險使第一回合能打出 +2 岩崩、地震、大爆炸；打不過吃吼霸。"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "膽小性格但速度只加到剛好在晴天下超過特攻，目的是對付內斂振翼髮與帶圍巾的人；突襲專門處理脆皮速攻手，使其沒機會出手。"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天兄弟之一，帶地震。"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天，太晶飛行讓水系技能在晴天減半並免疫地震；對吃吼霸太晶鋼就過熱、不太晶就日光束；物防極高。"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "水流噴射輸出手，晴天兄弟之一，不用怕憤怒粉與看我嘛（規則下沒有人帶）。"
       }
     ],
     "is_members_only": true,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Fiske 為「Fiske 週末盃 #5」（直球對決大賽：禁用所有變化技能）組的烏鴉頭頭＋巨炭山晴天隊，最終拿下第一名。巨炭山在無順風下速度最快，被水系技能打到速度 +6，配弱點保險可第一回合打出 +2 岩崩、地震、大爆炸；波盪水為水流噴射輸出手，煤炭龜開晴天，可切換為四晴天兄弟模式。烏鴉頭頭極限零耐久，靠復仇反殺吃吼霸；煤炭龜太晶飛行搭晴天壓制吃吼霸。作者比賽當天遇到七八次吃吼霸，影片中一次都沒打出復仇。",
     "extracted_at": "2026-11-11T13:27:03.208Z",
     "extracted_by": "import-pokepaste-v1"
   }

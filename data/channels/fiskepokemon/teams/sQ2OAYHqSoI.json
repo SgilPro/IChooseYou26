@@ -10,11 +10,13 @@
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
     "tags": [
-      "perish-trap"
+      "perish-trap",
+      "tailwind",
+      "trick-room"
     ],
-    "tags_source": "title",
-    "author": "VGCPastes",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Kasty",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -91,7 +93,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "龍舞強化；速度實際值 129，龍舞一段後剛好超過假面喵；只帶冰錐與太晶爆發。"
       },
       {
         "slot": 2,
@@ -168,7 +170,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌配置的收尾手，食草特性；水加妖精攻防優秀，弱點只剩毒與電；速度實際值 71，與仆斬將軍、鐵掌力士、勾魂眼同速時要小心先倒。"
       },
       {
         "slot": 3,
@@ -245,7 +247,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "遲鈍特性免疫挑釁；擊掌奇襲、定身法、再來一次、鬼火、蠻幹等干擾技能；酸液炸彈降兩段特防，過熱 130 威力一發秒弱火的盾菇或賽富豪，打完觸發避難背包退場；速度實際值為系列一前幾快。"
       },
       {
         "slot": 4,
@@ -322,7 +324,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "提供順風，酸液炸彈後以惡之波動或加農光炮輸出；沒帶流星群。"
       },
       {
         "slot": 5,
@@ -399,7 +401,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "提供戲法空間；格鬥系聖劍威力高但貫穿性不佳，速度實際值 107（順風後超過多龍巴魯托）；太晶超能力沒有好的使用時機。"
       },
       {
         "slot": 6,
@@ -492,7 +494,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "隊伍作者是 Kasty（曾拿義大利與西班牙全國賽冠軍各一次）；Fiske 稱之為焰后蜥的順風空間滅歌隊，但也說這不算標準滅歌隊，因為沒有踩影、威嚇與逃脫按鍵。焰后蜥用擊掌奇襲、酸液炸彈降兩段特防，搭配三首惡龍惡之波動或加農光炮，沒事做打過熱觸發避難背包退場；再來一次逼對手鎖技能後由瑪力露麗唱滅歌收尾。順風由三首惡龍、空間由艾路雷朵、龍舞由戟脊龍提供。弱點是整體爆發輸出低（瑪力露麗、盾菇沒有輸出），艾路雷朵的太晶超能力沒有好時機。努力值多半沒加滿攻擊，耐久偏高、節奏較慢。",
     "extracted_at": "2026-11-11T13:27:10.491Z",
     "extracted_by": "import-pokepaste-v1"
   }

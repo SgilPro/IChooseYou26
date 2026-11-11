@@ -9,10 +9,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 6150382",
-    "author_source": "pokepaste",
+    "tags": [
+      "balance"
+    ],
+    "tags_source": "subtitle",
+    "author": "Joseph Ugarte",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -89,7 +91,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡禍不單行，首發配雷電雲電磁波降速後轟掉對面關鍵輸出手或輔助手；太晶妖精也接不了。"
       },
       {
         "slot": 2,
@@ -166,7 +168,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "怪異電波讓特攻手無法輸出、電磁波降速，也能先手挑釁防睡；耐久型。"
       },
       {
         "slot": 3,
@@ -243,7 +245,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇手，常與古簡蝸或雷電雲一起首發；可威嚇後急速折返讓後排輸出。"
       },
       {
         "slot": 4,
@@ -320,7 +322,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "災禍之簡降低全場自身以外的物攻（不影響自己欺詐傷害，欺詐用對面物攻值），大聲咆哮削弱特攻；字幕說欺詐對帶劍舞的月月熊約打掉 85% HP。"
       },
       {
         "slot": 5,
@@ -397,7 +399,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特殊耐久配置（140 HP、236 特防）搭怪異電波，可不開太晶接下對面太晶妖精、眼鏡振翼髮的月亮之力；水系水流連打；字幕說選出率較低，適合處理特攻手與弱水系物攻手。"
       },
       {
         "slot": 6,
@@ -474,7 +476,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "熱風、大地之力、替身、守住的傳統配置，剩飯替身用來對付蘑菇孢子、電磁波、鹽醃；太晶妖精完封惡系武道熊師與古玉魚，但抵抗不了水流連打，且難打帶太晶草加農光砲的對面席多藍恩；字幕說選出率較低。"
       }
     ],
     "is_members_only": true,
@@ -490,7 +492,7 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
+    "notes": "Joseph Ugarte 在 2023 世界冠軍賽打進 32 強的古簡蝸＋雷電雲平衡隊（也是 Day 2 唯一帶古簡蝸的選手）。原本核心是雷電雲、土地雲、振翼髮，草系位從金剛猩換成古簡蝸後綜效很好；土地雲威嚇、雷電雲怪異電波、古簡蝸大聲咆哮與災禍之簡讓耐久很高、容錯率高。預設首發雷電雲＋振翼髮，或雷電雲＋土地雲；物攻多的對手可首發古簡蝸＋土地雲，特攻手多（如空間隊）可首發古簡蝸＋雷電雲。弱點：爆發輸出不足，打很受的隊伍難突破；鳴雷風暴、電磁波、岩崩、熱風、大聲咆哮命中不滿，速度偏慢；古簡蝸、席多藍恩、雷電雲都需要防禦太晶，判斷太晶時機與對象是關鍵。",
     "extracted_at": "2026-11-11T13:26:56.902Z",
     "extracted_by": "import-pokepaste-v1"
   }

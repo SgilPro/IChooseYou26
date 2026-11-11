@@ -57283,7 +57283,7 @@
     "review_status": "auto",
     "review_notes": null,
     "notes": null,
-    "extracted_at": "2026-11-10T02:42:44.781Z",
+    "extracted_at": "2026-11-11T13:26:54.785Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "挑戰主流！冰岩怪與毒刺水母，組隊邏輯讓人看不懂，卻能打贏對手？【寶可夢朱紫】#寶可夢對戰 #級別對戰 #雙打對戰",
     "video_published_at": "2024-11-27",
@@ -76135,7 +76135,7 @@
     "review_status": "auto",
     "review_notes": null,
     "notes": null,
-    "extracted_at": "2026-11-10T02:42:45.822Z",
+    "extracted_at": "2026-11-11T13:26:55.867Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "起源空間神，龍聲鼓舞的帕路奇亞（會員版 對戰影片）",
     "video_published_at": "2024-06-22",
@@ -93957,10 +93957,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 6150382",
-    "author_source": "pokepaste",
+    "tags": [
+      "balance"
+    ],
+    "tags_source": "subtitle",
+    "author": "Joseph Ugarte",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -94037,7 +94039,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "眼鏡禍不單行，首發配雷電雲電磁波降速後轟掉對面關鍵輸出手或輔助手；太晶妖精也接不了。"
       },
       {
         "slot": 2,
@@ -94114,7 +94116,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "怪異電波讓特攻手無法輸出、電磁波降速，也能先手挑釁防睡；耐久型。"
       },
       {
         "slot": 3,
@@ -94191,7 +94193,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇手，常與古簡蝸或雷電雲一起首發；可威嚇後急速折返讓後排輸出。"
       },
       {
         "slot": 4,
@@ -94268,7 +94270,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "災禍之簡降低全場自身以外的物攻（不影響自己欺詐傷害，欺詐用對面物攻值），大聲咆哮削弱特攻；字幕說欺詐對帶劍舞的月月熊約打掉 85% HP。"
       },
       {
         "slot": 5,
@@ -94345,7 +94347,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特殊耐久配置（140 HP、236 特防）搭怪異電波，可不開太晶接下對面太晶妖精、眼鏡振翼髮的月亮之力；水系水流連打；字幕說選出率較低，適合處理特攻手與弱水系物攻手。"
       },
       {
         "slot": 6,
@@ -94422,7 +94424,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "熱風、大地之力、替身、守住的傳統配置，剩飯替身用來對付蘑菇孢子、電磁波、鹽醃；太晶妖精完封惡系武道熊師與古玉魚，但抵抗不了水流連打，且難打帶太晶草加農光砲的對面席多藍恩；字幕說選出率較低。"
       }
     ],
     "is_members_only": true,
@@ -94438,8 +94440,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:46.854Z",
+    "notes": "Joseph Ugarte 在 2023 世界冠軍賽打進 32 強的古簡蝸＋雷電雲平衡隊（也是 Day 2 唯一帶古簡蝸的選手）。原本核心是雷電雲、土地雲、振翼髮，草系位從金剛猩換成古簡蝸後綜效很好；土地雲威嚇、雷電雲怪異電波、古簡蝸大聲咆哮與災禍之簡讓耐久很高、容錯率高。預設首發雷電雲＋振翼髮，或雷電雲＋土地雲；物攻多的對手可首發古簡蝸＋土地雲，特攻手多（如空間隊）可首發古簡蝸＋雷電雲。弱點：爆發輸出不足，打很受的隊伍難突破；鳴雷風暴、電磁波、岩崩、熱風、大聲咆哮命中不滿，速度偏慢；古簡蝸、席多藍恩、雷電雲都需要防禦太晶，判斷太晶時機與對象是關鍵。",
+    "extracted_at": "2026-11-11T13:26:56.902Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "災厄之恥的逆襲！2023 世界冠軍賽的最強古簡蝸隊【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-09-12",
@@ -96388,8 +96390,8 @@
     "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Guest 10077906",
-    "author_source": "pokepaste",
+    "author": "マイケル",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -96466,7 +96468,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "威嚇手，唯一同時有威嚇與特性互換的寶可夢，可自己威嚇自己讓急凍鳥觸發好勝；也能開戲法空間。"
       },
       {
         "slot": 2,
@@ -96543,7 +96545,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍核心：好勝在被降能力時特攻 +2，空氣利刃（本系範圍技、擊中要害等級 +1）配焦點鏡，每次攻擊至少一人擊中要害機率約 75%；輸出依賴強化，沒觸發好勝就等於廢掉一半。"
       },
       {
         "slot": 3,
@@ -96620,7 +96622,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與詭角鹿同為威嚇手，是不錯的首發搭配；物攻模式下也是輸出手。"
       },
       {
         "slot": 4,
@@ -96774,7 +96776,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "物攻兄弟模式的首發輸出手，古劍豹搭頭帶快龍是高火力首發。"
       },
       {
         "slot": 6,
@@ -96851,7 +96853,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "物攻兄弟之一；字幕說快龍到朱紫靠太晶化才翻身。"
       }
     ],
     "is_members_only": true,
@@ -96867,8 +96869,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:48.746Z",
+    "notes": "マイケル 的伽勒爾急凍鳥好勝兄弟隊：急凍鳥的好勝（被降能力特攻 +2）搭配焦點鏡空氣利刃，作為物攻兄弟的反威嚇手。詭角鹿有威嚇與特性互換，能自己威嚇自己，並可開戲法空間；兩種模式：詭角鹿＋急凍鳥、鐵臂膀或土地雲首發開空間，或古劍豹＋任一物攻小弟首發、後排放其餘（對面不敢帶威嚇時火力很猛）。弱點：需要成功觸發好勝，急凍鳥本身不強、需要較多判斷保血；遇古劍豹＋頭帶快龍、古玉魚＋眼鏡振翼髮等高火力首發，第一回合猜錯 combo 容易失敗；對盾菇、賽富豪較難打。",
+    "extracted_at": "2026-11-11T13:26:57.938Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "急凍鳥的兄弟們，從來不會善罷甘休【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-08-15",
@@ -97017,11 +97019,12 @@
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
     "tags": [
-      "sand"
+      "sand",
+      "hyper-offense"
     ],
-    "tags_source": "title",
-    "author": "Guest 12618522",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Shusuke",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -97098,7 +97101,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主要 core，太晶幽靈、遲鈍特性，不怕威嚇、擊掌奇襲、聖劍，並完封土地雲、金剛猩、鐵臂膀（威嚇不動又拍不到、物攻技能也打不太動）；暗冥強擊必定擊中要害使武道熊師是其天敵之一。"
       },
       {
         "slot": 2,
@@ -97252,7 +97255,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "沙暴兄弟之一；速度 164，剛好比極速武道熊師快 1，重踏一次後可快過 100 種族值的對手。"
       },
       {
         "slot": 4,
@@ -97329,7 +97332,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "沙暴兄弟之一，252 物攻 252 速度。"
       },
       {
         "slot": 5,
@@ -97406,7 +97409,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "生命寶珠、接近極限特攻的配置，補充隊伍進攻 coverage；對龍捲雲、古玉魚、對面席多藍恩與吃吼霸表現穩定；作者原本想放火神蛾，字幕說選出率沒那麼高。"
       },
       {
         "slot": 6,
@@ -97477,7 +97480,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "補位但選出率非常高、表現很好；太晶水，妖精系完封暗冥強擊與近身戰、太晶水抵抗水流連打，眼鏡巨聲可秒掉兩種型態的武道熊師。"
       }
     ],
     "is_members_only": true,
@@ -97493,8 +97496,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:49.774Z",
+    "notes": "Shusuke 在規則 D 排位賽季結算取得第 6、第 10 名的仙子伊布沙暴隊，成員多是規則 A 熱門老面孔，唯一規則 D 新成員是席多藍恩（補進攻 coverage）。非常 hyper offense：幾乎每人極限物攻或特攻，帶滿三種講究道具（米立龍圍巾、班基拉斯頭帶、仙子伊布眼鏡），吃吼霸與鬃岩狼人不帶守住，一場通常八分鐘內打完。吃吼霸是太晶幽靈的遲鈍特性，不怕威嚇、擊掌奇襲、聖劍。基本首發兩種：兩隻沙暴兄弟、後排吃吼霸；或吃吼霸＋仙子伊布／席多藍恩、後排米立龍與另一隻。弱點：猜錯太晶或首發就很難輪轉聯防；幾乎沒加耐久，速度多比對面爽朗／膽小慢。",
+    "extracted_at": "2026-11-11T13:26:58.970Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "世界排名第六的仙子伊布隊！沙暴強攻，快速上分【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-08-11",
@@ -97655,10 +97658,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "VGCPastes",
-    "author_source": "pokepaste",
+    "tags": [
+      "setup"
+    ],
+    "tags_source": "subtitle",
+    "author": "こげぱん",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -97735,7 +97740,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開牆輔助，與風速狗威嚇組成穩定的強化 core；物防為接快龍太晶一般、頭帶災禍之劍神速。"
       },
       {
         "slot": 2,
@@ -97812,7 +97817,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "特性怒火沖天搭配解睡果與睡覺回血被動特攻 +2，幫隊友開順風，怒火中燒／空氣斬有畏縮機率；偏輔助的高耐久玩法；物防同為接快龍。"
       },
       {
         "slot": 3,
@@ -97889,7 +97894,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主角，耐久型：詭計強化＋吸取之吻回 3/4 傷害，漆黑嘶鳴打死人特攻 +1；太晶可把低於 60 威力的技能拉到 60；幾乎每場都選出。"
       },
       {
         "slot": 4,
@@ -97966,7 +97971,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "努力值為接古劍豹突襲與眼鏡振翼髮暗影球；真氣彈主要是在互看配置的比賽中給對手壓力，排位用到機會很少。"
       },
       {
         "slot": 5,
@@ -98043,7 +98048,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "強化型 core 的一員，威嚇；全隊能打古玉魚的只有風速狗，並靠太晶爆發對付月月熊。"
       },
       {
         "slot": 6,
@@ -98120,7 +98125,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "配合太晶妖精、引水特性，與幽靈／毒／妖精系隊友同場可完封武道熊師。"
       }
     ],
     "is_members_only": true,
@@ -98136,8 +98141,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:50.804Z",
+    "notes": "こげぱん在日本 Teru Fest 拿下前八的靈幽馬＋火焰鳥強化隊。核心為長毛巨魔（開牆）、靈幽馬、火焰鳥，風速狗威嚇，幾乎每場都選出這幾隻；靈幽馬帶詭計強化與吸取之吻走耐久強化輸出，火焰鳥偏輔助（順風、畏縮）。海兔獸搭配太晶妖精與引水專門完封武道熊師。弱點：古玉魚、劍舞月月熊、太晶毒惡系武道熊師；節奏慢，怕對面連續擊中要害。",
+    "extracted_at": "2026-11-11T13:27:00.000Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "輕鬆堆滿輸出，還能無限回血續航的超強靈幽馬隊！【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-08-03",
@@ -98219,11 +98224,12 @@
     "regulation_set_id": "sv-reg-d",
     "regulation_source": "date-inferred",
     "tags": [
+      "tailwind",
       "meme-gimmick"
     ],
-    "tags_source": "title",
-    "author": "BadP1ayer",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -98300,7 +98306,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "擊掌奇襲加無形拳的先手壓制；與振翼髮／武道熊師首發可先拍輔助手或難處理的對象。"
       },
       {
         "slot": 2,
@@ -98377,7 +98383,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "輕裝＋模仿香草核心，太晶幽靈暗影爪（原為剋命爪／太晶飛行）、岩崩、雜技；速度剛好在輕裝下超過順風古玉魚，岩崩可秒 252 HP 古玉魚，太晶暗影爪秒極限物防賽富豪。"
       },
       {
         "slot": 3,
@@ -98454,7 +98460,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "反空間、反先制，爽喉噴霧後巨聲輸出不錯；對空間隊與不開空間的幽靈系（振翼髮、賽富豪）都有壓制力。"
       },
       {
         "slot": 4,
@@ -98531,7 +98537,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與金剛猩先手壓制；耐久可接爽朗古劍豹的冰柱墜擊與冰旋，木槌可秒滿血振翼髮。"
       },
       {
         "slot": 5,
@@ -98608,7 +98614,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "虛張聲勢＋枯葉風暴＋順風；道具廣角鏡同時提高兩招命中（心靈香草為替代）；對手龍捲雲常被首發對上。"
       },
       {
         "slot": 6,
@@ -98685,7 +98691,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與金剛猩／奇麒麟配首發，擊掌奇襲加無形拳或暗冥強擊；可接冰柱墜擊與冰旋。"
       }
     ],
     "is_members_only": true,
@@ -98701,8 +98707,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:51.850Z",
+    "notes": "Fiske 自組的輕裝大狃拉＋虛張聲勢隊：外觀像龍捲雲＋轟擂金剛猩的順風隊，但實際不常開順風；龍捲雲虛張聲勢讓對面物攻 +2，大狃拉模仿香草複製後輕裝使物攻與速度翻倍，先手幫隊友連續龍舞。奇麒麟負責反空間、反先制。首發常見龍捲雲＋大狃拉、金剛猩＋振翼髮或武道熊師、奇麒麟＋武道熊師。弱點：虛張聲勢 93.5%、枯葉風暴 88%、岩崩 90% 命中不穩，作者在 Showdown 約 1700 分、排位前 200 多名。",
+    "extracted_at": "2026-11-11T13:27:01.037Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "用超冷門的地雷配置，第一回合物攻 & 速度翻倍把對面秒殺的輕裝兄弟！【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-07-27",
@@ -102053,10 +102059,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 3763677",
-    "author_source": "pokepaste",
+    "tags": [
+      "sand"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -102133,7 +102141,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "鹽石壘為鹽石巨靈的兒子，具潔淨之鹽與鹽醃，搭配進化奇石雙防不錯，鐵壁撲擊玩法與鹽石巨靈相同；選兒子時上場就鐵壁撲擊。"
       },
       {
         "slot": 2,
@@ -102210,7 +102218,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "爸爸版本，上場廣防鹽醃；成功鐵壁一兩次後可完封物攻手。"
       },
       {
         "slot": 3,
@@ -102287,7 +102295,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "強化手，龍舞配合沙暴，耐久不算太差，可吃下一次克制技能。"
       },
       {
         "slot": 4,
@@ -102364,7 +102372,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究頭帶強化輸出，沙暴開局；太晶飛行爆發是對付棄世猴的唯一手段（但頭帶無法賭正牌）。"
       },
       {
         "slot": 5,
@@ -102441,7 +102449,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "長嚎高速輔助班基拉斯或鐵荊棘強化（約為兩倍傷害），理論上強化後可一倍傷害秒人。"
       },
       {
         "slot": 6,
@@ -102518,7 +102526,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "突擊背心搭配沙暴使特防極高，對特攻手較有優勢。"
       }
     ],
     "is_members_only": true,
@@ -102534,8 +102542,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:53.178Z",
+    "notes": "Fiske 為「Fiske 週末盃 #6」（同屬性大賽）組的岩石系隊：沙暴兄弟（班基拉斯、鬃岩狼人等）、鹽醃兄弟（鹽石巨靈、鹽石壘）加晶光花。鬃岩狼人長嚎輔助班基拉斯（講究頭帶）或鐵荊棘龍舞強化。作者比賽當天最高第四名，全場約 80 人只有他玩岩石系；缺點是弱點多、速度慢，遇到水系等克制屬性的隊伍很吃力，岩石系也難找輔助手掩護強化。",
+    "extracted_at": "2026-11-11T13:27:02.085Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "在寶可夢世界用 Minecraft 角色打對戰【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-06-08",
@@ -103851,10 +103859,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Guest 4588302",
-    "author_source": "pokepaste",
+    "tags": [
+      "sun"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -103931,7 +103941,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極限零耐久（252 物攻／252 速度，個體值與努力值都不滿），摸一下摸出氣勢披帶後以復仇反殺；超幸運加暗襲每次攻擊約 50% 擊中要害；專門 counter 吃吼霸並免疫地震。"
       },
       {
         "slot": 2,
@@ -104008,7 +104018,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "全場宇宙第一高速輸出手：蒸汽機被水系技能打到速度 +6，弱點保險使第一回合能打出 +2 岩崩、地震、大爆炸；打不過吃吼霸。"
       },
       {
         "slot": 3,
@@ -104085,7 +104095,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "膽小性格但速度只加到剛好在晴天下超過特攻，目的是對付內斂振翼髮與帶圍巾的人；突襲專門處理脆皮速攻手，使其沒機會出手。"
       },
       {
         "slot": 4,
@@ -104162,7 +104172,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "晴天兄弟之一，帶地震。"
       },
       {
         "slot": 5,
@@ -104239,7 +104249,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天，太晶飛行讓水系技能在晴天減半並免疫地震；對吃吼霸太晶鋼就過熱、不太晶就日光束；物防極高。"
       },
       {
         "slot": 6,
@@ -104316,7 +104326,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "水流噴射輸出手，晴天兄弟之一，不用怕憤怒粉與看我嘛（規則下沒有人帶）。"
       }
     ],
     "is_members_only": true,
@@ -104332,8 +104342,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:54.208Z",
+    "notes": "Fiske 為「Fiske 週末盃 #5」（直球對決大賽：禁用所有變化技能）組的烏鴉頭頭＋巨炭山晴天隊，最終拿下第一名。巨炭山在無順風下速度最快，被水系技能打到速度 +6，配弱點保險可第一回合打出 +2 岩崩、地震、大爆炸；波盪水為水流噴射輸出手，煤炭龜開晴天，可切換為四晴天兄弟模式。烏鴉頭頭極限零耐久，靠復仇反殺吃吼霸；煤炭龜太晶飛行搭晴天壓制吃吼霸。作者比賽當天遇到七八次吃吼霸，影片中一次都沒打出復仇。",
+    "extracted_at": "2026-11-11T13:27:03.208Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "火力全開的蒸汽兄弟與盜版黑暗鴉【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-31",
@@ -104425,9 +104435,9 @@
     "tags": [
       "snow"
     ],
-    "tags_source": "title",
-    "author": "wochiellout",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Toler Webb",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -104504,7 +104514,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "超高速（驅勁能量加速後 267）；對面有黑暗鴉晴天、毽子棉晴天、賽富豪或暴鯉龍平衡隊時首發搭配蒼炎刃鬼。"
       },
       {
         "slot": 2,
@@ -104581,7 +104591,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "雪天主角之一，極光幕輔助後排蒼炎刃鬼或青銅鐘強化／開空間；打吃吼霸靠飛葉風暴，純樸無視特攻下降；多放後排。"
       },
       {
         "slot": 3,
@@ -104658,7 +104668,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "劍舞強化，速度加到 108（順風下超過多龍巴魯托）；可完封風速狗與盾菇，打吃吼霸時雪天物防加成，保持血量健康。"
       },
       {
         "slot": 4,
@@ -104735,7 +104745,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開順風、花粉團補血、憤怒粉掩護、友情防守輔助隊友；與古鼎鹿的組合是最無腦的模式。"
       },
       {
         "slot": 5,
@@ -104812,7 +104822,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "耐久極高，講究頭帶太晶地面地震；速度 80（順風下相當於 94 種族值極限速度）；7 場靠順風地震推掉對面全隊。"
       },
       {
         "slot": 6,
@@ -104889,7 +104899,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開空間與鐵壁撲擊強化，放後排在適當時機補上；完封戟脊龍，克制空間下的振翼髮、古玉魚、古劍豹。"
       }
     ],
     "is_members_only": true,
@@ -104905,8 +104915,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:55.239Z",
+    "notes": "Toler Webb（2012 世界賽少年組冠軍）在 Hartford 地區賽進入第二天、Showdown 打到約 1900 分的雪天隊，核心為蒼炎刃鬼與古鼎鹿，延續ゆず規則 B 的蒼炎刃鬼＋彩粉蝶核心。三種模式：彩粉蝶＋古鼎鹿（順風地震）、青銅鐘後排開戲法空間（counter 振翼髮、古玉魚、古劍豹、戟脊龍）、雪天模式（暴雪王極光幕）；打吃吼霸靠雪天兄弟加飛葉風暴。缺點：不好輪轉，屬性聯防普通。",
+    "extracted_at": "2026-11-11T13:27:04.239Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "簡單又強勢的雪天兄弟，正在主宰流行！【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-26",
@@ -105014,10 +105024,12 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "BadP1ayer",
-    "author_source": "pokepaste",
+    "tags": [
+      "meme-gimmick"
+    ],
+    "tags_source": "subtitle",
+    "author": "Fiske",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -105094,7 +105106,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與驚角鹿的威嚇 combo：被威嚇後觸發不服輸。"
       },
       {
         "slot": 2,
@@ -105248,7 +105260,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍主角：惡作劇之心讓一般系技能打到的對象隨機，仿效隊友的神速配合太晶一般與生命寶珠輸出；打不到幽靈與惡系。"
       },
       {
         "slot": 4,
@@ -105325,7 +105337,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與驚角鹿的威嚇 combo：被威嚇後觸發好勝。"
       },
       {
         "slot": 5,
@@ -105402,7 +105414,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "硬爪使接觸類技能威力 +30%，配合太晶岩石與塗標客仿效，打出先制 +1 的雙衝岩收掉耐久低或弱岩石的對手。"
       },
       {
         "slot": 6,
@@ -105479,7 +105491,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "與哥德小姐或劈斬司令組威嚇 combo：威嚇對手後讓對手威嚇自己，觸發好勝或不服輸。"
       }
     ],
     "is_members_only": true,
@@ -105495,8 +105507,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:56.269Z",
+    "notes": "Fiske 週末盃 #4（種族值低於 493 限定）的參賽隊，主打惡作劇之心塗標客：讓隊友先打出神速，塗標客再仿效，配合太晶一般與生命寶珠打出近似先制 +1 逆鱗的高傷害（對象隨機、打不到幽靈與惡）。鬃岩狼人硬爪加太晶岩石，同樣能借仿效打出先制雙衝岩。另一組 combo 是驚角鹿搭哥德小姐或劈斬司令，威嚇後讓對手威嚇回來觸發好勝／不服輸。遇高速隊伍改開空間，努力值多為加輸出與耐久的 252。Fiske 自評強度不高、不建議排位，只是想嘗試有趣的組合。",
+    "extracted_at": "2026-11-11T13:27:05.267Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "神速塗標客與客家快龍覺醒【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-23",
@@ -106193,9 +106205,9 @@
       "trick-room",
       "perish-trap"
     ],
-    "tags_source": "title",
-    "author": "sportaholic",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Long Nguyen",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -106272,7 +106284,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "兩種模式每場必選；物攻剛好可秒殺滿血轟鳴月。"
       },
       {
         "slot": 2,
@@ -106349,7 +106361,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "純滅歌模式一定選出。"
       },
       {
         "slot": 3,
@@ -106580,7 +106592,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "講究眼鏡且沒帶守住，不建議用在純滅歌模式；空間輸出手。"
       },
       {
         "slot": 6,
@@ -106657,7 +106669,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "音速拳、種子機關槍、蘑菇孢子、守住，252 物攻；極限速度時先手睡人，需要時太晶草增加種子機關槍威力。"
       }
     ],
     "is_members_only": true,
@@ -106673,8 +106685,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:57.314Z",
+    "notes": "越南玩家 Long Nguyen 的隊伍，據稱在 Pokemon Showdown 從約 1600 分打到 1800 多分。有兩種模式：純滅歌（踩影唱滅亡之歌）與空間輸出；兩者共通的是吼叫尾，純滅歌一定選哥德小姐。斗笠菇用音速拳、種子機關槍、蘑菇孢子、守住，252 物攻，需要時太晶草；奇麒麟帶講究眼鏡沒帶守住，所以純滅歌模式不建議選。風速狗、奇麒麟、古鼎鹿加滿物攻或特攻負責空間下的輸出。空間外全隊速度都不快，除非對面也是空間隊，否則不建議首發空間組。",
+    "extracted_at": "2026-11-11T13:27:06.314Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "睡你全家的滅歌空間隊【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-13",
@@ -106781,9 +106793,9 @@
     "tags": [
       "stall"
     ],
-    "tags_source": "title",
+    "tags_source": "subtitle",
     "author": "Fiske",
-    "author_source": "pokepaste",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -106860,7 +106872,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "隊伍核心：食草加太晶水僅剩電系弱點，丟寄生種子與劇毒磨血。"
       },
       {
         "slot": 2,
@@ -106937,7 +106949,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "接近極限特防，威嚇、撒嬌、大聲咆哮削弱輸出後用晨光回血；帶防塵鏡與噴射火焰，食草特性可免疫蘑菇孢子（對盾菇）。"
       },
       {
         "slot": 3,
@@ -107014,7 +107026,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "死纏爛打把不好處理的對手鎖在場上，並與夢妖的詛咒配合處理毒與鋼系。"
       },
       {
         "slot": 4,
@@ -107091,7 +107103,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "252 物防、252 特防，進化奇石；詛咒不受替身與守住阻擋，補分擔痛楚回滿 HP。"
       },
       {
         "slot": 5,
@@ -107168,7 +107180,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶挑釁，以定身法與再來一次限制對手（用來處理盾菇）。"
       },
       {
         "slot": 6,
@@ -107245,7 +107257,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶挑釁、龍舞，與風速狗搭配走強化進攻；太晶毒只剩超能力弱點，隊上唯一輸出手；惡系可免疫惡作劇之心輔助手。"
       }
     ],
     "is_members_only": true,
@@ -107261,8 +107273,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:58.364Z",
+    "notes": "Fiske 週末盃 #2（只能用物攻或特攻種族值較低那一邊的技能）的參賽隊，以坐騎山羊為核心的受隊。坐騎山羊食草加太晶水只剩電系弱點，丟寄生種子與劇毒；盾菇由三首惡龍、勾魂眼的挑釁與風速狗的噴射火焰加食草特性處理。勾魂眼的定身法、再來一次與超壞星的死纏爛打鎖住對手，夢妖用詛咒處理毒與鋼。風速狗削弱輸出後晨光回血，三首惡龍太晶毒加龍舞走強化進攻。努力值除三首惡龍外幾乎全加耐久。Fiske 自評屬性聯防不錯但節奏很慢，一場常超過十分鐘。",
+    "extracted_at": "2026-11-11T13:27:07.347Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "萬受無疆的坐騎山羊【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-05-10",
@@ -107922,10 +107934,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-c",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
+    "tags": [
+      "sun",
+      "setup"
+    ],
+    "tags_source": "subtitle",
     "author": "Fiske",
-    "author_source": "pokepaste",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -108002,7 +108017,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "開晴天；鐵壁撲擊配置，毽子棉急速折返返出後打出 +2 晴天熱風，帶清除之煙。"
       },
       {
         "slot": 2,
@@ -108079,7 +108094,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "憤怒粉掩護鐵臂膀，花粉團補血，再來一次限制對手，急速折返觸發隊友弱點保險。"
       },
       {
         "slot": 3,
@@ -108156,7 +108171,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "弱點保險（弱蟲不必太晶即可觸發）、漂浮不怕地震、可開順風，熱風高威力範圍技能。"
       },
       {
         "slot": 4,
@@ -108233,7 +108248,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "腹鼓強化後以地震、岩崩輸出，需要掩護手與控速輔助。"
       },
       {
         "slot": 5,
@@ -108310,7 +108325,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "極速控速輔助；晴天下魔法火焰相當於本系威力。"
       },
       {
         "slot": 6,
@@ -108387,7 +108402,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "紅牌搭配輕裝特性，變小加冥想近乎無敵；帶清除之煙（Fiske 認為吸取力量可能更好）。"
       }
     ],
     "is_members_only": true,
@@ -108403,8 +108418,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:42:59.416Z",
+    "notes": "Fiske 本人組的隊伍，參加 Fiske 週末盃 #1（全隊不能帶本系技能）並在 11 場中拿下結算第一。以強化為主的晴天隊：鐵臂膀腹鼓後打地震、岩崩，毽子棉憤怒粉掩護並用急速折返觸發三首惡龍的弱點保險，再返出煤炭龜開晴天，打出 +2 晴天熱風；振翼髮極速控速。隨風球走紅牌加輕裝特性的變小冥想，煤炭龜走鐵壁撲擊。努力值多為簡單的 252。Fiske 事後認為隨風球的清除之煙可換成吸取力量，並自評強度還可以。",
+    "extracted_at": "2026-11-11T13:27:08.381Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "你能全隊不帶本系技能打對戰嗎？【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-04-05",
@@ -109644,10 +109659,13 @@
     "game": "sv",
     "regulation_set_id": "sv-reg-b",
     "regulation_source": "date-inferred",
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske Pokémon",
-    "author_source": "channel",
+    "tags": [
+      "balance",
+      "bulky-offense"
+    ],
+    "tags_source": "subtitle",
+    "author": "スライム",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -109724,7 +109742,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "速攻配置：236 特攻、252 速度。"
       },
       {
         "slot": 2,
@@ -109801,7 +109819,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "厚脂肪使火冰傷害減半，加突擊背心特防極高；冰凍之風反制高速、大聲咆哮反制特攻手與空間隊（尤其紅蓮鎧騎），帶本系精神衝擊；加滿 HP。"
       },
       {
         "slot": 3,
@@ -109878,7 +109896,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶蠻幹，加滿 HP。"
       },
       {
         "slot": 4,
@@ -109955,7 +109973,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "不服輸（不怕威嚇）；可開順風，硬撐在異常狀態下威力翻倍（燒傷下仍可打 140 威力）；帶 120 與 140 的高威力技能；加滿 HP。"
       },
       {
         "slot": 5,
@@ -110032,7 +110050,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "帶蠻幹；沒帶水流噴射。"
       },
       {
         "slot": 6,
@@ -110125,8 +110143,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:43:00.477Z",
+    "notes": "作者スライム曾在世界錦標賽拿到前 32 名，並以這支平衡隊在第三賽季最後一天打到最終結算第 60 名。噗噗豬（厚脂肪、突擊背心、冰凍之風、大聲咆哮）與勇士雄鷹（不服輸、順風、勇鳥猛攻）都是極冷門的選擇，噗噗豬可壓制鐵包袱與紅蓮鎧騎。隊上有順風加冰凍之風雙控速、威嚇、反威嚇、大聲咆哮反空間，沒有固定首發 combo。吼叫尾 236 特攻、252 速度，鐵轍跡與肯泰羅帶蠻幹。弱點是操作難度高，且肯泰羅沒帶水流噴射，沒開出順風時不好處理高速氣勢披帶的對手。",
+    "extracted_at": "2026-11-11T13:27:09.420Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "暴打悖謬種的老鷹與豬【寶可夢朱紫】雙打講解 #nintendoswitch",
     "video_published_at": "2023-03-05",
@@ -111995,11 +112013,13 @@
     "regulation_set_id": "sv-reg-a",
     "regulation_source": "date-inferred",
     "tags": [
-      "perish-trap"
+      "perish-trap",
+      "tailwind",
+      "trick-room"
     ],
-    "tags_source": "title",
-    "author": "VGCPastes",
-    "author_source": "pokepaste",
+    "tags_source": "subtitle",
+    "author": "Kasty",
+    "author_source": "subtitle",
     "members": [
       {
         "slot": 1,
@@ -112076,7 +112096,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "龍舞強化；速度實際值 129，龍舞一段後剛好超過假面喵；只帶冰錐與太晶爆發。"
       },
       {
         "slot": 2,
@@ -112153,7 +112173,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "滅歌配置的收尾手，食草特性；水加妖精攻防優秀，弱點只剩毒與電；速度實際值 71，與仆斬將軍、鐵掌力士、勾魂眼同速時要小心先倒。"
       },
       {
         "slot": 3,
@@ -112230,7 +112250,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "遲鈍特性免疫挑釁；擊掌奇襲、定身法、再來一次、鬼火、蠻幹等干擾技能；酸液炸彈降兩段特防，過熱 130 威力一發秒弱火的盾菇或賽富豪，打完觸發避難背包退場；速度實際值為系列一前幾快。"
       },
       {
         "slot": 4,
@@ -112307,7 +112327,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "提供順風，酸液炸彈後以惡之波動或加農光炮輸出；沒帶流星群。"
       },
       {
         "slot": 5,
@@ -112384,7 +112404,7 @@
             "source": "pokepaste"
           }
         ],
-        "role_note": null
+        "role_note": "提供戲法空間；格鬥系聖劍威力高但貫穿性不佳，速度實際值 107（順風後超過多龍巴魯托）；太晶超能力沒有好的使用時機。"
       },
       {
         "slot": 6,
@@ -112477,8 +112497,8 @@
     "confidence": 0.95,
     "review_status": "auto",
     "review_notes": null,
-    "notes": null,
-    "extracted_at": "2026-11-10T02:43:01.512Z",
+    "notes": "隊伍作者是 Kasty（曾拿義大利與西班牙全國賽冠軍各一次）；Fiske 稱之為焰后蜥的順風空間滅歌隊，但也說這不算標準滅歌隊，因為沒有踩影、威嚇與逃脫按鍵。焰后蜥用擊掌奇襲、酸液炸彈降兩段特防，搭配三首惡龍惡之波動或加農光炮，沒事做打過熱觸發避難背包退場；再來一次逼對手鎖技能後由瑪力露麗唱滅歌收尾。順風由三首惡龍、空間由艾路雷朵、龍舞由戟脊龍提供。弱點是整體爆發輸出低（瑪力露麗、盾菇沒有輸出），艾路雷朵的太晶超能力沒有好時機。努力值多半沒加滿攻擊，耐久偏高、節奏較慢。",
+    "extracted_at": "2026-11-11T13:27:10.491Z",
     "extracted_by": "import-pokepaste-v1",
     "video_title": "滅歌聲中一歲除，過熱送暖入屠蘇！焰后蜥 + 瑪力露麗 滅歌隊【寶可夢朱紫】雙打隊伍講解 #nintendoswitch",
     "video_published_at": "2023-01-23",
