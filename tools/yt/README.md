@@ -59,7 +59,7 @@ node tools/yt/merge-teams.mjs $CH
 1. 下載 360p 整支影片到暫存目錄（repo 外）：`yt-dlp -f "bv*[height<=360][ext=mp4]" --cookies <cookies> --sleep-requests 1 …`（會員影片才要 cookies）。
 2. 每 20 秒一張拼成總覽圖：`ffmpeg -i v.mp4 -vf "fps=1/20,scale=240:-2,tile=6x6" sheet_%02d.jpg`，一張 = 12 分鐘（第 n 格 = `(n-1)×20` 秒）。隊伍表畫面（紫色面板格）一眼可辨；對戰畫面、解說席、「VS」字卡也看得出段落。82 分鐘的影片約 7 張圖。
 3. 找到時間點後，只對那幾個時間點下載 720p 的 15~20 秒片段（`--download-sections "*start-end"`），每 5 秒抽一張高畫質影格。
-4. 道具圖示：把每個道具位置放大裁切（ffmpeg `crop`+`scale`+`hstack`），再與 `assets/items/icons/`（PokeAPI 圖示庫）比對；Mega 石只要認出「是 Mega 石」即可，不需分辨紋路（幾乎不會有人帶別隻的 Mega 石，使用者 2026-11-11 指示）；樹果、其他道具看形狀與色。低解析度下容易誤判：講究圍巾（藍色稜形晶片）曾被誤認成稜瓜果（Coba Berry），2026-11-11 經使用者更正。把握低的 `item_conf` 設 0.6~0.8。
+4. 道具圖示：把每個道具位置放大裁切（ffmpeg `crop`+`scale`+`hstack`），再與 `assets/items/icons/`（PokeAPI 圖示庫）比對；Mega 石只要認出「是 Mega 石」即可，不需分辨紋路（幾乎不會有人帶別隻的 Mega 石，使用者 2026-11-11 指示）；樹果、其他道具看形狀與色。道具、招式、特性的繁體中文名以 `data/ref/names_zh-Hant.json`（PokeAPI）為準，使用者 2026-11-11 確認夠準確（例：Coba Berry＝稜瓜果），不需另外用 52poke 等來源重複查證。低解析度下容易誤判：講究圍巾（藍色稜形晶片）曾被誤認成稜瓜果（Coba Berry），2026-11-11 經使用者更正。把握低的 `item_conf` 設 0.6~0.8。
 5. 人工標記時間點（例如使用者提供「2:11 Chase 的隊伍表」）可以直接略過步驟 1~2。
 
 **資料流程**
