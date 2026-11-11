@@ -598,6 +598,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "cover",
             "mitigator"
           ]
@@ -1242,6 +1243,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind"
@@ -1250,12 +1257,14 @@
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -2245,6 +2254,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "terrain",
@@ -2864,6 +2879,12 @@
           "slot": 4,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -3524,6 +3545,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -3542,12 +3569,14 @@
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "cover"
           ]
         }
@@ -3556,7 +3585,7 @@
   },
   {
     "id": "team_bzqnmAStdvM",
-    "name": "雨天雙濁流！勇敢的人，先享受 Miss｜母幽尾玄魚 & Mega 具甲武者 Bo",
+    "name": "雨天雙濁流！勇敢的人，先享受 Miss｜母幽尾玄魚 & Mega 具甲武者 Bonus",
     "name_source": "title",
     "video_id": "bzqnmAStdvM",
     "video_url": "https://www.youtube.com/watch?v=bzqnmAStdvM",
@@ -3595,7 +3624,7 @@
   },
   {
     "id": "team_CMhT3LCKZaA",
-    "name": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fi",
+    "name": "新規則 M-C 第一場比賽！噴火龍直接消失？｜2026 美國巴爾的摩地區賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "CMhT3LCKZaA",
     "video_url": "https://www.youtube.com/watch?v=CMhT3LCKZaA",
@@ -4250,6 +4279,12 @@
           "roles": [
             "tailwind"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -4871,6 +4906,18 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "tailwind"
@@ -5475,6 +5522,7 @@
           "slot": 2,
           "roles": [
             "terrain",
+            "speed-other",
             "cover"
           ]
         },
@@ -5504,7 +5552,7 @@
   },
   {
     "id": "team_ueGuFvkf7UE",
-    "name": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽",
+    "name": "世界賽竟然有這種隊伍？不 Mega 的巨沼怪，比你想的更強｜2026 世界冠軍賽（二）｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "ueGuFvkf7UE",
     "video_url": "https://www.youtube.com/watch?v=ueGuFvkf7UE",
@@ -6132,6 +6180,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor"
@@ -6148,6 +6202,12 @@
           "roles": [
             "cover",
             "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -7248,6 +7308,12 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather",
@@ -7756,8 +7822,15 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -8256,8 +8329,15 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -8752,6 +8832,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -8766,6 +8847,12 @@
           "roles": [
             "cover",
             "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -9247,6 +9334,12 @@
           "roles": [
             "tailwind",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -9740,6 +9833,12 @@
           "roles": [
             "trick-room",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -10375,6 +10474,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -11020,6 +11120,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "weather"
@@ -11653,6 +11759,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -11668,6 +11775,12 @@
           "slot": 5,
           "roles": [
             "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -13493,7 +13606,7 @@
   },
   {
     "id": "team_1c15CCTV7j8",
-    "name": "我只是想抓個盔甲鳥，有必要用 10 個大地之力把我秒了嗎｜Mega 火炎獅 Bo",
+    "name": "我只是想抓個盔甲鳥，有必要用 10 個大地之力把我秒了嗎｜Mega 火炎獅 Bonus",
     "name_source": "title",
     "video_id": "1c15CCTV7j8",
     "video_url": "https://www.youtube.com/watch?v=1c15CCTV7j8",
@@ -15357,7 +15470,7 @@
   },
   {
     "id": "team_UyrM7oewUuo",
-    "name": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本",
+    "name": "誰才是日本第一的裸催王者？最後的決戰，卻逐漸往匪夷所思的方向發展｜2026 日本全國冠軍賽（二）｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "UyrM7oewUuo",
     "video_url": "https://www.youtube.com/watch?v=UyrM7oewUuo",
@@ -16574,6 +16687,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "speed-other"
@@ -16584,13 +16703,19 @@
           "roles": [
             "tailwind"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
   },
   {
     "id": "team_oo5-CpYyF5Q",
-    "name": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜20",
+    "name": "Sejun Park 帶著升級版帕奇利茲回來了！兩位韓國籍世界冠軍的決戰？｜2026 韓國訓練家盃比賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "oo5-CpYyF5Q",
     "video_url": "https://www.youtube.com/watch?v=oo5-CpYyF5Q",
@@ -17810,7 +17935,7 @@
   },
   {
     "id": "team_on09yMCkE-c",
-    "name": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜202",
+    "name": "Champions 首場官方比賽！終於做了觀戰模式，而且連性格也公開了？｜2026 馬來西亞大師球聯盟賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "on09yMCkE-c",
     "video_url": "https://www.youtube.com/watch?v=on09yMCkE-c",
@@ -18407,6 +18532,7 @@
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "cover",
             "dmg-boost",
             "mitigator",
@@ -19024,6 +19150,18 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "speed-other",
@@ -19636,6 +19774,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -19663,6 +19802,7 @@
           "slot": 6,
           "roles": [
             "weather",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -20253,6 +20393,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 4,
           "roles": [
@@ -21519,6 +21665,12 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "tailwind"
@@ -22153,13 +22305,15 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -22805,6 +22959,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind"
@@ -22820,6 +22986,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -23421,7 +23588,8 @@
         {
           "slot": 1,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -23434,6 +23602,12 @@
           "slot": 3,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -24018,6 +24192,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -24673,7 +24853,8 @@
         {
           "slot": 1,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -24697,6 +24878,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -25294,6 +25476,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 4,
           "roles": [
@@ -25938,6 +26126,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -27152,6 +27346,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "mitigator"
           ]
         },
@@ -27171,13 +27366,19 @@
             "dmg-boost",
             "disruptor"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
   },
   {
     "id": "team_19PpR0W2qk0",
-    "name": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske",
+    "name": "重奪歐洲冠軍？時代的眼淚，靈獸土地雲的奮力一搏｜2026 歐洲國際賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "19PpR0W2qk0",
     "video_url": "https://www.youtube.com/watch?v=19PpR0W2qk0",
@@ -27855,6 +28056,12 @@
           "roles": [
             "weather"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -28423,6 +28630,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "cover"
           ]
         },
@@ -28440,9 +28648,16 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
-            "terrain"
+            "terrain",
+            "speed-other"
           ]
         }
       ]
@@ -28963,7 +29178,8 @@
         {
           "slot": 1,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -28984,6 +29200,12 @@
           "slot": 5,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -29530,6 +29752,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "terrain",
@@ -29541,6 +29769,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -29548,7 +29777,8 @@
         {
           "slot": 6,
           "roles": [
-            "terrain"
+            "terrain",
+            "speed-other"
           ]
         }
       ]
@@ -29556,7 +29786,7 @@
   },
   {
     "id": "team_W2bkLeb0S5g",
-    "name": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽",
+    "name": "纏紅鶴逆襲主流！日本選手能否奪下史上第一次的國際賽冠軍？｜2026 南美洲國際賽（二）｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "W2bkLeb0S5g",
     "video_url": "https://www.youtube.com/watch?v=W2bkLeb0S5g",
@@ -30161,7 +30391,7 @@
   },
   {
     "id": "team_hDXCB1HiTRk",
-    "name": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fis",
+    "name": "重回規則 H，環境卻大翻轉？雪天崛起中！｜2026 波蘭 格但斯克地區賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "hDXCB1HiTRk",
     "video_url": "https://www.youtube.com/watch?v=hDXCB1HiTRk",
@@ -30759,7 +30989,8 @@
         {
           "slot": 2,
           "roles": [
-            "terrain"
+            "terrain",
+            "speed-other"
           ]
         },
         {
@@ -31928,6 +32159,12 @@
           "slot": 2,
           "roles": [
             "weather"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -33194,13 +33431,25 @@
             "weather",
             "cover"
           ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
   },
   {
     "id": "team_dLE-lpqNSIM",
-    "name": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fisk",
+    "name": "最終決賽！史上最強小朋友，連續兩年零敗績？｜2025 世界冠軍賽（四）｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "dLE-lpqNSIM",
     "video_url": "https://www.youtube.com/watch?v=dLE-lpqNSIM",
@@ -33232,7 +33481,7 @@
   },
   {
     "id": "team_KVDHWjf-bNk",
-    "name": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fisk",
+    "name": "心理戰之王！雙開局崩盤，大膽操作能否反轉？｜2025 世界冠軍賽（二）｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "KVDHWjf-bNk",
     "video_url": "https://www.youtube.com/watch?v=KVDHWjf-bNk",
@@ -33264,7 +33513,7 @@
   },
   {
     "id": "team_Ha5zN052be8",
-    "name": "寶可夢傳說 Z-A 有努力值嗎？速度怎麼計算？試玩的超神玩家？明年世界賽的重大公",
+    "name": "寶可夢傳說 Z-A 有努力值嗎？速度怎麼計算？試玩的超神玩家？明年世界賽的重大公告？實體版密勒頓機車？",
     "name_source": "title",
     "video_id": "Ha5zN052be8",
     "video_url": "https://www.youtube.com/watch?v=Ha5zN052be8",
@@ -33910,6 +34159,12 @@
             "speed-other",
             "disruptor"
           ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -34538,6 +34793,12 @@
           "slot": 2,
           "roles": [
             "trick-room",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
             "speed-other"
           ]
         },
@@ -35178,6 +35439,24 @@
             "tailwind",
             "disruptor"
           ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -35772,13 +36051,15 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain"
+            "terrain",
+            "speed-other"
           ]
         },
         {
@@ -36357,6 +36638,12 @@
       ],
       "roles": [
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -36367,6 +36654,12 @@
           "slot": 5,
           "roles": [
             "terrain"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -37463,6 +37756,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "tailwind",
@@ -38146,6 +38445,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -38160,6 +38460,12 @@
           "slot": 4,
           "roles": [
             "weather"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -39857,6 +40163,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "disruptor"
@@ -41038,6 +41350,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -42299,7 +42612,8 @@
         {
           "slot": 2,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -42951,6 +43265,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -43562,6 +43882,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -44218,6 +44544,7 @@
           "slot": 2,
           "roles": [
             "tailwind",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -44226,6 +44553,12 @@
           "slot": 3,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -44751,9 +45084,21 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "weather"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -45903,6 +46248,7 @@
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -45911,6 +46257,12 @@
           "slot": 4,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -48210,9 +48562,21 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -50723,6 +51087,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
@@ -51404,7 +51774,7 @@
   },
   {
     "id": "team_gdQ_BDFyIGA",
-    "name": "密勒頓才奪下世界冠軍，卻全面潰敗？蓋歐卡登上環境最熱門！美國 聖安東尼奧地區賽｜",
+    "name": "密勒頓才奪下世界冠軍，卻全面潰敗？蓋歐卡登上環境最熱門！美國 聖安東尼奧地區賽｜Fiske 講比賽",
     "name_source": "title",
     "video_id": "gdQ_BDFyIGA",
     "video_url": "https://www.youtube.com/watch?v=gdQ_BDFyIGA",
@@ -52009,6 +52379,12 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
@@ -52587,6 +52963,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather"
@@ -52597,6 +52979,12 @@
           "roles": [
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -53272,6 +53660,18 @@
           "roles": [
             "trick-room"
           ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -53842,6 +54242,7 @@
           "slot": 4,
           "roles": [
             "weather",
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -54320,6 +54721,12 @@
           "roles": [
             "weather",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -54928,13 +55335,15 @@
         {
           "slot": 4,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -55601,6 +56010,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "disruptor",
@@ -56136,13 +56551,32 @@
           "slot": 2,
           "roles": [
             "terrain",
+            "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 4,
           "roles": [
             "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -56182,7 +56616,7 @@
   },
   {
     "id": "team_ir5REHeeK9w",
-    "name": "帶你見識卡比獸的真正力量！超高威力 + 超快速度，世界冠軍打造的最聰明策略！卡比",
+    "name": "帶你見識卡比獸的真正力量！超高威力 + 超快速度，世界冠軍打造的最聰明策略！卡比獸 & 飛天螳螂",
     "name_source": "title",
     "video_id": "ir5REHeeK9w",
     "video_url": "https://www.youtube.com/watch?v=ir5REHeeK9w",
@@ -57892,6 +58326,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "terrain",
@@ -58582,6 +59028,7 @@
           "roles": [
             "weather",
             "tailwind",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -59154,6 +59601,7 @@
           "slot": 2,
           "roles": [
             "terrain",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -59165,8 +59613,15 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator",
             "disruptor"
@@ -59653,6 +60108,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 3,
           "roles": [
@@ -60224,6 +60685,7 @@
           "slot": 1,
           "roles": [
             "trick-room",
+            "speed-other",
             "disruptor"
           ]
         },
@@ -60907,7 +61369,8 @@
         {
           "slot": 3,
           "roles": [
-            "tailwind"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -60925,7 +61388,8 @@
         {
           "slot": 6,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         }
       ]
@@ -61915,6 +62379,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "mitigator"
           ]
         },
@@ -62525,6 +62990,18 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "disruptor"
@@ -63016,6 +63493,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -63580,6 +64063,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover"
@@ -63594,6 +64095,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -64172,7 +64674,14 @@
           "slot": 1,
           "roles": [
             "weather",
-            "tailwind"
+            "tailwind",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -64752,6 +65261,12 @@
           "slot": 4,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -65337,6 +65852,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -65353,6 +65874,7 @@
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -65888,6 +66410,12 @@
           "roles": [
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -66552,7 +67080,7 @@
   },
   {
     "id": "team_sSqNi6CH0p8",
-    "name": "當你以為這是幻覺，就已經中了我的幻術！專騙高手的頂級詐欺術，猛火的熾焰咆哮虎與洗",
+    "name": "當你以為這是幻覺，就已經中了我的幻術！專騙高手的頂級詐欺術，猛火的熾焰咆哮虎與洗翠索羅亞克",
     "name_source": "title",
     "video_id": "sSqNi6CH0p8",
     "video_url": "https://www.youtube.com/watch?v=sSqNi6CH0p8",
@@ -67124,6 +67652,12 @@
           "slot": 5,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -68284,6 +68818,12 @@
         },
         {
           "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -70069,6 +70609,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -70076,6 +70617,12 @@
           "slot": 4,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -70589,6 +71136,12 @@
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -71856,6 +72409,18 @@
           "roles": [
             "cover"
           ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -72436,6 +73001,18 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 5,
           "roles": [
@@ -73039,6 +73616,18 @@
           "slot": 2,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -73697,9 +74286,21 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -74330,6 +74931,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "mitigator"
           ]
         }
@@ -74967,7 +75569,7 @@
   },
   {
     "id": "team_hxXZlkL3sWU",
-    "name": "搶先體驗雙神獸的隊伍！鋼鐵的聖劍士勾帕路翁，帶上青草種子以後，能不能 Cospl",
+    "name": "搶先體驗雙神獸的隊伍！鋼鐵的聖劍士勾帕路翁，帶上青草種子以後，能不能 Cosplay 成藏瑪然特？",
     "name_source": "title",
     "video_id": "hxXZlkL3sWU",
     "video_url": "https://www.youtube.com/watch?v=hxXZlkL3sWU",
@@ -75564,11 +76166,23 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "weather",
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -76184,6 +76798,12 @@
           "slot": 2,
           "roles": [
             "tailwind",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
             "speed-other"
           ]
         },
@@ -76814,6 +77434,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -77511,13 +78132,19 @@
           "roles": [
             "speed-other"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
   },
   {
     "id": "team_t2pxFeWk0gw",
-    "name": "開局雙自爆，然後二打四有可能贏嗎？薄霧炸裂的霜奶仙，與裝飾的太樂巴戈斯（會員版 ",
+    "name": "開局雙自爆，然後二打四有可能贏嗎？薄霧炸裂的霜奶仙，與裝飾的太樂巴戈斯（會員版 對戰影片）",
     "name_source": "title",
     "video_id": "t2pxFeWk0gw",
     "video_url": "https://www.youtube.com/watch?v=t2pxFeWk0gw",
@@ -78116,6 +78743,7 @@
           "slot": 6,
           "roles": [
             "tailwind",
+            "speed-other",
             "mitigator"
           ]
         }
@@ -79728,6 +80356,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -80360,6 +80994,12 @@
           "roles": [
             "disruptor"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -80828,6 +81468,12 @@
         },
         {
           "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
           "roles": [
             "speed-other"
           ]
@@ -81453,6 +82099,12 @@
         },
         {
           "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
           "roles": [
             "speed-other"
           ]
@@ -82358,6 +83010,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "weather",
@@ -82918,6 +83576,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 3,
           "roles": [
@@ -83533,6 +84197,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -83546,6 +84211,12 @@
           "slot": 5,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -84160,6 +84831,24 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover"
@@ -84743,6 +85432,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -84760,6 +85455,12 @@
           "roles": [
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -85425,9 +86126,21 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "tailwind",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
             "speed-other"
           ]
         },
@@ -86013,6 +86726,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -86586,6 +87305,18 @@
           "roles": [
             "weather",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -87200,6 +87931,12 @@
           "slot": 5,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -87925,6 +88662,12 @@
             "cover",
             "dmg-boost"
           ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -88589,6 +89332,12 @@
           "roles": [
             "disruptor"
           ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -89145,6 +89894,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -89752,6 +90507,12 @@
           "slot": 1,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -90487,6 +91248,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -90500,6 +91267,12 @@
         },
         {
           "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -91153,6 +91926,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -91164,6 +91943,12 @@
           "slot": 3,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -91832,7 +92617,8 @@
         {
           "slot": 6,
           "roles": [
-            "tailwind"
+            "tailwind",
+            "speed-other"
           ]
         }
       ]
@@ -93129,11 +93915,23 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover",
             "dmg-boost",
             "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -95670,6 +96468,12 @@
             "cover",
             "disruptor"
           ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -96257,6 +97061,12 @@
           "slot": 2,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -96933,9 +97743,21 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -98167,6 +98989,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "disruptor"
@@ -98761,6 +99589,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "trick-room",
@@ -98773,6 +99607,12 @@
           "roles": [
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -99419,6 +100259,12 @@
           "slot": 3,
           "roles": [
             "tailwind",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
             "speed-other"
           ]
         },
@@ -100699,7 +101545,25 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -101291,6 +102155,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
         {
           "slot": 2,
           "roles": [
@@ -101952,7 +102822,8 @@
         {
           "slot": 3,
           "roles": [
-            "tailwind"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -102539,6 +103410,12 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather"
@@ -102547,6 +103424,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         }
@@ -103132,8 +104010,15 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -104359,7 +105244,19 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
           "roles": [
             "speed-other"
           ]
@@ -105528,6 +106425,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "trick-room"
@@ -106108,6 +107017,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "speed-other"
@@ -106128,7 +107043,8 @@
         {
           "slot": 5,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         },
         {
@@ -106714,6 +107630,12 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover",
@@ -107280,6 +108202,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -107858,6 +108781,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
@@ -107867,6 +108796,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "mitigator"
           ]
         }
@@ -108431,6 +109361,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -108443,6 +109374,12 @@
         },
         {
           "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -109005,7 +109942,8 @@
         {
           "slot": 1,
           "roles": [
-            "tailwind"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -109588,6 +110526,7 @@
           "slot": 5,
           "roles": [
             "tailwind",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -110707,6 +111646,12 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover"
@@ -111308,6 +112253,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "mitigator"
           ]
         },
@@ -111892,6 +112838,12 @@
           "roles": [
             "weather",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -112510,6 +113462,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "speed-other",
@@ -113089,6 +114047,12 @@
           "slot": 1,
           "roles": [
             "weather"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -113686,6 +114650,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -113694,6 +114664,7 @@
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "cover",
             "mitigator"
           ]
@@ -113701,6 +114672,7 @@
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -113714,7 +114686,8 @@
         {
           "slot": 6,
           "roles": [
-            "weather"
+            "weather",
+            "speed-other"
           ]
         }
       ]
@@ -114287,7 +115260,14 @@
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -114892,6 +115872,12 @@
             "weather",
             "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -115983,7 +116969,8 @@
         {
           "slot": 1,
           "roles": [
-            "tailwind"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -116010,7 +116997,7 @@
   },
   {
     "id": "team_JKYq8tugHUg",
-    "name": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（",
+    "name": "第一賽季雙打熱門 Top 15！帶你從零開始了解常見對戰寶可夢，組出自己的隊伍（下）",
     "name_source": "title",
     "video_id": "JKYq8tugHUg",
     "video_url": "https://www.youtube.com/watch?v=JKYq8tugHUg",
@@ -116589,6 +117576,12 @@
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {

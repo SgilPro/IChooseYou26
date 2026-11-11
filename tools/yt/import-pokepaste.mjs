@@ -88,7 +88,7 @@ function tagsFromTitle(title) {
 function teamNameFromTitle(title) {
   const m = /([^！!？?。｜|]{2,40}隊)\s*【/.exec(title);
   if (m) return m[1].trim();
-  return title.split("【")[0].trim().slice(0, 40);
+  return title.split("【")[0].trim();
 }
 
 function field(valueEn, table, source = "pokepaste", conf = 0.98) {
