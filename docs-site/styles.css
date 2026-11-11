@@ -29,9 +29,15 @@ body {
 .logo { font-size: 26px; }
 .logo-img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .brand-title { font-weight: 700; font-size: 16px; }
-.wordmark { height: 34px; width: auto; display: block; flex: none; }
+.wordmark { height: 26px; width: auto; max-width: 100%; display: block; flex: none; }
 .brand .brand-sub { padding-left: 12px; border-left: 1px solid var(--border); line-height: 1.2; }
-.topbar.compact .wordmark { height: 28px; }
+.topbar.compact .wordmark { height: 22px; }
+.brand { min-width: 0; }
+@media (max-width: 720px) {
+  .wordmark, .topbar.compact .wordmark { height: 22px; }
+  .brand .brand-sub { display: none; }
+  .topbar, .topbar.compact { padding-left: 14px; padding-right: 14px; }
+}
 .brand-sub { font-size: 12px; color: var(--ink-soft); }
 .head-actions { display: flex; align-items: center; gap: 10px; }
 .try-btn { background: var(--soft-bg); color: var(--soft-text); border: 1px solid var(--soft-border); text-decoration: none; font-size: 14px; font-weight: 600; padding: 7px 13px; border-radius: 9px; white-space: nowrap; }
