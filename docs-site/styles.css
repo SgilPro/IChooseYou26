@@ -95,19 +95,19 @@ body {
 }
 
 /* ===== 頻道資料線進度（channel-progress.js；原在 teams.html）===== */
-.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 14px 0 20px; }
-.tile { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
-.tile .n { font-size: 28px; font-weight: 700; line-height: 1.1; }
-.tile .l { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
-.bars { display: grid; gap: 10px; margin-bottom: 18px; }
-.bar { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
-.bar .t { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; margin-bottom: 8px; }
-.bar .t span:last-child { color: var(--ink-soft); }
-.track { height: 10px; background: var(--sunken, var(--bg-soft)); border-radius: 999px; overflow: hidden; display: flex; }
-.seg { height: 100%; }
-.seg.ok { background: var(--success); }
-.seg.member { background: var(--primary-400); }
-.seg.pending { background: var(--line-strong); }
-.legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
-.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
-.pg-note { font-size: 13px; color: var(--ink-soft); }
+#data-progress .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 14px 0 20px; }
+#data-progress .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+#data-progress .tile .n { font-size: 28px; font-weight: 700; line-height: 1.1; }
+#data-progress .tile .l { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
+#data-progress .bars { display: grid; gap: 10px; margin-bottom: 18px; }
+#data-progress .bar { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
+#data-progress .bar .t { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; margin-bottom: 8px; }
+#data-progress .bar .t span:last-child { color: var(--ink-soft); }
+#data-progress .track { height: 10px; background: var(--sunken, var(--bg-soft)); border-radius: 999px; overflow: hidden; display: flex; }
+#data-progress .seg { height: 100%; }
+#data-progress .seg.ok { background: var(--success); }
+#data-progress .seg.member { background: var(--primary-400); }
+#data-progress .seg.pending { background: var(--line-strong); }
+#data-progress .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
+#data-progress .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+#data-progress .pg-note { font-size: 13px; color: var(--ink-soft); }
