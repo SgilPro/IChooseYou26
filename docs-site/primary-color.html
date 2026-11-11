@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>主色決策 · 水泥灰</title>
+<style>
+:root{
+  color-scheme:light;
+  --bg:#E4E7EA; --surface:#EEF0F2; --raised:#F7F8F9; --sunken:#D9DDE1;
+  --ink:#1B1F24; --ink2:#4A525B; --line:#C9CDD2; --line-strong:#7B838C;
+  --success:#1A7339; --warn:#8F5300; --danger:#B3261E; --info:#0B6A8F;
+  --font:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.7 var(--font)}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 72px}
+h1{font-size:1.75rem;margin:0 0 4px} h2{font-size:1.25rem;margin:36px 0 10px} h3{font-size:1rem;margin:0 0 6px}
+.lede{color:var(--ink2);max-width:720px;margin:0 0 20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.verdict{border-left:5px solid var(--ink);background:var(--raised)}
+.verdict b{font-weight:700}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.8125rem;white-space:nowrap}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left}
+th{background:var(--sunken);font-weight:600} td.n{text-align:right;font-variant-numeric:tabular-nums}
+.ok{color:var(--success);font-weight:700} .bad{color:var(--danger);font-weight:700} .mid{color:var(--warn);font-weight:700}
+.sw{display:inline-block;width:14px;height:14px;border-radius:3px;border:1px solid rgba(0,0,0,.25);vertical-align:-2px;margin-right:6px}
+.note{font-size:.8125rem;color:var(--ink2)}
+/* mockups */
+.mock{--p:#1B1F24;--ph:#000;--on:#fff;--a:#C8081E;--pt:#1B1F24;border-radius:12px;background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.mock header{display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--raised);border-bottom:1px solid var(--line)}
+.mock header img{width:28px;height:28px}
+.mock header b{font-size:.9375rem}
+.mock nav{margin-left:auto;display:flex;gap:14px;font-size:.8125rem}
+.mock nav span{padding:4px 0;border-bottom:3px solid transparent;color:var(--ink2)}
+.mock nav span.on{color:var(--ink);border-bottom-color:var(--navmark,var(--a));font-weight:600}
+.mock .body{padding:14px;display:grid;gap:12px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:600 .875rem var(--font);border-radius:8px;padding:8px 14px;border:1px solid transparent;cursor:pointer}
+.btn.pri{background:var(--p);color:var(--on)} .btn.pri:hover{background:var(--ph)}
+.btn.sec{background:transparent;color:var(--pt);border-color:var(--pt)}
+.btn.dng{background:transparent;color:var(--danger);border-color:var(--danger)}
+.btn:focus-visible,a:focus-visible{outline:2px solid var(--p);outline-offset:2px;box-shadow:0 0 0 4px var(--bg)}
+.mock a{color:var(--pt);text-underline-offset:3px;font-size:.875rem}
+.chip{font-size:.75rem;padding:2px 9px;border-radius:999px;border:1px solid var(--pt);background:color-mix(in srgb,var(--pt) 10%,var(--surface));color:var(--pt)}
+.chip.neu{border-color:var(--line-strong);background:var(--surface);color:var(--ink2)}
+.team{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.team b{font-size:.875rem}
+.bar{height:8px;border-radius:99px;background:var(--sunken);overflow:hidden;width:120px}
+.bar i{display:block;height:100%;width:72%;background:var(--p)}
+.state{display:flex;gap:6px;flex-wrap:wrap;font-size:.75rem}
+.state span{padding:2px 8px;border-radius:6px;border:1px solid currentColor;font-weight:600}
+.s-ok{color:var(--success)} .s-bad{color:var(--danger)} .s-info{color:var(--info)} .s-warn{color:var(--warn)}
+.tag-rec{display:inline-block;background:var(--ink);color:#fff;font-size:.6875rem;padding:1px 8px;border-radius:99px;margin-left:6px;vertical-align:2px}
+pre{background:var(--ink);color:#EAEFF4;border-radius:10px;padding:14px;overflow-x:auto;font-size:.8125rem;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>水泥灰上的主色該選什麼</h1>
+  <p class="lede">底色固定為水泥灰（背景 #E4E7EA、卡片 #EEF0F2）。logo 先不納入考量。下表的對比與色盲模擬都由這一頁的程式即時計算，不是手填。</p>
+
+  <div class="card verdict">
+    <h3>結論</h3>
+    <p style="margin:0 0 8px"><b>保留紫色相，微調為深靛 #4F3DB5。</b>語意色已經佔掉紅（危險）、綠（成功）、藍（資訊）、橘（注意），主色最安全的位置就是剩下的紫色相。深靛在水泥灰上文字對比 6.3:1，白字按鈕約 8:1，在綠色盲與紅色盲模擬下與四個語意色的色差都不低於 10。</p>
+    <ul style="margin:0;padding-left:20px">
+      <li><b>為什麼不選紅：</b>紅色與危險色在色盲下幾乎同色，主按鈕與刪除按鈕會被混淆。你也覺得 logo 紅太鮮豔，所以這條不用再糾結。</li>
+      <li><b>為什麼不選青綠或藍：</b>深青與成功綠、資訊藍色差只有 7 到 8；藍色與資訊藍重疊。</li>
+      <li><b>為什麼不選梅紫、洋紅：</b>看起來是同一個紫色家族，但在綠色盲下與危險紅的色差掉到 4 到 6，會混。</li>
+      <li><b>墨黑是穩妥的備案：</b>對比 13:1、與所有語意色至少差 18，缺點是沒有品牌個性，整個介面會偏冷硬。</li>
+    </ul>
+  </div>
+
+  <h2>方案並排</h2>
+  <div class="grid" id="mocks"></div>
+
+  <h2>對比與辨識度（即時計算）</h2>
+  <p class="note">WCAG 2.2：一般文字 4.5:1、大字與 UI 元件邊框 3:1。色差用 OKLab ΔE×100；低於 8 視為容易混淆。色盲模擬用 Machado 2009 矩陣（完全型）。</p>
+  <div class="card tablewrap"><table id="tbl"></table></div>
+
+  <h2>使用規則</h2>
+  <div class="card">
+    <ul style="margin:0;padding-left:20px">
+      <li><b>主色只做「主要動作」：</b>主按鈕實底、連結、目前頁底線、焦點環。不用在狀態表達。</li>
+      <li><b>狀態一律「圖示 + 文字 + 外框」：</b>不靠顏色單獨傳達（WCAG 1.4.1）。危險按鈕用外框樣式，主按鈕用實底，形狀就不同。</li>
+      <li><b>焦點環：</b>2px 主色環加外側 4px 底色間隔，在水泥灰三層底色上對比皆高於 3:1。</li>
+      <li><b>淡底標籤：</b>主色 10% 混入卡片色當底、主色當字與外框，文字對比仍高於 4.5:1（頁面上的「控速」「雨天」標籤即是）。</li>
+      <li><b>屬性標籤沿用外框淡底深字：</b>火屬性紅與紫色主色不會相鄰衝突。</li>
+    </ul>
+  </div>
+
+  <h2>可直接貼的 token</h2>
+<pre>:root{
+  --bg:#E4E7EA; --surface:#EEF0F2; --raised:#F7F8F9; --sunken:#D9DDE1;
+  --ink:#1B1F24; --ink2:#4A525B; --line:#C9CDD2; --line-strong:#7B838C;
+
+  --primary:#4F3DB5;        /* 主按鈕底、焦點環 */
+  --primary-hover:#3F2F9A;
+  --on-primary:#FFFFFF;
+  --primary-text:#4F3DB5;   /* 連結、次按鈕文字與外框 */
+  --primary-soft:color-mix(in srgb,var(--primary) 10%,var(--surface));
+
+  --success:#1A7339; --warn:#8F5300; --danger:#B3261E; --info:#0B6A8F;
+}</pre>
+</div>
+
+<script>
+const lin=c=>{c/=255;return c<=.04045?c/12.92:((c+.055)/1.055)**2.4};
+const rgb=h=>{const n=parseInt(h.slice(1),16);return [n>>16,n>>8&255,n&255]};
+const lum=h=>{const [r,g,b]=rgb(h).map(lin);return .2126*r+.7152*g+.0722*b};
+const cr=(a,b)=>{const x=lum(a),y=lum(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05)};
+const M={deut:[[.367322,.860646,-.227968],[.280085,.672501,.047413],[-.011820,.042940,.968881]],prot:[[.152286,1.052583,-.204868],[.114503,.786281,.099216],[-.003882,-.048116,1.051998]]};
+const gam=x=>x<=.0031308?12.92*x:1.055*x**(1/2.4)-.055;
+const sim=(h,k)=>{if(!k)return h;const v=rgb(h).map(lin);return '#'+M[k].map(r=>Math.round(gam(Math.min(1,Math.max(0,r[0]*v[0]+r[1]*v[1]+r[2]*v[2])))*255).toString(16).padStart(2,'0')).join('')};
+const lab=h=>{const [r,g,b]=rgb(h).map(lin);const l=Math.cbrt(.4122214708*r+.5363325363*g+.0514459929*b),m=Math.cbrt(.2119034982*r+.6806995451*g+.1073969566*b),s=Math.cbrt(.0883024619*r+.2817188376*g+.6299787005*b);return [.2104542553*l+.793617785*m-.0040720468*s,1.9779984951*l-2.428592205*m+.4505937099*s,.0259040371*l+.7827717662*m-.808675766*s]};
+const dE=(a,b,k)=>{const x=lab(sim(a,k)),y=lab(sim(b,k));return Math.hypot(x[0]-y[0],x[1]-y[1],x[2]-y[2])*100};
+const SEM={success:'#1A7339',danger:'#B3261E',info:'#0B6A8F',warn:'#8F5300'};
+const BG={bg:'#E4E7EA',surface:'#EEF0F2',raised:'#F7F8F9'};
+const OPTS=[
+ {id:'deep',name:'深靛（建議）',rec:true,p:'#4F3DB5',ph:'#3F2F9A',pt:'#4F3DB5',a:'#4F3DB5',note:'紫色相，微調加深'},
+ {id:'indigo',name:'現行靛紫',p:'#5B44C6',ph:'#4B36B0',pt:'#5B44C6',a:'#5B44C6',note:'白字 6.8:1，已可用'},
+ {id:'ink',name:'墨黑（備案）',p:'#1B1F24',ph:'#000000',pt:'#1B1F24',a:'#1B1F24',note:'最穩，但沒有個性'},
+ {id:'plum',name:'梅紫',p:'#7A2F8F',ph:'#632476',pt:'#7A2F8F',a:'#7A2F8F',note:'色盲下撞危險紅'},
+ {id:'teal',name:'深青',p:'#0A6B66',ph:'#07524E',pt:'#0A6B66',a:'#0A6B66',note:'與成功綠、資訊藍太近'}
+];
+const cls=(v,good,mid)=>v>=good?'ok':v>=mid?'mid':'bad';
+// mockups
+document.getElementById('mocks').innerHTML=OPTS.map(o=>`
+<div class="mock" style="--p:${o.p};--ph:${o.ph};--pt:${o.pt};--a:${o.a};--navmark:${o.a}">
+  <header><span style="width:22px;height:22px;border-radius:6px;background:var(--p);display:inline-block"></span><b>ICY</b><nav><span class="on">隊伍</span><span>角色</span><span>比賽</span></nav></header>
+  <div class="body">
+    <div><h3>${o.name}${o.rec?'<span class="tag-rec">建議</span>':''}</h3><div class="note">${o.note}</div></div>
+    <div class="row"><button class="btn pri">儲存隊伍</button><button class="btn sec">取消</button><button class="btn dng">⚠ 刪除</button><a href="#">查看影片</a></div>
+    <div class="row"><span class="chip">控速</span><span class="chip">雨天</span><span class="chip neu">朱紫 Reg H</span></div>
+    <div class="team"><div><b>阿勃梭魯 Z 物攻強化隊</b><div class="note">6 隻 · 已複核</div></div><div class="bar"><i></i></div></div>
+    <div class="state"><span class="s-ok">✓ 成功</span><span class="s-bad">✕ 錯誤</span><span class="s-warn">! 注意</span><span class="s-info">i 資訊</span></div>
+  </div>
+</div>`).join('');
+// table
+const head=['方案','主色','白字於填色','作文字於 bg','於 surface','於 raised','vs 危險 一般/綠盲/紅盲','vs 成功 一般/綠盲/紅盲','vs 資訊 一般/綠盲/紅盲'];
+const fmt=(v,t)=>`<span class="${cls(v,t,t-1)}">${v.toFixed(2)}</span>`;
+const de=(c,s)=>[null,'deut','prot'].map(k=>{const v=dE(c,SEM[s],k);return `<span class="${v>=15?'ok':v>=8?'mid':'bad'}">${v.toFixed(0)}</span>`}).join(' / ');
+document.getElementById('tbl').innerHTML='<tr>'+head.map(h=>`<th>${h}</th>`).join('')+'</tr>'+
+OPTS.map(o=>`<tr><td>${o.name}</td><td><span class="sw" style="background:${o.p}"></span>${o.p}</td>
+<td class="n">${fmt(cr(o.p,'#FFFFFF'),4.5)}</td>
+<td class="n">${fmt(cr(o.pt,BG.bg),4.5)}</td><td class="n">${fmt(cr(o.pt,BG.surface),4.5)}</td><td class="n">${fmt(cr(o.pt,BG.raised),4.5)}</td>
+<td class="n">${de(o.p,'danger')}</td><td class="n">${de(o.p,'success')}</td><td class="n">${de(o.p,'info')}</td></tr>`).join('')+'';
+</script>
+</body>
+</html>
