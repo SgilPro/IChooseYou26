@@ -56,3 +56,9 @@
 - `games/champions.png`（32×17）、`games/sv.png`（32×22）：使用者手動從 Liquipedia 下載（Liquipedia 對自動下載回 403，我們不繞過）。圖檔授權與遊戲標誌的權利屬各權利人，公開前要再確認。
 - 2026-11-10 使用者決定：遊戲標籤**不用這兩張圖**（不好看），改用英文縮寫＋顏色；圖檔先留在 `games/` 備用。`teams.html` 的 `GAME_STYLE` 管遊戲符號：縮寫文字，每個字母取該版本主色，例如 USUM（究極日月：日橘、月藍）、ORAS（終極紅寶石／始源藍寶石：紅、藍）。之後抓到舊作隊伍，在 `GAME_STYLE` 補一筆即可（隊伍的 `game` 欄位也要有對應值）。
 - 若找不到合適的 Champions 圖，備案是用免費授權的冠軍腰帶圖（需確認授權）。
+
+## Logo（2026-11-11 起）
+
+- 站台 logo 與 favicon 用大師球 `assets/master-ball-120.png`：取自 PokeAPI sprites 的 `sprites/items/master-ball.png`（30×30），以最近鄰 4 倍放大成 120×120 保留像素邊緣，頁面上以 `image-rendering: pixelated` 顯示。紫色與主色同一色相家族。
+- 舊的 `cherish-ball*.png` 仍在 repo，但站台不再使用。
+- 圖像版權屬任天堂／Creatures／GAME FREAK；公開前要加粉絲站聲明（見上方待辦）。

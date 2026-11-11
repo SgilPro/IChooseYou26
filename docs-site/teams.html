@@ -24,7 +24,7 @@
     .track { height: 10px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; display: flex; }
     .seg { height: 100%; }
     .seg.ok { background: var(--success); }
-    .seg.member { background: var(--accent); }
+    .seg.member { background: var(--primary-400); }
     .seg.pending { background: var(--line-strong); }
     .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
     .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
@@ -45,7 +45,7 @@
     .toolbar .more:hover { color: var(--ink); border-color: var(--accent-2); }
     .toolbar .more[aria-expanded="true"] { transform: none; color: var(--accent-2); }
     .chip { font-size: 12px; line-height: 18px; padding: 4px 10px; white-space: nowrap; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
-    .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .chip.on { background: var(--soft-bg-hover); color: var(--soft-text); border-color: var(--primary-500); font-weight: 600; }
     /* ===== 隊伍 brief 卡片（主題變數集中在 :root，之後好換）===== */
     :root { --card-radius: 14px; --thumb-size: 64px; }
     .teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 14px; }
@@ -69,7 +69,7 @@
     .team .meta { flex-wrap: nowrap; overflow: hidden; }
     .team .meta > * { flex: none; white-space: nowrap; }
     .tag.reg, .tag.game { box-sizing: border-box; height: 24px; display: inline-flex; align-items: center; justify-content: center; padding: 0 9px; border-radius: 8px; border: 1px dotted; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 1; }
-    .tag.reg { background: var(--primary); color: var(--on-primary); border-color: var(--primary-hover); }
+    .tag.reg { background: var(--soft-bg); color: var(--soft-text); border-color: var(--primary-500); }
     .tag.game { background: var(--sunken); border-color: var(--line-strong); }
     .gl-txt i { font-style: normal; }
     .gl-ch { color: var(--warn); }
@@ -113,12 +113,12 @@
       .toolbar .count { flex-basis: 100%; margin-left: 0; }
     }
   </style>
-  <link rel="icon" type="image/png" href="assets/cherish-ball-128.png" />
+  <link rel="icon" type="image/png" href="assets/master-ball-120.png" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <img class="logo-img" src="assets/cherish-ball-128.png" alt="" width="34" height="34" />
+      <img class="logo-img" src="assets/master-ball-120.png" alt="" width="34" height="34" />
       <div>
         <div class="brand-title">ICY (I Choose You)</div>
         <div class="brand-sub">頻道資料線 · 隊伍資料庫（預覽）</div>
@@ -241,7 +241,7 @@
           <div class="seg member" style="width:${pct(members, total)}%"></div>
           <div class="seg pending" style="width:${pct(pending, total)}%"></div>
         </div>
-        <div class="legend"><span><i style="background:var(--success)"></i>完整 ${fetched}</span><span><i style="background:var(--accent)"></i>會員限定 ${members}</span><span><i style="background:var(--line-strong)"></i>待重試 ${pending}</span></div>
+        <div class="legend"><span><i style="background:var(--success)"></i>完整 ${fetched}</span><span><i style="background:var(--primary-400)"></i>會員限定 ${members}</span><span><i style="background:var(--line-strong)"></i>待重試 ${pending}</span></div>
       </div>
       <div class="bar">
         <div class="t"><span>Champions 公開對戰影片 → 隊伍抽取</span><span>${extracted} / ${champPublic.length}（${pct(extracted, champPublic.length)}%）；另有 ${champMember} 支會員限定待補</span></div>

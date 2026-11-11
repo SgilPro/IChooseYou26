@@ -54,6 +54,7 @@ th{background:var(--sunken);font-weight:600} td.n{text-align:right;font-variant-
 .state span{padding:2px 8px;border-radius:6px;border:1px solid currentColor;font-weight:600}
 .s-ok{color:var(--success)} .s-bad{color:var(--danger)} .s-info{color:var(--info)} .s-warn{color:var(--warn)}
 .tag-rec{display:inline-block;background:var(--ink);color:#fff;font-size:.6875rem;padding:1px 8px;border-radius:99px;margin-left:6px;vertical-align:2px}
+.stops{display:grid;grid-template-columns:repeat(auto-fit,minmax(86px,1fr));gap:0;border-radius:10px;overflow:hidden;border:1px solid var(--line)}.stop{padding:14px 8px;display:flex;flex-direction:column;gap:2px;font-size:.75rem}.stop b{font-size:.875rem}
 pre{background:var(--ink);color:#EAEFF4;border-radius:10px;padding:14px;overflow-x:auto;font-size:.8125rem;line-height:1.6}
 </style>
 </head>
@@ -72,6 +73,11 @@ pre{background:var(--ink);color:#EAEFF4;border-radius:10px;padding:14px;overflow
       <li><b>墨黑是穩妥的備案：</b>對比 13:1、與所有語意色至少差 18，缺點是沒有品牌個性，整個介面會偏冷硬。</li>
     </ul>
   </div>
+
+  <h2>主色色階 50 到 950（已套用到全站 tokens.css）</h2>
+  <p class="note">OKLCH 固定色相 283°，700 即深靛 #4F3DB5。用途：50 到 200 淺底，300 到 400 邊框與裝飾，500 以上可當填色，600 以上白字 5.8:1 起，800 以上當深色文字。</p>
+  <div class="stops"><div class="stop" style="background:#F4F5FE;color:#1B1F24"><b>50</b><span>#F4F5FE</span></div><div class="stop" style="background:#E9EAFF;color:#1B1F24"><b>100</b><span>#E9EAFF</span></div><div class="stop" style="background:#D5D7FF;color:#1B1F24"><b>200</b><span>#D5D7FF</span></div><div class="stop" style="background:#BABBFF;color:#1B1F24"><b>300</b><span>#BABBFF</span></div><div class="stop" style="background:#9997FC;color:#1B1F24"><b>400</b><span>#9997FC</span></div><div class="stop" style="background:#7B6FF3;color:#1B1F24"><b>500</b><span>#7B6FF3</span></div><div class="stop" style="background:#614DDA;color:#fff"><b>600</b><span>#614DDA</span></div><div class="stop" style="background:#4F3DB5;color:#fff"><b>700</b><span>#4F3DB5</span></div><div class="stop" style="background:#3C2598;color:#fff"><b>800</b><span>#3C2598</span></div><div class="stop" style="background:#29186C;color:#fff"><b>900</b><span>#29186C</span></div><div class="stop" style="background:#170D43;color:#fff"><b>950</b><span>#170D43</span></div></div>
+  <div class="card" style="margin-top:12px"><b>淺色（soft）元件：</b>100 底、300 邊框、800 字（9.25:1）。頁首按鈕、已選取的 chip、徽章、序號圓點都用這組，只有真正的主要動作才用 700 實心。</div>
 
   <h2>方案並排</h2>
   <div class="grid" id="mocks"></div>
