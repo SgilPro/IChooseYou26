@@ -69,6 +69,13 @@ node tools/yt/merge-teams.mjs $CH
 - 對戰 id＝賽事＋輪次＋選手（排序）；之後抽官方 replay 影片時依同一 match id 補資料，不重複建立。
 - 網頁：`docs-site/matches.html`（暫版，結構與介面之後再優化）。
 
+## 本機清理（2026-11-11）
+
+- `frames/`：隊伍抽取完成且沒有低把握欄位的 64 支影片影格已刪（約 331MB）；保留 6 支（未抽完的 `7DXkpHVcLZU`、`bzqnmAStdvM`，以及有低把握欄位待核對的 `6j1SmTtutHQ`、`8ACL1XG0vjI`、`D-APQ7NRrRI`、`NihuBOAXo94`）。要重看某支，用 `prep-team-intro.mjs` 重新下載該段。
+- `raw/*.info.json`：用 `node tools/yt/slim-info-json.mjs <rawDir> <outDir>` 瘦身成 build-videos 用到的欄位（246MB → 1.5MB，檔內有 `_slimmed: true`）。已驗證：用瘦身後的檔案重建 `videos.json`，除了 `author`／`author_source`（這兩欄後來由隊伍作者回填，重建本來就會被覆蓋，與瘦身無關）外逐欄一致。重新抓取會得到完整版 info.json，可再瘦身。
+- `raw/*.json3` 字幕（約 68MB）保留。
+- 本機資料夾 `data/` 從約 700MB 降到約 120MB。
+
 ## 已知限制
 
 - 標題/章節若不鎖 `youtube:lang=zh-TW` 會被 YouTube 自動翻成英文；`build-videos.mjs` 優先用 description 裡的時間戳重建原文章節。
