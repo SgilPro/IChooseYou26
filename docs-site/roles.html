@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>隊伍角色｜I Choose You</title>
+  <title>戰術定位標籤｜I Choose You</title>
   <link rel="icon" type="image/png" href="assets/master-ball-128.png" />
   <link rel="stylesheet" href="tokens.css" />
   <style>
@@ -36,8 +36,8 @@
 <body>
 <div class="wrap">
   <p><a href="teams.html">← 隊伍列表</a></p>
-  <h1>隊伍角色與功能標籤</h1>
-  <p class="note">一隻寶可夢可以同時有多個角色。標籤分三色：<b style="color:#7A5B00">黃＝輸出</b>、<b style="color:#1E4FB8">藍＝戰術</b>、<b style="color:#1A7339">綠＝輔助</b>。下面每個角色列出：敘述、舉例，以及用來辨識的招式／特性／道具（隊伍表上帶了這些就會「推斷」出該標籤，詳細頁顯示為虛線邊框；手動確認為實線）。</p>
+  <h1>戰術定位標籤</h1>
+  <p class="note">一隻寶可夢可以同時有多個戰術定位。標籤分三色：<b style="color:#7A5B00">黃＝輸出</b>、<b style="color:#1E4FB8">藍＝戰術</b>、<b style="color:#1A7339">綠＝輔助</b>。下面每個定位列出：敘述、舉例，以及用來辨識的招式／特性／道具（隊伍表上帶了這些就會「推斷」出該標籤，詳細頁顯示為虛線邊框；手動確認為實線）。</p>
   <p class="note">更新對應表：編輯 <code>tools/site/build-roles-ref.mjs</code> → 執行 <code>node tools/site/build-roles-ref.mjs</code> → <code>node tools/yt/merge-teams.mjs data/channels/fiskepokemon</code>。手動標：在隊伍的 <code>analysis.roles</code> 寫 <code>[{"slot":1,"roles":["main-attacker"]}]</code>。</p>
   <div id="app">載入中…</div>
 </div>

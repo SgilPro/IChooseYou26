@@ -9,25 +9,9 @@
   <link rel="stylesheet" href="styles.css" />
   <style>
     .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 22px 80px; }
-    .crumbs { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
-    .crumbs a { color: var(--accent-2); text-decoration: none; }
     h1 { margin: 0 0 6px; font-size: 28px; }
+    h1.page-title { font-size: 22px; margin: 18px 0 10px; }
     .lede { color: var(--ink-soft); margin: 0 0 22px; max-width: 760px; }
-    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 20px; }
-    .tile { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
-    .tile .n { font-size: 28px; font-weight: 700; line-height: 1.1; }
-    .tile .l { font-size: 12px; color: var(--ink-soft); margin-top: 4px; }
-    .bars { display: grid; gap: 10px; margin-bottom: 28px; }
-    .bar { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; }
-    .bar .t { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 8px; }
-    .bar .t span:last-child { color: var(--ink-soft); }
-    .track { height: 10px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; display: flex; }
-    .seg { height: 100%; }
-    .seg.ok { background: var(--success); }
-    .seg.member { background: var(--primary-400); }
-    .seg.pending { background: var(--line-strong); }
-    .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
-    .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
     h2 { font-size: 20px; margin: 30px 0 12px; }
     .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; margin-bottom: 10px; }
     .toolbar input, .toolbar select, .toolbar button { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px; }
@@ -104,7 +88,6 @@
     .dl { font-size: 12px; color: var(--ink-soft); margin-left: 8px; }
     .dl a { color: var(--accent-2); }
     @media (max-width: 640px) {
-      #progress summary small { display: none; }
       .tile .n { font-size: 22px; }
       .toolbar .q { flex-basis: 100%; }
       .toolbar label { flex: 1 1 45%; }
@@ -116,36 +99,24 @@
   <link rel="icon" type="image/png" href="assets/master-ball-128.png" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
+  <header class="topbar compact">
+    <div class="brand" data-tip="寶可夢雙打學習天地">
       <img class="logo-img" src="assets/master-ball-128.png" alt="" width="34" height="34" />
       <div>
         <div class="brand-title">I Choose You</div>
-        <div class="brand-sub">頻道資料線 · 隊伍資料庫（預覽）</div>
+        <div class="brand-sub">隊伍列表</div>
       </div>
     </div>
     <div class="head-actions">
       <a class="try-btn" href="./#channel-data" title="回 Live Docs">📖 回文件</a>
       <a class="try-btn" href="matches.html" title="賽事／對戰資訊">🏆 比賽資訊</a>
-      <a class="try-btn" href="roles.html" title="隊伍角色與功能標籤">🎭 隊伍角色</a>
+      <a class="try-btn" href="roles.html" title="戰術定位標籤說明">🎭 戰術定位</a>
       <a class="try-btn" href="design-system.html" title="Design System 研究總覽">🎨 Design System</a>
     </div>
   </header>
 
   <div class="wrap">
-    <div class="crumbs"><a href="./">Live Docs</a> › 頻道資料線 › Fiske Pokémon</div>
-    <h1>Fiske Pokémon 頻道 → 影片主表 + 隊伍資料庫</h1>
-    <details class="raw" id="progress"><summary>資料說明與進度<small>影片主表、隊伍抽取進度（點開查看）</small></summary>
-      <div class="progress-body">
-    <p class="lede">把一個 YouTube 雙打對戰頻道的影片自動整理成兩張表：<strong>每支影片的基本資料</strong>，以及<strong>對戰影片介紹的隊伍六隻與配置</strong>。下面是目前進度與已抽出的隊伍，資料直接從 repo 的 JSON 讀取，每次 push 自動更新。</p>
-
-    <div id="status"></div>
-    <div class="tiles" id="tiles"></div>
-    <div class="bars" id="bars"></div>
-      </div>
-    </details>
-
-    <h2 style="margin-top:18px">已抽取的隊伍</h2>
+    <h1 class="page-title">隊伍列表</h1>
     <div class="toolbar" id="toolbar">
       <input class="q" id="f-q" type="search" placeholder="搜尋隊伍：隊名、寶可夢、作者、標題" autocomplete="off" aria-label="搜尋隊伍" />
       <label hidden>遊戲 <select id="f-game"><option value="">全部</option><option value="champions">Champions</option><option value="sv">朱紫</option></select></label>
@@ -209,51 +180,6 @@
     }
     const regById = Object.fromEntries(regs.map((r) => [r.id, r]));
     const tagBySlug = Object.fromEntries(tags.map((t) => [t.slug, t]));
-
-    // ---- 統計 ----
-    const total = videos.length;
-    const members = videos.filter((v) => v.is_members_only).length;
-    const fetched = videos.filter((v) => !v.is_members_only && v.fetch_error == null && v.published_at).length;
-    const pending = total - members - fetched;
-    const battle = videos.filter((v) => v.category === "battle").length;
-    const champPublic = videos.filter((v) => v.game === "champions" && v.category === "battle" && !v.is_members_only && v.fetch_error == null);
-    const champMember = videos.filter((v) => v.game === "champions" && v.category === "battle" && v.is_members_only).length;
-    const teamVideoIds = new Set(teams.filter((t) => (t.members || []).length > 0).map((t) => t.video_id));
-    const extracted = champPublic.filter((v) => teamVideoIds.has(v.id)).length;
-    const latest = videos.map((v) => v.fetched_at).filter(Boolean).sort().pop();
-
-    $("tiles").innerHTML = [
-      [total, "頻道影片總數"],
-      [fetched, "已抓到完整資料"],
-      [members, "會員限定（待登入補）"],
-      [battle, "對戰類影片"],
-      [teams.filter((t) => (t.members || []).length > 0).length, "已抽取隊伍"],
-      [teams.reduce((n, t) => n + (t.members?.length || 0), 0), "已記錄寶可夢配置"],
-      [teams.filter((t) => t.review_status === "needs-member-access").length, "會員限定隊伍待補"],
-    ].map(([n, l]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
-
-    const pct = (a, b) => (b ? (a / b * 100).toFixed(1) : 0);
-    $("bars").innerHTML = `
-      <div class="bar">
-        <div class="t"><span>影片主表抓取進度</span><span>${fetched + members} / ${total}（${pct(fetched + members, total)}%）</span></div>
-        <div class="track">
-          <div class="seg ok" style="width:${pct(fetched, total)}%"></div>
-          <div class="seg member" style="width:${pct(members, total)}%"></div>
-          <div class="seg pending" style="width:${pct(pending, total)}%"></div>
-        </div>
-        <div class="legend"><span><i style="background:var(--success)"></i>完整 ${fetched}</span><span><i style="background:var(--primary-400)"></i>會員限定 ${members}</span><span><i style="background:var(--line-strong)"></i>待重試 ${pending}</span></div>
-      </div>
-      <div class="bar">
-        <div class="t"><span>Champions 公開對戰影片 → 隊伍抽取</span><span>${extracted} / ${champPublic.length}（${pct(extracted, champPublic.length)}%）；另有 ${champMember} 支會員限定待補</span></div>
-        <div class="track"><div class="seg ok" style="width:${pct(extracted, champPublic.length)}%"></div></div>
-      </div>`;
-    const svPublic = videos.filter((v) => v.game === "sv" && v.category === "battle" && !v.is_members_only && v.fetch_error == null);
-    const svExtracted = svPublic.filter((v) => teamVideoIds.has(v.id)).length;
-    $("bars").insertAdjacentHTML("beforeend", `<div class="bar">
-        <div class="t"><span>朱紫（SV）公開對戰影片 → 隊伍匯入（pokepaste）</span><span>${svExtracted} / ${svPublic.length}（${pct(svExtracted, svPublic.length)}%）</span></div>
-        <div class="track"><div class="seg ok" style="width:${pct(svExtracted, svPublic.length)}%"></div></div>
-      </div>`);
-    $("status").innerHTML = `<p style="font-size:13px;color:var(--ink-soft)">資料時間：${latest ? latest.slice(0, 16).replace("T", " ") + " UTC" : "—"} · 抽取規則版本：${[...new Set(teams.map((t) => t.extracted_by))].join("、")}</p>`;
 
     // ---- 隊伍 ----
     const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));

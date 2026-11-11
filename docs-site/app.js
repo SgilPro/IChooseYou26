@@ -23,7 +23,7 @@ const PAGES = [
   {
     group: "資料", items: [
       { id: "channel-data", title: "頻道資料線（Fiske）", file: "content/channel-data.md" },
-      { id: "teams-page", title: "📊 隊伍資料庫（即時）", href: "teams.html" },
+      { id: "teams-page", title: "📊 隊伍列表", href: "teams.html" },
     ]
   },
   {
@@ -80,6 +80,11 @@ async function load(id) {
     if (!res.ok) throw new Error(res.status);
     const md = await res.text();
     articleEl.innerHTML = marked.parse(md);
+    if (page.id === "channel-data") {
+      const run = () => window.renderChannelProgress && window.renderChannelProgress();
+      if (window.renderChannelProgress) run();
+      else { const sc = document.createElement("script"); sc.src = "channel-progress.js"; sc.onload = run; document.head.appendChild(sc); }
+    }
   } catch (e) {
     articleEl.innerHTML = `<h1>${page.title}</h1><p>這頁內容還在準備中。</p>`;
   }
