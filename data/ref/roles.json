@@ -1,20 +1,30 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-11-11",
   "note": "角色／功能標籤。group：attacker 黃、tactic 藍、support 綠。rules 命中＝「推斷」（UI 虛線邊框）；analysis.roles 手動標＝「確認」（實線）。一隻可有多個。圖示：lucide（ISC）與 tabler（MIT），見 assets/icons/roles/README.md。",
   "tags": [
     {
       "id": "main-attacker",
       "group": "attacker",
-      "name_zh": "主輸出",
+      "name_zh": "主攻",
       "icon_name": "chess-queen",
       "icon": "<path d=\"m10.68 5.499-.996 4.982a.65.65 0 01-1.131.295L5.885 7.663\" /> <path d=\"m13.32 5.5.995 4.98a.65.65 0 001.131.296l2.668-3.113\" /> <path d=\"M20.428 8.952 17.5 18\" /> <path d=\"M4 20a2 2 0 012-2h12a2 2 0 012 2v1a1 1 0 01-1 1H5a1 1 0 01-1-1z\" /> <path d=\"M6.5 18 3.571 8.952\" /> <circle cx=\"12\" cy=\"4\" r=\"2\" /> <circle cx=\"20\" cy=\"7\" r=\"2\" /> <circle cx=\"4\" cy=\"7\" r=\"2\" />",
       "manual_only": true,
-      "description_zh": "核心輸出，通常呼應核心戰術；可不只一隻（雙核心）。只能手動標。",
+      "description_zh": "核心輸出（主輸出）：隊伍戰術資源圍繞的火力來源；Mega／神獸位、天氣隊的受益輸出手（雨天鋁鋼橋龍的電光束、雪天雪妖女的暴風雪、晴天氣象球／日光束持有者）、有您先請等資源配合者。可不只一隻（雙核心）。",
       "examples_zh": [
         "Mega 甲賀忍蛙（甲賀忍蛙隊的核心輸出）",
         "雙主攻：Mega Y 噴火龍＋Mega 花葉蒂、Mega 妖火紅狐＋Mega 水箭龜（只是模式不同）",
-        "配合核心戰術的主攻：空間白馬王、空間紅蓮鎧騎、順風暴飛龍、高血量先手噴水／噴火／巨龍威能"
+        "天氣隊的輸出手：雨天鋁鋼橋龍（電光束不用等下一回合）、雪天雪妖女（暴風雪滿命中）、晴天 Mega Y 噴火龍／Mega 火炎獅",
+        "配合核心戰術：空間白馬王、空間紅蓮鎧騎、順風暴飛龍；被您先請送出噴火的輸出手",
+        "Mega 巨沼怪若是物攻版本也是主攻（忍蛙隊那隻是特攻，屬副攻）"
+      ],
+      "heuristic_zh": [
+        "影片標題或隊名圍繞這隻（+3）",
+        "Mega 位且有 3 個以上攻擊招式（+2）；Mega 中少數輔助型（如 Mega 差不多娃娃）攻擊招式少，不會命中",
+        "神獸／幻獸（+2）",
+        "天氣隊的受益輸出手：隊上有對應天氣的設置者，且持有雨天電光束、雪天暴風雪、晴天日光束／氣象球等（+2）",
+        "攻擊性格（+1）、攻擊或特攻能力點偏高（+1）",
+        "得分 ≥ 3 取前兩名（雙核心）。僅當有 2 個以上攻擊招式才計分"
       ],
       "rules": {
         "move": [],
@@ -25,14 +35,39 @@
     {
       "id": "sub-attacker",
       "group": "attacker",
-      "name_zh": "副輸出／補盲",
+      "name_zh": "副攻",
       "icon_name": "chess-knight",
       "icon": "<path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" /> <path d=\"M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456\" /> <path d=\"m15 5 1.425-1.425\" /> <path d=\"m17 8 1.53-1.53\" /> <path d=\"M9.713 12.185 7 18\" />",
       "manual_only": true,
-      "description_zh": "多屬性打點或與主攻互補；Mega 不等於核心。只能手動標。",
+      "description_zh": "聯攻補盲：補足主攻不好處理的打點，常帶廣的技能池（三個屬性以上的攻擊招式）或先制收殘；火力不一定比較弱，只是較不是戰術資源圍繞的對象，更常是百搭型隊友。",
       "examples_zh": [
-        "Mega 巨沼怪（特攻不高，更像副攻／補盲，並帶資訊不對等的奇攻概念，戰術第二主線）",
-        "多屬性打點，或與主攻互補的寶可夢"
+        "仆斬將軍、公幽尾玄魚（先制技能收殘）",
+        "圍巾烈咬陸鯊、甜冷美后、艾路雷朵、多龍",
+        "風速狗／洗翠風速狗",
+        "Mega 巨沼怪（忍蛙隊：特攻不高，補盲並帶資訊不對等的奇攻概念，戰術第二主線）"
+      ],
+      "heuristic_zh": [
+        "不是主攻，且有 2 個以上攻擊招式，並且帶三種以上屬性的攻擊招式（廣技能池補盲），或帶先制攻擊招式收殘（不含擊掌奇襲等輔助型先制）"
+      ],
+      "rules": {
+        "move": [],
+        "ability": [],
+        "item": []
+      }
+    },
+    {
+      "id": "attacker",
+      "group": "attacker",
+      "name_zh": "攻擊",
+      "icon_name": "chess-rook",
+      "icon": "<path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" /> <path d=\"M10 2v2\" /> <path d=\"M14 2v2\" /> <path d=\"m17 18-1-9\" /> <path d=\"M6 2v5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2\" /> <path d=\"M6 4h12\" /> <path d=\"m7 18 1-9\" />",
+      "manual_only": true,
+      "description_zh": "確實在追求傷害（攻擊招式多、攻擊性格或能力），但分不出是主攻還是副攻時用的中性標籤。",
+      "examples_zh": [
+        "攻擊招式多、有攻擊性格，但資料不足以判斷戰術定位"
+      ],
+      "heuristic_zh": [
+        "不是主攻或副攻，但帶 3 個以上攻擊招式：確實在追求傷害，只是分不出定位時的中性標籤"
       ],
       "rules": {
         "move": [],
@@ -47,12 +82,13 @@
       "icon_name": "cloud-sun-rain",
       "icon": "<path d=\"M12 2v2\" /> <path d=\"m4.93 4.93 1.41 1.41\" /> <path d=\"M20 12h2\" /> <path d=\"m19.07 4.93-1.41 1.41\" /> <path d=\"M15.947 12.65a4 4 0 0 0-5.925-4.128\" /> <path d=\"M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24\" /> <path d=\"M11 20v2\" /> <path d=\"M7 19v2\" />",
       "manual_only": false,
-      "description_zh": "",
+      "description_zh": "改變天氣的特性與招式（依 52poke，剔除第九世代已移除的冰雹，以及不屬於本作的極巨招式）。",
       "examples_zh": [
         "主攻：Mega Y 噴火龍、蓋歐卡、故勒頓",
         "副攻：大嘴鷗、班基拉斯、雙倍多多冰",
         "輔助：阿羅拉九尾、求雨勾魂眼、大晴天酷豹、冷笑話呆呆王、沙暴鑰圈兒"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -72,8 +108,8 @@
             "name_en": "Snowscape"
           },
           {
-            "name_zh": "冰雹",
-            "name_en": "Hail"
+            "name_zh": "冷笑話",
+            "name_en": "Chilly Reception"
           }
         ],
         "ability": [
@@ -94,10 +130,6 @@
             "name_en": "Snow Warning"
           },
           {
-            "name_zh": "預知夢",
-            "name_en": "Forewarn"
-          },
-          {
             "name_zh": "始源之海",
             "name_en": "Primordial Sea"
           },
@@ -110,8 +142,16 @@
             "name_en": "Delta Stream"
           },
           {
+            "name_zh": "吐沙",
+            "name_en": "Sand Spit"
+          },
+          {
             "name_zh": "緋紅脈動",
             "name_en": "Orichalcum Pulse"
+          },
+          {
+            "name_zh": "歸零化境",
+            "name_en": "Teraform Zero"
           }
         ],
         "item": []
@@ -124,12 +164,13 @@
       "icon_name": "layer-arrow-up",
       "icon": "<path d=\"M12 14V4\" /> <path d=\"M7.674 10.774 2.58 13.09a1 1 0 000 1.822l8.6 3.91a2 2 0 001.65 0l8.58-3.9a1 1 0 00.59-.92 1 1 0 00-.59-.922l-5.078-2.308\" /> <path d=\"m9 7 3-3 3 3\" />",
       "manual_only": false,
-      "description_zh": "",
+      "description_zh": "改變場地的特性與招式（極巨招式與起源超新星大爆炸不屬於本作，不收）。",
       "examples_zh": [
         "主攻：密勒頓",
         "副攻：金剛猩",
         "輔助：愛管侍"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -155,16 +196,20 @@
             "name_en": "Electric Surge"
           },
           {
-            "name_zh": "青草製造者",
-            "name_en": "Grassy Surge"
-          },
-          {
             "name_zh": "精神製造者",
             "name_en": "Psychic Surge"
           },
           {
             "name_zh": "薄霧製造者",
             "name_en": "Misty Surge"
+          },
+          {
+            "name_zh": "青草製造者",
+            "name_en": "Grassy Surge"
+          },
+          {
+            "name_zh": "掉出種子",
+            "name_en": "Seed Sower"
           },
           {
             "name_zh": "強子引擎",
@@ -187,6 +232,7 @@
         "副攻：空間奇麒麟",
         "輔助：空間來悲粗茶"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -211,6 +257,7 @@
         "副攻：順風烈箭鷹、順風三首惡龍、順風大嘴鷗",
         "輔助：順風風妖精"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -234,8 +281,9 @@
         "範圍降速：冰凍之風、電網、吐絲（可能被免疫）",
         "麻痺：電磁波、電磁砲、蹭蹭臉頰、大蛇瞪眼（幫隊友把對手變慢）",
         "一回合的順序操縱：延後、您先請（例：愛管侍帶講究圍巾加您先請）",
-        "不算：自己帶講究圍巾或葉綠素而沒有配合您先請、蝶舞龍舞（自身強化，不是幫隊友控速）"
+        "不算：自己帶講究圍巾或葉綠素而沒有配合您先請、蝶舞龍舞（自身強化）、誓約（單一角色無法造成）"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -271,14 +319,6 @@
             "name_en": "After You"
           },
           {
-            "name_zh": "水之誓約",
-            "name_en": "Water Pledge"
-          },
-          {
-            "name_zh": "草之誓約",
-            "name_en": "Grass Pledge"
-          },
-          {
             "name_zh": "重踏",
             "name_en": "Bulldoze"
           },
@@ -302,16 +342,26 @@
       "icon_name": "tic-tac-toe",
       "icon": "<path d=\"M12 2v20\" /> <path d=\"m21 16-5 5\" /> <path d=\"m21 21-5-5\" /> <path d=\"M22 12H2\" /> <path d=\"M8 3 3 8\" /> <path d=\"M8 8 3 3\" /> <circle cx=\"18.5\" cy=\"5.5\" r=\"2.5\" /> <circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\" />",
       "manual_only": false,
-      "description_zh": "其他特殊核心戰術：消掉負面特性（慢啟動、菌絲之力）、給隊友好用特性。",
+      "description_zh": "其他特殊核心戰術。釋陀果之後若為核心戰術可在此補充。",
       "examples_zh": [
         "化學變化氣體：消掉負面特性（慢啟動、菌絲之力）",
-        "找夥伴：給隊友好用的特性"
+        "找夥伴：給隊友好用的特性",
+        "輸電、浸水：改對手屬性（同時可能是減傷或增傷用途）。註：輸電在第九世代已移除，僅保留在對照表"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
             "name_zh": "找夥伴",
             "name_en": "Entrainment"
+          },
+          {
+            "name_zh": "輸電",
+            "name_en": "Electrify"
+          },
+          {
+            "name_zh": "浸水",
+            "name_en": "Soak"
           }
         ],
         "ability": [
@@ -332,9 +382,11 @@
       "manual_only": false,
       "description_zh": "幫輸出減傷、免傷、轉移傷害或阻止干擾。",
       "examples_zh": [
-        "防止傷害：看我嘛、廣域防守、交換場地、友情防守",
-        "阻止干擾：快速防守（防擊掌）、尾甲／女王的威嚴／鮮豔之軀（防擊掌）、精神場地／精神製造者（防擊掌）、電氣場地／電氣製造者（防睡眠）、甜幕（防睡眠）、芳香幕（防心靈攻擊招式）"
+        "防止傷害：看我嘛、廣域防守、交換場地",
+        "阻止干擾：快速防守（防擊掌）、尾甲／女王的威嚴／鮮豔之軀（防擊掌）、精神場地／精神製造者（防擊掌）、甜幕（防睡眠）、芳香幕（防心靈攻擊招式）",
+        "電氣製造者多半不是為了掩護，不收；友情防守歸減傷"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -360,10 +412,6 @@
         ],
         "ability": [
           {
-            "name_zh": "友情防守",
-            "name_en": "Friend Guard"
-          },
-          {
             "name_zh": "女王的威嚴",
             "name_en": "Queenly Majesty"
           },
@@ -378,10 +426,6 @@
           {
             "name_zh": "精神製造者",
             "name_en": "Psychic Surge"
-          },
-          {
-            "name_zh": "電氣製造者",
-            "name_en": "Electric Surge"
           },
           {
             "name_zh": "甜幕",
@@ -402,13 +446,14 @@
       "icon_name": "circle-chevrons-up",
       "icon": "<path d=\"M15 10L12 7L9 10\" /> <path d=\"M15 16L12 13L9 16\" /> <circle cx=\"12\" cy=\"12\" r=\"10\" />",
       "manual_only": false,
-      "description_zh": "增傷、降對手防禦、暫時增傷（特殊增傷如避雷針＋放電需手動標）。",
+      "description_zh": "增傷、降對手防禦、暫時增傷（特殊增傷需手動標）。",
       "examples_zh": [
         "增傷：指導、長嚎、裝飾、點穴",
-        "降對手防禦：假哭、潑冷水、金屬音、刺耳聲",
+        "降對手防禦：假哭、金屬音、刺耳聲",
         "暫時增傷：幫助",
         "特殊增傷（需手動標）：圍攻打自己的氣勢猴提升憤怒之拳威力；打自己有弱點保險的隊友提高雙攻；輸出手有避雷針、輔助手打放電；輸出手有食草"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -430,10 +475,6 @@
           {
             "name_zh": "假哭",
             "name_en": "Fake Tears"
-          },
-          {
-            "name_zh": "潑冷水",
-            "name_en": "Chilling Water"
           },
           {
             "name_zh": "金屬音",
@@ -459,11 +500,13 @@
       "icon_name": "circle-chevrons-down",
       "icon": "<path d=\"M9 14L12 17L15 14\" /> <path d=\"M9 8L12 11L15 8\" /> <circle cx=\"12\" cy=\"12\" r=\"10\" />",
       "manual_only": false,
-      "description_zh": "增防、降對手攻擊。",
+      "description_zh": "增防、降對手攻擊、減少隊友受傷。",
       "examples_zh": [
         "增防：指導、磁場操控、鮮花防守、點穴、芳香薄霧",
-        "降對手攻擊：撒嬌、圓瞳、蟲之抵抗、鬼火（透過灼傷）"
+        "降對手攻擊：撒嬌、圓瞳、蟲之抵抗、潑冷水、鬼火（透過灼傷）",
+        "友情防守（特性）：降低隊友受到的傷害"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -501,9 +544,18 @@
           {
             "name_zh": "鬼火",
             "name_en": "Will-O-Wisp"
+          },
+          {
+            "name_zh": "潑冷水",
+            "name_en": "Chilling Water"
           }
         ],
-        "ability": [],
+        "ability": [
+          {
+            "name_zh": "友情防守",
+            "name_en": "Friend Guard"
+          }
+        ],
         "item": []
       }
     },
@@ -514,13 +566,13 @@
       "icon_name": "pumpkin-scary",
       "icon": "<path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/> <path d=\"M9 15l1.5 1l1.5 -1l1.5 1l1.5 -1\" /> <path d=\"M10 11h.01\" /> <path d=\"M14 11h.01\" /> <path d=\"M17 6.082c2.609 .588 3.627 4.162 2.723 7.983c-.903 3.82 -2.75 6.44 -5.359 5.853a3.355 3.355 0 0 1 -.774 -.279a3.728 3.728 0 0 1 -1.59 .361c-.556 0 -1.09 -.127 -1.59 -.362a3.296 3.296 0 0 1 -.774 .28c-2.609 .588 -4.456 -2.033 -5.36 -5.853c-.903 -3.82 .115 -7.395 2.724 -7.983c1.085 -.244 1.575 .066 2.585 .787c.716 -.554 1.54 -.869 2.415 -.869c.876 0 1.699 .315 2.415 .87c1.01 -.722 1.5 -1.032 2.585 -.788z\" /> <path d=\"M12 6c0 -1.226 .693 -2.346 1.789 -2.894l.211 -.106\" />",
       "manual_only": false,
-      "description_zh": "讓對手不能動作、限制動作、上負面狀態或改屬性。",
+      "description_zh": "讓對手不能動作、限制動作、上負面狀態。改對手屬性（輸電、浸水）歸戰術。",
       "examples_zh": [
         "讓對手不能動作或限制動作：擊掌奇襲、定身法、再來一次、挑釁（阻止強化或控速）",
         "上負面狀態：哈欠、蘑菇孢子、催眠粉、虛張聲勢",
-        "戲法：給對手講究道具",
-        "改對手屬性：輸電、浸水（同時可能是減傷或增傷用途）"
+        "戲法：給對手講究道具"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -558,14 +610,6 @@
           {
             "name_zh": "戲法",
             "name_en": "Trick"
-          },
-          {
-            "name_zh": "輸電",
-            "name_en": "Electrify"
-          },
-          {
-            "name_zh": "浸水",
-            "name_en": "Soak"
           }
         ],
         "ability": [],
@@ -579,11 +623,13 @@
       "icon_name": "cross",
       "icon": "<path d=\"M4 9a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h4a1 1 0 0 1 1 1v4a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-4a1 1 0 0 1 1-1h4a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-4a1 1 0 0 1-1-1V4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4a1 1 0 0 1-1 1z\" />",
       "manual_only": false,
-      "description_zh": "特殊回血（儲水／蓄電／食土配群體攻擊）需手動標。",
+      "description_zh": "替隊友回復。特殊回血需手動標。",
       "examples_zh": [
         "生命水滴、治癒波動、款待（特性）、花療、新月祈禱",
+        "復生祈禱、祈願、花粉團、治癒之願、新月舞",
         "特殊回血（需手動標）：儲水／蓄電／食土／乾燥皮膚，配上地震、衝浪、放電等群體攻擊"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {
@@ -601,6 +647,26 @@
           {
             "name_zh": "新月祈禱",
             "name_en": "Lunar Blessing"
+          },
+          {
+            "name_zh": "復生祈禱",
+            "name_en": "Revival Blessing"
+          },
+          {
+            "name_zh": "祈願",
+            "name_en": "Wish"
+          },
+          {
+            "name_zh": "花粉團",
+            "name_en": "Pollen Puff"
+          },
+          {
+            "name_zh": "治癒之願",
+            "name_en": "Healing Wish"
+          },
+          {
+            "name_zh": "新月舞",
+            "name_en": "Lunar Dance"
           }
         ],
         "ability": [
@@ -624,6 +690,7 @@
         "不讓對方換人：踩影、死纏爛打",
         "破對面防守：佯攻"
       ],
+      "heuristic_zh": [],
       "rules": {
         "move": [
           {

@@ -64,8 +64,9 @@
         html += `<section class="role" id="${esc(t.id)}"><div class="role-head">${chip(t)}<code>${esc(t.id)}</code><span class="cnt">目前推斷 ${n} 隻・手動 ${m} 隻</span></div>
           ${t.description_zh ? `<p>${esc(t.description_zh)}</p>` : ""}
           ${t.examples_zh?.length ? `<h3>舉例</h3><ul>${t.examples_zh.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
-          <h3>辨識用的招式／特性／道具</h3>
-          ${t.manual_only ? `<p class="manual">目前沒有可自動辨識的招式或特性，只能手動標（<code>analysis.roles</code>）。</p>` : terms("招式", t.rules.move) + terms("特性", t.rules.ability) + terms("道具", t.rules.item)}
+          <h3>辨識方式</h3>
+          ${t.heuristic_zh?.length ? `<div class="kind">推斷規則（啟發式，推斷者以虛線顯示）</div><ul>${t.heuristic_zh.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+          ${t.manual_only && !t.heuristic_zh?.length ? `<p class="manual">目前沒有可自動辨識的招式或特性，只能手動標（<code>analysis.roles</code>）。</p>` : terms("招式", t.rules.move) + terms("特性", t.rules.ability) + terms("道具", t.rules.item)}
         </section>`;
       }
     }

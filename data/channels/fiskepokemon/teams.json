@@ -596,10 +596,23 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "cover",
             "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -610,8 +623,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "weather",
             "speed-other"
           ]
@@ -1242,6 +1262,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind"
@@ -1250,6 +1276,7 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "dmg-boost"
           ]
         },
@@ -1263,6 +1290,7 @@
         {
           "slot": 5,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -1270,6 +1298,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         }
@@ -2233,14 +2262,22 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -2841,6 +2878,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "speed-other"
           ]
         },
@@ -2856,6 +2894,7 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "weather",
             "mitigator"
           ]
@@ -2864,6 +2903,12 @@
           "slot": 4,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -3524,6 +3569,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -3542,13 +3593,21 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -4232,9 +4291,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -4249,6 +4321,12 @@
           "slot": 5,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -4856,6 +4934,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -4867,7 +4951,20 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -5472,15 +5569,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
-            "terrain",
-            "cover"
+            "sub-attacker",
+            "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "terrain",
             "disruptor"
           ]
@@ -5496,7 +5600,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -6132,6 +6243,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor"
@@ -6140,6 +6263,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -6148,6 +6272,12 @@
           "roles": [
             "cover",
             "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -6731,8 +6861,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         },
@@ -6742,6 +6879,18 @@
             "trick-room",
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -7242,9 +7391,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -7259,6 +7421,12 @@
           "roles": [
             "weather",
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -7746,6 +7914,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -7753,6 +7922,24 @@
           "slot": 2,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -8246,6 +8433,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -8253,6 +8441,24 @@
           "slot": 2,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -8746,6 +8952,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -8762,10 +8969,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover",
             "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -9239,6 +9458,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -9250,9 +9470,28 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -9726,12 +9965,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "tailwind"
           ]
         },
@@ -9740,6 +9981,24 @@
           "roles": [
             "trick-room",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -10375,6 +10634,7 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -10387,13 +10647,14 @@
         {
           "slot": 3,
           "roles": [
-            "cover",
-            "disruptor"
+            "tactic-other",
+            "cover"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
@@ -10402,6 +10663,12 @@
           "roles": [
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -11000,6 +11267,7 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -11008,7 +11276,9 @@
           "roles": [
             "weather",
             "tailwind",
-            "cover"
+            "cover",
+            "mitigator",
+            "healer"
           ]
         },
         {
@@ -11020,8 +11290,21 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         }
@@ -11653,6 +11936,7 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "dmg-boost",
             "mitigator"
           ]
@@ -11665,9 +11949,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -12284,6 +12581,7 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "weather",
             "dmg-boost"
           ]
@@ -12294,6 +12592,18 @@
             "tailwind",
             "dmg-boost",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -12870,6 +13180,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor"
@@ -12893,6 +13215,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -13469,6 +13792,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -13486,6 +13815,12 @@
           "slot": 5,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -14086,6 +14421,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -14098,6 +14439,12 @@
             "dmg-boost",
             "mitigator",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -14706,6 +15053,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "speed-other"
           ]
         },
@@ -14718,6 +15066,7 @@
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         },
@@ -15298,6 +15647,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "disruptor"
@@ -15312,10 +15667,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "weather",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -15952,6 +16319,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "mitigator",
@@ -16570,12 +16943,20 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "attacker",
             "speed-other"
           ]
         },
@@ -16583,6 +16964,18 @@
           "slot": 4,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -17191,20 +17584,29 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather",
             "speed-other",
             "dmg-boost"
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "cover",
             "disruptor"
           ]
@@ -17773,12 +18175,14 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "controller"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
@@ -17795,6 +18199,12 @@
           "slot": 4,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -19024,6 +19434,30 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "speed-other",
@@ -19636,6 +20070,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         },
@@ -19650,13 +20085,21 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -20254,9 +20697,33 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -20852,6 +21319,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -20861,7 +21334,26 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -21504,6 +21996,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -21519,8 +22017,15 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         },
@@ -22146,6 +22651,7 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "speed-other",
             "disruptor"
           ]
@@ -22153,12 +22659,14 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -22167,6 +22675,18 @@
           "roles": [
             "weather",
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -22805,6 +23325,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind"
@@ -23421,6 +23959,7 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -23434,6 +23973,12 @@
           "slot": 3,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -24019,6 +24564,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -24036,6 +24587,18 @@
           "slot": 4,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -24673,12 +25236,14 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
@@ -24697,7 +25262,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -25295,6 +25867,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "dmg-boost",
@@ -25310,6 +25900,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "weather",
             "speed-other",
             "disruptor"
@@ -25939,8 +26530,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "weather"
           ]
         },
@@ -25954,12 +26552,14 @@
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "tactic-other"
           ]
         },
@@ -25968,6 +26568,7 @@
           "roles": [
             "speed-other",
             "cover",
+            "mitigator",
             "controller"
           ]
         }
@@ -26535,8 +27136,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "weather",
             "dmg-boost"
           ]
@@ -26551,7 +27159,14 @@
           "slot": 4,
           "roles": [
             "cover",
+            "mitigator",
             "controller"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -27146,6 +27761,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -27153,6 +27769,12 @@
           "slot": 2,
           "roles": [
             "mitigator"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -27170,6 +27792,12 @@
             "cover",
             "dmg-boost",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -27825,6 +28453,7 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "speed-other",
             "disruptor"
           ]
@@ -27832,6 +28461,7 @@
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
@@ -27846,6 +28476,7 @@
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -27853,7 +28484,14 @@
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -28416,6 +29054,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather",
             "mitigator"
           ]
@@ -28440,8 +29079,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         }
@@ -28963,7 +29609,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -28984,6 +29637,12 @@
           "slot": 5,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -29530,9 +30189,21 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
-            "speed-other"
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -29547,7 +30218,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -29555,8 +30225,8 @@
         {
           "slot": 6,
           "roles": [
-            "terrain",
-            "speed-other"
+            "sub-attacker",
+            "terrain"
           ]
         }
       ]
@@ -30124,12 +30794,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
@@ -30153,6 +30825,7 @@
         {
           "slot": 5,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         },
@@ -30767,12 +31440,14 @@
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "trick-room",
             "controller"
           ]
@@ -30780,12 +31455,20 @@
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         }
@@ -31360,6 +32043,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room",
             "disruptor"
           ]
@@ -31381,6 +32065,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "trick-room",
             "controller"
           ]
@@ -31388,12 +32073,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         }
@@ -31933,16 +32620,36 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -32535,6 +33242,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor",
@@ -32552,7 +33265,8 @@
           "slot": 5,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         }
       ]
@@ -33187,12 +33901,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
@@ -33201,6 +33917,24 @@
           "roles": [
             "weather",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -33901,6 +34635,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather",
             "speed-other",
             "mitigator"
@@ -33909,7 +34644,14 @@
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "healer"
           ]
         },
         {
@@ -33917,6 +34659,12 @@
           "roles": [
             "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -34539,14 +35287,28 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "trick-room",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -34559,6 +35321,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         }
@@ -35171,12 +35934,14 @@
         {
           "slot": 1,
           "roles": [
+            "attacker",
             "cover"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -35185,6 +35950,24 @@
           "roles": [
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -35774,6 +36557,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -35786,6 +36570,7 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
@@ -35800,6 +36585,7 @@
           "roles": [
             "speed-other",
             "cover",
+            "mitigator",
             "healer"
           ]
         },
@@ -36365,6 +37151,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -36374,7 +37178,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "terrain"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -36891,6 +37702,18 @@
           "slot": 4,
           "roles": [
             "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -37467,7 +38290,14 @@
         {
           "slot": 1,
           "roles": [
+            "attacker",
             "terrain"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -37480,12 +38310,14 @@
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "weather",
             "dmg-boost"
           ]
@@ -38154,6 +38986,7 @@
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "dmg-boost",
             "mitigator"
           ]
@@ -38161,13 +38994,21 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -38175,6 +39016,7 @@
           "roles": [
             "cover",
             "dmg-boost",
+            "mitigator",
             "disruptor"
           ]
         }
@@ -38750,6 +39592,7 @@
         {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -38757,6 +39600,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "healer"
           ]
         }
@@ -39297,12 +40141,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         },
@@ -39326,7 +40172,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -39848,12 +40701,14 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         },
@@ -39862,6 +40717,12 @@
           "roles": [
             "mitigator",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -40421,8 +41282,21 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "terrain",
             "disruptor"
           ]
@@ -41023,14 +41897,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -41046,6 +41928,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "dmg-boost",
             "mitigator"
           ]
@@ -41697,13 +42580,27 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room",
             "cover"
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
@@ -42305,8 +43202,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -42328,6 +43232,12 @@
           "roles": [
             "weather",
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -42959,6 +43869,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -42969,6 +43885,18 @@
           "slot": 3,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -43571,8 +44499,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
@@ -43586,18 +44521,21 @@
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         }
@@ -44219,6 +45157,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -44237,6 +45176,12 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "trick-room",
@@ -44247,6 +45192,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         }
@@ -44743,6 +45689,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "trick-room",
@@ -44759,9 +45711,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -45309,18 +46274,27 @@
         {
           "slot": 1,
           "roles": [
-            "trick-room"
+            "trick-room",
+            "healer"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         },
@@ -45909,8 +46883,21 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "attacker",
             "dmg-boost",
             "mitigator"
           ]
@@ -45919,6 +46906,18 @@
           "slot": 4,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -46539,20 +47538,35 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -47167,7 +48181,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -47693,6 +48714,7 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
@@ -47719,6 +48741,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         }
@@ -48218,15 +49241,35 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "controller"
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker",
+            "terrain",
+            "healer"
           ]
         }
       ]
@@ -48841,6 +49884,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
@@ -48874,6 +49918,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "disruptor",
             "controller"
           ]
@@ -49501,8 +50546,8 @@
         {
           "slot": 1,
           "roles": [
-            "cover",
             "dmg-boost",
+            "mitigator",
             "healer"
           ]
         },
@@ -49511,6 +50556,7 @@
           "roles": [
             "cover",
             "dmg-boost",
+            "mitigator",
             "healer"
           ]
         },
@@ -49523,8 +50569,8 @@
         {
           "slot": 4,
           "roles": [
-            "cover",
             "dmg-boost",
+            "mitigator",
             "healer"
           ]
         },
@@ -49533,6 +50579,12 @@
           "roles": [
             "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -50063,6 +51115,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -50082,6 +51140,7 @@
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "mitigator"
           ]
         },
@@ -50731,6 +51790,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
@@ -51347,14 +52424,22 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -51366,6 +52451,7 @@
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         },
@@ -52011,14 +53097,27 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "speed-other"
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "cover",
             "controller"
           ]
@@ -52026,6 +53125,7 @@
         {
           "slot": 5,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -52595,8 +53695,21 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -53280,6 +54393,30 @@
           "roles": [
             "trick-room"
           ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
+          ]
         }
       ]
     }
@@ -53847,6 +54984,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather",
@@ -54331,6 +55480,18 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "disruptor"
@@ -54340,7 +55501,8 @@
           "slot": 5,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -54927,8 +56089,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "speed-other",
             "dmg-boost"
           ]
@@ -54936,18 +56105,21 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -55602,6 +56774,18 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather",
@@ -56143,15 +57327,15 @@
         {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
-            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-other"
+            "sub-attacker"
           ]
         },
         {
@@ -56163,7 +57347,13 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other"
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -56760,6 +57950,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "speed-other",
@@ -56769,6 +57971,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -56785,7 +57988,8 @@
           "slot": 6,
           "roles": [
             "trick-room",
-            "cover"
+            "cover",
+            "healer"
           ]
         }
       ]
@@ -57306,15 +58510,35 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -57913,8 +59137,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -58599,12 +59830,24 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "weather",
             "tailwind",
             "cover",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -59172,6 +60415,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -59182,7 +60431,14 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -59675,9 +60931,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -59690,6 +60959,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         }
@@ -60244,6 +61514,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room",
             "disruptor"
           ]
@@ -60256,8 +61527,21 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -60914,6 +62198,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "speed-other",
             "dmg-boost",
             "disruptor"
@@ -60922,18 +62207,21 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -60946,6 +62234,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         }
@@ -61444,6 +62733,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -61934,6 +63224,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "mitigator"
@@ -61942,12 +63238,20 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "tailwind",
             "disruptor"
           ]
@@ -61955,6 +63259,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "cover",
             "disruptor"
           ]
@@ -62546,26 +63851,40 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
-            "speed-other"
+            "sub-attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-other"
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "terrain"
           ]
         }
@@ -63050,8 +64369,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
             "cover"
           ]
@@ -63059,19 +64385,28 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "trick-room"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -63612,6 +64947,12 @@
         }
       ],
       "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
         {
           "slot": 4,
           "roles": [
@@ -64204,15 +65545,41 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "weather",
             "tailwind"
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -64765,6 +66132,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "cover",
             "disruptor"
           ]
@@ -64772,6 +66140,7 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "tactic-other"
           ]
         },
@@ -64785,6 +66154,18 @@
           "slot": 4,
           "roles": [
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -65370,8 +66751,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -65388,6 +66776,12 @@
           "roles": [
             "dmg-boost",
             "mitigator"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -65917,10 +67311,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -65931,8 +67337,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "trick-room"
           ]
         }
@@ -66492,6 +67905,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover",
@@ -66510,6 +67929,18 @@
             "weather",
             "tailwind",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -67142,21 +68573,42 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -67687,7 +69139,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -67702,7 +69161,20 @@
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -68303,6 +69775,7 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
@@ -68318,7 +69791,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -68967,7 +70447,14 @@
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "terrain"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -68987,6 +70474,7 @@
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         }
@@ -69565,6 +71053,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
@@ -69573,6 +71062,12 @@
           "roles": [
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -69592,6 +71087,7 @@
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         }
@@ -70096,19 +71592,34 @@
         {
           "slot": 1,
           "roles": [
+            "attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -70616,12 +72127,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -70632,8 +72155,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         }
@@ -71274,13 +72804,33 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "terrain"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -71887,7 +73437,20 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -72470,8 +74033,27 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -73065,13 +74647,39 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -73730,9 +75338,33 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -74341,10 +75973,23 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -74363,6 +76008,7 @@
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "mitigator"
           ]
         }
@@ -74937,11 +76583,24 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker",
+            "healer"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover",
             "dmg-boost",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -75592,8 +77251,15 @@
         {
           "slot": 3,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -75602,6 +77268,12 @@
             "weather",
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -76214,6 +77886,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -76221,9 +77899,22 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -76825,7 +78516,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -76847,6 +78545,7 @@
         {
           "slot": 5,
           "roles": [
+            "attacker",
             "dmg-boost",
             "mitigator"
           ]
@@ -77524,6 +79223,13 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker",
+            "weather"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -77540,9 +79246,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -78129,12 +79848,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -78143,6 +79864,12 @@
           "slot": 3,
           "roles": [
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -78687,6 +80414,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -78703,6 +80436,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "cover"
           ]
         },
@@ -78716,6 +80450,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "cover",
             "dmg-boost"
           ]
@@ -79252,12 +80987,20 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "terrain"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "speed-other",
             "dmg-boost"
           ]
@@ -79265,6 +81008,7 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "cover",
             "mitigator"
           ]
@@ -79272,6 +81016,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "speed-other",
             "cover"
           ]
@@ -79761,6 +81506,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -79774,12 +81525,24 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "terrain",
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -80370,6 +82133,7 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "terrain"
           ]
         },
@@ -80382,6 +82146,12 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -80391,6 +82161,7 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -80856,13 +82627,21 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "terrain"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -80874,6 +82653,7 @@
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "cover"
           ]
         },
@@ -81487,12 +83267,26 @@
         {
           "slot": 3,
           "roles": [
+            "main-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         }
@@ -82391,6 +84185,24 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "weather",
@@ -82952,11 +84764,29 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "trick-room",
             "cover",
             "healer"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -83566,7 +85396,14 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
           ]
         },
         {
@@ -83579,6 +85416,12 @@
           "slot": 5,
           "roles": [
             "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -84193,6 +86036,24 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover"
@@ -84776,6 +86637,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "weather",
@@ -84793,6 +86660,18 @@
           "roles": [
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -85458,6 +87337,18 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "tailwind",
@@ -85465,8 +87356,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "weather",
             "dmg-boost"
           ]
@@ -86046,10 +87944,28 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -86619,6 +88535,24 @@
           "roles": [
             "weather",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -87215,8 +89149,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather",
             "cover"
           ]
@@ -87230,9 +89171,21 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -87951,12 +89904,42 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -88603,6 +90586,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -88620,7 +90609,20 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -89179,6 +91181,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "trick-room"
@@ -89187,6 +91195,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -89784,7 +91793,14 @@
         {
           "slot": 1,
           "roles": [
+            "attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -90520,6 +92536,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "cover"
@@ -90534,7 +92556,14 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -91186,6 +93215,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -91197,6 +93232,18 @@
           "slot": 3,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -91839,6 +93886,7 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -91846,12 +93894,14 @@
           "slot": 3,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "speed-other"
           ]
         },
@@ -91865,6 +93915,7 @@
         {
           "slot": 6,
           "roles": [
+            "main-attacker",
             "tailwind"
           ]
         }
@@ -92452,6 +94503,7 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -92465,6 +94517,7 @@
         {
           "slot": 4,
           "roles": [
+            "attacker",
             "trick-room"
           ]
         },
@@ -92478,6 +94531,7 @@
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "speed-other"
           ]
         }
@@ -93158,6 +95212,7 @@
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -93166,7 +95221,14 @@
           "roles": [
             "cover",
             "dmg-boost",
+            "mitigator",
             "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -93886,6 +95948,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "cover"
@@ -93906,6 +95974,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -94492,10 +96561,34 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -95085,9 +97178,22 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
@@ -95703,7 +97809,20 @@
           "slot": 3,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -96289,21 +98408,42 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "disruptor"
           ]
         }
@@ -96968,9 +99108,28 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -97562,21 +99721,36 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -98201,7 +100375,14 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -98795,8 +100976,15 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -98808,10 +100996,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -99449,8 +101649,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -99462,8 +101669,15 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "attacker",
             "terrain",
             "disruptor"
           ]
@@ -99471,6 +101685,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "trick-room",
             "disruptor"
           ]
@@ -100093,6 +102308,7 @@
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "speed-other",
             "disruptor"
           ]
@@ -100100,6 +102316,7 @@
         {
           "slot": 6,
           "roles": [
+            "attacker",
             "weather"
           ]
         }
@@ -100734,19 +102951,39 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-other"
+            "sub-attacker"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -101337,8 +103574,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "terrain",
             "disruptor"
           ]
@@ -101347,7 +103591,14 @@
           "slot": 3,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -102007,6 +104258,12 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
             "disruptor"
@@ -102588,6 +104845,7 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "weather"
           ]
         },
@@ -102595,6 +104853,12 @@
           "slot": 5,
           "roles": [
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -103175,12 +105439,26 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "tailwind"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
@@ -103193,6 +105471,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -103802,7 +106081,8 @@
           "slot": 1,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -103810,6 +106090,12 @@
           "roles": [
             "trick-room",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -104408,15 +106694,41 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -104959,16 +107271,37 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 4,
           "roles": [
             "tailwind",
-            "cover"
+            "cover",
+            "mitigator",
+            "healer"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -105579,9 +107912,27 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "trick-room"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -106159,6 +108510,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "speed-other"
@@ -106173,12 +108530,14 @@
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "attacker",
             "weather"
           ]
         },
@@ -106765,8 +109124,21 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "cover",
             "disruptor"
           ]
@@ -106774,6 +109146,7 @@
         {
           "slot": 6,
           "roles": [
+            "sub-attacker",
             "disruptor"
           ]
         }
@@ -107909,16 +110282,42 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "attacker"
           ]
         }
       ]
@@ -108486,7 +110885,8 @@
           "slot": 2,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -108498,6 +110898,7 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "speed-other"
           ]
         }
@@ -109063,10 +111464,23 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "speed-other",
-            "dmg-boost"
+            "mitigator"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -109632,8 +112046,27 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
+            "attacker",
             "weather",
             "dmg-boost"
           ]
@@ -110189,13 +112622,33 @@
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "sub-attacker",
             "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -110758,15 +113211,40 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
           ]
         },
         {
           "slot": 5,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -111350,6 +113828,12 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
             "disruptor"
@@ -111359,12 +113843,14 @@
           "slot": 4,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "mitigator"
           ]
         },
@@ -111947,8 +114433,15 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -111959,10 +114452,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "sub-attacker"
           ]
         }
       ]
@@ -112572,7 +115077,7 @@
           "slot": 2,
           "roles": [
             "speed-other",
-            "dmg-boost"
+            "mitigator"
           ]
         },
         {
@@ -112598,7 +115103,8 @@
           "slot": 6,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         }
       ]
@@ -113147,7 +115653,14 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -113168,6 +115681,7 @@
         {
           "slot": 5,
           "roles": [
+            "sub-attacker",
             "tailwind"
           ]
         }
@@ -113767,7 +116281,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other"
+            "speed-other",
+            "healer"
           ]
         },
         {
@@ -114344,9 +116859,22 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
+            "sub-attacker",
             "cover"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -114942,7 +117470,8 @@
           "slot": 4,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         },
         {
@@ -115505,7 +118034,8 @@
           "slot": 6,
           "roles": [
             "cover",
-            "disruptor"
+            "disruptor",
+            "healer"
           ]
         }
       ]
@@ -116042,12 +118572,14 @@
         {
           "slot": 1,
           "roles": [
+            "sub-attacker",
             "tailwind"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "sub-attacker",
             "tailwind"
           ]
         },
@@ -116059,9 +118591,21 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "main-attacker"
           ]
         }
       ]
@@ -116632,13 +119176,21 @@
         {
           "slot": 1,
           "roles": [
+            "main-attacker",
             "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "main-attacker",
             "trick-room"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
@@ -116648,6 +119200,12 @@
             "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
           ]
         },
         {
