@@ -1,32 +1,497 @@
 [
   {
     "id": "team_96TFfeTI4XI",
-    "name": "",
-    "name_source": "title",
+    "name": "Frog",
+    "name_source": "pokepaste",
     "video_id": "96TFfeTI4XI",
     "video_url": "https://www.youtube.com/watch?v=96TFfeTI4XI",
     "channel_handle": "@fiskepokemon",
     "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
+    "regulation_set_id": "sv-reg-e",
+    "regulation_source": "date-inferred",
     "tags": [],
     "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
+    "author": "Guest 3600846",
+    "author_source": "pokepaste",
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 454,
+          "name_zh": "毒骷蛙",
+          "name_en": "Toxicroak",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "乾燥皮膚",
+          "value_en": "Dry Skin",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "格鬥",
+          "value_en": "Fighting",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 4,
+          "atk": 252,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 252,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "快速防守",
+            "value_en": "Quick Guard",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "垃圾射擊",
+            "value_en": "Gunk Shot",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 186,
+          "name_zh": "蚊香蛙皇",
+          "name_en": "Politoed",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "逃脫按鍵",
+          "value_en": "Eject Button",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 100,
+          "spa": 156,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 62,
+          "name_zh": "蚊香泳士",
+          "name_en": "Poliwrath",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "悠游自如",
+          "value_en": "Swift Swim",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 228,
+          "atk": 44,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 236,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": null,
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "吸取拳",
+            "value_en": "Drain Punch",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "水流裂破",
+            "value_en": "Liquidation",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "腹鼓",
+            "value_en": "Belly Drum",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "龍",
+          "value_en": "Dragon",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 36,
+          "spa": 0,
+          "spd": 220,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "吸取力量",
+            "value_en": "Strength Sap",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 146,
+          "name_zh": "火焰鳥",
+          "name_en": "Moltres-Galar",
+          "form": "Galar",
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "怒火沖天",
+          "value_en": "Berserk",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 244,
+          "atk": 0,
+          "def": 108,
+          "spa": 156,
+          "spd": 0,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "怒火中燒",
+            "value_en": "Fiery Wrath",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 707,
+          "name_zh": "鑰圈兒",
+          "name_en": "Klefki",
+          "form": null,
+          "confidence": 0.98
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "item": {
+          "value": "心靈香草",
+          "value_en": "Mental Herb",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "mega": false,
+        "evs": {
+          "scale": "ev-252",
+          "hp": 252,
+          "atk": 0,
+          "def": 156,
+          "spa": 0,
+          "spd": 100,
+          "spe": 0,
+          "confidence": 0.98,
+          "source": "pokepaste"
+        },
+        "stats": null,
+        "stats_note": "IVs: atk 0",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "電磁波",
+            "value_en": "Thunder Wave",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "反射壁",
+            "value_en": "Reflect",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          },
+          {
+            "value": "光牆",
+            "value_en": "Light Screen",
+            "confidence": 0.98,
+            "source": "pokepaste"
+          }
+        ],
+        "role_note": null
+      }
+    ],
     "is_members_only": true,
     "related_video_ids": [],
     "sources": {
       "subtitle_lang": null,
       "subtitle_range_s": null,
       "frames_used": 0,
-      "pokepaste_url": null
+      "pokepaste_url": "https://pokepast.es/ea17844a86041e19"
     },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
+    "paste_text": "Toxicroak @ Focus Sash  \r\nAbility: Dry Skin  \r\nLevel: 50  \r\nTera Type: Fighting  \r\nEVs: 4 HP / 252 Atk / 252 Spe  \r\nJolly Nature  \r\n- Quick Guard  \r\n- Close Combat  \r\n- Gunk Shot  \r\n- Fake Out  \r\n\r\nPolitoed @ Eject Button  \r\nAbility: Drizzle  \r\nLevel: 50  \r\nTera Type: Grass  \r\nEVs: 252 HP / 100 Def / 156 SpA  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Weather Ball  \r\n- Icy Wind  \r\n- Helping Hand  \r\n\r\nPoliwrath @ Leftovers  \r\nAbility: Swift Swim  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 228 HP / 44 Atk / 236 Spe  \r\nAdamant Nature  \r\n- Protect  \r\n- Drain Punch  \r\n- Liquidation  \r\n- Belly Drum  \r\n\r\nSinistcha @ Rocky Helmet  \r\nAbility: Hospitality  \r\nLevel: 50  \r\nTera Type: Dragon  \r\nEVs: 252 HP / 36 Def / 220 SpD  \r\nBold Nature  \r\nIVs: 0 Atk  \r\n- Matcha Gotcha  \r\n- Rage Powder  \r\n- Strength Sap  \r\n- Trick Room  \r\n\r\nMoltres-Galar @ Sitrus Berry  \r\nAbility: Berserk  \r\nLevel: 50  \r\nTera Type: Poison  \r\nEVs: 244 HP / 108 Def / 156 SpA  \r\nModest Nature  \r\nIVs: 0 Atk  \r\n- Protect  \r\n- Fiery Wrath  \r\n- Hurricane  \r\n- Nasty Plot  \r\n\r\nKlefki @ Mental Herb  \r\nAbility: Prankster  \r\nLevel: 50  \r\nTera Type: Ghost  \r\nEVs: 252 HP / 156 Def / 100 SpD  \r\nBold Nature  \r\nIVs: 0 Atk  \r\n- Dazzling Gleam  \r\n- Thunder Wave  \r\n- Reflect  \r\n- Light Screen  \r\n\r\n",
+    "paste_notes": "Format: gen9vgc2023regulatione",
+    "confidence": 0.95,
+    "review_status": "auto",
+    "review_notes": null,
     "notes": null,
-    "extracted_at": "2026-11-08T16:40:00.930Z",
-    "extracted_by": "make-member-shells-v1"
+    "extracted_at": "2026-11-11T15:07:15.467Z",
+    "extracted_by": "import-pokepaste-v1"
   }
 ]
