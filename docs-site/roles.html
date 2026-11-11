@@ -6,6 +6,7 @@
   <title>戰術定位標籤｜I Choose You</title>
   <link rel="icon" type="image/png" href="assets/master-ball-128.png" />
   <link rel="stylesheet" href="tokens.css" />
+  <link rel="stylesheet" href="styles.css" />
   <style>
     body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.65 system-ui,-apple-system,"Noto Sans TC",sans-serif; }
     .wrap { max-width: 980px; margin: 0 auto; padding: 20px 16px 70px; }
@@ -34,8 +35,23 @@
   </style>
 </head>
 <body>
+  <header class="topbar compact">
+    <div class="brand" data-tip="寶可夢雙打學習天地">
+      <img class="wordmark" src="assets/master-ball-wordmark-web.png" alt="I Choose You" width="800" height="163" />
+      <div class="brand-sub">戰術定位標籤</div>
+    </div>
+    <div class="head-actions">
+      <nav class="pill-nav" aria-label="主選單">
+        <a href="./">文件</a>
+        <a href="teams.html">隊伍列表</a>
+        <a href="matches.html">比賽資訊</a>
+        <a href="roles.html" aria-current="page">戰術定位</a>
+        <a href="design-system.html">Design System</a>
+        <a href="app/">試用工具</a>
+      </nav>
+    </div>
+  </header>
 <div class="wrap">
-  <p><a href="teams.html">← 隊伍列表</a></p>
   <h1>戰術定位標籤</h1>
   <p class="note">一隻寶可夢可以同時有多個戰術定位。標籤分三色：<b style="color:#7A5B00">黃＝輸出</b>、<b style="color:#1E4FB8">藍＝戰術</b>、<b style="color:#1A7339">綠＝輔助</b>。下面每個定位列出：敘述、舉例，以及用來辨識的招式／特性／道具（隊伍表上帶了這些就會「推斷」出該標籤，詳細頁顯示為虛線邊框；手動確認為實線）。</p>
   <p class="note">更新對應表：編輯 <code>tools/site/build-roles-ref.mjs</code> → 執行 <code>node tools/site/build-roles-ref.mjs</code> → <code>node tools/yt/merge-teams.mjs data/channels/fiskepokemon</code>。手動標：在隊伍的 <code>analysis.roles</code> 寫 <code>[{"slot":1,"roles":["main-attacker"]}]</code>。</p>
@@ -74,5 +90,7 @@
   } catch (e) { $("app").innerHTML = `<p class="note">載入失敗：${esc(e.message)}</p>`; }
 })();
 </script>
+<script src="tooltip.js"></script>
+<script src="site-header.js"></script>
 </body>
 </html>

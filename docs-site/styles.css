@@ -29,9 +29,9 @@ body {
 .logo { font-size: 26px; }
 .logo-img { width: 34px; height: 34px; object-fit: contain; flex: none; }
 .brand-title { font-weight: 700; font-size: 16px; }
-.wordmark { height: 26px; width: auto; max-width: 100%; display: block; flex: none; }
+.wordmark { height: 39px; width: auto; max-width: 100%; display: block; flex: none; }
 .brand .brand-sub { padding-left: 12px; border-left: 1px solid var(--border); line-height: 1.2; }
-.topbar.compact .wordmark { height: 22px; }
+.topbar.compact .wordmark { height: 33px; }
 .brand { min-width: 0; }
 @media (max-width: 720px) {
   .wordmark, .topbar.compact .wordmark { height: 22px; }

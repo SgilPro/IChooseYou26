@@ -59,6 +59,18 @@ jobs:
           mkdir -p _site/assets/pokemon
           for d in art thumb; do [ -d "assets/pokemon/$d" ] && cp -r "assets/pokemon/$d" _site/assets/pokemon/ || true; done
           [ -f assets/pokemon/index.json ] && cp assets/pokemon/index.json _site/assets/pokemon/ || true
+      - name: Stamp build version
+        run: |
+          # 版本標記（台北時間＋commit），寫進每頁的隱形元素，方便確認「改的版本是否已上線」
+          STAMP="$(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
+          VER="${STAMP} (台北) · ${GITHUB_SHA::7}"
+          for f in _site/*.html; do
+            sed -i "s|<head>|<head>\n  <meta name=\"build\" content=\"${VER}\" />|" "$f"
+            sed -i "s|<html |<html data-build=\"${VER}\" |" "$f"
+            sed -i "s|</body>|<div id=\"build-stamp\" hidden aria-hidden=\"true\" data-build=\"${VER}\"></div><script>console.info(\"build: ${VER}\")</script>\n</body>|" "$f"
+          done
+          printf '{"version":"%s","sha":"%s","built_at_utc":"%s"}\n' "$VER" "$GITHUB_SHA" "$(date -u +%FT%TZ)" > _site/version.json
+          cat _site/version.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload site as Pages artifact
