@@ -30,9 +30,11 @@ tag("terrain", "tactic", "場地", "layer-arrow-up", { ex: ["主攻：密勒頓"
 tag("trick-room", "tactic", "空間", "box", { ex: ["主攻：空間白馬王、空間紅蓮鎧騎", "副攻：空間奇麒麟", "輔助：空間來悲粗茶"], moves: ["戲法空間"] });
 tag("tailwind", "tactic", "順風", "wind", { ex: ["主攻：順風暴飛龍", "副攻：順風烈箭鷹、順風三首惡龍、順風大嘴鷗", "輔助：順風風妖精"], moves: ["順風"] });
 // 控速（順風、空間以外）：依 speed-control.json 的範圍降速、麻痺、暫時性、其他降速招式（Level 2 的招式；黏黏網為 Level 3 不計）
-const SC_SKIP = new Set(["Tailwind", "Trick Room", "Custap Berry"]); // 空間、順風各自有標籤；釋陀果不納入（使用者 2026-11-11，可能屬特殊核心戰術）
-const scEntries = SC.entries.filter((e) => e.level <= 2 && !SC_SKIP.has(e.name_en));
-tag("speed-other", "tactic", "控速", "sport-shoe", { moves_en: scEntries.filter((e) => e.kind === "move").map((e) => e.name_en), abilities_en: scEntries.filter((e) => e.kind === "ability").map((e) => e.name_en), items_en: scEntries.filter((e) => e.kind === "item").map((e) => e.name_en), ex: ["範圍降速：冰凍之風、電網、吐絲（可能被免疫）", "麻痺：電磁波、電磁砲、蹭蹭臉頰、大蛇瞪眼", "一回合的順序操縱：延後、您先請", "其餘依 speed-control 分級（Level 1~2）：自身加速特性（葉綠素等）、講究圍巾、先制主力（突襲、迅雷、神速）、誓約濕地、蝶舞龍舞類（順風、空間、釋陀果除外）"], d: "順風、空間以外的控速手段，對應 data/ref/speed-control.json 的 Level 1~2（黏黏網與先制輔助為 Level 3，不計）。" });
+// 控速手＝「幫隊友控速」（讓輸出手先動）：只收招式，且是把對手變慢或改變出手順序的招式。
+// 不收：自身加速（葉綠素、圍巾、蝶舞龍舞＝自身強化）、先制主力、道具、特性（使用者 2026-11-11）。順風、空間各有標籤；黏黏網 Level 3 不計；釋陀果不納入。
+const SPEED_HELP_CATS = ["spread-speed-drop", "paralysis", "temporary", "stat-drop-utility", "pledge-field"];
+const scEntries = SC.entries.filter((e) => e.kind === "move" && e.level <= 2 && SPEED_HELP_CATS.includes(e.category) && !["Tailwind", "Trick Room"].includes(e.name_en));
+tag("speed-other", "tactic", "控速", "sport-shoe", { moves_en: scEntries.map((e) => e.name_en), ex: ["範圍降速：冰凍之風、電網、吐絲（可能被免疫）", "麻痺：電磁波、電磁砲、蹭蹭臉頰、大蛇瞪眼（幫隊友把對手變慢）", "一回合的順序操縱：延後、您先請（例：愛管侍帶講究圍巾加您先請）", "不算：自己帶講究圍巾或葉綠素而沒有配合您先請、蝶舞龍舞（自身強化，不是幫隊友控速）"], d: "「幫隊友（輸出手）控速」的手段，順風、空間以外：讓對手變慢（範圍降速、麻痺）或改變出手順序（延後、您先請）。自身加速不算。" });
 tag("tactic-other", "tactic", "戰術", "tic-tac-toe", { ex: ["化學變化氣體：消掉負面特性（慢啟動、菌絲之力）", "找夥伴：給隊友好用的特性"], abilities: ["化學變化氣體"], moves: ["找夥伴"], d: "其他特殊核心戰術：消掉負面特性（慢啟動、菌絲之力）、給隊友好用特性。" });
 tag("cover", "support", "掩護", "shield", { ex: ["防止傷害：看我嘛、廣域防守、交換場地、友情防守", "阻止干擾：快速防守（防擊掌）、尾甲／女王的威嚴／鮮豔之軀（防擊掌）、精神場地／精神製造者（防擊掌）、電氣場地／電氣製造者（防睡眠）、甜幕（防睡眠）、芳香幕（防心靈攻擊招式）"], moves: ["看我嘛", "憤怒粉", "廣域防守", "交換場地", "快速防守"], abilities: ["友情防守", "女王的威嚴", "鮮艷之軀", "尾甲", "精神製造者", "電氣製造者", "甜幕", "芳香幕"], d: "幫輸出減傷、免傷、轉移傷害或阻止干擾。" });
 tag("dmg-boost", "support", "增傷", "circle-chevrons-up", { ex: ["增傷：指導、長嚎、裝飾、點穴", "降對手防禦：假哭、潑冷水、金屬音、刺耳聲", "暫時增傷：幫助", "特殊增傷（需手動標）：圍攻打自己的氣勢猴提升憤怒之拳威力；打自己有弱點保險的隊友提高雙攻；輸出手有避雷針、輔助手打放電；輸出手有食草"], moves: ["指導", "長嚎", "裝飾", "點穴", "假哭", "潑冷水", "金屬音", "刺耳聲", "幫助"], d: "增傷、降對手防禦、暫時增傷（特殊增傷如避雷針＋放電需手動標）。" });

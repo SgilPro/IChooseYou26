@@ -229,12 +229,12 @@
       "icon_name": "sport-shoe",
       "icon": "<path d=\"m15 10.42 4.8-5.07\" /> <path d=\"M19 18h3\" /> <path d=\"M9.5 22 21.414 9.415A2 2 0 0 0 21.2 6.4l-5.61-4.208A1 1 0 0 0 14 3v2a2 2 0 0 1-1.394 1.906L8.677 8.053A1 1 0 0 0 8 9c-.155 6.393-2.082 9-4 9a2 2 0 0 0 0 4h14\" />",
       "manual_only": false,
-      "description_zh": "順風、空間以外的控速手段，對應 data/ref/speed-control.json 的 Level 1~2（黏黏網與先制輔助為 Level 3，不計）。",
+      "description_zh": "「幫隊友（輸出手）控速」的手段，順風、空間以外：讓對手變慢（範圍降速、麻痺）或改變出手順序（延後、您先請）。自身加速不算。",
       "examples_zh": [
         "範圍降速：冰凍之風、電網、吐絲（可能被免疫）",
-        "麻痺：電磁波、電磁砲、蹭蹭臉頰、大蛇瞪眼",
-        "一回合的順序操縱：延後、您先請",
-        "其餘依 speed-control 分級（Level 1~2）：自身加速特性（葉綠素等）、講究圍巾、先制主力（突襲、迅雷、神速）、誓約濕地、蝶舞龍舞類（順風、空間、釋陀果除外）"
+        "麻痺：電磁波、電磁砲、蹭蹭臉頰、大蛇瞪眼（幫隊友把對手變慢）",
+        "一回合的順序操縱：延後、您先請（例：愛管侍帶講究圍巾加您先請）",
+        "不算：自己帶講究圍巾或葉綠素而沒有配合您先請、蝶舞龍舞（自身強化，不是幫隊友控速）"
       ],
       "rules": {
         "move": [
@@ -271,52 +271,12 @@
             "name_en": "After You"
           },
           {
-            "name_zh": "神速",
-            "name_en": "Extreme Speed"
-          },
-          {
-            "name_zh": "突襲",
-            "name_en": "Sucker Punch"
-          },
-          {
-            "name_zh": "迅雷",
-            "name_en": "Thunderclap"
-          },
-          {
             "name_zh": "水之誓約",
             "name_en": "Water Pledge"
           },
           {
             "name_zh": "草之誓約",
             "name_en": "Grass Pledge"
-          },
-          {
-            "name_zh": "高速移動",
-            "name_en": "Agility"
-          },
-          {
-            "name_zh": "岩石打磨",
-            "name_en": "Rock Polish"
-          },
-          {
-            "name_zh": "龍之舞",
-            "name_en": "Dragon Dance"
-          },
-          {
-            "name_zh": "蝶舞",
-            "name_en": "Quiver Dance"
-          },
-          {
-            "name_zh": "換檔",
-            "name_en": "Shift Gear"
-          },
-          {
-            "name_zh": "破殼",
-            "name_en": "Shell Smash"
-          },
-          {
-            "name_zh": "魂舞烈音爆",
-            "name_en": "Clangorous Soul"
           },
           {
             "name_zh": "重踏",
@@ -331,42 +291,8 @@
             "name_en": "Cotton Spore"
           }
         ],
-        "ability": [
-          {
-            "name_zh": "葉綠素",
-            "name_en": "Chlorophyll"
-          },
-          {
-            "name_zh": "悠游自如",
-            "name_en": "Swift Swim"
-          },
-          {
-            "name_zh": "撥沙",
-            "name_en": "Sand Rush"
-          },
-          {
-            "name_zh": "撥雪",
-            "name_en": "Slush Rush"
-          },
-          {
-            "name_zh": "輕裝",
-            "name_en": "Unburden"
-          },
-          {
-            "name_zh": "衝浪之尾",
-            "name_en": "Surge Surfer"
-          },
-          {
-            "name_zh": "加速",
-            "name_en": "Speed Boost"
-          }
-        ],
-        "item": [
-          {
-            "name_zh": "講究圍巾",
-            "name_en": "Choice Scarf"
-          }
-        ]
+        "ability": [],
+        "item": []
       }
     },
     {

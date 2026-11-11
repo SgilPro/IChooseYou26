@@ -598,7 +598,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "cover",
             "mitigator"
           ]
@@ -1243,12 +1242,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "tailwind"
@@ -1257,14 +1250,12 @@
         {
           "slot": 3,
           "roles": [
-            "speed-other",
             "dmg-boost"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -2254,12 +2245,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "terrain",
@@ -2879,12 +2864,6 @@
           "slot": 4,
           "roles": [
             "cover"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -3545,12 +3524,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "weather",
@@ -3569,14 +3542,12 @@
         {
           "slot": 4,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "cover"
           ]
         }
@@ -4279,12 +4250,6 @@
           "roles": [
             "tailwind"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -4906,18 +4871,6 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "tailwind"
@@ -5522,7 +5475,6 @@
           "slot": 2,
           "roles": [
             "terrain",
-            "speed-other",
             "cover"
           ]
         },
@@ -6180,12 +6132,6 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "disruptor"
@@ -6202,12 +6148,6 @@
           "roles": [
             "cover",
             "controller"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -7308,12 +7248,6 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "weather",
@@ -7822,15 +7756,8 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         }
@@ -8329,15 +8256,8 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         }
@@ -8832,7 +8752,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -8847,12 +8766,6 @@
           "roles": [
             "cover",
             "controller"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -9334,12 +9247,6 @@
           "roles": [
             "tailwind",
             "cover"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -9833,12 +9740,6 @@
           "roles": [
             "trick-room",
             "cover"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -10474,7 +10375,6 @@
         {
           "slot": 1,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -11120,12 +11020,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "weather"
@@ -11759,7 +11653,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -11775,12 +11668,6 @@
           "slot": 5,
           "roles": [
             "mitigator"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -16687,12 +16574,6 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "speed-other"
@@ -16702,12 +16583,6 @@
           "slot": 4,
           "roles": [
             "tailwind"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -18532,7 +18407,6 @@
         {
           "slot": 4,
           "roles": [
-            "speed-other",
             "cover",
             "dmg-boost",
             "mitigator",
@@ -19150,18 +19024,6 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "speed-other",
@@ -19774,7 +19636,6 @@
         {
           "slot": 1,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -19802,7 +19663,6 @@
           "slot": 6,
           "roles": [
             "weather",
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -20393,12 +20253,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 4,
           "roles": [
@@ -21665,12 +21519,6 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "tailwind"
@@ -22305,15 +22153,13 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -22959,18 +22805,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "tailwind"
@@ -22986,7 +22820,6 @@
         {
           "slot": 6,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         }
@@ -23588,8 +23421,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -23602,12 +23434,6 @@
           "slot": 3,
           "roles": [
             "disruptor"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -24192,12 +24018,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 2,
           "roles": [
@@ -24853,8 +24673,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -24878,7 +24697,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         }
@@ -25476,12 +25294,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 4,
           "roles": [
@@ -26126,12 +25938,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 2,
           "roles": [
@@ -27346,7 +27152,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "mitigator"
           ]
         },
@@ -27365,12 +27170,6 @@
             "cover",
             "dmg-boost",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -28056,12 +27855,6 @@
           "roles": [
             "weather"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -28630,7 +28423,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "cover"
           ]
         },
@@ -28648,16 +28440,9 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
-            "terrain",
-            "speed-other"
+            "terrain"
           ]
         }
       ]
@@ -29178,8 +28963,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -29200,12 +28984,6 @@
           "slot": 5,
           "roles": [
             "cover"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -30989,8 +30767,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain",
-            "speed-other"
+            "terrain"
           ]
         },
         {
@@ -32159,12 +31936,6 @@
           "slot": 2,
           "roles": [
             "weather"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -33431,18 +33202,6 @@
             "weather",
             "cover"
           ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -34159,12 +33918,6 @@
             "speed-other",
             "disruptor"
           ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -34793,12 +34546,6 @@
           "slot": 2,
           "roles": [
             "trick-room",
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
             "speed-other"
           ]
         },
@@ -35439,24 +35186,6 @@
             "tailwind",
             "disruptor"
           ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -36051,15 +35780,13 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain",
-            "speed-other"
+            "terrain"
           ]
         },
         {
@@ -36638,12 +36365,6 @@
       ],
       "roles": [
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -36654,12 +36375,6 @@
           "slot": 5,
           "roles": [
             "terrain"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -37756,12 +37471,6 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "tailwind",
@@ -38445,7 +38154,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -38460,12 +38168,6 @@
           "slot": 4,
           "roles": [
             "weather"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -40163,12 +39865,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "disruptor"
@@ -41350,7 +41046,6 @@
         {
           "slot": 6,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -42612,8 +42307,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -43265,12 +42959,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -43882,12 +43570,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 2,
           "roles": [
@@ -44544,7 +44226,6 @@
           "slot": 2,
           "roles": [
             "tailwind",
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -44553,12 +44234,6 @@
           "slot": 3,
           "roles": [
             "cover"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -45084,21 +44759,9 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "weather"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -46248,7 +45911,6 @@
         {
           "slot": 3,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -46257,12 +45919,6 @@
           "slot": 4,
           "roles": [
             "cover"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -48562,21 +48218,9 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "controller"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -51087,12 +50731,6 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "cover",
@@ -52379,12 +52017,6 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "cover",
@@ -52963,12 +52595,6 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "weather"
@@ -52979,12 +52605,6 @@
           "roles": [
             "cover",
             "healer"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -53660,18 +53280,6 @@
           "roles": [
             "trick-room"
           ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -54242,7 +53850,6 @@
           "slot": 4,
           "roles": [
             "weather",
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -54721,12 +54328,6 @@
           "roles": [
             "weather",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -55335,15 +54936,13 @@
         {
           "slot": 4,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -56010,12 +55609,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "disruptor",
@@ -56569,12 +56162,6 @@
         },
         {
           "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -58326,18 +57913,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "terrain",
@@ -59028,7 +58603,6 @@
           "roles": [
             "weather",
             "tailwind",
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -59601,7 +59175,6 @@
           "slot": 2,
           "roles": [
             "terrain",
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -59613,15 +59186,8 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator",
             "disruptor"
@@ -60108,12 +59674,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 3,
           "roles": [
@@ -60685,7 +60245,6 @@
           "slot": 1,
           "roles": [
             "trick-room",
-            "speed-other",
             "disruptor"
           ]
         },
@@ -61369,8 +60928,7 @@
         {
           "slot": 3,
           "roles": [
-            "tailwind",
-            "speed-other"
+            "tailwind"
           ]
         },
         {
@@ -61388,8 +60946,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         }
       ]
@@ -62379,7 +61936,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "mitigator"
           ]
         },
@@ -63494,12 +63050,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -64063,24 +63613,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "cover"
@@ -64095,7 +63627,6 @@
         {
           "slot": 6,
           "roles": [
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -64674,14 +64205,7 @@
           "slot": 1,
           "roles": [
             "weather",
-            "tailwind",
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
+            "tailwind"
           ]
         },
         {
@@ -65261,12 +64785,6 @@
           "slot": 4,
           "roles": [
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -65852,12 +65370,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -65874,7 +65386,6 @@
         {
           "slot": 4,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -66410,12 +65921,6 @@
           "roles": [
             "cover",
             "healer"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -67653,12 +67158,6 @@
           "roles": [
             "disruptor"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -68818,12 +68317,6 @@
         },
         {
           "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -70609,7 +70102,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -70617,12 +70109,6 @@
           "slot": 4,
           "roles": [
             "trick-room"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -71136,12 +70622,6 @@
             "trick-room",
             "cover",
             "dmg-boost"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -72409,18 +71889,6 @@
           "roles": [
             "cover"
           ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -73001,18 +72469,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 5,
           "roles": [
@@ -73616,18 +73072,6 @@
           "slot": 2,
           "roles": [
             "trick-room"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -74286,21 +73730,9 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "tailwind"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -74931,7 +74363,6 @@
         {
           "slot": 6,
           "roles": [
-            "speed-other",
             "mitigator"
           ]
         }
@@ -76166,23 +75597,11 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "weather",
             "tailwind",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -76798,12 +76217,6 @@
           "slot": 2,
           "roles": [
             "tailwind",
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
             "speed-other"
           ]
         },
@@ -77434,7 +76847,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "dmg-boost",
             "mitigator"
           ]
@@ -78132,12 +77544,6 @@
           "roles": [
             "speed-other"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -78743,7 +78149,6 @@
           "slot": 6,
           "roles": [
             "tailwind",
-            "speed-other",
             "mitigator"
           ]
         }
@@ -80356,12 +79761,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "tailwind",
@@ -80994,12 +80393,6 @@
           "roles": [
             "disruptor"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -81468,12 +80861,6 @@
         },
         {
           "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
           "roles": [
             "speed-other"
           ]
@@ -82099,12 +81486,6 @@
         },
         {
           "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
           "roles": [
             "speed-other"
           ]
@@ -83010,12 +82391,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "weather",
@@ -83576,12 +82951,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 3,
           "roles": [
@@ -84197,7 +83566,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -84211,12 +83579,6 @@
           "slot": 5,
           "roles": [
             "tailwind"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -84831,24 +84193,6 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "cover"
@@ -85432,12 +84776,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "weather",
@@ -85455,12 +84793,6 @@
           "roles": [
             "terrain",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -86126,21 +85458,9 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "tailwind",
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
             "speed-other"
           ]
         },
@@ -86726,12 +86046,6 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "tailwind",
@@ -87305,18 +86619,6 @@
           "roles": [
             "weather",
             "dmg-boost"
-          ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -87931,12 +87233,6 @@
           "slot": 5,
           "roles": [
             "trick-room"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -88662,12 +87958,6 @@
             "cover",
             "dmg-boost"
           ]
-        },
-        {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -89332,12 +88622,6 @@
           "roles": [
             "disruptor"
           ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -89894,12 +89178,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 2,
           "roles": [
@@ -90507,12 +89785,6 @@
           "slot": 1,
           "roles": [
             "disruptor"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -91248,12 +90520,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "cover"
@@ -91267,12 +90533,6 @@
         },
         {
           "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -91926,12 +91186,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "terrain",
@@ -91943,12 +91197,6 @@
           "slot": 3,
           "roles": [
             "cover"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -92617,8 +91865,7 @@
         {
           "slot": 6,
           "roles": [
-            "tailwind",
-            "speed-other"
+            "tailwind"
           ]
         }
       ]
@@ -93915,23 +93162,11 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "cover",
             "dmg-boost",
             "healer"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -96468,12 +95703,6 @@
             "cover",
             "disruptor"
           ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -97061,12 +96290,6 @@
           "slot": 2,
           "roles": [
             "disruptor"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -97743,21 +96966,9 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -98989,12 +98200,6 @@
           ]
         },
         {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 6,
           "roles": [
             "disruptor"
@@ -99589,12 +98794,6 @@
           ]
         },
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
           "roles": [
             "trick-room",
@@ -99607,12 +98806,6 @@
           "roles": [
             "tailwind",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -100259,12 +99452,6 @@
           "slot": 3,
           "roles": [
             "tailwind",
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
             "speed-other"
           ]
         },
@@ -101555,18 +100742,6 @@
           "roles": [
             "speed-other"
           ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
-          ]
         }
       ]
     }
@@ -102155,12 +101330,6 @@
         }
       ],
       "roles": [
-        {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
         {
           "slot": 2,
           "roles": [
@@ -102822,8 +101991,7 @@
         {
           "slot": 3,
           "roles": [
-            "tailwind",
-            "speed-other"
+            "tailwind"
           ]
         },
         {
@@ -103410,12 +102578,6 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "weather"
@@ -103424,7 +102586,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "dmg-boost"
           ]
         }
@@ -104010,15 +103171,8 @@
           ]
         },
         {
-          "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         },
@@ -105244,19 +104398,7 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 3,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 4,
           "roles": [
             "speed-other"
           ]
@@ -106425,18 +105567,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "trick-room"
@@ -107017,12 +106147,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "speed-other"
@@ -107043,8 +106167,7 @@
         {
           "slot": 5,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         },
         {
@@ -107630,12 +106753,6 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "cover",
@@ -108202,7 +107319,6 @@
         {
           "slot": 6,
           "roles": [
-            "speed-other",
             "disruptor"
           ]
         }
@@ -108781,12 +107897,6 @@
       ],
       "roles": [
         {
-          "slot": 2,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 4,
           "roles": [
             "cover",
@@ -108796,7 +107906,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "mitigator"
           ]
         }
@@ -109361,7 +108470,6 @@
         {
           "slot": 2,
           "roles": [
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -109374,12 +108482,6 @@
         },
         {
           "slot": 5,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
-          "slot": 6,
           "roles": [
             "speed-other"
           ]
@@ -109942,8 +109044,7 @@
         {
           "slot": 1,
           "roles": [
-            "tailwind",
-            "speed-other"
+            "tailwind"
           ]
         },
         {
@@ -110526,7 +109627,6 @@
           "slot": 5,
           "roles": [
             "tailwind",
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -111646,12 +110746,6 @@
           ]
         },
         {
-          "slot": 4,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 5,
           "roles": [
             "cover"
@@ -112253,7 +111347,6 @@
         {
           "slot": 5,
           "roles": [
-            "speed-other",
             "mitigator"
           ]
         },
@@ -112838,12 +111931,6 @@
           "roles": [
             "weather",
             "dmg-boost"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -113462,12 +112549,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "speed-other",
@@ -114047,12 +113128,6 @@
           "slot": 1,
           "roles": [
             "weather"
-          ]
-        },
-        {
-          "slot": 2,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -114650,12 +113725,6 @@
       ],
       "roles": [
         {
-          "slot": 1,
-          "roles": [
-            "speed-other"
-          ]
-        },
-        {
           "slot": 2,
           "roles": [
             "cover"
@@ -114664,7 +113733,6 @@
         {
           "slot": 3,
           "roles": [
-            "speed-other",
             "cover",
             "mitigator"
           ]
@@ -114672,7 +113740,6 @@
         {
           "slot": 4,
           "roles": [
-            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -114686,8 +113753,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather",
-            "speed-other"
+            "weather"
           ]
         }
       ]
@@ -115260,14 +114326,7 @@
         {
           "slot": 3,
           "roles": [
-            "speed-other",
             "cover"
-          ]
-        },
-        {
-          "slot": 4,
-          "roles": [
-            "speed-other"
           ]
         },
         {
@@ -115872,12 +114931,6 @@
             "weather",
             "speed-other",
             "disruptor"
-          ]
-        },
-        {
-          "slot": 6,
-          "roles": [
-            "speed-other"
           ]
         }
       ]
@@ -116969,8 +116022,7 @@
         {
           "slot": 1,
           "roles": [
-            "tailwind",
-            "speed-other"
+            "tailwind"
           ]
         },
         {
@@ -117576,12 +116628,6 @@
             "trick-room",
             "cover",
             "dmg-boost"
-          ]
-        },
-        {
-          "slot": 5,
-          "roles": [
-            "speed-other"
           ]
         },
         {
