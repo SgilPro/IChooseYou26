@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>隊伍詳細 · 寶可夢對戰工具</title>
+  <title>隊伍詳細 · ICY</title>
   <meta name="description" content="單一隊伍的完整配置與分析。" />
   <link rel="stylesheet" href="styles.css" />
   <style>
@@ -83,8 +83,12 @@
     .evscale { font-size: 11px; color: var(--ink-soft); margin-top: 8px; }
     .role { margin-top: 10px; font-size: 12px; color: var(--ink-soft); border-top: 1px dashed var(--border); padding-top: 8px; position: relative; }
     .rolechips { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
-    .rolechip { font-size: 11.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--accent); color: var(--accent); background: transparent; }
-    .rolechip.inferred { border-style: dashed; color: var(--ink-soft); border-color: var(--border); }
+    .rolechip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; line-height: 1; padding: 4px 9px 4px 6px; border-radius: 8px; border: 2px solid; }
+    .rolechip .ri { width: 14px; height: 14px; flex: none; }
+    .rolechip.g-attacker { background: #fff2b3; border-color: #d99a00; color: #5a4300; }
+    .rolechip.g-tactic { background: #cfe4ff; border-color: #3b82f6; color: #12366b; }
+    .rolechip.g-support { background: #cdf3d8; border-color: #2fa35b; color: #0f4a28; }
+    .rolechip.inferred { border-style: dashed; }
     body.hide-roles .rolechips { display: none; }
     .rolebar { display: flex; align-items: center; gap: 8px; margin: 6px 0 12px; font-size: 13px; color: var(--ink-soft); }
     .rolebar button { font: inherit; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink); cursor: pointer; }
@@ -153,13 +157,14 @@
       .lbl { display: block; }
     }
   </style>
+  <link rel="icon" type="image/png" href="assets/cherish-ball-128.png" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <span class="logo">🟣</span>
+      <img class="logo-img" src="assets/cherish-ball-128.png" alt="" width="34" height="34" />
       <div>
-        <div class="brand-title">寶可夢對戰工具</div>
+        <div class="brand-title">ICY (I Choose You)</div>
         <div class="brand-sub">頻道資料線 · 隊伍詳細</div>
       </div>
     </div>
@@ -334,12 +339,12 @@
         </div>
         ${moves ? `<ul class="moves">${moves}</ul>` : ""}
         ${evBlock(m.evs, m.nature)}
-        ${(() => { const rs = rolesFor(m.slot ?? i + 1); return rs.length ? `<div class="rolechips" aria-label="角色與功能">${rs.map((r) => `<span class="rolechip${r.inferred ? " inferred" : ""}" title="${esc((roleName[r.id].group || "") + (r.inferred ? "（由招式／特性推斷）" : "（手動確認）") + (roleName[r.id].description_zh ? "：" + roleName[r.id].description_zh : ""))}">${esc(roleName[r.id].name_zh)}</span>`).join("")}</div>` : ""; })()}
+        ${(() => { const rs = rolesFor(m.slot ?? i + 1); return rs.length ? `<div class="rolechips" aria-label="角色與功能">${rs.map((r) => { const d = roleName[r.id]; return `<span class="rolechip g-${esc(d.group)}${r.inferred ? " inferred" : ""}" title="${esc(d.name_zh + (r.inferred ? "（由招式／特性推斷）" : "（手動確認）") + (d.description_zh ? "：" + d.description_zh : ""))}"><svg class="ri" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d.icon || ""}</svg>${esc(d.name_zh)}</span>`; }).join("")}</div>` : ""; })()}
         ${m.role_note ? `<div class="role">${esc(m.role_note)}</div>` : ""}
       </article>`;
     };
     const infoSec = `<section id="info"><h2>隊伍資訊</h2>
-      ${(roleDefs.tags || []).length ? `<div class="rolebar"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷</span></div>` : ""}
+      ${(roleDefs.tags || []).length ? `<div class="rolebar"><button id="roleToggle" type="button" aria-pressed="true">角色標籤：顯示</button><span>實線＝手動確認、虛線＝由招式／特性推斷。黃＝輸出、藍＝戰術、綠＝輔助</span></div>` : ""}
       ${members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : ""}
       ${members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
     </section>`;
@@ -431,5 +436,6 @@
   })();
   </script>
 <script src="tooltip.js"></script>
+<script src="site-header.js"></script>
 </body>
 </html>

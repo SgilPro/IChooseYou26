@@ -605,14 +605,15 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "mitigator"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather",
+            "speed-other"
           ]
         }
       ]
@@ -1243,7 +1244,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -1262,8 +1263,14 @@
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -2221,26 +2228,27 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -2831,10 +2839,16 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -2842,7 +2856,7 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter",
+            "weather",
             "mitigator"
           ]
         },
@@ -3512,15 +3526,16 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "dmg-boost"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
+            "speed-other",
             "cover"
           ]
         },
@@ -4225,7 +4240,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -4233,7 +4248,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -4843,8 +4858,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -4858,7 +4873,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -5459,29 +5474,29 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -6724,7 +6739,7 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -6732,7 +6747,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         }
@@ -6741,7 +6756,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_1",
-    "name": "Chase Lybbert（2026 北美洲國際賽 Round 6）",
+    "name": "Chase Lybbert（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=131s",
@@ -7147,8 +7162,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Chase Lybbert 的隊伍表出現在影片 2:11。",
-    "notes": "2026 北美洲國際賽 Round 6 選手 Chase Lybbert 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.960Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Chase Lybbert 的公開配置（Round 6 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.676Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -7235,15 +7250,15 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter",
+            "weather",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         }
       ]
@@ -7251,7 +7266,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_2",
-    "name": "Zachary Weed（2026 北美洲國際賽 Round 6）",
+    "name": "Zachary Weed（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=302s",
@@ -7657,8 +7672,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Zachary Weed 的隊伍表出現在影片 5:02。 與 team_8ACL1XG0vjI_3 的配置完全相同（同一隊伍被不同選手使用）。",
-    "notes": "2026 北美洲國際賽 Round 6 選手 Zachary Weed 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.966Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Zachary Weed 的公開配置（Round 6 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.681Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -7731,7 +7746,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -7751,7 +7766,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_3",
-    "name": "Marcus Dion（2026 北美洲國際賽 Top 8）",
+    "name": "Marcus Dion（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=2241s",
@@ -8157,8 +8172,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Marcus Dion 的隊伍表出現在影片 37:21。 與 team_8ACL1XG0vjI_2 的配置完全相同（同一隊伍被不同選手使用）。",
-    "notes": "2026 北美洲國際賽 Top 8 選手 Marcus Dion 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.966Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Marcus Dion 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.681Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -8231,7 +8246,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -8251,7 +8266,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_4",
-    "name": "Wolfe Glick（2026 北美洲國際賽 Top 8）",
+    "name": "Wolfe Glick（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=2277s",
@@ -8657,8 +8672,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Wolfe Glick 的隊伍表出現在影片 37:57。",
-    "notes": "2026 北美洲國際賽 Top 8 選手 Wolfe Glick 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.967Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Wolfe Glick 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.681Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -8731,7 +8746,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -8758,7 +8773,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_5",
-    "name": "Francesco Pio Pero（2026 北美洲國際賽 Finals）",
+    "name": "Francesco Pio Pero（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=3779s",
@@ -9164,8 +9179,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Francesco Pio Pero 的隊伍表出現在影片 62:59。",
-    "notes": "2026 北美洲國際賽 Finals 選手 Francesco Pio Pero 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.967Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Francesco Pio Pero 的公開配置（Finals 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.681Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -9224,13 +9239,13 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "cover"
           ]
         },
@@ -9245,7 +9260,7 @@
   },
   {
     "id": "team_8ACL1XG0vjI_6",
-    "name": "Eric Rios（2026 北美洲國際賽 Finals）",
+    "name": "Eric Rios（NAIC 2026）",
     "name_source": "manual",
     "video_id": "8ACL1XG0vjI",
     "video_url": "https://www.youtube.com/watch?v=8ACL1XG0vjI&t=3829s",
@@ -9651,8 +9666,8 @@
     "confidence": 0.9,
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Eric Rios 的隊伍表出現在影片 63:49。",
-    "notes": "2026 北美洲國際賽 Finals 選手 Eric Rios 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T10:21:25.967Z",
+    "notes": "2026 北美洲國際賽（2026 North America International Championships）選手 Eric Rios 的公開配置（Finals 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-11T12:58:59.682Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
     "video_title": "超壞星和鬃岩狼人崛起！被全世界針對的噴火龍能勝出嗎？｜2026 北美洲國際賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
     "video_published_at": "2026-08-11",
@@ -9711,19 +9726,19 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         }
@@ -10366,7 +10381,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -10379,7 +10394,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -10991,15 +11006,15 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -11007,7 +11022,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -11645,7 +11660,8 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "trick-room",
+            "tailwind"
           ]
         },
         {
@@ -12252,7 +12268,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost",
             "disruptor"
           ]
@@ -12260,7 +12276,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -12268,14 +12284,14 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "dmg-boost",
             "disruptor"
           ]
@@ -12862,7 +12878,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -12870,7 +12886,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "cover"
           ]
         },
@@ -13455,8 +13471,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
@@ -13469,7 +13485,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -14072,7 +14088,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter",
+            "weather",
             "disruptor"
           ]
         },
@@ -14080,8 +14096,8 @@
           "slot": 3,
           "roles": [
             "dmg-boost",
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         }
       ]
@@ -14688,9 +14704,15 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -14702,7 +14724,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -15284,15 +15306,15 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter",
-            "disruptor",
-            "mitigator"
+            "weather",
+            "mitigator",
+            "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         }
@@ -15932,8 +15954,8 @@
         {
           "slot": 3,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
@@ -15945,7 +15967,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -16552,9 +16574,15 @@
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -17163,7 +17191,8 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
+            "speed-other",
             "dmg-boost"
           ]
         },
@@ -17183,8 +17212,8 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "controller"
           ]
         }
@@ -17756,8 +17785,8 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -17771,7 +17800,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -18371,7 +18400,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
@@ -18387,8 +18416,8 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "trick-room",
             "healer"
           ]
         }
@@ -18997,6 +19026,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -19612,7 +19642,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -19626,13 +19656,13 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover",
             "disruptor"
           ]
@@ -20226,12 +20256,13 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "cover"
           ]
         }
@@ -20823,7 +20854,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -21475,27 +21506,28 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather",
+            "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -22114,6 +22146,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -22126,14 +22159,14 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         }
       ]
@@ -22774,12 +22807,13 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "healer"
           ]
         },
@@ -23387,7 +23421,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -23993,7 +24027,7 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover",
             "disruptor"
           ]
@@ -24001,7 +24035,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -24639,13 +24673,19 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -25264,13 +25304,14 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
+            "speed-other",
             "disruptor"
           ]
         }
@@ -25900,25 +25941,32 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "controller"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "core-other"
+            "tactic-other"
           ]
         },
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "cover",
             "controller"
           ]
@@ -26489,7 +26537,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
@@ -26509,7 +26557,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         }
@@ -27098,7 +27146,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -27110,14 +27158,15 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
+            "tailwind",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover",
             "dmg-boost",
             "disruptor"
@@ -27776,6 +27825,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -27788,22 +27838,22 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -28366,7 +28416,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "mitigator"
           ]
         },
@@ -28379,7 +28429,7 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -28392,7 +28442,7 @@
         {
           "slot": 6,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         }
       ]
@@ -28913,7 +28963,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -29482,8 +29532,8 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -29498,7 +29548,7 @@
         {
           "slot": 6,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         }
       ]
@@ -30066,20 +30116,20 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -30709,20 +30759,20 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "controller"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -31302,14 +31352,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         },
@@ -31323,7 +31373,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "controller"
           ]
         },
@@ -31336,7 +31386,7 @@
         {
           "slot": 6,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         }
       ]
@@ -31877,7 +31927,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -31890,8 +31940,8 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -32473,7 +32523,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -33129,7 +33179,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -33141,7 +33191,7 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover"
           ]
         }
@@ -33843,19 +33893,21 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
+            "speed-other",
             "mitigator"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -34479,13 +34531,14 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room",
+            "speed-other"
           ]
         },
         {
@@ -34498,7 +34551,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -35116,13 +35169,13 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -35713,7 +35766,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -35725,7 +35778,7 @@
         {
           "slot": 3,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
@@ -35737,6 +35790,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "cover",
             "healer"
           ]
@@ -35744,7 +35798,7 @@
         {
           "slot": 6,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover",
             "dmg-boost"
           ]
@@ -36305,14 +36359,14 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         }
       ]
@@ -36823,6 +36877,12 @@
           "slot": 1,
           "roles": [
             "healer"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -37399,27 +37459,33 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -38087,13 +38153,13 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -38669,14 +38735,14 @@
         {
           "slot": 1,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -39223,20 +39289,20 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -39766,7 +39832,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "dmg-boost",
             "disruptor"
           ]
@@ -39774,7 +39840,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
@@ -39786,8 +39852,8 @@
         {
           "slot": 4,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
@@ -40343,13 +40409,13 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -40951,7 +41017,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -40963,8 +41029,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -41623,21 +41689,27 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "terrain-setter"
+            "terrain"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         }
       ]
@@ -42227,7 +42299,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -42246,8 +42318,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         }
       ]
@@ -42881,20 +42953,21 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         }
       ]
@@ -43500,6 +43573,24 @@
           "roles": [
             "cover",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -44120,13 +44211,13 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "cover",
             "disruptor"
           ]
@@ -44140,8 +44231,15 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
+            "speed-other",
             "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -44639,15 +44737,15 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -44655,7 +44753,7 @@
         {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -45203,13 +45301,13 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
@@ -45221,7 +45319,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -46433,20 +46531,27 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 4,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -47054,14 +47159,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -47081,7 +47186,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -47578,6 +47683,12 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor",
@@ -47600,7 +47711,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -48094,6 +48205,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
@@ -48106,7 +48218,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -48721,20 +48833,21 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter"
+            "terrain",
+            "speed-other"
           ]
         },
         {
@@ -48746,6 +48859,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -49409,6 +49523,7 @@
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -49942,8 +50057,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -49952,8 +50067,8 @@
           "slot": 3,
           "roles": [
             "dmg-boost",
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
@@ -49965,7 +50080,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -49974,8 +50089,8 @@
           "slot": 6,
           "roles": [
             "dmg-boost",
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         }
       ]
@@ -50617,7 +50732,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -51223,7 +51339,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -51242,7 +51358,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -51887,6 +52003,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
             "cover",
@@ -51896,7 +52018,7 @@
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -52467,7 +52589,7 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -53141,14 +53263,14 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -53719,7 +53841,7 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost",
             "mitigator"
           ]
@@ -53727,7 +53849,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -54196,7 +54318,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "disruptor"
           ]
         },
@@ -54216,7 +54338,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor",
             "controller"
           ]
@@ -54799,19 +54921,20 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -55465,15 +55588,16 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter",
+            "terrain",
+            "speed-other",
             "cover"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
@@ -56011,7 +56135,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -56617,20 +56741,21 @@
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -56638,7 +56763,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         }
@@ -57168,13 +57293,13 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -57769,14 +57894,15 @@
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "terrain-setter",
+            "terrain",
+            "speed-other",
             "cover",
             "disruptor"
           ]
@@ -57784,7 +57910,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -58442,7 +58568,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -58454,8 +58580,8 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "cover",
             "disruptor"
           ]
@@ -58463,7 +58589,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         }
@@ -59027,7 +59153,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover",
             "disruptor"
           ]
@@ -59035,15 +59161,15 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
             "dmg-boost",
-            "disruptor",
-            "mitigator"
+            "mitigator",
+            "disruptor"
           ]
         },
         {
@@ -59536,7 +59662,7 @@
         {
           "slot": 5,
           "roles": [
-            "weather-setter",
+            "weather",
             "disruptor"
           ]
         },
@@ -60097,28 +60223,28 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -60767,6 +60893,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "disruptor"
           ]
@@ -60774,13 +60901,13 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -60792,13 +60919,13 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -61302,7 +61429,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -61794,13 +61921,13 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -62406,7 +62533,7 @@
         {
           "slot": 6,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         }
       ]
@@ -62892,26 +63019,26 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -64044,14 +64171,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         }
@@ -64612,13 +64739,13 @@
         {
           "slot": 2,
           "roles": [
-            "core-other"
+            "tactic-other"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -65212,7 +65339,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -65773,7 +65900,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -66347,8 +66474,8 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "dmg-boost"
           ]
         }
@@ -66988,6 +67115,12 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
             "disruptor"
@@ -67521,14 +67654,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -67536,7 +67669,7 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -68125,7 +68258,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -68137,16 +68270,22 @@
         {
           "slot": 3,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -68788,14 +68927,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
@@ -68807,7 +68946,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -69393,13 +69532,13 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -69412,7 +69551,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -69924,7 +70063,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -69936,7 +70075,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -70446,8 +70585,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -70455,8 +70594,14 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -71089,14 +71234,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
@@ -71694,12 +71839,14 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "cover",
             "healer"
           ]
@@ -72298,7 +72445,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -72885,13 +73032,13 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -73552,13 +73699,13 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "disruptor"
           ]
@@ -74163,7 +74310,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -74176,8 +74323,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
@@ -75412,15 +75559,15 @@
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "weather-setter",
+            "weather",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -76036,7 +76183,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
@@ -76644,7 +76792,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -76658,7 +76806,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -77345,8 +77493,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -77354,7 +77502,14 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -77941,13 +78096,13 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -77960,7 +78115,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "mitigator"
           ]
         }
@@ -78507,9 +78662,9 @@
         {
           "slot": 3,
           "roles": [
-            "core-other",
-            "disruptor",
-            "mitigator"
+            "tactic-other",
+            "mitigator",
+            "disruptor"
           ]
         },
         {
@@ -78521,8 +78676,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
@@ -79064,12 +79219,13 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
@@ -79083,6 +79239,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "cover"
           ]
         }
@@ -79573,7 +79730,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -79586,8 +79743,8 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -80180,13 +80337,13 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -80194,7 +80351,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         },
@@ -80666,13 +80823,19 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter"
+            "terrain"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "speed-other"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -80684,7 +80847,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover"
           ]
         }
@@ -81276,22 +81439,28 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
-            "weather-setter"
+            "weather",
+            "tailwind"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
         },
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -82191,7 +82360,7 @@
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost",
             "disruptor"
           ]
@@ -82752,7 +82921,7 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -83376,7 +83545,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -83985,6 +84154,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "dmg-boost",
             "disruptor"
           ]
@@ -83998,6 +84168,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -84574,7 +84745,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
@@ -84587,7 +84758,7 @@
         {
           "slot": 4,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         }
@@ -85256,13 +85427,14 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         }
@@ -85843,7 +86015,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -86412,7 +86584,7 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
@@ -87012,14 +87184,14 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -87027,7 +87199,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -87748,8 +87920,8 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -88406,7 +88578,7 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "dmg-boost",
             "disruptor",
             "controller"
@@ -88976,7 +89148,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -88988,7 +89160,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -90323,7 +90495,13 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -90977,7 +91155,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover",
             "dmg-boost"
           ]
@@ -90991,7 +91169,7 @@
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -91639,16 +91817,22 @@
           ]
         },
         {
+          "slot": 4,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
-            "weather-setter",
+            "weather",
             "cover"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -92235,20 +92419,20 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -92256,6 +92440,12 @@
           "roles": [
             "dmg-boost",
             "mitigator"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -92927,7 +93117,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "healer"
           ]
@@ -93658,6 +93848,7 @@
         {
           "slot": 1,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
@@ -93670,7 +93861,13 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -94262,6 +94459,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         }
@@ -96724,14 +96922,14 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "dmg-boost"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -97328,9 +97526,21 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -97947,7 +98157,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -98546,14 +98756,14 @@
         {
           "slot": 1,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -98561,7 +98771,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "disruptor"
           ]
         }
@@ -99208,20 +99418,21 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind",
+            "speed-other"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         }
@@ -99822,8 +100033,8 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]
@@ -99831,25 +100042,26 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 5,
           "roles": [
+            "speed-other",
             "disruptor"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -100485,6 +100697,12 @@
           "roles": [
             "disruptor"
           ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
         }
       ]
     }
@@ -101076,7 +101294,7 @@
         {
           "slot": 2,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "disruptor"
           ]
         },
@@ -101726,9 +101944,21 @@
       ],
       "roles": [
         {
+          "slot": 1,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "speed-other"
           ]
         },
         {
@@ -102311,7 +102541,7 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -102898,7 +103128,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -103531,7 +103761,7 @@
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "disruptor"
           ]
         }
@@ -104129,9 +104359,15 @@
       ],
       "roles": [
         {
+          "slot": 3,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -104676,20 +104912,20 @@
         {
           "slot": 2,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "cover"
           ]
         },
         {
           "slot": 6,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         }
       ]
@@ -105294,7 +105530,7 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -105872,6 +106108,12 @@
       ],
       "roles": [
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 3,
           "roles": [
             "disruptor"
@@ -105886,7 +106128,7 @@
         {
           "slot": 5,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
@@ -106460,7 +106702,7 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
@@ -108182,7 +108424,7 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "disruptor"
           ]
         },
@@ -108196,7 +108438,13 @@
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "speed-other"
           ]
         }
       ]
@@ -108757,20 +109005,21 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 3,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover"
           ]
         },
@@ -109331,14 +109580,14 @@
         {
           "slot": 4,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "tailwind",
             "cover",
             "disruptor"
           ]
@@ -109881,9 +110130,15 @@
           ]
         },
         {
+          "slot": 2,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -111635,14 +111890,15 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter",
+            "weather",
             "dmg-boost"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter"
+            "trick-room",
+            "speed-other"
           ]
         },
         {
@@ -112256,6 +112512,7 @@
         {
           "slot": 2,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         },
@@ -112268,13 +112525,13 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
@@ -112831,13 +113088,13 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "terrain-setter",
+            "terrain",
             "cover",
             "dmg-boost"
           ]
@@ -112845,14 +113102,14 @@
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "cover"
           ]
         },
         {
           "slot": 5,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         }
       ]
@@ -113449,9 +113706,15 @@
           ]
         },
         {
+          "slot": 5,
+          "roles": [
+            "speed-other"
+          ]
+        },
+        {
           "slot": 6,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         }
       ]
@@ -114030,6 +114293,7 @@
         {
           "slot": 6,
           "roles": [
+            "speed-other",
             "dmg-boost"
           ]
         }
@@ -114625,7 +114889,8 @@
         {
           "slot": 5,
           "roles": [
-            "weather-setter",
+            "weather",
+            "speed-other",
             "disruptor"
           ]
         }
@@ -115167,7 +115432,7 @@
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
@@ -115718,19 +115983,19 @@
         {
           "slot": 1,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "tailwind"
           ]
         },
         {
           "slot": 3,
           "roles": [
-            "speed-setter",
+            "trick-room",
             "dmg-boost"
           ]
         },
@@ -116308,20 +116573,20 @@
         {
           "slot": 1,
           "roles": [
-            "weather-setter"
+            "weather"
           ]
         },
         {
           "slot": 2,
           "roles": [
-            "speed-setter"
+            "trick-room"
           ]
         },
         {
           "slot": 4,
           "roles": [
-            "speed-setter",
-            "terrain-setter",
+            "terrain",
+            "trick-room",
             "cover",
             "dmg-boost"
           ]

@@ -62,7 +62,7 @@ spec.teams.forEach((t, i) => {
   const match = matchOf(t.player, t.round);
   match.players.find((p) => p.name === t.player).team_ids.push(id);
   teams.push({
-    id, name: `${t.player}（${spec.event.name_zh} ${t.round}）`, name_source: "manual",
+    id, name: `${t.player}（${spec.event.abbr ?? spec.event.name_zh} ${spec.event.year ?? ""}）`.replace(" ）", "）"), name_source: "manual",
     video_id: vid, video_url: `https://www.youtube.com/watch?v=${vid}&t=${t.t_s}s`, channel_handle: "@fiskepokemon",
     game: spec.event.game, regulation_set_id: regId, regulation_source: "date-inferred",
     tags: [], tags_source: "title", author: t.player, author_source: "frame",
@@ -71,7 +71,7 @@ spec.teams.forEach((t, i) => {
     sources: { frames_used: t.frames.length, frames: t.frames, subtitle_lang: null, subtitle_range_s: null, pokepaste_url: null },
     confidence: 0.9, review_status: "auto",
     review_notes: `${spec.note} 選手 ${t.player} 的隊伍表出現在影片 ${Math.floor(t.t_s / 60)}:${String(t.t_s % 60).padStart(2, "0")}。`,
-    notes: `${spec.event.name_zh} ${t.round} 選手 ${t.player} 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。`,
+    notes: `${spec.event.name_zh}（${spec.event.name_en}）選手 ${t.player} 的公開配置（${t.round} 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。`,
     extracted_at: new Date().toISOString(), extracted_by: "claude-sonnet-5-5/extract-tournament-v1",
   });
 });
