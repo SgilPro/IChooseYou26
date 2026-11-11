@@ -50,6 +50,7 @@ node tools/yt/merge-teams.mjs $CH
 4. **一次抓一批**：`COOKIES=<path> node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon <id> [<id>...]`（請求間隔 `--sleep-requests 1`；要更保守可改慢）。
 5. **抽取**：影格備好後，依 `EXTRACTION_PROMPT.md`（v1.3）平行派 agent，每支一個 agent、各自獨立的暫存目錄、只改自己的 `teams/<id>.json`；結束後跑 `validate-teams.mjs`、`merge-teams.mjs`，再 commit。
 6. **目前狀態**：有「隊伍介紹章節」的會員影片已全部處理完（佇列為空）。尚未處理：朱紫對戰類沒有章節的 40 支、遊戲欄位未標的對戰類 71 支（內容未確認，建議先抽樣）、Champions Bonus 5 支（未看過畫面）、需「高級會員」的 5 支。
+   - 2026-11-11 更新：會員朱紫 16 支有 pokepaste 者已匯入並補字幕（notes/tags/role_note/author）；朱紫無章節與 Champions Bonus 共 44 支已用 cookies 重抓 metadata，僅 2 支有（機翻）字幕、其餘無字幕無描述，Champions Bonus 為對戰實況（Bonus 章節）無隊伍介紹段，皆無可抽取範圍；遊戲未標的 71 支抽樣為對戰實況/Bonus，已標 review_notes「非隊伍介紹」，佇列已空。標題為隊伍名的朱紫會員影片（如「超硬平衡隊」）仍缺素材，需人工看畫面定隊伍介紹時間點才能走影格流程。
 
 ## 比賽播報影片（Fiske 講比賽）的隊伍抽取
 
