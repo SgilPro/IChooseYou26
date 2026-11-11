@@ -55,7 +55,7 @@ jobs:
           # 靜態圖像素材（屬性色與圖示、道具圖示、寶可夢圖；pokemon/home 不上站，只上 art 與 thumb）
           mkdir -p _site/assets
           cp -r assets/types assets/items assets/games _site/assets/
-          cp assets/master-ball-120.png _site/assets/
+          cp assets/master-ball-128.png _site/assets/
           mkdir -p _site/assets/pokemon
           for d in art thumb; do [ -d "assets/pokemon/$d" ] && cp -r "assets/pokemon/$d" _site/assets/pokemon/ || true; done
           [ -f assets/pokemon/index.json ] && cp assets/pokemon/index.json _site/assets/pokemon/ || true

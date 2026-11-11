@@ -59,6 +59,6 @@
 
 ## Logo（2026-11-11 起）
 
-- 站台 logo 與 favicon 用大師球 `assets/master-ball-120.png`：取自 PokeAPI sprites 的 `sprites/items/master-ball.png`（30×30），以最近鄰 4 倍放大成 120×120 保留像素邊緣，頁面上以 `image-rendering: pixelated` 顯示。紫色與主色同一色相家族。
+- 站台 logo 與 favicon 用大師球：原圖 `assets/master-ball.png`（1302×1208，透明底，第一擁有者提供），縮成 `assets/master-ball-128.png`（128 寬，與先前 cherish-ball 同做法）後由頁面載入。紫色與主色同一色相家族。
 - 舊的 `cherish-ball*.png` 仍在 repo，但站台不再使用。
 - 圖像版權屬任天堂／Creatures／GAME FREAK；公開前要加粉絲站聲明（見上方待辦）。
