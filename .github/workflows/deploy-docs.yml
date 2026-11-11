@@ -64,7 +64,7 @@ jobs:
           # 版本標記（台北時間＋commit），寫進每頁的隱形元素，方便確認「改的版本是否已上線」
           STAMP="$(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
           VER="${STAMP} (台北) · ${GITHUB_SHA::7}"
-          for f in _site/*.html; do
+          for f in _site/*.html _site/app/index.html; do
             sed -i "s|<head>|<head>\n  <meta name=\"build\" content=\"${VER}\" />|" "$f"
             sed -i "s|<html |<html data-build=\"${VER}\" |" "$f"
             sed -i "s|</body>|<div id=\"build-stamp\" hidden aria-hidden=\"true\" data-build=\"${VER}\"></div><script>console.info(\"build: ${VER}\")</script>\n</body>|" "$f"
