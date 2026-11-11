@@ -16,7 +16,7 @@
     "event_id": "naic-2026",
     "match_id": "naic-2026__round-6__chase-lybbert__zachary-weed",
     "player": "Chase Lybbert",
-    "team_signature": "1ee65c78d576",
+    "team_signature": "979e84383c0e",
     "source_t_s": 131,
     "members": [
       {
@@ -161,9 +161,9 @@
           "source": "frame"
         },
         "item": {
-          "value": "稜瓜果",
-          "value_en": "Coba Berry",
-          "confidence": 0.7,
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
           "source": "frame"
         },
         "nature": {
@@ -408,7 +408,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Chase Lybbert 的隊伍表出現在影片 2:11。",
     "notes": "2026 北美洲國際賽 Round 6 選手 Chase Lybbert 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.894Z",
+    "extracted_at": "2026-11-11T10:21:25.960Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   },
   {
@@ -820,7 +820,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Zachary Weed 的隊伍表出現在影片 5:02。 與 team_8ACL1XG0vjI_3 的配置完全相同（同一隊伍被不同選手使用）。",
     "notes": "2026 北美洲國際賽 Round 6 選手 Zachary Weed 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.895Z",
+    "extracted_at": "2026-11-11T10:21:25.966Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   },
   {
@@ -1232,7 +1232,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Marcus Dion 的隊伍表出現在影片 37:21。 與 team_8ACL1XG0vjI_2 的配置完全相同（同一隊伍被不同選手使用）。",
     "notes": "2026 北美洲國際賽 Top 8 選手 Marcus Dion 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.895Z",
+    "extracted_at": "2026-11-11T10:21:25.966Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   },
   {
@@ -1252,7 +1252,7 @@
     "event_id": "naic-2026",
     "match_id": "naic-2026__top-8__marcus-dion__wolfe-glick",
     "player": "Wolfe Glick",
-    "team_signature": "b30c24f5f370",
+    "team_signature": "33fa8fd31f12",
     "source_t_s": 2277,
     "members": [
       {
@@ -1583,9 +1583,9 @@
           "source": "frame"
         },
         "item": {
-          "value": "稜瓜果",
-          "value_en": "Coba Berry",
-          "confidence": 0.7,
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
           "source": "frame"
         },
         "nature": {
@@ -1644,7 +1644,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Wolfe Glick 的隊伍表出現在影片 37:57。",
     "notes": "2026 北美洲國際賽 Top 8 選手 Wolfe Glick 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.895Z",
+    "extracted_at": "2026-11-11T10:21:25.967Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   },
   {
@@ -2056,7 +2056,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Francesco Pio Pero 的隊伍表出現在影片 62:59。",
     "notes": "2026 北美洲國際賽 Finals 選手 Francesco Pio Pero 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.896Z",
+    "extracted_at": "2026-11-11T10:21:25.967Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   },
   {
@@ -2468,7 +2468,7 @@
     "review_status": "auto",
     "review_notes": "Fiske 講比賽（會員影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。 選手 Eric Rios 的隊伍表出現在影片 63:49。",
     "notes": "2026 北美洲國際賽 Finals 選手 Eric Rios 的公開配置（來源：Fiske 講比賽影片的轉播畫面）。",
-    "extracted_at": "2026-11-11T09:18:23.896Z",
+    "extracted_at": "2026-11-11T10:21:25.967Z",
     "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
   }
 ]
