@@ -71,9 +71,14 @@
     .moves li { display: flex; align-items: center; gap: 6px; min-width: 0; background: rgba(255,255,255,.04); border-radius: 8px; padding: 4px 8px; }
     .moves li span { min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
     .evs { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px; }
-    .ev { display: grid; grid-template-columns: 2.4em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
+    .ev { display: grid; grid-template-columns: 3.8em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
     .ev .bar { height: 6px; border-radius: 999px; background: var(--bar-track); overflow: hidden; }
     .ev .bar i { display: block; height: 100%; background: var(--bar-fill); }
+    .ev .lbl { display: inline-flex; align-items: center; gap: 2px; white-space: nowrap; }
+    .trend { width: 12px; height: 12px; flex: none; }
+    .trend.up { color: #ff7b72; } .trend.down { color: #6aa9ff; }
+    .evs.noev { grid-template-columns: repeat(3, 1fr); gap: 4px 10px; }
+    .evs.noev .ev { display: flex; font-size: 12px; }
     .ev .n { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
     .evscale { font-size: 11px; color: var(--ink-soft); margin-top: 8px; }
     .role { margin-top: 10px; font-size: 12px; color: var(--ink-soft); border-top: 1px dashed var(--border); padding-top: 8px; position: relative; }
@@ -259,13 +264,23 @@
 
     // ---- 寶可夢卡片 ----
     const EVKEYS = [["hp", "HP"], ["atk", "攻"], ["def", "防"], ["spa", "特攻"], ["spd", "特防"], ["spe", "速"]];
-    const evBlock = (e) => {
-      if (!e) return "";
-      const max = e.scale === "champions-points-32" ? 32 : e.scale === "ev-252" ? 252 : 0;
-      if (!max || !EVKEYS.some(([k]) => e[k])) return "";
-      return `<div class="evs" role="group" aria-label="${max === 32 ? "能力點" : "努力值"}">${EVKEYS.map(([k, l]) => {
+    // 性格：[提升, 下降]（HP 不受影響）；中性性格為 null
+    const NATURE = { Hardy: null, Docile: null, Bashful: null, Quirky: null, Serious: null, Lonely: ["atk", "def"], Brave: ["atk", "spe"], Adamant: ["atk", "spa"], Naughty: ["atk", "spd"], Bold: ["def", "atk"], Relaxed: ["def", "spe"], Impish: ["def", "spa"], Lax: ["def", "spd"], Timid: ["spe", "atk"], Hasty: ["spe", "def"], Jolly: ["spe", "spa"], Naive: ["spe", "spd"], Modest: ["spa", "atk"], Mild: ["spa", "def"], Quiet: ["spa", "spe"], Rash: ["spa", "spd"], Calm: ["spd", "atk"], Gentle: ["spd", "def"], Sassy: ["spd", "spe"], Careful: ["spd", "spa"] };
+    const NAT_ZH = {"勤奮": "Hardy", "大膽": "Bold", "內斂": "Modest", "溫和": "Calm", "膽小": "Timid", "怕寂寞": "Lonely", "坦率": "Docile", "慢吞吞": "Mild", "溫順": "Gentle", "急躁": "Hasty", "固執": "Adamant", "淘氣": "Impish", "害羞": "Bashful", "慎重": "Careful", "馬虎": "Rash", "爽朗": "Jolly", "頑皮": "Naughty", "樂天": "Lax", "浮躁": "Quirky", "天真": "Naive", "勇敢": "Brave", "悠閒": "Relaxed", "冷靜": "Quiet", "自大": "Sassy", "認真": "Serious"};
+    const natureOf = (n) => { if (!n) return null; const en = n.value_en || NAT_ZH[n.value]; return en && NATURE[en] ? NATURE[en] : null; };
+    const TUP = `<svg class="trend up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>`;
+    const TDOWN = `<svg class="trend down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/></svg>`;
+    const evBlock = (e, nature) => {
+      const max = e && e.scale === "champions-points-32" ? 32 : e && e.scale === "ev-252" ? 252 : 0;
+      const hasEv = !!(max && EVKEYS.some(([k]) => e[k]));
+      const nat = natureOf(nature);
+      if (!hasEv && !nat) return "";
+      const lab = (k, l) => { const trend = nat && nat[0] === k ? TUP : nat && nat[1] === k ? TDOWN : ""; return `<span class="lbl">${l}${trend}</span>`; };
+      const tip = nat ? `性格：${esc(nature.value || "")}（${EVKEYS.find(([k]) => k === nat[0])[1]}提升、${EVKEYS.find(([k]) => k === nat[1])[1]}下降）` : "";
+      return `<div class="evs${hasEv ? "" : " noev"}" role="group" aria-label="${hasEv ? (max === 32 ? "能力點" : "努力值") : "性格"}" ${tip ? `data-tip="${tip}"` : ""}>${EVKEYS.map(([k, l]) => {
+        if (!hasEv) return `<div class="ev">${lab(k, l)}</div>`;
         const v = Number(e[k]) || 0;
-        return `<div class="ev"><span>${l}</span><span class="bar"><i style="width:${Math.min(100, v / max * 100)}%"></i></span><span class="n">${v}</span></div>`;
+        return `<div class="ev">${lab(k, l)}<span class="bar"><i style="width:${Math.min(100, v / max * 100)}%"></i></span><span class="n">${v}</span></div>`;
       }).join("")}</div>`;
     };
     const teraIcon = (t) => {
@@ -318,7 +333,7 @@
           </div>
         </div>
         ${moves ? `<ul class="moves">${moves}</ul>` : ""}
-        ${evBlock(m.evs)}
+        ${evBlock(m.evs, m.nature)}
         ${(() => { const rs = rolesFor(m.slot ?? i + 1); return rs.length ? `<div class="rolechips" aria-label="角色與功能">${rs.map((r) => `<span class="rolechip${r.inferred ? " inferred" : ""}" title="${esc((roleName[r.id].group || "") + (r.inferred ? "（由招式／特性推斷）" : "（手動確認）") + (roleName[r.id].description_zh ? "：" + roleName[r.id].description_zh : ""))}">${esc(roleName[r.id].name_zh)}</span>`).join("")}</div>` : ""; })()}
         ${m.role_note ? `<div class="role">${esc(m.role_note)}</div>` : ""}
       </article>`;
