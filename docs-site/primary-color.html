@@ -119,6 +119,8 @@ const dE=(a,b,k)=>{const x=lab(sim(a,k)),y=lab(sim(b,k));return Math.hypot(x[0]-
 const SEM={success:'#1A7339',danger:'#B3261E',info:'#0B6A8F',warn:'#8F5300'};
 const BG={bg:'#E4E7EA',surface:'#EEF0F2',raised:'#F7F8F9'};
 const OPTS=[
+ {id:'coral',name:'柔珊瑚（淺填色 + 墨字）',p:'#D9795F',ph:'#C9694F',pt:'#1B1F24',a:'#D9795F',on:'#1B1F24',note:'暖色；文字與連結用墨黑，不用珊瑚當字色'},
+ {id:'coral2',name:'珊瑚（較鮮）',p:'#E0634C',ph:'#CF533C',pt:'#1B1F24',a:'#E0634C',on:'#1B1F24',note:'色度 0.16，較搶眼'},
  {id:'deep',name:'深靛（建議）',rec:true,p:'#4F3DB5',ph:'#3F2F9A',pt:'#4F3DB5',a:'#4F3DB5',note:'紫色相，微調加深'},
  {id:'indigo',name:'現行靛紫',p:'#5B44C6',ph:'#4B36B0',pt:'#5B44C6',a:'#5B44C6',note:'白字 6.8:1，已可用'},
  {id:'ink',name:'墨黑（備案）',p:'#1B1F24',ph:'#000000',pt:'#1B1F24',a:'#1B1F24',note:'最穩，但沒有個性'},
@@ -128,7 +130,7 @@ const OPTS=[
 const cls=(v,good,mid)=>v>=good?'ok':v>=mid?'mid':'bad';
 // mockups
 document.getElementById('mocks').innerHTML=OPTS.map(o=>`
-<div class="mock" style="--p:${o.p};--ph:${o.ph};--pt:${o.pt};--a:${o.a};--navmark:${o.a}">
+<div class="mock" style="--on:${o.on||'#fff'};--p:${o.p};--ph:${o.ph};--pt:${o.pt};--a:${o.a};--navmark:${o.a}">
   <header><span style="width:22px;height:22px;border-radius:6px;background:var(--p);display:inline-block"></span><b>ICY</b><nav><span class="on">隊伍</span><span>角色</span><span>比賽</span></nav></header>
   <div class="body">
     <div><h3>${o.name}${o.rec?'<span class="tag-rec">建議</span>':''}</h3><div class="note">${o.note}</div></div>
@@ -139,12 +141,12 @@ document.getElementById('mocks').innerHTML=OPTS.map(o=>`
   </div>
 </div>`).join('');
 // table
-const head=['方案','主色','白字於填色','作文字於 bg','於 surface','於 raised','vs 危險 一般/綠盲/紅盲','vs 成功 一般/綠盲/紅盲','vs 資訊 一般/綠盲/紅盲'];
+const head=['方案','主色','填色上的字（白或墨）','作文字於 bg','於 surface','於 raised','vs 危險 一般/綠盲/紅盲','vs 成功 一般/綠盲/紅盲','vs 資訊 一般/綠盲/紅盲'];
 const fmt=(v,t)=>`<span class="${cls(v,t,t-1)}">${v.toFixed(2)}</span>`;
 const de=(c,s)=>[null,'deut','prot'].map(k=>{const v=dE(c,SEM[s],k);return `<span class="${v>=15?'ok':v>=8?'mid':'bad'}">${v.toFixed(0)}</span>`}).join(' / ');
 document.getElementById('tbl').innerHTML='<tr>'+head.map(h=>`<th>${h}</th>`).join('')+'</tr>'+
 OPTS.map(o=>`<tr><td>${o.name}</td><td><span class="sw" style="background:${o.p}"></span>${o.p}</td>
-<td class="n">${fmt(cr(o.p,'#FFFFFF'),4.5)}</td>
+<td class="n">${fmt(cr(o.p,o.on||'#FFFFFF'),4.5)}</td>
 <td class="n">${fmt(cr(o.pt,BG.bg),4.5)}</td><td class="n">${fmt(cr(o.pt,BG.surface),4.5)}</td><td class="n">${fmt(cr(o.pt,BG.raised),4.5)}</td>
 <td class="n">${de(o.p,'danger')}</td><td class="n">${de(o.p,'success')}</td><td class="n">${de(o.p,'info')}</td></tr>`).join('')+'';
 </script>
