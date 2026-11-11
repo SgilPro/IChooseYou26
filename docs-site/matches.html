@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>比賽資訊｜ICY</title>
+  <link rel="stylesheet" href="tokens.css" />
   <style>
-    :root { color-scheme: dark; --bg:#0b0f1a; --panel:#141a2e; --border:#2a3354; --ink:#e8ecf8; --ink-soft:#9aa6c8; --accent:#8b6cff; --accent-2:#56d0c8; }
     body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.6 system-ui,-apple-system,"Noto Sans TC",sans-serif; }
     .wrap { max-width: 980px; margin: 0 auto; padding: 20px 16px 60px; }
     a { color: var(--accent-2); }
@@ -16,7 +16,7 @@
     .players { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 8px; }
     .player { border-top: 1px dashed var(--border); padding-top: 8px; }
     .thumbs { display: flex; gap: 4px; margin-top: 6px; }
-    .thumbs img { width: 44px; height: 44px; object-fit: contain; background: rgba(255,255,255,.05); border-radius: 6px; }
+    .thumbs img { width: 44px; height: 44px; object-fit: contain; background: var(--tint); border-radius: 6px; }
     .src { font-size: 12px; color: var(--ink-soft); margin-top: 8px; }
     .tag { font-size: 11px; padding: 1px 8px; border-radius: 8px; border: 1px dotted var(--ink-soft); }
   </style>

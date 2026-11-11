@@ -4,8 +4,8 @@
 (() => {
   const css = `
   .ic-tip { position: fixed; z-index: 9999; max-width: min(320px, calc(100vw - 16px)); padding: 7px 11px; border-radius: 8px;
-    background: #8b6cff; color: #fff; font: 600 12.5px/1.45 system-ui, -apple-system, "Noto Sans TC", sans-serif; letter-spacing: .01em;
-    box-shadow: 0 6px 18px rgba(0,0,0,.45), 0 0 0 1px rgba(255,255,255,.25) inset; pointer-events: none; opacity: 0; transform: translateY(2px);
+    background: #1B1F24; color: #fff; font: 600 12.5px/1.45 system-ui, -apple-system, "Noto Sans TC", sans-serif; letter-spacing: .01em;
+    box-shadow: 0 6px 18px rgba(27,31,36,.28); pointer-events: none; opacity: 0; transform: translateY(2px);
     transition: opacity .08s, transform .08s; white-space: pre-line; overflow-wrap: anywhere; }
   .ic-tip.on { opacity: 1; transform: none; }
   .ic-tip::after { content: ""; position: absolute; left: var(--ax, 50%); width: 10px; height: 10px; background: inherit; transform: translateX(-50%) rotate(45deg); }

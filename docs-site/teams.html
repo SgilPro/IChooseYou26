@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>頻道資料線 · 隊伍資料庫（預覽）</title>
   <meta name="description" content="把 YouTube 對戰頻道的影片自動整理成影片主表與隊伍資料庫——目前進度與已抽取的隊伍。" />
+  <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="styles.css" />
   <style>
     .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 22px 80px; }
@@ -22,15 +23,15 @@
     .bar .t span:last-child { color: var(--ink-soft); }
     .track { height: 10px; background: var(--bg-soft); border-radius: 999px; overflow: hidden; display: flex; }
     .seg { height: 100%; }
-    .seg.ok { background: var(--accent-2); }
+    .seg.ok { background: var(--success); }
     .seg.member { background: var(--accent); }
-    .seg.pending { background: #3a3f72; }
+    .seg.pending { background: var(--line-strong); }
     .legend { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); margin-top: 8px; flex-wrap: wrap; }
     .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
     h2 { font-size: 20px; margin: 30px 0 12px; }
     .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; margin-bottom: 10px; }
     .toolbar input, .toolbar select, .toolbar button { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px; }
-    .toolbar input:focus, .toolbar select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(139,108,255,.25); }
+    .toolbar input:focus, .toolbar select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--primary-glow); }
     .toolbar .q { flex: 1 1 240px; min-width: 0; }
     .toolbar label { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-soft); }
     .toolbar select { max-width: 220px; cursor: pointer; }
@@ -46,7 +47,7 @@
     .chip { font-size: 12px; line-height: 18px; padding: 4px 10px; white-space: nowrap; border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft); cursor: pointer; }
     .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
     /* ===== 隊伍 brief 卡片（主題變數集中在 :root，之後好換）===== */
-    :root { --card-radius: 14px; --thumb-size: 64px; --warn: #ffd37a; }
+    :root { --card-radius: 14px; --thumb-size: 64px; }
     .teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 14px; }
     .team { position: relative; display: flex; flex-direction: column; gap: 10px; background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 14px 16px; cursor: pointer; transition: border-color .15s, transform .15s; }
     .team:hover { border-color: var(--accent); transform: translateY(-2px); }
@@ -57,9 +58,9 @@
     .tag { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); font-family: inherit; }
     button.tag { cursor: pointer; }
     button.tag:hover { border-color: var(--accent-2); color: var(--ink); }
-    .tag.reg { color: var(--accent-2); border-color: rgba(86,208,200,.4); }
-    .tag.game { color: var(--accent); border-color: rgba(139,108,255,.45); }
-    .tag.member { color: var(--warn); border-color: rgba(255,211,122,.4); }
+    .tag.reg { color: var(--primary-text); border-color: rgba(79,61,181,.45); }
+    .tag.game { color: var(--primary-text); border-color: rgba(79,61,181,.45); }
+    .tag.member { color: var(--warn); border-color: rgba(143,83,0,.5); }
     [hidden] { display: none !important; }
     .row1 { display: flex; align-items: center; gap: 8px; min-width: 0; }
     .row1 h3 { flex: 1 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; overflow-wrap: normal; }
@@ -68,24 +69,24 @@
     .team .meta { flex-wrap: nowrap; overflow: hidden; }
     .team .meta > * { flex: none; white-space: nowrap; }
     .tag.reg, .tag.game { box-sizing: border-box; height: 24px; display: inline-flex; align-items: center; justify-content: center; padding: 0 9px; border-radius: 8px; border: 1px dotted; font-size: 12px; font-weight: 700; letter-spacing: .02em; line-height: 1; }
-    .tag.reg { background: var(--accent-2); color: #0b0f1a; border-color: #0b0f1a; }
-    .tag.game { background: #1d2140; border-color: rgba(255,255,255,.55); }
+    .tag.reg { background: var(--primary); color: var(--on-primary); border-color: var(--primary-hover); }
+    .tag.game { background: var(--sunken); border-color: var(--line-strong); }
     .gl-txt i { font-style: normal; }
     .gl-ch { color: var(--warn); }
     .ico { width: 18px; height: 18px; display: block; }
     a.vid-ic { position: relative; display: inline-flex; width: 28px; height: 28px; align-items: center; justify-content: center; border-radius: 50%; color: var(--accent-2); background: var(--bg-soft); border: 2px solid var(--accent-2); transition: transform .15s, background .15s, color .15s; }
-    a.vid-ic:hover, a.vid-ic:focus-visible { transform: scale(1.18); background: var(--accent-2); color: #0b0f1a; animation: vidpulse 1s ease-out infinite; }
-    a.vid-ic .badge-crown { position: absolute; top: -7px; right: -7px; width: 15px; height: 15px; padding: 2px; box-sizing: border-box; border-radius: 50%; background: var(--warn); color: #3a2a00; border: 1px solid var(--panel); }
-    @keyframes vidpulse { 0% { box-shadow: 0 0 0 0 rgba(86,208,200,.55); } 100% { box-shadow: 0 0 0 9px rgba(86,208,200,0); } }
+    a.vid-ic:hover, a.vid-ic:focus-visible { transform: scale(1.18); background: var(--primary); color: var(--on-primary); animation: vidpulse 1s ease-out infinite; }
+    a.vid-ic .badge-crown { position: absolute; top: -7px; right: -7px; width: 15px; height: 15px; padding: 2px; box-sizing: border-box; border-radius: 50%; background: var(--warn); color: #fff; border: 1px solid var(--panel); }
+    @keyframes vidpulse { 0% { box-shadow: 0 0 0 0 rgba(79,61,181,.45); } 100% { box-shadow: 0 0 0 9px rgba(79,61,181,0); } }
     @media (prefers-reduced-motion: reduce) { a.vid-ic:hover, a.vid-ic:focus-visible { animation: none; } }
     .vid { color: var(--accent-2); text-decoration: none; font-size: 12px; font-weight: 600; margin-left: auto; white-space: nowrap; }
     .vid:hover { text-decoration: underline; }
     .thumbs { display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px; margin-top: auto; }
-    .thumbs img { width: 100%; aspect-ratio: 1; object-fit: contain; background: rgba(255,255,255,.04); border-radius: 8px; }
+    .thumbs img { width: 100%; aspect-ratio: 1; object-fit: contain; background: var(--tint); border-radius: 8px; }
     .thumbs .gap { aspect-ratio: 1; border-radius: 8px; border: 1px dashed var(--border); }
     .incomplete { font-size: 11px; color: var(--warn); }
     .foot { margin-top: 40px; font-size: 12px; color: var(--ink-soft); }
-    .err { background: #3a1f2a; border: 1px solid #7a3a4a; padding: 12px 16px; border-radius: 10px; }
+    .err { background: #F6DEDB; border: 1px solid var(--danger); color: var(--ink); padding: 12px 16px; border-radius: 10px; }
     details.raw { margin-top: 14px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; }
     details.raw summary { cursor: pointer; padding: 12px 16px; font-weight: 600; font-size: 15px; list-style: none; display: flex; justify-content: space-between; }
     details.raw summary::after { content: "展開 ▸"; font-weight: 400; font-size: 12px; color: var(--ink-soft); }
@@ -98,7 +99,7 @@
     table.raw { border-collapse: collapse; font-size: 12px; white-space: nowrap; min-width: 100%; }
     table.raw th, table.raw td { border: 1px solid var(--border); padding: 5px 8px; text-align: left; vertical-align: top; }
     table.raw th { background: var(--bg-soft); position: sticky; top: 0; color: var(--ink-soft); font-weight: 600; }
-    table.raw tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+    table.raw tr:nth-child(even) td { background: var(--tint); }
     table.raw td.num { text-align: right; font-variant-numeric: tabular-nums; }
     .dl { font-size: 12px; color: var(--ink-soft); margin-left: 8px; }
     .dl a { color: var(--accent-2); }
@@ -240,7 +241,7 @@
           <div class="seg member" style="width:${pct(members, total)}%"></div>
           <div class="seg pending" style="width:${pct(pending, total)}%"></div>
         </div>
-        <div class="legend"><span><i style="background:var(--accent-2)"></i>完整 ${fetched}</span><span><i style="background:var(--accent)"></i>會員限定 ${members}</span><span><i style="background:#3a3f72"></i>待重試 ${pending}</span></div>
+        <div class="legend"><span><i style="background:var(--success)"></i>完整 ${fetched}</span><span><i style="background:var(--accent)"></i>會員限定 ${members}</span><span><i style="background:var(--line-strong)"></i>待重試 ${pending}</span></div>
       </div>
       <div class="bar">
         <div class="t"><span>Champions 公開對戰影片 → 隊伍抽取</span><span>${extracted} / ${champPublic.length}（${pct(extracted, champPublic.length)}%）；另有 ${champMember} 支會員限定待補</span></div>
@@ -257,7 +258,7 @@
     // ---- 隊伍 ----
     const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
     const fv = (f) => esc(f?.value ?? "—");
-    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#6b6f9c" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
+    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#7B838C" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
     const thumb = (m) => {
       const e = pidx[m.species?.name_en];
       return e && e.thumb ? `${assetRoot}assets/pokemon/${e.thumb}` : PH;
@@ -336,10 +337,10 @@
 
     // 遊戲符號：英文縮寫＋該版本的主色（舊作之後照這個格式補一筆；有圖的話可加 img，但目前決定不用圖，見 assets/README）
     const GAME_STYLE = {
-      sv: { abbr: ["S", "V"], colors: ["#ff6b5e", "#b39dff"], label: "朱紫" },
-      champions: { abbr: ["★", "C"], colors: ["#ffd37a", "#ffd37a"], label: "Champions" },
-      usum: { abbr: ["U", "S", "U", "M"], colors: ["#ff9a3c", "#ff9a3c", "#5aa0ff", "#5aa0ff"], label: "究極日月" },
-      oras: { abbr: ["O", "R", "A", "S"], colors: ["#ff6b6b", "#ff6b6b", "#5aa0ff", "#5aa0ff"], label: "終極紅寶石／始源藍寶石" },
+      sv: { abbr: ["S", "V"], colors: ["#A8281C", "#5B44C6"], label: "朱紫" },
+      champions: { abbr: ["★", "C"], colors: ["#8F5300", "#8F5300"], label: "Champions" },
+      usum: { abbr: ["U", "S", "U", "M"], colors: ["#8C4300", "#8C4300", "#1E4FB8", "#1E4FB8"], label: "究極日月" },
+      oras: { abbr: ["O", "R", "A", "S"], colors: ["#A8281C", "#A8281C", "#1E4FB8", "#1E4FB8"], label: "終極紅寶石／始源藍寶石" },
     };
     const gameIcon = (g) => {
       const st = GAME_STYLE[g]; if (!st) return "";

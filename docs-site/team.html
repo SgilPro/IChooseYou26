@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>隊伍詳細 · ICY</title>
   <meta name="description" content="單一隊伍的完整配置與分析。" />
+  <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="styles.css" />
   <style>
     /* ===== 可調整的主題變數（沿用 styles.css 的色票，之後要換風格改這裡） ===== */
@@ -15,12 +16,9 @@
       --gap: 14px;
       --art-size: 150px;
       --icon-size: 20px;
-      --bar-track: rgba(255,255,255,.08);
+      --bar-track: var(--tint-strong);
       --bar-fill: var(--accent-2);
-      --slot-ink: rgba(255,255,255,.07);
-      --male: #6aa8ff;
-      --female: #ff7aa8;
-      --warn: #ffd37a;
+      --slot-ink: var(--tint);
     }
     .wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 80px; }
     .crumbs { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
@@ -33,10 +31,10 @@
     .head { background: var(--panel); border: 1px solid var(--border); border-radius: var(--card-radius); padding: 16px 18px; }
     .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 6px 0; }
     .tag { font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--ink-soft); text-decoration: none; }
-    .tag.reg { color: var(--accent-2); border-color: rgba(86,208,200,.4); }
-    .tag.game { color: var(--accent); border-color: rgba(139,108,255,.45); }
-    .tag.member { color: var(--warn); border-color: rgba(255,211,122,.4); }
-    .tag.warn { color: var(--warn); border-color: rgba(255,211,122,.4); }
+    .tag.reg { color: var(--primary-text); border-color: rgba(79,61,181,.45); }
+    .tag.game { color: var(--primary-text); border-color: rgba(79,61,181,.45); }
+    .tag.member { color: var(--warn); border-color: rgba(143,83,0,.5); }
+    .tag.warn { color: var(--warn); border-color: rgba(143,83,0,.5); }
     .vid { color: var(--accent-2); text-decoration: none; font-size: 14px; font-weight: 600; }
     .code { font: inherit; font-size: 13px; color: var(--ink); background: var(--bg-soft); border: 1px dashed var(--accent-2); border-radius: 8px; padding: 3px 10px; cursor: pointer; }
     .code b { font-family: ui-monospace, Menlo, monospace; letter-spacing: .04em; }
@@ -59,16 +57,16 @@
     .badge { font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: var(--accent); color: #fff; }
     .en { color: var(--ink-soft); font-size: 11px; margin-top: 2px; }
     .mon-body { display: flex; gap: 12px; align-items: center; margin-top: 8px; }
-    .art { position: relative; flex: none; width: var(--art-size); height: var(--art-size); background: radial-gradient(circle at 50% 60%, rgba(255,255,255,.09), transparent 70%); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+    .art { position: relative; flex: none; width: var(--art-size); height: var(--art-size); background: radial-gradient(circle at 50% 60%, rgba(27,31,36,.08), transparent 70%); border-radius: 12px; display: flex; align-items: center; justify-content: center; }
     .art img { max-width: 100%; max-height: 100%; object-fit: contain; }
-    .art .hint { position: absolute; left: 0; right: 0; bottom: 0; font-size: 10px; line-height: 1.3; color: var(--warn); background: rgba(15,16,32,.8); text-align: center; border-radius: 0 0 12px 12px; padding: 1px 2px; }
+    .art .hint { position: absolute; left: 0; right: 0; bottom: 0; font-size: 10px; line-height: 1.3; color: #fff; background: rgba(27,31,36,.82); text-align: center; border-radius: 0 0 12px 12px; padding: 1px 2px; }
     .info { min-width: 0; flex: 1; display: grid; gap: 5px; }
     .info .row { display: flex; align-items: center; gap: 6px; min-width: 0; }
     .info .k { color: var(--ink-soft); font-size: 11px; flex: none; min-width: 2.2em; }
     .info .v { overflow-wrap: anywhere; }
     .item-icon { width: 28px; height: 28px; object-fit: contain; flex: none; }
     .moves { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; }
-    .moves li { display: flex; align-items: center; gap: 6px; min-width: 0; background: rgba(255,255,255,.04); border-radius: 8px; padding: 4px 8px; }
+    .moves li { display: flex; align-items: center; gap: 6px; min-width: 0; background: var(--tint); border-radius: 8px; padding: 4px 8px; }
     .moves li span { min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
     .evs { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px; }
     .ev { display: grid; grid-template-columns: 3.8em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
@@ -76,7 +74,7 @@
     .ev .bar i { display: block; height: 100%; background: var(--bar-fill); }
     .ev .lbl { display: inline-flex; align-items: center; gap: 2px; white-space: nowrap; }
     .trend { width: 12px; height: 12px; flex: none; }
-    .trend.up { color: #4ade80; } .trend.down { color: #ff6b6b; }
+    .trend.up { color: var(--success); } .trend.down { color: var(--danger); }
     .evs.noev { grid-template-columns: repeat(3, 1fr); gap: 4px 10px; }
     .evs.noev .ev { display: flex; font-size: 12px; }
     .ev .n { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
@@ -145,7 +143,7 @@
     .pair img { width: 72px; height: 72px; object-fit: contain; display: block; margin: 0 auto; }
     .strategy { background: var(--bg-soft); border-radius: 10px; padding: 10px 12px; font-size: 13px; white-space: pre-wrap; overflow-wrap: anywhere; }
     .lbl { display: none; font-size: 11px; color: var(--ink-soft); }
-    .err { background: #3a1f2a; border: 1px solid #7a3a4a; padding: 14px 18px; border-radius: 10px; }
+    .err { background: #F6DEDB; border: 1px solid var(--danger); color: var(--ink); padding: 14px 18px; border-radius: 10px; }
     .foot { margin-top: 40px; font-size: 12px; color: var(--ink-soft); }
     .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--accent); color: #fff; padding: 8px 16px; border-radius: 999px; font-size: 13px; z-index: 50; }
     @media (max-width: 720px) {
@@ -183,7 +181,7 @@
   (async function () {
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#6b6f9c" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
+    const PH = "data:image/svg+xml;utf8," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="#7B838C" stroke-width="4" stroke-dasharray="6 5"/><text x="32" y="42" font-size="28" text-anchor="middle" fill="#6b6f9c" font-family="sans-serif">?</text></svg>');
     const onerr = `onerror="this.onerror=null;this.src='${PH}'"`;
     const hideErr = `onerror="this.style.display='none'"`;
 

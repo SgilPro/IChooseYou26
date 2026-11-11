@@ -1,0 +1,47 @@
+/* 全站色彩 token：水泥灰 + 深靛（2026-11-11 決定，細節與對比數字見 primary-color.html）。
+   頁面一律用這裡的變數；舊名稱（--accent、--accent-2、--panel…）保留為別名，之後可逐步改名。 */
+:root {
+  color-scheme: light;
+
+  /* 表面（由深到淺：sunken < bg < bg-soft < panel） */
+  --bg: #E4E7EA;
+  --bg-soft: #EEF0F2;      /* surface：卡片 */
+  --panel: #F7F8F9;        /* raised：浮起的面板、下拉、抽屜 */
+  --sunken: #D9DDE1;       /* 內凹：進度條底、表頭 */
+  --overlay: #FFFFFF;
+
+  /* 文字與線 */
+  --ink: #1B1F24;          /* 13:1 */
+  --ink-soft: #4A525B;     /* 6.5:1 */
+  --ink3: #5C646D;
+  --border: #C9CDD2;
+  --line-strong: #7B838C;  /* 3:1，控制項邊框 */
+
+  /* 主色：深靛（墨字不適用；白字 7.87:1，於 bg 6.34:1） */
+  --primary: #4F3DB5;
+  --primary-hover: #3F2F9A;
+  --on-primary: #FFFFFF;
+  --primary-text: #4F3DB5; /* 連結、次要按鈕文字與外框 */
+  --primary-soft: color-mix(in srgb, var(--primary) 10%, var(--bg-soft));
+  --primary-glow: rgba(79, 61, 181, .28);
+
+  /* 語意色（與主色色差 >= 10，另需圖示加文字，不靠顏色單獨傳達） */
+  --success: #1A7339;
+  --warn: #8F5300;
+  --danger: #B3261E;
+  --info: #0B6A8F;
+
+  /* 舊名稱別名 */
+  --accent: var(--primary);
+  --accent-2: var(--primary-text);
+
+  /* 其他 */
+  --male: #1E4FB8;
+  --female: #9D2A6B;
+  --tint: rgba(27, 31, 36, .05);       /* 深色半透明疊在淺底，取代舊的白色半透明 */
+  --tint-strong: rgba(27, 31, 36, .10);
+  --focus-ring: 0 0 0 2px var(--bg), 0 0 0 4px var(--primary);
+  --sh-1: 0 1px 2px rgba(20, 24, 30, .10), 0 1px 1px rgba(20, 24, 30, .06);
+  --sh-2: 0 4px 12px rgba(20, 24, 30, .12), 0 1px 3px rgba(20, 24, 30, .08);
+}
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
