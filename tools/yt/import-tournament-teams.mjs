@@ -42,7 +42,7 @@ spec.teams.forEach((t, i) => {
     if (!dexSp.exists) miss("species", x.en);
     const megaSuffix = x.mega ? `-${x.mega}` : "";
     const nameEn = x.mega ? `${base}${x.mega === "Mega" ? "-Mega" : "-" + x.mega}` : x.en;
-    const ab = dex.abilities.get(N.abilities.zh2en[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
+    const ab = dex.abilities.get(N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality" })[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
     const it = dex.items.get(x.item); if (!it.exists) miss("item", x.item);
     const nat = x.nature; const natCn = natZh[nat] || nat;
     return {
@@ -54,7 +54,7 @@ spec.teams.forEach((t, i) => {
       nature: { value: natCn, value_en: nat, confidence: 0.85, source: "frame" },
       tera_type: null, mega: !!x.mega, evs: null, stats: null,
       stats_note: "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
-      moves: x.moves.map((mv) => { const en = N.moves.zh2en[mv] ?? ({ "踩腳": "Stomping Tantrum" })[mv]; if (!en) miss("move", mv); return { value: mv, value_en: en ?? null, confidence: 0.95, source: "frame" }; }),
+      moves: x.moves.map((mv) => { const en = N.moves.zh2en[mv] ?? ({ "踩腳": "Stomping Tantrum", "伴攻": "Coaching" })[mv]; if (!en) miss("move", mv); return { value: mv, value_en: en ?? null, confidence: 0.95, source: "frame" }; }),
       role_note: null,
     };
   });

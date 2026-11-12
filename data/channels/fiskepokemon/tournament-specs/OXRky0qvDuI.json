@@ -1,0 +1,588 @@
+{
+  "video_id": "OXRky0qvDuI",
+  "event": {
+    "id": "worlds-2026",
+    "name_zh": "2026 寶可夢世界冠軍賽",
+    "name_en": "2026 Pokémon World Championships",
+    "game": "champions",
+    "date_approx": "2026-08",
+    "abbr": "Worlds",
+    "year": 2026
+  },
+  "note": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 本片為三個年齡組決賽（Juniors／Seniors／Masters），組別放在 round 標籤。",
+  "matches": [
+    {
+      "round": "Finals (Juniors)",
+      "players": [
+        "Kazuki Kage",
+        "Kazutaka Hatahori"
+      ],
+      "header_t_s": 40
+    },
+    {
+      "round": "Finals (Seniors)",
+      "players": [
+        "Carlos Verástegui",
+        "Vikram Thiagarajan"
+      ],
+      "header_t_s": 2038
+    },
+    {
+      "round": "Finals (Masters)",
+      "players": [
+        "Hiroshi Onishi",
+        "Takuma Yamazaki"
+      ],
+      "header_t_s": 4372
+    }
+  ],
+  "teams": [
+    {
+      "player": "Hiroshi Onishi",
+      "round": "Finals (Masters)",
+      "t_s": 4468,
+      "frames": [
+        "f_4468.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "nature": "Timid",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "原始之力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "花幕",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Life Orb",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Sitrus Berry",
+          "nature": "Jolly",
+          "moves": [
+            "龍爪",
+            "地震",
+            "岩崩",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Occa Berry",
+          "item_conf": 0.65,
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "鐵頭",
+            "踢倒"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "再來一次",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Takuma Yamazaki",
+      "round": "Finals (Masters)",
+      "t_s": 4555,
+      "frames": [
+        "f_4555.jpg"
+      ],
+      "members": [
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "mega": "Mega",
+          "ability": "多重鱗片",
+          "item": "Dragoninite",
+          "nature": "Modest",
+          "moves": [
+            "龍之波動",
+            "熱風",
+            "神速",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "花幕",
+          "item": "Floettite",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Life Orb",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Choice Scarf",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "龍爪",
+            "踩腳",
+            "地震",
+            "岩崩"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Chople Berry",
+          "item_conf": 0.75,
+          "nature": "Adamant",
+          "moves": [
+            "突襲",
+            "仆斬",
+            "踢倒",
+            "鐵頭"
+          ]
+        },
+        {
+          "zh": "大扭拉",
+          "en": "Sneasler",
+          "ability": "毒手",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "近身戰",
+            "剋命爪",
+            "擊掌奇襲",
+            "伴攻"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Carlos Verástegui",
+      "round": "Finals (Seniors)",
+      "t_s": 2165,
+      "frames": [
+        "f_2165.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "原始之力",
+            "守住",
+            "氣象球"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "花幕",
+          "item": "Floettite",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "冥想",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Choice Scarf",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "龍爪",
+            "地震",
+            "踩腳",
+            "岩崩"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "nature": "Careful",
+          "moves": [
+            "閃焰衝鋒",
+            "擊掌奇襲",
+            "地獄突刺",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "軟待",
+          "item": "Sticky Barb",
+          "item_conf": 0.6,
+          "nature": "Relaxed",
+          "moves": [
+            "刷刷茶炮",
+            "戲法空間",
+            "憤怒粉",
+            "守住"
+          ]
+        },
+        {
+          "zh": "妙蛙花",
+          "en": "Venusaur",
+          "ability": "葉綠素",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "污泥炸彈",
+            "飛葉風暴",
+            "守住",
+            "催眠粉"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Vikram Thiagarajan",
+      "round": "Finals (Seniors)",
+      "t_s": 2215,
+      "frames": [
+        "f_2215.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "暴風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "巨沼怪",
+          "en": "Swampert",
+          "mega": "Mega",
+          "ability": "激流",
+          "item": "Swampertite",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "地震",
+            "冰凍拳",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Leftovers",
+          "nature": "Calm",
+          "moves": [
+            "電光束",
+            "龍之波動",
+            "加農光炮",
+            "守住"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "nature": "Careful",
+          "moves": [
+            "靈魂衝擊",
+            "反射壁",
+            "光牆",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Sitrus Berry",
+          "nature": "Bold",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "廣域防守",
+            "順風"
+          ]
+        },
+        {
+          "zh": "妙蛙花",
+          "en": "Venusaur",
+          "ability": "葉綠素",
+          "item": "Focus Sash",
+          "nature": "Modest",
+          "moves": [
+            "催眠粉",
+            "污泥炸彈",
+            "飛葉風暴",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Kazuki Kage",
+      "round": "Finals (Juniors)",
+      "t_s": 125,
+      "frames": [
+        "f_125.jpg"
+      ],
+      "members": [
+        {
+          "zh": "雪妖女",
+          "en": "Froslass",
+          "mega": "Mega",
+          "ability": "詛咒之軀",
+          "item": "Froslassite",
+          "nature": "Timid",
+          "moves": [
+            "守住",
+            "暴風雪",
+            "暗影球",
+            "極光幕"
+          ]
+        },
+        {
+          "zh": "狠辣椒",
+          "en": "Scovillain",
+          "mega": "Mega",
+          "ability": "葉綠素",
+          "item": "Scovillainite",
+          "nature": "Bold",
+          "moves": [
+            "終極吸取",
+            "守住",
+            "憤怒粉",
+            "過熱"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Life Orb",
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "劍舞",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鬃岩狼人",
+          "en": "Lycanroc-Dusk",
+          "form": "Dusk",
+          "ability": "硬爪",
+          "item": "Focus Sash",
+          "nature": "Adamant",
+          "moves": [
+            "岩崩",
+            "近身戰",
+            "衝岩",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大扭拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "White Herb",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "近身戰",
+            "垃圾射擊",
+            "擊掌奇襲",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Kazutaka Hatahori",
+      "round": "Finals (Juniors)",
+      "t_s": 255,
+      "frames": [
+        "f_255.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "nature": "Timid",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "暴風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "巨沼怪",
+          "en": "Swampert",
+          "mega": "Mega",
+          "ability": "激流",
+          "item": "Swampertite",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "地震",
+            "冰凍拳",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Leftovers",
+          "nature": "Calm",
+          "moves": [
+            "電光束",
+            "龍之波動",
+            "加農光炮",
+            "守住"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "nature": "Careful",
+          "moves": [
+            "靈魂衝擊",
+            "反射壁",
+            "光牆",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Sitrus Berry",
+          "nature": "Bold",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "廣域防守",
+            "順風"
+          ]
+        },
+        {
+          "zh": "妙蛙花",
+          "en": "Venusaur",
+          "ability": "葉綠素",
+          "item": "Focus Sash",
+          "nature": "Modest",
+          "moves": [
+            "催眠粉",
+            "污泥炸彈",
+            "飛葉風暴",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}
