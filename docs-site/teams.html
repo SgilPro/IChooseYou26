@@ -7,6 +7,7 @@
   <meta name="description" content="把 YouTube 對戰頻道的影片自動整理成影片主表與隊伍資料庫——目前進度與已抽取的隊伍。" />
   <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="components.css" />
   <style>
     .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 22px 80px; }
     h1 { margin: 0 0 6px; font-size: 28px; }
@@ -19,6 +20,7 @@
     .toolbar .q { flex: 1 1 240px; min-width: 0; }
     .toolbar label { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-soft); }
     .toolbar select { max-width: 220px; cursor: pointer; }
+    .toolbar .ui-select-trigger { height: 34px; font-size: 13px; min-width: 96px; background: var(--bg-soft); border-color: var(--border); }
     .toolbar .clear { background: transparent; color: var(--ink-soft); cursor: pointer; }
     .toolbar .clear:hover { color: var(--ink); border-color: var(--accent-2); }
     .toolbar .count { font-size: 12px; color: var(--accent-2); margin-left: auto; white-space: nowrap; }
@@ -93,6 +95,7 @@
       .toolbar label { flex: 1 1 45%; }
       .toolbar label { min-width: 0; }
       .toolbar label select { flex: 1; min-width: 0; width: 100%; max-width: none; }
+      .toolbar label .ui-select { flex: 1; min-width: 0; }
       .toolbar .count { flex-basis: 100%; margin-left: 0; }
     }
   </style>
@@ -121,9 +124,9 @@
     <div class="toolbar" id="toolbar">
       <input class="q" id="f-q" type="search" placeholder="搜尋隊伍：隊名、寶可夢、作者、標題" autocomplete="off" aria-label="搜尋隊伍" />
       <label hidden>遊戲 <select id="f-game"><option value="">全部</option><option value="champions">Champions</option><option value="sv">朱紫</option></select></label>
-      <label>規則組 <select id="f-reg"><option value="">全部</option></select></label>
+      <label>規則組 <select id="f-reg" data-ui-select aria-label="規則組"><option value="">全部</option></select></label>
       <label hidden>作者 <select id="f-author"><option value="">全部</option></select></label>
-      <label>排序 <select id="f-sort">
+      <label>排序 <select id="f-sort" data-ui-select aria-label="排序">
         <option value="date-desc">發布日 新→舊</option>
         <option value="date-asc">發布日 舊→新</option>
         <option value="name">隊名 A→Z</option>
@@ -383,6 +386,7 @@
   })();
   </script>
 <script src="tooltip.js"></script>
+<script src="components.js"></script>
 <script src="site-header.js"></script>
 </body>
 </html>

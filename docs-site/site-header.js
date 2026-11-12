@@ -3,6 +3,9 @@
   const bar = document.querySelector(".topbar .head-actions");
   if (!bar) return;
   // 樣式在 header.css（單一來源）；本檔只負責行為。
+  // pill 導覽：有載入 components.js 時升級成滑動指示塊（跨頁時從上一頁的位置滑過來）
+  const pn = bar.querySelector(".pill-nav");
+  if (pn && window.UI) { pn.classList.add("ui-tabs"); if (!pn.dataset.uiPersist) pn.dataset.uiPersist = "site-nav"; window.UI.tabs(pn); }
   const ICON = (d) => `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const btn = document.createElement("button");
   btn.type = "button"; btn.className = "menu-btn"; btn.setAttribute("aria-label", "選單"); btn.setAttribute("aria-expanded", "false"); btn.setAttribute("aria-controls", "site-drawer");

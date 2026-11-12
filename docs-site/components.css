@@ -1,0 +1,170 @@
+/* I Choose You UI Kit：可複用的基本元件（2026-11-12）。
+   視覺參考 shadcn/ui（中性表面、細邊框、8px 圓角、克制的陰影）；互動與鍵盤行為參考 Radix／WAI-ARIA 規範。
+   只使用 tokens.css 的變數。行為在 components.js。展示與用法見 components.html。
+   class 一律以 ui- 開頭，避免和各頁既有樣式相撞。 */
+:root {
+  --ui-h-sm: 28px; --ui-h-md: 36px; --ui-h-lg: 44px;
+  --ui-radius: 8px;
+  --ui-ease: cubic-bezier(.2, .8, .2, 1);
+  --ui-dur: 160ms;
+}
+
+/* ===== Button ===== */
+.ui-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  height: var(--ui-h-md); padding: 0 14px; box-sizing: border-box;
+  font: inherit; font-size: 14px; font-weight: 600; line-height: 1; white-space: nowrap; text-decoration: none;
+  border-radius: var(--ui-radius); border: 1px solid transparent; cursor: pointer; user-select: none;
+  background: var(--primary); color: var(--on-primary);
+  transition: background var(--ui-dur) var(--ui-ease), border-color var(--ui-dur) var(--ui-ease), color var(--ui-dur) var(--ui-ease), transform 80ms var(--ui-ease), box-shadow var(--ui-dur) var(--ui-ease);
+}
+.ui-btn:hover { background: var(--primary-hover); }
+.ui-btn:active { transform: translateY(1px) scale(.985); }
+.ui-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.ui-btn svg { width: 16px; height: 16px; flex: none; }
+.ui-btn.soft { background: var(--soft-bg); color: var(--soft-text); border-color: var(--soft-border); }
+.ui-btn.soft:hover { background: var(--soft-bg-hover); border-color: var(--primary-400); }
+.ui-btn.outline { background: var(--panel); color: var(--ink); border-color: var(--line-strong); }
+.ui-btn.outline:hover { background: var(--bg-soft); border-color: var(--ink-soft); }
+.ui-btn.ghost { background: transparent; color: var(--ink); }
+.ui-btn.ghost:hover { background: var(--tint-strong); }
+.ui-btn.danger { background: var(--danger); color: #fff; }
+.ui-btn.danger:hover { background: #8F1D17; }
+.ui-btn.sm { height: var(--ui-h-sm); padding: 0 10px; font-size: 13px; border-radius: 7px; }
+.ui-btn.lg { height: var(--ui-h-lg); padding: 0 20px; font-size: 15px; border-radius: 10px; }
+.ui-btn.block { display: flex; width: 100%; }
+.ui-btn:disabled, .ui-btn[aria-disabled="true"] { opacity: .5; cursor: not-allowed; pointer-events: none; }
+.ui-btn[aria-busy="true"] { pointer-events: none; }
+.ui-btn[aria-busy="true"]::before {
+  content: ""; width: 14px; height: 14px; flex: none; border-radius: 50%;
+  border: 2px solid currentColor; border-right-color: transparent; animation: ui-spin .7s linear infinite;
+}
+@keyframes ui-spin { to { transform: rotate(360deg); } }
+
+/* ===== Icon button（一定要有 aria-label；建議加 data-tip）===== */
+.ui-icon-btn {
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+  width: var(--ui-h-md); height: var(--ui-h-md); padding: 0; box-sizing: border-box;
+  border-radius: var(--ui-radius); border: 1px solid var(--line-strong); background: var(--panel); color: var(--ink); cursor: pointer;
+  transition: background var(--ui-dur) var(--ui-ease), border-color var(--ui-dur) var(--ui-ease), color var(--ui-dur) var(--ui-ease), transform 80ms var(--ui-ease), box-shadow var(--ui-dur) var(--ui-ease);
+}
+.ui-icon-btn svg { width: 18px; height: 18px; }
+.ui-icon-btn:hover { background: var(--bg-soft); border-color: var(--ink-soft); }
+.ui-icon-btn:active { transform: scale(.94); }
+.ui-icon-btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.ui-icon-btn.ghost { border-color: transparent; background: transparent; }
+.ui-icon-btn.ghost:hover { background: var(--tint-strong); }
+.ui-icon-btn.primary { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
+.ui-icon-btn.primary:hover { background: var(--primary-hover); border-color: var(--primary-hover); }
+.ui-icon-btn.soft { background: var(--soft-bg); border-color: var(--soft-border); color: var(--soft-text); }
+.ui-icon-btn.soft:hover { background: var(--soft-bg-hover); border-color: var(--primary-400); }
+.ui-icon-btn.round { border-radius: 50%; }
+.ui-icon-btn.sm { width: var(--ui-h-sm); height: var(--ui-h-sm); border-radius: 7px; }
+.ui-icon-btn.sm svg { width: 15px; height: 15px; }
+.ui-icon-btn.lg { width: var(--ui-h-lg); height: var(--ui-h-lg); border-radius: 10px; }
+.ui-icon-btn.lg svg { width: 22px; height: 22px; }
+.ui-icon-btn:disabled { opacity: .5; cursor: not-allowed; pointer-events: none; }
+.ui-icon-btn[aria-pressed="true"] { background: var(--soft-bg); border-color: var(--primary-400); color: var(--soft-text); }
+
+/* ===== Select（由 components.js 把原生 <select data-ui-select> 升級；原生 select 仍是資料來源）===== */
+.ui-select { position: relative; display: inline-block; min-width: 0; }
+.ui-select > select { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; }
+.ui-select-trigger {
+  display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+  height: var(--ui-h-md); padding: 0 10px 0 12px; box-sizing: border-box;
+  font: inherit; font-size: 14px; color: var(--ink); text-align: left; white-space: nowrap;
+  background: var(--panel); border: 1px solid var(--line-strong); border-radius: var(--ui-radius); cursor: pointer;
+  transition: border-color var(--ui-dur) var(--ui-ease), box-shadow var(--ui-dur) var(--ui-ease), background var(--ui-dur) var(--ui-ease);
+}
+.ui-select-trigger:hover { background: var(--overlay); border-color: var(--ink-soft); }
+.ui-select-trigger:focus-visible, .ui-select-trigger[aria-expanded="true"] { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-glow); }
+.ui-select-trigger .v { overflow: hidden; text-overflow: ellipsis; }
+.ui-select-trigger .chev { width: 16px; height: 16px; flex: none; color: var(--ink-soft); transition: transform var(--ui-dur) var(--ui-ease); }
+.ui-select-trigger[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.ui-select-trigger:disabled { opacity: .5; cursor: not-allowed; }
+.ui-select.sm .ui-select-trigger { height: var(--ui-h-sm); font-size: 13px; padding: 0 8px 0 10px; border-radius: 7px; }
+
+/* ===== Menu（select 的下拉清單；也可單獨當選單用）===== */
+.ui-menu {
+  position: fixed; z-index: 9000; min-width: 160px; max-width: min(360px, calc(100vw - 16px)); max-height: min(340px, calc(100vh - 24px)); overflow-y: auto;
+  padding: 4px; box-sizing: border-box; background: var(--overlay); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--sh-2);
+  font-size: 14px; color: var(--ink); overscroll-behavior: contain;
+  opacity: 0; transform: translateY(-4px) scale(.98); transform-origin: var(--ui-origin, top left); pointer-events: none;
+  transition: opacity 120ms var(--ui-ease), transform 120ms var(--ui-ease);
+}
+.ui-menu[data-side="top"] { transform: translateY(4px) scale(.98); }
+.ui-menu.open { opacity: 1; transform: none; pointer-events: auto; }
+.ui-menu-group { padding: 8px 8px 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .04em; color: var(--ink-soft); }
+.ui-menu-sep { height: 1px; margin: 4px -4px; background: var(--border); }
+.ui-menu-item {
+  display: flex; align-items: center; gap: 8px; min-height: 32px; padding: 0 8px 0 28px; position: relative;
+  border-radius: 6px; cursor: pointer; white-space: nowrap; user-select: none; outline: none;
+}
+.ui-menu-item .lab { overflow: hidden; text-overflow: ellipsis; }
+.ui-menu-item[data-active="true"] { background: var(--soft-bg); color: var(--soft-text); }
+.ui-menu-item[aria-selected="true"] { font-weight: 600; }
+.ui-menu-item[aria-selected="true"]::before {
+  content: ""; position: absolute; left: 9px; top: 50%; width: 10px; height: 5px; margin-top: -5px;
+  border-left: 2px solid var(--primary); border-bottom: 2px solid var(--primary); transform: rotate(-45deg);
+}
+.ui-menu-item[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
+
+/* ===== Tag／Chip =====
+   .ui-chip：靜態標籤；<button class="ui-chip" aria-pressed>：可切換的篩選 chip；內含 .x 按鈕：可移除。 */
+.ui-chip {
+  display: inline-flex; align-items: center; gap: 5px; height: 26px; padding: 0 10px; box-sizing: border-box;
+  font: inherit; font-size: 12.5px; font-weight: 600; line-height: 1; white-space: nowrap;
+  border-radius: 999px; border: 1px solid var(--border); background: var(--bg-soft); color: var(--ink-soft);
+  transition: background var(--ui-dur) var(--ui-ease), border-color var(--ui-dur) var(--ui-ease), color var(--ui-dur) var(--ui-ease), transform 80ms var(--ui-ease);
+}
+.ui-chip svg { width: 13px; height: 13px; flex: none; }
+button.ui-chip { cursor: pointer; }
+button.ui-chip:hover { border-color: var(--line-strong); color: var(--ink); background: var(--panel); }
+button.ui-chip:active { transform: scale(.96); }
+button.ui-chip:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+button.ui-chip[aria-pressed="true"] { background: var(--soft-bg); border-color: var(--primary-400); color: var(--soft-text); }
+.ui-chip.sm { height: 22px; padding: 0 8px; font-size: 11.5px; }
+.ui-chip.square { border-radius: 7px; }
+.ui-chip.primary { background: var(--soft-bg); border-color: var(--soft-border); color: var(--soft-text); }
+.ui-chip.success { background: #DDF2E3; border-color: #8CCBA0; color: #145A2C; }
+.ui-chip.warn { background: #FBEBCB; border-color: #E0B764; color: #6B3E00; }
+.ui-chip.danger { background: #F9DFDC; border-color: #E5A29C; color: #8F1D17; }
+.ui-chip.info { background: #D9EEF7; border-color: #8EC3DB; color: #08506C; }
+.ui-chip .x { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; margin-right: -5px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: inherit; cursor: pointer; opacity: .7; }
+.ui-chip .x:hover { opacity: 1; background: var(--tint-strong); }
+.ui-chip .x:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
+.ui-chip.leaving { opacity: 0; transform: scale(.85); transition: opacity 140ms var(--ui-ease), transform 140ms var(--ui-ease); }
+
+/* ===== Tabs（pill；滑動的實心指示塊，hover 時有淡色預覽塊跟著移動）=====
+   <div class="ui-tabs" role="tablist"> <button role="tab" aria-selected="true">…</button> … </div>
+   也可用 <a aria-current="page">（導覽用）。指示塊由 components.js 建立。 */
+.ui-tabs {
+  position: relative; display: inline-flex; align-items: center; gap: 2px; padding: 4px; box-sizing: border-box; max-width: 100%;
+  border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); isolation: isolate;
+}
+.ui-tabs > [role="tab"], .ui-tabs > a {
+  position: relative; z-index: 2; font: inherit; font-size: 14px; font-weight: 600; line-height: 1; white-space: nowrap; text-decoration: none;
+  padding: 8px 14px; border: 0; border-radius: 999px; background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: color 200ms var(--ui-ease);
+}
+.ui-tabs > [role="tab"]:hover, .ui-tabs > a:hover { color: var(--ink); }
+.ui-tabs > [aria-selected="true"], .ui-tabs > [aria-current="page"],
+.ui-tabs > [aria-selected="true"]:hover, .ui-tabs > [aria-current="page"]:hover { color: var(--on-primary); }
+.ui-tabs > :focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.ui-tabs .ui-tabs-ind, .ui-tabs .ui-tabs-hover {
+  position: absolute; z-index: 1; top: 4px; bottom: 4px; left: 0; width: 0; border-radius: 999px; pointer-events: none;
+  transition: transform 320ms cubic-bezier(.3, 1.25, .4, 1), width 320ms cubic-bezier(.3, 1.25, .4, 1), opacity 160ms var(--ui-ease);
+}
+.ui-tabs .ui-tabs-ind { background: var(--primary); box-shadow: 0 1px 2px rgba(23, 13, 67, .3); }
+.ui-tabs .ui-tabs-hover { z-index: 0; background: var(--sunken); opacity: 0; transition-duration: 200ms, 200ms, 160ms; transition-timing-function: var(--ui-ease); }
+.ui-tabs.no-anim .ui-tabs-ind, .ui-tabs.no-anim .ui-tabs-hover { transition: none; }
+/* JS 還沒跑（或關閉）時的退路：直接把選取項塗成實心 */
+.ui-tabs:not(.ready) > [aria-selected="true"], .ui-tabs:not(.ready) > [aria-current="page"] { background: var(--primary); }
+.ui-tabs.sm > [role="tab"], .ui-tabs.sm > a { padding: 6px 12px; font-size: 13px; }
+.ui-tab-panel[hidden] { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ui-btn, .ui-icon-btn, .ui-chip, .ui-select-trigger, .ui-select-trigger .chev, .ui-menu,
+  .ui-tabs > [role="tab"], .ui-tabs > a, .ui-tabs .ui-tabs-ind, .ui-tabs .ui-tabs-hover { transition: none; }
+  .ui-btn[aria-busy="true"]::before { animation-duration: 1.6s; }
+}

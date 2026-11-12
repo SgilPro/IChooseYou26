@@ -25,8 +25,8 @@
 /* ===== pill 導覽與手機抽屜（原由 site-header.js 注入，2026-11-12 併入此檔）===== */
 .pill-nav { display: flex; align-items: center; gap: 2px; padding: 4px; border-radius: 999px; background: var(--bg-soft, #EEF0F2); border: 1px solid var(--border, #C9CDD2); }
 .pill-nav a { text-decoration: none; font-size: 14px; font-weight: 600; line-height: 1; padding: 8px 14px; border-radius: 999px; color: var(--ink-soft, #4A525B); white-space: nowrap; transition: background .2s, color .2s; }
-.pill-nav a:hover { color: var(--ink, #1B1F24); background: var(--sunken, #D9DDE1); }
-.pill-nav a[aria-current="page"] { background: var(--primary, #4F3DB5); color: var(--on-primary, #fff); }
+.pill-nav:not(.ui-tabs) a:hover { color: var(--ink, #1B1F24); background: var(--sunken, #D9DDE1); }
+.pill-nav:not(.ui-tabs) a[aria-current="page"] { background: var(--primary, #4F3DB5); color: var(--on-primary, #fff); }
 @media (prefers-reduced-motion: reduce) { .pill-nav a { transition: none; } }
 .menu-btn, .drawer, .drawer-back { display: none; }
 @media (max-width: 720px) {

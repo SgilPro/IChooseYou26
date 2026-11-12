@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>UI Kit｜I Choose You</title>
+<link rel="icon" type="image/png" href="assets/master-ball-128.png" />
+<link rel="stylesheet" href="tokens.css" />
+<link rel="stylesheet" href="header.css" />
+<link rel="stylesheet" href="components.css" />
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.7 system-ui, -apple-system, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 28px 16px 90px; }
+  a { color: var(--primary-text); text-underline-offset: 3px; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 52px 0 6px; scroll-margin-top: calc(var(--header-h) + 12px); }
+  h3 { font-size: 14px; margin: 20px 0 8px; color: var(--ink-soft); font-weight: 700; }
+  .eyebrow { font: 700 11.5px/1 ui-monospace, Menlo, Consolas, monospace; letter-spacing: .12em; color: var(--primary-text); text-transform: uppercase; }
+  .lede { color: var(--ink-soft); max-width: 760px; margin: 0 0 12px; }
+  .note { font-size: 13px; color: var(--ink-soft); }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--sunken); padding: 1px 6px; border-radius: 5px; font-size: .86em; overflow-wrap: anywhere; }
+  pre { margin: 10px 0 0; padding: 12px 14px; background: #1B1F24; color: #E9EAFF; border-radius: 10px; font: 12.5px/1.6 ui-monospace, Menlo, Consolas, monospace; overflow-x: auto; }
+  .toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; }
+  .demo { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 18px; margin-top: 10px; }
+  .row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .row + .row { margin-top: 12px; }
+  .cap { font-size: 12px; color: var(--ink-soft); min-width: 64px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+  th { font-size: 12px; color: var(--ink-soft); font-weight: 700; background: var(--bg-soft); }
+  .tbl { overflow-x: auto; background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+  .pick { background: var(--soft-bg); }
+  .out { font-size: 13px; color: var(--ink-soft); }
+  .panelbox { margin-top: 12px; padding: 12px 14px; border: 1px dashed var(--border); border-radius: 10px; font-size: 14px; }
+  label.f { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand" data-tip="寶可夢雙打學習天地">
+    <img class="wordmark" src="assets/master-ball-wordmark-web.png" alt="I Choose You" width="800" height="163" />
+    <div class="brand-sub">UI Kit</div>
+  </div>
+  <div class="head-actions">
+    <nav class="pill-nav ui-tabs" data-ui-persist="site-nav" aria-label="主選單">
+      <a href="./">文件</a>
+      <a href="teams.html">隊伍列表</a>
+      <a href="matches.html">比賽資訊</a>
+      <a href="roles.html">戰術定位</a>
+      <a href="design-system.html" aria-current="page">Design System</a>
+      <a href="app/">試用工具</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="note"><a href="design-system.html">← Design System</a></p>
+  <div class="eyebrow">Components · v0.1</div>
+  <h1>UI Kit：可複用的基本元件</h1>
+  <p class="lede">這頁是一組可以直接拿去用的元件：樣式在 <code>components.css</code>、行為在 <code>components.js</code>，只用 <code>tokens.css</code> 的顏色。下面每個元件都是真的在運作的實物，不是示意圖。</p>
+  <div class="toc">
+    <a class="ui-chip primary" href="#research">風格調查</a><a class="ui-chip" href="#button">Button</a><a class="ui-chip" href="#icon-button">Icon button</a><a class="ui-chip" href="#select">Select 與下拉選單</a><a class="ui-chip" href="#tooltip">Tooltip</a><a class="ui-chip" href="#chips">Tags／Chips</a><a class="ui-chip" href="#tabs">Menu tabs</a><a class="ui-chip" href="#usage">怎麼用</a>
+  </div>
+
+  <h2 id="research">風格調查：哪一套適合我們</h2>
+  <p class="lede">我們現在的設計語言是：水泥灰的中性底、單一主色（深靛）、細邊框、8 到 14px 圓角、很淡的陰影、資料密度高。下表是我對幾套常見設計系統的比對，「適合度」是對照這個語言所做的判斷。</p>
+  <div class="tbl"><table>
+    <thead><tr><th style="min-width:130px">風格</th><th>視覺特徵</th><th style="min-width:230px">和我們的搭配度</th><th style="min-width:70px">結論</th></tr></thead>
+    <tbody>
+      <tr class="pick"><td><b>shadcn/ui</b><br><span class="note">ui.shadcn.com</span></td><td>中性灰階表面、1px 細邊框、圓角 6 到 10px、陰影極淡、單一主色只用在重點上。</td><td>最接近。它的「中性底加一個主色」和我們的水泥灰加深靛是同一種結構，元件尺寸（32／36／40px 高）也適合資料密集的列表。</td><td><b>採用為主要參考</b></td></tr>
+      <tr class="pick"><td><b>Radix</b>（Primitives 與 Themes）<br><span class="note">radix-ui.com</span></td><td>以互動與無障礙規範見長：鍵盤操作、焦點管理、彈出層的定位與進出場動畫。</td><td>我們不用 React，所以不拿它的程式，只照它的行為規範做（下拉選單的鍵盤操作、Esc、打字搜尋）。</td><td><b>採用為行為參考</b></td></tr>
+      <tr><td><b>GitHub Primer</b><br><span class="note">primer.style</span></td><td>資訊密度高、標籤與計數徽章很成熟、對比穩。</td><td>標籤（label）的做法值得借：淺底、有色邊、深色字。我們的語意色 chip 就是這個做法。</td><td>借標籤做法</td></tr>
+      <tr><td><b>Vercel Geist</b><br><span class="note">vercel.com/geist</span></td><td>黑白極簡、對比極高、圓角小、幾乎沒有陰影。</td><td>很乾淨，但近乎無色，和我們有主色、有寶可夢屬性色的畫面相比太冷。</td><td>只借動畫節奏</td></tr>
+      <tr><td><b>Linear 風格</b><br><span class="note">linear.app</span></td><td>細膩的微動畫、滑動的選取指示、緊湊的控制項。</td><td>沒有公開的設計系統可依循，但「滑動指示塊」的分頁動畫正是我們 pill 導覽要的效果。</td><td>借分頁動畫</td></tr>
+      <tr><td><b>Material 3</b><br><span class="note">m3.material.io</span></td><td>大圓角、色調表面、明顯的狀態層與波紋。</td><td>辨識度太強，會讓站看起來像 Android 應用；控制項偏大，不利資料密度。</td><td>不採用</td></tr>
+      <tr><td><b>Fluent 2</b><br><span class="note">fluent2.microsoft.design</span></td><td>柔和陰影、4px 圓角、偏企業工具感。</td><td>可用但沒有比 shadcn 更貼近，且風格聯想到 Office。</td><td>不採用</td></tr>
+      <tr><td><b>新粗獷主義</b>（neobrutalism）</td><td>粗黑框、硬陰影、高飽和色塊。</td><td>很有個性，適合活動頁；和目前細邊框的資料介面衝突。</td><td>不採用</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">以上是我依各系統公開文件的印象所做的整理，沒有逐條回頭核對原文。我們只參考視覺與行為，沒有複製任何一套的程式碼或素材；之前較完整的 11 個方向調查在 <a href="design-system-appendix.html#research">附錄</a>。</p>
+
+  <h2 id="button">Button</h2>
+  <p class="lede">五種樣式、三種尺寸。一個畫面只放一顆 primary，其他用 soft 或 outline。</p>
+  <div class="demo">
+    <div class="row"><span class="cap">樣式</span>
+      <button class="ui-btn">儲存隊伍</button><button class="ui-btn soft">加入收藏</button><button class="ui-btn outline">取消</button><button class="ui-btn ghost">稍後再說</button><button class="ui-btn danger">刪除</button></div>
+    <div class="row"><span class="cap">尺寸</span>
+      <button class="ui-btn sm">小 28</button><button class="ui-btn">中 36</button><button class="ui-btn lg">大 44</button></div>
+    <div class="row"><span class="cap">含圖示</span>
+      <button class="ui-btn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>播放影片</button>
+      <button class="ui-btn outline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>複製隊伍 ID</button>
+      <a class="ui-btn soft" href="teams.html">連結也可以用</a></div>
+    <div class="row"><span class="cap">狀態</span>
+      <button class="ui-btn" disabled>停用</button><button class="ui-btn outline" disabled>停用</button>
+      <button class="ui-btn" id="busyBtn">點我看載入中</button></div>
+  </div>
+  <pre>&lt;button class="ui-btn"&gt;儲存隊伍&lt;/button&gt;
+&lt;button class="ui-btn soft sm"&gt;加入收藏&lt;/button&gt;      &lt;!-- 樣式：soft／outline／ghost／danger；尺寸：sm／lg --&gt;
+&lt;button class="ui-btn" aria-busy="true"&gt;儲存中&lt;/button&gt;  &lt;!-- 載入中：自動出現轉圈並擋住點擊 --&gt;</pre>
+
+  <h2 id="icon-button">Icon button</h2>
+  <p class="lede">只有圖示的按鈕。一定要寫 <code>aria-label</code>，並建議加 <code>data-tip</code>，滑鼠移上去才知道它做什麼。</p>
+  <div class="demo">
+    <div class="row"><span class="cap">樣式</span>
+      <button class="ui-icon-btn" aria-label="複製" data-tip="複製"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button>
+      <button class="ui-icon-btn ghost" aria-label="更多" data-tip="更多"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></button>
+      <button class="ui-icon-btn soft" aria-label="篩選" data-tip="篩選"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h18l-7 8v6l-4-2v-4z"/></svg></button>
+      <button class="ui-icon-btn primary round" aria-label="播放影片" data-tip="播放影片（新分頁）"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button></div>
+    <div class="row"><span class="cap">尺寸</span>
+      <button class="ui-icon-btn sm" aria-label="關閉" data-tip="關閉"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <button class="ui-icon-btn" aria-label="關閉" data-tip="關閉"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+      <button class="ui-icon-btn lg" aria-label="關閉" data-tip="關閉"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div>
+    <div class="row"><span class="cap">可切換</span>
+      <button class="ui-icon-btn" id="favBtn" aria-label="收藏" aria-pressed="false" data-tip="收藏"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.500 20.200l1-6.2L3 9.600l6.200-.9z"/></svg></button>
+      <button class="ui-icon-btn" aria-label="停用" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"/></svg></button></div>
+  </div>
+  <pre>&lt;button class="ui-icon-btn ghost" aria-label="更多" data-tip="更多"&gt;&lt;svg …/&gt;&lt;/button&gt;
+&lt;!-- 樣式：ghost／soft／primary；形狀：round；尺寸：sm／lg；可切換：aria-pressed="true|false" --&gt;</pre>
+
+  <h2 id="select">Select 與下拉選單</h2>
+  <p class="lede">原生的 <code>&lt;select&gt;</code> 加上 <code>data-ui-select</code> 就會換成自製的下拉選單。原生 select 仍留在頁面裡當資料來源，所以表單送出、<code>change</code> 事件、用程式設定 <code>.value</code> 都照常運作。</p>
+  <div class="demo">
+    <div class="row">
+      <label class="f">規則組 <select data-ui-select id="demoReg" aria-label="規則組">
+        <option value="">全部</option>
+        <optgroup label="Champions"><option>M-C</option><option>M-B</option><option>M-A</option></optgroup>
+        <optgroup label="朱紫"><option>I</option><option>H</option><option>G</option><option>F</option><option>E</option><option>D</option><option>C</option><option>B</option><option>A</option></optgroup>
+      </select></label>
+      <label class="f">排序 <select data-ui-select aria-label="排序">
+        <option>發布日 新→舊</option><option>發布日 舊→新</option><option>隊名 A→Z</option><option disabled>作者（停用示範）</option><option>信心高→低</option>
+      </select></label>
+      <label class="f">小尺寸 <select data-ui-select data-ui-size="sm" aria-label="每頁筆數"><option>20 筆</option><option>50 筆</option><option>100 筆</option></select></label>
+      <label class="f">停用 <select data-ui-select disabled aria-label="停用的選單"><option>不能選</option></select></label>
+    </div>
+    <div class="row"><span class="out" id="selOut">目前規則組：全部</span>
+      <button class="ui-btn outline sm" id="selSet">用程式改成「H」</button></div>
+  </div>
+  <p class="note">鍵盤：Enter、空白鍵或上下鍵開啟；上下鍵移動、Home／End 跳到頭尾；Enter 選取；Esc 關閉；直接打字會跳到開頭相符的選項。空間不夠時選單會改往上開。</p>
+  <pre>&lt;select data-ui-select aria-label="規則組"&gt;
+  &lt;option value=""&gt;全部&lt;/option&gt;
+  &lt;optgroup label="Champions"&gt;&lt;option&gt;M-C&lt;/option&gt;&lt;/optgroup&gt;
+&lt;/select&gt;
+&lt;!-- 動態插入的 select：window.UI.select(el)。選項事後增減會自動重建。 --&gt;</pre>
+
+  <h2 id="tooltip">Tooltip</h2>
+  <p class="lede">沿用站上已有的 <code>tooltip.js</code>：任何元素寫 <code>data-tip</code>（或 <code>title</code>）就有，hover 或鍵盤 focus 立刻出現，不改游標，Esc 可關閉。</p>
+  <div class="demo">
+    <div class="row">
+      <button class="ui-btn outline" data-tip="立即出現，不等瀏覽器的預設延遲">移到我上面</button>
+      <span class="ui-chip primary square" data-tip="賽制／賽季：Regulation Set M-C" tabindex="0">M-C</span>
+      <button class="ui-icon-btn round primary" aria-label="播放影片" data-tip="播放影片（新分頁／需會員資格）"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+      <span class="note" data-tip="可以寫比較長的說明。&#10;用換行符號可以分成兩行。" tabindex="0" style="text-decoration:underline dotted">長文字與換行</span>
+    </div>
+  </div>
+  <pre>&lt;button class="ui-btn" data-tip="說明文字"&gt;…&lt;/button&gt;   &lt;!-- 頁面要載入 tooltip.js --&gt;</pre>
+
+  <h2 id="chips">Tags／Chips</h2>
+  <p class="lede">同一個 class 有三種用法：靜態標籤、可切換的篩選 chip、可移除的 chip。語意色一律是淺底、有色邊、深色字，不靠顏色單獨傳達意思。</p>
+  <div class="demo">
+    <div class="row"><span class="cap">靜態</span>
+      <span class="ui-chip">平衡隊</span><span class="ui-chip primary">Mega 進化</span><span class="ui-chip success">已驗證</span><span class="ui-chip warn">待確認</span><span class="ui-chip danger">資料不完整</span><span class="ui-chip info">會員</span>
+      <span class="ui-chip square primary">M-C</span><span class="ui-chip sm">小尺寸</span></div>
+    <div class="row"><span class="cap">可切換</span>
+      <button class="ui-chip" aria-pressed="true">順風</button><button class="ui-chip" aria-pressed="false">戲法空間</button><button class="ui-chip" aria-pressed="false">雨天</button><button class="ui-chip" aria-pressed="false">晴天</button>
+      <span class="out" id="chipOut"></span></div>
+    <div class="row"><span class="cap">可移除</span>
+      <span class="ui-chip primary" data-value="rain">雨天<button class="x" type="button" aria-label="移除 雨天"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></span>
+      <span class="ui-chip primary" data-value="mc">M-C<button class="x" type="button" aria-label="移除 M-C"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></span>
+      <span class="ui-chip primary" data-value="mega">Mega 進化<button class="x" type="button" aria-label="移除 Mega 進化"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button></span></div>
+  </div>
+  <pre>&lt;span class="ui-chip success"&gt;已驗證&lt;/span&gt;
+&lt;button class="ui-chip" aria-pressed="false"&gt;順風&lt;/button&gt;          &lt;!-- 切換狀態由你的程式改 aria-pressed --&gt;
+&lt;span class="ui-chip" data-value="rain"&gt;雨天&lt;button class="x" aria-label="移除 雨天"&gt;…&lt;/button&gt;&lt;/span&gt;
+&lt;!-- 移除時會發出 ui-chip-remove 事件（可用 preventDefault 擋下） --&gt;</pre>
+
+  <h2 id="tabs">Menu tabs（pill）</h2>
+  <p class="lede">保留現在的膠囊外型，動畫改成：實心指示塊會「滑」到新的選項，帶一點點回彈；滑鼠移到別的選項時，有一塊淡色預覽跟著移動。開啟「減少動態效果」的人不會看到滑動。</p>
+  <div class="demo">
+    <h3 style="margin-top:0">頁內分頁（切換內容）</h3>
+    <div class="ui-tabs" role="tablist" aria-label="隊伍內容">
+      <button role="tab" aria-selected="true" aria-controls="tp1" id="t1">隊伍資訊</button>
+      <button role="tab" aria-selected="false" aria-controls="tp2" id="t2">隊伍分析</button>
+      <button role="tab" aria-selected="false" aria-controls="tp3" id="t3">首發模式</button>
+      <button role="tab" aria-selected="false" aria-controls="tp4" id="t4">影片</button>
+    </div>
+    <div class="ui-tab-panel panelbox" id="tp1" role="tabpanel" aria-labelledby="t1">六隻寶可夢的配置。用左右方向鍵也可以切換分頁。</div>
+    <div class="ui-tab-panel panelbox" id="tp2" role="tabpanel" aria-labelledby="t2" hidden>核心輸出、控速手段、注意事項、評分。</div>
+    <div class="ui-tab-panel panelbox" id="tp3" role="tabpanel" aria-labelledby="t3" hidden>建議的首發組合。</div>
+    <div class="ui-tab-panel panelbox" id="tp4" role="tabpanel" aria-labelledby="t4" hidden>來源影片。</div>
+    <h3>兩段切換（取代原本的顯示／隱藏）</h3>
+    <div class="row"><div class="ui-tabs sm" role="tablist" aria-label="戰術定位標籤" id="segDemo">
+      <button role="tab" aria-selected="true" data-value="on">顯示</button><button role="tab" aria-selected="false" data-value="off">隱藏</button></div>
+      <span class="out" id="segOut">戰術定位標籤：顯示</span></div>
+    <h3>網站導覽（連結）</h3>
+    <p class="note" style="margin:0 0 8px">本頁最上面的導覽就是這個元件。點到別頁時，新頁面的指示塊會從上一頁的位置滑到新位置。</p>
+    <nav class="ui-tabs" aria-label="示範導覽">
+      <a href="#tabs">文件</a><a href="#tabs" aria-current="page">隊伍列表</a><a href="#tabs">比賽資訊</a><a href="#tabs">戰術定位</a>
+    </nav>
+  </div>
+  <pre>&lt;div class="ui-tabs" role="tablist" aria-label="…"&gt;
+  &lt;button role="tab" aria-selected="true" aria-controls="p1"&gt;隊伍資訊&lt;/button&gt;
+  &lt;button role="tab" aria-selected="false" aria-controls="p2"&gt;隊伍分析&lt;/button&gt;
+&lt;/div&gt;
+&lt;div id="p1" class="ui-tab-panel" role="tabpanel"&gt;…&lt;/div&gt;
+&lt;div id="p2" class="ui-tab-panel" role="tabpanel" hidden&gt;…&lt;/div&gt;
+&lt;!-- 切換時發出 ui-tab-change 事件（detail.value）。導覽用 &lt;a aria-current="page"&gt;，
+     加 data-ui-persist="site-nav" 可讓指示塊跨頁滑動。 --&gt;</pre>
+
+  <h2 id="usage">怎麼用</h2>
+  <pre>&lt;link rel="stylesheet" href="tokens.css" /&gt;
+&lt;link rel="stylesheet" href="components.css" /&gt;
+…
+&lt;script src="tooltip.js"&gt;&lt;/script&gt;
+&lt;script src="components.js"&gt;&lt;/script&gt;</pre>
+  <p class="note">所有 class 都以 <code>ui-</code> 開頭，不會和各頁既有樣式相撞。目前已套用到實際頁面的有：全站頁首的 pill 導覽（滑動指示塊）、隊伍列表的規則組與排序下拉選單。其餘頁面還是原本各自的寫法，之後逐步換過來。</p>
+</div>
+
+<script src="tooltip.js"></script>
+<script src="components.js"></script>
+<script src="site-header.js"></script>
+<script>
+  const $ = (id) => document.getElementById(id);
+  $("busyBtn").addEventListener("click", (e) => { const b = e.currentTarget; b.setAttribute("aria-busy", "true"); b.textContent = "儲存中"; setTimeout(() => { b.removeAttribute("aria-busy"); b.textContent = "點我看載入中"; }, 1600); });
+  $("favBtn").addEventListener("click", (e) => { const b = e.currentTarget; b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true")); });
+  $("demoReg").addEventListener("change", (e) => { $("selOut").textContent = "目前規則組：" + (e.target.value || "全部"); });
+  $("selSet").addEventListener("click", () => { $("demoReg").value = "H"; $("selOut").textContent = "目前規則組：H（由程式設定）"; });
+  const chips = [...document.querySelectorAll('button.ui-chip[aria-pressed]')];
+  const showChips = () => { $("chipOut").textContent = "已選：" + (chips.filter((c) => c.getAttribute("aria-pressed") === "true").map((c) => c.textContent).join("、") || "無"); };
+  chips.forEach((c) => c.addEventListener("click", () => { c.setAttribute("aria-pressed", String(c.getAttribute("aria-pressed") !== "true")); showChips(); })); showChips();
+  $("segDemo").addEventListener("ui-tab-change", (e) => { $("segOut").textContent = "戰術定位標籤：" + (e.detail.value === "on" ? "顯示" : "隱藏"); });
+</script>
+</body>
+</html>
