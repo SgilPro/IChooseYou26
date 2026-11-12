@@ -63,6 +63,8 @@ node tools/yt/merge-teams.mjs $CH
 4. 道具圖示：把每個道具位置放大裁切（ffmpeg `crop`+`scale`+`hstack`），再與 `assets/items/icons/`（PokeAPI 圖示庫）比對；Mega 石只要認出「是 Mega 石」即可，不需分辨紋路（幾乎不會有人帶別隻的 Mega 石，使用者 2026-11-11 指示）；樹果、其他道具看形狀與色。道具、招式、特性的繁體中文名以 `data/ref/names_zh-Hant.json`（PokeAPI）為準，使用者 2026-11-11 確認夠準確（例：Coba Berry＝稜瓜果），不需另外用 52poke 等來源重複查證。低解析度下容易誤判：講究圍巾（藍色稜形晶片）曾被誤認成稜瓜果（Coba Berry），2026-11-11 經使用者更正。把握低的 `item_conf` 設 0.6~0.8。
 5. 人工標記時間點（例如使用者提供「2:11 Chase 的隊伍表」）可以直接略過步驟 1~2。
 
+**不抽取的轉播格式**：日本全國賽轉播（例：`ZmCH9tKz6vE`，2026-11-13 評估）的隊伍表只有六隻小圖、性別與一個道具／屬性圖示，沒有技能、特性、性格，小圖辨識不穩，其餘章節為重播畫面沒有預覽表，故不登記；匯入腳本也不支援空技能。
+
 **資料流程**
 - 規格檔：`data/channels/<ch>/tournament-specs/<videoId>.json`（賽事、對戰、每隊的技能／特性／性格／道具）。
 - `node tools/yt/import-tournament-teams.mjs <channelDir> <videoId>`：產生 `teams/<videoId>.json`（多隊，id `team_<videoId>_<n>`）與 `data/events/<eventId>.json`（賽事→對戰→選手→隊伍）。隊伍帶 `event_id`、`match_id`、`player`、`team_signature`（同配置偵測）、`source_t_s`。

@@ -1,0 +1,86 @@
+{
+  "id": "worlds-2026",
+  "name_zh": "2026 寶可夢世界冠軍賽",
+  "name_en": "2026 Pokémon World Championships",
+  "game": "champions",
+  "date_approx": "2026-08",
+  "abbr": "Worlds",
+  "year": 2026,
+  "matches": [
+    {
+      "id": "worlds-2026__round-1__hirofumi-kimura__wolfe-glick",
+      "round": "Round 1",
+      "players": [
+        {
+          "name": "Wolfe Glick",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_1"
+          ]
+        },
+        {
+          "name": "Hirofumi Kimura",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RyYI7S_Jcfc",
+          "header_t_s": 185,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2026__round-1__juan-salerno__sejun-park",
+      "round": "Round 1",
+      "players": [
+        {
+          "name": "Sejun Park",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_3"
+          ]
+        },
+        {
+          "name": "Juan Salerno",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RyYI7S_Jcfc",
+          "header_t_s": 1484,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2026__round-2__alex-underhill__eduardo-cunha",
+      "round": "Round 2",
+      "players": [
+        {
+          "name": "Alex Underhill",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_5"
+          ]
+        },
+        {
+          "name": "Eduardo Cunha",
+          "team_ids": [
+            "team_RyYI7S_Jcfc_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RyYI7S_Jcfc",
+          "header_t_s": 2590,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

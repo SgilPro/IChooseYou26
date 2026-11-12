@@ -1,0 +1,589 @@
+{
+  "video_id": "RyYI7S_Jcfc",
+  "event": {
+    "id": "worlds-2026",
+    "name_zh": "2026 寶可夢世界冠軍賽",
+    "name_en": "2026 Pokémon World Championships",
+    "game": "champions",
+    "date_approx": "2026-08",
+    "abbr": "Worlds",
+    "year": 2026
+  },
+  "note": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。",
+  "matches": [
+    {
+      "round": "Round 1",
+      "players": [
+        "Wolfe Glick",
+        "Hirofumi Kimura"
+      ],
+      "header_t_s": 185
+    },
+    {
+      "round": "Round 1",
+      "players": [
+        "Sejun Park",
+        "Juan Salerno"
+      ],
+      "header_t_s": 1484
+    },
+    {
+      "round": "Round 2",
+      "players": [
+        "Alex Underhill",
+        "Eduardo Cunha"
+      ],
+      "header_t_s": 2590
+    }
+  ],
+  "teams": [
+    {
+      "player": "Wolfe Glick",
+      "round": "Round 1",
+      "t_s": 262,
+      "frames": [
+        "f_262.jpg"
+      ],
+      "members": [
+        {
+          "zh": "姆克鷹",
+          "en": "Staraptor",
+          "mega": "Mega",
+          "ability": "威嚇",
+          "item": "Staraptite",
+          "nature": "Jolly",
+          "moves": [
+            "守住",
+            "勇鳥猛攻",
+            "近身戰",
+            "順風"
+          ]
+        },
+        {
+          "zh": "龍頭地鼠",
+          "en": "Excadrill",
+          "ability": "撥沙",
+          "item": "Black Belt",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "守住",
+            "十萬馬力",
+            "鐵頭",
+            "地震"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "nature": "Bold",
+          "moves": [
+            "精神強念",
+            "戲法空間",
+            "十萬伏特",
+            "詭計"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "nature": "Timid",
+          "moves": [
+            "守住",
+            "暗影球",
+            "淘金潮",
+            "力量寶石"
+          ]
+        },
+        {
+          "zh": "班基拉斯",
+          "en": "Tyranitar",
+          "ability": "揚沙",
+          "item": "Chople Berry",
+          "item_conf": 0.7,
+          "nature": "Adamant",
+          "moves": [
+            "守住",
+            "岩崩",
+            "拍落",
+            "踢倒"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "再來一次",
+            "撒嬌"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Hirofumi Kimura",
+      "round": "Round 1",
+      "t_s": 387,
+      "frames": [
+        "f_387.jpg"
+      ],
+      "members": [
+        {
+          "zh": "水箭龜",
+          "en": "Blastoise",
+          "mega": "Mega",
+          "ability": "激流",
+          "item": "Blastoisinite",
+          "nature": "Timid",
+          "moves": [
+            "噴水",
+            "惡之波動",
+            "守住",
+            "破殼"
+          ]
+        },
+        {
+          "zh": "妖火紅狐",
+          "en": "Delphox",
+          "mega": "Mega",
+          "ability": "猛火",
+          "item": "Delphoxite",
+          "nature": "Timid",
+          "moves": [
+            "熱風",
+            "詭計",
+            "精神強念",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "nature": "Impish",
+          "moves": [
+            "擊掌奇襲",
+            "閃焰衝鋒",
+            "拋下狠話",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "nature": "Adamant",
+          "moves": [
+            "突襲",
+            "仆斬",
+            "守住",
+            "劍舞"
+          ]
+        },
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "款待",
+          "item": "Colbur Berry",
+          "item_conf": 0.8,
+          "nature": "Bold",
+          "moves": [
+            "刷刷茶炮",
+            "憤怒粉",
+            "守住",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "毒手",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "moves": [
+            "近身戰",
+            "剋命爪",
+            "快速防守",
+            "擊掌奇襲"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Sejun Park",
+      "round": "Round 1",
+      "t_s": 1577,
+      "frames": [
+        "f_1577.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "item_conf": 0.8,
+          "nature": "Timid",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "原始之力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Choice Scarf",
+          "nature": "Jolly",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "快速折返"
+          ],
+          "gender": "M"
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Life Orb",
+          "nature": "Jolly",
+          "moves": [
+            "地震",
+            "龍爪",
+            "跺腳",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "nature": "Careful",
+          "moves": [
+            "擊掌奇襲",
+            "閃焰衝鋒",
+            "洩憤",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "超壞星",
+          "en": "Toxapex",
+          "ability": "再生力",
+          "item": "Leftovers",
+          "nature": "Bold",
+          "moves": [
+            "死纏爛打",
+            "劇毒",
+            "碉堡",
+            "廣域防守"
+          ]
+        },
+        {
+          "zh": "妙蛙花",
+          "en": "Venusaur",
+          "ability": "葉綠素",
+          "item": "Focus Sash",
+          "nature": "Modest",
+          "moves": [
+            "飛葉風暴",
+            "污泥炸彈",
+            "催眠粉",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Juan Salerno",
+      "round": "Round 1",
+      "t_s": 1687,
+      "frames": [
+        "f_1687.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "item_conf": 0.8,
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "原始之力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "花幕",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Life Orb",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ],
+          "gender": "M"
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "地震",
+            "龍爪",
+            "岩崩",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Occa Berry",
+          "item_conf": 0.75,
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "踢倒",
+            "鐵頭",
+            "突襲"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "再來一次",
+            "月亮之力",
+            "守住",
+            "順風"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Alex Underhill",
+      "round": "Round 2",
+      "t_s": 2687,
+      "frames": [
+        "f_2687.jpg"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "猛火",
+          "item": "Charizardite Y",
+          "item_conf": 0.8,
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "守住",
+            "暴風",
+            "氣象球"
+          ]
+        },
+        {
+          "zh": "巨沼怪",
+          "en": "Swampert",
+          "mega": "Mega",
+          "ability": "激流",
+          "item": "Swampertite",
+          "nature": "Adamant",
+          "moves": [
+            "地震",
+            "守住",
+            "波動衝",
+            "冰凍拳"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Leftovers",
+          "nature": "Calm",
+          "moves": [
+            "守住",
+            "加農光炮",
+            "龍之波動",
+            "電光束"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "nature": "Sassy",
+          "moves": [
+            "靈魂衝擊",
+            "光牆",
+            "拋下狠話",
+            "反射壁"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Sitrus Berry",
+          "nature": "Bold",
+          "moves": [
+            "氣象球",
+            "廣域防守",
+            "順風",
+            "暴風"
+          ]
+        },
+        {
+          "zh": "妙蛙花",
+          "en": "Venusaur",
+          "ability": "葉綠素",
+          "item": "Focus Sash",
+          "nature": "Modest",
+          "moves": [
+            "催眠粉",
+            "污泥炸彈",
+            "飛葉風暴",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Eduardo Cunha",
+      "round": "Round 2",
+      "t_s": 2797,
+      "frames": [
+        "f_2797.jpg"
+      ],
+      "members": [
+        {
+          "zh": "耿鬼",
+          "en": "Gengar",
+          "mega": "Mega",
+          "ability": "詛咒之軀",
+          "item": "Gengarite",
+          "nature": "Modest",
+          "moves": [
+            "暗影球",
+            "滅亡之歌",
+            "污泥炸彈",
+            "守住"
+          ]
+        },
+        {
+          "zh": "巨沼怪",
+          "en": "Swampert",
+          "mega": "Mega",
+          "ability": "激流",
+          "item": "Swampertite",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "地震",
+            "冰凍拳",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Leftovers",
+          "nature": "Bold",
+          "moves": [
+            "守住",
+            "龍之波動",
+            "加農光炮",
+            "電光束"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Passho Berry",
+          "item_conf": 0.6,
+          "nature": "Sassy",
+          "moves": [
+            "地獄突刺",
+            "拋下狠話",
+            "擊掌奇襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "蚊香蛙皇",
+          "en": "Politoed",
+          "ability": "降雨",
+          "item": "Sitrus Berry",
+          "nature": "Calm",
+          "moves": [
+            "氣象球",
+            "再來一次",
+            "滅亡之歌",
+            "守住"
+          ]
+        },
+        {
+          "zh": "彩粉蝶",
+          "en": "Vivillon",
+          "ability": "複眼",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "暴風",
+            "催眠粉",
+            "憤怒粉",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}

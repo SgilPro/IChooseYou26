@@ -5650,6 +5650,3016 @@
     "video_published_at": "2026-09-03"
   },
   {
+    "id": "team_RyYI7S_Jcfc_1",
+    "name": "Wolfe Glick（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=262s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Wolfe Glick",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-1__hirofumi-kimura__wolfe-glick",
+    "player": "Wolfe Glick",
+    "team_signature": "33cadc1aa404",
+    "source_t_s": 262,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 398,
+          "name_zh": "姆克鷹",
+          "name_en": "Staraptor-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "姆克鷹進化石",
+          "value_en": "Staraptite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "勇鳥猛攻",
+            "value_en": "Brave Bird",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 530,
+          "name_zh": "龍頭地鼠",
+          "name_en": "Excadrill",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "撥沙",
+          "value_en": "Sand Rush",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑帶",
+          "value_en": "Black Belt",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1000,
+          "name_zh": "賽富豪",
+          "name_en": "Gholdengo",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "黃金之軀",
+          "value_en": "Good as Gold",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "淘金潮",
+            "value_en": "Make It Rain",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "力量寶石",
+            "value_en": "Power Gem",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 248,
+          "name_zh": "班基拉斯",
+          "name_en": "Tyranitar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "揚沙",
+          "value_en": "Sand Stream",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "蓮蒲果",
+          "value_en": "Chople Berry",
+          "confidence": 0.7,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "踢倒",
+            "value_en": "Low Kick",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "撒嬌",
+            "value_en": "Charm",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_262.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Wolfe Glick 的隊伍表出現在影片 4:22。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Wolfe Glick 的公開配置（Round 1 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.712Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "field-control",
+          "label_zh": "場地／全隊控速",
+          "tier": "core",
+          "level": 1,
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "順風",
+              "level": 1
+            },
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "戲法空間",
+              "level": 1
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "順風",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "category": "self-speed-boost",
+          "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "ability",
+              "name_zh": "撥沙",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制（輔助）",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "tailwind"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "trick-room",
+            "cover"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker",
+            "weather"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "tailwind",
+            "mitigator",
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_RyYI7S_Jcfc_2",
+    "name": "Hirofumi Kimura（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=387s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Hirofumi Kimura",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-1__hirofumi-kimura__wolfe-glick",
+    "player": "Hirofumi Kimura",
+    "team_signature": "a4b20682ed3e",
+    "source_t_s": 387,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 9,
+          "name_zh": "水箭龜",
+          "name_en": "Blastoise-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "激流",
+          "value_en": "Torrent",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水箭龜進化石",
+          "value_en": "Blastoisinite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "噴水",
+            "value_en": "Water Spout",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "破殼",
+            "value_en": "Shell Smash",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 655,
+          "name_zh": "妖火紅狐",
+          "name_en": "Delphox-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "妖火紅狐進化石",
+          "value_en": "Delphoxite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "淘氣",
+          "value_en": "Impish",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆斬將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色眼鏡",
+          "value_en": "Black Glasses",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1013,
+          "name_zh": "來悲粗茶",
+          "name_en": "Sinistcha",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "款待",
+          "value_en": "Hospitality",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "刺耳果",
+          "value_en": "Colbur Berry",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "刷刷茶炮",
+            "value_en": "Matcha Gotcha",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 903,
+          "name_zh": "大狃拉",
+          "name_en": "Sneasler",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "毒手",
+          "value_en": "Poison Touch",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "剋命爪",
+            "value_en": "Dire Claw",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "快速防守",
+            "value_en": "Quick Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_387.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Hirofumi Kimura 的隊伍表出現在影片 6:27。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Hirofumi Kimura 的公開配置（Round 1 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.719Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "field-control",
+          "label_zh": "場地／全隊控速",
+          "tier": "core",
+          "level": 1,
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "戲法空間",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "突襲",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "setup-speed",
+          "label_zh": "自身提速（蝶舞、龍舞類）",
+          "tier": "broad",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 1,
+              "kind": "move",
+              "name_zh": "破殼",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "擊掌奇襲",
+              "level": 3
+            },
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "擊掌奇襲",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 3,
+          "roles": [
+            "dmg-boost",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "trick-room",
+            "cover",
+            "healer"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_RyYI7S_Jcfc_3",
+    "name": "Sejun Park（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=1577s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Sejun Park",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-1__juan-salerno__sejun-park",
+    "player": "Sejun Park",
+    "team_signature": "7273c763ebe0",
+    "source_t_s": 1577,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Ｙ",
+          "value_en": "Charizardite Y",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "原始之力",
+            "value_en": "Ancient Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "快速折返",
+            "value_en": "Flip Turn",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "爽朗",
+          "value_en": "Jolly",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍爪",
+            "value_en": "Dragon Claw",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "慎重",
+          "value_en": "Careful",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "洩憤",
+            "value_en": "Lash Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 748,
+          "name_zh": "超壞星",
+          "name_en": "Toxapex",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "死纏爛打",
+            "value_en": "Infestation",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劇毒",
+            "value_en": "Toxic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "碉堡",
+            "value_en": "Baneful Bunker",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 3,
+          "name_zh": "妙蛙花",
+          "name_en": "Venusaur",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "葉綠素",
+          "value_en": "Chlorophyll",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "飛葉風暴",
+            "value_en": "Leaf Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "催眠粉",
+            "value_en": "Sleep Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_1577.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Sejun Park 的隊伍表出現在影片 26:17。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Sejun Park 的公開配置（Round 1 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.719Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "self-speed-boost",
+          "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "葉綠素",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "item-speed",
+          "label_zh": "道具控速",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "item",
+              "name_zh": "講究圍巾",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 2,
+              "kind": "move",
+              "name_zh": "水流噴射",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "cover",
+            "controller"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_RyYI7S_Jcfc_4",
+    "name": "Juan Salerno（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=1687s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Juan Salerno",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-1__juan-salerno__sejun-park",
+    "player": "Juan Salerno",
+    "team_signature": "3713450ee7ac",
+    "source_t_s": 1687,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Ｙ",
+          "value_en": "Charizardite Y",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "原始之力",
+            "value_en": "Ancient Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 670,
+          "name_zh": "花葉蒂",
+          "name_en": "Floette-Eternal-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "花幕",
+          "value_en": "Flower Veil",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "花葉蒂進化石",
+          "value_en": "Floettite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "破滅之光",
+            "value_en": "Light of Ruin",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 902,
+          "name_zh": "幽尾玄魚",
+          "name_en": "Basculegion",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": "M",
+        "ability": {
+          "value": "適應力",
+          "value_en": "Adaptability",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "掃墓",
+            "value_en": "Last Respects",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 445,
+          "name_zh": "烈咬陸鯊",
+          "name_en": "Garchomp",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "粗糙皮膚",
+          "value_en": "Rough Skin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍爪",
+            "value_en": "Dragon Claw",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆斬將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "巧可果",
+          "value_en": "Occa Berry",
+          "confidence": 0.75,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "踢倒",
+            "value_en": "Low Kick",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鐵頭",
+            "value_en": "Iron Head",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 547,
+          "name_zh": "風妖精",
+          "name_en": "Whimsicott",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_1687.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Juan Salerno 的隊伍表出現在影片 28:07。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Juan Salerno 的公開配置（Round 1 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.719Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "field-control",
+          "label_zh": "場地／全隊控速",
+          "tier": "core",
+          "level": 1,
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "move",
+              "name_zh": "順風",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "category": "priority-main",
+          "label_zh": "先制主力輸出",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "突襲",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制（輔助）",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "惡作劇之心",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "category": "priority-cleanup",
+          "label_zh": "收殘手段（不計入控速）",
+          "tier": "cleanup",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 3,
+              "kind": "move",
+              "name_zh": "水流噴射",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "tailwind",
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_RyYI7S_Jcfc_5",
+    "name": "Alex Underhill（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=2687s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Alex Underhill",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-2__alex-underhill__eduardo-cunha",
+    "player": "Alex Underhill",
+    "team_signature": "d3772d2932d0",
+    "source_t_s": 2687,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 6,
+          "name_zh": "噴火龍",
+          "name_en": "Charizard-Mega-Y",
+          "form": "Mega-Y",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "猛火",
+          "value_en": "Blaze",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "噴火龍進化石Ｙ",
+          "value_en": "Charizardite Y",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 260,
+          "name_zh": "巨沼怪",
+          "name_en": "Swampert-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "激流",
+          "value_en": "Torrent",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "巨沼怪進化石",
+          "value_en": "Swampertite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "持久力",
+          "value_en": "Stamina",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 861,
+          "name_zh": "長毛巨魔",
+          "name_en": "Grimmsnarl",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "光之黏土",
+          "value_en": "Light Clay",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "自大",
+          "value_en": "Sassy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "靈魂衝擊",
+            "value_en": "Spirit Break",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "光牆",
+            "value_en": "Light Screen",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "反射壁",
+            "value_en": "Reflect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 3,
+          "name_zh": "妙蛙花",
+          "name_en": "Venusaur",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "葉綠素",
+          "value_en": "Chlorophyll",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "催眠粉",
+            "value_en": "Sleep Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "飛葉風暴",
+            "value_en": "Leaf Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_2687.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Alex Underhill 的隊伍表出現在影片 44:47。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Alex Underhill 的公開配置（Round 2 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.719Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "field-control",
+          "label_zh": "場地／全隊控速",
+          "tier": "core",
+          "level": 1,
+          "via": [
+            {
+              "member_slot": 5,
+              "kind": "move",
+              "name_zh": "順風",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "category": "self-speed-boost",
+          "label_zh": "自身加速（天氣／特性）",
+          "tier": "core",
+          "level": 2,
+          "via": [
+            {
+              "member_slot": 6,
+              "kind": "ability",
+              "name_zh": "葉綠素",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "category": "ability-priority",
+          "label_zh": "特性式先制（輔助）",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "ability",
+              "name_zh": "惡作劇之心",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 1,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather",
+            "tailwind",
+            "cover"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_RyYI7S_Jcfc_6",
+    "name": "Eduardo Cunha（Worlds 2026）",
+    "name_source": "manual",
+    "video_id": "RyYI7S_Jcfc",
+    "video_url": "https://www.youtube.com/watch?v=RyYI7S_Jcfc&t=2797s",
+    "channel_handle": "@fiskepokemon",
+    "game": "champions",
+    "regulation_set_id": "champions-m-b",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Eduardo Cunha",
+    "author_source": "frame",
+    "event_id": "worlds-2026",
+    "match_id": "worlds-2026__round-2__alex-underhill__eduardo-cunha",
+    "player": "Eduardo Cunha",
+    "team_signature": "c86057fd9e0b",
+    "source_t_s": 2797,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 94,
+          "name_zh": "耿鬼",
+          "name_en": "Gengar-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "詛咒之軀",
+          "value_en": "Cursed Body",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "耿鬼進化石",
+          "value_en": "Gengarite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "內斂",
+          "value_en": "Modest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "滅亡之歌",
+            "value_en": "Perish Song",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 260,
+          "name_zh": "巨沼怪",
+          "name_en": "Swampert-Mega",
+          "form": "Mega",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "激流",
+          "value_en": "Torrent",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "巨沼怪進化石",
+          "value_en": "Swampertite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "固執",
+          "value_en": "Adamant",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": true,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "波動衝",
+            "value_en": "Wave Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "地震",
+            "value_en": "Earthquake",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍拳",
+            "value_en": "Ice Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1018,
+          "name_zh": "鋁鋼橋龍",
+          "name_en": "Archaludon",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "持久力",
+          "value_en": "Stamina",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "大膽",
+          "value_en": "Bold",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "龍之波動",
+            "value_en": "Dragon Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "加農光炮",
+            "value_en": "Flash Cannon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電光束",
+            "value_en": "Electro Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "千香果",
+          "value_en": "Passho Berry",
+          "confidence": 0.6,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "自大",
+          "value_en": "Sassy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "地獄突刺",
+            "value_en": "Throat Chop",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 186,
+          "name_zh": "蚊香蛙皇",
+          "name_en": "Politoed",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "溫和",
+          "value_en": "Calm",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "再來一次",
+            "value_en": "Encore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "滅亡之歌",
+            "value_en": "Perish Song",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 666,
+          "name_zh": "彩粉蝶",
+          "name_en": "Vivillon",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "複眼",
+          "value_en": "Compound Eyes",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": "膽小",
+          "value_en": "Timid",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "tera_type": null,
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+        "moves": [
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "催眠粉",
+            "value_en": "Sleep Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_2797.jpg"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 進化前的特性顯示為進化前特性。 選手 Eduardo Cunha 的隊伍表出現在影片 46:37。",
+    "notes": "2026 寶可夢世界冠軍賽（2026 Pokémon World Championships）選手 Eduardo Cunha 的公開配置（Round 2 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-12T16:51:50.720Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1",
+    "video_title": "2026 寶可夢世界賽正式開打！全球最頂尖玩家的巔峰對決！｜2026 世界冠軍賽｜Fiske 講比賽【寶可夢 Champions】#寶可夢對戰 #nintendoswitch2",
+    "video_published_at": "2026-08-31",
+    "analysis_derived": {
+      "speed_control": [
+        {
+          "category": "tempo-moves",
+          "label_zh": "先制輔助招式",
+          "tier": "support",
+          "level": 3,
+          "via": [
+            {
+              "member_slot": 4,
+              "kind": "move",
+              "name_zh": "擊掌奇襲",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "roles": [
+        {
+          "slot": 2,
+          "roles": [
+            "main-attacker"
+          ]
+        },
+        {
+          "slot": 3,
+          "roles": [
+            "sub-attacker"
+          ]
+        },
+        {
+          "slot": 4,
+          "roles": [
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 5,
+          "roles": [
+            "weather",
+            "disruptor"
+          ]
+        },
+        {
+          "slot": 6,
+          "roles": [
+            "cover",
+            "disruptor"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "team_VoIO7rM8-uo",
     "name": "超壞星全進攻隊",
     "name_source": "title",
