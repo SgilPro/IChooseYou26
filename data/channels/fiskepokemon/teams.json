@@ -90560,38 +90560,6 @@
     }
   },
   {
-    "id": "team_TEhCLre21jc",
-    "name": "",
-    "name_source": "title",
-    "video_id": "TEhCLre21jc",
-    "video_url": "https://www.youtube.com/watch?v=TEhCLre21jc",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.173Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】甜甜螢 + 古玉魚隊｜ 點到為止兄弟",
-    "video_published_at": "2023-12-16"
-  },
-  {
     "id": "team_EVPxxPoQKxI",
     "name": "螢光藍",
     "name_source": "pokepaste",
@@ -91074,7 +91042,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "TEhCLre21jc"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -91691,7 +91661,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "yXPJGYCcLyM"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -91787,42 +91759,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "team_yXPJGYCcLyM",
-    "name": "",
-    "name_source": "title",
-    "video_id": "yXPJGYCcLyM",
-    "video_url": "https://www.youtube.com/watch?v=yXPJGYCcLyM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "snow",
-      "trick-room",
-      "tailwind"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.174Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】轟鳴月 + 急凍鳥順風空間隊｜真假雪天隊",
-    "video_published_at": "2023-12-06"
   },
   {
     "id": "team_0ku1G3fMeWY",
@@ -92307,7 +92243,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "zQV9hhrhLrk"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -92410,40 +92348,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "team_zQV9hhrhLrk",
-    "name": "",
-    "name_source": "title",
-    "video_id": "zQV9hhrhLrk",
-    "video_url": "https://www.youtube.com/watch?v=zQV9hhrhLrk",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "stall"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.175Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】超壞星受比南山隊｜唱反調蘭螳花",
-    "video_published_at": "2023-11-30"
   },
   {
     "id": "team_WhqlckZukmE",
@@ -93100,40 +93004,6 @@
     }
   },
   {
-    "id": "team_LjNa9SnOAck",
-    "name": "",
-    "name_source": "title",
-    "video_id": "LjNa9SnOAck",
-    "video_url": "https://www.youtube.com/watch?v=LjNa9SnOAck",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tailwind"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.170Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】閃電鳥順風隊｜廣角鏡，這就是科學的力量嗎",
-    "video_published_at": "2023-11-23"
-  },
-  {
     "id": "team_exvM1ti0hxM",
     "name": "Zapdos-G Goldengo Team by Ryota Otsubo",
     "name_source": "pokepaste",
@@ -93614,7 +93484,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "LjNa9SnOAck"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -97451,7 +97323,8 @@
     ],
     "is_members_only": false,
     "related_video_ids": [
-      "SHYOqEX5Kns"
+      "SHYOqEX5Kns",
+      "Xy2pt27iOUM"
     ],
     "sources": {
       "subtitle_lang": "zh-TW",
@@ -97563,38 +97436,6 @@
     }
   },
   {
-    "id": "team_Xy2pt27iOUM",
-    "name": "",
-    "name_source": "title",
-    "video_id": "Xy2pt27iOUM",
-    "video_url": "https://www.youtube.com/watch?v=Xy2pt27iOUM",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.174Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】喝茶歌舞隊｜魔鏡啊魔鏡，誰是這世界上素質最高的兄弟？",
-    "video_published_at": "2023-10-12"
-  },
-  {
     "id": "team_nwdLyTHOr24",
     "name": "",
     "name_source": "title",
@@ -97661,40 +97502,6 @@
     "extracted_by": "make-member-shells-v1",
     "video_title": "【會員限定】Fiske 排位直播｜草系厄鬼椪 & 原版火焰鳥的平衡隊！【寶可夢朱紫】雙打實況",
     "video_published_at": "2023-10-03"
-  },
-  {
-    "id": "team_sm3hSSed79U",
-    "name": "",
-    "name_source": "title",
-    "video_id": "sm3hSSed79U",
-    "video_url": "https://www.youtube.com/watch?v=sm3hSSed79U",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.172Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】厄鬼椪平衡隊｜智能吃吼霸",
-    "video_published_at": "2023-10-01"
   },
   {
     "id": "team_eoIF5H7M_6w",
@@ -98178,7 +97985,8 @@
     ],
     "is_members_only": false,
     "related_video_ids": [
-      "A4JhXP9Zv-I"
+      "A4JhXP9Zv-I",
+      "sm3hSSed79U"
     ],
     "sources": {
       "subtitle_lang": "zh-TW",
@@ -100631,41 +100439,6 @@
     }
   },
   {
-    "id": "team_2Q1TRbYrWG8",
-    "name": "",
-    "name_source": "title",
-    "video_id": "2Q1TRbYrWG8",
-    "video_url": "https://www.youtube.com/watch?v=2Q1TRbYrWG8",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance",
-      "coaching"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.162Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】超硬平衡隊｜如果你相信愛，雙連保就會幫助你",
-    "video_published_at": "2023-08-31"
-  },
-  {
     "id": "team_XzxOfnmqhPc",
     "name": "Reg D Bulky Screens",
     "name_source": "pokepaste",
@@ -101147,7 +100920,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "2Q1TRbYrWG8"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -102291,7 +102066,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "JRoqjeZ8UwU"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -102396,40 +102173,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "team_JRoqjeZ8UwU",
-    "name": "",
-    "name_source": "title",
-    "video_id": "JRoqjeZ8UwU",
-    "video_url": "https://www.youtube.com/watch?v=JRoqjeZ8UwU",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "tournament-team"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.169Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】世界冠軍隊｜混帳東西妖火紅狐",
-    "video_published_at": "2023-08-22"
   },
   {
     "id": "team_A4dK2k_CKSE",
@@ -109848,7 +109591,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "SfZLuEey8SY"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -109980,72 +109725,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "team_SfZLuEey8SY",
-    "name": "",
-    "name_source": "title",
-    "video_id": "SfZLuEey8SY",
-    "video_url": "https://www.youtube.com/watch?v=SfZLuEey8SY",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.172Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】巨石丁強攻隊｜作惡多端隨風球",
-    "video_published_at": "2023-06-07"
-  },
-  {
-    "id": "team_3CM3AMos-5Q",
-    "name": "",
-    "name_source": "title",
-    "video_id": "3CM3AMos-5Q",
-    "video_url": "https://www.youtube.com/watch?v=3CM3AMos-5Q",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "trick-room"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.163Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】智揮猩超硬重空間隊｜地裂之人，終將被繩之以法！！！！",
-    "video_published_at": "2023-06-03"
   },
   {
     "id": "team_xEHbQhgIBRw",
@@ -110531,7 +110210,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "3CM3AMos-5Q"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -114214,40 +113895,6 @@
     }
   },
   {
-    "id": "team_32zFVfs-f5k",
-    "name": "",
-    "name_source": "title",
-    "video_id": "32zFVfs-f5k",
-    "video_url": "https://www.youtube.com/watch?v=32zFVfs-f5k",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [
-      "balance"
-    ],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.163Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】多龍物攻平衡隊｜膽小如鼠振翼髮",
-    "video_published_at": "2023-04-08"
-  },
-  {
     "id": "team_gD1mE7hpL2k",
     "name": "Pult pao fort wayne",
     "name_source": "pokepaste",
@@ -114729,7 +114376,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "32zFVfs-f5k"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -117638,7 +117287,9 @@
       }
     ],
     "is_members_only": false,
-    "related_video_ids": [],
+    "related_video_ids": [
+      "movBj-j_fiA"
+    ],
     "sources": {
       "subtitle_lang": "zh-TW",
       "subtitle_range_s": null,
@@ -117752,38 +117403,6 @@
         }
       ]
     }
-  },
-  {
-    "id": "team_movBj-j_fiA",
-    "name": "",
-    "name_source": "title",
-    "video_id": "movBj-j_fiA",
-    "video_url": "https://www.youtube.com/watch?v=movBj-j_fiA",
-    "channel_handle": "@fiskepokemon",
-    "game": "sv",
-    "regulation_set_id": null,
-    "regulation_source": null,
-    "tags": [],
-    "tags_source": "title",
-    "author": "Fiske",
-    "author_source": "channel",
-    "members": [],
-    "is_members_only": true,
-    "related_video_ids": [],
-    "sources": {
-      "subtitle_lang": null,
-      "subtitle_range_s": null,
-      "frames_used": 0,
-      "pokepaste_url": null
-    },
-    "confidence": 0,
-    "review_status": "needs-member-access",
-    "review_notes": "會員限定影片，未登入抓不到 metadata/字幕/畫面；待用會員 cookies 重抓後走抽取流程。",
-    "notes": null,
-    "extracted_at": "2026-11-09T04:30:30.171Z",
-    "extracted_by": "make-member-shells-v1",
-    "video_title": "【會員限定】索羅亞克幻覺隊｜非洲迷擬 Q 大戰電肚蛙",
-    "video_published_at": "2023-02-19"
   },
   {
     "id": "team_l4dCMzMbGyI",
