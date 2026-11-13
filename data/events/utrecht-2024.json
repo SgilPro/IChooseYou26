@@ -1,0 +1,87 @@
+{
+  "id": "utrecht-2024",
+  "name_zh": "2024 荷蘭烏特勒支特別賽",
+  "name_en": "2024 Utrecht Special Event",
+  "game": "sv",
+  "abbr": "UTR",
+  "year": 2024,
+  "date_approx": "2024-03",
+  "regulation_set_id": "sv-reg-f",
+  "matches": [
+    {
+      "id": "utrecht-2024__swiss-round-3__boris-hamm__francesco-deiana",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Francesco Deiana",
+          "team_ids": [
+            "team_kkl-3mG4ShU_1"
+          ]
+        },
+        {
+          "name": "Boris Hamm",
+          "team_ids": [
+            "team_kkl-3mG4ShU_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kkl-3mG4ShU",
+          "header_t_s": 104,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "utrecht-2024__swiss-round-4__joan-poyato__yoel-rami-rez",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Yoel Ramírez",
+          "team_ids": [
+            "team_kkl-3mG4ShU_3"
+          ]
+        },
+        {
+          "name": "Joan Poyato",
+          "team_ids": [
+            "team_kkl-3mG4ShU_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kkl-3mG4ShU",
+          "header_t_s": 1806,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "utrecht-2024__swiss-round-5__patrick-bakker__yvar-vlieger",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Patrick Bakker",
+          "team_ids": [
+            "team_kkl-3mG4ShU_5"
+          ]
+        },
+        {
+          "name": "Yvar Vlieger",
+          "team_ids": [
+            "team_kkl-3mG4ShU_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kkl-3mG4ShU",
+          "header_t_s": 4915,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

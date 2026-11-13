@@ -1,0 +1,110 @@
+{
+  "id": "charlotte-2024",
+  "name_zh": "2024 美國夏洛特地區賽",
+  "name_en": "2024 Charlotte Regional Championships",
+  "game": "sv",
+  "abbr": "CLT",
+  "year": 2024,
+  "date_approx": "2024-02",
+  "regulation_set_id": "sv-reg-f",
+  "matches": [
+    {
+      "id": "charlotte-2024__swiss-round-3__justin-carris__nathaniel-berger",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Nathaniel Berger",
+          "team_ids": [
+            "team_9PiaifpzA-k_1"
+          ]
+        },
+        {
+          "name": "Justin Carris",
+          "team_ids": [
+            "team_9PiaifpzA-k_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "9PiaifpzA-k",
+          "header_t_s": 168,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-2024__swiss-round-4__caleb-ryor__stefan-mott",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Stefan Mott",
+          "team_ids": [
+            "team_9PiaifpzA-k_3"
+          ]
+        },
+        {
+          "name": "Caleb Ryor",
+          "team_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "9PiaifpzA-k",
+          "header_t_s": 1467,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-2024__swiss-round-5__aaron-clemons__kyle-livinghouse",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Aaron Clemons",
+          "team_ids": [
+            "team_9PiaifpzA-k_4"
+          ]
+        },
+        {
+          "name": "Kyle Livinghouse",
+          "team_ids": [
+            "team_9PiaifpzA-k_5"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "9PiaifpzA-k",
+          "header_t_s": 2505,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "charlotte-2024__swiss-round-6__jimmy-friedle__nick-navarre",
+      "round": "Swiss Round 6",
+      "players": [
+        {
+          "name": "Jimmy Friedle",
+          "team_ids": [
+            "team_9PiaifpzA-k_6"
+          ]
+        },
+        {
+          "name": "Nick Navarre",
+          "team_ids": [
+            "team_9PiaifpzA-k_7"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "9PiaifpzA-k",
+          "header_t_s": 3544,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
