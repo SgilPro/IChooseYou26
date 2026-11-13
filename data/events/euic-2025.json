@@ -1,0 +1,87 @@
+{
+  "id": "euic-2025",
+  "name_zh": "2025 歐洲國際賽",
+  "name_en": "2025 Europe International Championships",
+  "game": "sv",
+  "date_approx": "2025-02",
+  "abbr": "EUIC",
+  "year": 2025,
+  "regulation_set_id": "sv-reg-g-2025",
+  "matches": [
+    {
+      "id": "euic-2025__top-24__matt-maynard__vi-ctor-jime-nez-coll",
+      "round": "Top 24",
+      "players": [
+        {
+          "name": "Matt Maynard",
+          "team_ids": [
+            "team_31xBomuvMFw_1"
+          ]
+        },
+        {
+          "name": "Víctor Jiménez Coll",
+          "team_ids": [
+            "team_31xBomuvMFw_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "31xBomuvMFw",
+          "header_t_s": 120,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2025__top-8__gavin-michaels__yosuke-takayanagi",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Gavin Michaels",
+          "team_ids": [
+            "team_31xBomuvMFw_3"
+          ]
+        },
+        {
+          "name": "Yosuke Takayanagi",
+          "team_ids": [
+            "team_31xBomuvMFw_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "31xBomuvMFw",
+          "header_t_s": 1860,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2025__finals__dyl-yeomans__wolfe-glick",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Wolfe Glick",
+          "team_ids": [
+            "team_31xBomuvMFw_5"
+          ]
+        },
+        {
+          "name": "Dyl Yeomans",
+          "team_ids": [
+            "team_31xBomuvMFw_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "31xBomuvMFw",
+          "header_t_s": 3330,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

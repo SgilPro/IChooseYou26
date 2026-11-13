@@ -1,0 +1,580 @@
+{
+  "video_id": "31xBomuvMFw",
+  "event": {
+    "id": "euic-2025",
+    "name_zh": "2025 歐洲國際賽",
+    "name_en": "2025 Europe International Championships",
+    "game": "sv",
+    "date_approx": "2025-02",
+    "abbr": "EUIC",
+    "year": 2025,
+    "regulation_set_id": "sv-reg-g-2025"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「歐洲國際賽（三）」，章節：Top 24、Top 8、Finals，各一場；影片發布於 2025-03-08）。賽制為規則 G（單神）：影片未明講規則字母，依發布日落在 sv-reg-g-2025（2025-01-06 至 04-30），且每隊恰一隻限制級神獸（蕾冠王、故勒頓、蓋歐卡、密勒頓）。賽事實際日期未從影片取得，date_approx 以 2025-02 估計。",
+  "matches": [
+    {
+      "round": "Top 24",
+      "players": [
+        "Matt Maynard",
+        "Víctor Jiménez Coll"
+      ],
+      "header_t_s": 120
+    },
+    {
+      "round": "Top 8",
+      "players": [
+        "Gavin Michaels",
+        "Yosuke Takayanagi"
+      ],
+      "header_t_s": 1860
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Wolfe Glick",
+        "Dyl Yeomans"
+      ],
+      "header_t_s": 3330
+    }
+  ],
+  "teams": [
+    {
+      "player": "Matt Maynard",
+      "round": "Top 24",
+      "t_s": 170,
+      "frames": [
+        "f_170.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎黑馬的樣子",
+          "en": "Calyrex-Shadow",
+          "ability": "人馬一體",
+          "item": "Life Orb",
+          "tera": "Dark",
+          "moves": [
+            "星碎",
+            "精神強念",
+            "詭計",
+            "守住"
+          ],
+          "form": "Shadow"
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Fire",
+          "moves": [
+            "守住",
+            "憤怒粉",
+            "蘑菇孢子",
+            "污泥炸彈"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "熱風",
+            "過熱",
+            "惡之波動",
+            "大聲咆哮"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "看穿",
+            "水流連打",
+            "近身戰",
+            "水流噴射"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Water",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Grass",
+          "moves": [
+            "守住",
+            "冰凍之風",
+            "電磁波",
+            "月亮之力"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Víctor Jiménez Coll",
+      "round": "Top 24",
+      "t_s": 230,
+      "frames": [
+        "f_230.png"
+      ],
+      "members": [
+        {
+          "zh": "故勒頓",
+          "en": "Koraidon",
+          "ability": "緋紅脈動",
+          "item": "Ability Shield",
+          "tera": "Fire",
+          "moves": [
+            "守住",
+            "閃焰衝鋒",
+            "全開猛撞",
+            "龍爪"
+          ]
+        },
+        {
+          "zh": "伽勒爾雙彈瓦斯",
+          "en": "Weezing-Galar",
+          "ability": "化學變化氣體",
+          "item": "Focus Sash",
+          "tera": "Ground",
+          "moves": [
+            "守住",
+            "神奇蒸汽",
+            "毒菱",
+            "毒瓦斯"
+          ],
+          "form": "Galar"
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "大聲咆哮",
+            "過熱",
+            "熱風",
+            "惡之波動"
+          ]
+        },
+        {
+          "zh": "吃吼霸",
+          "en": "Dondozo",
+          "ability": "純樸",
+          "item": "Rocky Helmet",
+          "tera": "Electric",
+          "moves": [
+            "地震",
+            "上菜",
+            "睡覺",
+            "夢話"
+          ]
+        },
+        {
+          "zh": "米立龍-上弓姿勢",
+          "en": "Tatsugiri-Stretchy",
+          "ability": "發號施令",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "流星群",
+            "濁流",
+            "水炮"
+          ],
+          "form": "Stretchy"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "魔法閃耀",
+            "月亮之力",
+            "暗影球",
+            "冰凍之風"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Gavin Michaels",
+      "round": "Top 8",
+      "t_s": 1930,
+      "frames": [
+        "f_1930.png"
+      ],
+      "members": [
+        {
+          "zh": "蓋歐卡",
+          "en": "Kyogre",
+          "ability": "降雨",
+          "item": "Mystic Water",
+          "tera": "Grass",
+          "moves": [
+            "噴水",
+            "根源波動",
+            "守住",
+            "冰凍光束"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Dark",
+          "moves": [
+            "花粉團",
+            "憤怒粉",
+            "蘑菇孢子",
+            "清除之煙"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "冰柱墜擊",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "急速折返",
+            "水流連打",
+            "近身戰",
+            "水流噴射"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "枯葉風暴",
+            "求雨",
+            "順風",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "吸取拳",
+            "瘋狂伏特",
+            "擊掌奇襲",
+            "踢倒"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Yosuke Takayanagi",
+      "round": "Top 8",
+      "t_s": 2000,
+      "frames": [
+        "f_2000.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎白馬的樣子",
+          "en": "Calyrex-Ice",
+          "ability": "人馬一體",
+          "item": "Clear Amulet",
+          "tera": "Water",
+          "moves": [
+            "雪矛",
+            "十萬馬力",
+            "戲法空間",
+            "守住"
+          ],
+          "form": "Ice"
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "憤怒粉",
+            "蘑菇孢子",
+            "污泥炸彈"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "大聲咆哮",
+            "過熱",
+            "熱風",
+            "惡之波動"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "看穿",
+            "水流連打",
+            "挑釁",
+            "近身戰"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "厄鬼椪-礎石面具",
+          "en": "Ogerpon-Cornerstone",
+          "ability": "結實",
+          "item": "Cornerstone Mask",
+          "tera": "Rock",
+          "moves": [
+            "尖刺防守",
+            "看我嘛",
+            "強力鞭打",
+            "棘藤棒"
+          ],
+          "form": "Cornerstone"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "魔法閃耀",
+            "月亮之力",
+            "守住",
+            "冰凍之風"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Wolfe Glick",
+      "round": "Finals",
+      "t_s": 3400,
+      "frames": [
+        "f_3400.png"
+      ],
+      "members": [
+        {
+          "zh": "故勒頓",
+          "en": "Koraidon",
+          "ability": "緋紅脈動",
+          "item": "Life Orb",
+          "tera": "Fire",
+          "moves": [
+            "守住",
+            "閃焰衝鋒",
+            "近身戰",
+            "蓄能焰擊"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Mental Herb",
+          "tera": "Dark",
+          "moves": [
+            "守住",
+            "憤怒粉",
+            "蘑菇孢子",
+            "污泥炸彈"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Bug",
+          "moves": [
+            "擊掌奇襲",
+            "拋下狠話",
+            "閃焰衝鋒",
+            "守住"
+          ]
+        },
+        {
+          "zh": "吼叫尾",
+          "en": "Scream Tail",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Dark",
+          "moves": [
+            "守住",
+            "再來一次",
+            "定身法",
+            "滅亡之歌"
+          ]
+        },
+        {
+          "zh": "哥德小姐",
+          "en": "Gothitelle",
+          "ability": "踩影",
+          "item": "Leftovers",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "精神強念",
+            "擊掌奇襲",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Focus Sash",
+          "tera": "Normal",
+          "moves": [
+            "守住",
+            "冰凍之風",
+            "月亮之力",
+            "暗影球"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Dyl Yeomans",
+      "round": "Finals",
+      "t_s": 3500,
+      "frames": [
+        "f_3500.png"
+      ],
+      "members": [
+        {
+          "zh": "密勒頓",
+          "en": "Miraidon",
+          "ability": "強子引擎",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "閃電猛衝",
+            "流星群",
+            "魔法閃耀",
+            "伏特替換"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Electric Seed",
+          "tera": "Water",
+          "moves": [
+            "精神強念",
+            "吼叫",
+            "幫助",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Rocky Helmet",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "急速折返",
+            "閃焰衝鋒",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "看穿",
+            "暗冥強擊",
+            "突襲",
+            "近身戰"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "鐵轍跡",
+          "en": "Iron Treads",
+          "ability": "夸克充能",
+          "item": "Choice Band",
+          "tera": "Ghost",
+          "moves": [
+            "鐵頭",
+            "十萬馬力",
+            "岩崩",
+            "鐵滾輪"
+          ]
+        },
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Assault Vest",
+          "tera": "Poison",
+          "moves": [
+            "吸取拳",
+            "重磅衝撞",
+            "擊掌奇襲",
+            "踢倒"
+          ]
+        }
+      ]
+    }
+  ]
+}
