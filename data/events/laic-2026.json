@@ -1,0 +1,87 @@
+{
+  "id": "laic-2026",
+  "name_zh": "2026 南美洲國際賽",
+  "name_en": "2026 Pokémon Latin America International Championships",
+  "game": "sv",
+  "date_approx": "2025-12",
+  "abbr": "LAIC",
+  "year": 2026,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "laic-2026__swiss-round-3__marco-silva__yoav-reuven",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Yoav Reuven",
+          "team_ids": [
+            "team_iZCz6VRcsd0_1"
+          ]
+        },
+        {
+          "name": "Marco Silva",
+          "team_ids": [
+            "team_iZCz6VRcsd0_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iZCz6VRcsd0",
+          "header_t_s": 147,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2026__swiss-round-8__eric-rios__federico-camporesi",
+      "round": "Swiss Round 8",
+      "players": [
+        {
+          "name": "Federico Camporesi",
+          "team_ids": [
+            "team_iZCz6VRcsd0_3"
+          ]
+        },
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_iZCz6VRcsd0_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iZCz6VRcsd0",
+          "header_t_s": 1387,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2026__swiss-round-9__gabriel-agati__the-otime-massaut",
+      "round": "Swiss Round 9",
+      "players": [
+        {
+          "name": "Gabriel Agati",
+          "team_ids": [
+            "team_iZCz6VRcsd0_5"
+          ]
+        },
+        {
+          "name": "Théotime Massaut",
+          "team_ids": [
+            "team_iZCz6VRcsd0_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iZCz6VRcsd0",
+          "header_t_s": 2766,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

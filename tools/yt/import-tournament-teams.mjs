@@ -23,8 +23,9 @@ const dex = Dex.forGen(9);
 const slug = (s) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const itemZh = { ...N.items.en2zh, ...Object.fromEntries(Object.entries(N.extra?.items_zh2en || {}).map(([zh, en]) => [en, zh])) };
 const natZh = N.natures?.en2zh || {};
+const TYPE_ZH = { Normal: "一般", Fire: "火", Water: "水", Electric: "電", Grass: "草", Ice: "冰", Fighting: "格鬥", Poison: "毒", Ground: "地面", Flying: "飛行", Psychic: "超能力", Bug: "蟲", Rock: "岩石", Ghost: "幽靈", Dragon: "龍", Dark: "惡", Steel: "鋼", Fairy: "妖精", Stellar: "星晶" };
 const warn = []; const miss = (k, v) => { warn.push(`${k}: ${v}`); };
-const regId = (() => { const d = video.published_at.slice(0, 10); const r = regs.find((x) => x.game === spec.event.game && x.starts_on <= d && (!x.ends_on || d <= x.ends_on)); return r?.id ?? null; })();
+const regId = spec.event.regulation_set_id ?? (() => { const d = video.published_at.slice(0, 10); const r = regs.find((x) => x.game === spec.event.game && x.starts_on <= d && (!x.ends_on || d <= x.ends_on)); return r?.id ?? null; })();
 
 const evId = spec.event.id;
 const teams = []; const matchById = new Map();
@@ -44,16 +45,17 @@ spec.teams.forEach((t, i) => {
     const nameEn = x.mega ? `${base}${x.mega === "Mega" ? "-Mega" : "-" + x.mega}` : x.en;
     const ab = dex.abilities.get(N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality" })[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
     const it = dex.items.get(x.item); if (!it.exists) miss("item", x.item);
-    const nat = x.nature; const natCn = natZh[nat] || nat;
+    const nat = x.nature ?? null; const natCn = nat ? (natZh[nat] || nat) : null;
+    const teraEn = x.tera ?? null; const teraZh = teraEn ? (TYPE_ZH[teraEn] ?? null) : null;
     return {
       slot: k + 1,
       species: { dex_no: dexSp.num, name_zh: x.zh, name_en: nameEn, form: x.mega ? x.mega : (x.form ?? null), confidence: 0.95 },
       nickname: null, gender: x.gender ?? (["Basculegion", "Indeedee", "Meowstic"].includes(base) ? null : null),
       ability: { value: x.ability, value_en: ab.exists ? ab.name : null, confidence: 0.95, source: "frame" },
       item: { value: itemZh[it.name] ?? null, value_en: it.exists ? it.name : null, confidence: x.item_conf ?? 0.85, source: "frame" },
-      nature: { value: natCn, value_en: nat, confidence: 0.85, source: "frame" },
-      tera_type: null, mega: !!x.mega, evs: null, stats: null,
-      stats_note: "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
+      nature: { value: natCn, value_en: nat, confidence: nat ? 0.85 : 0, source: nat ? "frame" : null },
+      tera_type: teraEn ? { value: teraZh ?? teraEn, value_en: teraEn, confidence: 0.9, source: "frame" } : null, mega: !!x.mega, evs: null, stats: null,
+      stats_note: spec.stats_note ?? "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
       moves: x.moves.map((mv) => { const en = N.moves.zh2en[mv] ?? ({ "踩腳": "Stomping Tantrum", "伴攻": "Coaching" })[mv]; if (!en) miss("move", mv); return { value: mv, value_en: en ?? null, confidence: 0.95, source: "frame" }; }),
       role_note: null,
     };

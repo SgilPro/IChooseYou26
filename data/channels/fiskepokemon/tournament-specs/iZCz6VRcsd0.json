@@ -1,0 +1,580 @@
+{
+  "video_id": "iZCz6VRcsd0",
+  "event": {
+    "id": "laic-2026",
+    "name_zh": "2026 南美洲國際賽",
+    "name_en": "2026 Pokémon Latin America International Championships",
+    "game": "sv",
+    "date_approx": "2025-12",
+    "abbr": "LAIC",
+    "year": 2026,
+    "regulation_set_id": "sv-reg-h"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題為「2026 南美洲國際賽（一）」）。賽制為規則 H（影片章節「歡迎來到規則 H」、標題「神獸全面禁止」；日期推斷會得到 sv-reg-j，故於規格檔明指 sv-reg-h）。道具為畫面文字，太晶屬性由圖示判讀。",
+  "matches": [
+    {
+      "round": "Swiss Round 3",
+      "players": [
+        "Yoav Reuven",
+        "Marco Silva"
+      ],
+      "header_t_s": 147
+    },
+    {
+      "round": "Swiss Round 8",
+      "players": [
+        "Federico Camporesi",
+        "Eric Rios"
+      ],
+      "header_t_s": 1387
+    },
+    {
+      "round": "Swiss Round 9",
+      "players": [
+        "Gabriel Agati",
+        "Théotime Massaut"
+      ],
+      "header_t_s": 2766
+    }
+  ],
+  "teams": [
+    {
+      "player": "Yoav Reuven",
+      "round": "Swiss Round 3",
+      "t_s": 188,
+      "frames": [
+        "f_185.jpg"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "鼓擊",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Water",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "Grassy Seed",
+          "tera": "Ice",
+          "moves": [
+            "剋命爪",
+            "近身戰",
+            "雜技",
+            "守住"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "暴風雪",
+            "冰凍之風",
+            "極光幕",
+            "再來一次"
+          ],
+          "form": "Alola"
+        },
+        {
+          "zh": "赫月月熊",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Leftovers",
+          "tera": "Electric",
+          "moves": [
+            "血月",
+            "冥想",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        }
+      ]
+    },
+    {
+      "player": "Marco Silva",
+      "round": "Swiss Round 3",
+      "t_s": 262,
+      "frames": [
+        "f_262.jpg"
+      ],
+      "members": [
+        {
+          "zh": "蝶結萌虻",
+          "en": "Ribombee",
+          "ability": "鱗粉",
+          "item": "Focus Sash",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "假哭",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Covert Cloak",
+          "tera": "Fire",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "擊掌奇襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "力量寶石",
+            "守住"
+          ]
+        },
+        {
+          "zh": "杖尾鱗甲龍",
+          "en": "Kommo-o",
+          "ability": "防塵",
+          "item": "Throat Spray",
+          "tera": "Fire",
+          "moves": [
+            "鱗片噪音",
+            "波導彈",
+            "噴射火焰",
+            "守住"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "多重鱗片",
+          "item": "Loaded Dice",
+          "tera": "Steel",
+          "moves": [
+            "鱗射",
+            "神速",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "赫月月熊",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Assault Vest",
+          "tera": "Water",
+          "moves": [
+            "血月",
+            "巨聲",
+            "大地之力",
+            "真空波"
+          ],
+          "form": "Bloodmoon"
+        }
+      ]
+    },
+    {
+      "player": "Federico Camporesi",
+      "round": "Swiss Round 8",
+      "t_s": 1426,
+      "frames": [
+        "f_1426.jpg"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "多重鱗片",
+          "item": "Loaded Dice",
+          "tera": "Fairy",
+          "moves": [
+            "鱗射",
+            "神速",
+            "黑霧",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Fire",
+          "moves": [
+            "仆斬",
+            "鐵頭",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "火焰雞",
+          "en": "Blaziken",
+          "ability": "加速",
+          "item": "Focus Sash",
+          "tera": "Fire",
+          "moves": [
+            "熱風",
+            "波導彈",
+            "指導",
+            "守住"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Life Orb",
+          "tera": "Ghost",
+          "moves": [
+            "暴風雪",
+            "月亮之力",
+            "極光幕",
+            "守住"
+          ],
+          "form": "Alola"
+        },
+        {
+          "zh": "赫月月熊",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Leftovers",
+          "tera": "Electric",
+          "moves": [
+            "血月",
+            "冥想",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        }
+      ]
+    },
+    {
+      "player": "Eric Rios",
+      "round": "Swiss Round 8",
+      "t_s": 1526,
+      "frames": [
+        "f_1526.jpg"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "杖尾鱗甲龍",
+          "en": "Kommo-o",
+          "ability": "防塵",
+          "item": "Throat Spray",
+          "tera": "Fire",
+          "moves": [
+            "鱗片噪音",
+            "魂舞烈音爆",
+            "噴射火焰",
+            "守住"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Dragon",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "Grassy Seed",
+          "tera": "Ice",
+          "moves": [
+            "剋命爪",
+            "近身戰",
+            "雜技",
+            "守住"
+          ]
+        },
+        {
+          "zh": "一家鼠",
+          "en": "Maushold",
+          "ability": "友情防守",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "守住",
+            "看我嘛",
+            "挑釁",
+            "憤怒門牙"
+          ]
+        },
+        {
+          "zh": "西獅海壬",
+          "en": "Primarina",
+          "ability": "濕潤之聲",
+          "item": "Mystic Water",
+          "tera": "Psychic",
+          "moves": [
+            "守住",
+            "月亮之力",
+            "巨聲",
+            "黑霧"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Gabriel Agati",
+      "round": "Swiss Round 9",
+      "t_s": 2812,
+      "frames": [
+        "f_2812.jpg"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Water",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "蚊香蛙皇",
+          "en": "Politoed",
+          "ability": "降雨",
+          "item": "Chilan Berry",
+          "tera": "Grass",
+          "moves": [
+            "守住",
+            "氣象球",
+            "潮旋",
+            "滅亡之歌"
+          ],
+          "item_conf": 0.7
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Grassy Seed",
+          "tera": "Fairy",
+          "moves": [
+            "熱風",
+            "太晶爆發",
+            "蝶舞",
+            "守住"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "暴風雪",
+            "再來一次",
+            "定身法",
+            "守住"
+          ],
+          "form": "Alola"
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "快速折返",
+            "水流噴射"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Théotime Massaut",
+      "round": "Swiss Round 9",
+      "t_s": 2964,
+      "frames": [
+        "f_2964.jpg"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "挑釁",
+            "拍落",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "快速折返",
+            "水流噴射"
+          ]
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Grassy Seed",
+          "tera": "Fairy",
+          "moves": [
+            "熱風",
+            "太晶爆發",
+            "蝶舞",
+            "守住"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "暴風雪",
+            "再來一次",
+            "定身法",
+            "守住"
+          ],
+          "form": "Alola"
+        },
+        {
+          "zh": "赫月月熊",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Leftovers",
+          "tera": "Electric",
+          "moves": [
+            "血月",
+            "哈欠",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        }
+      ]
+    }
+  ]
+}
