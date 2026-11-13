@@ -1,0 +1,783 @@
+{
+  "video_id": "Uelac_M71Xg",
+  "event": {
+    "id": "dortmund-2024-03",
+    "name_zh": "2024 德國多特蒙德地區賽（3 月）",
+    "name_en": "2024 Dortmund Regional Championships (March)",
+    "game": "sv",
+    "abbr": "DORT",
+    "year": 2024,
+    "date_approx": "2024-03",
+    "regulation_set_id": "sv-reg-f"
+  },
+  "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「德國 多特蒙德地區賽（四）」，章節：八強賽第二桌、四強賽第一桌、四強賽第二桌、決賽；影片發布於 2024-03-15）。同賽事其他影片：d-TWHBM96RA、gD3j4-DRytE、5ise7JF73Lo。規則 F：發布日落在 sv-reg-f，八張卡片（6 支不同隊伍）皆無限制級傳說／幻獸，悖謬、厄鬼椪、古鼎鹿屬 Reg F 可用，事件區塊與 5ise7JF73Lo 完全一致。選手姓名取自畫面名牌；卡片顯示在持有者旁邊。Nick Schrott 的八強、四強、決賽三張卡片與 Florian Temme 的四強、決賽兩張卡片均由各自影格逐一讀取，內容一致（技能、特性、道具、太晶皆同）。四強第二桌選手名牌為 FRANCESCO IOZZIA。所有技能欄位清楚可讀，無遮蔽。太晶徽章偏淡：妖精、一般、一般系 tera_conf 0.8-0.85；Kingambit 徽章為龍頭圖樣（龍）0.8；Porygon2 徽章為紫色天體圖樣（超能力）。",
+  "matches": [
+    {
+      "round": "Masters Top 8",
+      "players": [
+        "Eric Rios",
+        "Nick Schrott"
+      ],
+      "header_t_s": 0
+    },
+    {
+      "round": "Masters Top 4",
+      "players": [
+        "Sergio Ramírez",
+        "Florian Temme"
+      ],
+      "header_t_s": 2810
+    },
+    {
+      "round": "Masters Top 4",
+      "players": [
+        "Francesco Iozzia",
+        "Nick Schrott"
+      ],
+      "header_t_s": 3908
+    },
+    {
+      "round": "Masters Finals",
+      "players": [
+        "Nick Schrott",
+        "Florian Temme"
+      ],
+      "header_t_s": 5045
+    }
+  ],
+  "teams": [
+    {
+      "player": "Eric Rios",
+      "round": "Masters Top 8",
+      "t_s": 78,
+      "frames": [
+        "f_76_3.png"
+      ],
+      "members": [
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "蘑菇孢子",
+            "花粉團",
+            "憤怒粉"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "戲法"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "擊掌奇襲",
+            "閃焰衝鋒",
+            "拋下狠話",
+            "拍落"
+          ]
+        },
+        {
+          "zh": "杖尾鱗甲龍",
+          "en": "Kommo-o",
+          "ability": "防塵",
+          "item": "Leftovers",
+          "tera": "Steel",
+          "moves": [
+            "守住",
+            "鐵壁",
+            "撲擊",
+            "鐵頭"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Psychic",
+          "moves": [
+            "戲法空間",
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "古鼎鹿",
+          "en": "Ting-Lu",
+          "ability": "災禍之鼎",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "地獄突刺",
+            "太晶爆發",
+            "跺腳",
+            "重磅衝撞"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    },
+    {
+      "player": "Nick Schrott",
+      "round": "Masters Top 8",
+      "t_s": 113,
+      "frames": [
+        "f_110_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "滅亡之歌"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "火焰守護",
+            "長嚎"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "十萬馬力",
+            "青草滑梯",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Psychic",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生",
+            "戲法空間"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "仆刀將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Dragon",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Sergio Ramírez",
+      "round": "Masters Top 4",
+      "t_s": 2848,
+      "frames": [
+        "f_2845_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "尖刺防守",
+            "青草滑梯",
+            "棘藤棒",
+            "看我嘛"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Safety Goggles",
+          "tera": "Stellar",
+          "moves": [
+            "守住",
+            "十萬伏特",
+            "迅雷",
+            "流星群"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "青草滑梯",
+            "木槌",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "水流噴射",
+            "近身戰",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "守住",
+            "冰柱墜擊",
+            "突襲",
+            "聖劍"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "精神力",
+          "item": "Choice Band",
+          "tera": "Normal",
+          "moves": [
+            "神速",
+            "逆鱗",
+            "跺腳",
+            "燕返"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    },
+    {
+      "player": "Florian Temme",
+      "round": "Masters Top 4",
+      "t_s": 2893,
+      "frames": [
+        "f_2890_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "冰凍之風"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Fairy",
+          "moves": [
+            "閃焰衝鋒",
+            "地獄突刺",
+            "擊掌奇襲",
+            "拋下狠話"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "精神強念",
+            "魔法閃耀",
+            "戲法空間",
+            "幫助"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "血月",
+            "大地之力",
+            "守住"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    },
+    {
+      "player": "Francesco Iozzia",
+      "round": "Masters Top 4",
+      "t_s": 3981,
+      "frames": [
+        "f_3978_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "尖刺防守",
+            "木角",
+            "看我嘛",
+            "棘藤棒"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "冰凍之風"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "炎帝",
+          "en": "Entei",
+          "ability": "精神力",
+          "item": "Sitrus Berry",
+          "tera": "Normal",
+          "moves": [
+            "神聖之火",
+            "神速",
+            "跺腳",
+            "守住"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Miracle Seed",
+          "tera": "Ghost",
+          "moves": [
+            "青草滑梯",
+            "木槌",
+            "挑釁",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "冰柱墜擊",
+            "聖劍",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.9
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "電網",
+            "流星群",
+            "迅雷",
+            "大聲咆哮"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    },
+    {
+      "player": "Nick Schrott",
+      "round": "Masters Top 4",
+      "t_s": 4031,
+      "frames": [
+        "f_4028_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "滅亡之歌"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "火焰守護",
+            "長嚎"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "十萬馬力",
+            "青草滑梯",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Psychic",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生",
+            "戲法空間"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "仆刀將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Dragon",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Nick Schrott",
+      "round": "Masters Finals",
+      "t_s": 5088,
+      "frames": [
+        "f_5085_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "滅亡之歌"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "火焰守護",
+            "長嚎"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "十萬馬力",
+            "青草滑梯",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Psychic",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生",
+            "戲法空間"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "仆刀將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Dragon",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Florian Temme",
+      "round": "Masters Finals",
+      "t_s": 5148,
+      "frames": [
+        "f_5145_3.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "冰凍之風"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Fairy",
+          "moves": [
+            "閃焰衝鋒",
+            "地獄突刺",
+            "擊掌奇襲",
+            "拋下狠話"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "精神強念",
+            "魔法閃耀",
+            "戲法空間",
+            "幫助"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "血月",
+            "大地之力",
+            "守住"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    }
+  ]
+}

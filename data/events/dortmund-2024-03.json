@@ -282,6 +282,106 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "dortmund-2024-03__masters-top-8__eric-rios__nick-schrott",
+      "round": "Masters Top 8",
+      "players": [
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_Uelac_M71Xg_1"
+          ]
+        },
+        {
+          "name": "Nick Schrott",
+          "team_ids": [
+            "team_Uelac_M71Xg_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Uelac_M71Xg",
+          "header_t_s": 0,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-03__masters-top-4__florian-temme__sergio-rami-rez",
+      "round": "Masters Top 4",
+      "players": [
+        {
+          "name": "Sergio Ramírez",
+          "team_ids": [
+            "team_Uelac_M71Xg_3"
+          ]
+        },
+        {
+          "name": "Florian Temme",
+          "team_ids": [
+            "team_Uelac_M71Xg_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Uelac_M71Xg",
+          "header_t_s": 2810,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-03__masters-top-4__francesco-iozzia__nick-schrott",
+      "round": "Masters Top 4",
+      "players": [
+        {
+          "name": "Francesco Iozzia",
+          "team_ids": [
+            "team_Uelac_M71Xg_5"
+          ]
+        },
+        {
+          "name": "Nick Schrott",
+          "team_ids": [
+            "team_Uelac_M71Xg_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Uelac_M71Xg",
+          "header_t_s": 3908,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-03__masters-finals__florian-temme__nick-schrott",
+      "round": "Masters Finals",
+      "players": [
+        {
+          "name": "Nick Schrott",
+          "team_ids": [
+            "team_Uelac_M71Xg_7"
+          ]
+        },
+        {
+          "name": "Florian Temme",
+          "team_ids": [
+            "team_Uelac_M71Xg_8"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Uelac_M71Xg",
+          "header_t_s": 5045,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }
