@@ -82,6 +82,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "euic-2026__swiss-round-10__giovanni-cischke__wolfe-glick",
+      "round": "Swiss Round 10",
+      "players": [
+        {
+          "name": "Wolfe Glick",
+          "team_ids": [
+            "team_19PpR0W2qk0_1"
+          ]
+        },
+        {
+          "name": "Giovanni Cischke",
+          "team_ids": [
+            "team_19PpR0W2qk0_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "19PpR0W2qk0",
+          "header_t_s": 95,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2026__swiss-round-12__flavio-del-pidio__shohei-kimura",
+      "round": "Swiss Round 12",
+      "players": [
+        {
+          "name": "Flavio Del Pidio",
+          "team_ids": [
+            "team_19PpR0W2qk0_3"
+          ]
+        },
+        {
+          "name": "Shohei Kimura",
+          "team_ids": [
+            "team_19PpR0W2qk0_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "19PpR0W2qk0",
+          "header_t_s": 1601,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2026__masters-finals__paul-chua__zachary-weed",
+      "round": "Masters Finals",
+      "players": [
+        {
+          "name": "Paul Chua",
+          "team_ids": [
+            "team_19PpR0W2qk0_5"
+          ]
+        },
+        {
+          "name": "Zachary Weed",
+          "team_ids": [
+            "team_19PpR0W2qk0_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "19PpR0W2qk0",
+          "header_t_s": 3405,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }

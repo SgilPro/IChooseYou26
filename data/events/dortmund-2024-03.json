@@ -1,0 +1,87 @@
+{
+  "id": "dortmund-2024-03",
+  "name_zh": "2024 德國多特蒙德地區賽（3 月）",
+  "name_en": "2024 Dortmund Regional Championships (March)",
+  "game": "sv",
+  "abbr": "DORT",
+  "year": 2024,
+  "date_approx": "2024-03",
+  "regulation_set_id": "sv-reg-f",
+  "matches": [
+    {
+      "id": "dortmund-2024-03__swiss-round-3__lorenzo-silvestrini__tom-winter",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Tom Winter",
+          "team_ids": [
+            "team_d-TWHBM96RA_1"
+          ]
+        },
+        {
+          "name": "Lorenzo Silvestrini",
+          "team_ids": [
+            "team_d-TWHBM96RA_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "d-TWHBM96RA",
+          "header_t_s": 120,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-03__swiss-round-4__eric-rios__francesco-pardini",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_d-TWHBM96RA_3"
+          ]
+        },
+        {
+          "name": "Francesco Pardini",
+          "team_ids": [
+            "team_d-TWHBM96RA_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "d-TWHBM96RA",
+          "header_t_s": 2376,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-03__swiss-round-5__maurice-uteg__vi-ctor-medina",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Víctor Medina",
+          "team_ids": [
+            "team_d-TWHBM96RA_5"
+          ]
+        },
+        {
+          "name": "Maurice Uteg",
+          "team_ids": [
+            "team_d-TWHBM96RA_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "d-TWHBM96RA",
+          "header_t_s": 4229,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
