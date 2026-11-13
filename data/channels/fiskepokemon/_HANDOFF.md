@@ -4,15 +4,25 @@
 > 最後更新：2026-11-13（見下方「最新現況」；本行以後的內容為 11-09 舊版）
 > 舊註：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
 
-## 最新現況（2026-11-13，以此為準；下方 11-08／11-09 的表與待辦已過時）
+## 最新現況（2026-11-13 夜，以此為準；下方 11-08／11-09 的表與待辦已過時）
 
-- 隊伍 360 隊、1278 隻，validate 0 ERR（32 WARN 皆為雙 Mega 提示）。賽事資料 2 個：`naic-2026`、`worlds-2026`（`data/events/`）。
-- 會員影片：有章節的隊伍介紹已全抽完；會員短片 12 支確認為同期公開影片同隊的延伸版，已刪殼、寫入公開隊伍的 `related_video_ids`；仍待處理 75 支（約 8 支需各抓一張影格核對是否同隊：`mHC9YuqyfmQ`、`pKmk6zGbkDY`、`g8W_4Rlkldw`、`yJ-XjMajwx4`、`145Yuis-vfM`、`blm0R8ztLH8`、`uZnip5S0vcQ`、`xULetDD2vcU`）。會員下載頻率維持每小時 ≤5 次、間隔 12 分鐘。
-- 比賽影片（官方比賽解說 90 支）已抽：`8ACL1XG0vjI`（NAIC）、`RyYI7S_Jcfc`（世界賽 D1）、`OXRky0qvDuI`（世界賽決賽三組別）。`ZmCH9tKz6vE`（日本全國賽）轉播只有圖示，不抽（見 tools/yt/README.md）。
-- 朱紫比賽影片（公開）2025 年 6 支已抽：`iZCz6VRcsd0`（laic-2026）、`7V6DLchwra0`／`WY016nnsTzc`（worlds-2025）、`LvOdelMxhnM`（naic-2025）、`31xBomuvMFw`／`yzmlnb9mJFk`（euic-2025）。朱紫卡片有物種、特性、道具、四招、太晶屬性，無性格／性別／努力值；規則組要用 `spec.event.regulation_set_id` 覆寫（影片多半不寫，靠日期＋每隊限定神獸數推論）。每支約 10~12 分鐘、6~12 萬 tokens（agent）。流程：360p 全片 → 5s 拼圖找卡 → ≤10s 720p 片段 → 寫 spec → `import-tournament-teams.mjs`。
-- 待核對：`laic-2026`／`euic-2025`／`worlds-2025` 的 `date_approx` 是估計值；Camporesi（LvOdelMxhnM）與 Luca Ceribelli（WY016nnsTzc）同一份配置，但 Incineroar／Urshifu 太晶屬性對調，需重看 Luca 的卡；太晶徽章靠圖示判讀，部分以 `tera_conf` 標低信心。
-- 下一步：公開朱紫比賽影片 2024 年約 62 支（每場多為 Swiss／Top 賽各一桌）；會員 Champions／朱紫比賽影片（Liverpool 地區賽等）要 cookies 且守每小時 ≤5 次；Champions 其餘比賽影片同理。匯入腳本 `import-tournament-teams.mjs` 目前不支援空技能。
-- 其他 backlog 見最後一節；31 隊缺努力值、審核覆蓋率偏低等未動。
+- 隊伍 813 隊（約 4050 隻），validate 0 ERR（51 WARN 皆為 Champions 雙 Mega 提示）。賽事 28 個（`data/events/`，索引 `index.json`），賽事規格 77 支影片（`tournament-specs/`）。
+- **比賽影片（官方比賽解說）**：Champions 公開 2 支（NAIC 2026 會員、世界賽 D1／決賽）＋會員 5 支（馬來西亞、韓國、日本全國賽二、世界賽二、巴爾的摩 2026）已抽；日本全國賽公開第一部（Champions `ZmCH9tKz6vE`、朱紫 2024 `P6S_SzoV26Y`、`fXy6_PqCro4`、`jlzirRzIlBg`）轉播只有小圖＋圖示，不抽（見 tools/yt/README.md）。朱紫公開 2024／2025 年比賽影片（約 60 支）**已全部抽完**。
+- **朱紫轉播卡片**：物種、特性、道具、四招、太晶屬性；無性格／性別／努力值（留空）。規則組一律用 `spec.event.regulation_set_id` 覆寫（影片多半不寫，靠賽事日期＋每隊限定神獸數推論；2024 年 2–4 月＝sv-reg-f，5–8 月＝sv-reg-g，9 月後＝sv-reg-h，2025 年 1–4 月＝sv-reg-g-2025，5–8 月＝sv-reg-i）。賽事 `date_approx` 皆為估計值，未用官方資料核對。
+- **會員佇列**（`/private/tmp/claude-501/tourney/m/queue.sh`／`queue2.sh`，只存在這台機器）：每支 1 次 720p 整支下載、間隔 ≥12 分鐘，cookies 檔 `~/_projects/www.youtube.com_cookies.txt`（不讀不提交）。已處理 Champions 5 支＋朱紫 qlqyk4HZGy0、19PpR0W2qk0、W2bkLeb0S5g、hDXCB1HiTRk；待處理：dLE-lpqNSIM（世界賽 2025 四，處理中）、KVDHWjf-bNk、1eZnYO-4uQ0、Liverpool 四部（lqa3EKpjQV4、x1aMTuWmXkw、AqD2a-S2cZw、By9wJ7CdTas）、A95rO0neaCg、8f3JGJd1Iy4、bxpEVZ8Q83I、gdQ_BDFyIGA。
+- **磁碟**：2026-11-13 曾因 `/private/tmp` 暫存影片寫滿磁碟（ENOSPC）使下載失敗；agent 要在抽完影格後刪暫存影片。
+- **會員短片 75 支**：2023 年 12 支已確認為公開影片同隊的延伸版（寫入公開隊伍 `related_video_ids`）；8 支不確定（`mHC9YuqyfmQ`、`pKmk6zGbkDY`、`g8W_4Rlkldw`、`yJ-XjMajwx4`、`145Yuis-vfM`、`blm0R8ztLH8`、`uZnip5S0vcQ`、`xULetDD2vcU`）要各抓一張影格核對。
+
+### 待核對／待辦（整批做完後處理）
+
+1. **Mega 特性記法不一致**：Champions 世界賽 2026 規格記 Mega 前的特性，馬來西亞／巴爾的摩 2026 記卡片顯示的特性（常是 Mega 後）。決定統一方式後整理。
+2. **以預設填招式的舊規格**：前 13 支朱紫規格（iZCz6VRcsd0、7V6DLchwra0、WY016nnsTzc、LvOdelMxhnM、31xBomuvMFw、yzmlnb9mJFk、zSLmQo0E5Pg、Jg2nzPaYQ8k、3POGhTssglU、7ub0b8EM3ZY、j6ZfmcPbsLQ、QGa_yG9y518、FqKOui2soUw）的產生器把被字幕擋住的招式填成「守住」，需重看影格核對、讀不到的改成不填。
+3. **局部字形判讀的招式／道具**：Wpgz1Z6YhnQ 等已改正文柚果＝Sitrus Berry；仍需抽驗的有 g3GW4KakDhA（Raging Bolt 的流星群）、m-boUrJaSqo（Nikhil 8 強的突擊背心）、jOn23r6uCq8（Yuta 的 Iron Valiant 指導）、6vwo00c7WTQ（Terapagos 晶光星群）、WY016nnsTzc 與 LvOdelMxhnM 兩份 Luca／Camporesi 太晶屬性對調。
+4. **Flutter Mane 招式疑點**：qzAy1IpBwfA（Andrew Ding，十萬伏特）與 hMTNHZvP4cg／34H3YTlqnW0（冰凍之風）。
+5. **道具中英對照誤配**：整批抽驗所有規格的道具中文名對照。
+6. **帶推論的決賽登記**：戈亞尼亞（C84KeeY9ejs）Pedro 決賽沿用 4 強、巴爾的摩 Ywc5u4aegTM Paul Chua 決賽沿用 8 強、LA niNoUWP5410 決賽沿用 4 強——招式未逐一重驗。
+7. 太晶徽章只靠圖示判讀，低信心以 `tera_conf` 標示（約 0.6–0.85）。
+8. 其他 backlog（31 隊缺努力值、審核覆蓋率、RAG 評測集重標等）見最後一節，未動。
 
 ## 現況（2026-11-08 17:30）
 

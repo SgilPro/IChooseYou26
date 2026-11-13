@@ -1,0 +1,4422 @@
+[
+  {
+    "id": "team_cUjZFoN9eTk_1",
+    "name": "Stephen Mea（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=105s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Stephen Mea",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-8__arbin-tumaneng__stephen-mea",
+    "player": "Stephen Mea",
+    "team_signature": "9d90639704a5",
+    "source_t_s": 105,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-水井面具",
+          "name_en": "Ogerpon-Wellspring",
+          "form": "Wellspring",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "儲水",
+          "value_en": "Water Absorb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水井面具",
+          "value_en": "Wellspring Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木角",
+            "value_en": "Horn Leech",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 970,
+          "name_zh": "晶光花",
+          "name_en": "Glimmora",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "毒滿地",
+          "value_en": "Toxic Debris",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "強力香草",
+          "value_en": "Power Herb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "流星光束",
+            "value_en": "Meteor Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "污泥炸彈",
+            "value_en": "Sludge Bomb",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "mea_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Stephen Mea 的隊伍表出現在影片 1:45。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Stephen Mea 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.812Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_2",
+    "name": "Arbin Tumaneng（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=255s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Arbin Tumaneng",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-8__arbin-tumaneng__stephen-mea",
+    "player": "Arbin Tumaneng",
+    "team_signature": "fbdf23f23cfe",
+    "source_t_s": 255,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "空氣斬",
+            "value_en": "Air Slash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊-赫月",
+          "name_en": "Ursaluna-Bloodmoon",
+          "form": "Bloodmoon",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心眼",
+          "value_en": "Mind's Eye",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "血月",
+            "value_en": "Blood Moon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "洗翠風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "tum_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Arbin Tumaneng 的隊伍表出現在影片 4:15。 與 team_cUjZFoN9eTk_5 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Arbin Tumaneng 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.817Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_3",
+    "name": "Luka Trejgut（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=1645s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Luka Trejgut",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-8__enzo-reci__luka-trejgut",
+    "player": "Luka Trejgut",
+    "team_signature": "baab47229c94",
+    "source_t_s": 1645,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1020,
+          "name_zh": "破空焰",
+          "name_en": "Gouging Fire",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "高溫重壓",
+            "value_en": "Heat Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域破壞",
+            "value_en": "Breaking Swipe",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "長嚎",
+            "value_en": "Howl",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "火焰守護",
+            "value_en": "Burning Bulwark",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-水井面具",
+          "name_en": "Ogerpon-Wellspring",
+          "form": "Wellspring",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "儲水",
+          "value_en": "Water Absorb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水井面具",
+          "value_en": "Wellspring Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木角",
+            "value_en": "Horn Leech",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "滅亡之歌",
+            "value_en": "Perish Song",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆斬將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色眼鏡",
+          "value_en": "Black Glasses",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "luka8_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Luka Trejgut 的隊伍表出現在影片 27:25。 與 team_cUjZFoN9eTk_8 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Luka Trejgut 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.817Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_4",
+    "name": "Enzo Reci（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=1765s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Enzo Reci",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-8__enzo-reci__luka-trejgut",
+    "player": "Enzo Reci",
+    "team_signature": "a966f0293cc8",
+    "source_t_s": 1765,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水井面具",
+          "value_en": "Wellspring Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 244,
+          "name_zh": "炎帝",
+          "name_en": "Entei",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "神聖之火",
+            "value_en": "Sacred Fire",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "跺腳",
+            "value_en": "Stomping Tantrum",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1000,
+          "name_zh": "賽富豪",
+          "name_en": "Gholdengo",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "黃金之軀",
+          "value_en": "Good as Gold",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "金屬膜",
+          "value_en": "Metal Coat",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "淘金潮",
+            "value_en": "Make It Rain",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 235,
+          "name_zh": "圖圖犬",
+          "name_en": "Smeargle",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心情不定",
+          "value_en": "Moody",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊-赫月",
+          "name_en": "Ursaluna-Bloodmoon",
+          "form": "Bloodmoon",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心眼",
+          "value_en": "Mind's Eye",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "血月",
+            "value_en": "Blood Moon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "飛行",
+          "value_en": "Flying",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "打草結",
+            "value_en": "Grass Knot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "enzo_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Enzo Reci 的隊伍表出現在影片 29:25。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Enzo Reci 的公開配置（Top 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_5",
+    "name": "Arbin Tumaneng（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=2812s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Arbin Tumaneng",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-4__arbin-tumaneng__nicholas-donnelly",
+    "player": "Arbin Tumaneng",
+    "team_signature": "fbdf23f23cfe",
+    "source_t_s": 2812,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "空氣斬",
+            "value_en": "Air Slash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊-赫月",
+          "name_en": "Ursaluna-Bloodmoon",
+          "form": "Bloodmoon",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心眼",
+          "value_en": "Mind's Eye",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "血月",
+            "value_en": "Blood Moon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究頭帶",
+          "value_en": "Choice Band",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神衝擊",
+            "value_en": "Psyshock",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 59,
+          "name_zh": "洗翠風速狗",
+          "name_en": "Arcanine-Hisui",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "岩崩",
+            "value_en": "Rock Slide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "神速",
+            "value_en": "Extreme Speed",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "tum4_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Arbin Tumaneng 的隊伍表出現在影片 46:52。 與 team_cUjZFoN9eTk_2 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Arbin Tumaneng 的公開配置（Top 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_6",
+    "name": "Nicholas Donnelly（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=2850s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Nicholas Donnelly",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-4__arbin-tumaneng__nicholas-donnelly",
+    "player": "Nicholas Donnelly",
+    "team_signature": "43388b11ad02",
+    "source_t_s": 2850,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "重磅衝撞",
+            "value_en": "Heavy Slam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "封印",
+            "value_en": "Imprison",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊-赫月",
+          "name_en": "Ursaluna-Bloodmoon",
+          "form": "Bloodmoon",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心眼",
+          "value_en": "Mind's Eye",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "血月",
+            "value_en": "Blood Moon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-火灶面具",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "don4_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Nicholas Donnelly 的隊伍表出現在影片 47:30。 與 team_cUjZFoN9eTk_10 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Nicholas Donnelly 的公開配置（Top 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_7",
+    "name": "Wolfe Glick（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=3613s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Wolfe Glick",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-4__luka-trejgut__wolfe-glick",
+    "player": "Wolfe Glick",
+    "team_signature": "847b0f7b8885",
+    "source_t_s": 3613,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-連擊流",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冥想",
+            "value_en": "Calm Mind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-火灶面具",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "wolfe4_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Wolfe Glick 的隊伍表出現在影片 60:13。 與 team_cUjZFoN9eTk_9 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Wolfe Glick 的公開配置（Top 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_8",
+    "name": "Luka Trejgut（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=3645s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Luka Trejgut",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__top-4__luka-trejgut__wolfe-glick",
+    "player": "Luka Trejgut",
+    "team_signature": "baab47229c94",
+    "source_t_s": 3645,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1020,
+          "name_zh": "破空焰",
+          "name_en": "Gouging Fire",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "高溫重壓",
+            "value_en": "Heat Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域破壞",
+            "value_en": "Breaking Swipe",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "長嚎",
+            "value_en": "Howl",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "火焰守護",
+            "value_en": "Burning Bulwark",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-水井面具",
+          "name_en": "Ogerpon-Wellspring",
+          "form": "Wellspring",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "儲水",
+          "value_en": "Water Absorb",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "水井面具",
+          "value_en": "Wellspring Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木角",
+            "value_en": "Horn Leech",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 1002,
+          "name_zh": "古劍豹",
+          "name_en": "Chien-Pao",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之劍",
+          "value_en": "Sword of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "冰柱墜擊",
+            "value_en": "Icicle Crash",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "聖劍",
+            "value_en": "Sacred Sword",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "滅亡之歌",
+            "value_en": "Perish Song",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 983,
+          "name_zh": "仆斬將軍",
+          "name_en": "Kingambit",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "不服輸",
+          "value_en": "Defiant",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "黑色眼鏡",
+          "value_en": "Black Glasses",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "仆斬",
+            "value_en": "Kowtow Cleave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "luka4_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Luka Trejgut 的隊伍表出現在影片 60:45。 與 team_cUjZFoN9eTk_3 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Luka Trejgut 的公開配置（Top 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_9",
+    "name": "Wolfe Glick（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=4975s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Wolfe Glick",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__finals__nicholas-donnelly__wolfe-glick",
+    "player": "Wolfe Glick",
+    "team_signature": "847b0f7b8885",
+    "source_t_s": 4975,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-連擊流",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暗影球",
+            "value_en": "Shadow Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冥想",
+            "value_en": "Calm Mind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-火灶面具",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "劍舞",
+            "value_en": "Swords Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "毒",
+          "value_en": "Poison",
+          "confidence": 0.8,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "wolfeF_11.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Wolfe Glick 的隊伍表出現在影片 82:55。 與 team_cUjZFoN9eTk_7 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Wolfe Glick 的公開配置（Finals 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_cUjZFoN9eTk_10",
+    "name": "Nicholas Donnelly（CLT 2024）",
+    "name_source": "manual",
+    "video_id": "cUjZFoN9eTk",
+    "video_url": "https://www.youtube.com/watch?v=cUjZFoN9eTk&t=5005s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-f",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Nicholas Donnelly",
+    "author_source": "frame",
+    "event_id": "charlotte-2024",
+    "match_id": "charlotte-2024__finals__nicholas-donnelly__wolfe-glick",
+    "player": "Nicholas Donnelly",
+    "team_signature": "43388b11ad02",
+    "source_t_s": 5005,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "重磅衝撞",
+            "value_en": "Heavy Slam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus-Incarnate",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "鋼",
+          "value_en": "Steel",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "文柚果",
+          "value_en": "Sitrus Berry",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "封印",
+            "value_en": "Imprison",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "魔法閃耀",
+            "value_en": "Dazzling Gleam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 901,
+          "name_zh": "月月熊-赫月",
+          "name_en": "Ursaluna-Bloodmoon",
+          "form": "Bloodmoon",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "心眼",
+          "value_en": "Mind's Eye",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "生命寶珠",
+          "value_en": "Life Orb",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "血月",
+            "value_en": "Blood Moon",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-火灶面具",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "donF_05.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。 選手 Nicholas Donnelly 的隊伍表出現在影片 83:25。 與 team_cUjZFoN9eTk_6 的配置完全相同（同一隊伍被不同選手使用）。",
+    "notes": "2024 美國夏洛特地區賽（2024 Charlotte Regional Championships）選手 Nicholas Donnelly 的公開配置（Finals 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T08:51:22.818Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  }
+]

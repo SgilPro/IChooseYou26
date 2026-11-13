@@ -1,0 +1,956 @@
+{
+  "video_id": "cUjZFoN9eTk",
+  "event": {
+    "id": "charlotte-2024",
+    "name_zh": "2024 美國夏洛特地區賽",
+    "name_en": "2024 Charlotte Regional Championships",
+    "game": "sv",
+    "abbr": "CLT",
+    "year": 2024,
+    "date_approx": "2024-02",
+    "regulation_set_id": "sv-reg-f"
+  },
+  "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章，已逐隻放大並與型態／招式屬性圖示比對）；沒有性格、性別、努力值、能力值，這些欄位留空。隊伍表為單隊 3×2 格，疊在解說席畫面的左側或右側。龍捲雲（化身形態）的太晶徽章為青灰色鋼系圖樣（與賽富豪、鐵臂膀的鋼系徽章相同），tera_conf 設 0.85；轟擂金剛猩（Wolfe Glick）的毒系徽章（紫色、與超能力易混）tera_conf 0.8。",
+  "note": "Fiske 講比賽（公開影片，標題「美國 夏洛特地區賽（四）」，章節：八強賽第一桌、第二桌、四強賽第一桌、第二桌、決賽；影片發布於 2024-02-26）。同賽事其他影片：9PiaifpzA-k、AYjIbLUWs2o、574xG2U_-UY。規則 F（無限制級傳說）：發布日 2024-02-26 落在 sv-reg-f（2024-01-04～2024-04-30），且各隊 6 隻中沒有限制級傳說／幻獸（悖謬：振翼髮、鐵臂膀、破空焰，Reg F 允許；災禍之寶的古玉魚、古劍豹炎帝、厄鬼椪、龍捲雲化身形態、赫月月熊、洗翠風速狗皆非限制級）。選手姓名取自畫面計分板（名牌拼法 Arbin Tumaneng）。八強賽只播出 2 場（Mea vs Tumaneng、Trejgut vs Reci），四強賽 2 場、決賽 1 場，共 5 場、每場兩隊。四強賽與決賽的隊伍表皆在該章節畫面（720p 影格）重新逐隻讀取，並與八強賽首次出現的隊伍表（Tumaneng、Trejgut）及本賽事 Swiss 影片（574xG2U_-UY：Mea、Trejgut、Donnelly、Wolfe 的隊伍）逐一比對，六隻、技能、特性、道具、太晶皆相同。所有技能、特性、道具、太晶徽章皆清楚可讀，沒有猜測補欄。date_approx 為估計（未驗證）。",
+  "matches": [
+    {
+      "round": "Top 8",
+      "players": [
+        "Stephen Mea",
+        "Arbin Tumaneng"
+      ],
+      "header_t_s": 0
+    },
+    {
+      "round": "Top 8",
+      "players": [
+        "Luka Trejgut",
+        "Enzo Reci"
+      ],
+      "header_t_s": 1620
+    },
+    {
+      "round": "Top 4",
+      "players": [
+        "Nicholas Donnelly",
+        "Arbin Tumaneng"
+      ],
+      "header_t_s": 2804
+    },
+    {
+      "round": "Top 4",
+      "players": [
+        "Wolfe Glick",
+        "Luka Trejgut"
+      ],
+      "header_t_s": 3604
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Wolfe Glick",
+        "Nicholas Donnelly"
+      ],
+      "header_t_s": 4955
+    }
+  ],
+  "teams": [
+    {
+      "player": "Stephen Mea",
+      "round": "Top 8",
+      "t_s": 105,
+      "frames": [
+        "mea_05.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "看我嘛",
+            "尖刺防守",
+            "木角"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "晶光花",
+          "en": "Glimmora",
+          "ability": "毒滿地",
+          "item": "Power Herb",
+          "tera": "Grass",
+          "moves": [
+            "流星光束",
+            "大地之力",
+            "尖刺防守",
+            "污泥炸彈"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "魔法閃耀",
+            "守住",
+            "月亮之力",
+            "冰凍之風"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Choice Specs",
+          "tera": "Fire",
+          "moves": [
+            "熱風",
+            "惡之波動",
+            "大聲咆哮",
+            "過熱"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "突襲",
+            "近身戰",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Rocky Helmet",
+          "tera": "Steel",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "守住",
+            "大晴天"
+          ],
+          "tera_conf": 0.85
+        }
+      ]
+    },
+    {
+      "player": "Arbin Tumaneng",
+      "round": "Top 8",
+      "t_s": 255,
+      "frames": [
+        "tum_05.png"
+      ],
+      "members": [
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Ghost",
+          "moves": [
+            "空氣斬",
+            "順風",
+            "挑釁",
+            "守住"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "大地之力",
+            "血月",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Choice Band",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "冰凍之風"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Throat Spray",
+          "tera": "Water",
+          "moves": [
+            "巨聲",
+            "精神衝擊",
+            "幫助",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Dark",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "神速",
+            "大聲咆哮"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Luka Trejgut",
+      "round": "Top 8",
+      "t_s": 1645,
+      "frames": [
+        "luka8_05.png"
+      ],
+      "members": [
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "長嚎",
+            "火焰守護"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "冰柱墜擊",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "暗影球",
+            "魔法閃耀",
+            "月亮之力",
+            "滅亡之歌"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Dark",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "劍舞",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Enzo Reci",
+      "round": "Top 8",
+      "t_s": 1765,
+      "frames": [
+        "enzo_05.png"
+      ],
+      "members": [
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Wellspring Mask",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "炎帝",
+          "en": "Entei",
+          "ability": "精神力",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "神聖之火",
+            "神速",
+            "跺腳",
+            "太晶爆發"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Metal Coat",
+          "tera": "Steel",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "圖圖犬",
+          "en": "Smeargle",
+          "ability": "心情不定",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "蘑菇孢子",
+            "看我嘛",
+            "廣域防守",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Throat Spray",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "血月",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Flying",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "打草結",
+            "挑釁"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Arbin Tumaneng",
+      "round": "Top 4",
+      "t_s": 2812,
+      "frames": [
+        "tum4_05.png"
+      ],
+      "members": [
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Ghost",
+          "moves": [
+            "空氣斬",
+            "順風",
+            "挑釁",
+            "守住"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "大地之力",
+            "血月",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Choice Band",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "冰凍之風"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Throat Spray",
+          "tera": "Water",
+          "moves": [
+            "巨聲",
+            "精神衝擊",
+            "幫助",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Dark",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "神速",
+            "大聲咆哮"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Nicholas Donnelly",
+      "round": "Top 4",
+      "t_s": 2850,
+      "frames": [
+        "don4_05.png"
+      ],
+      "members": [
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Clear Amulet",
+          "tera": "Grass",
+          "moves": [
+            "擊掌奇襲",
+            "瘋狂伏特",
+            "近身戰",
+            "重磅衝撞"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Steel",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "冰凍之風",
+            "挑釁"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "封印",
+            "戲法空間",
+            "魔法閃耀",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "血月",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "木槌",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        }
+      ]
+    },
+    {
+      "player": "Wolfe Glick",
+      "round": "Top 4",
+      "t_s": 3613,
+      "frames": [
+        "wolfe4_05.png"
+      ],
+      "members": [
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "擊掌奇襲",
+            "拍落",
+            "閃焰衝鋒",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Grass",
+          "moves": [
+            "守住",
+            "暗影球",
+            "月亮之力",
+            "冥想"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Throat Spray",
+          "tera": "Fairy",
+          "moves": [
+            "守住",
+            "精神強念",
+            "巨聲",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "尖刺防守",
+            "棘藤棒",
+            "劍舞",
+            "青草滑梯"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Poison",
+          "moves": [
+            "擊掌奇襲",
+            "木槌",
+            "急速折返",
+            "青草滑梯"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Luka Trejgut",
+      "round": "Top 4",
+      "t_s": 3645,
+      "frames": [
+        "luka4_05.png"
+      ],
+      "members": [
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "長嚎",
+            "火焰守護"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "冰柱墜擊",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "暗影球",
+            "魔法閃耀",
+            "月亮之力",
+            "滅亡之歌"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Dark",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "劍舞",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Wolfe Glick",
+      "round": "Finals",
+      "t_s": 4975,
+      "frames": [
+        "wolfeF_11.png"
+      ],
+      "members": [
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "擊掌奇襲",
+            "拍落",
+            "閃焰衝鋒",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Grass",
+          "moves": [
+            "守住",
+            "暗影球",
+            "月亮之力",
+            "冥想"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Throat Spray",
+          "tera": "Fairy",
+          "moves": [
+            "守住",
+            "精神強念",
+            "巨聲",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "尖刺防守",
+            "棘藤棒",
+            "劍舞",
+            "青草滑梯"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Poison",
+          "moves": [
+            "擊掌奇襲",
+            "木槌",
+            "急速折返",
+            "青草滑梯"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Nicholas Donnelly",
+      "round": "Finals",
+      "t_s": 5005,
+      "frames": [
+        "donF_05.png"
+      ],
+      "members": [
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Clear Amulet",
+          "tera": "Grass",
+          "moves": [
+            "擊掌奇襲",
+            "瘋狂伏特",
+            "近身戰",
+            "重磅衝撞"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Steel",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "冰凍之風",
+            "挑釁"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "封印",
+            "戲法空間",
+            "魔法閃耀",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "巨聲",
+            "血月",
+            "大地之力",
+            "守住"
+          ],
+          "form": "Bloodmoon"
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "木槌",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        }
+      ]
+    }
+  ]
+}
