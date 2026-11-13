@@ -1,7 +1,16 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
-> 最後更新：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+> 最後更新：2026-11-13（見下方「最新現況」；本行以後的內容為 11-09 舊版）
+> 舊註：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
+
+## 最新現況（2026-11-13，以此為準；下方 11-08／11-09 的表與待辦已過時）
+
+- 隊伍 360 隊、1278 隻，validate 0 ERR（32 WARN 皆為雙 Mega 提示）。賽事資料 2 個：`naic-2026`、`worlds-2026`（`data/events/`）。
+- 會員影片：有章節的隊伍介紹已全抽完；會員短片 12 支確認為同期公開影片同隊的延伸版，已刪殼、寫入公開隊伍的 `related_video_ids`；仍待處理 75 支（約 8 支需各抓一張影格核對是否同隊：`mHC9YuqyfmQ`、`pKmk6zGbkDY`、`g8W_4Rlkldw`、`yJ-XjMajwx4`、`145Yuis-vfM`、`blm0R8ztLH8`、`uZnip5S0vcQ`、`xULetDD2vcU`）。會員下載頻率維持每小時 ≤5 次、間隔 12 分鐘。
+- 比賽影片（官方比賽解說 90 支）已抽：`8ACL1XG0vjI`（NAIC）、`RyYI7S_Jcfc`（世界賽 D1）、`OXRky0qvDuI`（世界賽決賽三組別）。`ZmCH9tKz6vE`（日本全國賽）轉播只有圖示，不抽（見 tools/yt/README.md）。
+- 下一步：朱紫比賽影片（公開 68 支、會員 11 支）先抽一支 2025 年的樣本看轉播格式，有完整隊伍卡再批次；其餘 Champions 比賽影片同理。匯入腳本 `import-tournament-teams.mjs` 目前不支援空技能。
+- 其他 backlog 見最後一節；31 隊缺努力值、審核覆蓋率偏低等未動。
 
 ## 現況（2026-11-08 17:30）
 
