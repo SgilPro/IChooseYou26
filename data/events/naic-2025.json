@@ -1,0 +1,87 @@
+{
+  "id": "naic-2025",
+  "name_zh": "2025 北美洲國際賽",
+  "name_en": "2025 North America International Championships",
+  "game": "sv",
+  "date_approx": "2025-06",
+  "abbr": "NAIC",
+  "year": 2025,
+  "regulation_set_id": "sv-reg-i",
+  "matches": [
+    {
+      "id": "naic-2025__swiss-round-10__kazuki-kobayashi__yuma-kinugawa",
+      "round": "Swiss Round 10",
+      "players": [
+        {
+          "name": "Yuma Kinugawa",
+          "team_ids": [
+            "team_LvOdelMxhnM_1"
+          ]
+        },
+        {
+          "name": "Kazuki Kobayashi",
+          "team_ids": [
+            "team_LvOdelMxhnM_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "LvOdelMxhnM",
+          "header_t_s": 100,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2025__top-8__eric-rios__francesco-pio-pero",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_LvOdelMxhnM_3"
+          ]
+        },
+        {
+          "name": "Francesco Pio Pero",
+          "team_ids": [
+            "team_LvOdelMxhnM_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "LvOdelMxhnM",
+          "header_t_s": 1784,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2025__finals__federico-camporesi__marco-silva",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Federico Camporesi",
+          "team_ids": [
+            "team_LvOdelMxhnM_5"
+          ]
+        },
+        {
+          "name": "Marco Silva",
+          "team_ids": [
+            "team_LvOdelMxhnM_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "LvOdelMxhnM",
+          "header_t_s": 2951,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
