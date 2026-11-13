@@ -43,7 +43,7 @@ spec.teams.forEach((t, i) => {
     if (!dexSp.exists) miss("species", x.en);
     const megaSuffix = x.mega ? `-${x.mega}` : "";
     const nameEn = x.mega ? `${base}${x.mega === "Mega" ? "-Mega" : "-" + x.mega}` : x.en;
-    const ab = dex.abilities.get(({ "人馬一體": x.en === "Calyrex-Ice" ? "As One (Glastrier)" : x.en === "Calyrex-Shadow" ? "As One (Spectrier)" : "" })[x.ability] || N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality" })[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
+    const ab = dex.abilities.get(({ "人馬一體": x.en === "Calyrex-Ice" ? "As One (Glastrier)" : x.en === "Calyrex-Shadow" ? "As One (Spectrier)" : "" })[x.ability] || N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality", "漂浮": "Levitate" })[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
     const it = dex.items.get(x.item); if (!it.exists) miss("item", x.item);
     const nat = x.nature ?? null; const natCn = nat ? (natZh[nat] || nat) : null;
     const teraEn = x.tera ?? null; const teraZh = teraEn ? (TYPE_ZH[teraEn] ?? null) : null;

@@ -1,0 +1,87 @@
+{
+  "id": "dortmund-2024-11",
+  "name_zh": "2024 德國多特蒙德地區賽（11 月）",
+  "name_en": "2024 Dortmund Regional Championships (November)",
+  "game": "sv",
+  "date_approx": "2024-11",
+  "abbr": "DORT",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "dortmund-2024-11__swiss-round-10__fevzi-o-zkan__jack-clarke",
+      "round": "Swiss Round 10",
+      "players": [
+        {
+          "name": "Jack Clarke",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_1"
+          ]
+        },
+        {
+          "name": "Fevzi Özkan",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Jg2nzPaYQ8k",
+          "header_t_s": 68,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-11__top-8__fevzi-o-zkan__nicolo-berardo",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Fevzi Özkan",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_3"
+          ]
+        },
+        {
+          "name": "Nicolò Berardo",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Jg2nzPaYQ8k",
+          "header_t_s": 1334,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-11__finals__davide-miraglia__mattie-morgan",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Mattie Morgan",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_5"
+          ]
+        },
+        {
+          "name": "Davide Miraglia",
+          "team_ids": [
+            "team_Jg2nzPaYQ8k_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Jg2nzPaYQ8k",
+          "header_t_s": 2708,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

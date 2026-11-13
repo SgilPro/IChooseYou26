@@ -1,0 +1,573 @@
+{
+  "video_id": "Jg2nzPaYQ8k",
+  "event": {
+    "id": "dortmund-2024-11",
+    "name_zh": "2024 德國多特蒙德地區賽（11 月）",
+    "name_en": "2024 Dortmund Regional Championships (November)",
+    "game": "sv",
+    "date_approx": "2024-11",
+    "abbr": "DORT",
+    "year": 2024,
+    "regulation_set_id": "sv-reg-h"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「德國 多特蒙德地區賽（二）」，章節：Day 2 使用率、Swiss 第 10 輪、八強賽、決賽；影片發布於 2024-11-22）。賽事為 2024 年 11 月的多特蒙德地區賽（與 2024-03 的多特蒙德地區賽不同場）。賽制為規則 H（無神獸）：影片未明講規則字母，依發布日落在 sv-reg-h（2024-09-01 至 2025-01-05），且 24 隻寶可夢中沒有任何限制級傳說、幻獸、悖謬或準傳說。Fevzi Özkan 的 Swiss 第 10 輪與八強賽隊伍相同（各登錄一次）。顫弦蠑螈（Amped／Low Key）與一家鼠（三口／四口）的型態畫面看不出，form 留空。賽事實際日期未從影片取得，date_approx 以 2024-11 估計。",
+  "matches": [
+    {
+      "round": "Swiss Round 10",
+      "players": [
+        "Jack Clarke",
+        "Fevzi Özkan"
+      ],
+      "header_t_s": 68
+    },
+    {
+      "round": "Top 8",
+      "players": [
+        "Fevzi Özkan",
+        "Nicolò Berardo"
+      ],
+      "header_t_s": 1334
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Mattie Morgan",
+        "Davide Miraglia"
+      ],
+      "header_t_s": 2708
+    }
+  ],
+  "teams": [
+    {
+      "player": "Jack Clarke",
+      "round": "Swiss Round 10",
+      "t_s": 143,
+      "frames": [
+        "f_143.png"
+      ],
+      "members": [
+        {
+          "zh": "顫弦蠑螈",
+          "en": "Toxtricity",
+          "ability": "龐克搖滾",
+          "item": "Choice Specs",
+          "tera": "Normal",
+          "moves": [
+            "破音",
+            "污泥炸彈",
+            "爆音波",
+            "伏特替換"
+          ]
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Life Orb",
+          "tera": "Fairy",
+          "moves": [
+            "蟲鳴",
+            "熱風",
+            "太晶爆發",
+            "守住"
+          ]
+        },
+        {
+          "zh": "愛管侍-雄性的樣子",
+          "en": "Indeedee",
+          "ability": "精神製造者",
+          "item": "Focus Sash",
+          "tera": "Ground",
+          "moves": [
+            "廣域戰力",
+            "太晶爆發",
+            "封印",
+            "戲法空間"
+          ],
+          "form": "Male"
+        },
+        {
+          "zh": "隨風球",
+          "en": "Drifblim",
+          "ability": "輕裝",
+          "item": "Psychic Seed",
+          "tera": "Grass",
+          "moves": [
+            "雜技",
+            "鬼火",
+            "吸取力量",
+            "順風"
+          ]
+        },
+        {
+          "zh": "三首惡龍",
+          "en": "Hydreigon",
+          "ability": "漂浮",
+          "item": "Assault Vest",
+          "tera": "Ghost",
+          "moves": [
+            "惡之波動",
+            "流星群",
+            "大地之力",
+            "大聲咆哮"
+          ]
+        },
+        {
+          "zh": "杖尾鱗甲龍",
+          "en": "Kommo-o",
+          "ability": "隔音",
+          "item": "Leftovers",
+          "tera": "Fire",
+          "moves": [
+            "撲擊",
+            "噴射火焰",
+            "鐵壁",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Fevzi Özkan",
+      "round": "Swiss Round 10",
+      "t_s": 207,
+      "frames": [
+        "f_207.png"
+      ],
+      "members": [
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "款待",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "刷刷茶炮",
+            "戲法空間",
+            "生命水滴",
+            "憤怒粉"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "tera": "Ghost",
+          "moves": [
+            "電磁波",
+            "光牆",
+            "反射壁",
+            "靈魂衝擊"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Life Orb",
+          "tera": "Stellar",
+          "moves": [
+            "暴風",
+            "氣象球",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "龍之波動",
+            "電光束",
+            "大聲咆哮",
+            "撲擊"
+          ]
+        },
+        {
+          "zh": "一家鼠",
+          "en": "Maushold",
+          "ability": "友情防守",
+          "item": "Safety Goggles",
+          "tera": "Fairy",
+          "moves": [
+            "看我嘛",
+            "挑釁",
+            "圍攻",
+            "守住"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Leftovers",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "健美",
+            "吸取拳",
+            "憤怒之拳"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Fevzi Özkan",
+      "round": "Top 8",
+      "t_s": 1346,
+      "frames": [
+        "f_1346.png"
+      ],
+      "members": [
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "款待",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "刷刷茶炮",
+            "戲法空間",
+            "生命水滴",
+            "憤怒粉"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "tera": "Ghost",
+          "moves": [
+            "電磁波",
+            "光牆",
+            "反射壁",
+            "靈魂衝擊"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Life Orb",
+          "tera": "Stellar",
+          "moves": [
+            "暴風",
+            "氣象球",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "龍之波動",
+            "電光束",
+            "大聲咆哮",
+            "撲擊"
+          ]
+        },
+        {
+          "zh": "一家鼠",
+          "en": "Maushold",
+          "ability": "友情防守",
+          "item": "Safety Goggles",
+          "tera": "Fairy",
+          "moves": [
+            "看我嘛",
+            "挑釁",
+            "圍攻",
+            "守住"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Leftovers",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "健美",
+            "吸取拳",
+            "憤怒之拳"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Nicolò Berardo",
+      "round": "Top 8",
+      "t_s": 1370,
+      "frames": [
+        "f_1370.png"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "急速折返",
+            "青草滑梯",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "多龍巴魯托",
+          "en": "Dragapult",
+          "ability": "恆淨之軀",
+          "item": "Choice Band",
+          "tera": "Dragon",
+          "moves": [
+            "龍箭",
+            "急速折返",
+            "潛靈奇襲",
+            "逆鱗"
+          ]
+        },
+        {
+          "zh": "西獅海王",
+          "en": "Primarina",
+          "ability": "濕潤之聲",
+          "item": "Throat Spray",
+          "tera": "Poison",
+          "moves": [
+            "守住",
+            "巨聲",
+            "月亮之力",
+            "黑霧"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "毒手",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "剋命爪",
+            "近身戰",
+            "守住",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "電擊獸",
+          "en": "Electabuzz",
+          "ability": "幹勁",
+          "item": "Eviolite",
+          "tera": "Fairy",
+          "moves": [
+            "電網",
+            "挑釁",
+            "守住",
+            "看我嘛"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Dark",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Mattie Morgan",
+      "round": "Finals",
+      "t_s": 2768,
+      "frames": [
+        "f_2768.png"
+      ],
+      "members": [
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "污泥炸彈",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Ice",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "毒手",
+          "item": "Focus Sash",
+          "tera": "Flying",
+          "moves": [
+            "近身戰",
+            "剋命爪",
+            "指導",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "多邊獸II",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Ground",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Clear Amulet",
+          "tera": "Fire",
+          "moves": [
+            "地震",
+            "踩腳",
+            "龍爪",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Davide Miraglia",
+      "round": "Finals",
+      "t_s": 2833,
+      "frames": [
+        "f_2833.png"
+      ],
+      "members": [
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "大晴天",
+            "再來一次",
+            "順風",
+            "月亮之力"
+          ]
+        },
+        {
+          "zh": "三首惡龍",
+          "en": "Hydreigon",
+          "ability": "漂浮",
+          "item": "Choice Specs",
+          "tera": "Fire",
+          "moves": [
+            "熱風",
+            "大聲咆哮",
+            "惡之波動",
+            "流星群"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Metal Coat",
+          "tera": "Ice",
+          "moves": [
+            "守住",
+            "詭計",
+            "暗影球",
+            "淘金潮"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "健美",
+            "吸取拳",
+            "憤怒之拳"
+          ]
+        },
+        {
+          "zh": "皮可西",
+          "en": "Clefable",
+          "ability": "純樸",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "看我嘛",
+            "薄霧場地",
+            "月亮之力"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Life Orb",
+          "tera": "Ice",
+          "moves": [
+            "守住",
+            "踩腳",
+            "龍爪",
+            "地震"
+          ]
+        }
+      ]
+    }
+  ]
+}

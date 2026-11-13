@@ -1,0 +1,87 @@
+{
+  "id": "laic-2025",
+  "name_zh": "2025 南美洲國際賽",
+  "name_en": "2025 Latin America International Championships",
+  "game": "sv",
+  "date_approx": "2024-12",
+  "abbr": "LAIC",
+  "year": 2025,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "laic-2025__top-8__a-lex-go-mez-berna__ashton-cox",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Ashton Cox",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_1"
+          ]
+        },
+        {
+          "name": "Àlex Gómez Berna",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "zSLmQo0E5Pg",
+          "header_t_s": 0,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2025__juniors-finals__carlos-vera-stegui__pietro-silva",
+      "round": "Juniors Finals",
+      "players": [
+        {
+          "name": "Pietro Silva",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_3"
+          ]
+        },
+        {
+          "name": "Carlos Verástegui",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "zSLmQo0E5Pg",
+          "header_t_s": 2252,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2025__finals__marco-silva__vi-ctor-medina",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Marco Silva",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_5"
+          ]
+        },
+        {
+          "name": "Víctor Medina",
+          "team_ids": [
+            "team_zSLmQo0E5Pg_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "zSLmQo0E5Pg",
+          "header_t_s": 3426,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
