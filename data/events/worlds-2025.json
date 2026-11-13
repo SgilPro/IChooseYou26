@@ -1,0 +1,87 @@
+{
+  "id": "worlds-2025",
+  "name_zh": "2025 寶可夢世界冠軍賽",
+  "name_en": "2025 Pokémon World Championships",
+  "game": "sv",
+  "date_approx": "2025-08",
+  "abbr": "Worlds",
+  "year": 2025,
+  "regulation_set_id": "sv-reg-i",
+  "matches": [
+    {
+      "id": "worlds-2025__top-16__ko-tsukide__nick-navarre",
+      "round": "Top 16",
+      "players": [
+        {
+          "name": "Nick Navarre",
+          "team_ids": [
+            "team_7V6DLchwra0_1"
+          ]
+        },
+        {
+          "name": "Ko Tsukide",
+          "team_ids": [
+            "team_7V6DLchwra0_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7V6DLchwra0",
+          "header_t_s": 30,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2025__top-4__james-evans__montana-mott",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "James Evans",
+          "team_ids": [
+            "team_7V6DLchwra0_3"
+          ]
+        },
+        {
+          "name": "Montana Mott",
+          "team_ids": [
+            "team_7V6DLchwra0_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7V6DLchwra0",
+          "header_t_s": 2955,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2025__top-4__giovanni-cischke__hirofumi-kimura",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Giovanni Cischke",
+          "team_ids": [
+            "team_7V6DLchwra0_5"
+          ]
+        },
+        {
+          "name": "Hirofumi Kimura",
+          "team_ids": [
+            "team_7V6DLchwra0_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7V6DLchwra0",
+          "header_t_s": 4318,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
