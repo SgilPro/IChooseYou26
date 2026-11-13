@@ -1,0 +1,87 @@
+{
+  "id": "japan-nationals-2026",
+  "name_zh": "2026 日本全國冠軍賽",
+  "name_en": "2026 Japan National Championships",
+  "game": "champions",
+  "date_approx": "2026-06",
+  "abbr": "JPN",
+  "year": 2026,
+  "regulation_set_id": "champions-m-a",
+  "matches": [
+    {
+      "id": "japan-nationals-2026__top-8__kohei-watanabe__rinya-kobayashi",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Rinya Kobayashi",
+          "team_ids": [
+            "team_UyrM7oewUuo_1"
+          ]
+        },
+        {
+          "name": "Kohei Watanabe",
+          "team_ids": [
+            "team_UyrM7oewUuo_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "UyrM7oewUuo",
+          "header_t_s": 0,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "japan-nationals-2026__top-8__ryusei-yamane__shota-hongu",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Ryusei Yamane",
+          "team_ids": [
+            "team_UyrM7oewUuo_3"
+          ]
+        },
+        {
+          "name": "Shota Hongu",
+          "team_ids": [
+            "team_UyrM7oewUuo_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "UyrM7oewUuo",
+          "header_t_s": 1126,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "japan-nationals-2026__finals__hiroshi-onishi__rintaro-arai",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Rintaro Arai",
+          "team_ids": [
+            "team_UyrM7oewUuo_5"
+          ]
+        },
+        {
+          "name": "Hiroshi Onishi",
+          "team_ids": [
+            "team_UyrM7oewUuo_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "UyrM7oewUuo",
+          "header_t_s": 3011,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

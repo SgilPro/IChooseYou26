@@ -1,0 +1,87 @@
+{
+  "id": "stockholm-2024",
+  "name_zh": "2024 瑞典斯德哥爾摩地區賽",
+  "name_en": "2024 Stockholm Regional Championships",
+  "game": "sv",
+  "date_approx": "2024-05",
+  "abbr": "STO",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "stockholm-2024__swiss-round-3__guillermo-castilla__javier-sen-orena",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Guillermo Castilla",
+          "team_ids": [
+            "team_Naygg_y_-q8_1"
+          ]
+        },
+        {
+          "name": "Javier Señorena",
+          "team_ids": [
+            "team_Naygg_y_-q8_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Naygg_y_-q8",
+          "header_t_s": 224,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "stockholm-2024__swiss-round-4__flavio-del-pidio__frederik-h-j-nielsen",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Frederik Høj Nielsen",
+          "team_ids": [
+            "team_Naygg_y_-q8_3"
+          ]
+        },
+        {
+          "name": "Flavio Del Pidio",
+          "team_ids": [
+            "team_Naygg_y_-q8_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Naygg_y_-q8",
+          "header_t_s": 2829,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "stockholm-2024__swiss-round-5__aure-lien-soula__nils-dunlop",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Nils Dunlop",
+          "team_ids": [
+            "team_Naygg_y_-q8_5"
+          ]
+        },
+        {
+          "name": "Aurélien Soula",
+          "team_ids": [
+            "team_Naygg_y_-q8_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "Naygg_y_-q8",
+          "header_t_s": 4987,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

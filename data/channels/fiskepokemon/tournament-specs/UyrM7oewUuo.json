@@ -1,0 +1,586 @@
+{
+  "video_id": "UyrM7oewUuo",
+  "event": {
+    "id": "japan-nationals-2026",
+    "name_zh": "2026 日本全國冠軍賽",
+    "name_en": "2026 Japan National Championships",
+    "game": "champions",
+    "date_approx": "2026-06",
+    "abbr": "JPN",
+    "year": 2026,
+    "regulation_set_id": "champions-m-a"
+  },
+  "note": "Fiske 講比賽（會員影片，日本全國冠軍賽二）。轉播畫面為繁體中文遊戲 UI 的隊伍表：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 寶可夢顯示的是 Mega 後特性。本片收錄 Top 8 兩場（主桌、副桌錄影）與 Finals；公開的第一部（ZmCH9tKz6vE）隊伍表無技能故未登記。賽事日期為依影片發佈日（2026-06-16）估計。",
+  "matches": [
+    {
+      "round": "Top 8",
+      "players": [
+        "Rinya Kobayashi",
+        "Kohei Watanabe"
+      ],
+      "header_t_s": 0
+    },
+    {
+      "round": "Top 8",
+      "players": [
+        "Ryusei Yamane",
+        "Shota Hongu"
+      ],
+      "header_t_s": 1126
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Rintaro Arai",
+        "Hiroshi Onishi"
+      ],
+      "header_t_s": 3011
+    }
+  ],
+  "teams": [
+    {
+      "player": "Rinya Kobayashi",
+      "round": "Top 8",
+      "t_s": 60,
+      "frames": [
+        "f_60.png"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "日照",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "日光束",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "妖精氣場",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "魔法閃耀",
+            "月亮之力",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Mystic Water",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "鐵頭",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "再來一次",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Roseli Berry",
+          "nature": "Jolly",
+          "moves": [
+            "地震",
+            "龍爪",
+            "岩崩",
+            "毒擊"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Kohei Watanabe",
+      "round": "Top 8",
+      "t_s": 260,
+      "frames": [
+        "f_260.png"
+      ],
+      "members": [
+        {
+          "zh": "皮可西",
+          "en": "Clefable",
+          "mega": "Mega",
+          "ability": "魔法鏡",
+          "item": "Clefablite",
+          "nature": "Modest",
+          "moves": [
+            "空氣斬",
+            "冰凍光束",
+            "看我嘛",
+            "守住"
+          ]
+        },
+        {
+          "zh": "多龍巴魯托",
+          "en": "Dragapult",
+          "ability": "詛咒之軀",
+          "item": "Dragon Fang",
+          "item_conf": 0.7,
+          "nature": "Timid",
+          "moves": [
+            "流星群",
+            "鬼火",
+            "光牆",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "龍頭地鼠",
+          "en": "Excadrill",
+          "ability": "撥沙",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "moves": [
+            "十萬馬力",
+            "岩崩",
+            "劍舞",
+            "守住"
+          ]
+        },
+        {
+          "zh": "班基拉斯",
+          "en": "Tyranitar",
+          "ability": "揚沙",
+          "item": "Passho Berry",
+          "item_conf": 0.7,
+          "nature": "Careful",
+          "moves": [
+            "岩崩",
+            "拍落",
+            "蠻力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "軟待",
+          "item": "Sitrus Berry",
+          "nature": "Calm",
+          "moves": [
+            "刷刷茶炮",
+            "憤怒粉",
+            "封印",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "美納斯",
+          "en": "Milotic",
+          "ability": "好勝",
+          "item": "Leftovers",
+          "nature": "Timid",
+          "moves": [
+            "濁流",
+            "盤蜷",
+            "催眠術",
+            "自我再生"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Ryusei Yamane",
+      "round": "Top 8",
+      "t_s": 1200,
+      "frames": [
+        "f_1200.png"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "日照",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "日光束",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "妖精氣場",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "魔法閃耀",
+            "月亮之力",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Occa Berry",
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "鐵頭",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "再來一次",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Roseli Berry",
+          "nature": "Jolly",
+          "moves": [
+            "踩腳",
+            "龍爪",
+            "岩崩",
+            "毒擊"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Shota Hongu",
+      "round": "Top 8",
+      "t_s": 1240,
+      "frames": [
+        "f_1240.png"
+      ],
+      "members": [
+        {
+          "zh": "超級雪妖女",
+          "en": "Froslass",
+          "mega": "Mega",
+          "ability": "降雪",
+          "item": "Froslassite",
+          "nature": "Modest",
+          "moves": [
+            "暴風雪",
+            "暗影球",
+            "極光幕",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "Sitrus Berry",
+          "nature": "Jolly",
+          "moves": [
+            "剋命爪",
+            "岩崩",
+            "擊掌奇襲",
+            "近身戰"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Choice Scarf",
+          "item_conf": 0.7,
+          "nature": "Jolly",
+          "moves": [
+            "掃墓",
+            "水流噴射",
+            "波動衝",
+            "快速折返"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "大將",
+          "item": "Chople Berry",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "踢倒",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "堅硬腦袋",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "moves": [
+            "閃焰衝鋒",
+            "雙刃頭槌",
+            "守住",
+            "神速"
+          ]
+        },
+        {
+          "zh": "美納斯",
+          "en": "Milotic",
+          "ability": "好勝",
+          "item": "Leftovers",
+          "nature": "Bold",
+          "moves": [
+            "濁流",
+            "盤蜷",
+            "催眠術",
+            "自我再生"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Rintaro Arai",
+      "round": "Finals",
+      "t_s": 3100,
+      "frames": [
+        "f_3100.png"
+      ],
+      "members": [
+        {
+          "zh": "超級雪妖女",
+          "en": "Froslass",
+          "mega": "Mega",
+          "ability": "降雪",
+          "item": "Froslassite",
+          "nature": "Timid",
+          "moves": [
+            "暴風雪",
+            "極光幕",
+            "求雨",
+            "守住"
+          ]
+        },
+        {
+          "zh": "超級耿鬼",
+          "en": "Gengar",
+          "mega": "Mega",
+          "ability": "踩影",
+          "item": "Gengarite",
+          "nature": "Modest",
+          "moves": [
+            "暗影球",
+            "污泥炸彈",
+            "滅亡之歌",
+            "守住"
+          ]
+        },
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "軟待",
+          "item": "Colbur Berry",
+          "item_conf": 0.65,
+          "nature": "Calm",
+          "moves": [
+            "刷刷茶炮",
+            "戲法空間",
+            "憤怒粉",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Chople Berry",
+          "item_conf": 0.8,
+          "nature": "Sassy",
+          "moves": [
+            "閃焰衝鋒",
+            "擊掌奇襲",
+            "拋下狠話",
+            "守住"
+          ]
+        },
+        {
+          "zh": "蚊香蛙皇",
+          "en": "Politoed",
+          "ability": "降雨",
+          "item": "Sitrus Berry",
+          "nature": "Calm",
+          "moves": [
+            "氣象球",
+            "催眠術",
+            "滅亡之歌",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Leftovers",
+          "nature": "Modest",
+          "moves": [
+            "電光束",
+            "龍之波動",
+            "加農光炮",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Hiroshi Onishi",
+      "round": "Finals",
+      "t_s": 3290,
+      "frames": [
+        "f_3290.png"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "日照",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "熱風",
+            "氣象球",
+            "日光束",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "妖精氣場",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "魔法閃耀",
+            "月亮之力",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Mystic Water",
+          "nature": "Adamant",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Occa Berry",
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "突襲",
+            "鐵頭",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "再來一次",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Roseli Berry",
+          "nature": "Jolly",
+          "moves": [
+            "踩腳",
+            "龍爪",
+            "岩崩",
+            "毒擊"
+          ]
+        }
+      ]
+    }
+  ]
+}
