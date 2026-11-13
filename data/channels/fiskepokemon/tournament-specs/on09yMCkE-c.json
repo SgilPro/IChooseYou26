@@ -1,0 +1,499 @@
+{
+  "video_id": "on09yMCkE-c",
+  "event": {
+    "id": "mbl-2026",
+    "name_zh": "2026 馬來西亞大師球聯盟賽",
+    "name_en": "2026 Malaysia Master Ball League",
+    "game": "champions",
+    "date_approx": "2026-05",
+    "abbr": "MBL",
+    "year": 2026,
+    "regulation_set_id": "champions-m-a"
+  },
+  "note": "Fiske 講比賽（會員影片）。Champions 首場官方賽事轉播；隊伍表為中文 UI：技能、特性為文字，性格以「X + / Y -」文字公開（+ 加成、- 減成，已換算成性格名）；道具只有圖示，由視覺比對。Mega 寶可夢卡片顯示 Mega 後特性（與 worlds-2026 影片顯示進化前特性不同）。date_approx 為估計（影片 2026-05-30 發布）。決賽 Sow Wei Harng 的隊伍表未出現在畫面，故只登記 Ng Chee Woon。Black Belt 與 Expert Belt、Roseli Berry 圖示把握較低。",
+  "matches": [
+    {
+      "round": "Top 16",
+      "players": [
+        "Heng Kai Xiang",
+        "Soo Weng Hee"
+      ],
+      "header_t_s": 69
+    },
+    {
+      "round": "Top 8",
+      "players": [
+        "Brandon Chia Zhengqi",
+        "Sow Wei Harng"
+      ],
+      "header_t_s": 1599
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Ng Chee Woon",
+        "Sow Wei Harng"
+      ],
+      "header_t_s": 3907
+    }
+  ],
+  "teams": [
+    {
+      "player": "Heng Kai Xiang",
+      "round": "Top 16",
+      "t_s": 150,
+      "frames": [
+        "f_150.png"
+      ],
+      "members": [
+        {
+          "zh": "水箭龜",
+          "en": "Blastoise",
+          "mega": "Mega",
+          "ability": "超級發射器",
+          "item": "Blastoisinite",
+          "nature": "Quiet",
+          "moves": [
+            "噴水",
+            "惡之波動",
+            "波導彈",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "老翁龍",
+          "en": "Drampa",
+          "ability": "無關天氣",
+          "item": "White Herb",
+          "item_conf": 0.8,
+          "nature": "Quiet",
+          "moves": [
+            "巨聲",
+            "流星群",
+            "大地之力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "煤炭龜",
+          "en": "Torkoal",
+          "ability": "日照",
+          "item": "Charcoal",
+          "nature": "Quiet",
+          "moves": [
+            "噴火",
+            "日光束",
+            "熱風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "大將",
+          "item": "Black Glasses",
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "鐵頭",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Focus Sash",
+          "nature": "Quiet",
+          "moves": [
+            "精神強念",
+            "巨聲",
+            "戲法空間",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "修建老匠",
+          "en": "Conkeldurr",
+          "ability": "鐵拳",
+          "item": "Black Belt",
+          "item_conf": 0.7,
+          "nature": "Brave",
+          "moves": [
+            "吸取拳",
+            "音速拳",
+            "雷電拳",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Soo Weng Hee",
+      "round": "Top 16",
+      "t_s": 300,
+      "frames": [
+        "f_300.png"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "日照",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "守住",
+            "熱風",
+            "氣象球",
+            "日光束"
+          ]
+        },
+        {
+          "zh": "化石翼龍",
+          "en": "Aerodactyl",
+          "ability": "緊張感",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "moves": [
+            "守住",
+            "廣域防守",
+            "順風",
+            "岩崩"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Choice Scarf",
+          "item_conf": 0.8,
+          "nature": "Jolly",
+          "moves": [
+            "波動衝",
+            "快速折返",
+            "水流噴射",
+            "掃墓"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Punching Glove",
+          "item_conf": 0.85,
+          "nature": "Adamant",
+          "moves": [
+            "突襲",
+            "守住",
+            "仆斬",
+            "踢倒"
+          ]
+        },
+        {
+          "zh": "仙子伊布",
+          "en": "Sylveon",
+          "ability": "妖精皮膚",
+          "item": "Fairy Feather",
+          "nature": "Modest",
+          "moves": [
+            "看穿",
+            "巨聲",
+            "月亮之力",
+            "電光一閃"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "守住",
+            "龍爪",
+            "踩腳",
+            "地震"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Brandon Chia Zhengqi",
+      "round": "Top 8",
+      "t_s": 1700,
+      "frames": [
+        "f_1700.png"
+      ],
+      "members": [
+        {
+          "zh": "耿鬼",
+          "en": "Gengar",
+          "mega": "Mega",
+          "ability": "踩影",
+          "item": "Gengarite",
+          "nature": "Timid",
+          "moves": [
+            "污泥炸彈",
+            "守住",
+            "滅亡之歌",
+            "暗影球"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Punching Glove",
+          "item_conf": 0.7,
+          "nature": "Careful",
+          "moves": [
+            "閃焰衝鋒",
+            "擊掌奇襲",
+            "守住",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "清洗洛托姆",
+          "en": "Rotom-Wash",
+          "ability": "飄浮",
+          "item": "Sitrus Berry",
+          "nature": "Calm",
+          "moves": [
+            "水炮",
+            "伏特替換",
+            "守住",
+            "鬼火"
+          ]
+        },
+        {
+          "zh": "堅盾劍怪",
+          "en": "Aegislash",
+          "ability": "戰鬥切換",
+          "item": "Spell Tag",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "靈騷",
+            "影子偷襲",
+            "王者盾牌",
+            "聖劍"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Focus Sash",
+          "nature": "Timid",
+          "moves": [
+            "暴風雪",
+            "冷凍乾燥",
+            "守住",
+            "再來一次"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Choice Scarf",
+          "item_conf": 0.8,
+          "nature": "Adamant",
+          "moves": [
+            "地震",
+            "岩石封鎖",
+            "岩崩",
+            "踩腳"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Sow Wei Harng",
+      "round": "Top 8",
+      "t_s": 1820,
+      "frames": [
+        "f_1820.png"
+      ],
+      "members": [
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "妖精氣場",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "破滅之光",
+            "守住"
+          ]
+        },
+        {
+          "zh": "化石翼龍",
+          "en": "Aerodactyl",
+          "mega": "Mega",
+          "ability": "硬爪",
+          "item": "Aerodactylite",
+          "nature": "Jolly",
+          "moves": [
+            "岩崩",
+            "雙翼",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚",
+          "en": "Basculegion",
+          "ability": "適應力",
+          "item": "Roseli Berry",
+          "item_conf": 0.6,
+          "nature": "Adamant",
+          "moves": [
+            "掃墓",
+            "波動衝",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大扭拉",
+          "en": "Sneasler",
+          "ability": "毒手",
+          "item": "Focus Sash",
+          "nature": "Adamant",
+          "moves": [
+            "近身戰",
+            "剋命爪",
+            "擊掌奇襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Punching Glove",
+          "item_conf": 0.85,
+          "nature": "Adamant",
+          "moves": [
+            "仆斬",
+            "踢倒",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "龍爪",
+            "地震",
+            "岩崩",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Ng Chee Woon",
+      "round": "Finals",
+      "t_s": 3980,
+      "frames": [
+        "f_3980.png"
+      ],
+      "members": [
+        {
+          "zh": "噴火龍",
+          "en": "Charizard",
+          "mega": "Mega-Y",
+          "ability": "日照",
+          "item": "Charizardite Y",
+          "nature": "Modest",
+          "moves": [
+            "守住",
+            "熱風",
+            "氣象球",
+            "日光束"
+          ]
+        },
+        {
+          "zh": "花葉蒂",
+          "en": "Floette-Eternal",
+          "mega": "Mega",
+          "ability": "妖精氣場",
+          "item": "Floettite",
+          "nature": "Modest",
+          "moves": [
+            "守住",
+            "魔法閃耀",
+            "月亮之力",
+            "冥想"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Punching Glove",
+          "item_conf": 0.85,
+          "nature": "Adamant",
+          "moves": [
+            "守住",
+            "突襲",
+            "仆斬",
+            "踢倒"
+          ]
+        },
+        {
+          "zh": "大扭拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "White Herb",
+          "nature": "Jolly",
+          "moves": [
+            "守住",
+            "剋命爪",
+            "近身戰",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "化石翼龍",
+          "en": "Aerodactyl",
+          "ability": "緊張感",
+          "item": "Focus Sash",
+          "nature": "Jolly",
+          "moves": [
+            "守住",
+            "廣域防守",
+            "順風",
+            "岩崩"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Sitrus Berry",
+          "nature": "Adamant",
+          "moves": [
+            "守住",
+            "龍爪",
+            "地震",
+            "替身"
+          ]
+        }
+      ]
+    }
+  ]
+}

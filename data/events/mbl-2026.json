@@ -1,0 +1,85 @@
+{
+  "id": "mbl-2026",
+  "name_zh": "2026 馬來西亞大師球聯盟賽",
+  "name_en": "2026 Malaysia Master Ball League",
+  "game": "champions",
+  "date_approx": "2026-05",
+  "abbr": "MBL",
+  "year": 2026,
+  "regulation_set_id": "champions-m-a",
+  "matches": [
+    {
+      "id": "mbl-2026__top-16__heng-kai-xiang__soo-weng-hee",
+      "round": "Top 16",
+      "players": [
+        {
+          "name": "Heng Kai Xiang",
+          "team_ids": [
+            "team_on09yMCkE-c_1"
+          ]
+        },
+        {
+          "name": "Soo Weng Hee",
+          "team_ids": [
+            "team_on09yMCkE-c_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "on09yMCkE-c",
+          "header_t_s": 69,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "mbl-2026__top-8__brandon-chia-zhengqi__sow-wei-harng",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Brandon Chia Zhengqi",
+          "team_ids": [
+            "team_on09yMCkE-c_3"
+          ]
+        },
+        {
+          "name": "Sow Wei Harng",
+          "team_ids": [
+            "team_on09yMCkE-c_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "on09yMCkE-c",
+          "header_t_s": 1599,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "mbl-2026__finals__ng-chee-woon__sow-wei-harng",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Ng Chee Woon",
+          "team_ids": [
+            "team_on09yMCkE-c_5"
+          ]
+        },
+        {
+          "name": "Sow Wei Harng",
+          "team_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "on09yMCkE-c",
+          "header_t_s": 3907,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

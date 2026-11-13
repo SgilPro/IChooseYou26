@@ -1,0 +1,87 @@
+{
+  "id": "baltimore-2024-10",
+  "name_zh": "2024 美國巴爾的摩地區賽（10 月）",
+  "name_en": "2024 Baltimore Regional Championships (October)",
+  "game": "sv",
+  "date_approx": "2024-10",
+  "abbr": "BALT",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "baltimore-2024-10__swiss-round-2__jeudy-azzarelli__kian-campbell",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Kian Campbell",
+          "team_ids": [
+            "team_iFXIcU63JpA_1"
+          ]
+        },
+        {
+          "name": "Jeudy Azzarelli",
+          "team_ids": [
+            "team_iFXIcU63JpA_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iFXIcU63JpA",
+          "header_t_s": 89,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "baltimore-2024-10__swiss-round-3__matt-tidd__ofomezie-emelle",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Matt Tidd",
+          "team_ids": [
+            "team_iFXIcU63JpA_3"
+          ]
+        },
+        {
+          "name": "Ofomezie Emelle",
+          "team_ids": [
+            "team_iFXIcU63JpA_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iFXIcU63JpA",
+          "header_t_s": 1738,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "baltimore-2024-10__swiss-round-4__alberto-lara__chuppa-cross-iv",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Chuppa Cross IV",
+          "team_ids": [
+            "team_iFXIcU63JpA_5"
+          ]
+        },
+        {
+          "name": "Alberto Lara",
+          "team_ids": [
+            "team_iFXIcU63JpA_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "iFXIcU63JpA",
+          "header_t_s": 2589,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
