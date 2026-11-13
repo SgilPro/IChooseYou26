@@ -1,0 +1,87 @@
+{
+  "id": "worlds-2024",
+  "name_zh": "2024 寶可夢世界冠軍賽",
+  "name_en": "2024 Pokémon World Championships",
+  "game": "sv",
+  "date_approx": "2024-08",
+  "abbr": "Worlds",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "worlds-2024__swiss-round-1__adam-cherfaoui__shohei-kimura",
+      "round": "Swiss Round 1",
+      "players": [
+        {
+          "name": "Adam Cherfaoui",
+          "team_ids": [
+            "team_kmo10rlWLtA_1"
+          ]
+        },
+        {
+          "name": "Shohei Kimura",
+          "team_ids": [
+            "team_kmo10rlWLtA_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kmo10rlWLtA",
+          "header_t_s": 67,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2024__swiss-round-2__aaron-zheng__sejun-park",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Aaron Zheng",
+          "team_ids": [
+            "team_kmo10rlWLtA_3"
+          ]
+        },
+        {
+          "name": "Sejun Park",
+          "team_ids": [
+            "team_kmo10rlWLtA_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kmo10rlWLtA",
+          "header_t_s": 2278,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "worlds-2024__swiss-round-3__eric-rios__flavio-del-pidio",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_kmo10rlWLtA_5"
+          ]
+        },
+        {
+          "name": "Flavio Del Pidio",
+          "team_ids": [
+            "team_kmo10rlWLtA_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "kmo10rlWLtA",
+          "header_t_s": 3646,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

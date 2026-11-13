@@ -1,0 +1,87 @@
+{
+  "id": "losangeles-2024",
+  "name_zh": "2024 美國洛杉磯地區賽",
+  "name_en": "2024 Los Angeles Regional Championships",
+  "game": "sv",
+  "date_approx": "2024-06",
+  "abbr": "LA",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "losangeles-2024__swiss-round-1__alberto-lara__nick-navarre",
+      "round": "Swiss Round 1",
+      "players": [
+        {
+          "name": "Nick Navarre",
+          "team_ids": [
+            "team_ymyZqgHjZWM_1"
+          ]
+        },
+        {
+          "name": "Alberto Lara",
+          "team_ids": [
+            "team_ymyZqgHjZWM_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "ymyZqgHjZWM",
+          "header_t_s": 118,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "losangeles-2024__swiss-round-2__enrique-grimaldo__zhe-zhang",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Enrique Grimaldo",
+          "team_ids": [
+            "team_ymyZqgHjZWM_3"
+          ]
+        },
+        {
+          "name": "Zhe Zhang",
+          "team_ids": [
+            "team_ymyZqgHjZWM_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "ymyZqgHjZWM",
+          "header_t_s": 2177,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "losangeles-2024__swiss-round-3__andrew-zheng__giovanni-costa",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Andrew Zheng",
+          "team_ids": [
+            "team_ymyZqgHjZWM_5"
+          ]
+        },
+        {
+          "name": "Giovanni Costa",
+          "team_ids": [
+            "team_ymyZqgHjZWM_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "ymyZqgHjZWM",
+          "header_t_s": 4133,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

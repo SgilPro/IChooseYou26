@@ -1,0 +1,85 @@
+{
+  "id": "santiago-2024",
+  "name_zh": "2024 智利聖地牙哥地區賽",
+  "name_en": "2024 Santiago Regional Championships",
+  "game": "sv",
+  "date_approx": "2024-06",
+  "abbr": "SCL",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "santiago-2024__swiss-round-2__nicolas-del-campo__renzo-navarro",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Renzo Navarro",
+          "team_ids": [
+            "team_GEG9_nKL3bQ_1"
+          ]
+        },
+        {
+          "name": "Nicolas Del Campo",
+          "team_ids": [
+            "team_GEG9_nKL3bQ_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "GEG9_nKL3bQ",
+          "header_t_s": 27,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "santiago-2024__swiss-round-3__ignacio-sepulveda__juan-salerno",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Ignacio Sepulveda",
+          "team_ids": [
+            "team_GEG9_nKL3bQ_3"
+          ]
+        },
+        {
+          "name": "Juan Salerno",
+          "team_ids": [
+            "team_GEG9_nKL3bQ_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "GEG9_nKL3bQ",
+          "header_t_s": 1118,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "santiago-2024__swiss-round-4__jesus-inostroza__pedro-eriz",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Pedro Eriz",
+          "team_ids": [
+            "team_GEG9_nKL3bQ_5"
+          ]
+        },
+        {
+          "name": "Jesus Inostroza",
+          "team_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "GEG9_nKL3bQ",
+          "header_t_s": 1848,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
