@@ -9,7 +9,9 @@
 - 隊伍 360 隊、1278 隻，validate 0 ERR（32 WARN 皆為雙 Mega 提示）。賽事資料 2 個：`naic-2026`、`worlds-2026`（`data/events/`）。
 - 會員影片：有章節的隊伍介紹已全抽完；會員短片 12 支確認為同期公開影片同隊的延伸版，已刪殼、寫入公開隊伍的 `related_video_ids`；仍待處理 75 支（約 8 支需各抓一張影格核對是否同隊：`mHC9YuqyfmQ`、`pKmk6zGbkDY`、`g8W_4Rlkldw`、`yJ-XjMajwx4`、`145Yuis-vfM`、`blm0R8ztLH8`、`uZnip5S0vcQ`、`xULetDD2vcU`）。會員下載頻率維持每小時 ≤5 次、間隔 12 分鐘。
 - 比賽影片（官方比賽解說 90 支）已抽：`8ACL1XG0vjI`（NAIC）、`RyYI7S_Jcfc`（世界賽 D1）、`OXRky0qvDuI`（世界賽決賽三組別）。`ZmCH9tKz6vE`（日本全國賽）轉播只有圖示，不抽（見 tools/yt/README.md）。
-- 下一步：朱紫比賽影片（公開 68 支、會員 11 支）先抽一支 2025 年的樣本看轉播格式，有完整隊伍卡再批次；其餘 Champions 比賽影片同理。匯入腳本 `import-tournament-teams.mjs` 目前不支援空技能。
+- 朱紫比賽影片（公開）2025 年 6 支已抽：`iZCz6VRcsd0`（laic-2026）、`7V6DLchwra0`／`WY016nnsTzc`（worlds-2025）、`LvOdelMxhnM`（naic-2025）、`31xBomuvMFw`／`yzmlnb9mJFk`（euic-2025）。朱紫卡片有物種、特性、道具、四招、太晶屬性，無性格／性別／努力值；規則組要用 `spec.event.regulation_set_id` 覆寫（影片多半不寫，靠日期＋每隊限定神獸數推論）。每支約 10~12 分鐘、6~12 萬 tokens（agent）。流程：360p 全片 → 5s 拼圖找卡 → ≤10s 720p 片段 → 寫 spec → `import-tournament-teams.mjs`。
+- 待核對：`laic-2026`／`euic-2025`／`worlds-2025` 的 `date_approx` 是估計值；Camporesi（LvOdelMxhnM）與 Luca Ceribelli（WY016nnsTzc）同一份配置，但 Incineroar／Urshifu 太晶屬性對調，需重看 Luca 的卡；太晶徽章靠圖示判讀，部分以 `tera_conf` 標低信心。
+- 下一步：公開朱紫比賽影片 2024 年約 62 支（每場多為 Swiss／Top 賽各一桌）；會員 Champions／朱紫比賽影片（Liverpool 地區賽等）要 cookies 且守每小時 ≤5 次；Champions 其餘比賽影片同理。匯入腳本 `import-tournament-teams.mjs` 目前不支援空技能。
 - 其他 backlog 見最後一節；31 隊缺努力值、審核覆蓋率偏低等未動。
 
 ## 現況（2026-11-08 17:30）
