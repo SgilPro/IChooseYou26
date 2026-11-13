@@ -1,0 +1,580 @@
+{
+  "video_id": "qlqyk4HZGy0",
+  "event": {
+    "id": "euic-2026",
+    "name_zh": "2026 歐洲國際賽",
+    "name_en": "2026 Europe International Championships",
+    "game": "sv",
+    "date_approx": "2026-02",
+    "abbr": "EUIC",
+    "year": 2026,
+    "regulation_set_id": "sv-reg-i"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（會員限定影片，標題「告別第九世代，最後一場朱紫官方國際賽｜2026 歐洲國際賽」，章節：使用率、Swiss Round 2、4、8；影片發布於 2026-03-04）。與 19PpR0W2qk0 為同一賽事。賽事日期未從影片取得，date_approx「2026-02」為依發布日估計值。規則判定：發布日 2026-03-04 落在朱紫排位重啟 Reg I 期間（2026-01-05 起，參見 regulation_sets.json sv-reg-i 備註）；12 隊中無限制級傳說，但有振翼髮、猛雷鼓、古劍豹、席多藍恩等悖謬／準傳說，排除 Reg H（無神獸／悖謬），與 Reg I 相容。選手姓名取自畫面名牌。愛管侍為雌性型態（卡片標示）。",
+  "matches": [
+    {
+      "round": "Swiss Round 2",
+      "players": [
+        "Davide Carrer",
+        "Shoma Honami"
+      ],
+      "header_t_s": 142
+    },
+    {
+      "round": "Swiss Round 4",
+      "players": [
+        "Ashton Cox",
+        "Dyl Yeomans"
+      ],
+      "header_t_s": 1319
+    },
+    {
+      "round": "Swiss Round 8",
+      "players": [
+        "João Felipe Leite",
+        "Francesco Pio Pero"
+      ],
+      "header_t_s": 2679
+    }
+  ],
+  "teams": [
+    {
+      "player": "Davide Carrer",
+      "round": "Swiss Round 2",
+      "t_s": 180,
+      "frames": [
+        "f_180.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "踩腳",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "力量寶石"
+          ]
+        },
+        {
+          "zh": "愛管侍-雌性的樣子",
+          "en": "Indeedee-F",
+          "ability": "精神製造者",
+          "item": "Rocky Helmet",
+          "tera": "Grass",
+          "moves": [
+            "封印",
+            "看我嘛",
+            "幫助",
+            "戲法空間"
+          ],
+          "form": "Female"
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "近身戰",
+            "暗冥強襲",
+            "突襲",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Steel",
+          "moves": [
+            "枯葉風暴",
+            "大晴天",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鐵頭殼",
+          "en": "Iron Crown",
+          "ability": "夸克充能",
+          "item": "Booster Energy",
+          "tera": "Water",
+          "moves": [
+            "廣域戰力",
+            "迅子利刃",
+            "太晶爆發",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Shoma Honami",
+      "round": "Swiss Round 2",
+      "t_s": 292,
+      "frames": [
+        "f_292.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "木槌",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "愛管侍-雌性的樣子",
+          "en": "Indeedee-F",
+          "ability": "精神製造者",
+          "item": "Rocky Helmet",
+          "tera": "Dragon",
+          "moves": [
+            "看我嘛",
+            "幫助",
+            "封印",
+            "戲法空間"
+          ],
+          "form": "Female"
+        },
+        {
+          "zh": "鐵頭殼",
+          "en": "Iron Crown",
+          "ability": "夸克充能",
+          "item": "Booster Energy",
+          "tera": "Water",
+          "moves": [
+            "廣域戰力",
+            "迅子利刃",
+            "太晶爆發",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Band",
+          "tera": "Steel",
+          "moves": [
+            "水流連打",
+            "水流噴射",
+            "近身戰",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "熱沙風暴",
+            "污泥炸彈",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "月亮之力",
+            "再來一次",
+            "光牆",
+            "順風"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Ashton Cox",
+      "round": "Swiss Round 4",
+      "t_s": 1350,
+      "frames": [
+        "f_1350.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Grass",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "電磁波",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "席多藍恩",
+          "en": "Heatran",
+          "ability": "引火",
+          "item": "Sitrus Berry",
+          "tera": "Grass",
+          "moves": [
+            "熱風",
+            "大地之力",
+            "加農光炮",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強襲",
+            "近身戰",
+            "突襲",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "土地雲-靈獸形態",
+          "en": "Landorus-Therian",
+          "ability": "威嚇",
+          "item": "Choice Band",
+          "tera": "Flying",
+          "moves": [
+            "踩腳",
+            "太晶爆發",
+            "岩崩",
+            "急速折返"
+          ],
+          "form": "Therian"
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "伏特替換",
+            "迅雷",
+            "流星群",
+            "電網"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Dyl Yeomans",
+      "round": "Swiss Round 4",
+      "t_s": 1442,
+      "frames": [
+        "f_1442.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-礎石面具",
+          "en": "Ogerpon-Cornerstone",
+          "ability": "結實",
+          "item": "Cornerstone Mask",
+          "tera": "Rock",
+          "moves": [
+            "尖刺防守",
+            "棘藤棒",
+            "強力鞭打",
+            "看我嘛"
+          ],
+          "form": "Cornerstone"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "魔法閃耀",
+            "暗影球",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "煤炭龜",
+          "en": "Torkoal",
+          "ability": "日照",
+          "item": "Charcoal",
+          "tera": "Fire",
+          "moves": [
+            "守住",
+            "噴火",
+            "熱風",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Sitrus Berry",
+          "tera": "Flying",
+          "moves": [
+            "守住",
+            "精神強念",
+            "巨聲",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "毅力",
+          "item": "Flame Orb",
+          "tera": "Fairy",
+          "moves": [
+            "守住",
+            "硬撐",
+            "突飛猛撲",
+            "地震"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "João Felipe Leite",
+      "round": "Swiss Round 8",
+      "t_s": 2730,
+      "frames": [
+        "f_2730.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fire",
+          "moves": [
+            "月亮之力",
+            "電磁波",
+            "冰凍之風",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Choice Band",
+          "tera": "Grass",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "神速",
+            "雙刃頭錘"
+          ]
+        },
+        {
+          "zh": "伽勒爾火焰鳥",
+          "en": "Moltres-Galar",
+          "ability": "怒火沖天",
+          "item": "Choice Specs",
+          "tera": "Dark",
+          "moves": [
+            "怒火中燒",
+            "大聲咆哮",
+            "空氣斬",
+            "惡之波動"
+          ],
+          "form": "Galar"
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "White Herb",
+          "tera": "Dragon",
+          "moves": [
+            "擊掌奇襲",
+            "近身戰",
+            "垃圾射擊",
+            "指導"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "迅雷",
+            "十萬伏特",
+            "電網",
+            "龍之波動"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Francesco Pio Pero",
+      "round": "Swiss Round 8",
+      "t_s": 2822,
+      "frames": [
+        "f_2822.png"
+      ],
+      "members": [
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰旋",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "古鼎鹿",
+          "en": "Ting-Lu",
+          "ability": "災禍之鼎",
+          "item": "Clear Amulet",
+          "tera": "Poison",
+          "moves": [
+            "地震",
+            "地獄突刺",
+            "太晶爆發",
+            "守住"
+          ]
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "廣域破壞",
+            "長嚎",
+            "高溫重壓",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Safety Goggles",
+          "tera": "Steel",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "雷電雲-化身形態",
+          "en": "Thundurus",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Water",
+          "moves": [
+            "鳴雷風暴",
+            "電磁波",
+            "挑釁",
+            "怪異電波"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "多重鱗片",
+          "item": "Loaded Dice",
+          "tera": "Steel",
+          "moves": [
+            "鱗射",
+            "神速",
+            "鐵頭",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "vancouver-2024",
+  "name_zh": "2024 加拿大溫哥華地區賽",
+  "name_en": "2024 Vancouver Regional Championships",
+  "game": "sv",
+  "abbr": "VAN",
+  "year": 2024,
+  "date_approx": "2024-04",
+  "regulation_set_id": "sv-reg-f",
+  "matches": [
+    {
+      "id": "vancouver-2024__swiss-round-4__ryan-loseto__tuong-huynh",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Ryan Loseto",
+          "team_ids": [
+            "team_2K9QSJ43gYE_1"
+          ]
+        },
+        {
+          "name": "Tuong Huynh",
+          "team_ids": [
+            "team_2K9QSJ43gYE_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "2K9QSJ43gYE",
+          "header_t_s": 120,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "vancouver-2024__swiss-round-5__navjit-joshi__noah-kumaczow",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Noah Kumaczow",
+          "team_ids": [
+            "team_2K9QSJ43gYE_3"
+          ]
+        },
+        {
+          "name": "Navjit Joshi",
+          "team_ids": [
+            "team_2K9QSJ43gYE_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "2K9QSJ43gYE",
+          "header_t_s": 1781,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "vancouver-2024__swiss-round-6__brandon-tuchtenhagen__dylan-salvanera",
+      "round": "Swiss Round 6",
+      "players": [
+        {
+          "name": "Brandon Tuchtenhagen",
+          "team_ids": [
+            "team_2K9QSJ43gYE_5"
+          ]
+        },
+        {
+          "name": "Dylan Salvanera",
+          "team_ids": [
+            "team_2K9QSJ43gYE_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "2K9QSJ43gYE",
+          "header_t_s": 4530,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2636 @@
+[
+  {
+    "id": "team_QYReyuQXi8I_1",
+    "name": "Wolfe Glick（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=220s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Wolfe Glick",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-4__jeudy-azzarelli__wolfe-glick",
+    "player": "Wolfe Glick",
+    "team_signature": "20aa454f1576",
+    "source_t_s": 220,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王-騎黑馬的樣子",
+          "name_en": "Calyrex-Shadow",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Spectrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "星碎",
+            "value_en": "Astral Barrage",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "太晶爆發",
+            "value_en": "Tera Blast",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-連擊流",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 279,
+          "name_zh": "大嘴鷗",
+          "name_en": "Pelipper",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "降雨",
+          "value_en": "Drizzle",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "客房服務",
+          "value_en": "Room Service",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "暴風",
+            "value_en": "Hurricane",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "氣象球",
+            "value_en": "Weather Ball",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 981,
+          "name_zh": "奇麒麟",
+          "name_en": "Farigiraf",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "尾甲",
+          "value_en": "Armor Tail",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "爽喉噴霧",
+          "value_en": "Throat Spray",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "精神強念",
+            "value_en": "Psychic",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "巨聲",
+            "value_en": "Hyper Voice",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_220/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Wolfe Glick 的隊伍表出現在影片 3:40。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Wolfe Glick 的公開配置（Swiss Round 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.660Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_QYReyuQXi8I_2",
+    "name": "Jeudy Azzarelli（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=400s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Jeudy Azzarelli",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-4__jeudy-azzarelli__wolfe-glick",
+    "player": "Jeudy Azzarelli",
+    "team_signature": "6efac888ff82",
+    "source_t_s": 400,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王-騎白馬的樣子",
+          "name_en": "Calyrex-Ice",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Glastrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "雪矛",
+            "value_en": "Glacial Lance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬馬力",
+            "value_en": "High Horsepower",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "戲法空間",
+            "value_en": "Trick Room",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 591,
+          "name_zh": "敗露球菇",
+          "name_en": "Amoonguss",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "花粉團",
+            "value_en": "Pollen Puff",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-一擊流",
+          "name_en": "Urshifu-Single-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "暗冥強擊",
+            "value_en": "Wicked Blow",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "突襲",
+            "value_en": "Sucker Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 132,
+          "name_zh": "百變怪",
+          "name_en": "Ditto",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "變身者",
+          "value_en": "Imposter",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究圍巾",
+          "value_en": "Choice Scarf",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "變身",
+            "value_en": "Transform",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "吸取拳",
+            "value_en": "Drain Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_400/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Jeudy Azzarelli 的隊伍表出現在影片 6:40。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Jeudy Azzarelli 的公開配置（Swiss Round 4 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.667Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_QYReyuQXi8I_3",
+    "name": "Alex Qian（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=1860s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Alex Qian",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-7__alex-qian__marco-silva",
+    "player": "Alex Qian",
+    "team_signature": "6cf08c6598e8",
+    "source_t_s": 1860,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1024,
+          "name_zh": "太樂巴戈斯",
+          "name_en": "Terapagos",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "太晶變形",
+          "value_en": "Tera Shift",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "講究眼鏡",
+          "value_en": "Choice Specs",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "晶光星群",
+            "value_en": "Tera Starstorm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "破壞光線",
+            "value_en": "Hyper Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 591,
+          "name_zh": "敗露球菇",
+          "name_en": "Amoonguss",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "再生力",
+          "value_en": "Regenerator",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "凸凸頭盔",
+          "value_en": "Rocky Helmet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "憤怒粉",
+            "value_en": "Rage Powder",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "蘑菇孢子",
+            "value_en": "Spore",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "花粉團",
+            "value_en": "Pollen Puff",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "幽靈",
+          "value_en": "Ghost",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "惡之波動",
+            "value_en": "Dark Pulse",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "電磁波",
+            "value_en": "Thunder Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼面",
+            "value_en": "Scary Face",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 992,
+          "name_zh": "鐵臂膀",
+          "name_en": "Iron Hands",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "夸克充能",
+          "value_en": "Quark Drive",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "吸取拳",
+            "value_en": "Drain Punch",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "瘋狂伏特",
+            "value_en": "Wild Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "重磅衝撞",
+            "value_en": "Heavy Slam",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_1860/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Alex Qian 的隊伍表出現在影片 31:00。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Alex Qian 的公開配置（Swiss Round 7 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.667Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_QYReyuQXi8I_4",
+    "name": "Marco Silva（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=1930s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Marco Silva",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-7__alex-qian__marco-silva",
+    "player": "Marco Silva",
+    "team_signature": "2b255a2b75ee",
+    "source_t_s": 1930,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王-騎黑馬的樣子",
+          "name_en": "Calyrex-Shadow",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Spectrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "星碎",
+            "value_en": "Astral Barrage",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "吸取之吻",
+            "value_en": "Draining Kiss",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冥想",
+            "value_en": "Calm Mind",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "一般",
+          "value_en": "Normal",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 892,
+          "name_zh": "武道熊師-連擊流",
+          "name_en": "Urshifu-Rapid-Strike",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "無形拳",
+          "value_en": "Unseen Fist",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "星晶",
+          "value_en": "Stellar",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流連打",
+            "value_en": "Surging Strikes",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "水流噴射",
+            "value_en": "Aqua Jet",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看穿",
+            "value_en": "Detect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-火灶面具",
+          "name_en": "Ogerpon-Hearthflame",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "破格",
+          "value_en": "Mold Breaker",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "火灶面具",
+          "value_en": "Hearthflame Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1021,
+          "name_zh": "猛雷鼓",
+          "name_en": "Raging Bolt",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "迅雷",
+            "value_en": "Thunderclap",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_1930/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Marco Silva 的隊伍表出現在影片 32:10。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Marco Silva 的公開配置（Swiss Round 7 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.667Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_QYReyuQXi8I_5",
+    "name": "Federico Camporesi（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=3250s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Federico Camporesi",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-8__federico-camporesi__juan-manuel-odriozola",
+    "player": "Federico Camporesi",
+    "team_signature": "2558e5511464",
+    "source_t_s": 3250,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 898,
+          "name_zh": "蕾冠王-騎黑馬的樣子",
+          "name_en": "Calyrex-Shadow",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "人馬一體",
+          "value_en": "As One (Spectrier)",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "詛咒之符",
+          "value_en": "Spell Tag",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "星碎",
+            "value_en": "Astral Barrage",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "吸取之吻",
+            "value_en": "Draining Kiss",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "詭計",
+            "value_en": "Nasty Plot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 812,
+          "name_zh": "轟擂金剛猩",
+          "name_en": "Rillaboom",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "青草製造者",
+          "value_en": "Grassy Surge",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "木槌",
+            "value_en": "Wood Hammer",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "急速折返",
+            "value_en": "U-turn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "青草滑梯",
+            "value_en": "Grassy Glide",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 727,
+          "name_zh": "熾焰咆哮虎",
+          "name_en": "Incineroar",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "威嚇",
+          "value_en": "Intimidate",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "防塵護目鏡",
+          "value_en": "Safety Goggles",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拋下狠話",
+            "value_en": "Parting Shot",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "拍落",
+            "value_en": "Knock Off",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "鬼火",
+            "value_en": "Will-O-Wisp",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 620,
+          "name_zh": "師父鼬",
+          "name_en": "Mienshao",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "精神力",
+          "value_en": "Inner Focus",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "氣勢披帶",
+          "value_en": "Focus Sash",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "格鬥",
+          "value_en": "Fighting",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "近身戰",
+            "value_en": "Close Combat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "佯攻",
+            "value_en": "Feint",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "廣域防守",
+            "value_en": "Wide Guard",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "擊掌奇襲",
+            "value_en": "Fake Out",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 35,
+          "name_zh": "皮皮",
+          "name_en": "Clefairy",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "友情防守",
+          "value_en": "Friend Guard",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "進化奇石",
+          "value_en": "Eviolite",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "草",
+          "value_en": "Grass",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "幫助",
+            "value_en": "Helping Hand",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "唱歌",
+            "value_en": "Sing",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 641,
+          "name_zh": "龍捲雲-化身形態",
+          "name_en": "Tornadus",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "惡作劇之心",
+          "value_en": "Prankster",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "惡",
+          "value_en": "Dark",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "枯葉風暴",
+            "value_en": "Bleakwind Storm",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "順風",
+            "value_en": "Tailwind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "求雨",
+            "value_en": "Rain Dance",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_3250/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Federico Camporesi 的隊伍表出現在影片 54:10。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Federico Camporesi 的公開配置（Swiss Round 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.667Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  },
+  {
+    "id": "team_QYReyuQXi8I_6",
+    "name": "Juan Manuel Odriozola（NAIC 2024）",
+    "name_source": "manual",
+    "video_id": "QYReyuQXi8I",
+    "video_url": "https://www.youtube.com/watch?v=QYReyuQXi8I&t=3320s",
+    "channel_handle": "@fiskepokemon",
+    "game": "sv",
+    "regulation_set_id": "sv-reg-g",
+    "regulation_source": "date-inferred",
+    "tags": [],
+    "tags_source": "title",
+    "author": "Juan Manuel Odriozola",
+    "author_source": "frame",
+    "event_id": "naic-2024",
+    "match_id": "naic-2024__swiss-round-8__federico-camporesi__juan-manuel-odriozola",
+    "player": "Juan Manuel Odriozola",
+    "team_signature": "3c83c6e445b9",
+    "source_t_s": 3320,
+    "members": [
+      {
+        "slot": 1,
+        "species": {
+          "dex_no": 1007,
+          "name_zh": "故勒頓",
+          "name_en": "Koraidon",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "緋紅脈動",
+          "value_en": "Orichalcum Pulse",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "清淨墜飾",
+          "value_en": "Clear Amulet",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "火",
+          "value_en": "Fire",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "全開猛撞",
+            "value_en": "Collision Course",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "閃焰衝鋒",
+            "value_en": "Flare Blitz",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "蓄能焰襲",
+            "value_en": "Flame Charge",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 2,
+        "species": {
+          "dex_no": 1017,
+          "name_zh": "厄鬼椪-礎石面具",
+          "name_en": "Ogerpon-Cornerstone",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "結實",
+          "value_en": "Sturdy",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "礎石面具",
+          "value_en": "Cornerstone Mask",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "岩石",
+          "value_en": "Rock",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "棘藤棒",
+            "value_en": "Ivy Cudgel",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "強力鞭打",
+            "value_en": "Power Whip",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "看我嘛",
+            "value_en": "Follow Me",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "尖刺防守",
+            "value_en": "Spiky Shield",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 3,
+        "species": {
+          "dex_no": 1004,
+          "name_zh": "古玉魚",
+          "name_en": "Chi-Yu",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "災禍之玉",
+          "value_en": "Beads of Ruin",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "密探斗篷",
+          "value_en": "Covert Cloak",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "水",
+          "value_en": "Water",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "熱風",
+            "value_en": "Heat Wave",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大聲咆哮",
+            "value_en": "Snarl",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "過熱",
+            "value_en": "Overheat",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "挑釁",
+            "value_en": "Taunt",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 4,
+        "species": {
+          "dex_no": 987,
+          "name_zh": "振翼髮",
+          "name_en": "Flutter Mane",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "驅勁能量",
+          "value_en": "Booster Energy",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "妖精",
+          "value_en": "Fairy",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "月亮之力",
+            "value_en": "Moonblast",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍之風",
+            "value_en": "Icy Wind",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "大晴天",
+            "value_en": "Sunny Day",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 5,
+        "species": {
+          "dex_no": 423,
+          "name_zh": "海兔獸",
+          "name_en": "Gastrodon",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "引水",
+          "value_en": "Storm Drain",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "吃剩的東西",
+          "value_en": "Leftovers",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "地面",
+          "value_en": "Ground",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "大地之力",
+            "value_en": "Earth Power",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "冰凍光束",
+            "value_en": "Ice Beam",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "哈欠",
+            "value_en": "Yawn",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "守住",
+            "value_en": "Protect",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      },
+      {
+        "slot": 6,
+        "species": {
+          "dex_no": 1021,
+          "name_zh": "猛雷鼓",
+          "name_en": "Raging Bolt",
+          "form": null,
+          "confidence": 0.95
+        },
+        "nickname": null,
+        "gender": null,
+        "ability": {
+          "value": "古代活性",
+          "value_en": "Protosynthesis",
+          "confidence": 0.95,
+          "source": "frame"
+        },
+        "item": {
+          "value": "突擊背心",
+          "value_en": "Assault Vest",
+          "confidence": 0.85,
+          "source": "frame"
+        },
+        "nature": {
+          "value": null,
+          "value_en": null,
+          "confidence": 0,
+          "source": null
+        },
+        "tera_type": {
+          "value": "電",
+          "value_en": "Electric",
+          "confidence": 0.9,
+          "source": "frame"
+        },
+        "mega": false,
+        "evs": null,
+        "stats": null,
+        "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+        "moves": [
+          {
+            "value": "迅雷",
+            "value_en": "Thunderclap",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "流星群",
+            "value_en": "Draco Meteor",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "十萬伏特",
+            "value_en": "Thunderbolt",
+            "confidence": 0.95,
+            "source": "frame"
+          },
+          {
+            "value": "伏特替換",
+            "value_en": "Volt Switch",
+            "confidence": 0.95,
+            "source": "frame"
+          }
+        ],
+        "role_note": null
+      }
+    ],
+    "is_members_only": true,
+    "related_video_ids": [],
+    "team_code": null,
+    "sources": {
+      "frames_used": 1,
+      "frames": [
+        "f_3320/01.png"
+      ],
+      "subtitle_lang": null,
+      "subtitle_range_s": null,
+      "pokepaste_url": null
+    },
+    "confidence": 0.9,
+    "review_status": "auto",
+    "review_notes": "Fiske 講比賽（公開影片，標題「北美洲國際賽（二）」，章節：Swiss 第 4、7、8 輪，各一場；影片發布於 2024-07-15）。同賽事 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg 為同一系列。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Wolfe、Marco、Federico 蕾冠王-騎黑馬；Jeudy 蕾冠王-騎白馬；Alex 太樂巴戈斯；Juan 故勒頓）。卡片取自 720p 影格，所有技能欄位皆清楚可讀（字幕未遮蓋）。百變怪只有一招（變身），其餘三格卡片上為空白。選手名取自畫面名牌。海兔獸（Juan）為粉色西海型態，未另標型態。 選手 Juan Manuel Odriozola 的隊伍表出現在影片 55:20。",
+    "notes": "2024 北美洲國際賽（2024 North America International Championships）選手 Juan Manuel Odriozola 的公開配置（Swiss Round 8 登場；同一選手在該賽事使用同一份隊伍）（來源：Fiske 講比賽影片的轉播畫面）。",
+    "extracted_at": "2026-11-13T07:39:41.667Z",
+    "extracted_by": "claude-sonnet-5-5/extract-tournament-v1"
+  }
+]

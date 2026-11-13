@@ -1,0 +1,87 @@
+{
+  "id": "euic-2026",
+  "name_zh": "2026 歐洲國際賽",
+  "name_en": "2026 Europe International Championships",
+  "game": "sv",
+  "date_approx": "2026-02",
+  "abbr": "EUIC",
+  "year": 2026,
+  "regulation_set_id": "sv-reg-i",
+  "matches": [
+    {
+      "id": "euic-2026__swiss-round-2__davide-carrer__shoma-honami",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Davide Carrer",
+          "team_ids": [
+            "team_qlqyk4HZGy0_1"
+          ]
+        },
+        {
+          "name": "Shoma Honami",
+          "team_ids": [
+            "team_qlqyk4HZGy0_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "qlqyk4HZGy0",
+          "header_t_s": 142,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2026__swiss-round-4__ashton-cox__dyl-yeomans",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Ashton Cox",
+          "team_ids": [
+            "team_qlqyk4HZGy0_3"
+          ]
+        },
+        {
+          "name": "Dyl Yeomans",
+          "team_ids": [
+            "team_qlqyk4HZGy0_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "qlqyk4HZGy0",
+          "header_t_s": 1319,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "euic-2026__swiss-round-8__francesco-pio-pero__joa-o-felipe-leite",
+      "round": "Swiss Round 8",
+      "players": [
+        {
+          "name": "João Felipe Leite",
+          "team_ids": [
+            "team_qlqyk4HZGy0_5"
+          ]
+        },
+        {
+          "name": "Francesco Pio Pero",
+          "team_ids": [
+            "team_qlqyk4HZGy0_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "qlqyk4HZGy0",
+          "header_t_s": 2679,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
