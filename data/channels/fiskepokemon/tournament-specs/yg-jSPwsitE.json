@@ -1,0 +1,576 @@
+{
+  "video_id": "yg-jSPwsitE",
+  "event": {
+    "id": "baltimore-2024-10",
+    "name_zh": "2024 美國巴爾的摩地區賽（10 月）",
+    "name_en": "2024 Baltimore Regional Championships (October)",
+    "game": "sv",
+    "date_approx": "2024-10",
+    "abbr": "BALT",
+    "year": 2024,
+    "regulation_set_id": "sv-reg-h"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「美國 巴爾的摩地區賽（二）」，章節：Swiss 第 5、8 輪、十六強賽；影片發布於 2024-10-20）。與 iFXIcU63JpA（巴爾的摩地區賽（一））同一賽事（2024-10 巴爾的摩地區賽）。規則 H（無神獸）：依發布日 2024-10 落在 sv-reg-h（2024-09-01 至 2025-01-05），且 36 隻寶可夢中沒有限制級傳說、幻獸、悖謬或準傳說。選手姓名取自畫面名牌（Vijay Sood、Jeremy Parson、Wolfe Glick、Zachary Mnich、Dawei Si、Alex Imbufe）。所有技能欄位皆清楚可讀，沒有以猜測補欄。肯泰羅為帕底亞火熾種、愛管侍為雌性型態（卡片標示）。太晶屬性：西獅海王（Vijay Sood 為毒、Dawei Si 隊上長毛巨魔與 Alex Imbufe 西獅海王為鋼）圖示較小，tera_conf 較低。date_approx 沿用 2024-10（影片發布月估計，未核實）。",
+  "matches": [
+    {
+      "round": "Swiss Round 5",
+      "players": [
+        "Vijay Sood",
+        "Jeremy Parson"
+      ],
+      "header_t_s": 30
+    },
+    {
+      "round": "Swiss Round 8",
+      "players": [
+        "Wolfe Glick",
+        "Zachary Mnich"
+      ],
+      "header_t_s": 1272
+    },
+    {
+      "round": "Top 16",
+      "players": [
+        "Dawei Si",
+        "Alex Imbufe"
+      ],
+      "header_t_s": 2471
+    }
+  ],
+  "teams": [
+    {
+      "player": "Vijay Sood",
+      "round": "Swiss Round 5",
+      "t_s": 80,
+      "frames": [
+        "f_80.png"
+      ],
+      "members": [
+        {
+          "zh": "魔幻假面喵",
+          "en": "Meowscarada",
+          "ability": "茂盛",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "千變萬花",
+            "拍落",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "肯泰羅",
+          "en": "Tauros-Paldea-Blaze",
+          "ability": "威嚇",
+          "item": "White Herb",
+          "tera": "Grass",
+          "moves": [
+            "近身戰",
+            "閃焰衝鋒",
+            "瘋狂伏特",
+            "守住"
+          ],
+          "form": "Paldea Blaze"
+        },
+        {
+          "zh": "西獅海王",
+          "en": "Primarina",
+          "ability": "濕潤之聲",
+          "item": "Sitrus Berry",
+          "tera": "Poison",
+          "moves": [
+            "巨聲",
+            "守住",
+            "月亮之力",
+            "冰凍光束"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "飛天螳螂",
+          "en": "Scyther",
+          "ability": "技術高手",
+          "item": "Eviolite",
+          "tera": "Dragon",
+          "moves": [
+            "守住",
+            "雙翼",
+            "小偷",
+            "近身戰"
+          ]
+        },
+        {
+          "zh": "仙子伊布",
+          "en": "Sylveon",
+          "ability": "妖精皮膚",
+          "item": "Fairy Feather",
+          "tera": "Fire",
+          "moves": [
+            "巨聲",
+            "守住",
+            "電光一閃",
+            "太晶爆發"
+          ]
+        },
+        {
+          "zh": "卡比獸",
+          "en": "Snorlax",
+          "ability": "厚脂肪",
+          "item": "Assault Vest",
+          "tera": "Psychic",
+          "moves": [
+            "高溫重壓",
+            "捨身衝撞",
+            "十萬馬力",
+            "臂錘"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Jeremy Parson",
+      "round": "Swiss Round 5",
+      "t_s": 290,
+      "frames": [
+        "f_290.png"
+      ],
+      "members": [
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Sitrus Berry",
+          "tera": "Psychic",
+          "moves": [
+            "蘑菇孢子",
+            "憤怒粉",
+            "花粉團",
+            "清除之煙"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "拍落",
+            "閃焰衝鋒",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "纏紅鶴",
+          "en": "Flamigo",
+          "ability": "膽量",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "近身戰",
+            "勇鳥猛攻",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Leftovers",
+          "tera": "Dragon",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Fighting",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "自我再生",
+            "戲法空間"
+          ]
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "毅力",
+          "item": "Flame Orb",
+          "tera": "Ghost",
+          "moves": [
+            "硬撐",
+            "突飛猛撲",
+            "替身",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Wolfe Glick",
+      "round": "Swiss Round 8",
+      "t_s": 1290,
+      "frames": [
+        "f_1290.png"
+      ],
+      "members": [
+        {
+          "zh": "巴布土撥",
+          "en": "Pawmot",
+          "ability": "自然回復",
+          "item": "Focus Sash",
+          "tera": "Electric",
+          "moves": [
+            "守住",
+            "電光雙擊",
+            "擊掌奇襲",
+            "近身戰"
+          ]
+        },
+        {
+          "zh": "洗翠火爆獸",
+          "en": "Typhlosion-Hisui",
+          "ability": "猛火",
+          "item": "Choice Scarf",
+          "tera": "Fire",
+          "moves": [
+            "噴火",
+            "暗影球",
+            "夢話",
+            "熱風"
+          ]
+        },
+        {
+          "zh": "鋼鎧鴉",
+          "en": "Corviknight",
+          "ability": "鏡甲",
+          "item": "Sitrus Berry",
+          "tera": "Dragon",
+          "moves": [
+            "守住",
+            "勇鳥猛攻",
+            "羽棲",
+            "順風"
+          ]
+        },
+        {
+          "zh": "陸地水母",
+          "en": "Toedscruel",
+          "ability": "菌絲之力",
+          "item": "Covert Cloak",
+          "tera": "Water",
+          "moves": [
+            "蘑菇孢子",
+            "憤怒粉",
+            "酸液炸彈",
+            "大地之力"
+          ]
+        },
+        {
+          "zh": "伽勒爾雙彈瓦斯",
+          "en": "Weezing-Galar",
+          "ability": "化學變化氣體",
+          "item": "Choice Specs",
+          "tera": "Fire",
+          "moves": [
+            "魔法閃耀",
+            "污泥炸彈",
+            "神奇蒸汽",
+            "噴射火焰"
+          ]
+        },
+        {
+          "zh": "烈咬陸鯊",
+          "en": "Garchomp",
+          "ability": "粗糙皮膚",
+          "item": "Life Orb",
+          "tera": "Ground",
+          "moves": [
+            "守住",
+            "地震",
+            "龍爪",
+            "踩腳"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Zachary Mnich",
+      "round": "Swiss Round 8",
+      "t_s": 1350,
+      "frames": [
+        "f_1350.png"
+      ],
+      "members": [
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Mental Herb",
+          "tera": "Water",
+          "moves": [
+            "憤怒粉",
+            "蘑菇孢子",
+            "污泥炸彈",
+            "花粉團"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Grass",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "纏紅鶴",
+          "en": "Flamigo",
+          "ability": "膽量",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "近身戰",
+            "勇鳥猛攻",
+            "廣域防守",
+            "看穿"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Dragon",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Fighting",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "戲法空間",
+            "自我再生"
+          ]
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "毅力",
+          "item": "Flame Orb",
+          "tera": "Normal",
+          "moves": [
+            "硬撐",
+            "突飛猛撲",
+            "地震",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Dawei Si",
+      "round": "Top 16",
+      "t_s": 2495,
+      "frames": [
+        "f_2495.png"
+      ],
+      "members": [
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Fire",
+          "moves": [
+            "憤怒之拳",
+            "守住",
+            "健美",
+            "吸取拳"
+          ]
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Covert Cloak",
+          "tera": "Dragon",
+          "moves": [
+            "蟲之抵抗",
+            "憤怒粉",
+            "鬼火",
+            "過熱"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "tera": "Steel",
+          "moves": [
+            "靈魂衝擊",
+            "反射壁",
+            "光牆",
+            "挑釁"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Choice Specs",
+          "tera": "Dragon",
+          "moves": [
+            "暗影球",
+            "戲法",
+            "力量寶石",
+            "淘金潮"
+          ]
+        },
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "複製",
+          "item": "Eviolite",
+          "tera": "Ghost",
+          "moves": [
+            "戲法空間",
+            "自我再生",
+            "三重攻擊",
+            "暗影球"
+          ]
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "毅力",
+          "item": "Flame Orb",
+          "tera": "Fairy",
+          "moves": [
+            "守住",
+            "硬撐",
+            "突飛猛撲",
+            "地震"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Alex Imbufe",
+      "round": "Top 16",
+      "t_s": 2615,
+      "frames": [
+        "f_2615.png"
+      ],
+      "members": [
+        {
+          "zh": "電螢蟲",
+          "en": "Volbeat",
+          "ability": "惡作劇之心",
+          "item": "Coba Berry",
+          "tera": "Dark",
+          "moves": [
+            "順風",
+            "大晴天",
+            "求雨",
+            "再來一次"
+          ]
+        },
+        {
+          "zh": "洗翠火爆獸",
+          "en": "Typhlosion-Hisui",
+          "ability": "猛火",
+          "item": "Charcoal",
+          "tera": "Fire",
+          "moves": [
+            "守住",
+            "噴射火焰",
+            "暗影球",
+            "噴火"
+          ]
+        },
+        {
+          "zh": "西獅海王",
+          "en": "Primarina",
+          "ability": "濕潤之聲",
+          "item": "Choice Specs",
+          "tera": "Steel",
+          "moves": [
+            "氣象球",
+            "巨聲",
+            "月亮之力",
+            "魔法閃耀"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "超能艷鴕",
+          "en": "Espathra",
+          "ability": "加速",
+          "item": "Focus Sash",
+          "tera": "Psychic",
+          "moves": [
+            "琉光衝激",
+            "守住",
+            "廣域戰力",
+            "魔法閃耀"
+          ]
+        },
+        {
+          "zh": "愛管侍",
+          "en": "Indeedee-F",
+          "ability": "精神製造者",
+          "item": "Safety Goggles",
+          "tera": "Fairy",
+          "moves": [
+            "巨聲",
+            "看我嘛",
+            "封印",
+            "戲法空間"
+          ],
+          "form": "Female"
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Power Herb",
+          "tera": "Grass",
+          "moves": [
+            "龍之波動",
+            "波導彈",
+            "電光束",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}

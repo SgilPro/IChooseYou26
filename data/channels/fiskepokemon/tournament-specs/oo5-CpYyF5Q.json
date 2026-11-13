@@ -1,0 +1,604 @@
+{
+ "video_id": "oo5-CpYyF5Q",
+ "event": {
+  "id": "krtc-2026",
+  "name_zh": "2026 韓國訓練家盃",
+  "name_en": "2026 Korea Trainer Cup",
+  "game": "champions",
+  "date_approx": "2026-06",
+  "abbr": "KRTC",
+  "year": 2026,
+  "regulation_set_id": "champions-m-a"
+ },
+ "note": "Fiske 講比賽（會員影片，韓語轉播）。隊伍表為繁體中文 UI：技能、特性為文字，性格以「+X, -Y」文字公開（已換算成性格名）；道具只有圖示，由視覺比對。Mega 寶可夢卡片顯示 Mega 後特性。date_approx 為估計（影片 2026-06-01 發布，規則為 M-A，賽事約在 2026 年 5 月底至 6 月初）。影片只收錄 Round 4、Top 8（一場）、Finals，三場的對手都有隊伍表，Top 8 與 Finals 的 Jeongso Lee 為同一份隊伍。Vivillon 的道具圖示與 Choice Scarf 相同但招式全為變化招式，把握低；Chople／Passho／Kasib／Sitrus／Focus Sash 圖示把握中等。",
+ "matches": [
+  {
+   "round": "Round 4",
+   "players": [
+    "Sejun Park",
+    "Juyoung Hong"
+   ],
+   "header_t_s": 142
+  },
+  {
+   "round": "Top 8",
+   "players": [
+    "Jeongso Lee",
+    "Jeongkyu Choi"
+   ],
+   "header_t_s": 1457
+  },
+  {
+   "round": "Finals",
+   "players": [
+    "Junhee Lee",
+    "Jeongso Lee"
+   ],
+   "header_t_s": 2988
+  }
+ ],
+ "teams": [
+  {
+   "player": "Sejun Park",
+   "round": "Round 4",
+   "t_s": 175,
+   "frames": [
+    "f_175.png"
+   ],
+   "members": [
+    {
+     "zh": "妖火紅狐",
+     "en": "Delphox",
+     "mega": "Mega",
+     "ability": "飄浮",
+     "item": "Delphoxite",
+     "nature": "Timid",
+     "moves": [
+      "熱風",
+      "精神強念",
+      "詭計",
+      "守住"
+     ]
+    },
+    {
+     "zh": "花葉蒂",
+     "en": "Floette-Eternal",
+     "mega": "Mega",
+     "ability": "妖精氣場",
+     "item": "Floettite",
+     "nature": "Modest",
+     "moves": [
+      "月亮之力",
+      "吸取之吻",
+      "冥想",
+      "守住"
+     ]
+    },
+    {
+     "zh": "一家鼠",
+     "en": "Maushold",
+     "ability": "友情防守",
+     "item": "Chople Berry",
+     "item_conf": 0.8,
+     "nature": "Impish",
+     "moves": [
+      "憤怒門牙",
+      "伴攻",
+      "看我嘛",
+      "守住"
+     ]
+    },
+    {
+     "zh": "熾焰咆哮虎",
+     "en": "Incineroar",
+     "ability": "威嚇",
+     "item": "Passho Berry",
+     "item_conf": 0.8,
+     "nature": "Careful",
+     "moves": [
+      "閃焰衝鋒",
+      "地獄突刺",
+      "拋下狠話",
+      "擊掌奇襲"
+     ]
+    },
+    {
+     "zh": "來悲粗茶",
+     "en": "Sinistcha",
+     "ability": "款待",
+     "item": "Kasib Berry",
+     "item_conf": 0.8,
+     "nature": "Bold",
+     "moves": [
+      "刷刷茶炮",
+      "憤怒粉",
+      "生命水滴",
+      "守住"
+     ]
+    },
+    {
+     "zh": "彩粉蝶",
+     "en": "Vivillon",
+     "ability": "複眼",
+     "item": "Choice Scarf",
+     "item_conf": 0.6,
+     "nature": "Timid",
+     "moves": [
+      "催眠粉",
+      "暴風",
+      "憤怒粉",
+      "順風"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Juyoung Hong",
+   "round": "Round 4",
+   "t_s": 380,
+   "frames": [
+    "f_380.png"
+   ],
+   "members": [
+    {
+     "zh": "噴火龍",
+     "en": "Charizard",
+     "mega": "Mega-Y",
+     "ability": "日照",
+     "item": "Charizardite Y",
+     "nature": "Modest",
+     "moves": [
+      "氣象球",
+      "熱風",
+      "日光束",
+      "守住"
+     ]
+    },
+    {
+     "zh": "化石翼龍",
+     "en": "Aerodactyl",
+     "ability": "緊張感",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Jolly",
+     "moves": [
+      "岩崩",
+      "廣域防守",
+      "順風",
+      "守住"
+     ]
+    },
+    {
+     "zh": "奇麒麟",
+     "en": "Farigiraf",
+     "ability": "尾甲",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Relaxed",
+     "moves": [
+      "精神強念",
+      "幫助",
+      "戲法空間",
+      "交換場地"
+     ]
+    },
+    {
+     "zh": "仆斬將軍",
+     "en": "Kingambit",
+     "ability": "不服輸",
+     "item": "Black Glasses",
+     "nature": "Adamant",
+     "moves": [
+      "仆斬",
+      "鐵頭",
+      "突襲",
+      "踢倒"
+     ]
+    },
+    {
+     "zh": "仙子伊布",
+     "en": "Sylveon",
+     "ability": "妖精皮膚",
+     "item": "Fairy Feather",
+     "nature": "Modest",
+     "moves": [
+      "巨聲",
+      "破壞光線",
+      "電光一閃",
+      "看穿"
+     ]
+    },
+    {
+     "zh": "烈咬陸鯊",
+     "en": "Garchomp",
+     "ability": "粗糙皮膚",
+     "item": "Choice Scarf",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "龍爪",
+      "地震",
+      "踩腳",
+      "岩崩"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Jeongso Lee",
+   "round": "Top 8",
+   "t_s": 1530,
+   "frames": [
+    "f_1530.png"
+   ],
+   "members": [
+    {
+     "zh": "噴火龍",
+     "en": "Charizard",
+     "mega": "Mega-Y",
+     "ability": "日照",
+     "item": "Charizardite Y",
+     "nature": "Modest",
+     "moves": [
+      "守住",
+      "氣象球",
+      "熱風",
+      "日光束"
+     ]
+    },
+    {
+     "zh": "花葉蒂",
+     "en": "Floette-Eternal",
+     "mega": "Mega",
+     "ability": "妖精氣場",
+     "item": "Floettite",
+     "nature": "Modest",
+     "moves": [
+      "守住",
+      "冥想",
+      "月亮之力",
+      "魔法閃耀"
+     ]
+    },
+    {
+     "zh": "熾焰咆哮虎",
+     "en": "Incineroar",
+     "ability": "威嚇",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Careful",
+     "moves": [
+      "擊掌奇襲",
+      "地獄突刺",
+      "閃焰衝鋒",
+      "拋下狠話"
+     ]
+    },
+    {
+     "zh": "堅盾劍怪",
+     "en": "Aegislash",
+     "ability": "戰鬥切換",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "影子偷襲",
+      "靈騷",
+      "王者盾牌",
+      "鐵頭"
+     ]
+    },
+    {
+     "zh": "來悲粗茶",
+     "en": "Sinistcha",
+     "ability": "款待",
+     "item": "Kasib Berry",
+     "item_conf": 0.8,
+     "nature": "Relaxed",
+     "moves": [
+      "守住",
+      "戲法空間",
+      "刷刷茶炮",
+      "憤怒粉"
+     ]
+    },
+    {
+     "zh": "烈咬陸鯊",
+     "en": "Garchomp",
+     "ability": "粗糙皮膚",
+     "item": "Choice Scarf",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "岩石封鎖",
+      "龍爪",
+      "地震",
+      "踩腳"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Jeongkyu Choi",
+   "round": "Top 8",
+   "t_s": 1630,
+   "frames": [
+    "f_1630.png"
+   ],
+   "members": [
+    {
+     "zh": "班基拉斯",
+     "en": "Tyranitar",
+     "mega": "Mega",
+     "ability": "揚沙",
+     "item": "Tyranitarite",
+     "nature": "Adamant",
+     "moves": [
+      "守住",
+      "拍落",
+      "岩崩",
+      "踢倒"
+     ]
+    },
+    {
+     "zh": "花葉蒂",
+     "en": "Floette-Eternal",
+     "mega": "Mega",
+     "ability": "妖精氣場",
+     "item": "Floettite",
+     "nature": "Modest",
+     "moves": [
+      "守住",
+      "冥想",
+      "魔法閃耀",
+      "月亮之力"
+     ]
+    },
+    {
+     "zh": "清洗洛托姆",
+     "en": "Rotom-Wash",
+     "ability": "飄浮",
+     "item": "Magnet",
+     "item_conf": 0.8,
+     "nature": "Timid",
+     "moves": [
+      "伏特替換",
+      "十萬伏特",
+      "水炮",
+      "鬼火"
+     ]
+    },
+    {
+     "zh": "熾焰咆哮虎",
+     "en": "Incineroar",
+     "ability": "威嚇",
+     "item": "Chople Berry",
+     "item_conf": 0.8,
+     "nature": "Careful",
+     "moves": [
+      "擊掌奇襲",
+      "ＤＤ金勾臂",
+      "閃焰衝鋒",
+      "拋下狠話"
+     ]
+    },
+    {
+     "zh": "來悲粗茶",
+     "en": "Sinistcha",
+     "ability": "款待",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Bold",
+     "moves": [
+      "守住",
+      "戲法空間",
+      "憤怒粉",
+      "刷刷茶炮"
+     ]
+    },
+    {
+     "zh": "龍頭地鼠",
+     "en": "Excadrill",
+     "ability": "撥沙",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Jolly",
+     "moves": [
+      "守住",
+      "岩崩",
+      "十萬馬力",
+      "鐵頭"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Junhee Lee",
+   "round": "Finals",
+   "t_s": 3040,
+   "frames": [
+    "f_3040.png"
+   ],
+   "members": [
+    {
+     "zh": "巨鉗螳螂",
+     "en": "Scizor",
+     "mega": "Mega",
+     "ability": "技術高手",
+     "item": "Scizorite",
+     "nature": "Adamant",
+     "moves": [
+      "子彈拳",
+      "拍落",
+      "蟲咬",
+      "守住"
+     ]
+    },
+    {
+     "zh": "花葉蒂",
+     "en": "Floette-Eternal",
+     "mega": "Mega",
+     "ability": "妖精氣場",
+     "item": "Floettite",
+     "nature": "Modest",
+     "moves": [
+      "月亮之力",
+      "魔法閃耀",
+      "破滅之光",
+      "守住"
+     ]
+    },
+    {
+     "zh": "晶光花",
+     "en": "Glimmora",
+     "ability": "毒滿地",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Timid",
+     "moves": [
+      "力量寶石",
+      "污泥炸彈",
+      "大地之力",
+      "尖刺防守"
+     ]
+    },
+    {
+     "zh": "仆斬將軍",
+     "en": "Kingambit",
+     "ability": "不服輸",
+     "item": "Chople Berry",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "突襲",
+      "仆斬",
+      "踢倒",
+      "守住"
+     ]
+    },
+    {
+     "zh": "烈箭鷹",
+     "en": "Talonflame",
+     "ability": "疾風之翼",
+     "item": "Charcoal",
+     "item_conf": 0.8,
+     "nature": "Naive",
+     "moves": [
+      "勇鳥猛攻",
+      "過熱",
+      "順風",
+      "守住"
+     ]
+    },
+    {
+     "zh": "烈咬陸鯊",
+     "en": "Garchomp",
+     "ability": "粗糙皮膚",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "龍爪",
+      "地震",
+      "岩崩",
+      "守住"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Jeongso Lee",
+   "round": "Finals",
+   "t_s": 3100,
+   "frames": [
+    "f_3100.png"
+   ],
+   "members": [
+    {
+     "zh": "噴火龍",
+     "en": "Charizard",
+     "mega": "Mega-Y",
+     "ability": "日照",
+     "item": "Charizardite Y",
+     "nature": "Modest",
+     "moves": [
+      "守住",
+      "氣象球",
+      "熱風",
+      "日光束"
+     ]
+    },
+    {
+     "zh": "花葉蒂",
+     "en": "Floette-Eternal",
+     "mega": "Mega",
+     "ability": "妖精氣場",
+     "item": "Floettite",
+     "nature": "Modest",
+     "moves": [
+      "守住",
+      "冥想",
+      "月亮之力",
+      "魔法閃耀"
+     ]
+    },
+    {
+     "zh": "熾焰咆哮虎",
+     "en": "Incineroar",
+     "ability": "威嚇",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Careful",
+     "moves": [
+      "擊掌奇襲",
+      "地獄突刺",
+      "閃焰衝鋒",
+      "拋下狠話"
+     ]
+    },
+    {
+     "zh": "堅盾劍怪",
+     "en": "Aegislash",
+     "ability": "戰鬥切換",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "影子偷襲",
+      "靈騷",
+      "王者盾牌",
+      "鐵頭"
+     ]
+    },
+    {
+     "zh": "來悲粗茶",
+     "en": "Sinistcha",
+     "ability": "款待",
+     "item": "Kasib Berry",
+     "item_conf": 0.8,
+     "nature": "Relaxed",
+     "moves": [
+      "守住",
+      "戲法空間",
+      "刷刷茶炮",
+      "憤怒粉"
+     ]
+    },
+    {
+     "zh": "烈咬陸鯊",
+     "en": "Garchomp",
+     "ability": "粗糙皮膚",
+     "item": "Choice Scarf",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "岩石封鎖",
+      "龍爪",
+      "地震",
+      "踩腳"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -157,6 +157,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-2__nick-holmer__pierre-coste",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Nick Holmer",
+          "team_ids": [
+            "team__tMNdvTfcGk_1"
+          ]
+        },
+        {
+          "name": "Pierre Coste",
+          "team_ids": [
+            "team__tMNdvTfcGk_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "_tMNdvTfcGk",
+          "header_t_s": 133,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-3__eduardo-cunha__michael-kelsch",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Eduardo Cunha",
+          "team_ids": [
+            "team__tMNdvTfcGk_3"
+          ]
+        },
+        {
+          "name": "Michael Kelsch",
+          "team_ids": [
+            "team__tMNdvTfcGk_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "_tMNdvTfcGk",
+          "header_t_s": 1310,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-6__marco-silva__wei-deng",
+      "round": "Swiss Round 6",
+      "players": [
+        {
+          "name": "Wei Deng",
+          "team_ids": [
+            "team__tMNdvTfcGk_5"
+          ]
+        },
+        {
+          "name": "Marco Silva",
+          "team_ids": [
+            "team__tMNdvTfcGk_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "_tMNdvTfcGk",
+          "header_t_s": 2666,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }

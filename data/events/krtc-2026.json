@@ -1,0 +1,87 @@
+{
+  "id": "krtc-2026",
+  "name_zh": "2026 韓國訓練家盃",
+  "name_en": "2026 Korea Trainer Cup",
+  "game": "champions",
+  "date_approx": "2026-06",
+  "abbr": "KRTC",
+  "year": 2026,
+  "regulation_set_id": "champions-m-a",
+  "matches": [
+    {
+      "id": "krtc-2026__round-4__juyoung-hong__sejun-park",
+      "round": "Round 4",
+      "players": [
+        {
+          "name": "Sejun Park",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_1"
+          ]
+        },
+        {
+          "name": "Juyoung Hong",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "oo5-CpYyF5Q",
+          "header_t_s": 142,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "krtc-2026__top-8__jeongkyu-choi__jeongso-lee",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Jeongso Lee",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_3"
+          ]
+        },
+        {
+          "name": "Jeongkyu Choi",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "oo5-CpYyF5Q",
+          "header_t_s": 1457,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "krtc-2026__finals__jeongso-lee__junhee-lee",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Junhee Lee",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_5"
+          ]
+        },
+        {
+          "name": "Jeongso Lee",
+          "team_ids": [
+            "team_oo5-CpYyF5Q_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "oo5-CpYyF5Q",
+          "header_t_s": 2988,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
