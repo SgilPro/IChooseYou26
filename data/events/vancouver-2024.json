@@ -307,6 +307,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "vancouver-2024__top-4__james-evans__michael-zhang",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Michael Zhang",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_1"
+          ]
+        },
+        {
+          "name": "James Evans",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "VV8MeXnJ7SY",
+          "header_t_s": 0,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "vancouver-2024__top-4__brady-smith__scott-iwafuchi",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Scott Iwafuchi",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_3"
+          ]
+        },
+        {
+          "name": "Brady Smith",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "VV8MeXnJ7SY",
+          "header_t_s": 1182,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "vancouver-2024__finals__brady-smith__james-evans",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Brady Smith",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_5"
+          ]
+        },
+        {
+          "name": "James Evans",
+          "team_ids": [
+            "team_VV8MeXnJ7SY_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "VV8MeXnJ7SY",
+          "header_t_s": 2518,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }

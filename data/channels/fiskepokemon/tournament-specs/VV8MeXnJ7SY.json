@@ -1,0 +1,600 @@
+{
+  "video_id": "VV8MeXnJ7SY",
+  "event": {
+    "id": "vancouver-2024",
+    "name_zh": "2024 加拿大溫哥華地區賽",
+    "name_en": "2024 Vancouver Regional Championships",
+    "game": "sv",
+    "abbr": "VAN",
+    "year": 2024,
+    "date_approx": "2024-04",
+    "regulation_set_id": "sv-reg-f"
+  },
+  "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「加拿大 溫哥華地區賽（五）」，章節：四強賽第一桌、四強賽第二桌、決賽；影片發布於 2024-05-06）。同賽事其他影片：2K9QSJ43gYE（一）、E7p7n6jNZzE、g3GW4KakDhA、9NCVAEMLtR0（四）。規則 F（無限制級傳說）：發布日 2024-05-06 已在 Reg G 之後（sv-reg-f 為 2024-01-04～2024-04-30），但賽事本身於 2024-04 下旬舉行，沿用（一）（四）的 sv-reg-f 設定；24 隻（四強四隊）寶可夢中沒有任何限制級傳說／幻獸（出現的有悖謬：鐵頭殼、猛雷鼓、破空焰、振翼髮、轟鳴月；古劍豹、土地雲為一般傳說；厄鬼椪），與 Reg F 相符（Reg G 亦允許，無法由隊伍區分，以賽事日期為準）。四強賽：第一桌 Michael Zhang vs James Evans、第二桌 Scott Iwafuchi vs Brady Smith；決賽 Brady Smith vs James Evans。選手姓名取自畫面名牌與解說。四隊的隊伍表皆從本影片 720p 影格重新讀取（Michael Zhang 為本影片首度登記），James Evans、Scott Iwafuchi、Brady Smith 與（四）的登記逐欄比對一致；決賽章節再次顯示 Brady Smith 與 James Evans 的隊伍表，從決賽影格確認與四強賽相同的六隻、技能、特性、道具後，以相同內容另登記一份（round=Finals）。太晶徽章在半透明面板上偏淡，tera_conf 較低者較不確定：Michael Zhang 的鱗甲龍判讀為鋼（0.7，淡青灰徽章，與同影片土地雲/武道熊師的鋼徽章相同）、愛管侍判讀為妖精（0.7）、風妖精的淡米白徽章判讀為岩石（0.6，解說亦提到太晶岩石）；Scott 的轟鳴月飛行 0.75、賽富豪妖精 0.75；James 的振翼髮、破空焰妖精 0.75；Brady 的土地雲、猛雷鼓、武道熊師沿用（四）的 0.75。被字幕遮住的欄位已用同一段其他影格補讀（Michael 的愛管侍第四招魔法閃耀、Scott 的敗露球菇第四招憤怒粉、James 的破空焰第四招火焰守護、Brady 的轟擂金剛猩第四招擊掌奇襲），全部可完整讀到，沒有以猜測補欄。date_approx 與賽事區塊沿用（一）。",
+  "matches": [
+    {
+      "round": "Top 4",
+      "players": [
+        "Michael Zhang",
+        "James Evans"
+      ],
+      "header_t_s": 0
+    },
+    {
+      "round": "Top 4",
+      "players": [
+        "Scott Iwafuchi",
+        "Brady Smith"
+      ],
+      "header_t_s": 1182
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Brady Smith",
+        "James Evans"
+      ],
+      "header_t_s": 2518
+    }
+  ],
+  "teams": [
+    {
+      "player": "Michael Zhang",
+      "round": "Top 4",
+      "t_s": 75,
+      "frames": [
+        "a/f_05.png"
+      ],
+      "members": [
+        {
+          "zh": "鐵頭殼",
+          "en": "Iron Crown",
+          "ability": "夸克充能",
+          "item": "Booster Energy",
+          "tera": "Psychic",
+          "moves": [
+            "守住",
+            "廣域戰力",
+            "冥想",
+            "迅子利刃"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "form": "Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "看我嘛",
+            "跺腳",
+            "尖刺防守"
+          ]
+        },
+        {
+          "zh": "杖尾鱗甲龍",
+          "en": "Kommo-o",
+          "ability": "防塵",
+          "item": "Leftovers",
+          "tera": "Steel",
+          "moves": [
+            "鐵頭",
+            "鐵壁",
+            "守住",
+            "撲擊"
+          ],
+          "tera_conf": 0.7
+        },
+        {
+          "zh": "班基拉斯",
+          "en": "Tyranitar",
+          "ability": "揚沙",
+          "item": "Assault Vest",
+          "tera": "Flying",
+          "moves": [
+            "尖石攻擊",
+            "岩崩",
+            "踢倒",
+            "拍落"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "愛管侍-雌性的樣子",
+          "en": "Indeedee",
+          "form": "Female",
+          "ability": "精神製造者",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "看我嘛",
+            "守住",
+            "幫助",
+            "魔法閃耀"
+          ],
+          "tera_conf": 0.7
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Rock",
+          "moves": [
+            "順風",
+            "月亮之力",
+            "薄霧場地",
+            "撒嬌"
+          ],
+          "tera_conf": 0.6
+        }
+      ]
+    },
+    {
+      "player": "James Evans",
+      "round": "Top 4",
+      "t_s": 140,
+      "frames": [
+        "b/f_05.png"
+      ],
+      "members": [
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "力量寶石"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Meadow Plate",
+          "tera": "Fire",
+          "moves": [
+            "擊掌奇襲",
+            "青草滑梯",
+            "挑釁",
+            "木槌"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Dragon",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "長嚎",
+            "火焰守護"
+          ],
+          "tera_conf": 0.75
+        }
+      ]
+    },
+    {
+      "player": "Scott Iwafuchi",
+      "round": "Top 4",
+      "t_s": 1255,
+      "frames": [
+        "c/f_05.png"
+      ],
+      "members": [
+        {
+          "zh": "多邊獸Ⅱ",
+          "en": "Porygon2",
+          "ability": "下載",
+          "item": "Eviolite",
+          "tera": "Poison",
+          "moves": [
+            "太晶爆發",
+            "冰凍光束",
+            "戲法空間",
+            "自我再生"
+          ],
+          "tera_conf": 0.7
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "tera": "Grass",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "轟鳴月",
+          "en": "Roaring Moon",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Flying",
+          "moves": [
+            "拍落",
+            "雜技",
+            "龍之舞",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "污泥炸彈",
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Metal Coat",
+          "tera": "Fairy",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        }
+      ]
+    },
+    {
+      "player": "Brady Smith",
+      "round": "Top 4",
+      "t_s": 1308,
+      "frames": [
+        "d/f_04.png"
+      ],
+      "members": [
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "守住",
+            "冰柱墜擊",
+            "突襲",
+            "聖劍"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拋下狠話",
+            "閃焰衝鋒",
+            "鬼火",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Leftovers",
+          "tera": "Fairy",
+          "moves": [
+            "迅雷",
+            "龍之波動",
+            "冥想",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Steel",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "急速折返"
+          ],
+          "form": "Rapid-Strike",
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Brady Smith",
+      "round": "Finals",
+      "t_s": 2560,
+      "frames": [
+        "e/f_05.png"
+      ],
+      "members": [
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "守住",
+            "冰柱墜擊",
+            "突襲",
+            "聖劍"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拋下狠話",
+            "閃焰衝鋒",
+            "鬼火",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Leftovers",
+          "tera": "Fairy",
+          "moves": [
+            "迅雷",
+            "龍之波動",
+            "冥想",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Steel",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "急速折返"
+          ],
+          "form": "Rapid-Strike",
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "James Evans",
+      "round": "Finals",
+      "t_s": 2630,
+      "frames": [
+        "f/f_05.png"
+      ],
+      "members": [
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "魔法閃耀",
+            "力量寶石"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Meadow Plate",
+          "tera": "Fire",
+          "moves": [
+            "擊掌奇襲",
+            "青草滑梯",
+            "挑釁",
+            "木槌"
+          ]
+        },
+        {
+          "zh": "仆斬將軍",
+          "en": "Kingambit",
+          "ability": "不服輸",
+          "item": "Black Glasses",
+          "tera": "Dragon",
+          "moves": [
+            "仆斬",
+            "劍舞",
+            "突襲",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "破空焰",
+          "en": "Gouging Fire",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "高溫重壓",
+            "廣域破壞",
+            "長嚎",
+            "火焰守護"
+          ],
+          "tera_conf": 0.75
+        }
+      ]
+    }
+  ]
+}
