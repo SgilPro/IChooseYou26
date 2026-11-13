@@ -1,0 +1,593 @@
+{
+  "video_id": "m-boUrJaSqo",
+  "event": {
+    "id": "utrecht-2024",
+    "name_zh": "2024 荷蘭烏特勒支特別賽",
+    "name_en": "2024 Utrecht Special Event",
+    "game": "sv",
+    "abbr": "UTR",
+    "year": 2024,
+    "date_approx": "2024-03",
+    "regulation_set_id": "sv-reg-f"
+  },
+  "stats_note": "轉播畫面（英文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「荷蘭 烏特勒支特別賽（四）」，章節：八強賽第二桌（Emir Abdulovski 對 Nikhil Reddy，鏡像局）、四強賽（Aurélien Soula 對 Michael Kelsch）、決賽（Aurélien Soula 對 Nikhil Reddy）；其餘章節為賽後訪談；影片發布於 2024-03-28；同賽事其他影片 kkl-3mG4ShU、ROo4T8w_Uxw、2OFyeIibfzg）。規則 F：依發布日 2024-03-28 落在 sv-reg-f（2024-01-04～2024-04-30），且 5 組不同隊伍中沒有限制級傳說／幻獸（有悖謬：猛雷鼓、振翼髮；Reg F 允許；炎帝、急凍鳥為一般傳說寶可夢）。賽制是否另有特殊規則未能從影片證實，為推定。每位選手的隊伍表皆為各自的畫面，本片新畫面逐項讀取，與同賽事前段影片比對僅作一致性檢查：Emir Abdulovski 與 2OFyeIibfzg 同一隊（第四招 Snarl、Protect 在本片可見）；Aurélien Soula 與 2OFyeIibfzg 八強賽第一桌同一隊（本片決賽表與四強賽表相同）。Nikhil Reddy 的隊伍與 Emir 同六隻、特性、道具、招式，招式欄排列順序不同（影片說明為鏡像抄隊）；八強賽與決賽兩張表內容相同。標題所稱「急凍鳥」為一般急凍鳥（Articuno），不是伽勒爾急凍鳥。太晶徽章已放大比對：鋼（青綠）、妖精（淡粉）徽章偏淡，tera_conf 設 0.8。字幕遮住的欄位改取其他影格或 360p 副本逐秒掃描的無字幕影格讀出：Aurélien 土地雲第四招 Protect 與生命寶珠（360p 副本）。Nikhil 的猛雷鼓道具（八強賽）被字幕遮住，影格只見「Assa…」與「…est」字樣加圖示與同隊 Emir 一致為突擊背心；決賽表中清楚可見突擊背心。Michael Kelsch 猛雷鼓道具突擊背心在另一影格清楚可見。無猜測補欄。frames 檔名為暫存影格。date_approx 沿用既有賽事設定（月份為估計、未驗證）。",
+  "matches": [
+    {
+      "round": "Top 8",
+      "players": [
+        "Emir Abdulovski",
+        "Nikhil Reddy"
+      ],
+      "header_t_s": 40
+    },
+    {
+      "round": "Top 4",
+      "players": [
+        "Aurélien Soula",
+        "Michael Kelsch"
+      ],
+      "header_t_s": 1948
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Aurélien Soula",
+        "Nikhil Reddy"
+      ],
+      "header_t_s": 3221
+    }
+  ],
+  "teams": [
+    {
+      "player": "Emir Abdulovski",
+      "round": "Top 8",
+      "t_s": 107,
+      "frames": [
+        "f100/f_14.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Choice Band",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "神速",
+            "雙刃頭錘"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Light Clay",
+          "tera": "Fire",
+          "moves": [
+            "暴風雪",
+            "月亮之力",
+            "極光幕",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "急凍鳥",
+          "en": "Articuno",
+          "ability": "雪隱",
+          "item": "Choice Specs",
+          "tera": "Ice",
+          "moves": [
+            "暴風雪",
+            "冰凍光束",
+            "冷凍乾燥",
+            "絕對零度"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "迅雷",
+            "流星群",
+            "電網",
+            "大聲咆哮"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Nikhil Reddy",
+      "round": "Top 8",
+      "t_s": 190,
+      "frames": [
+        "f185/f_07.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Choice Band",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "雙刃頭錘",
+            "神速"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Light Clay",
+          "tera": "Fire",
+          "moves": [
+            "暴風雪",
+            "月亮之力",
+            "極光幕",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "急凍鳥",
+          "en": "Articuno",
+          "ability": "雪隱",
+          "item": "Choice Specs",
+          "tera": "Ice",
+          "moves": [
+            "暴風雪",
+            "冰凍光束",
+            "冷凍乾燥",
+            "絕對零度"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "電網",
+            "流星群",
+            "迅雷",
+            "大聲咆哮"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Aurélien Soula",
+      "round": "Top 4",
+      "t_s": 2042,
+      "frames": [
+        "f2030/f_12.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "看我嘛",
+            "木槌",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "魔法閃耀",
+            "守住",
+            "冰凍之風",
+            "月亮之力"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Miracle Seed",
+          "tera": "Steel",
+          "moves": [
+            "擊掌奇襲",
+            "守住",
+            "青草滑梯",
+            "木槌"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "突襲",
+            "看穿",
+            "近身戰"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "大地之力",
+            "挑釁",
+            "污泥炸彈",
+            "守住"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "大聲咆哮",
+            "電網",
+            "龍之波動",
+            "迅雷"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Michael Kelsch",
+      "round": "Top 4",
+      "t_s": 2118,
+      "frames": [
+        "f2115/f_07.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "挑釁",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "炎帝",
+          "en": "Entei",
+          "ability": "精神力",
+          "item": "Choice Band",
+          "tera": "Normal",
+          "moves": [
+            "神聖之火",
+            "神速",
+            "跺腳",
+            "閃焰衝鋒"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "守住"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "龍之波動",
+            "迅雷",
+            "大聲咆哮",
+            "電網"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Aurélien Soula",
+      "round": "Finals",
+      "t_s": 3249,
+      "frames": [
+        "f3245/f_04.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "看我嘛",
+            "木槌",
+            "尖刺防守"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "魔法閃耀",
+            "守住",
+            "冰凍之風",
+            "月亮之力"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Miracle Seed",
+          "tera": "Steel",
+          "moves": [
+            "擊掌奇襲",
+            "守住",
+            "青草滑梯",
+            "木槌"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "突襲",
+            "看穿",
+            "近身戰"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "大地之力",
+            "挑釁",
+            "污泥炸彈",
+            "守住"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "大聲咆哮",
+            "電網",
+            "龍之波動",
+            "迅雷"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Nikhil Reddy",
+      "round": "Finals",
+      "t_s": 3292,
+      "frames": [
+        "f3290/f_04.png"
+      ],
+      "members": [
+        {
+          "zh": "厄鬼椪-水井面具",
+          "en": "Ogerpon-Wellspring",
+          "ability": "儲水",
+          "item": "Wellspring Mask",
+          "tera": "Water",
+          "moves": [
+            "棘藤棒",
+            "木角",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "form": "Wellspring"
+        },
+        {
+          "zh": "洗翠風速狗",
+          "en": "Arcanine-Hisui",
+          "ability": "威嚇",
+          "item": "Choice Band",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "岩崩",
+            "雙刃頭錘",
+            "神速"
+          ]
+        },
+        {
+          "zh": "阿羅拉九尾",
+          "en": "Ninetales-Alola",
+          "ability": "降雪",
+          "item": "Light Clay",
+          "tera": "Fire",
+          "moves": [
+            "暴風雪",
+            "月亮之力",
+            "極光幕",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "急凍鳥",
+          "en": "Articuno",
+          "ability": "雪隱",
+          "item": "Choice Specs",
+          "tera": "Ice",
+          "moves": [
+            "暴風雪",
+            "冰凍光束",
+            "冷凍乾燥",
+            "絕對零度"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus",
+          "ability": "強行",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "大地之力",
+            "污泥炸彈",
+            "替身",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "電網",
+            "流星群",
+            "迅雷",
+            "大聲咆哮"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    }
+  ]
+}
