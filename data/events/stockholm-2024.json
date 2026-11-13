@@ -307,6 +307,56 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "stockholm-2024__top-4__joji-kaieda__marco-silva",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Marco Silva",
+          "team_ids": [
+            "team_G7-uQyQFBmE_1"
+          ]
+        },
+        {
+          "name": "Joji Kaieda",
+          "team_ids": [
+            "team_G7-uQyQFBmE_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "G7-uQyQFBmE",
+          "header_t_s": 35,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "stockholm-2024__finals__joji-kaieda__michael-kelsch",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Michael Kelsch",
+          "team_ids": [
+            "team_G7-uQyQFBmE_3"
+          ]
+        },
+        {
+          "name": "Joji Kaieda",
+          "team_ids": [
+            "team_G7-uQyQFBmE_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "G7-uQyQFBmE",
+          "header_t_s": 1568,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }

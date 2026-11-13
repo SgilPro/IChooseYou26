@@ -1,0 +1,571 @@
+{
+  "video_id": "mool-f9J84c",
+  "event": {
+    "id": "naic-2024",
+    "name_zh": "2024 北美洲國際賽",
+    "name_en": "2024 North America International Championships",
+    "game": "sv",
+    "date_approx": "2024-06",
+    "abbr": "NAIC",
+    "year": 2024,
+    "regulation_set_id": "sv-reg-g"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「北美洲國際賽（三）」，章節：Swiss 第 9、10、11 輪，各一場；影片發布於 2024-07-21）。賽事為 2024 北美洲國際賽（哥倫布），與 RnY4b_9Brjg、QYReyuQXi8I 屬同一賽事，match id 以賽事＋輪次＋選手為準。規則 G（單神）：影片未明講，依發布日落在 sv-reg-g（2024-05-01..2024-08-31），且 6 隊每隊恰好 1 隻限制級傳說（Victor 與 Taran 太樂巴戈斯；Henry 蓋歐卡；Zee 與 Riley 密勒頓；Justin 藏瑪然特-盾之王）。全部卡片皆取自 720p 影格，所有技能欄位皆清楚可讀，沒有留空或推測。太晶屬性由徽章放大辨識，並與解說字幕交叉核對。選手名取自畫面名牌。三場皆只出現選手隊伍表，隊伍表來自各場開頭的解說畫面。",
+  "matches": [
+    {
+      "round": "Swiss Round 9",
+      "players": [
+        "Victor Medina",
+        "Taran Birdee"
+      ],
+      "header_t_s": 0
+    },
+    {
+      "round": "Swiss Round 10",
+      "players": [
+        "Henry Rich",
+        "Zee Costagliola"
+      ],
+      "header_t_s": 2942
+    },
+    {
+      "round": "Swiss Round 11",
+      "players": [
+        "Justin Carris",
+        "Riley Factura"
+      ],
+      "header_t_s": 4019
+    }
+  ],
+  "teams": [
+    {
+      "player": "Victor Medina",
+      "round": "Swiss Round 9",
+      "t_s": 50,
+      "frames": [
+        "g_50_01.png"
+      ],
+      "members": [
+        {
+          "zh": "太樂巴戈斯",
+          "en": "Terapagos",
+          "ability": "太晶變形",
+          "item": "Leftovers",
+          "tera": "Stellar",
+          "moves": [
+            "晶光星群",
+            "大地之力",
+            "冥想",
+            "守住"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "鬼火",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "急速折返",
+            "水流噴射"
+          ]
+        },
+        {
+          "zh": "吼叫尾",
+          "en": "Scream Tail",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Grass",
+          "moves": [
+            "魔法閃耀",
+            "再來一次",
+            "定身法",
+            "守住"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Mental Herb",
+          "tera": "Water",
+          "moves": [
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Taran Birdee",
+      "round": "Swiss Round 9",
+      "t_s": 111,
+      "frames": [
+        "g_110_02.png"
+      ],
+      "members": [
+        {
+          "zh": "太樂巴戈斯",
+          "en": "Terapagos",
+          "ability": "太晶變形",
+          "item": "Choice Specs",
+          "tera": "Stellar",
+          "moves": [
+            "晶光星群",
+            "力量寶石",
+            "破壞光線",
+            "大地之力"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Mental Herb",
+          "tera": "Fairy",
+          "moves": [
+            "蘑菇孢子",
+            "憤怒粉",
+            "花粉團",
+            "守住"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Covert Cloak",
+          "tera": "Water",
+          "moves": [
+            "熱風",
+            "惡之波動",
+            "過熱",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "暗影球",
+            "守住"
+          ]
+        },
+        {
+          "zh": "長毛巨魔",
+          "en": "Grimmsnarl",
+          "ability": "惡作劇之心",
+          "item": "Light Clay",
+          "tera": "Ghost",
+          "moves": [
+            "電磁波",
+            "靈魂衝擊",
+            "反射壁",
+            "光牆"
+          ]
+        },
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Assault Vest",
+          "tera": "Water",
+          "moves": [
+            "擊掌奇襲",
+            "瘋狂伏特",
+            "吸取拳",
+            "重磅衝撞"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Henry Rich",
+      "round": "Swiss Round 10",
+      "t_s": 2991,
+      "frames": [
+        "g_2990_02.png"
+      ],
+      "members": [
+        {
+          "zh": "蓋歐卡",
+          "en": "Kyogre",
+          "ability": "降雨",
+          "item": "Mystic Water",
+          "tera": "Ghost",
+          "moves": [
+            "噴水",
+            "水炮",
+            "冰凍光束",
+            "守住"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "青草滑梯",
+            "木槌",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "蟲鳴",
+            "守住",
+            "憤怒粉",
+            "鬼火"
+          ]
+        },
+        {
+          "zh": "萬針魚",
+          "en": "Overqwil",
+          "ability": "悠游自如",
+          "item": "Life Orb",
+          "tera": "Poison",
+          "moves": [
+            "垃圾射擊",
+            "咬碎",
+            "酸液炸彈",
+            "守住"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "求雨",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "土地雲-化身形態",
+          "en": "Landorus-Incarnate",
+          "ability": "強行",
+          "item": "Choice Scarf",
+          "tera": "Ground",
+          "moves": [
+            "大地之力",
+            "熱沙風暴",
+            "污泥炸彈",
+            "打草結"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Zee Costagliola",
+      "round": "Swiss Round 10",
+      "t_s": 3201,
+      "frames": [
+        "g_3200_02.png"
+      ],
+      "members": [
+        {
+          "zh": "密勒頓",
+          "en": "Miraidon",
+          "ability": "強子引擎",
+          "item": "Choice Specs",
+          "tera": "Electric",
+          "moves": [
+            "閃電猛衝",
+            "放電",
+            "伏特替換",
+            "流星群"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰柱墜擊",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "烈箭鷹",
+          "en": "Talonflame",
+          "ability": "疾風之翼",
+          "item": "Life Orb",
+          "tera": "Ground",
+          "moves": [
+            "勇鳥猛攻",
+            "守住",
+            "順風",
+            "鬼火"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Silk Scarf",
+          "tera": "Normal",
+          "moves": [
+            "血月",
+            "冥想",
+            "巨聲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "奇麒麟",
+          "en": "Farigiraf",
+          "ability": "尾甲",
+          "item": "Electric Seed",
+          "tera": "Ground",
+          "moves": [
+            "欺詐",
+            "雙光束",
+            "戲法空間",
+            "幫助"
+          ]
+        },
+        {
+          "zh": "鐵臂膀",
+          "en": "Iron Hands",
+          "ability": "夸克充能",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "擊掌奇襲",
+            "吸取拳",
+            "近身戰",
+            "重磅衝撞"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Justin Carris",
+      "round": "Swiss Round 11",
+      "t_s": 4126,
+      "frames": [
+        "g_4125_02.png"
+      ],
+      "members": [
+        {
+          "zh": "藏瑪然特-盾之王",
+          "en": "Zamazenta-Crowned",
+          "ability": "不屈之盾",
+          "item": "Rusted Shield",
+          "tera": "Grass",
+          "moves": [
+            "撲擊",
+            "重磅衝撞",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Miracle Seed",
+          "tera": "Grass",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰柱墜擊",
+            "地獄突刺",
+            "突襲",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "急速折返",
+            "水流噴射"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Rocky Helmet",
+          "tera": "Grass",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "雷電雲-化身形態",
+          "en": "Thundurus-Incarnate",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "十萬伏特",
+            "怪異電波",
+            "挑釁",
+            "電磁波"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Riley Factura",
+      "round": "Swiss Round 11",
+      "t_s": 4236,
+      "frames": [
+        "g_4235_02.png"
+      ],
+      "members": [
+        {
+          "zh": "密勒頓",
+          "en": "Miraidon",
+          "ability": "強子引擎",
+          "item": "Choice Specs",
+          "tera": "Ghost",
+          "moves": [
+            "閃電猛衝",
+            "伏特替換",
+            "放電",
+            "龍之波動"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "月亮之力",
+            "再來一次",
+            "守住",
+            "順風"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Ground",
+          "moves": [
+            "閃焰衝鋒",
+            "擊掌奇襲",
+            "急速折返",
+            "拍落"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Mystic Water",
+          "tera": "Grass",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鐵頭殼",
+          "en": "Iron Crown",
+          "ability": "夸克充能",
+          "item": "Expert Belt",
+          "tera": "Ground",
+          "moves": [
+            "迅子利刃",
+            "守住",
+            "精神噪音",
+            "太晶爆發"
+          ]
+        },
+        {
+          "zh": "月月熊-赫月",
+          "en": "Ursaluna-Bloodmoon",
+          "ability": "心眼",
+          "item": "Life Orb",
+          "tera": "Normal",
+          "moves": [
+            "血月",
+            "巨聲",
+            "大地之力",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}

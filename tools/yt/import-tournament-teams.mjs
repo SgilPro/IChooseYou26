@@ -43,7 +43,7 @@ spec.teams.forEach((t, i) => {
     if (!dexSp.exists) miss("species", x.en);
     const megaSuffix = x.mega ? `-${x.mega}` : "";
     const nameEn = x.mega ? `${base}${x.mega === "Mega" ? "-Mega" : "-" + x.mega}` : x.en;
-    const ab = dex.abilities.get(({ "人馬一體": x.en === "Calyrex-Ice" ? "As One (Glastrier)" : x.en === "Calyrex-Shadow" ? "As One (Spectrier)" : "" })[x.ability] || N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality", "漂浮": "Levitate" })[x.ability] || ""); if (!ab.exists) miss("ability", x.ability);
+    const ab = x.ability == null ? { exists: false } : dex.abilities.get(({ "人馬一體": x.en === "Calyrex-Ice" ? "As One (Glastrier)" : x.en === "Calyrex-Shadow" ? "As One (Spectrier)" : "" })[x.ability] || N.abilities.zh2en[x.ability] || ({ "軟待": "Hospitality", "漂浮": "Levitate" })[x.ability] || ""); if (x.ability != null && !ab.exists) miss("ability", x.ability);
     const it = dex.items.get(x.item); if (!it.exists) miss("item", x.item);
     const nat = x.nature ?? null; const natCn = nat ? (natZh[nat] || nat) : null;
     const teraEn = x.tera ?? null; const teraZh = teraEn ? (TYPE_ZH[teraEn] ?? null) : null;
@@ -51,7 +51,7 @@ spec.teams.forEach((t, i) => {
       slot: k + 1,
       species: { dex_no: dexSp.num, name_zh: x.zh, name_en: nameEn, form: x.mega ? x.mega : (x.form ?? null), confidence: 0.95 },
       nickname: null, gender: x.gender ?? (["Basculegion", "Indeedee", "Meowstic"].includes(base) ? null : null),
-      ability: { value: x.ability, value_en: ab.exists ? ab.name : null, confidence: 0.95, source: "frame" },
+      ability: x.ability == null ? { value: null, value_en: null, confidence: 0, source: null } : { value: x.ability, value_en: ab.exists ? ab.name : null, confidence: 0.95, source: "frame" },
       item: { value: itemZh[it.name] ?? null, value_en: it.exists ? it.name : null, confidence: x.item_conf ?? 0.85, source: "frame" },
       nature: { value: natCn, value_en: nat, confidence: nat ? 0.85 : 0, source: nat ? "frame" : null },
       tera_type: teraEn ? { value: teraZh ?? teraEn, value_en: teraEn, confidence: x.tera_conf ?? 0.9, source: "frame" } : null, mega: !!x.mega, evs: null, stats: null,

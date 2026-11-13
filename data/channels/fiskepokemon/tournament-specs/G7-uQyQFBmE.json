@@ -1,0 +1,387 @@
+{
+  "video_id": "G7-uQyQFBmE",
+  "event": {
+    "id": "stockholm-2024",
+    "name_zh": "2024 瑞典斯德哥爾摩地區賽",
+    "name_en": "2024 Stockholm Regional Championships",
+    "game": "sv",
+    "date_approx": "2024-05",
+    "abbr": "STO",
+    "year": 2024,
+    "regulation_set_id": "sv-reg-g"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「瑞典 斯德哥爾摩地區賽（五）」，章節：四強賽第二桌、決賽；影片發布於 2024-06-04）。同賽事其他影片：Naygg_y_-q8、YwfSf_NHJJA、gDOADZK3bao、iacbg4LAr8Q。規則 G（單神）：依發布日落在 sv-reg-g，且各隊恰有 1 隻限制級傳說（Marco：蕾冠王-白馬；Joji：太樂巴戈斯；Michael：藏瑪然特）。隊伍表畫在對手座位那一側，以字幕講解與選手名牌確認歸屬（四強：鏡頭在 Marco 時右半卡為其白馬王隊，Joji 的隊伍在左半；決賽：Michael 的藏瑪然特隊在右半、Joji 在左半）。Joji 的隊伍表在四強與決賽畫面完全相同（六隻、道具、太晶、招式皆逐欄核對），兩場各登記一次。左半卡片左上角被頻道浮水印遮住：Joji 的太樂巴戈斯特性與前三招在四強、決賽所有影格皆看不清（僅第 4 招惡之波動可讀），故特性留空（null，太樂巴戈斯在卡片上可能是太晶變形或太晶甲殼，不唯一）、僅登記 1 招，沒有推測。同賽事 gDOADZK3bao 的 Swiss 13 輪卡片上同隊太樂巴戈斯為太晶變形／晶光星群、大地之力、破壞光線、惡之波動，可供使用者自行決定是否補入。Marco 的卡片完整可讀（與同賽事 Lorenzo 隊配置相同）；Michael 的卡片與影片 iacbg4LAr8Q 四強第一桌同隊，這次藏瑪然特第 1 招撲擊與道具腐朽的盾皆清楚可讀。太晶屬性逐一放大徽章辨識，厄鬼椪 0.75、拉帝歐斯 0.8。date_approx 沿用同賽事其他影片。",
+  "matches": [
+    {
+      "round": "Top 4",
+      "players": [
+        "Marco Silva",
+        "Joji Kaieda"
+      ],
+      "header_t_s": 35
+    },
+    {
+      "round": "Finals",
+      "players": [
+        "Michael Kelsch",
+        "Joji Kaieda"
+      ],
+      "header_t_s": 1568
+    }
+  ],
+  "teams": [
+    {
+      "player": "Marco Silva",
+      "round": "Top 4",
+      "t_s": 55,
+      "frames": [
+        "h55_3.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎白馬的樣子",
+          "en": "Calyrex-Ice",
+          "ability": "人馬一體",
+          "item": "Clear Amulet",
+          "tera": "Water",
+          "moves": [
+            "雪矛",
+            "十萬馬力",
+            "戲法空間",
+            "守住"
+          ],
+          "form": "Ice"
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Fire",
+          "moves": [
+            "蘑菇孢子",
+            "憤怒粉",
+            "花粉團",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Sitrus Berry",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "挑釁",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Focus Sash",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強襲",
+            "近身戰",
+            "突襲",
+            "看穿"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Leftovers",
+          "tera": "Normal",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "流星群",
+            "伏特替換",
+            "迅雷",
+            "電網"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Joji Kaieda",
+      "round": "Top 4",
+      "t_s": 90,
+      "frames": [
+        "h90_3.png"
+      ],
+      "members": [
+        {
+          "zh": "太樂巴戈斯",
+          "en": "Terapagos",
+          "ability": null,
+          "item": "Choice Specs",
+          "tera": "Stellar",
+          "moves": [
+            "惡之波動"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "熱風",
+            "惡之波動",
+            "過熱",
+            "守住"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-礎石面具",
+          "en": "Ogerpon-Cornerstone",
+          "ability": "結實",
+          "item": "Cornerstone Mask",
+          "tera": "Rock",
+          "moves": [
+            "棘藤棒",
+            "強力鞭打",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "龍捲雲",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "枯葉風暴",
+            "鬼面",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "暗影球",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Michael Kelsch",
+      "round": "Finals",
+      "t_s": 1585,
+      "frames": [
+        "h1585_3.png"
+      ],
+      "members": [
+        {
+          "zh": "藏瑪然特",
+          "en": "Zamazenta",
+          "ability": "不屈之盾",
+          "item": "Rusted Shield",
+          "tera": "Grass",
+          "moves": [
+            "撲擊",
+            "重磅衝撞",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Choice Band",
+          "tera": "Grass",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "十萬馬力",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "伽勒爾火焰鳥",
+          "en": "Moltres-Galar",
+          "ability": "怒火沖天",
+          "item": "Black Glasses",
+          "tera": "Dark",
+          "moves": [
+            "怒火中燒",
+            "欺詐",
+            "順風",
+            "守住"
+          ],
+          "form": "Galar"
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰柱墜擊",
+            "突襲",
+            "聖劍",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "拉帝歐斯",
+          "en": "Latios",
+          "ability": "飄浮",
+          "item": "Soul Dew",
+          "tera": "Ice",
+          "moves": [
+            "潔淨光芒",
+            "流星群",
+            "冰凍之風",
+            "守住"
+          ],
+          "tera_conf": 0.8
+        }
+      ]
+    },
+    {
+      "player": "Joji Kaieda",
+      "round": "Finals",
+      "t_s": 1610,
+      "frames": [
+        "h1610_3.png"
+      ],
+      "members": [
+        {
+          "zh": "太樂巴戈斯",
+          "en": "Terapagos",
+          "ability": null,
+          "item": "Choice Specs",
+          "tera": "Stellar",
+          "moves": [
+            "惡之波動"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "熱風",
+            "惡之波動",
+            "過熱",
+            "守住"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-礎石面具",
+          "en": "Ogerpon-Cornerstone",
+          "ability": "結實",
+          "item": "Cornerstone Mask",
+          "tera": "Rock",
+          "moves": [
+            "棘藤棒",
+            "強力鞭打",
+            "看我嘛",
+            "尖刺防守"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "龍捲雲",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "枯葉風暴",
+            "鬼面",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "暗影球",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}
