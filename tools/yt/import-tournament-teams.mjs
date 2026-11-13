@@ -56,7 +56,7 @@ spec.teams.forEach((t, i) => {
       nature: { value: natCn, value_en: nat, confidence: nat ? 0.85 : 0, source: nat ? "frame" : null },
       tera_type: teraEn ? { value: teraZh ?? teraEn, value_en: teraEn, confidence: 0.9, source: "frame" } : null, mega: !!x.mega, evs: null, stats: null,
       stats_note: spec.stats_note ?? "轉播畫面無努力值與能力值；性格依畫面 ↑／↓ 箭頭換算；道具由圖示比對判讀（Mega 石為圖示色紋）。",
-      moves: x.moves.map((mv) => { const en = N.moves.zh2en[mv] ?? ({ "踩腳": "Stomping Tantrum", "伴攻": "Coaching", "水砲": "Hydro Cannon" })[mv]; if (!en) miss("move", mv); return { value: mv, value_en: en ?? null, confidence: 0.95, source: "frame" }; }),
+      moves: x.moves.map((mv) => { const en = N.moves.zh2en[mv] ?? ({ "踩腳": "Stomping Tantrum", "伴攻": "Coaching", "水砲": "Hydro Cannon", "聖火": "Sacred Fire" })[mv]; if (!en) miss("move", mv); return { value: mv, value_en: en ?? null, confidence: 0.95, source: "frame" }; }),
       role_note: null,
     };
   });

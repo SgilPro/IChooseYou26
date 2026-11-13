@@ -1,0 +1,581 @@
+{
+  "video_id": "WY016nnsTzc",
+  "event": {
+    "id": "worlds-2025",
+    "name_zh": "2025 寶可夢世界冠軍賽",
+    "name_en": "2025 Pokémon World Championships",
+    "game": "sv",
+    "date_approx": "2025-08",
+    "abbr": "Worlds",
+    "year": 2025,
+    "regulation_set_id": "sv-reg-i"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「2025 世界賽開幕…2025 世界冠軍賽（一）」，Masters 組 Day 1 瑞士輪第 3、4、5 輪各一場）。賽制為規則 I（雙神；影片未明講規則字母，依 2025-08 Anaheim 世界賽與每隊兩隻限制級神獸判定，與同賽事 7V6DLchwra0 一致）。Mattie Morgan 的武道熊師道具文字為「講究頭帶」。",
+  "matches": [
+    {
+      "round": "Swiss Round 3",
+      "players": [
+        "Christopher Han",
+        "Luca Ceribelli"
+      ],
+      "header_t_s": 309
+    },
+    {
+      "round": "Swiss Round 4",
+      "players": [
+        "Mattie Morgan",
+        "Yuma Kinugawa"
+      ],
+      "header_t_s": 1470
+    },
+    {
+      "round": "Swiss Round 5",
+      "players": [
+        "Shoma Honami",
+        "Yoshitaka Izawa"
+      ],
+      "header_t_s": 3037
+    }
+  ],
+  "teams": [
+    {
+      "player": "Christopher Han",
+      "round": "Swiss Round 3",
+      "t_s": 400,
+      "frames": [
+        "f_400.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎黑馬的樣子",
+          "en": "Calyrex-Shadow",
+          "ability": "人馬一體",
+          "item": "Life Orb",
+          "tera": "Dark",
+          "moves": [
+            "星碎",
+            "精神強念",
+            "守住",
+            "花粉團"
+          ],
+          "form": "Shadow"
+        },
+        {
+          "zh": "藏瑪然特-盾之王",
+          "en": "Zamazenta-Crowned",
+          "ability": "不屈之盾",
+          "item": "Rusted Shield",
+          "tera": "Dragon",
+          "moves": [
+            "撲擊",
+            "廣域防守",
+            "守住",
+            "重磅衝撞"
+          ],
+          "form": "Crowned"
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰旋",
+            "突襲",
+            "守住",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "厄鬼椪-火灶面具",
+          "en": "Ogerpon-Hearthflame",
+          "ability": "破格",
+          "item": "Hearthflame Mask",
+          "tera": "Fire",
+          "moves": [
+            "棘藤棒",
+            "看我嘛",
+            "尖刺防守",
+            "幫助"
+          ],
+          "form": "Hearthflame"
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "龍之波動",
+            "迅雷",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "順風",
+            "月亮之力",
+            "假哭",
+            "再來一次"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Luca Ceribelli",
+      "round": "Swiss Round 3",
+      "t_s": 540,
+      "frames": [
+        "f_540.png"
+      ],
+      "members": [
+        {
+          "zh": "露奈雅拉",
+          "en": "Lunala",
+          "ability": "幻影防守",
+          "item": "Electric Seed",
+          "tera": "Fairy",
+          "moves": [
+            "戲法空間",
+            "月亮之力",
+            "廣域防守",
+            "暗影之光"
+          ]
+        },
+        {
+          "zh": "密勒頓",
+          "en": "Miraidon",
+          "ability": "強子引擎",
+          "item": "Choice Specs",
+          "tera": "Fairy",
+          "moves": [
+            "閃電猛衝",
+            "伏特替換",
+            "流星群",
+            "魔法閃耀"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Ghost",
+          "moves": [
+            "急速折返",
+            "拍落",
+            "閃焰衝鋒",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Band",
+          "tera": "Bug",
+          "moves": [
+            "水流連打",
+            "急速折返",
+            "水流噴射",
+            "近身戰"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Water",
+          "moves": [
+            "月亮之力",
+            "順風",
+            "光牆",
+            "再來一次"
+          ]
+        },
+        {
+          "zh": "月月熊",
+          "en": "Ursaluna",
+          "ability": "毅力",
+          "item": "Flame Orb",
+          "tera": "Ghost",
+          "moves": [
+            "硬撐",
+            "突飛猛撲",
+            "地震",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Mattie Morgan",
+      "round": "Swiss Round 4",
+      "t_s": 1520,
+      "frames": [
+        "f_1520.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎黑馬的樣子",
+          "en": "Calyrex-Shadow",
+          "ability": "人馬一體",
+          "item": "Life Orb",
+          "tera": "Dark",
+          "moves": [
+            "星碎",
+            "精神強念",
+            "守住",
+            "替身"
+          ],
+          "form": "Shadow"
+        },
+        {
+          "zh": "藏瑪然特-盾之王",
+          "en": "Zamazenta-Crowned",
+          "ability": "不屈之盾",
+          "item": "Rusted Shield",
+          "tera": "Dragon",
+          "moves": [
+            "撲擊",
+            "廣域防守",
+            "守住",
+            "重磅衝撞"
+          ],
+          "form": "Crowned"
+        },
+        {
+          "zh": "古劍豹",
+          "en": "Chien-Pao",
+          "ability": "災禍之劍",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "冰旋",
+            "突襲",
+            "守住",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Band",
+          "tera": "Ghost",
+          "moves": [
+            "近身戰",
+            "水流連打",
+            "水流噴射",
+            "急速折返"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "龍之波動",
+            "迅雷",
+            "守住"
+          ]
+        },
+        {
+          "zh": "風妖精",
+          "en": "Whimsicott",
+          "ability": "惡作劇之心",
+          "item": "Covert Cloak",
+          "tera": "Dark",
+          "moves": [
+            "順風",
+            "月亮之力",
+            "假哭",
+            "再來一次"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Yuma Kinugawa",
+      "round": "Swiss Round 4",
+      "t_s": 1600,
+      "frames": [
+        "f_1600.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎黑馬的樣子",
+          "en": "Calyrex-Shadow",
+          "ability": "人馬一體",
+          "item": "Life Orb",
+          "tera": "Dark",
+          "moves": [
+            "星碎",
+            "精神強念",
+            "守住",
+            "詭計"
+          ],
+          "form": "Shadow"
+        },
+        {
+          "zh": "藏瑪然特-盾之王",
+          "en": "Zamazenta-Crowned",
+          "ability": "不屈之盾",
+          "item": "Rusted Shield",
+          "tera": "Fighting",
+          "moves": [
+            "撲擊",
+            "廣域防守",
+            "守住",
+            "重磅衝撞"
+          ],
+          "form": "Crowned"
+        },
+        {
+          "zh": "圖圖犬",
+          "en": "Smeargle",
+          "ability": "心情不定",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "蘑菇孢子",
+            "看我嘛",
+            "廣域防守",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Sky Plate",
+          "tera": "Water",
+          "moves": [
+            "枯葉風暴",
+            "挑釁",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "龍之波動",
+            "迅雷",
+            "守住"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Shoma Honami",
+      "round": "Swiss Round 5",
+      "t_s": 3100,
+      "frames": [
+        "f_3100.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎白馬的樣子",
+          "en": "Calyrex-Ice",
+          "ability": "人馬一體",
+          "item": "Leftovers",
+          "tera": "Fire",
+          "moves": [
+            "雪矛",
+            "寄生種子",
+            "戲法空間",
+            "守住"
+          ],
+          "form": "Ice"
+        },
+        {
+          "zh": "故勒頓",
+          "en": "Koraidon",
+          "ability": "緋紅脈動",
+          "item": "Clear Amulet",
+          "tera": "Fire",
+          "moves": [
+            "閃焰衝鋒",
+            "蓄能焰襲",
+            "踢倒",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Assault Vest",
+          "tera": "Bug",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "熱風",
+            "過熱",
+            "惡之波動",
+            "大聲咆哮"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "月亮之力",
+            "暗影球",
+            "冰凍之風",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Life Orb",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "迅雷",
+            "龍之波動",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Yoshitaka Izawa",
+      "round": "Swiss Round 5",
+      "t_s": 3230,
+      "frames": [
+        "f_3230.png"
+      ],
+      "members": [
+        {
+          "zh": "鳳王",
+          "en": "Ho-Oh",
+          "ability": "再生力",
+          "item": "Clear Amulet",
+          "tera": "Water",
+          "moves": [
+            "聖火",
+            "勇鳥猛攻",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "故勒頓",
+          "en": "Koraidon",
+          "ability": "緋紅脈動",
+          "item": "Loaded Dice",
+          "tera": "Fire",
+          "moves": [
+            "閃焰衝鋒",
+            "鱗射",
+            "全開猛撞",
+            "守住"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "鬼火",
+            "拍落",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Focus Sash",
+          "tera": "Normal",
+          "moves": [
+            "月亮之力",
+            "守住",
+            "冰凍之風",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "鐵轍跡",
+          "en": "Iron Treads",
+          "ability": "夸克充能",
+          "item": "Life Orb",
+          "tera": "Ghost",
+          "moves": [
+            "鐵頭",
+            "拍落",
+            "十萬馬力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "迅雷",
+            "電網",
+            "流星群",
+            "大聲咆哮"
+          ]
+        }
+      ]
+    }
+  ]
+}
