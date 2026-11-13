@@ -9,15 +9,17 @@ import { createHash } from "node:crypto";
 import { createRequire } from "node:module";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadVideos, isMemberVideo, specPath, privDir } from "./lib-private.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const [chDir, vid] = [process.argv[2], process.argv[3]];
 if (!chDir || !vid) { console.error("usage: import-tournament-teams.mjs <channelDir> <videoId>"); process.exit(1); }
-const spec = JSON.parse(readFileSync(join(chDir, "tournament-specs", `${vid}.json`), "utf8"));
+const spec = JSON.parse(readFileSync(specPath(chDir, vid), "utf8"));
 const N = JSON.parse(readFileSync(join(ROOT, "data/ref/names_zh-Hant.json"), "utf8"));
 const regs = JSON.parse(readFileSync(join(ROOT, "data/ref/regulation_sets.json"), "utf8"));
-const videos = JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8"));
+const videos = loadVideos(chDir);
 const video = videos.find((v) => v.id === vid);
+const MEMBER = isMemberVideo(video);
 const { Dex } = createRequire(ROOT + "/app/package.json")("@pkmn/dex");
 const dex = Dex.forGen(9);
 const slug = (s) => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -69,7 +71,7 @@ spec.teams.forEach((t, i) => {
     game: spec.event.game, regulation_set_id: regId, regulation_source: "date-inferred",
     tags: [], tags_source: "title", author: t.player, author_source: "frame",
     event_id: evId, match_id: match.id, player: t.player, team_signature: sig, source_t_s: t.t_s,
-    members, is_members_only: true, related_video_ids: [], team_code: null,
+    members, is_members_only: MEMBER, related_video_ids: [], team_code: null,
     sources: { frames_used: t.frames.length, frames: t.frames, subtitle_lang: null, subtitle_range_s: null, pokepaste_url: null },
     confidence: 0.9, review_status: "auto",
     review_notes: `${spec.note} 選手 ${t.player} 的隊伍表出現在影片 ${Math.floor(t.t_s / 60)}:${String(t.t_s % 60).padStart(2, "0")}。`,
@@ -81,7 +83,10 @@ spec.teams.forEach((t, i) => {
 const bySig = new Map(); for (const t of teams) bySig.set(t.team_signature, [...(bySig.get(t.team_signature) || []), t.id]);
 for (const t of teams) { const same = bySig.get(t.team_signature).filter((x) => x !== t.id); if (same.length) t.review_notes += ` 與 ${same.join("、")} 的配置完全相同（同一隊伍被不同選手使用）。`; }
 
-writeFileSync(join(chDir, "teams", `${vid}.json`), JSON.stringify(teams, null, 2) + "\n");
+// 會員限定影片的完整隊伍檔只寫進 private/teams/（不進版控）；公開的殼由 merge-teams.mjs 產生
+const outDir = MEMBER ? privDir(chDir, "teams") : join(chDir, "teams");
+mkdirSync(outDir, { recursive: true });
+writeFileSync(join(outDir, `${vid}.json`), JSON.stringify(teams, null, 2) + "\n");
 const evPath = join(ROOT, "data", "events", `${evId}.json`);
 const ev = existsSync(evPath) ? JSON.parse(readFileSync(evPath, "utf8")) : { id: evId, ...spec.event, matches: [] };
 for (const m of matchById.values()) {

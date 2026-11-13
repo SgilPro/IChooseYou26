@@ -35,3 +35,7 @@ cookies*.txt
 
 # 寶可夢 HOME 風格圖（29MB，不進版控；用 tools/yt/fetch-pokemon-images.mjs 重新產生）
 assets/pokemon/home/
+
+# 會員限定影片的完整內容（隊伍配置、描述、字幕切片）只留本機，不進版控、不上站（見 tools/yt/lib-private.mjs）
+data/channels/*/private/
+data/channels/*/intro/_prep-summary.json

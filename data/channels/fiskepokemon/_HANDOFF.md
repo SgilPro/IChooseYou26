@@ -1,5 +1,8 @@
 # 接手指南 — Fiske Pokémon 資料線（261108_1 第 1 線）
 
+> **2026-11-13 重要變更：會員限定影片的內容不公開。** 來自會員影片的隊伍檔、比賽規格、字幕切片一律放 `private/`（已 gitignore），公開檔只留殼。完整影片主表在 `private/videos.full.json`。**commit 前先跑 `node tools/yt/merge-teams.mjs data/channels/fiskepokemon`**（會自動把誤放的會員內容搬走），再跑 `node tools/yt/check-public.mjs`。細節見 `tools/yt/README.md`「會員限定影片的內容不公開」。`import-tournament-teams.mjs` 已改成依影片是否會員限定決定輸出位置與 `is_members_only`。
+
+
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
 > 最後更新：2026-11-13（見下方「最新現況」；本行以後的內容為 11-09 舊版）
 > 舊註：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。

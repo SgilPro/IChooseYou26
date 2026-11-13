@@ -67,6 +67,8 @@
 
 ## 輸出
 
+> **會員限定影片**（`videos.json` 的 `is_members_only: true`）：隊伍檔寫到 `data/channels/<ch>/private/teams/<videoId>.json`，不要寫進公開的 `teams/`。會員內容不進版控、不上站（見 `tools/yt/README.md`「會員限定影片的內容不公開」）。
+
 寫到 `data/channels/<ch>/teams/<videoId>.json`，內容是 **JSON 陣列**（通常一個元素）。寫完用 `node -e "JSON.parse(require('fs').readFileSync(process.argv[1],'utf8'))" <path>` 確認可解析。
 
 回報：六隻的 name_zh/name_en、哪些欄位是 null、哪些影格是隊伍表（檔名），以及你不確定的地方。

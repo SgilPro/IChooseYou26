@@ -4,6 +4,7 @@
 //
 // 用法：node tools/yt/build-videos.mjs data/channels/fiskepokemon
 
+import { writeVideos, teamFiles } from "./lib-private.mjs";
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
@@ -178,9 +179,9 @@ for (const rec of index.videos) {
   const teamsDir = join(chDir, "teams");
   if (existsSync(teamsDir)) {
     const byVideo = new Map();
-    for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json"))) {
+    for (const { path } of teamFiles(chDir)) {
       try {
-        for (const t of JSON.parse(readFileSync(join(teamsDir, f), "utf8"))) {
+        for (const t of JSON.parse(readFileSync(path, "utf8"))) {
           if (t.author && t.author_source && t.author_source !== "channel") byVideo.set(t.video_id, { author: t.author, source: t.author_source });
         }
       } catch {}
@@ -190,23 +191,8 @@ for (const rec of index.videos) {
 }
 
 videos.sort((a, b) => (b.published_at || "").localeCompare(a.published_at || "") || a.id.localeCompare(b.id));
-writeFileSync(join(chDir, "videos.json"), JSON.stringify(videos, null, 2));
-
-// CSV（主表精簡欄位；description 不放）
-const cols = ["id", "url", "title", "published_at", "duration_s", "view_count", "like_count", "is_members_only", "category", "game", "regulation_code", "playlists", "subtitles", "team_intro_start_s", "team_intro_end_s", "pokepaste_urls", "author", "fetch_error"];
-const esc = (v) => {
-  if (v == null) return "";
-  const s = Array.isArray(v) ? v.join("|") : String(v);
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-};
-const csv = [cols.join(",")].concat(
-  videos.map((v) => cols.map((c) => {
-    if (c === "team_intro_start_s") return esc(v.team_intro_range?.start_s);
-    if (c === "team_intro_end_s") return esc(v.team_intro_range?.end_s);
-    return esc(v[c]);
-  }).join(","))
-).join("\n");
-writeFileSync(join(chDir, "videos.csv"), csv + "\n");
+// 完整版寫進 private/videos.full.json；公開的 videos.json／videos.csv 會遮掉會員影片的描述、章節與 pokepaste 連結
+writeVideos(chDir, videos);
 
 const stat = (f) => videos.reduce((m, v) => { const k = f(v) ?? "null"; m[k] = (m[k] || 0) + 1; return m; }, {});
 console.error(JSON.stringify({

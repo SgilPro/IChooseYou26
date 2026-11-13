@@ -2,7 +2,8 @@
 // 把 teams/<videoId>.json（每支影片一檔、陣列）合併成 teams.json（正本）與 teams.csv（扁平匯出，一列一隻寶可夢）。
 // 用法：node tools/yt/merge-teams.mjs data/channels/fiskepokemon
 
-import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { sweep, loadVideos, teamFiles, isMemberVideo, redactTeam, privDir, checkPublic, hasContent } from "./lib-private.mjs";
 import { join } from "node:path";
 
 const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
@@ -16,18 +17,29 @@ try { ({ classifyTeam } = await import(new URL("../site/classify-speed-control.m
 let inferRoles = null;
 try { ({ inferRoles } = await import(new URL("../site/classify-roles.mjs", import.meta.url))); } catch (e) { console.error(`[merge] roles inference unavailable: ${e.message}`); }
 
-const videos = new Map(JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8")).map((v) => [v.id, v]));
-const all = [];
-for (const f of readdirSync(teamsDir).filter((x) => x.endsWith(".json")).sort()) {
-  const arr = JSON.parse(readFileSync(join(teamsDir, f), "utf8"));
+// 會員限定影片的內容不公開：先自我修復（把誤放在公開資料夾的會員內容搬到 private/），
+// 再用「公開 teams/ ＋ private/teams/」合併出完整版（只存 private/teams.full.json），公開的 teams.json／csv 則把會員影片的隊伍遮成殼。
+for (const line of sweep(chDir)) console.error(`[merge] ${line}`);
+const videos = new Map(loadVideos(chDir).map((v) => [v.id, v]));
+const full = [];
+for (const { path } of teamFiles(chDir)) {
+  const arr = JSON.parse(readFileSync(path, "utf8"));
   for (const t of arr) {
     const v = videos.get(t.video_id);
-    const row = { ...t, video_title: v?.title ?? null, video_published_at: v?.published_at ?? null };
+    const row = { ...t, is_members_only: isMemberVideo(v) || (v ? false : !!t.is_members_only), video_title: v?.title ?? null, video_published_at: v?.published_at ?? null };
     if (classifyTeam && (t.members?.length ?? 0) === 6) row.analysis_derived = { ...(t.analysis_derived || {}), speed_control: classifyTeam(t), ...(inferRoles ? { roles: inferRoles(t) } : {}) };
-    all.push(row);
+    full.push(row);
   }
 }
-all.sort((a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || "") || a.id.localeCompare(b.id));
+const byDate = (a, b) => (b.video_published_at || "").localeCompare(a.video_published_at || "") || a.id.localeCompare(b.id);
+full.sort(byDate);
+mkdirSync(privDir(chDir), { recursive: true });
+writeFileSync(privDir(chDir, "teams.full.json"), JSON.stringify(full, null, 2));
+const all = full.map((t) => {
+  const v = videos.get(t.video_id);
+  // 有內容的會員隊伍遮成殼；還沒抽取的會員殼（needs-member-access）維持原樣
+  return isMemberVideo(v) && (hasContent(t) || t.analysis_derived) ? { ...redactTeam(t, v), video_title: t.video_title, video_published_at: t.video_published_at } : t;
+});
 writeFileSync(join(chDir, "teams.json"), JSON.stringify(all, null, 2));
 
 const esc = (v) => {
@@ -56,4 +68,6 @@ for (const t of all) {
   }
 }
 writeFileSync(join(chDir, "teams.csv"), rows.join("\n") + "\n");
-console.error(`[merge] ${all.length} teams → teams.json / teams.csv (${rows.length - 1} rows)`);
+console.error(`[merge] ${all.length} teams → teams.json / teams.csv (${rows.length - 1} rows)；其中會員影片 ${all.filter((t) => t.review_status === "members-only-withheld").length} 隊只公開殼，完整版在 private/teams.full.json`);
+const bad = checkPublic(chDir);
+if (bad.length) { console.error(`[merge] 警告：公開檔案仍有會員內容 ${bad.length} 項，例如 ${bad[0]}`); process.exitCode = 1; }

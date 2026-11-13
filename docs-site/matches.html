@@ -64,7 +64,7 @@
           <div class="players">${m.players.map((p) => `<div class="player"><strong>${esc(p.name)}</strong>
             ${p.team_ids.map((tid) => { const t = byId[tid]; if (!t) return `<div class="note">${esc(tid)}（資料未載入）</div>`;
               return `<div><a href="team.html?id=${encodeURIComponent(tid)}">查看隊伍</a>${t.source_t_s != null ? ` · <a href="${esc(t.video_url)}" target="_blank" rel="noopener">影片 ${Math.floor(t.source_t_s / 60)}:${String(t.source_t_s % 60).padStart(2, "0")}</a>` : ""}</div>
-              <div class="thumbs">${(t.members || []).map((x) => `<img loading="lazy" src="${thumb(x)}" alt="${esc(x.species?.name_zh)}" onerror="this.style.visibility='hidden'" />`).join("")}</div>`; }).join("")}
+              ${t.review_status === "members-only-withheld" ? `<div class="note">會員限定影片，配置不公開</div>` : `<div class="thumbs">${(t.members || []).map((x) => `<img loading="lazy" src="${thumb(x)}" alt="${esc(x.species?.name_zh)}" onerror="this.style.visibility='hidden'" />`).join("")}</div>`}`; }).join("")}
             ${p.team_ids.length === 0 ? `<div class="note">尚無隊伍資料</div>` : ""}</div>`).join("")}</div>
           <div class="src">來源：${m.sources.map((s) => esc(s.kind === "commentary" ? "Fiske 講比賽影片" : s.kind) + " " + esc(s.video_id)).join("、")}　<span class="tag">${esc(m.id)}</span></div></div>`;
       }

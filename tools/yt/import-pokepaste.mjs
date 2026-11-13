@@ -5,6 +5,7 @@
 // 用法：node tools/yt/import-pokepaste.mjs data/channels/fiskepokemon [--limit N] [--only id,id] [--force]
 // 之後請跑 validate-teams.mjs；notes/tags 的字幕補充可由後續 LLM pass 另做。
 
+import { loadVideos } from "./lib-private.mjs";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { createRequire } from "node:module";
@@ -21,7 +22,7 @@ const dex = Dex.forGen(9);
 const NAMES = JSON.parse(readFileSync("data/ref/names_zh-Hant.json", "utf8"));
 const REGS = JSON.parse(readFileSync("data/ref/regulation_sets.json", "utf8"));
 const TAGS = JSON.parse(readFileSync("data/ref/tags.json", "utf8"));
-const videos = JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8"));
+const videos = loadVideos(chDir); // 完整主表在 private/videos.full.json（會員影片的章節與描述不在公開的 videos.json）
 const teamsDir = join(chDir, "teams");
 mkdirSync(teamsDir, { recursive: true });
 

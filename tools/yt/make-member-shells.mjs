@@ -3,11 +3,12 @@
 // 讓主表與隊伍表的覆蓋率一目了然，之後用會員 cookies 補資料時直接覆寫。
 // 用法：node tools/yt/make-member-shells.mjs data/channels/fiskepokemon
 
+import { loadVideos } from "./lib-private.mjs";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
-const videos = JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8"));
+const videos = loadVideos(chDir); // 完整主表在 private/videos.full.json（會員影片的章節與描述不在公開的 videos.json）
 const REGS = JSON.parse(readFileSync("data/ref/regulation_sets.json", "utf8"));
 const TAGS = JSON.parse(readFileSync("data/ref/tags.json", "utf8"));
 const teamsDir = join(chDir, "teams");

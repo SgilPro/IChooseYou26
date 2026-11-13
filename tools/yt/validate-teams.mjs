@@ -9,6 +9,7 @@
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, resolve } from "node:path";
+import { teamFiles } from "./lib-private.mjs";
 import { createRequire } from "node:module";
 
 const chDir = process.argv[2] || join("data", "channels", "fiskepokemon");
@@ -37,7 +38,7 @@ const err = (m) => { errs++; console.log(`ERR  ${m}`); };
 const warn = (m) => { warns++; console.log(`WARN ${m}`); };
 
 const SOURCES = new Set(["title", "subtitle", "frame", "description", "pinned_comment", "pokepaste", "inferred", "manual"]);
-const REVIEW = new Set(["auto", "reviewed", "conflict", "needs-member-access", "manual"]);
+const REVIEW = new Set(["auto", "reviewed", "conflict", "needs-member-access", "manual", "members-only-withheld"]);
 
 // Z-Mega 是 Champions 新型態，Showdown 可能尚未收錄 → 只警告
 function checkSpecies(where, sp) {
@@ -77,8 +78,8 @@ function checkField(where, f, table, label) {
 }
 
 let teamCount = 0, memberCount = 0;
-for (const file of readdirSync(teamsDir).filter((f) => f.endsWith(".json")).sort()) {
-  const path = join(teamsDir, file);
+// 公開 teams/ 加上 private/teams/（會員影片的完整檔；同檔名以 private 為準）
+for (const { file, path } of teamFiles(chDir)) {
   let arr;
   try { arr = JSON.parse(readFileSync(path, "utf8")); } catch (e) { err(`${file}: JSON 解析失敗 ${e.message}`); continue; }
   if (!Array.isArray(arr)) { err(`${file}: 根節點必須是陣列`); continue; }

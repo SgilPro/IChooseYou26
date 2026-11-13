@@ -7,6 +7,7 @@
 //       node tools/yt/prep-team-intro.mjs data/channels/fiskepokemon --all-champions-battle
 // 環境變數：COOKIES（會員影片用的 cookies.txt 路徑）、FPS（預設 1/8，可寫 1/5 或 0.2）、MAX_INTRO_S（章節缺失時的預設長度，預設 480）、NO_FRAMES=1 只切字幕
 
+import { loadVideos } from "./lib-private.mjs";
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
@@ -17,7 +18,7 @@ if (!chDir || args.length === 0) {
   console.error("usage: prep-team-intro.mjs <channelDir> <videoId...> | --all-champions-battle");
   process.exit(1);
 }
-const videos = JSON.parse(readFileSync(join(chDir, "videos.json"), "utf8"));
+const videos = loadVideos(chDir); // 完整主表在 private/videos.full.json（會員影片的章節與描述不在公開的 videos.json）
 const byId = new Map(videos.map((v) => [v.id, v]));
 
 let ids = args;

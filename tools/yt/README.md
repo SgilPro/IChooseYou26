@@ -78,6 +78,28 @@ node tools/yt/merge-teams.mjs $CH
 - `raw/*.json3` 字幕（約 68MB）保留。
 - 本機資料夾 `data/` 從約 700MB 降到約 120MB。
 
+## 會員限定影片的內容不公開（2026-11-13 起，站主決定）
+
+來自會員限定影片的內容**不進版控、不上站**。完整資料只放在本機的 `<channelDir>/private/`（已加進 `.gitignore`）：
+
+| 路徑 | 內容 |
+|---|---|
+| `private/videos.full.json` | 完整影片主表（含會員影片的描述、章節、pokepaste 連結） |
+| `private/teams/<videoId>.json` | 會員影片的完整隊伍檔（配置、講解摘要、隊伍 ID、分析） |
+| `private/tournament-specs/`、`private/intro/` | 會員影片的比賽規格與字幕切片 |
+| `private/teams.full.json` | 合併後的完整隊伍表，本機分析用 |
+
+公開的 `teams/<videoId>.json`、`teams.json`、`teams.csv` 對這些隊伍只留「殼」：標題、影片連結、日期、遊戲與規則，`review_status` 為 `members-only-withheld`。公開的 `videos.json` 對會員影片不含描述、章節與 pokepaste 連結。
+
+**工作流程**
+- 讀影片主表一律用 `loadVideos()`、讀隊伍檔用 `teamFiles()`（都在 `tools/yt/lib-private.mjs`）。各支工具已改好。
+- 抽取會員影片的隊伍時，把檔案寫到 `private/teams/<videoId>.json`。如果不小心寫到公開的 `teams/`，跑 `node tools/yt/merge-teams.mjs <channelDir>` 會自動搬到 `private/` 並在原位留殼。**commit 前一定要先跑 merge。**
+- `node tools/yt/check-public.mjs` 檢查公開檔案裡有沒有會員內容；部署流程也會跑，發現就中止部署。
+- `private/` 只存在這台機器上，沒有備份。要備份請另外放到私有的地方（例如私有 repo 或雲端硬碟），不要放進這個公開 repo。
+- 新 clone 的環境沒有 `private/`：工具會退回用公開的 `videos.json`，會員影片的章節與描述是空的，所以無法準備會員影片的影格。
+
+**限制**：這只處理目前的檔案。先前的 commit 歷史裡仍然有這些內容；要徹底移除得改寫 git 歷史或把 repo 轉為私有。
+
 ## 已知限制
 
 - 標題/章節若不鎖 `youtube:lang=zh-TW` 會被 YouTube 自動翻成英文；`build-videos.mjs` 優先用 description 裡的時間戳重建原文章節。

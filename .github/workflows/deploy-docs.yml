@@ -8,6 +8,7 @@ on:
       - "app/**"
       - "data/**"
       - "assets/**"
+      - "tools/yt/**"
       - ".github/workflows/deploy-docs.yml"
   workflow_dispatch:
 
@@ -38,6 +39,8 @@ jobs:
         run: |
           npm ci
           npm run build
+      - name: Check no members-only content in public data
+        run: node tools/yt/check-public.mjs
       - name: Stage site (docs + app)
         run: |
           rm -rf _site

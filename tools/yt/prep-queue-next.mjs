@@ -15,6 +15,7 @@
 // 環境變數：COOKIES（預設 ~/_projects/www.youtube.com_cookies.txt）、MAX_AHEAD、BACKOFF_H
 // 輸出一行摘要到 stdout，並追加到 <ch>/raw/prep-queue.log。
 
+import { loadVideos } from "./lib-private.mjs";
 import { readFileSync, existsSync, writeFileSync, appendFileSync, readdirSync, rmSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { homedir } from "node:os";
@@ -52,7 +53,7 @@ if (existsSync(BACKOFF)) {
 }
 if (!existsSync(COOKIES)) { say(`stop: 找不到 cookies：${COOKIES}`); done(1); }
 
-const videos = JSON.parse(readFileSync(join(ch, "videos.json"), "utf8"));
+const videos = loadVideos(ch);
 const isShell = (id) => {
   const f = join(ch, "teams", `${id}.json`);
   if (!existsSync(f)) return false;

@@ -235,4 +235,4 @@ updated: 2026-11-10
 
 次要資訊（tier）：core 167 隊、broad 129 隊、cleanup 60 隊。
 
-代表隊伍：Level 1 為 team_4Vz5wZLr81w（烈箭鷹順風）、team_N9B0RCDtG5c（風妖精順風與戲法空間；猛雷鼓迅雷在 Level 2，惡作劇之心與擊掌奇襲在 Level 3）；收殘為 team_-wu9LVRIx4w（幽尾玄魚水流噴射）。
+代表隊伍：原本列的三個例子都來自會員限定影片，2026-11-13 起不公開，已移除。

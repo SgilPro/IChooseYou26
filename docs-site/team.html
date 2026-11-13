@@ -70,14 +70,14 @@
     .moves li { display: flex; align-items: center; gap: 6px; min-width: 0; background: var(--tint); border-radius: 8px; padding: 4px 8px; }
     .moves li span { min-width: 0; overflow-wrap: anywhere; line-height: 1.3; }
     .evs { margin-top: 10px; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 14px; }
-    .ev { display: grid; grid-template-columns: 2.4em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
+    .ev { display: grid; grid-template-columns: 3.9em 1fr 2em; align-items: center; gap: 6px; font-size: 11px; color: var(--ink-soft); }
     .ev .bar { height: 6px; border-radius: 999px; background: var(--bar-track); overflow: hidden; }
     .ev .bar i { display: block; height: 100%; background: var(--bar-fill); }
-    .ev .lbl { position: relative; display: block; white-space: nowrap; }
-    .trend { position: absolute; right: -9px; top: 50%; transform: translateY(-50%); width: 10px; height: 10px; }
+    .ev .lbl { display: inline-flex; align-items: center; gap: 3px; white-space: nowrap; }
+    .trend { width: 11px; height: 11px; flex: none; }
     /* 沒有能力點時（只顯示性格）圖示接在文字後面 */
     .evs.noev .lbl { display: inline-flex; align-items: center; gap: 3px; }
-    .evs.noev .trend { position: static; transform: none; width: 12px; height: 12px; }
+    .evs.noev .trend { width: 12px; height: 12px; }
     .trend.up { color: var(--success); } .trend.down { color: var(--danger); }
     .evs.noev { grid-template-columns: repeat(3, 1fr); gap: 4px 10px; }
     .evs.noev .ev { display: flex; font-size: 12px; }
@@ -101,6 +101,7 @@
     .segtog .thumb { position: absolute; top: 3px; bottom: 3px; left: 3px; width: calc(50% - 3px); border-radius: 999px; background: var(--primary, #4F3DB5); transition: transform .22s cubic-bezier(.4,0,.2,1); }
     .segtog[data-on="false"] .thumb { transform: translateX(100%); }
     @media (prefers-reduced-motion: reduce) { .segtog .thumb, .segtog button { transition: none; } }
+    .withheld-note { background: var(--bg-soft); border: 1px dashed var(--border); border-radius: 10px; padding: 14px 16px; color: var(--ink-soft); }
     .incomplete { margin-top: 10px; font-size: 13px; color: var(--warn); }
 
     /* ===== 隊伍分析 ===== */
@@ -258,6 +259,7 @@
     document.title = `${team.name} · 隊伍詳細`;
 
     const reg = regById[team.regulation_set_id];
+    const withheld = team.review_status === "members-only-withheld";
     const members = (team.members || []).slice().sort((a, b) => (a.slot || 0) - (b.slot || 0));
     const isSV = team.game === "sv";
     const gameLabel = isSV ? "朱紫" : team.game === "champions" ? "Champions" : esc(team.game || "");
@@ -356,9 +358,9 @@
       </article>`;
     };
     const infoSec = `<section id="info"><h2>隊伍資訊</h2>
-      ${(roleDefs.tags || []).length ? `<div class="rolebar"><span class="rb-label">戰術定位標籤</span><div class="segtog" id="roleToggle" role="group" aria-label="戰術定位標籤顯示" data-on="true"><span class="thumb"></span><button type="button" data-v="on" aria-pressed="true">顯示</button><button type="button" data-v="off" aria-pressed="false">隱藏</button></div><span>實線＝手動確認、虛線＝由招式／特性推斷。黃＝輸出、藍＝戰術、綠＝輔助（<a href="roles.html">戰術定位說明與辨識對應</a>）</span></div>` : ""}
-      ${members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : ""}
-      ${members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
+      ${!withheld && (roleDefs.tags || []).length ? `<div class="rolebar"><span class="rb-label">戰術定位標籤</span><div class="segtog" id="roleToggle" role="group" aria-label="戰術定位標籤顯示" data-on="true"><span class="thumb"></span><button type="button" data-v="on" aria-pressed="true">顯示</button><button type="button" data-v="off" aria-pressed="false">隱藏</button></div><span>實線＝手動確認、虛線＝由招式／特性推斷。黃＝輸出、藍＝戰術、綠＝輔助（<a href="roles.html">戰術定位說明與辨識對應</a>）</span></div>` : ""}
+      ${withheld ? `<p class="withheld-note">這支隊伍來自會員限定影片，隊伍配置、講解與隊伍 ID 不公開。請到原影片觀看。</p>` : (members.length < 6 ? `<p class="incomplete">資料不完整：目前只有 ${members.length} / 6 隻。</p>` : "")}
+      ${withheld ? "" : members.length ? `<div class="mons">${members.map(card).join("")}</div>` : `<p class="empty">資料待補</p>`}
     </section>`;
 
     // ---- 隊伍分析 ----
@@ -427,7 +429,7 @@
       ${combos}
     </section>`;
 
-    $("app").innerHTML = head + `<nav class="sectnav" aria-label="區塊"><a href="#info">隊伍資訊</a><a href="#analysis">隊伍分析</a></nav>` + infoSec + anaSec;
+    $("app").innerHTML = withheld ? head + infoSec : head + `<nav class="sectnav" aria-label="區塊"><a href="#info">隊伍資訊</a><a href="#analysis">隊伍分析</a></nav>` + infoSec + anaSec;
 
     const rt = $("roleToggle");
     if (rt) {
