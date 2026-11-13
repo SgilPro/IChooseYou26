@@ -1,0 +1,582 @@
+{
+  "video_id": "6MZiCCeAN9A",
+  "event": {
+    "id": "indianapolis-2024",
+    "name_zh": "2024 美國印第安納波利斯地區賽",
+    "name_en": "2024 Indianapolis Regional Championships",
+    "game": "sv",
+    "date_approx": "2024-05",
+    "abbr": "IND",
+    "year": 2024,
+    "regulation_set_id": "sv-reg-g"
+  },
+  "stats_note": "轉播畫面為英文遊戲 UI，有技能、特性、道具（文字＋圖示）、太晶屬性（標題列最右側的八角徽章）；沒有性格、性別、努力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「美國 印城地區賽（一）」，影片發布於 2024-05-08，新規則第一場地區賽；章節：Swiss 第 3 輪（Zee Costagliola vs Dylan Salvanera）、第 4 輪（Yotam Cohen vs Stephen Morioka）、第 5 輪（Chance Hinds vs Tommy Rohlfing））。規則 G（單神）：影片未明講規則字母，發布日落在 sv-reg-g（2024-05-01 至 2024-08-31），且各隊恰有一隻限制級（蕾冠王、烈空坐、洛奇亞、太樂巴戈斯），沒有同隊兩隻（Zee 蕾冠王-騎白馬、Dylan 蕾冠王-騎黑馬、Yotam 烈空坐、Stephen 蕾冠王-騎白馬、Chance 洛奇亞、Tommy 太樂巴戈斯）。選手姓名取自畫面名牌；隊伍表屬於哪位選手依畫面中間的選手鏡頭判斷（隊伍表出現時該選手在畫面）。影片其餘章節為賽後訪談。日期未從影片取得，date_approx 為估計值（2024-05，未核對）。",
+  "matches": [
+    {
+      "round": "Swiss Round 3",
+      "players": [
+        "Zee Costagliola",
+        "Dylan Salvanera"
+      ],
+      "header_t_s": 192
+    },
+    {
+      "round": "Swiss Round 4",
+      "players": [
+        "Yotam Cohen",
+        "Stephen Morioka"
+      ],
+      "header_t_s": 2691
+    },
+    {
+      "round": "Swiss Round 5",
+      "players": [
+        "Chance Hinds",
+        "Tommy Rohlfing"
+      ],
+      "header_t_s": 5540
+    }
+  ],
+  "teams": [
+    {
+      "player": "Zee Costagliola",
+      "round": "Swiss Round 3",
+      "t_s": 264,
+      "frames": [
+        "f_262/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "擊掌奇襲",
+            "挑釁",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "暴風",
+            "氣象球",
+            "廣域防守",
+            "守住"
+          ]
+        },
+        {
+          "zh": "蕾冠王-騎白馬的樣子",
+          "en": "Calyrex-Ice",
+          "ability": "人馬一體",
+          "item": "Clear Amulet",
+          "tera": "Grass",
+          "moves": [
+            "雪矛",
+            "十萬馬力",
+            "戲法空間",
+            "守住"
+          ],
+          "form": "Ice"
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "蘑菇孢子",
+            "憤怒粉",
+            "花粉團",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "急速折返",
+            "指導"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "流星群",
+            "迅雷",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Dylan Salvanera",
+      "round": "Swiss Round 3",
+      "t_s": 402,
+      "frames": [
+        "f_400/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎黑馬的樣子",
+          "en": "Calyrex-Shadow",
+          "ability": "人馬一體",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "星碎",
+            "精神衝擊",
+            "詭計",
+            "守住"
+          ],
+          "form": "Shadow"
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "鬼火",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Mystic Water",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "守住"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Leftovers",
+          "tera": "Fairy",
+          "moves": [
+            "龍之波動",
+            "迅雷",
+            "冥想",
+            "守住"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Sitrus Berry",
+          "tera": "Dark",
+          "moves": [
+            "污泥炸彈",
+            "憤怒粉",
+            "蘑菇孢子",
+            "守住"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Yotam Cohen",
+      "round": "Swiss Round 4",
+      "t_s": 2762,
+      "frames": [
+        "f_2760/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "烈空坐",
+          "en": "Rayquaza",
+          "ability": "氣閘",
+          "item": "Clear Amulet",
+          "tera": "Normal",
+          "moves": [
+            "守住",
+            "畫龍點睛",
+            "神速",
+            "劍舞"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Metal Coat",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "淘金潮",
+            "暗影球",
+            "詭計"
+          ]
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Water",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "急速折返",
+            "水流噴射"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拋下狠話",
+            "擊掌奇襲",
+            "拍落",
+            "挑釁"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Fairy",
+          "moves": [
+            "迅雷",
+            "流星群",
+            "電網",
+            "大聲咆哮"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "憤怒粉",
+            "污泥炸彈",
+            "花粉團",
+            "蘑菇孢子"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Stephen Morioka",
+      "round": "Swiss Round 4",
+      "t_s": 2852,
+      "frames": [
+        "f_2850/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "蕾冠王-騎白馬的樣子",
+          "en": "Calyrex-Ice",
+          "ability": "人馬一體",
+          "item": "Clear Amulet",
+          "tera": "Water",
+          "moves": [
+            "雪矛",
+            "十萬馬力",
+            "守住",
+            "戲法空間"
+          ],
+          "form": "Ice"
+        },
+        {
+          "zh": "武道熊師-連擊流",
+          "en": "Urshifu-Rapid-Strike",
+          "ability": "無形拳",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "水流連打",
+            "近身戰",
+            "水流噴射",
+            "急速折返"
+          ],
+          "form": "Rapid-Strike"
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Dark",
+          "moves": [
+            "蘑菇孢子",
+            "花粉團",
+            "守住",
+            "憤怒粉"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "守住",
+            "廣域防守"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "挑釁",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "猛雷鼓",
+          "en": "Raging Bolt",
+          "ability": "古代活性",
+          "item": "Assault Vest",
+          "tera": "Electric",
+          "moves": [
+            "十萬伏特",
+            "伏特替換",
+            "流星群",
+            "迅雷"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Chance Hinds",
+      "round": "Swiss Round 5",
+      "t_s": 5642,
+      "frames": [
+        "f_5640/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Shuca Berry",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "擊掌奇襲",
+            "拋下狠話"
+          ]
+        },
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "擊掌奇襲",
+            "青草滑梯",
+            "木槌",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "洛奇亞",
+          "en": "Lugia",
+          "ability": "多重鱗片",
+          "item": "Covert Cloak",
+          "tera": "Fairy",
+          "moves": [
+            "氣旋攻擊",
+            "大地之力",
+            "冥想",
+            "守住"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "健美",
+            "吸取拳",
+            "憤怒之拳",
+            "守住"
+          ]
+        },
+        {
+          "zh": "花療環環",
+          "en": "Comfey",
+          "ability": "先行治療",
+          "item": "Sitrus Berry",
+          "tera": "Steel",
+          "moves": [
+            "守住",
+            "吸取之吻",
+            "花療",
+            "戲法空間"
+          ],
+          "tera_conf": 0.7
+        },
+        {
+          "zh": "勾魂眼",
+          "en": "Sableye",
+          "ability": "惡作劇之心",
+          "item": "Light Ball",
+          "tera": "Steel",
+          "moves": [
+            "反射壁",
+            "光牆",
+            "鬼火",
+            "挑釁"
+          ],
+          "tera_conf": 0.7
+        }
+      ]
+    },
+    {
+      "player": "Tommy Rohlfing",
+      "round": "Swiss Round 5",
+      "t_s": 5762,
+      "frames": [
+        "f_5760/f_03.png"
+      ],
+      "members": [
+        {
+          "zh": "太樂巴戈斯",
+          "en": "Terapagos",
+          "ability": "太晶甲殼",
+          "item": "Power Herb",
+          "tera": "Stellar",
+          "moves": [
+            "晶光星群",
+            "流星光束",
+            "大地之力",
+            "守住"
+          ]
+        },
+        {
+          "zh": "龍捲雲-化身形態",
+          "en": "Tornadus",
+          "ability": "惡作劇之心",
+          "item": "Mental Herb",
+          "tera": "Normal",
+          "moves": [
+            "枯葉風暴",
+            "順風",
+            "挑釁",
+            "守住"
+          ]
+        },
+        {
+          "zh": "振翼髮",
+          "en": "Flutter Mane",
+          "ability": "古代活性",
+          "item": "Booster Energy",
+          "tera": "Fairy",
+          "moves": [
+            "月亮之力",
+            "冰凍之風",
+            "假哭",
+            "守住"
+          ]
+        },
+        {
+          "zh": "武道熊師-一擊流",
+          "en": "Urshifu-Single-Strike",
+          "ability": "無形拳",
+          "item": "Black Glasses",
+          "tera": "Dark",
+          "moves": [
+            "暗冥強擊",
+            "近身戰",
+            "突襲",
+            "看穿"
+          ],
+          "form": "Single-Strike"
+        },
+        {
+          "zh": "古玉魚",
+          "en": "Chi-Yu",
+          "ability": "災禍之玉",
+          "item": "Focus Band",
+          "tera": "Ghost",
+          "moves": [
+            "熱風",
+            "過熱",
+            "惡之波動",
+            "守住"
+          ]
+        },
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Rocky Helmet",
+          "tera": "Water",
+          "moves": [
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}

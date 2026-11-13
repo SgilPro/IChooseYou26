@@ -1,0 +1,87 @@
+{
+  "id": "indianapolis-2024",
+  "name_zh": "2024 美國印第安納波利斯地區賽",
+  "name_en": "2024 Indianapolis Regional Championships",
+  "game": "sv",
+  "date_approx": "2024-05",
+  "abbr": "IND",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "indianapolis-2024__swiss-round-3__dylan-salvanera__zee-costagliola",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Zee Costagliola",
+          "team_ids": [
+            "team_6MZiCCeAN9A_1"
+          ]
+        },
+        {
+          "name": "Dylan Salvanera",
+          "team_ids": [
+            "team_6MZiCCeAN9A_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "6MZiCCeAN9A",
+          "header_t_s": 192,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "indianapolis-2024__swiss-round-4__stephen-morioka__yotam-cohen",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Yotam Cohen",
+          "team_ids": [
+            "team_6MZiCCeAN9A_3"
+          ]
+        },
+        {
+          "name": "Stephen Morioka",
+          "team_ids": [
+            "team_6MZiCCeAN9A_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "6MZiCCeAN9A",
+          "header_t_s": 2691,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "indianapolis-2024__swiss-round-5__chance-hinds__tommy-rohlfing",
+      "round": "Swiss Round 5",
+      "players": [
+        {
+          "name": "Chance Hinds",
+          "team_ids": [
+            "team_6MZiCCeAN9A_5"
+          ]
+        },
+        {
+          "name": "Tommy Rohlfing",
+          "team_ids": [
+            "team_6MZiCCeAN9A_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "6MZiCCeAN9A",
+          "header_t_s": 5540,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
