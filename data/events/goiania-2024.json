@@ -1,0 +1,112 @@
+{
+  "id": "goiania-2024",
+  "name_zh": "2024 巴西戈亞尼亞地區賽",
+  "name_en": "2024 Goiânia Regional Championships",
+  "game": "sv",
+  "abbr": "GYN",
+  "year": 2024,
+  "date_approx": "2024-03",
+  "regulation_set_id": "sv-reg-f",
+  "matches": [
+    {
+      "id": "goiania-2024__top-8__diego-gutierrez__sebastian-escalante",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Diego Gutierrez",
+          "team_ids": [
+            "team_C84KeeY9ejs_1"
+          ]
+        },
+        {
+          "name": "Sebastian Escalante",
+          "team_ids": [
+            "team_C84KeeY9ejs_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "C84KeeY9ejs",
+          "header_t_s": 62,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "goiania-2024__top-4__gabriel-agati__pedro-fialdini",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Gabriel Agati",
+          "team_ids": [
+            "team_C84KeeY9ejs_3"
+          ]
+        },
+        {
+          "name": "Pedro Fialdini",
+          "team_ids": [
+            "team_C84KeeY9ejs_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "C84KeeY9ejs",
+          "header_t_s": 1395,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "goiania-2024__top-4__dylan-torres__sebastian-escalante",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Dylan Torres",
+          "team_ids": [
+            "team_C84KeeY9ejs_5"
+          ]
+        },
+        {
+          "name": "Sebastian Escalante",
+          "team_ids": [
+            "team_C84KeeY9ejs_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "C84KeeY9ejs",
+          "header_t_s": 4067,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "goiania-2024__finals__dylan-torres__pedro-fialdini",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Dylan Torres",
+          "team_ids": [
+            "team_C84KeeY9ejs_7"
+          ]
+        },
+        {
+          "name": "Pedro Fialdini",
+          "team_ids": [
+            "team_C84KeeY9ejs_8"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "C84KeeY9ejs",
+          "header_t_s": 5785,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
