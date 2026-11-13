@@ -1,0 +1,87 @@
+{
+  "id": "gdansk-2026",
+  "name_zh": "2026 波蘭格但斯克地區賽",
+  "name_en": "2026 Gdańsk Regional Championships",
+  "game": "sv",
+  "date_approx": "2025-11",
+  "abbr": "GDN",
+  "year": 2026,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "gdansk-2026__swiss-round-3__adrian-krajinovic__federico-camporesi",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Federico Camporesi",
+          "team_ids": [
+            "team_hDXCB1HiTRk_1"
+          ]
+        },
+        {
+          "name": "Adrian Krajinovic",
+          "team_ids": [
+            "team_hDXCB1HiTRk_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "hDXCB1HiTRk",
+          "header_t_s": 164,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "gdansk-2026__swiss-round-6__gem-kiddle__nils-dunlop",
+      "round": "Swiss Round 6",
+      "players": [
+        {
+          "name": "Nils Dunlop",
+          "team_ids": [
+            "team_hDXCB1HiTRk_3"
+          ]
+        },
+        {
+          "name": "Gem Kiddle",
+          "team_ids": [
+            "team_hDXCB1HiTRk_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "hDXCB1HiTRk",
+          "header_t_s": 1462,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "gdansk-2026__masters-finals__simone-sanvito__the-otime-massaut",
+      "round": "Masters Finals",
+      "players": [
+        {
+          "name": "Simone Sanvito",
+          "team_ids": [
+            "team_hDXCB1HiTRk_5"
+          ]
+        },
+        {
+          "name": "Théotime Massaut",
+          "team_ids": [
+            "team_hDXCB1HiTRk_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "hDXCB1HiTRk",
+          "header_t_s": 2680,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
