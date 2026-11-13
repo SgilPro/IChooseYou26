@@ -332,6 +332,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "naic-2024__top-8__patrick-conners__shiliang-tang",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Patrick Conners",
+          "team_ids": [
+            "team_IpvzabezaMc_1"
+          ]
+        },
+        {
+          "name": "Shiliang Tang",
+          "team_ids": [
+            "team_IpvzabezaMc_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "IpvzabezaMc",
+          "header_t_s": 0,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2024__top-4__aure-lien-soula__eduardo-cunha",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Eduardo Cunha",
+          "team_ids": [
+            "team_IpvzabezaMc_3"
+          ]
+        },
+        {
+          "name": "Aurélien Soula",
+          "team_ids": [
+            "team_IpvzabezaMc_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "IpvzabezaMc",
+          "header_t_s": 1566,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2024__finals__aure-lien-soula__patrick-conners",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Patrick Conners",
+          "team_ids": [
+            "team_IpvzabezaMc_5"
+          ]
+        },
+        {
+          "name": "Aurélien Soula",
+          "team_ids": [
+            "team_IpvzabezaMc_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "IpvzabezaMc",
+          "header_t_s": 3297,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }
