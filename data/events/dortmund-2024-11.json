@@ -82,6 +82,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "dortmund-2024-11__swiss-round-3__antonio-sa-nchez__flavio-del-pidio",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Antonio Sánchez",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_1"
+          ]
+        },
+        {
+          "name": "Flavio Del Pidio",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7ub0b8EM3ZY",
+          "header_t_s": 62,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-11__swiss-round-4__alex-soto__yoel-rami-rez",
+      "round": "Swiss Round 4",
+      "players": [
+        {
+          "name": "Yoel Ramírez",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_3"
+          ]
+        },
+        {
+          "name": "Alex Soto",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7ub0b8EM3ZY",
+          "header_t_s": 1253,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "dortmund-2024-11__swiss-round-7__giulio-tarlao__yvar-vlieger",
+      "round": "Swiss Round 7",
+      "players": [
+        {
+          "name": "Yvar Vlieger",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_5"
+          ]
+        },
+        {
+          "name": "Giulio Tarlao",
+          "team_ids": [
+            "team_7ub0b8EM3ZY_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "7ub0b8EM3ZY",
+          "header_t_s": 2384,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }

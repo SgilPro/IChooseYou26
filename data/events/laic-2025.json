@@ -82,6 +82,81 @@
           "kind": "commentary"
         }
       ]
+    },
+    {
+      "id": "laic-2025__swiss-round-9__eduardo-cunha__juan-manuel-odriozola",
+      "round": "Swiss Round 9",
+      "players": [
+        {
+          "name": "Eduardo Cunha",
+          "team_ids": [
+            "team_3POGhTssglU_1"
+          ]
+        },
+        {
+          "name": "Juan Manuel Odriozola",
+          "team_ids": [
+            "team_3POGhTssglU_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "3POGhTssglU",
+          "header_t_s": 89,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2025__top-32__michael-kelsch__shohei-kimura",
+      "round": "Top 32",
+      "players": [
+        {
+          "name": "Michael Kelsch",
+          "team_ids": [
+            "team_3POGhTssglU_3"
+          ]
+        },
+        {
+          "name": "Shohei Kimura",
+          "team_ids": [
+            "team_3POGhTssglU_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "3POGhTssglU",
+          "header_t_s": 1712,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "laic-2025__top-16__len-deuel__renzo-navarro",
+      "round": "Top 16",
+      "players": [
+        {
+          "name": "Len Deuel",
+          "team_ids": [
+            "team_3POGhTssglU_5"
+          ]
+        },
+        {
+          "name": "Renzo Navarro",
+          "team_ids": [
+            "team_3POGhTssglU_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "3POGhTssglU",
+          "header_t_s": 2670,
+          "kind": "commentary"
+        }
+      ]
     }
   ]
 }
