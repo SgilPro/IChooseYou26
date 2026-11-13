@@ -1,0 +1,162 @@
+{
+  "id": "lille-2024-11",
+  "name_zh": "2024 法國里爾地區賽（11 月）",
+  "name_en": "2024 Lille Regional Championships (November)",
+  "game": "sv",
+  "date_approx": "2024-11",
+  "abbr": "LILLE",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-h",
+  "matches": [
+    {
+      "id": "lille-2024-11__top-8__eduardo-cunha__nils-dunlop",
+      "round": "Top 8",
+      "players": [
+        {
+          "name": "Eduardo Cunha",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_1"
+          ]
+        },
+        {
+          "name": "Nils Dunlop",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "j6ZfmcPbsLQ",
+          "header_t_s": 57,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__top-4__joan-garcia__vi-ctor-medina",
+      "round": "Top 4",
+      "players": [
+        {
+          "name": "Víctor Medina",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_3"
+          ]
+        },
+        {
+          "name": "Joan Garcia",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "j6ZfmcPbsLQ",
+          "header_t_s": 946,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__finals__nils-dunlop__vi-ctor-medina",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Víctor Medina",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_5"
+          ]
+        },
+        {
+          "name": "Nils Dunlop",
+          "team_ids": [
+            "team_j6ZfmcPbsLQ_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "j6ZfmcPbsLQ",
+          "header_t_s": 2262,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-7__sam-tabner__zoe-lou",
+      "round": "Swiss Round 7",
+      "players": [
+        {
+          "name": "Zoe Lou",
+          "team_ids": [
+            "team_QGa_yG9y518_1"
+          ]
+        },
+        {
+          "name": "Sam Tabner",
+          "team_ids": [
+            "team_QGa_yG9y518_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "QGa_yG9y518",
+          "header_t_s": 15,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-8__jamie-boyt__luigi-de-filpo",
+      "round": "Swiss Round 8",
+      "players": [
+        {
+          "name": "Jamie Boyt",
+          "team_ids": [
+            "team_QGa_yG9y518_3"
+          ]
+        },
+        {
+          "name": "Luigi De Filpo",
+          "team_ids": [
+            "team_QGa_yG9y518_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "QGa_yG9y518",
+          "header_t_s": 1108,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "lille-2024-11__swiss-round-11__alberto-baldi__giovanni-piscitelli",
+      "round": "Swiss Round 11",
+      "players": [
+        {
+          "name": "Giovanni Piscitelli",
+          "team_ids": [
+            "team_QGa_yG9y518_5"
+          ]
+        },
+        {
+          "name": "Alberto Baldi",
+          "team_ids": [
+            "team_QGa_yG9y518_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "QGa_yG9y518",
+          "header_t_s": 2364,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "video_id": "FqKOui2soUw",
+  "event": {
+    "id": "laic-2025",
+    "name_zh": "2025 南美洲國際賽",
+    "name_en": "2025 Latin America International Championships",
+    "game": "sv",
+    "date_approx": "2024-12",
+    "abbr": "LAIC",
+    "year": 2025,
+    "regulation_set_id": "sv-reg-h"
+  },
+  "stats_note": "轉播畫面（中文遊戲 UI）有技能、特性、道具（文字＋圖示）、太晶屬性（屬性圖示最右側的八角徽章）；沒有性格、性別、努力值、能力值，這些欄位留空。",
+  "note": "Fiske 講比賽（公開影片，標題「南美洲國際賽（一）」，章節：Day 1 使用率、Swiss 第 1、4、8 輪；影片發布於 2024-11-29）。與 zSLmQo0E5Pg（南美洲國際賽（二））同一賽事。規則 H（無神獸）：36 隻寶可夢中沒有限制級傳說、幻獸、悖謬或準傳說，發布日期亦在規則 H 期間。畫面為整隊資訊面板（選手名牌含國籍）。幽尾玄魚為雄性型態卡片標示。烈箭鷹太晶飛行依字幕與徽章；妖精太晶（來悲粗茶、敗露球菇、快龍）依粉紅徽章，把握較低。",
+  "matches": [
+    {
+      "round": "Swiss Round 1",
+      "players": [
+        "James Baek",
+        "Patrick Connors"
+      ],
+      "header_t_s": 119
+    },
+    {
+      "round": "Swiss Round 4",
+      "players": [
+        "Paul Ruiz",
+        "Francesco Pio Pero"
+      ],
+      "header_t_s": 911
+    },
+    {
+      "round": "Swiss Round 8",
+      "players": [
+        "Eric Rios",
+        "Kylan Van Severen"
+      ],
+      "header_t_s": 2633
+    }
+  ],
+  "teams": [
+    {
+      "player": "James Baek",
+      "round": "Swiss Round 1",
+      "t_s": 165,
+      "frames": [
+        "f_165.png"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "木槌",
+            "青草滑梯",
+            "擊掌奇襲",
+            "急速折返"
+          ]
+        },
+        {
+          "zh": "烈箭鷹",
+          "en": "Talonflame",
+          "ability": "疾風之翼",
+          "item": "Sharp Beak",
+          "tera": "Flying",
+          "moves": [
+            "勇鳥猛攻",
+            "閃焰衝鋒",
+            "順風",
+            "守住"
+          ],
+          "tera_conf": 0.85
+        },
+        {
+          "zh": "一家鼠",
+          "en": "Maushold",
+          "ability": "友情防守",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "憤怒門牙",
+            "看我嘛",
+            "圍攻",
+            "守住"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Leftovers",
+          "tera": "Water",
+          "moves": [
+            "憤怒之拳",
+            "吸取拳",
+            "健美",
+            "守住"
+          ]
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Steel",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "三首惡龍",
+          "en": "Hydreigon",
+          "ability": "飄浮",
+          "item": "Choice Specs",
+          "tera": "Fire",
+          "moves": [
+            "流星群",
+            "惡之波動",
+            "熱風",
+            "大地之力"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Patrick Connors",
+      "round": "Swiss Round 1",
+      "t_s": 215,
+      "frames": [
+        "f_215.png"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Loaded Dice",
+          "tera": "Fire",
+          "moves": [
+            "種子機關槍",
+            "青草滑梯",
+            "急速折返",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚-雄性的樣子",
+          "en": "Basculegion",
+          "ability": "悠游自如",
+          "item": "Life Orb",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "波動衝",
+            "掃墓",
+            "水流噴射"
+          ],
+          "form": "Male"
+        },
+        {
+          "zh": "大狃拉",
+          "en": "Sneasler",
+          "ability": "輕裝",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "守住",
+            "近身戰",
+            "剋命爪",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Covert Cloak",
+          "tera": "Grass",
+          "moves": [
+            "守住",
+            "氣象球",
+            "暴風",
+            "順風"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "龍之波動",
+            "加農光炮",
+            "電光束",
+            "撲擊"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Paul Ruiz",
+      "round": "Swiss Round 4",
+      "t_s": 981,
+      "frames": [
+        "f_981.png"
+      ],
+      "members": [
+        {
+          "zh": "來悲粗茶",
+          "en": "Sinistcha",
+          "ability": "款待",
+          "item": "Rocky Helmet",
+          "tera": "Fairy",
+          "moves": [
+            "刷刷茶炮",
+            "憤怒粉",
+            "生命水滴",
+            "戲法空間"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "幽尾玄魚-雄性的樣子",
+          "en": "Basculegion",
+          "ability": "悠游自如",
+          "item": "Choice Band",
+          "tera": "Water",
+          "moves": [
+            "波動衝",
+            "水流噴射",
+            "掃墓",
+            "快速折返"
+          ],
+          "form": "Male"
+        },
+        {
+          "zh": "一家鼠",
+          "en": "Maushold",
+          "ability": "友情防守",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "圍攻",
+            "看我嘛",
+            "挑釁",
+            "守住"
+          ]
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Sitrus Berry",
+          "tera": "Fire",
+          "moves": [
+            "吸取拳",
+            "憤怒之拳",
+            "健美",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Choice Scarf",
+          "tera": "Ghost",
+          "moves": [
+            "冰凍之風",
+            "暴風",
+            "氣象球",
+            "廣域防守"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "撲擊",
+            "大聲咆哮",
+            "電光束",
+            "流星群"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Francesco Pio Pero",
+      "round": "Swiss Round 4",
+      "t_s": 1046,
+      "frames": [
+        "f_1046.png"
+      ],
+      "members": [
+        {
+          "zh": "敗露球菇",
+          "en": "Amoonguss",
+          "ability": "再生力",
+          "item": "Sitrus Berry",
+          "tera": "Fairy",
+          "moves": [
+            "花粉團",
+            "蘑菇孢子",
+            "憤怒粉",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Safety Goggles",
+          "tera": "Ghost",
+          "moves": [
+            "拍落",
+            "挑釁",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "幽尾玄魚-雄性的樣子",
+          "en": "Basculegion",
+          "ability": "悠游自如",
+          "item": "Splash Plate",
+          "tera": "Water",
+          "moves": [
+            "波動衝",
+            "掃墓",
+            "水流噴射",
+            "守住"
+          ],
+          "form": "Male"
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Life Orb",
+          "tera": "Water",
+          "moves": [
+            "淘金潮",
+            "暗影球",
+            "詭計",
+            "守住"
+          ]
+        },
+        {
+          "zh": "大嘴鷗",
+          "en": "Pelipper",
+          "ability": "降雨",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "氣象球",
+            "暴風",
+            "順風",
+            "守住"
+          ]
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "持久力",
+          "item": "Assault Vest",
+          "tera": "Grass",
+          "moves": [
+            "龍之波動",
+            "電光束",
+            "加農光炮",
+            "撲擊"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Eric Rios",
+      "round": "Swiss Round 8",
+      "t_s": 2698,
+      "frames": [
+        "f_2698.png"
+      ],
+      "members": [
+        {
+          "zh": "轟擂金剛猩",
+          "en": "Rillaboom",
+          "ability": "青草製造者",
+          "item": "Assault Vest",
+          "tera": "Fire",
+          "moves": [
+            "青草滑梯",
+            "擊掌奇襲",
+            "木槌",
+            "十萬馬力"
+          ]
+        },
+        {
+          "zh": "熾焰咆哮虎",
+          "en": "Incineroar",
+          "ability": "威嚇",
+          "item": "Mirror Herb",
+          "tera": "Ghost",
+          "moves": [
+            "閃焰衝鋒",
+            "拍落",
+            "拋下狠話",
+            "擊掌奇襲"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "多重鱗片",
+          "item": "Loaded Dice",
+          "tera": "Fairy",
+          "moves": [
+            "守住",
+            "鱗射",
+            "黑霧",
+            "神速"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "賽富豪",
+          "en": "Gholdengo",
+          "ability": "黃金之軀",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "守住",
+            "詭計",
+            "淘金潮",
+            "暗影球"
+          ]
+        },
+        {
+          "zh": "電擊獸",
+          "en": "Electabuzz",
+          "ability": "幹勁",
+          "item": "Eviolite",
+          "tera": "Dragon",
+          "moves": [
+            "守住",
+            "十萬伏特",
+            "看我嘛",
+            "電網"
+          ],
+          "tera_conf": 0.8
+        },
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Focus Sash",
+          "tera": "Stellar",
+          "moves": [
+            "近身戰",
+            "指導",
+            "憤怒之拳",
+            "挑釁"
+          ]
+        }
+      ]
+    },
+    {
+      "player": "Kylan Van Severen",
+      "round": "Swiss Round 8",
+      "t_s": 2798,
+      "frames": [
+        "f_2798.png"
+      ],
+      "members": [
+        {
+          "zh": "棄世猴",
+          "en": "Annihilape",
+          "ability": "不服輸",
+          "item": "Safety Goggles",
+          "tera": "Water",
+          "moves": [
+            "吸取拳",
+            "憤怒之拳",
+            "健美",
+            "守住"
+          ]
+        },
+        {
+          "zh": "火神蛾",
+          "en": "Volcarona",
+          "ability": "火焰之軀",
+          "item": "Sitrus Berry",
+          "tera": "Water",
+          "moves": [
+            "熱風",
+            "蟲之抵抗",
+            "鬼火",
+            "順風"
+          ]
+        },
+        {
+          "zh": "快龍",
+          "en": "Dragonite",
+          "ability": "多重鱗片",
+          "item": "Loaded Dice",
+          "tera": "Fairy",
+          "moves": [
+            "鱗射",
+            "神速",
+            "黑霧",
+            "守住"
+          ],
+          "tera_conf": 0.75
+        },
+        {
+          "zh": "鋁鋼橋龍",
+          "en": "Archaludon",
+          "ability": "結實",
+          "item": "Power Herb",
+          "tera": "Grass",
+          "moves": [
+            "流星群",
+            "加農光炮",
+            "電光束",
+            "守住"
+          ]
+        },
+        {
+          "zh": "米立龍",
+          "en": "Tatsugiri",
+          "ability": "發號施令",
+          "item": "Focus Sash",
+          "tera": "Ghost",
+          "moves": [
+            "濁流",
+            "龍之波動",
+            "挑釁",
+            "守住"
+          ]
+        },
+        {
+          "zh": "吃吼霸",
+          "en": "Dondozo",
+          "ability": "純樸",
+          "item": "Covert Cloak",
+          "tera": "Steel",
+          "moves": [
+            "波動衝",
+            "上菜",
+            "重磅衝撞",
+            "守住"
+          ]
+        }
+      ]
+    }
+  ]
+}
