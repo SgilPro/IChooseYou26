@@ -1,0 +1,601 @@
+{
+ "video_id": "CMhT3LCKZaA",
+ "event": {
+  "id": "baltimore-2026",
+  "name_zh": "2026 美國巴爾的摩地區賽",
+  "name_en": "2026 Baltimore Regional Championships",
+  "game": "champions",
+  "date_approx": "2026-09",
+  "abbr": "BALT",
+  "year": 2026,
+  "regulation_set_id": "champions-m-c"
+ },
+ "note": "Fiske 講比賽（會員影片，新規則 M-C 第一場）。隊伍表為轉播畫面（中文遊戲 UI）：技能、特性、性格（↑／↓箭頭）為文字；道具只有圖示，由視覺比對（PokeAPI 圖示庫）判讀。畫面沒有努力值與能力值。Mega 寶可夢的特性依畫面照錄（耿鬼、暴飛龍、姆克鷹、噴火龍Y、具甲武者顯示 Mega 後特性；巨金怪顯示恆淨之軀）。",
+ "matches": [
+  {
+   "round": "Round 7",
+   "players": [
+    "Brady Smith",
+    "James Evans"
+   ],
+   "header_t_s": 191
+  },
+  {
+   "round": "Round 12",
+   "players": [
+    "Dorian Kang",
+    "Dylan Matthews"
+   ],
+   "header_t_s": 2095
+  },
+  {
+   "round": "Finals",
+   "players": [
+    "Joseph Ugarte",
+    "Aditya Subramanian"
+   ],
+   "header_t_s": 3222
+  }
+ ],
+ "teams": [
+  {
+   "player": "Brady Smith",
+   "round": "Round 7",
+   "t_s": 260,
+   "frames": [
+    "f_260.png"
+   ],
+   "members": [
+    {
+     "zh": "耿鬼",
+     "en": "Gengar",
+     "mega": "Mega",
+     "ability": "踩影",
+     "item": "Gengarite",
+     "nature": "Modest",
+     "moves": [
+      "暗影球",
+      "污泥炸彈",
+      "滅亡之歌",
+      "守住"
+     ]
+    },
+    {
+     "zh": "彩粉蝶",
+     "en": "Vivillon",
+     "ability": "複眼",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Timid",
+     "moves": [
+      "催眠粉",
+      "憤怒粉",
+      "暴風",
+      "守住"
+     ]
+    },
+    {
+     "zh": "熾焰咆哮虎",
+     "en": "Incineroar",
+     "ability": "威嚇",
+     "item": "King's Rock",
+     "item_conf": 0.7,
+     "nature": "Sassy",
+     "moves": [
+      "擊掌奇襲",
+      "拋下狠話",
+      "DD金勾臂",
+      "守住"
+     ]
+    },
+    {
+     "zh": "鋁鋼橋龍",
+     "en": "Archaludon",
+     "ability": "持久力",
+     "item": "Leftovers",
+     "nature": "Bold",
+     "moves": [
+      "龍之波動",
+      "加農光炮",
+      "電光束",
+      "守住"
+     ]
+    },
+    {
+     "zh": "蚊香蛙皇",
+     "en": "Politoed",
+     "ability": "降雨",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Calm",
+     "moves": [
+      "滅亡之歌",
+      "氣象球",
+      "再來一次",
+      "守住"
+     ]
+    },
+    {
+     "zh": "轟擂金剛猩",
+     "en": "Rillaboom",
+     "ability": "青草製造者",
+     "item": "Eject Button",
+     "nature": "Careful",
+     "moves": [
+      "擊掌奇襲",
+      "青草滑梯",
+      "急速折返",
+      "守住"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "James Evans",
+   "round": "Round 7",
+   "t_s": 345,
+   "frames": [
+    "f_345.png"
+   ],
+   "members": [
+    {
+     "zh": "暴飛龍",
+     "en": "Salamence",
+     "mega": "Mega",
+     "ability": "飛行皮膚",
+     "item": "Salamencite",
+     "nature": "Timid",
+     "moves": [
+      "巨聲",
+      "順風",
+      "流星群",
+      "守住"
+     ]
+    },
+    {
+     "zh": "雙倍多多冰",
+     "en": "Vanilluxe",
+     "ability": "降雪",
+     "item": "Choice Scarf",
+     "item_conf": 0.8,
+     "nature": "Timid",
+     "moves": [
+      "暴風雪",
+      "冷凍乾燥",
+      "冰凍之風",
+      "絕對零度"
+     ]
+    },
+    {
+     "zh": "紅蓮鎧騎",
+     "en": "Armarouge",
+     "ability": "引火",
+     "item": "Life Orb",
+     "nature": "Modest",
+     "moves": [
+      "鎧農炮",
+      "廣域戰力",
+      "廣域防守",
+      "守住"
+     ]
+    },
+    {
+     "zh": "仆斬將軍",
+     "en": "Kingambit",
+     "ability": "不服輸",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "仆斬",
+      "踢倒",
+      "突襲",
+      "鐵頭"
+     ]
+    },
+    {
+     "zh": "大扭拉",
+     "en": "Sneasler",
+     "ability": "輕裝",
+     "item": "Psychic Seed",
+     "item_conf": 0.8,
+     "nature": "Adamant",
+     "moves": [
+      "剋命爪",
+      "近身戰",
+      "地獄突刺",
+      "守住"
+     ]
+    },
+    {
+     "zh": "愛管侍-雌性的樣子",
+     "en": "Indeedee",
+     "form": "Female",
+     "ability": "精神製造者",
+     "item": "Rocky Helmet",
+     "nature": "Bold",
+     "moves": [
+      "精神強念",
+      "幫助",
+      "看我嚇",
+      "守住"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Dorian Kang",
+   "round": "Round 12",
+   "t_s": 2170,
+   "frames": [
+    "f_2170.png"
+   ],
+   "members": [
+    {
+     "zh": "耿鬼",
+     "en": "Gengar",
+     "mega": "Mega",
+     "ability": "踩影",
+     "item": "Gengarite",
+     "nature": "Modest",
+     "moves": [
+      "暗影球",
+      "真氣彈",
+      "守住",
+      "污泥炸彈"
+     ]
+    },
+    {
+     "zh": "姆克鷹",
+     "en": "Staraptor",
+     "mega": "Mega",
+     "ability": "唱反調",
+     "item": "Staraptite",
+     "nature": "Adamant",
+     "moves": [
+      "守住",
+      "近身戰",
+      "勇鳥猛攻",
+      "羽棲"
+     ]
+    },
+    {
+     "zh": "紅蓮鎧騎",
+     "en": "Armarouge",
+     "ability": "引火",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Modest",
+     "moves": [
+      "鎧農炮",
+      "廣域戰力",
+      "廣域防守",
+      "守住"
+     ]
+    },
+    {
+     "zh": "美納斯",
+     "en": "Milotic",
+     "ability": "好勝",
+     "item": "Psychic Seed",
+     "item_conf": 0.8,
+     "nature": "Calm",
+     "moves": [
+      "濁流",
+      "盤蜷",
+      "催眠術",
+      "自我再生"
+     ]
+    },
+    {
+     "zh": "多龍巴魯托",
+     "en": "Dragapult",
+     "ability": "穿透",
+     "item": "Life Orb",
+     "nature": "Timid",
+     "moves": [
+      "流星群",
+      "暗影球",
+      "鬼火",
+      "守住"
+     ]
+    },
+    {
+     "zh": "愛管侍-雌性的樣子",
+     "en": "Indeedee",
+     "form": "Female",
+     "ability": "精神製造者",
+     "item": "Rocky Helmet",
+     "nature": "Relaxed",
+     "moves": [
+      "精神強念",
+      "看我嚇",
+      "幫助",
+      "戲法空間"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Dylan Matthews",
+   "round": "Round 12",
+   "t_s": 2260,
+   "frames": [
+    "f_2260.png"
+   ],
+   "members": [
+    {
+     "zh": "巨金怪",
+     "en": "Metagross",
+     "mega": "Mega",
+     "ability": "恆淨之軀",
+     "item": "Metagrossite",
+     "nature": "Jolly",
+     "moves": [
+      "精神之牙",
+      "撲擊",
+      "自我暗示",
+      "守住"
+     ]
+    },
+    {
+     "zh": "七夕青鳥",
+     "en": "Altaria",
+     "ability": "無關天氣",
+     "item": "Haban Berry",
+     "item_conf": 0.7,
+     "nature": "Timid",
+     "moves": [
+      "冰凍光束",
+      "順風",
+      "鬼火",
+      "守住"
+     ]
+    },
+    {
+     "zh": "洗翠風速狗",
+     "en": "Arcanine-Hisui",
+     "ability": "堅硬腦袋",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Naive",
+     "moves": [
+      "岩崩",
+      "閃焰衝鋒",
+      "雙刃頭槌",
+      "守住"
+     ]
+    },
+    {
+     "zh": "美納斯",
+     "en": "Milotic",
+     "ability": "好勝",
+     "item": "Psychic Seed",
+     "item_conf": 0.8,
+     "nature": "Calm",
+     "moves": [
+      "濁流",
+      "盤蜷",
+      "催眠術",
+      "自我再生"
+     ]
+    },
+    {
+     "zh": "多龍巴魯托",
+     "en": "Dragapult",
+     "ability": "穿透",
+     "item": "Life Orb",
+     "nature": "Modest",
+     "moves": [
+      "流星群",
+      "暗影球",
+      "鬼火",
+      "守住"
+     ]
+    },
+    {
+     "zh": "愛管侍-雌性的樣子",
+     "en": "Indeedee",
+     "form": "Female",
+     "ability": "精神製造者",
+     "item": "Rocky Helmet",
+     "nature": "Bold",
+     "moves": [
+      "精神強念",
+      "看我嚇",
+      "幫助",
+      "守住"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Joseph Ugarte",
+   "round": "Finals",
+   "t_s": 3300,
+   "frames": [
+    "f_3300.png"
+   ],
+   "members": [
+    {
+     "zh": "暴飛龍",
+     "en": "Salamence",
+     "mega": "Mega",
+     "ability": "飛行皮膚",
+     "item": "Salamencite",
+     "nature": "Timid",
+     "moves": [
+      "巨聲",
+      "流星群",
+      "噴射火焰",
+      "守住"
+     ]
+    },
+    {
+     "zh": "班基拉斯",
+     "en": "Tyranitar",
+     "mega": "Mega",
+     "ability": "揚沙",
+     "item": "Tyranitarite",
+     "nature": "Jolly",
+     "moves": [
+      "岩崩",
+      "拍落",
+      "踢倒",
+      "守住"
+     ]
+    },
+    {
+     "zh": "龍頭地鼠",
+     "en": "Excadrill",
+     "ability": "撥沙",
+     "item": "Focus Sash",
+     "item_conf": 0.8,
+     "nature": "Jolly",
+     "moves": [
+      "鐵頭",
+      "十萬馬力",
+      "岩崩",
+      "守住"
+     ]
+    },
+    {
+     "zh": "鋼鎧鴉",
+     "en": "Corviknight",
+     "ability": "鏡甲",
+     "item": "Psychic Seed",
+     "item_conf": 0.8,
+     "nature": "Careful",
+     "moves": [
+      "勇鳥猛攻",
+      "囂張",
+      "健美",
+      "羽棲"
+     ]
+    },
+    {
+     "zh": "大扭拉",
+     "en": "Sneasler",
+     "ability": "輕裝",
+     "item": "White Herb",
+     "item_conf": 0.7,
+     "nature": "Adamant",
+     "moves": [
+      "剋命爪",
+      "近身戰",
+      "指導",
+      "守住"
+     ]
+    },
+    {
+     "zh": "愛管侍-雄性的樣子",
+     "en": "Indeedee",
+     "form": "Male",
+     "ability": "精神製造者",
+     "item": "Choice Scarf",
+     "item_conf": 0.8,
+     "nature": "Modest",
+     "moves": [
+      "廣域戰力",
+      "魔法火焰",
+      "戲法",
+      "守住"
+     ]
+    }
+   ]
+  },
+  {
+   "player": "Aditya Subramanian",
+   "round": "Finals",
+   "t_s": 3440,
+   "frames": [
+    "f_3440.png"
+   ],
+   "members": [
+    {
+     "zh": "噴火龍",
+     "en": "Charizard",
+     "mega": "Mega-Y",
+     "ability": "日照",
+     "item": "Charizardite Y",
+     "nature": "Timid",
+     "moves": [
+      "熱風",
+      "暴風",
+      "氣象球",
+      "守住"
+     ]
+    },
+    {
+     "zh": "具甲武者",
+     "en": "Golisopod",
+     "mega": "Mega",
+     "ability": "硬爪",
+     "item": "Golisopite",
+     "item_conf": 0.7,
+     "nature": "Adamant",
+     "moves": [
+      "吸血",
+      "直衝鑽",
+      "鐵頭",
+      "守住"
+     ]
+    },
+    {
+     "zh": "奇麒麟",
+     "en": "Farigiraf",
+     "ability": "尾甲",
+     "item": "Sitrus Berry",
+     "item_conf": 0.8,
+     "nature": "Bold",
+     "moves": [
+      "精神強念",
+      "戲法空間",
+      "守住",
+      "打草結"
+     ]
+    },
+    {
+     "zh": "鋁鋼橋龍",
+     "en": "Archaludon",
+     "ability": "持久力",
+     "item": "Leftovers",
+     "nature": "Bold",
+     "moves": [
+      "龍之波動",
+      "大聲咆哮",
+      "電光束",
+      "守住"
+     ]
+    },
+    {
+     "zh": "蚊香蛙皇",
+     "en": "Politoed",
+     "ability": "降雨",
+     "item": "Mystic Water",
+     "item_conf": 0.8,
+     "nature": "Modest",
+     "moves": [
+      "濁流",
+      "冰凍光束",
+      "氣象球",
+      "守住"
+     ]
+    },
+    {
+     "zh": "長毛巨魔",
+     "en": "Grimmsnarl",
+     "ability": "惡作劇之心",
+     "item": "Light Clay",
+     "nature": "Sassy",
+     "moves": [
+      "光牆",
+      "反射壁",
+      "拋下狠話",
+      "靈魂衝擊"
+     ]
+    }
+   ]
+  }
+ ]
+}

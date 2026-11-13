@@ -1,0 +1,87 @@
+{
+  "id": "naic-2024",
+  "name_zh": "2024 北美洲國際賽",
+  "name_en": "2024 North America International Championships",
+  "game": "sv",
+  "date_approx": "2024-06",
+  "abbr": "NAIC",
+  "year": 2024,
+  "regulation_set_id": "sv-reg-g",
+  "matches": [
+    {
+      "id": "naic-2024__swiss-round-1__juan-salerno__luca-paz",
+      "round": "Swiss Round 1",
+      "players": [
+        {
+          "name": "Luca Paz",
+          "team_ids": [
+            "team_RnY4b_9Brjg_1"
+          ]
+        },
+        {
+          "name": "Juan Salerno",
+          "team_ids": [
+            "team_RnY4b_9Brjg_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RnY4b_9Brjg",
+          "header_t_s": 152,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2024__swiss-round-2__giovanni-costa__justin-burns",
+      "round": "Swiss Round 2",
+      "players": [
+        {
+          "name": "Giovanni Costa",
+          "team_ids": [
+            "team_RnY4b_9Brjg_3"
+          ]
+        },
+        {
+          "name": "Justin Burns",
+          "team_ids": [
+            "team_RnY4b_9Brjg_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RnY4b_9Brjg",
+          "header_t_s": 1711,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "naic-2024__swiss-round-3__eric-rios__jean-paul-lopez-buiza",
+      "round": "Swiss Round 3",
+      "players": [
+        {
+          "name": "Eric Rios",
+          "team_ids": [
+            "team_RnY4b_9Brjg_5"
+          ]
+        },
+        {
+          "name": "Jean Paul Lopez Buiza",
+          "team_ids": [
+            "team_RnY4b_9Brjg_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "RnY4b_9Brjg",
+          "header_t_s": 2851,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}

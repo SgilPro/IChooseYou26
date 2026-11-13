@@ -1,0 +1,87 @@
+{
+  "id": "baltimore-2026",
+  "name_zh": "2026 美國巴爾的摩地區賽",
+  "name_en": "2026 Baltimore Regional Championships",
+  "game": "champions",
+  "date_approx": "2026-09",
+  "abbr": "BALT",
+  "year": 2026,
+  "regulation_set_id": "champions-m-c",
+  "matches": [
+    {
+      "id": "baltimore-2026__round-7__brady-smith__james-evans",
+      "round": "Round 7",
+      "players": [
+        {
+          "name": "Brady Smith",
+          "team_ids": [
+            "team_CMhT3LCKZaA_1"
+          ]
+        },
+        {
+          "name": "James Evans",
+          "team_ids": [
+            "team_CMhT3LCKZaA_2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "CMhT3LCKZaA",
+          "header_t_s": 191,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "baltimore-2026__round-12__dorian-kang__dylan-matthews",
+      "round": "Round 12",
+      "players": [
+        {
+          "name": "Dorian Kang",
+          "team_ids": [
+            "team_CMhT3LCKZaA_3"
+          ]
+        },
+        {
+          "name": "Dylan Matthews",
+          "team_ids": [
+            "team_CMhT3LCKZaA_4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "CMhT3LCKZaA",
+          "header_t_s": 2095,
+          "kind": "commentary"
+        }
+      ]
+    },
+    {
+      "id": "baltimore-2026__finals__aditya-subramanian__joseph-ugarte",
+      "round": "Finals",
+      "players": [
+        {
+          "name": "Joseph Ugarte",
+          "team_ids": [
+            "team_CMhT3LCKZaA_5"
+          ]
+        },
+        {
+          "name": "Aditya Subramanian",
+          "team_ids": [
+            "team_CMhT3LCKZaA_6"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "video_id": "CMhT3LCKZaA",
+          "header_t_s": 3222,
+          "kind": "commentary"
+        }
+      ]
+    }
+  ]
+}
