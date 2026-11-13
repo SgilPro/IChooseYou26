@@ -23,7 +23,7 @@
 | Live docs 網站 | 🟢 已上線 | 已部署到 GitHub Pages，自動隨更新重新部署。 |
 | Game Log 工具原型 | 🟢 已更新到 v0.0.2 | 半自動 pipeline，新增：YouTube 來源（需本機後端）、時間段去頭去尾去中間、ROI 多塊裁切 + 拖曳 crop 介面、最低信心過濾。點右上「試用工具」開啟。 |
 | 自動化 routine（cron） | 🟡 待確認 | 雲端 routine 需安裝 Claude GitHub App 才能運作；6 月後未再確認。 |
-| 頻道資料線（Fiske Pokémon） | 🟡 進行中 | 679 支主表（401 支完整、275 支會員限定）；公開對戰影片 136 隊全部入庫並驗證，132 支會員限定待補。接手步驟見 repo `data/channels/fiskepokemon/_HANDOFF.md`。 |
+| 頻道資料線（Fiske Pokémon） | 🟡 進行中 | 679 支主表；隊伍資料庫 360 隊 1278 隻（0 錯誤）；有章節的會員影片隊伍介紹已抽完，會員短片 12 支確認為公開影片同隊的延伸版；比賽影片（官方比賽解說 90 支）已抽 NAIC、世界賽第一天、世界冠軍賽決賽共 3 支 9 場，日本全國賽轉播只有圖示故不抽，朱紫比賽影片試抽中。接手步驟見 repo `data/channels/fiskepokemon/_HANDOFF.md`。 |
 | 網站有後端版本 Action Plan | 🟢 規劃完成 | `research/line5-platform-backend/`：Phase 1 靜態 JSON → Phase 2 Supabase → Phase 3 投稿。 |
 | RAG 問答層 Pre-Plan | 🟢 規劃完成 | `research/line6-rag/`：無向量基線先行，評估集定 go/no-go。 |
 
