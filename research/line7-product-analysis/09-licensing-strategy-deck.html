@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>創作者授權策略簡報</title>
+<!--
+  創作者內容再利用：授權策略簡報（單檔，無外部相依）。
+  對應完整文件：09-licensing-strategy-memo.md。這份是 AI 整理的研究摘要，不是法律意見。
+  操作：← → 空白鍵 換頁；Home／End 首尾；N 顯示講者備註；F 全螢幕；點畫面左右半邊換頁；
+  列印（Ctrl/Cmd+P）每張一頁，可存成 PDF。色彩沿用 docs-site/tokens.css（水泥灰＋深靛）。
+-->
+<style>
+  :root {
+    --bg: #E4E7EA; --bg-soft: #EEF0F2; --panel: #F7F8F9; --sunken: #D9DDE1;
+    --ink: #1B1F24; --ink-soft: #4A525B; --border: #C9CDD2;
+    --primary-100: #E9EAFF; --primary-300: #BABBFF; --primary-700: #4F3DB5; --primary-800: #3C2598; --primary-950: #170D43;
+    --on-dark: #F4F5FE; --on-dark-soft: #C9CBF0;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #0E1013; }
+  body { font-family: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", system-ui, sans-serif; color: var(--ink); }
+
+  .stage { position: fixed; inset: 0; overflow: hidden; }
+  .deck { position: absolute; left: 50%; top: 50%; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  section {
+    position: absolute; inset: 0; display: none; flex-direction: column;
+    padding: 112px 128px 150px; background: var(--bg-soft); color: var(--ink);
+  }
+  section.active { display: flex; }
+  section::after { content: attr(data-page) " / " attr(data-total); position: absolute; right: 128px; bottom: 56px; font-size: 24px; color: var(--ink-soft); }
+  section.dark { background: var(--primary-950); color: var(--on-dark); }
+  section.dark::after { color: var(--on-dark-soft); }
+  section aside { display: none; }
+
+  h1 { font-size: 112px; line-height: 1.15; font-weight: 800; margin: 0; }
+  h2 { font-size: 64px; line-height: 1.2; font-weight: 800; margin: 0 0 34px; }
+  h3 { font-size: 38px; line-height: 1.25; font-weight: 700; margin: 0 0 14px; }
+  p { font-size: 30px; line-height: 1.5; margin: 0; }
+  .eyebrow { font-size: 28px; font-weight: 700; letter-spacing: 3px; color: var(--primary-700); margin: 0 0 18px; }
+  .dark .eyebrow { color: var(--primary-300); }
+  .cover { display: flex; flex-direction: column; justify-content: space-between; flex: 1; }
+  .lead { font-size: 40px; line-height: 1.5; color: var(--on-dark-soft); margin: 36px 0 0; }
+  .fine { font-size: 26px; line-height: 1.5; color: var(--on-dark-soft); }
+  .big { font-size: 64px; line-height: 1.3; font-weight: 800; margin: 0; }
+
+  .row { display: flex; gap: 28px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .card { flex: 1; background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 32px 36px; }
+  .card h3 { color: var(--ink); }
+  .card p { font-size: 28px; line-height: 1.5; color: var(--ink-soft); }
+  .card .tag { font-size: 26px; font-weight: 700; color: var(--primary-700); margin: 0 0 10px; }
+  .card .claim { font-size: 34px; font-weight: 700; line-height: 1.35; color: var(--ink); margin: 0 0 14px; }
+  .note { font-size: 28px; line-height: 1.5; color: var(--ink-soft); margin: 28px 0 0; }
+  .note b { color: var(--ink); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 26px; line-height: 1.4; }
+  th { text-align: left; font-weight: 700; background: var(--sunken); }
+  th, td { padding: 13px 18px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  td:first-child { font-weight: 700; }
+
+  .pill { background: var(--primary-800); color: #fff; font-size: 28px; line-height: 1.4; padding: 14px 26px; border-radius: 40px; }
+  .step { flex: 1; background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 26px 24px; }
+  .step .num { font-size: 26px; font-weight: 700; color: var(--primary-700); margin: 0 0 8px; }
+  .step h3 { font-size: 34px; margin: 0 0 12px; }
+  .step p { font-size: 26px; line-height: 1.45; color: var(--ink-soft); }
+
+  #notes { position: fixed; left: 0; right: 0; bottom: 0; max-height: 34vh; overflow: auto; display: none;
+    background: rgba(14,16,19,.94); color: #E6E8EB; font-size: 16px; line-height: 1.6; padding: 14px 22px; z-index: 5; }
+  body.notes #notes { display: block; }
+  #hint { position: fixed; right: 14px; top: 10px; color: #8A9099; font-size: 13px; z-index: 4; }
+
+  @page { size: 1920px 1080px; margin: 0; }
+  @media print {
+    html, body { background: #fff; height: auto; }
+    .stage { position: static; overflow: visible; }
+    .deck { position: static; width: auto; height: auto; transform: none !important; }
+    section, section.active { display: flex; position: relative; width: 1920px; height: 1080px; break-after: page; page-break-after: always; }
+    #notes, #hint { display: none !important; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<div class="stage"><div class="deck" id="deck">
+
+<section class="dark">
+  <div class="cover">
+    <div>
+      <p class="eyebrow">給站主的決策簡報 · 2026-11-16</p>
+      <h1>創作者內容再利用：授權策略</h1>
+      <p class="lead">權利怎麼分、組織怎麼定位、授權怎麼要，以及 YouTube 條款怎麼處理</p>
+    </div>
+    <p class="fine">這份簡報是 AI 整理的研究摘要，不是法律意見。完整版：research/line7-product-analysis/09-licensing-strategy-memo.md</p>
+  </div>
+  <aside>簡報對應完整的法律說明與授權計畫書。每一個判斷都附有法源與案例，沒能確認的部分列在計畫書的附錄 B。這份簡報只講決策需要的部分。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">結論</p>
+  <h2>可以做，但要換一種做法</h2>
+  <div class="row">
+    <div class="card">
+      <p class="tag">隊伍配置</p>
+      <p class="claim">是事實，可以整理</p>
+      <p>著作權法第 10 條之 1、美國 Feist 案、官方賽事規則都指向同一點：保護表達，不保護事實與方法。</p>
+    </div>
+    <div class="card">
+      <p class="tag">創作者的講解</p>
+      <p class="claim">是他的作品，要他同意</p>
+      <p>翻譯、字幕原文、截圖，以及詳細到能取代原影片的摘要，都屬於這一類。</p>
+    </div>
+    <div class="card">
+      <p class="tag">自動抓取 YouTube</p>
+      <p class="claim">誰同意都不算數</p>
+      <p>條款要 YouTube 和創作者兩者都書面許可。解法是改走不經過抓取的來源。</p>
+    </div>
+  </div>
+  <p class="note"><b>最先停的是</b>登入會員帳號後自動下載會員影片，已在 2026-11-16 停止。</p>
+  <aside>三句話就是整份計畫的骨架。配置可以整理，講解要同意，自動抓取要換來源。會員影片的下載已經停了，兩支未處理的檔案也已刪除。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">權利地圖</p>
+  <h2>一支對戰影片上有四層權利</h2>
+  <table>
+    <tr><th style="width:12%">層</th><th style="width:36%">內容</th><th style="width:32%">權利人</th><th style="width:20%">創作者能授權嗎</th></tr>
+    <tr><td>遊戲</td><td>畫面、圖像、音樂、名稱、商標</td><td>任天堂、Creatures、GAME FREAK、寶可夢公司</td><td>不能</td></tr>
+    <tr><td>影片</td><td>口述講解、字幕、剪輯、縮圖</td><td>創作者</td><td>能</td></tr>
+    <tr><td>平台</td><td>播放、嵌入、API 等存取方式</td><td>Google LLC（準據法為美國加州法）</td><td>不能</td></tr>
+    <tr><td>人</td><td>選手與創作者的姓名、肖像、聲音</td><td>本人</td><td>只能替自己</td></tr>
+  </table>
+  <p class="note"><b>隊伍配置不在任何一層裡</b>，它是事實與方法。外國創作者的影片在台灣不必登記就受保護，爭議適用台灣著作權法。</p>
+  <aside>重點是創作者只能授權中間那一層。截圖碰到遊戲那一層，創作者同意也不夠；抓取碰到平台那一層，同樣不夠。涉外民事法律適用法第 42 條：智慧財產權依被請求保護地的法律，所以在台灣爭議就適用台灣法。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">我們是誰</p>
+  <h2>個人、非營利，是目前的資產</h2>
+  <table>
+    <tr><th style="width:20%">型態</th><th style="width:44%">責任</th><th style="width:36%">對粉絲規範的影響</th></tr>
+    <tr><td>個人（現況）</td><td>個人負全部民事與刑事責任</td><td>任天堂、Riot、Minecraft、hololive 的規範都適用</td></tr>
+    <tr><td>公司</td><td>股東有限責任；行為人刑責照罰，公司另科罰金（第 101 條）</td><td>多數規範排除法人</td></tr>
+    <tr><td>行號</td><td>與個人相同，合夥人連帶</td><td>定義上就是營利</td></tr>
+    <tr><td>社團法人</td><td>需 30 位成年發起人與主管機關許可</td><td>門檻高，目前不需要</td></tr>
+  </table>
+  <p class="note"><b>成立公司不會保護站主免於刑責</b>，還會失去個人專屬的規範。要改型態的時機：收款超過補貼成本、對方要求法人簽約、參與的人變多。</p>
+  <aside>Lawsnote 案裡公司被罰 150 萬，兩位創辦人各自被判刑，民事三方連帶賠償，所以法人不是防火牆。個人身分的限制是不能用公益名義公開募款（公益勸募條例第 5 條），個資法也照樣適用。對外建議用一致的說法：個人經營、非營利、非官方的粉絲專案。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">判例教訓</p>
+  <h2>四個案例，四條界線</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>事實可以整理</h3>
+      <p>Feist（美國，1991）：辛苦蒐集不產生著作權。智慧財產及商業法院 113 刑智上易 35（2025，確定）：保護「與辛勤原則、汗水原則無涉」。</p>
+    </div>
+    <div class="card">
+      <h3>取代原作就越線</h3>
+      <p>谷阿莫案：五家和解，付上百萬元。日本純文字劇情網站被判刑（2026）。Thomson Reuters v. Ross（美國第三巡迴，2026-09-29）。</p>
+    </div>
+    <div class="card">
+      <h3>取得方式被獨立評價</h3>
+      <p>Lawsnote 一審（新北地院，2025-06-24）：註冊會員、同意條款後仍爬取，認定「無故取得電磁紀錄」。抓公開可瀏覽的網站則確定無罪。</p>
+    </div>
+    <div class="card">
+      <h3>同意要寫清楚</h3>
+      <p>觸電網案：片商寄素材不等於授權。時間、內容、方法沒寫明，依第 37 條推定未授權。</p>
+    </div>
+  </div>
+  <aside>谷阿莫案沒有任何法院就合理使用表示過意見，留在紀錄上的只有檢察官的見解。Lawsnote 是一審，尚未查到二審結果，而且是商業競爭對手之間抓了三十多萬筆資料，規模與性質和我們差很多，但登入、同意條款、自動化工具這三個事實與我們的會員下載相同。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">YouTube 條款</p>
+  <h2>創作者同意解不了平台條款</h2>
+  <p>條款允許的只有三件事：人看、嵌入播放器、官方 API。例外要「YouTube 和相關著作權人」的事先書面許可，兩者都要。</p>
+  <table style="margin-top:30px">
+    <tr><th style="width:18%"></th><th style="width:41%">未登入讀公開影片</th><th style="width:41%">登入會員後自動下載</th></tr>
+    <tr><td>條款</td><td>違反文字；是否受拘束有爭論</td><td>違反，另違反付費服務條款</td></tr>
+    <tr><td>台灣判決</td><td>公開可瀏覽，不算「無故」</td><td>與 Lawsnote 一審同類事實</td></tr>
+    <tr><td>後果</td><td>IP 可能被限制</td><td>站主的 Google 帳號</td></tr>
+  </table>
+  <p class="note">我們與 Lawsnote 規模、性質差很多，被追訴機率很低，但沒必要承擔。<b>是否構成犯罪要問律師。</b></p>
+  <aside>YouTube 條款的例外寫的是 YouTube 與相關著作權人的書面許可，所以就算創作者同意，抓取本身仍然違反條款。我沒有找到給一般專案申請 YouTube 書面許可的管道。美國 Meta v. Bright Data 認為登出狀態抓公開資料不算使用服務，但那是針對 Meta 條款文字的判斷，不能直接套用到 YouTube。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">資料取得路線</p>
+  <h2>改走不經過抓取的來源</h2>
+  <table>
+    <tr><th style="width:23%">路線</th><th style="width:30%">做法</th><th style="width:27%">拿得到</th><th style="width:20%">條款</th></tr>
+    <tr><td>A 創作者提供</td><td>說明欄的 paste、表單</td><td>完整配置</td><td>不經 YouTube</td></tr>
+    <tr><td>B 人工登記</td><td>人看影片，打進表單</td><td>看得到的事實</td><td>觀看是允許的</td></tr>
+    <tr><td>C 官方 Data API</td><td>用金鑰讀影片資料</td><td>標題、日期、說明欄</td><td>合，守開發者政策</td></tr>
+    <tr><td>D Limitless</td><td>讀官方賽事頁</td><td>2024 起第二階段選手隊伍</td><td>未禁止，先寫信問</td></tr>
+    <tr><td>不可用：RK9</td><td>官方隊伍表原始來源</td><td>—</td><td>明文禁止擷取</td></tr>
+    <tr><td>不可用：他站資料表</td><td>複製 PokéOmni 等</td><td>—</td><td>公平會飢餓黑熊案</td></tr>
+  </table>
+  <aside>Limitless 的資料來自 RK9 與寶可夢公司，網站的 robots.txt 沒有禁止任何路徑，條款沒有談自動存取，但官方賽事只有網頁、沒有 API，也沒看到亞洲賽事。官方賽事規則手冊第 2.3 節寫明參賽者同意隊伍被公開，這讓路線 D 的基礎比抄轉播畫面穩固。公平會飢餓黑熊案罰 5 萬元，認定抓取競爭對手整理好的對應資料屬於榨取他人努力成果。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">授權策略</p>
+  <h2>授權分層，一次只要一層</h2>
+  <table>
+    <tr><th style="width:10%">層</th><th style="width:34%">內容</th><th style="width:56%">需要什麼</th></tr>
+    <tr><td>T0</td><td>標題、日期、連結、嵌入播放器</td><td>不需同意</td></tr>
+    <tr><td>T1</td><td>作者已公開的隊伍配置</td><td>告知並可撤下；大創作者先問再上</td></tr>
+    <tr><td>T2</td><td>我們寫的導讀、中文整理</td><td>明確同意，訊息即可，範圍寫清楚並存證</td></tr>
+    <tr><td>T3</td><td>縮圖、字幕原文、翻譯全文</td><td>書面同意；遊戲畫面創作者無權授權</td></tr>
+    <tr><td>T4</td><td>會員或 Patreon 限定內容</td><td>逐項書面同意，預設不做</td></tr>
+    <tr><td>T5</td><td>含對方內容的頁面上營利</td><td>合約；目前不適用</td></tr>
+  </table>
+  <p class="note">一則訊息就能成立非專屬授權，但<b>沒寫清楚的部分推定未授權</b>。請求信逐項列出範圍，對方回「可以」就涵蓋到。</p>
+  <aside>智慧局電子郵件 1110712 明說授權不以書面正式契約為限，LINE 對話也可以；美國的 Effects Associates v. Cohen 也承認非專屬授權可以口頭或默示。每個頻道建一個 permission.json 記錄層級與日期，發布檢查擋掉超出層級的內容。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">談法與順序</p>
+  <h2>先整理自己，再依序去談</h2>
+  <div class="row">
+    <div class="step"><p class="num">0</p><h3>整理門面</h3><p>聲明頁、聯絡信箱、下架流程、換 logo</p></div>
+    <div class="step"><p class="num">1</p><h3>Fiske</h3><p>坦白現況，請他決定去留</p></div>
+    <div class="step"><p class="num">2</p><h3>中型創作者</h3><p>固定貼 paste 的頻道，T1 加 T2</p></div>
+    <div class="step"><p class="num">3</p><h3>律師一次</h3><p>帶十個問題諮詢</p></div>
+    <div class="step"><p class="num">4</p><h3>Cybertron、Wolfey</h3><p>只要 T1，附樣本頁</p></div>
+  </div>
+  <p class="note" style="margin-top:36px"><b>三條最重要的原則</b></p>
+  <div class="row" style="margin-top:16px">
+    <p class="pill">請求小到回一個字就能成立</p>
+    <p class="pill">沉默的預設只列標題與連結</p>
+    <p class="pill">可隨時撤，三天內處理</p>
+  </div>
+  <aside>大創作者的信會先到經紀窗口，對方第一個動作是打開我們的網站，所以門面要先好。對 Wolfey 其實不需要他授權：官方賽事隊伍取自 Limitless，要的是不讓他覺得被繞過。我們能給的是導流回影片時間點、繁體中文讀者、預覽與更正權；不主動談錢。不要主動寫信給寶可夢公司或任天堂，Champions 指引寫明不回覆個別詢問。</aside>
+</section>
+
+<section>
+  <p class="eyebrow">待決事項</p>
+  <h2>八項決定，兩項已完成</h2>
+  <table>
+    <tr><th style="width:8%">#</th><th style="width:48%">決定</th><th style="width:28%">建議</th><th style="width:16%">狀態</th></tr>
+    <tr><td>D1</td><td>會員影片自動下載</td><td>停止</td><td>已完成</td></tr>
+    <tr><td>D2</td><td>兩支已下載的影片檔</td><td>刪除</td><td>已完成</td></tr>
+    <tr><td>D3</td><td>新資料不再用 yt-dlp</td><td>走路線 A 到 D</td><td>待決定</td></tr>
+    <tr><td>D4</td><td>維持個人、非營利定位</td><td>維持</td><td>待決定</td></tr>
+    <tr><td>D5</td><td>何時、怎麼聯絡 Fiske</td><td>門面完成就發</td><td>待決定</td></tr>
+    <tr><td>D6</td><td>聲明頁、logo、同意紀錄機制</td><td>先做</td><td>待決定</td></tr>
+    <tr><td>D7</td><td>git 歷史裡的字幕與描述全文</td><td>清掉或轉私有</td><td>待決定</td></tr>
+    <tr><td>D8</td><td>付費諮詢律師一次</td><td>對外前先做</td><td>待決定</td></tr>
+  </table>
+  <p class="note"><b>另有一項：</b>本機 private/ 裡的會員資料，等 Fiske 回覆後決定留或刪。</p>
+  <aside>D1、D2 在簡報製作前已經完成：佇列程序結束、腳本與暫存目錄清除、兩支影片檔刪除。D3 到 D8 都需要站主決定，計畫書第 1.3 節有每一項的理由與不決定的後果。</aside>
+</section>
+
+<section class="dark">
+  <div class="cover">
+    <div>
+      <p class="eyebrow">下一步</p>
+      <p class="big">先整理門面，再坦白給 Fiske</p>
+      <p class="lead">聲明頁、聯絡信箱、換 logo、同意紀錄機制做完，就寄第一封信。</p>
+    </div>
+    <p class="fine">沒能確認的事項：Lawsnote 二審結果、寶可夢公司有沒有粉絲網站政策、Limitless 是否收錄亞洲賽事、個人收贊助的稅務性質。完整清單見計畫書附錄 B。</p>
+  </div>
+  <aside>這份簡報只講決策需要的部分。完整的法源、判例、信件範本與風險登記表都在計畫書裡。任何對外接觸大創作者之前，建議先付費諮詢律師一次，十個問題的清單在計畫書第 8.3 節。</aside>
+</section>
+
+</div></div>
+<div id="notes"></div>
+<div id="hint">← → 換頁 · N 備註 · F 全螢幕</div>
+<script>
+(function () {
+  var deck = document.getElementById('deck');
+  var slides = Array.prototype.slice.call(deck.children);
+  var notes = document.getElementById('notes');
+  var i = 0;
+  slides.forEach(function (el, k) { el.setAttribute('data-page', k + 1); el.setAttribute('data-total', slides.length); });
+  function fit() {
+    var s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    deck.style.transform = 'translate(' + (-960 * s) + 'px,' + (-540 * s) + 'px) scale(' + s + ')';
+  }
+  function show(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach(function (el, k) { el.classList.toggle('active', k === i); });
+    var a = slides[i].querySelector('aside');
+    notes.textContent = a ? a.textContent : '';
+    try { history.replaceState(null, '', '#' + (i + 1)); } catch (e) {}
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var k = e.key;
+    if (k === 'ArrowRight' || k === 'PageDown' || k === ' ') { show(i + 1); e.preventDefault(); }
+    else if (k === 'ArrowLeft' || k === 'PageUp') { show(i - 1); e.preventDefault(); }
+    else if (k === 'Home') show(0);
+    else if (k === 'End') show(slides.length - 1);
+    else if (k === 'n' || k === 'N') document.body.classList.toggle('notes');
+    else if (k === 'f' || k === 'F') { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen && document.documentElement.requestFullscreen(); }
+  });
+  document.querySelector('.stage').addEventListener('click', function (e) { show(e.clientX < window.innerWidth / 2 ? i - 1 : i + 1); });
+  window.addEventListener('resize', fit);
+  window.addEventListener('hashchange', function () { var n = parseInt(location.hash.slice(1), 10); if (n) show(n - 1); });
+  fit();
+  show((parseInt(location.hash.slice(1), 10) || 1) - 1);
+})();
+</script>
+</body>
+</html>
