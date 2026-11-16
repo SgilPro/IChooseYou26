@@ -1,5 +1,7 @@
 # 創作者授權策略：要什麼、怎麼談、YouTube 條款怎麼處理
 
+> **完整版見 `09-licensing-strategy-memo.md`（2026-11-16）**：含組織定位、法源、跨國案例、提案技巧與執行計畫。這份是較早寫的簡短操作版；兩份有出入時以 `09` 為準。已知出入：(1) 違反 YouTube 條款的後果，`09` 第 5.3 節依台灣 Lawsnote 案重新評估，會員帳號自動下載的風險比這裡寫的重；(2) Wolfey 的聯絡信箱以 `09` 第 6.2 節為準；(3) 賽事隊伍的來源，`09` 確認 Limitless 可用、RK9 禁止自動擷取。
+>
 > 調查日期：2026-11-15。接續 `05-compliance.md`（那份盤點「我們用了什麼、條款怎麼寫」；這份回答「接下來怎麼做」）。
 > **這份不是法律意見。** 我不是律師。判例與條款的解讀是用來排優先順序的，對外公開或收錢之前，`05-compliance.md` 第 4 節的問題仍應請教專業人士。
 > 引用標示：「原文」是我讀到的頁面字句；「摘要」是轉述；「未核對」是只從二手來源或工具摘要得知。
@@ -126,8 +128,8 @@ YouTube 服務條款（生效日 2022-01-05；台灣版原文見 `05-compliance.
 
 **聯絡管道**（寄之前到本人的 X 與 YouTube 頻道簡介再確認一次）：
 
-- Wolfey（Wolfe Glick）：他在 X 上公告換了經紀公司並給了新的商務信箱 `wolfeglickbusiness@gmail.com` <https://x.com/WolfeyGlick/status/1940504018876600420>；搜尋結果顯示 YouTube 頻道簡介另列過一個 `partnerships@wolfeyvgc.com`，兩者不一致，以他本人最新的公告為準。第三方名錄列的經紀人姓名我沒有採用，無法查證。
-- Cybertron（Aaron Zheng）：X 帳號 <https://x.com/CybertronVGC> 與 Linktree（linktr.ee/CybertronVGC）有聯絡方式；搜尋結果裡的信箱被遮蔽，我沒有取得。
+- Wolfey（Wolfe Glick）：YouTube 頻道簡介目前（2026-11-16 讀取）寫的商務信箱是 `partnerships@wolfeyvgc.com`。他 2025 年 7 月在 X 上公告過另一個信箱 <https://x.com/WolfeyGlick/status/1940504018876600420>，以頻道簡介目前顯示的為準。第三方名錄列的經紀人姓名我沒有採用，無法查證。
+- Cybertron（Aaron Zheng）：YouTube 簡介的商務信箱要登入才看得到；他的 Linktree（linktr.ee/CybertronVGC）有 Email 圖示。
 
 **和談 Fiske 的差別**：
 
