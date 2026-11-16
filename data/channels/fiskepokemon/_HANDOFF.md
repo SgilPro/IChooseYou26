@@ -3,7 +3,7 @@
 > **2026-11-13 重要變更：會員限定影片的內容不公開。** 來自會員影片的隊伍檔、比賽規格、字幕切片一律放 `private/`（已 gitignore），公開檔只留殼。完整影片主表在 `private/videos.full.json`。**commit 前先跑 `node tools/yt/merge-teams.mjs data/channels/fiskepokemon`**（會自動把誤放的會員內容搬走），再跑 `node tools/yt/check-public.mjs`。細節見 `tools/yt/README.md`「會員限定影片的內容不公開」。`import-tournament-teams.mjs` 已改成依影片是否會員限定決定輸出位置與 `is_members_only`。
 
 
-> **2026-11-16：會員影片的自動下載暫停，等站主決定。** 佇列因兩支已下載未處理（`KVDHWjf-bNk`、`1eZnYO-4uQ0`）而停住，不要再派 agent 處理、不要重啟佇列。理由與待決事項見 `research/line7-product-analysis/09-licensing-strategy-memo.md` 第 1.3 節（D1、D2）與第 5.3 節。新頻道不要用 yt-dlp 開場；賽事隊伍之後改走 Limitless（同文件 5.4）。
+> **2026-11-16：站主決定停止會員影片的自動下載。** 佇列程序已結束，腳本改名為 `queue.sh.stopped`／`queue2.sh.stopped`；已下載未處理的兩支（`KVDHWjf-bNk`、`1eZnYO-4uQ0`）影片檔已刪除、沒有抽取。不要重啟佇列，不要再用會員 cookies 下載。下方「會員佇列」一段的待處理清單已作廢。理由與待決事項見 `research/line7-product-analysis/09-licensing-strategy-memo.md` 第 1.3 節（D1、D2）與第 5.3 節。新頻道不要用 yt-dlp 開場；賽事隊伍之後改走 Limitless（同文件 5.4）。
 
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
 > 最後更新：2026-11-13（見下方「最新現況」；本行以後的內容為 11-09 舊版）
