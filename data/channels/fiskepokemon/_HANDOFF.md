@@ -3,6 +3,8 @@
 > **2026-11-13 重要變更：會員限定影片的內容不公開。** 來自會員影片的隊伍檔、比賽規格、字幕切片一律放 `private/`（已 gitignore），公開檔只留殼。完整影片主表在 `private/videos.full.json`。**commit 前先跑 `node tools/yt/merge-teams.mjs data/channels/fiskepokemon`**（會自動把誤放的會員內容搬走），再跑 `node tools/yt/check-public.mjs`。細節見 `tools/yt/README.md`「會員限定影片的內容不公開」。`import-tournament-teams.mjs` 已改成依影片是否會員限定決定輸出位置與 `is_members_only`。
 
 
+> **2026-11-16：會員影片的自動下載暫停，等站主決定。** 佇列因兩支已下載未處理（`KVDHWjf-bNk`、`1eZnYO-4uQ0`）而停住，不要再派 agent 處理、不要重啟佇列。理由與待決事項見 `research/line7-product-analysis/09-licensing-strategy-memo.md` 第 1.3 節（D1、D2）與第 5.3 節。新頻道不要用 yt-dlp 開場；賽事隊伍之後改走 Limitless（同文件 5.4）。
+
 > 給 reset 後接手的 session（人或 Ditto）。這裡只寫「現在到哪、下一步敲什麼」；方法與理由見 `tools/yt/README.md`、`research/line4-channel-analysis/`。
 > 最後更新：2026-11-13（見下方「最新現況」；本行以後的內容為 11-09 舊版）
 > 舊註：2026-11-09 12:55（複核 5 隊、unknown 清零、teams.html 搜尋篩選；主表 394/679；Champions 22 + 朱紫 104 pokepaste + 5 影格 = 131 隊有六隻，全部有 notes，97 隊標原作者；132 會員殼；抓取與影格準備仍在背景跑，若 session 結束請重跑步驟 1 與 4，腳本會跳過已完成的）。
