@@ -7,6 +7,7 @@
 ```
 exports/tiermaker/abilities-m-c/
 ├── images/              215 張 600×600 PNG，檔名是英文特性名（intimidate.png、dry-skin.png）
+├── cover.png            模板封面 1200×1200（cover-wide.png 是 1200×630 橫式備用）
 ├── abilities-m-c.csv    中英名稱、中英說明、是否超級進化專用、擁有此特性的寶可夢（Excel 可直接開）
 └── abilities-m-c.md     同上，方便閱讀的版本
 ```
@@ -18,7 +19,10 @@ tools/tiermaker/fetch.sh                                              # 下載�
 node tools/tiermaker/legal.cjs .cache/tiermaker .cache/tiermaker/legal.json
 python3 -I tools/tiermaker/build.py .cache/tiermaker exports/tiermaker/abilities-m-c M-C
 python3 -I tools/tiermaker/render.py .cache/tiermaker/abilities.json exports/tiermaker/abilities-m-c/images
+python3 -I tools/tiermaker/cover.py exports/tiermaker/abilities-m-c M-C 215   # 封面（要先有 images/）
 ```
+
+封面放在 `images/` 外面，上傳項目時全選 `images/` 就不會把封面當成一個特性。封面上的五張卡（威嚇、惡作劇之心、日照、再生力、黃金之軀）寫在 `cover.py` 的 `FAN`。
 
 - `render.py` 第三個參數可改邊長（預設 600），後面可接英文名只重做幾張。
 - 需要 Google Chrome（截圖用）與 `app/node_modules/typescript`（解析 Showdown 資料用）。
