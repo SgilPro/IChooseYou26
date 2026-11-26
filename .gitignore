@@ -39,3 +39,6 @@ assets/pokemon/home/
 # 會員限定影片的完整內容（隊伍配置、描述、字幕切片）只留本機，不進版控、不上站（見 tools/yt/lib-private.mjs）
 data/channels/*/private/
 data/channels/*/intro/_prep-summary.json
+
+# 匯出給外部平台的產物（TierMaker 圖片等），不進版控
+exports/
